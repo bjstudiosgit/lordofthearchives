@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[8025,["/_next/static/chunks/0se5d.oj0y~.t.js","/_next/static/chunks/0rikz65ip~nz0.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/1083rf9fe5ppl.js","/_next/static/chunks/02wwgisgcppge.js"],"default"]
-3:I[97367,["/_next/static/chunks/0se5d.oj0y~.t.js","/_next/static/chunks/0rikz65ip~nz0.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"amity"}],[["$","script","script-0",{"src":"/_next/static/chunks/1083rf9fe5ppl.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/02wwgisgcppge.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"tBTCbn_tpSqkQLQ3LLHPP"}
-5:null
