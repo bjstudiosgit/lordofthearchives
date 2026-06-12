@@ -34,12 +34,12 @@ export const mcs: MC[] = [
     "wins": 13,
     "losses": 4,
     "style": "Lyrical",
-    "image": "/fdon_profile_1776002230857.png",
+    "image": "/mc-Fdon.png",
     "bio": "PenGame Season 3 Champion. Known for his intricate wordplay and deep metaphors, F-DON is a veteran of the scene who consistently pushes the boundaries of lyricism.",
     "weightClass": "Lightweight",
     "height": "5'9\"",
     "location": "London",
-    "instagram": "fdon_official",
+    "instagram": "effdon",
     "quote": "The pen is mightier than the sword, but my bars are sharper than both.",
     "badges": [
       "VETERAN",
@@ -175,7 +175,7 @@ export const mcs: MC[] = [
     "wins": 8,
     "losses": 2,
     "style": "Versatile",
-    "image": "/rendmc_profile_1776002244532.png",
+    "image": "/ren-dmc.png",
     "bio": "PenGame Season 4 and 2023 Tournament Champion. Ren DMC is widely regarded as one of the most technically skilled and versatile MCs in the league, with a high win rate to prove it."
   },
   {
@@ -253,7 +253,7 @@ export const mcs: MC[] = [
     "wins": 12,
     "losses": 7,
     "style": "Aggressive",
-    "image": "/skamz_profile_1776002260450.png",
+    "image": "/skamz.png",
     "bio": "The most active battler in the league. Skamz brings unparalleled energy and aggression to every clash. A finalist in multiple seasons and a core pillar of the PenGame community."
   },
   {
@@ -292,7 +292,7 @@ export const mcs: MC[] = [
   {
     "id": "messie",
     "slug": "messie",
-    "name": "MESSIE",
+    "name": "MESSIE 13",
     "battles": 1,
     "wins": 1,
     "losses": 0,
@@ -319,7 +319,7 @@ export const mcs: MC[] = [
     "wins": 6,
     "losses": 5,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/orion/400/400",
+    "image": "/whoisorion.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -353,17 +353,6 @@ export const mcs: MC[] = [
     "losses": 5,
     "style": "Versatile",
     "image": "https://picsum.photos/seed/grams/400/400",
-    "bio": "PenGame Season 4 artist."
-  },
-  {
-    "id": "black-t",
-    "slug": "black-t",
-    "name": "BLACK T",
-    "battles": 1,
-    "wins": 0,
-    "losses": 1,
-    "style": "Lyrical",
-    "image": "https://picsum.photos/seed/blackt/400/400",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -1005,17 +994,6 @@ export const mcs: MC[] = [
     "bio": "PenGame Academy artist."
   },
   {
-    "id": "ritchie-rich",
-    "slug": "ritchie-rich",
-    "name": "RITCHIE RICH",
-    "battles": 0,
-    "wins": 0,
-    "losses": 0,
-    "style": "Technical",
-    "image": "https://picsum.photos/seed/ritchie/400/400",
-    "bio": "PenGame Academy artist."
-  },
-  {
     "id": "guni",
     "slug": "guni",
     "name": "GUNI",
@@ -1049,28 +1027,6 @@ export const mcs: MC[] = [
     "bio": "PenGame Academy artist."
   },
   {
-    "id": "h-star",
-    "slug": "h-star",
-    "name": "H STAR",
-    "battles": 0,
-    "wins": 0,
-    "losses": 0,
-    "style": "Aggressive",
-    "image": "https://picsum.photos/seed/hstar/400/400",
-    "bio": "PenGame Academy artist."
-  },
-  {
-    "id": "khaos-kayy",
-    "slug": "khaos-kayy",
-    "name": "KHAOS KAYY",
-    "battles": 1,
-    "wins": 0,
-    "losses": 0,
-    "style": "Lyrical",
-    "image": "https://picsum.photos/seed/khaos/400/400",
-    "bio": "PenGame Academy artist."
-  },
-  {
     "id": "s-kidz",
     "slug": "s-kidz",
     "name": "S'KIDZ",
@@ -1080,395 +1036,6 @@ export const mcs: MC[] = [
     "style": "Technical",
     "image": "https://picsum.photos/seed/skidz/400/400",
     "bio": "PenGame Academy artist."
-  },
-  {
-    "id": "sensa",
-    "slug": "sensa",
-    "name": "SENSA",
-    "battles": 4,
-    "wins": 1,
-    "losses": 1,
-    "style": "Aggressive",
-    "image": "https://picsum.photos/seed/sensa/400/400",
-    "bio": "An early era legend of Don't Flop and one of its most ferocious competitors."
-  },
-  {
-    "id": "jefferson-price",
-    "slug": "jefferson-price",
-    "name": "JEFFERSON PRICE",
-    "battles": 1,
-    "wins": 0,
-    "losses": 1,
-    "style": "Lyrical/Technical",
-    "image": "https://picsum.photos/seed/jefferson/400/400",
-    "bio": "Veteran with a smooth delivery and sharp writing."
-  },
-  {
-    "id": "deffinition",
-    "slug": "deffinition",
-    "name": "DEFFINITION",
-    "battles": 2,
-    "wins": 0,
-    "losses": 2,
-    "style": "Lyrical/Technical",
-    "image": "https://picsum.photos/seed/deffinition/400/400",
-    "bio": "Early legend and one of the league's most consistent technical performers."
-  },
-  {
-    "id": "pamflit",
-    "slug": "pamflit",
-    "name": "PAMFLIT",
-    "battles": 3,
-    "wins": 0,
-    "losses": 3,
-    "style": "Comedic/Technical",
-    "image": "https://picsum.photos/seed/pamflit/400/400",
-    "bio": "Witty and technically sharp battler, also known for his role in April Fools classics."
-  },
-  {
-    "id": "joker-starr",
-    "slug": "joker-starr",
-    "name": "JOKER STARR",
-    "battles": 1,
-    "wins": 0,
-    "losses": 1,
-    "style": "Lyrical",
-    "image": "https://picsum.photos/seed/jokerstarr/400/400",
-    "bio": "Underground rap legend who made impactful appearances in early Don't Flop events."
-  },
-  {
-    "id": "the-saurus",
-    "slug": "the-saurus",
-    "name": "THE SAURUS",
-    "battles": 1,
-    "wins": 1,
-    "losses": 0,
-    "style": "Technical/Rebuttal",
-    "image": "https://picsum.photos/seed/thesaurus/400/400",
-    "bio": "Two-time WRC Champion and a certified legend of the global scene."
-  },
-  {
-    "id": "bobby-rex",
-    "slug": "bobby-rex",
-    "name": "BOBBY REX",
-    "battles": 2,
-    "wins": 0,
-    "losses": 1,
-    "style": "Aggressive",
-    "image": "https://picsum.photos/seed/bobbyrex/400/400",
-    "bio": "Modern era powerhouse known for his intense and consistent delivery."
-  },
-  {
-    "id": "slimbuck",
-    "slug": "slimbuck",
-    "name": "SLIMBUCK",
-    "battles": 1,
-    "wins": 1,
-    "losses": 0,
-    "style": "Lyrical/Technical",
-    "image": "https://picsum.photos/seed/slimbuck/400/400",
-    "bio": "Modern era specialist with a sharp pen and professional delivery."
-  },
-  {
-    "id": "shotty-horroh",
-    "slug": "shotty-horroh",
-    "name": "SHOTTY HORROH",
-    "nickname": "MCR Legend",
-    "battles": 4,
-    "wins": 1,
-    "losses": 1,
-    "style": "Multisyllabic/Aggressive",
-    "image": "https://picsum.photos/seed/shotty/400/400",
-    "bio": "A global battle rap icon from Manchester. His battle against Arsonal is the most viewed English-speaking battle in history. Known for his ferocious delivery and immense star power.",
-    "location": "Manchester",
-    "badges": [
-      "VIRAL STAR",
-      "LEGEND",
-      "DON'T FLOP LEGEND"
-    ]
-  },
-  {
-    "id": "tony-d",
-    "slug": "tony-d",
-    "name": "TONY D",
-    "nickname": "The Poisonous Poet",
-    "battles": 4,
-    "wins": 3,
-    "losses": 1,
-    "style": "Lyrical/Punchline",
-    "image": "https://picsum.photos/seed/tonyd/400/400",
-    "bio": "3-time Don't Flop Champion and widely considered the greatest punchline rapper in the UK. Member of Poisonous Poets.",
-    "location": "London",
-    "badges": [
-      "3X CHAMPION",
-      "LYRICAL GOD"
-    ]
-  },
-  {
-    "id": "oshea",
-    "slug": "oshea",
-    "name": "OSHEA",
-    "nickname": "The Funniest",
-    "battles": 4,
-    "wins": 1,
-    "losses": 3,
-    "style": "Humorous/Freestyle",
-    "image": "https://picsum.photos/seed/oshea/400/400",
-    "bio": "The 1st Don't Flop Champion. Known for his legendary humor, freestyle ability, and 'dead dad' jokes. A true pioneer of the scene.",
-    "location": "Liverpool",
-    "badges": [
-      "1ST CHAMPION",
-      "HALL OF FAME"
-    ]
-  },
-  {
-    "id": "lunar-c",
-    "slug": "lunar-c",
-    "name": "LUNAR C",
-    "nickname": "The Viral King",
-    "battles": 7,
-    "wins": 7,
-    "losses": 0,
-    "style": "Humorous/Punchline",
-    "image": "https://picsum.photos/seed/lunarc/400/400",
-    "bio": "Responsible for Don't Flop's first massive viral wave. Known for effortless delivery and devastating one-liners.",
-    "location": "Bradford",
-    "badges": [
-      "VIRAL LEGEND"
-    ]
-  },
-  {
-    "id": "soul",
-    "slug": "soul",
-    "name": "SOUL",
-    "nickname": "The Iron Man",
-    "battles": 5,
-    "wins": 3,
-    "losses": 1,
-    "style": "Lyrical/Technical",
-    "image": "https://picsum.photos/seed/soul/400/400",
-    "bio": "3rd Don't Flop Champion. Known for his dense technical writing and some of the most respected title defenses in history.",
-    "location": "Scotland",
-    "badges": [
-      "CHAMPION",
-      "TECHNICAL ELITE"
-    ]
-  },
-  {
-    "id": "shox-the-rebel",
-    "slug": "shox-the-rebel",
-    "name": "SHOX THE REBEL",
-    "battles": 1,
-    "wins": 1,
-    "losses": 0,
-    "style": "Aggressive/Lyrical",
-    "image": "https://picsum.photos/seed/shox/400/400",
-    "bio": "4th Don't Flop Champion. Known for his intense performance and rapid-fire multisyllabic flows.",
-    "location": "London",
-    "badges": [
-      "CHAMPION"
-    ]
-  },
-  {
-    "id": "gemin1",
-    "slug": "gemin1",
-    "name": "GEMIN1",
-    "battles": 2,
-    "wins": 2,
-    "losses": 0,
-    "style": "Lyrical/Performance",
-    "image": "https://picsum.photos/seed/gemin1/400/400",
-    "bio": "7th Don't Flop Champion and multi-league title holder. One of the most complete battlers to ever do it.",
-    "location": "London",
-    "badges": [
-      "CHAMPION",
-      "MULTI-LEAGUE BOSS"
-    ]
-  },
-  {
-    "id": "unanymous",
-    "slug": "unanymous",
-    "name": "UNANYMOUS",
-    "battles": 33,
-    "wins": 11,
-    "losses": 12,
-    "style": "Aggressive/Rapid",
-    "image": "https://picsum.photos/seed/unan/400/400",
-    "bio": "The perennial contender. A multi-time finalist known for his high energy and aggressive delivery.",
-    "location": "London",
-    "badges": [
-      "VETERAN"
-    ]
-  },
-  {
-    "id": "shuffle-t",
-    "slug": "shuffle-t",
-    "name": "SHUFFLE-T",
-    "battles": 1,
-    "wins": 0,
-    "losses": 1,
-    "style": "Humorous/Technical",
-    "image": "https://picsum.photos/seed/shuffle/400/400",
-    "bio": "One half of the greatest 2-on-2 team (Shuffle-T & Marlo). Known for his wit and exceptional technical rhyme structure.",
-    "location": "London",
-    "badges": [
-      "2ON2 CHAMPION",
-      "TECHNICAL GENIUS"
-    ]
-  },
-  {
-    "id": "marlo",
-    "slug": "marlo",
-    "name": "MARLO",
-    "battles": 0,
-    "wins": 0,
-    "losses": 0,
-    "style": "Humorous/Theatrical",
-    "image": "https://picsum.photos/seed/marlo/400/400",
-    "bio": "One half of the legendary Shuffle-T & Marlo. Bringing a unique theatrical and humorous style to the ring.",
-    "location": "London",
-    "badges": [
-      "2ON2 CHAMPION"
-    ]
-  },
-  {
-    "id": "arsonal",
-    "slug": "arsonal",
-    "name": "ARSONAL",
-    "nickname": "Arsonal Da Rebel",
-    "battles": 2,
-    "wins": 0,
-    "losses": 0,
-    "style": "Aggressive/Disrespectful",
-    "image": "https://picsum.photos/seed/arsonal/400/400",
-    "bio": "The most viewed battle rapper in the world. His international clashes in Don't Flop helped put the league on the global map.",
-    "location": "New Jersey, USA",
-    "badges": [
-      "INTERNATIONAL LEGEND",
-      "VIEW RECORD"
-    ]
-  },
-  {
-    "id": "dna",
-    "slug": "dna",
-    "name": "DNA",
-    "nickname": "The Proof",
-    "battles": 3,
-    "wins": 0,
-    "losses": 0,
-    "style": "Lyrical/Freestyle",
-    "image": "https://picsum.photos/seed/dna/400/400",
-    "bio": "International superstar known for his incredible rebuttal game and consistency. Frequent guest on Don't Flop.",
-    "location": "Queens, NY, USA",
-    "badges": [
-      "INTERNATIONAL LEGEND"
-    ]
-  },
-  {
-    "id": "math-hoffa",
-    "slug": "math-hoffa",
-    "name": "MATH HOFFA",
-    "battles": 1,
-    "wins": 0,
-    "losses": 0,
-    "style": "Aggressive/Powerhouse",
-    "image": "https://picsum.photos/seed/math/400/400",
-    "bio": "One of the most respected and aggressive battlers from the USA. His battle with Shotty Horroh is a modern classic.",
-    "location": "Brooklyn, NY, USA",
-    "badges": [
-      "INTERNATIONAL LEGEND"
-    ]
-  },
-  {
-    "id": "mark-grist",
-    "slug": "mark-grist",
-    "name": "MARK GRIST",
-    "battles": 1,
-    "wins": 0,
-    "losses": 0,
-    "style": "Theatrical/Lyrical",
-    "image": "https://picsum.photos/seed/grist/400/400",
-    "bio": "An English teacher who became a viral sensation after his battle against Blizzard. Brought mainstream attention to the league.",
-    "location": "Peterborough",
-    "badges": [
-      "VIRAL LEGEND"
-    ]
-  },
-  {
-    "id": "blizzard",
-    "slug": "blizzard",
-    "name": "BLIZZARD",
-    "battles": 2,
-    "wins": 0,
-    "losses": 0,
-    "style": "Lyrical/Rap",
-    "image": "https://picsum.photos/seed/blizzard/400/400",
-    "bio": "The teenage prodigy who went viral against Mark Grist. Later transition into a successful music career.",
-    "location": "Manchester",
-    "badges": [
-      "VIRAL LEGEND"
-    ]
-  },
-  {
-    "id": "uno-lavoz",
-    "slug": "uno-lavoz",
-    "name": "UNO LAVOZ",
-    "battles": 1,
-    "wins": 0,
-    "losses": 1,
-    "style": "Humorous/Disrespectful",
-    "image": "https://picsum.photos/seed/uno/400/400",
-    "bio": "The king of 'Yo Mama' jokes. His clashes on Don't Flop are among the most viewed and humorous in battle rap history.",
-    "location": "Philadelphia, USA",
-    "badges": [
-      "INTERNATIONAL LEGEND",
-      "VIRAL KING"
-    ]
-  },
-  {
-    "id": "micky-worthless",
-    "slug": "micky-worthless",
-    "name": "MICKY WORTHLESS",
-    "battles": 1,
-    "wins": 0,
-    "losses": 1,
-    "style": "Chaos/Humorous",
-    "image": "https://picsum.photos/seed/micky/400/400",
-    "bio": "A true character of the scene. Known for his chaotic energy and legendary beefs. A Don't Flop original.",
-    "location": "London",
-    "badges": [
-      "VETERAN"
-    ]
-  },
-  {
-    "id": "matter",
-    "slug": "matter",
-    "name": "MATTER",
-    "battles": 5,
-    "wins": 0,
-    "losses": 0,
-    "style": "Lyrical/Technical",
-    "image": "https://picsum.photos/seed/matter/400/400",
-    "bio": "One half of the legendary Lunar C & Matter team. Known for his sharp writing and multi-league success.",
-    "location": "Bradford",
-    "badges": [
-      "TECHNICAL ELITE"
-    ]
-  },
-  {
-    "id": "madness",
-    "slug": "madness",
-    "name": "MADNESS",
-    "battles": 1,
-    "wins": 1,
-    "losses": 0,
-    "style": "Technical/Humorous",
-    "image": "https://picsum.photos/seed/madness/400/400",
-    "bio": "A pioneer from the US who moved to the UK and became a staple of early Don't Flop. Known for high-level wordplay.",
-    "location": "London / USA",
-    "badges": [
-      "VETERAN"
-    ]
   },
   {
     "id": "dyzz",

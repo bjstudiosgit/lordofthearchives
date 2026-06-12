@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node scripts/serve-out.mjs",
-    "postbuild": "node scripts/clean-export.mjs",
+    "start": "node src/scripts/serve-out.mjs",
+    "postbuild": "node src/scripts/clean-export.mjs",
     "lint": "next lint"
   },
   "dependencies": {

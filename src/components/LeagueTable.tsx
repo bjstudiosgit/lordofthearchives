@@ -11,6 +11,12 @@ interface LeagueTableProps {
 }
 
 export default function LeagueTable({ limit, showTitle = true }: LeagueTableProps) {
+  const getWinRatio = (wins: number, losses: number): string => {
+    const judgedBattles = wins + losses;
+    if (judgedBattles === 0) return "0.0%";
+    return `${((wins / judgedBattles) * 100).toFixed(1)}%`;
+  };
+
   let rankings = [...pengameMcs]
     .sort((a, b) => {
       const aPoints = a.battles + (a.wins * 3);
@@ -66,6 +72,10 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
                     <span className="hidden md:inline">Wins</span>
                   </th>
                   <th className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
+                    <span className="md:hidden">WR</span>
+                    <span className="hidden md:inline">Win Ratio</span>
+                  </th>
+                  <th className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
                     <span className="md:hidden">L</span>
                     <span className="hidden md:inline">Losses</span>
                   </th>
@@ -110,6 +120,9 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
                       </div>
                     </td>
                     <td className="px-1 py-3 md:px-8 md:py-6 font-mono text-[11px] md:text-base text-center text-zinc-300">{mc.wins}</td>
+                    <td className="px-1 py-3 md:px-8 md:py-6 font-mono text-[11px] md:text-base text-center text-zinc-300">
+                      {getWinRatio(mc.wins, mc.losses)}
+                    </td>
                     <td className="px-1 py-3 md:px-8 md:py-6 font-mono text-[11px] md:text-base text-center text-zinc-300">{mc.losses}</td>
                     <td className="px-2 py-3 md:px-8 md:py-6 font-bold text-[11px] md:text-base text-center text-zinc-100">{mc.points.toLocaleString()}</td>
                   </motion.tr>

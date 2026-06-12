@@ -4584,7 +4584,95 @@ export const battles: Battle[] = [
     "stage": null,
     "group": null,
     "tag": null,
-    "winner": "skamz"
+    "winner": "debatable",
+    "statusNote": "No Official Winner",
+    "host": "Margs (Andre Wright)",
+    "judges": [],
+    "clashSummary": "SEVZ and GRAMS delivered a fast, high-energy Season 4 clash that never settled into a formal judges' result. SEVZ leaned into clean writing, technical wordplay and structured punchlines about balance, control and elevation, while GRAMS answered with brash personality, street talk and crowd-ready one-liners. Both rappers had strong rounds and Margs closed by asking viewers to call the winner in the comments, so the battle is best treated as an audience-decision clash rather than an official judged result.",
+    "performanceAnalysis": [
+      {
+        "performer": "SEVZ",
+        "overview": "SEVZ sounded the cleaner and more technically organised of the two. His writing was packed with layered references, precise setups and clear punchline structures, and he repeatedly kept the battle focused on his own control of the room rather than getting dragged into pure chaos.",
+        "lyricalThemes": "Cleanliness, technical control, status elevation, opponent breakdowns and schematic wordplay.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Clean Opener",
+            "description": "He starts by calling himself clean and untouchable, using the OCD/OTP angle to frame himself as someone the room cannot dirt up."
+          },
+          {
+            "title": "Superhero Schemes",
+            "description": "His Tony Stark and Clark Kent references let him move between comic-book and hero imagery while still landing direct shots at GRAMS."
+          },
+          {
+            "title": "Technical Finish",
+            "description": "The rat, mousetrap, downhill gradient and guillotine bars give his rounds a consistent feeling of control, sharpening the attack with clear visual ideas."
+          }
+        ]
+      },
+      {
+        "performer": "GRAMS",
+        "overview": "GRAMS brought the louder, more chaotic energy. He relied on direct disrespect, character attacks and crowd-facing confidence, and he recovered well when he had to restart part of his second round.",
+        "lyricalThemes": "Street posture, personal disrespect, career/status attacks, crowd control and freestyle recovery.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Immediate Pressure",
+            "description": "He opens by attacking SEVZ's age, confidence and ability to handle the clash, giving the battle a confrontational tone from the start."
+          },
+          {
+            "title": "Career and Status Angles",
+            "description": "He keeps pushing the idea that SEVZ is too young or too early in his journey to stand with him, using work, money and experience as recurring lines of attack."
+          },
+          {
+            "title": "Recovery Under Pressure",
+            "description": "When he loses his place in round two, he resets and keeps going, which helps preserve his live-room energy even when the structure slips."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "SEVZ",
+        "theme": "Cleanliness",
+        "bar": "I rap clean, like I'm OCD",
+        "explanation": "A simple but effective opener that frames SEVZ as meticulous, tidy and hard to catch slipping."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Superhero Scheme",
+        "bar": "You can call me Tony Stark, I'ma let some things off my chest",
+        "explanation": "This combines the Iron Man image with the idea of releasing heavy material, giving the punchline both style and forward momentum."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Threat and Control",
+        "bar": "If you wanna fight, my pen's my guardian angel",
+        "explanation": "The line turns his pen into a weapon and protector at the same time, showing how he sees writing as the thing that keeps him dangerous."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Direct Challenge",
+        "bar": "You should've dropped out this battle as soon as you knew you was versing Grams",
+        "explanation": "A blunt opener that immediately frames the clash as one SEVZ should have avoided from the beginning."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Career Angle",
+        "bar": "When I was your age, I ain't have no time to be writing bars I was putting in work",
+        "explanation": "GRAMS uses age and work experience as proof that SEVZ is still too early in his journey to compete with him."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Status Flip",
+        "bar": "Turn this FG to a 3.5",
+        "explanation": "He turns the battle into a grading or rating flip, trying to reduce SEVZ's level while keeping the line sharp and memorable."
+      }
+    ],
+    "oddMoments": [
+      "Margs introduces SEVZ as \"new to the Pen Game\" and a \"Young Gunna\" before the clash properly starts.",
+      "GRAMS loses his place in round two and asks to restart, briefly breaking the rhythm before carrying on.",
+      "The battle ends with Margs telling viewers to comment who they think won instead of naming an official result."
+    ],
+    "postBattleContext": "Margs closes by asking viewers to comment who won, so the archive records the clash as debatable rather than giving it an official winner."
   },
   {
     "id": "pg-s04-skamz-vs-grams",
@@ -8582,13 +8670,12 @@ export const battles: Battle[] = [
     "date": "05-03-2025",
     "videoUrl": "https://www.youtube.com/watch?v=as_la5t5iqA",
     "theme": "pengame",
-    "season": "Cold War",
-    "competition": "PenGame Cold War",
-    "subGroup": "Group A",
+    "season": "2025",
+    "subGroup": "Regular Season",
     "views": "219k",
     "customEp": "6x01",
     "seasonOrder": 1,
-    "stage": "Group Stage",
+    "stage": "Regular Season",
     "group": "A",
     "tag": null
   },
@@ -8602,13 +8689,12 @@ export const battles: Battle[] = [
     "date": "08-03-2025",
     "videoUrl": "https://www.youtube.com/watch?v=bIpqrBLcVqw",
     "theme": "pengame",
-    "season": "Cold War",
-    "competition": "PenGame Cold War",
-    "subGroup": "Group A",
+    "season": "2025",
+    "subGroup": "Regular Season",
     "views": "390k",
     "customEp": "6x02",
     "seasonOrder": 2,
-    "stage": "Group Stage",
+    "stage": "Regular Season",
     "group": "A",
     "tag": null
   },
@@ -8622,13 +8708,12 @@ export const battles: Battle[] = [
     "date": "12-03-2025",
     "videoUrl": "https://www.youtube.com/watch?v=lYnwH9sTZGk",
     "theme": "pengame",
-    "season": "Cold War",
-    "competition": "PenGame Cold War",
-    "subGroup": "Group A",
+    "season": "2025",
+    "subGroup": "Regular Season",
     "views": "266k",
     "customEp": "6x03",
     "seasonOrder": 3,
-    "stage": "Group Stage",
+    "stage": "Regular Season",
     "group": "A",
     "tag": null
   },
@@ -8642,13 +8727,12 @@ export const battles: Battle[] = [
     "date": "22-03-2025",
     "videoUrl": "https://www.youtube.com/watch?v=c4FT_-jYPpk",
     "theme": "pengame",
-    "season": "Cold War",
-    "competition": "PenGame Cold War",
-    "subGroup": "Group A",
+    "season": "2025",
+    "subGroup": "Regular Season",
     "customEp": "6x04",
     "seasonOrder": 4,
     "views": "150k",
-    "stage": "Group Stage",
+    "stage": "Regular Season",
     "group": "A",
     "tag": null
   },

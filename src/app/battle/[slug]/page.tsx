@@ -4,6 +4,7 @@ import {
   findBattleByRouteSlug,
   getBattleHref,
   getBattlePageSlug,
+  getBattleLegacyPageStem,
   getBattlePageStem,
   pengameBattles,
 } from "../../../data/battles";
@@ -21,10 +22,12 @@ export async function generateStaticParams() {
 
   pengameBattles.forEach((battle) => {
     routeSlugs.add(getBattlePageStem(battle));
+    routeSlugs.add(getBattleLegacyPageStem(battle));
     routeSlugs.add(battle.slug);
 
     if (process.env.NODE_ENV !== "production") {
       routeSlugs.add(getBattlePageSlug(battle));
+      routeSlugs.add(`${getBattleLegacyPageStem(battle)}.html`);
     }
   });
 

@@ -56,13 +56,12 @@ export default function MCIndex() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-12">
-          <h1 className="text-sm font-bold text-brand uppercase tracking-[0.3em] mb-4">MC Roster</h1>
+        <div className="mb-12 max-w-5xl">
           <h2 className="text-4xl md:text-6xl font-display italic uppercase leading-tight">
-            The Archive <br /><span className="text-brand">Index</span>
+            LOTA MC <br /><span className="text-brand">Index</span>
           </h2>
           <p className="text-zinc-400 mt-4 max-w-xl text-sm md:text-lg leading-relaxed">
-            PenGame-only roster (for now). Scoring: 1 Point per Appearance + 3 Bonus Points per Win.
+            Bio index for all listed battle MCs. Each profile shows their archive record and battle stats.
           </p>
         </div>
 

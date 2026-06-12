@@ -1,168 +1,258 @@
 "use client";
+
 import { motion } from "motion/react";
 import Link from "next/link";
-import { Play, TrendingUp, Clock, Eye } from "lucide-react";
-import { getBattleHref, getBattleRouteHref, pengameBattles } from "../data/battles";
-import { pengameMcs } from "../data/mcs";
+import { Archive, CheckCircle2, Clock3, ListTodo, TrendingUp } from "lucide-react";
+import { pengameBattles } from "../data/battles";
+
+const archivedBattleSlugs = new Set([
+  "f-don-vs-aymuni",
+  "ashley-tragic-vs-ft",
+  "shorty-woa-vs-saidu",
+  "bigga-vs-dan-dannah",
+  "saidu-vs-aymuni",
+  "bigga-vs-ft",
+  "bigga-vs-aymuni",
+  "kmarh-vs-kurly",
+  "frizz-price-vs-ren-dmc",
+  "lil-shakz-vs-pocaa",
+  "cheezee-vs-el-bandzo",
+  "lil-shakz-vs-ren-dmc",
+  "kmarh-vs-cheezee",
+  "kmarh-vs-lil-shakz",
+  "dan-dannah-vs-amity",
+  "dbc-vs-amity",
+  "amity-vs-ren-dmc",
+  "dan-dannah-vs-dbc",
+  "skamz-vs-f-don-2",
+  "dbc-vs-ren-dmc",
+  "junie-vs-icuredamsterdam",
+  "skamz-vs-junie",
+  "skamz-vs-icuredamsterdam",
+  "icuredamsterdam-vs-f-don",
+  "junie-vs-f-don",
+  "messie-vs-bmf-alz",
+  "ft-vs-bmf-alz",
+  "kmarh-vs-messie",
+  "kmarh-vs-f-don",
+  "f-don-vs-skamz",
+  "drizzgb-vs-kandi",
+  "grams-vs-storm",
+  "sevz-vs-twenty8",
+  "ft-vs-blazn",
+  "ren-dmc-vs-skamz",
+  "f-don-vs-dan-dannah",
+  "dan-dannah-vs-ren-dmc",
+  "dan-dannah-vs-rendmc",
+  "kmarh-vs-animal",
+  "animal-vs-ft",
+  "skamz-vs-grams",
+  "sevz-vs-grams",
+  "f-don-vs-jc",
+  "skamz-vs-whoisorion",
+  "ren-dmc-vs-renaya",
+  "ft-vs-iiiberealz",
+  "cheezee-vs-smil3z",
+  "skamz-vs-kandi",
+  "ren-dmc-vs-blazn",
+  "drizzgb-vs-skamz",
+  "skamz-vs-blazn",
+  "ren-dmc-vs-drizzgb",
+  "drizzgb-vs-blazn",
+  "f-don-vs-iiiberealz",
+  "f-don-vs-deeno",
+  "f-don-vs-smil3z",
+  "smil3z-vs-iiiberealz",
+  "iiiberealz-vs-deeno",
+  "dan-dannah-vs-kandi",
+  "skamz-vs-ren-dmc-2",
+  "smil3z-vs-deeno",
+  "kmarh-vs-ft",
+  "skamz-vs-dan-dannah",
+  "cheezee-vs-whoisorion",
+  "f-don-vs-aymuni-2",
+  "dhani-vs-skamz",
+  "black-t-vs-renaya",
+  "drizzgb-vs-grams",
+  "sevz-vs-skamz",
+  "a-petrelli-vs-smil3z",
+  "f-don-vs-whoisorion",
+  "ft-vs-prynlee",
+  "drizzgb-vs-aliaano",
+  "dan-dannah-vs-smil3z",
+  "drizzgb-vs-whoisorion",
+  "whoisorion-vs-renaya",
+  "sevz-vs-grams-2",
+  "whoisorion-vs-cheezee-2",
+  "cheezee-vs-dan-dannah",
+  "whoisorion-vs-dan-dannah",
+  "sevz-vs-prynlee",
+  "sevz-vs-ft",
+  "grams-vs-prynlee",
+  "grams-vs-ft",
+  "cheezee-vs-kandi",
+  "sevz-vs-cheezee",
+  "whoisorion-vs-drizzgb-2",
+  "smil3z-vs-skamz",
+  "ren-dmc-vs-f-don",
+  "ren-dmc-vs-drizzgb-2",
+  "fendry-vs-jaycee",
+  "skamz-vs-sevz-2",
+  "ren-dmc-vs-skamz-3",
+  "whoisorion-iiiberealz-vs-grams-smil3z",
+  "iiiberealz-vs-ess2mad",
+  "jm-vs-fendry",
+  "missink-vs-cucha",
+  "grams-vs-whoisorion",
+  "grams-vs-whoisorion-2",
+  "passive-vs-hunce",
+  "anbu-sensei-vs-deeno",
+  "hunce-vs-anbu-sensei",
+  "dan-dannah-vs-iiiberealz",
+  "drizzgb-vs-jm",
+  "cucha-vs-karma10tnf",
+  "whoisorion-vs-zen",
+  "deeno-vs-kandi",
+  "storm-vs-cheezee",
+  "domi-dusk-vs-jaycee",
+]);
 
 export default function RecentBattles() {
-  const parseBattleDate = (dateStr?: string) => {
-    if (!dateStr) return 0;
-    const parts = dateStr.split("-").map((part) => Number(part));
-    if (parts.length !== 3 || parts.some((part) => !Number.isFinite(part))) return 0;
-    const [day, month, year] = parts;
-    return new Date(year, month - 1, day).getTime();
-  };
+  const activeBattles = pengameBattles.filter(
+    (battle) => battle.statusNote !== "Cancelled" && battle.winner !== "cancelled",
+  );
 
-  const recentBattles = [...pengameBattles]
-    .sort((a, b) => parseBattleDate(b.date) - parseBattleDate(a.date))
-    .slice(0, 4);
+  const archivedComplete = activeBattles.filter((battle) => archivedBattleSlugs.has(battle.slug)).length;
+  const unarchived = activeBattles.filter((battle) => battle.isUnreleased || !battle.videoUrl).length;
+  const inProgress = Math.max(activeBattles.length - archivedComplete - unarchived, 0);
+  const total = activeBattles.length || 1;
+  const completePercent = Math.round((archivedComplete / total) * 100);
+  const inProgressPercent = Math.round((inProgress / total) * 100);
+  const unarchivedPercent = Math.max(100 - completePercent - inProgressPercent, 0);
 
-  const getYouTubeId = (url?: string) => {
-    if (!url) return null;
-    const embedMatch = url.match(/embed\/([^?]+)/);
-    if (embedMatch) return embedMatch[1];
-    const watchMatch = url.match(/[?&]v=([^&]+)/);
-    if (watchMatch) return watchMatch[1];
-    const shortMatch = url.match(/youtu\.be\/([^?]+)/);
-    return shortMatch ? shortMatch[1] : null;
-  };
-
-  const unreleasedCount = pengameBattles.filter((battle) => battle.isUnreleased).length;
+  const metrics = [
+    {
+      label: "Archived Complete",
+      value: archivedComplete,
+      percent: completePercent,
+      icon: CheckCircle2,
+      tone: "text-emerald-300",
+      bar: "bg-emerald-400",
+    },
+    {
+      label: "Archive In Progress",
+      value: inProgress,
+      percent: inProgressPercent,
+      icon: Clock3,
+      tone: "text-brand",
+      bar: "bg-brand",
+    },
+    {
+      label: "Unarchived",
+      value: unarchived,
+      percent: unarchivedPercent,
+      icon: ListTodo,
+      tone: "text-zinc-300",
+      bar: "bg-zinc-500",
+    },
+  ];
 
   return (
-    <section id="battles" className="relative py-24 overflow-hidden scroll-mt-24">
-      {/* Background Flow */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
-        <div className="absolute inset-0 bg-black z-10" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-brand/5 rounded-full blur-[120px] pointer-events-none z-20" />
-        {/* Orange Contrast Gradient */}
-        <div className="absolute -top-1/4 -left-1/4 w-full h-full bg-brand/10 blur-[120px] rounded-full pointer-events-none z-10" />
-        {/* Flow Overlays */}
-        <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-black to-transparent z-20 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-black to-transparent z-20 pointer-events-none" />
-      </div>
+    <section id="battles" className="relative scroll-mt-24 bg-black py-24">
+      <div className="absolute inset-x-0 top-0 h-px bg-white/10" />
+      <div className="absolute inset-x-0 bottom-0 h-px bg-white/10" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {recentBattles.map((battle, index) => {
-            const mc1 = pengameMcs.find((mc) => mc.id === battle.mc1);
-            const mc2 = pengameMcs.find((mc) => mc.id === battle.mc2);
-            const videoId = getYouTubeId(battle.videoUrl);
-            
-            return (
-              <motion.div
-                key={battle.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="group relative overflow-hidden rounded-2xl border border-white/5 bg-zinc-900/40 aspect-video lg:aspect-[3/4]"
-              >
-                <Link 
-                  href={getBattleRouteHref(battle)}
-                  as={getBattleHref(battle)}
-                  className="absolute inset-0 z-30" 
-                  aria-label={`Watch ${mc1?.name} vs ${mc2?.name}`}
-                />
-                
-                <div className="absolute inset-0 z-0">
-                  {videoId ? (
-                    <img 
-                      src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
-                      alt={battle.title}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                      referrerPolicy="no-referrer"
-                      loading="lazy"
-                    />
-                  ) : (
-                    <div className="w-full h-full relative flex overflow-hidden bg-zinc-900">
-                      {/* MC 1 - Left Side */}
-                      <div className="absolute inset-y-0 left-0 w-[55%] h-full overflow-hidden [clip-path:polygon(0_0,100%_0,85%_100%,0_100%)] z-10 border-r border-brand/20">
-                        <img 
-                          src={mc1?.image} 
-                          alt={mc1?.name} 
-                          className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100" 
-                          referrerPolicy="no-referrer" 
-                          loading="lazy" 
-                        />
-                        <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
-                      </div>
-                      
-                      {/* MC 2 - Right Side */}
-                      <div className="absolute inset-y-0 right-0 w-[55%] h-full overflow-hidden [clip-path:polygon(15%_0,100%_0,100%_100%,0_100%)] z-0">
-                        <img 
-                          src={mc2?.image} 
-                          alt={mc2?.name} 
-                          className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100" 
-                          referrerPolicy="no-referrer" 
-                          loading="lazy" 
-                        />
-                        <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
-                      </div>
-
-                      {/* VS Overlay */}
-                      <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
-                        <div className="bg-black/80 backdrop-blur-sm border border-brand/30 w-12 h-12 rounded-full flex items-center justify-center transform -rotate-12 group-hover:rotate-0 transition-transform duration-500">
-                          <span className="text-brand font-display italic text-xl">VS</span>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10" />
-                </div>
-
-                <div className="absolute top-4 left-4 z-20 flex gap-2">
-                  {battle.isUnreleased ? (
-                    <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-500 text-white text-[8px] font-black uppercase tracking-[0.2em] shadow-lg shadow-orange-500/20">
-                      <Clock size={10} /> Currently in Production
-                    </div>
-                  ) : (
-                    <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand text-black text-[8px] font-black uppercase tracking-[0.2em] shadow-lg shadow-brand/20">
-                      <Play size={10} fill="currentColor" /> Archive in progress
-                    </div>
-                  )}
-                </div>
-
-                <div className="absolute inset-0 z-10 p-6 flex flex-col justify-end">
-                  <div className="mb-2">
-                    <span className="text-brand font-black text-[8px] tracking-[0.3em] uppercase mb-1 block">
-                      Episode {battle.season === 3.5 ? "XMAS" : battle.season === 2023 ? "T23" : battle.season === 5 ? "S5" : battle.season}x{String(pengameBattles.filter(b => b.season === battle.season).findIndex(b => b.id === battle.id) + 1).padStart(2, '0')}
-                    </span>
-                    <h4 className="text-xl font-display italic uppercase leading-none group-hover:text-brand transition-colors relative z-40">
-                      <Link href={`/mc/${mc1?.slug}`} className="hover:text-brand hover:underline underline-offset-4 transition-colors">{mc1?.name}</Link> <span className="text-brand/50">VS</span> <Link href={`/mc/${mc2?.slug}`} className="hover:text-brand hover:underline underline-offset-4 transition-colors">{mc2?.name}</Link>
-                    </h4>
-                  </div>
-                  
-                  {!battle.isUnreleased && (
-                    <div className="flex items-center gap-2 text-[10px] text-zinc-400 font-bold uppercase tracking-widest mt-2">
-                      <Eye size={12} className="text-brand" /> {battle.views} Views
-                    </div>
-                  )}
-                </div>
-              </motion.div>
-            );
-          })}
-        </div>
-
-        <div className="mt-12 flex justify-center">
-          <Link href="/pengame" className="text-zinc-400 hover:text-white font-bold uppercase tracking-widest text-sm flex items-center gap-2 transition-colors">
-            View All PenGame <TrendingUp size={18} />
-          </Link>
-        </div>
-
-        <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 lg:hidden">
-          <p className="text-zinc-200 text-[10px] uppercase tracking-widest leading-relaxed max-w-md text-center md:text-left">
-            Subscribe to our YouTube channel and hit the bell icon to never miss a drop. New battles released weekly.
-          </p>
-          <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" />
-              <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-200">Currently in Production: {unreleasedCount} Battles</span>
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="space-y-6">
+          <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="rounded-2xl border border-white/10 bg-zinc-950 p-6 md:p-8"
+          >
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-3 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-brand">
+              <Archive size={13} /> Archive Status
             </div>
-          </div>
+            <h2 className="max-w-3xl text-4xl font-display italic uppercase leading-none text-white md:text-6xl">
+              The archive is <span className="text-brand">live</span>.
+            </h2>
+            <p className="mt-5 max-w-xl text-sm leading-relaxed text-zinc-400 md:text-base">
+              PenGame Seasons 1, 2, and 3 are archived, with major progress now logged across Season 4 and the 2023 Tournament. New archived entries are added every day.
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.08 }}
+            viewport={{ once: true }}
+            className="rounded-2xl border border-white/10 bg-zinc-950 p-6 md:p-8"
+          >
+            <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <p className="text-xs font-bold uppercase tracking-[0.24em] text-zinc-500">PenGame Coverage</p>
+                <p className="mt-1 text-3xl font-display italic uppercase text-white">{completePercent}% Complete</p>
+              </div>
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-zinc-500">
+                {activeBattles.length} battles indexed
+              </p>
+            </div>
+
+            <div className="mb-8 h-4 overflow-hidden rounded bg-zinc-900 ring-1 ring-white/10">
+              <div className="flex h-full w-full">
+                {metrics.map((metric) => (
+                  <div
+                    key={metric.label}
+                    className={`${metric.bar} min-w-[2px]`}
+                    style={{ width: `${metric.percent}%` }}
+                    title={`${metric.label}: ${metric.value}`}
+                  />
+                ))}
+              </div>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-3">
+              {metrics.map((metric) => {
+                const Icon = metric.icon;
+
+                return (
+                  <div key={metric.label} className="rounded-lg border border-white/10 bg-black/35 p-4">
+                    <div className="mb-4 flex items-center justify-between gap-3">
+                      <Icon className={metric.tone} size={20} />
+                      <span className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500">
+                        {metric.percent}%
+                      </span>
+                    </div>
+                    <p className="font-display text-4xl italic leading-none text-white">{metric.value}</p>
+                    <p className="mt-2 min-h-8 text-[10px] font-bold uppercase tracking-[0.18em] text-zinc-400">
+                      {metric.label}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="mt-8 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
+              <div className="space-y-2">
+                <p className="text-xs leading-relaxed text-zinc-500">
+                  Complete means the archive entry has been fully checked, written, and signed off.
+                </p>
+                <p className="text-xs leading-relaxed text-zinc-500">
+                  The sole archiving of these battles is time consuming and there may be inconsistencies and errors during the build stage.
+                </p>
+              </div>
+              <Link
+                href="/pengame"
+                className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-brand transition-colors hover:text-white"
+              >
+                Open Index <TrendingUp size={17} />
+              </Link>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>
   );
 }
+
+

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { motion } from "motion/react";
 import { pengameBattles } from "../../../data/battles";
+import { getCreditPersonByName } from "../../../data/credits";
 import { pengameMcs } from "../../../data/mcs";
 import { ArrowLeft, Play, Share2, Trophy, Clock } from "lucide-react";
 
@@ -18,6 +19,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
 
   const mc1 = pengameMcs.find(m => m.id === battle.mc1);
   const mc2 = pengameMcs.find(m => m.id === battle.mc2);
+  const hostCredit = battle.host ? getCreditPersonByName(battle.host) : undefined;
 
   // Helper to extract YouTube ID from embed URL
   const getYouTubeId = (url: string | undefined) => {
@@ -42,6 +44,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
   };
 
   const videoId = getYouTubeId(battle.videoUrl);
+  const videoEmbedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : battle.videoUrl;
   const schemaData = battle.videoUrl ? {
     "@context": "https://schema.org",
     "@type": "VideoObject",
@@ -50,8 +53,24 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
     "thumbnailUrl": `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
     "uploadDate": formatDateForSchema(battle.date),
     "contentUrl": `https://www.youtube.com/watch?v=${videoId}`,
-    "embedUrl": battle.videoUrl
+    "embedUrl": videoEmbedUrl
   } : null;
+  const resultLabel = (() => {
+    const transcriptNotes = `${battle.clashSummary ?? ""} ${battle.postBattleContext ?? ""}`.toLowerCase();
+    const hasOfficialJudges = Array.isArray(battle.judges) && battle.judges.length > 0;
+    const hasArchiveJudgement = transcriptNotes.includes("archive judgement") || transcriptNotes.includes("archive judgement:");
+    const hasNoOfficialDecision = transcriptNotes.includes("no official") || transcriptNotes.includes("comment-vote") || transcriptNotes.includes("comment vote");
+
+    if (hasOfficialJudges) return "Official Judges' Decision";
+    if (hasArchiveJudgement || hasNoOfficialDecision) return "LOTA Result";
+    return battle.winner ? "Official Judges' Decision" : "Awaiting Decision";
+  })();
+  const notableBarsByPerformer = battle.notableBars?.reduce<Record<string, NonNullable<typeof battle.notableBars>>>((groups, item) => {
+    const performer = item.performer || "Notable Bars";
+    groups[performer] = groups[performer] || [];
+    groups[performer].push(item);
+    return groups;
+  }, {});
 
   return (
     <div className="min-h-screen pt-32 pb-24 bg-zinc-950">
@@ -93,7 +112,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               <div className="aspect-video bg-zinc-900 rounded-3xl border border-white/10 overflow-hidden relative group">
                 {battle.videoUrl ? (
                   <iframe
-                    src={battle.videoUrl}
+                    src={videoEmbedUrl}
                     title={battle.title}
                     className="w-full h-full border-0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -125,7 +144,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               <div className="text-center mb-8">
                 <h2 className="text-2xl font-display italic uppercase text-white">Battle Result</h2>
                 <p className="text-zinc-400 text-sm mt-2 uppercase tracking-widest">
-                  {battle.winner ? "Official Judges' Decision" : "Awaiting Decision"}
+                  {resultLabel}
                 </p>
               </div>
 
@@ -158,6 +177,103 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                   </div>
                 </div>
               </div>
+
+              {battle.clashSummary && (
+                <div className="mt-10 border-t border-white/10 pt-8 text-left">
+                  <h3 className="text-xl font-display italic uppercase text-white mb-4">Clash Summary</h3>
+                  <p className="text-zinc-300 leading-relaxed font-light">
+                    {battle.clashSummary}
+                  </p>
+                </div>
+              )}
+
+              {battle.performanceAnalysis && (
+                <div className="mt-10 border-t border-white/10 pt-8 text-left">
+                  <h3 className="text-xl font-display italic uppercase text-white mb-6">Performance Analysis</h3>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    {battle.performanceAnalysis.map((analysis) => (
+                      <article key={analysis.performer} className="bg-zinc-950/50 border border-white/5 rounded-2xl p-6">
+                        <h4 className="text-lg font-display italic uppercase text-brand mb-4">{analysis.performer}</h4>
+                        <p className="text-zinc-300 leading-relaxed font-light mb-4">{analysis.overview}</p>
+                        <p className="text-zinc-300 leading-relaxed font-light">
+                          <span className="text-white font-bold">Lyrical Themes: </span>
+                          {analysis.lyricalThemes}
+                        </p>
+                      </article>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {battle.performanceAnalysis && battle.performanceAnalysis.some(a => a.keyTechnicalHighlights && a.keyTechnicalHighlights.length > 0) && (
+                <div className="mt-10 border-t border-white/10 pt-8 text-left">
+                  <h3 className="text-xl font-display italic uppercase text-white mb-6">Key Technical Highlights</h3>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    {battle.performanceAnalysis.map((analysis) => (
+                      <div key={analysis.performer} className="bg-zinc-950/50 border border-white/5 rounded-2xl p-6">
+                        <h4 className="text-lg font-display italic uppercase text-brand mb-4">{analysis.performer}</h4>
+                        <div className="space-y-4">
+                          {analysis.keyTechnicalHighlights.map((highlight) => (
+                            <div key={highlight.title} className="border-l-2 border-brand/60 pl-4">
+                              <p className="text-white font-bold mb-1">{highlight.title}</p>
+                              <p className="text-zinc-300 leading-relaxed font-light">{highlight.description}</p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {notableBarsByPerformer && (
+                <div className="mt-10 border-t border-white/10 pt-8 text-left">
+                  <div className="grid md:grid-cols-2 gap-6">
+                    {Object.entries(notableBarsByPerformer).map(([performer, bars]) => (
+                      <article key={performer} className="bg-zinc-950/50 border border-white/5 rounded-2xl p-6">
+                        <h4 className="text-lg font-display italic uppercase text-brand mb-5">{performer}</h4>
+                        <div className="space-y-5">
+                          {bars.map((item, idx) => (
+                            <div key={`${performer}-${idx}`} className="border-l-2 border-brand/60 pl-4">
+                              <p className="text-white italic leading-relaxed">"{item.bar}"</p>
+                              {item.explanation && (
+                                <p className="mt-2 text-sm leading-relaxed text-zinc-400">{item.explanation}</p>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </article>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {battle.postBattleContext && (
+                <div className="mt-10 border-t border-white/10 pt-8 text-left">
+                  <h3 className="text-xl font-display italic uppercase text-white mb-4">Judgement Summary</h3>
+                  <div className="space-y-4 text-zinc-300 leading-relaxed font-light">
+                    {battle.postBattleContext.split(/\n\s*\n/).map((paragraph, idx) => (
+                      <p key={idx}>{paragraph}</p>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {((battle.oddMoments && battle.oddMoments.length > 0) ||
+                (battle.coolMoments && battle.coolMoments.length > 0)) && (
+                <div className="mt-10 border-t border-white/10 pt-8 text-left">
+                  <h3 className="text-xl font-display italic uppercase text-white mb-6">Clash Summary</h3>
+                  <div className="bg-zinc-950/50 border border-white/5 rounded-2xl p-6">
+                    <ul className="list-disc list-inside space-y-3 text-zinc-300 font-light leading-relaxed">
+                      {[...(battle.coolMoments ?? []), ...(battle.oddMoments ?? [])].map((moment, idx) => (
+                        <li key={idx} className="marker:text-brand pl-2">{moment}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              )}
+
+
             </section>
 
             {/* Clash Summary for Deeno vs Tapped24 */}
@@ -450,6 +566,40 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                     {battle.season === 3.5 ? "2023 Christmas Battles" : battle.season === 2023 ? "2023 Tournament" : battle.season === 5 ? "Season 5 (2024 Battles)" : `Season ${battle.season}`}
                   </span>
                 </div>
+                {battle.host && (
+                  <div className="py-3 border-b border-white/5">
+                    <span className="block text-zinc-400 text-xs uppercase tracking-widest mb-2">Host</span>
+                    {hostCredit ? (
+                      <Link href={`/hosts-judges/${hostCredit.slug}`} className="text-zinc-100 font-bold hover:text-brand transition-colors">
+                        {battle.host}
+                      </Link>
+                    ) : (
+                      <span className="text-zinc-100 font-bold">{battle.host}</span>
+                    )}
+                  </div>
+                )}
+                {battle.judges && battle.judges.length > 0 && (
+                  <div className="py-3 border-b border-white/5">
+                    <span className="block text-zinc-400 text-xs uppercase tracking-widest mb-2">Judges</span>
+                    <div className="space-y-1">
+                      {battle.judges.map((judge) => {
+                        const judgeCredit = getCreditPersonByName(judge);
+
+                        return judgeCredit ? (
+                          <Link
+                            key={judge}
+                            href={`/hosts-judges/${judgeCredit.slug}`}
+                            className="block text-zinc-100 font-bold hover:text-brand transition-colors"
+                          >
+                            {judge}
+                          </Link>
+                        ) : (
+                          <span key={judge} className="block text-zinc-100 font-bold">{judge}</span>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
               </div>
               <button 
                 aria-label="Share this battle"

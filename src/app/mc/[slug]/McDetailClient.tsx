@@ -59,6 +59,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
         battle.winner !== "cancelled",
     )
     .sort((a, b) => parseBattleDate(b.date) - parseBattleDate(a.date));
+  const recentFormBattles = mcBattles;
 
   const wins = mc.wins;
   const losses = mc.losses;
@@ -82,6 +83,14 @@ export default function McDetailClient({ slug }: { slug: string }) {
     if (!isLeagueEligibleBattle(battle)) return "UPCOMING";
     if (!hasOfficialBattleResult(battle)) return "NO RESULT";
     return getBattleWinners(battle).includes(mc.id) ? "WIN" : "LOSS";
+  };
+
+  const getFormMark = (battle: Battle) => {
+    const outcome = getOutcome(battle);
+    if (outcome === "WIN") return "W";
+    if (outcome === "LOSS") return "L";
+    if (outcome === "NO RESULT") return "N";
+    return "U";
   };
 
   return (
@@ -117,6 +126,39 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 {mc.name[0]}
               </div>
             </motion.div>
+
+            {/* Form */}
+            <div className="mt-8">
+              <h2 className="text-xs font-black uppercase tracking-[0.4em] text-zinc-500 mb-6 flex items-center gap-3">
+                <div className="w-1 h-4 bg-brand" />
+                Form
+              </h2>
+              <div className="flex flex-wrap gap-3">
+                {recentFormBattles.map((battle) => {
+                  const mark = getFormMark(battle);
+                  const outcome = getOutcome(battle);
+                  const badgeClass =
+                    outcome === "WIN"
+                      ? "bg-emerald-500/15 text-emerald-400 border-emerald-500/30"
+                      : outcome === "LOSS"
+                        ? "bg-rose-500/15 text-rose-400 border-rose-500/30"
+                        : outcome === "NO RESULT"
+                          ? "bg-zinc-700/40 text-zinc-300 border-white/10"
+                          : "bg-zinc-800/60 text-zinc-500 border-white/5";
+
+                  return (
+                    <div
+                      key={battle.id}
+                      className={`w-10 h-10 rounded-xl border flex items-center justify-center text-sm font-black tracking-widest ${badgeClass}`}
+                      title={`${battle.displayTitle || battle.title} - ${outcome}`}
+                      aria-label={`${battle.displayTitle || battle.title} ${outcome}`}
+                    >
+                      {mark}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
 
           {/* Right Column: Info */}
@@ -129,24 +171,6 @@ export default function McDetailClient({ slug }: { slug: string }) {
               <h1 className="text-6xl md:text-8xl font-display italic uppercase leading-none mb-4 tracking-tighter">
                 {mc.name}
               </h1>
-
-              <div className="flex flex-wrap items-center gap-4 mb-8">
-                {mc.nickname && (
-                  <span className="text-brand font-bold uppercase tracking-[0.3em] text-sm">
-                    {mc.nickname}
-                  </span>
-                )}
-                <div className="flex flex-wrap gap-2">
-                  {mc.badges?.map((badge, i) => (
-                    <span
-                      key={i}
-                      className="px-3 py-1 rounded-full bg-brand/10 border border-brand/20 text-brand text-[10px] font-black uppercase tracking-widest"
-                    >
-                      {badge}
-                    </span>
-                  ))}
-                </div>
-              </div>
 
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
                 <StatBadge

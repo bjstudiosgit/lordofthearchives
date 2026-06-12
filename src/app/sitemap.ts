@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getBattleHref, pengameBattles } from "../data/battles";
+import { creditPeople } from "../data/credits";
 import { pengameMcs } from "../data/mcs";
 
 const SITE_URL = "https://www.lordofthearchives.co.uk";
@@ -14,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/pengame/`, lastModified: now },
     { url: `${SITE_URL}/league/`, lastModified: now },
     { url: `${SITE_URL}/mcs/`, lastModified: now },
+    { url: `${SITE_URL}/hosts-judges/`, lastModified: now },
   ];
 
   const battlePages: MetadataRoute.Sitemap = pengameBattles.map((battle) => ({
@@ -26,5 +28,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
   }));
 
-  return [...staticPages, ...battlePages, ...mcPages];
+  const creditPages: MetadataRoute.Sitemap = creditPeople.map((person) => ({
+    url: `${SITE_URL}/hosts-judges/${person.slug}/`,
+    lastModified: now,
+  }));
+
+  return [...staticPages, ...battlePages, ...mcPages, ...creditPages];
 }
