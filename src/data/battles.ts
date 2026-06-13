@@ -15368,12 +15368,14 @@ export const battles: Battle[] = [
       {
         "performer": "CAVEMAN",
         "overview": "CAVEMAN brings strong energy and a playful style. He performs with confidence and uses humour to keep the room engaged. His approach is less about deep personals and more about making K.I.M.E look awkward, smooth-faced, small and easy to mock.\n\nThe **Maybelline** line is his cleanest early punch because it uses a well-known beauty-brand slogan to mock K.I.M.E’s smooth appearance. The **Tarantino** line gives him a stronger pop-culture reference, and the later **Geoffrey the Butler** angle gets a good reaction because it is visual and easy to understand.\n\nCAVEMAN’s main strength is performance. His weakness is that the material does not feel as damaging as K.I.M.E’s. He has jokes, but K.I.M.E has personals.",
-        "lyricalThemes": "appearance jokes, smooth face, no hair, height, humour, Maybelline, Tarantino, Avelino, Benny the Butcher, Geoffrey the Butler."
+        "lyricalThemes": "appearance jokes, smooth face, no hair, height, humour, Maybelline, Tarantino, Avelino, Benny the Butcher, Geoffrey the Butler.",
+        "keyTechnicalHighlights": []
       },
       {
         "performer": "K.I.M.E",
         "overview": "K.I.M.E wins the one-rounder by being more specific. His round feels like he knows CAVEMAN personally, especially when he uses the name **Patrick** and references school history. That makes the material feel more grounded.\n\nHe attacks CAVEMAN’s lifestyle with lines about toilet hygiene, midlife crisis, bike trouble, iPhone issues, Matalan, caravans, Amsterdam, MDMA, drinking, breathalysers and limescale. The material is varied but still connected by one clear theme: CAVEMAN is being painted as messy, unstable and uncool.\n\nK.I.M.E’s biggest advantage is that his round feels more tailored. He is not just throwing jokes at CAVEMAN; he is building a character assassination.",
-        "lyricalThemes": "CAVEMAN’s real name, hygiene, midlife crisis, bike incident, lifestyle instability, drinking, pale complexion, limescale, school history, direct personals."
+        "lyricalThemes": "CAVEMAN’s real name, hygiene, midlife crisis, bike incident, lifestyle instability, drinking, pale complexion, limescale, school history, direct personals.",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -17809,7 +17811,10 @@ export const battles: Battle[] = [
         "explanation": "Waste/belt image, rough but violent."
       }
     ],
-    "judgementSummary": "There is an official judgement in the transcript.\n\nProfessor Green says DOMI had moments, especially the Yin and Yang concept, but a lot of his material was getting missed and he needed to focus on staying on the mic. Big Narstie is more direct, saying FENDRY shelled his face and that FENDRY was clearly the better man. Aitch says he originally misunderstood the assignment but then confirms that FENDRY 100% won the battle. The final judge explanation says DOMI had funny elements, but battle rap is not just entertainment, and bars-wise FENDRY took it.\n\nOfficial score: FENDRY wins.\n\nArchive note: DOMI was funny and had moments, but FENDRY recovered from a rough start and won the battle with a stronger second half and a decisive third round."
+    "judgementSummary": {
+      "verdict": "Official Judgement: FENDRY wins",
+      "summary": "There is an official judgement in the transcript.\n\nProfessor Green says DOMI had moments, especially the Yin and Yang concept, but a lot of his material was getting missed and he needed to focus on staying on the mic. Big Narstie is more direct, saying FENDRY shelled his face and that FENDRY was clearly the better man. Aitch says he originally misunderstood the assignment but then confirms that FENDRY 100% won the battle. The final judge explanation says DOMI had funny elements, but battle rap is not just entertainment, and bars-wise FENDRY took it.\n\nOfficial score: FENDRY wins.\n\nArchive note: DOMI was funny and had moments, but FENDRY recovered from a rough start and won the battle with a stronger second half and a decisive third round."
+    }
   },
   {
     "id": "pg-s05-2025-01-11-jaycee-vs-kime",
@@ -18588,7 +18593,10 @@ export const battles: Battle[] = [
         "explanation": "Strong closer-style personal: even JAYCEE’s own people expect the loss."
       }
     ],
-    "judgementSummary": "There is an official judgement in the transcript.\n\nAitch says the battle was close and that JAYCEE had a lot of bars, but his issue was how he delivered them. He says K.I.M.E felt more seasoned and gives it 2-1 to K.I.M.E. Professor Green also gives it to K.I.M.E, saying K.I.M.E took the first and came heavy enough in the third. Big Narstie says JAYCEE’s lyrics were good, but the punchlines were missing, while K.I.M.E was going straight in. The host confirms K.I.M.E as the winner.\n\nOfficial score: K.I.M.E 2-1.\n\nArchive note: JAYCEE had strong writing and a heavy third-round moment, but K.I.M.E had the cleaner delivery, stronger flow, better control and more polished battle performance."
+    "judgementSummary": {
+      "verdict": "Official Judgement: K.I.M.E 2-1",
+      "summary": "There is an official judgement in the transcript.\n\nAitch says the battle was close and that JAYCEE had a lot of bars, but his issue was how he delivered them. He says K.I.M.E felt more seasoned and gives it 2-1 to K.I.M.E. Professor Green also gives it to K.I.M.E, saying K.I.M.E took the first and came heavy enough in the third. Big Narstie says JAYCEE’s lyrics were good, but the punchlines were missing, while K.I.M.E was going straight in. The host confirms K.I.M.E as the winner.\n\nOfficial score: K.I.M.E 2-1.\n\nArchive note: JAYCEE had strong writing and a heavy third-round moment, but K.I.M.E had the cleaner delivery, stronger flow, better control and more polished battle performance."
+    }
   },
   {
     "id": "pg-s05-2025-01-18-cucha-vs-karma10tnf",
@@ -46241,12 +46249,14 @@ export const battles: Battle[] = [
       {
         "performer": "CAVEMAN",
         "overview": "CAVEMAN brings strong energy and a playful style. He performs with confidence and uses humour to keep the room engaged. His approach is less about deep personals and more about making K.I.M.E look awkward, smooth-faced, small and easy to mock.\n\nThe **Maybelline** line is his cleanest early punch because it uses a well-known beauty-brand slogan to mock K.I.M.E’s smooth appearance. The **Tarantino** line gives him a stronger pop-culture reference, and the later **Geoffrey the Butler** angle gets a good reaction because it is visual and easy to understand.\n\nCAVEMAN’s main strength is performance. His weakness is that the material does not feel as damaging as K.I.M.E’s. He has jokes, but K.I.M.E has personals.",
-        "lyricalThemes": "appearance jokes, smooth face, no hair, height, humour, Maybelline, Tarantino, Avelino, Benny the Butcher, Geoffrey the Butler."
+        "lyricalThemes": "appearance jokes, smooth face, no hair, height, humour, Maybelline, Tarantino, Avelino, Benny the Butcher, Geoffrey the Butler.",
+        "keyTechnicalHighlights": []
       },
       {
         "performer": "K.I.M.E",
         "overview": "K.I.M.E wins the one-rounder by being more specific. His round feels like he knows CAVEMAN personally, especially when he uses the name **Patrick** and references school history. That makes the material feel more grounded.\n\nHe attacks CAVEMAN’s lifestyle with lines about toilet hygiene, midlife crisis, bike trouble, iPhone issues, Matalan, caravans, Amsterdam, MDMA, drinking, breathalysers and limescale. The material is varied but still connected by one clear theme: CAVEMAN is being painted as messy, unstable and uncool.\n\nK.I.M.E’s biggest advantage is that his round feels more tailored. He is not just throwing jokes at CAVEMAN; he is building a character assassination.",
-        "lyricalThemes": "CAVEMAN’s real name, hygiene, midlife crisis, bike incident, lifestyle instability, drinking, pale complexion, limescale, school history, direct personals."
+        "lyricalThemes": "CAVEMAN’s real name, hygiene, midlife crisis, bike incident, lifestyle instability, drinking, pale complexion, limescale, school history, direct personals.",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -48682,7 +48692,10 @@ export const battles: Battle[] = [
         "explanation": "Waste/belt image, rough but violent."
       }
     ],
-    "judgementSummary": "There is an official judgement in the transcript.\n\nProfessor Green says DOMI had moments, especially the Yin and Yang concept, but a lot of his material was getting missed and he needed to focus on staying on the mic. Big Narstie is more direct, saying FENDRY shelled his face and that FENDRY was clearly the better man. Aitch says he originally misunderstood the assignment but then confirms that FENDRY 100% won the battle. The final judge explanation says DOMI had funny elements, but battle rap is not just entertainment, and bars-wise FENDRY took it.\n\nOfficial score: FENDRY wins.\n\nArchive note: DOMI was funny and had moments, but FENDRY recovered from a rough start and won the battle with a stronger second half and a decisive third round."
+    "judgementSummary": {
+      "verdict": "Official Judgement: FENDRY wins",
+      "summary": "There is an official judgement in the transcript.\n\nProfessor Green says DOMI had moments, especially the Yin and Yang concept, but a lot of his material was getting missed and he needed to focus on staying on the mic. Big Narstie is more direct, saying FENDRY shelled his face and that FENDRY was clearly the better man. Aitch says he originally misunderstood the assignment but then confirms that FENDRY 100% won the battle. The final judge explanation says DOMI had funny elements, but battle rap is not just entertainment, and bars-wise FENDRY took it.\n\nOfficial score: FENDRY wins.\n\nArchive note: DOMI was funny and had moments, but FENDRY recovered from a rough start and won the battle with a stronger second half and a decisive third round."
+    }
   },
   {
     "id": "pg-s05-2025-01-11-jaycee-vs-kime",
@@ -49461,7 +49474,10 @@ export const battles: Battle[] = [
         "explanation": "Strong closer-style personal: even JAYCEE’s own people expect the loss."
       }
     ],
-    "judgementSummary": "There is an official judgement in the transcript.\n\nAitch says the battle was close and that JAYCEE had a lot of bars, but his issue was how he delivered them. He says K.I.M.E felt more seasoned and gives it 2-1 to K.I.M.E. Professor Green also gives it to K.I.M.E, saying K.I.M.E took the first and came heavy enough in the third. Big Narstie says JAYCEE’s lyrics were good, but the punchlines were missing, while K.I.M.E was going straight in. The host confirms K.I.M.E as the winner.\n\nOfficial score: K.I.M.E 2-1.\n\nArchive note: JAYCEE had strong writing and a heavy third-round moment, but K.I.M.E had the cleaner delivery, stronger flow, better control and more polished battle performance."
+    "judgementSummary": {
+      "verdict": "Official Judgement: K.I.M.E 2-1",
+      "summary": "There is an official judgement in the transcript.\n\nAitch says the battle was close and that JAYCEE had a lot of bars, but his issue was how he delivered them. He says K.I.M.E felt more seasoned and gives it 2-1 to K.I.M.E. Professor Green also gives it to K.I.M.E, saying K.I.M.E took the first and came heavy enough in the third. Big Narstie says JAYCEE’s lyrics were good, but the punchlines were missing, while K.I.M.E was going straight in. The host confirms K.I.M.E as the winner.\n\nOfficial score: K.I.M.E 2-1.\n\nArchive note: JAYCEE had strong writing and a heavy third-round moment, but K.I.M.E had the cleaner delivery, stronger flow, better control and more polished battle performance."
+    }
   },
   {
     "id": "pg-s05-2025-01-18-cucha-vs-karma10tnf",
@@ -77044,12 +77060,14 @@ export const battles: Battle[] = [
       {
         "performer": "CAVEMAN",
         "overview": "CAVEMAN brings strong energy and a playful style. He performs with confidence and uses humour to keep the room engaged. His approach is less about deep personals and more about making K.I.M.E look awkward, smooth-faced, small and easy to mock.\n\nThe **Maybelline** line is his cleanest early punch because it uses a well-known beauty-brand slogan to mock K.I.M.E’s smooth appearance. The **Tarantino** line gives him a stronger pop-culture reference, and the later **Geoffrey the Butler** angle gets a good reaction because it is visual and easy to understand.\n\nCAVEMAN’s main strength is performance. His weakness is that the material does not feel as damaging as K.I.M.E’s. He has jokes, but K.I.M.E has personals.",
-        "lyricalThemes": "appearance jokes, smooth face, no hair, height, humour, Maybelline, Tarantino, Avelino, Benny the Butcher, Geoffrey the Butler."
+        "lyricalThemes": "appearance jokes, smooth face, no hair, height, humour, Maybelline, Tarantino, Avelino, Benny the Butcher, Geoffrey the Butler.",
+        "keyTechnicalHighlights": []
       },
       {
         "performer": "K.I.M.E",
         "overview": "K.I.M.E wins the one-rounder by being more specific. His round feels like he knows CAVEMAN personally, especially when he uses the name **Patrick** and references school history. That makes the material feel more grounded.\n\nHe attacks CAVEMAN’s lifestyle with lines about toilet hygiene, midlife crisis, bike trouble, iPhone issues, Matalan, caravans, Amsterdam, MDMA, drinking, breathalysers and limescale. The material is varied but still connected by one clear theme: CAVEMAN is being painted as messy, unstable and uncool.\n\nK.I.M.E’s biggest advantage is that his round feels more tailored. He is not just throwing jokes at CAVEMAN; he is building a character assassination.",
-        "lyricalThemes": "CAVEMAN’s real name, hygiene, midlife crisis, bike incident, lifestyle instability, drinking, pale complexion, limescale, school history, direct personals."
+        "lyricalThemes": "CAVEMAN’s real name, hygiene, midlife crisis, bike incident, lifestyle instability, drinking, pale complexion, limescale, school history, direct personals.",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -79485,7 +79503,10 @@ export const battles: Battle[] = [
         "explanation": "Waste/belt image, rough but violent."
       }
     ],
-    "judgementSummary": "There is an official judgement in the transcript.\n\nProfessor Green says DOMI had moments, especially the Yin and Yang concept, but a lot of his material was getting missed and he needed to focus on staying on the mic. Big Narstie is more direct, saying FENDRY shelled his face and that FENDRY was clearly the better man. Aitch says he originally misunderstood the assignment but then confirms that FENDRY 100% won the battle. The final judge explanation says DOMI had funny elements, but battle rap is not just entertainment, and bars-wise FENDRY took it.\n\nOfficial score: FENDRY wins.\n\nArchive note: DOMI was funny and had moments, but FENDRY recovered from a rough start and won the battle with a stronger second half and a decisive third round."
+    "judgementSummary": {
+      "verdict": "Official Judgement: FENDRY wins",
+      "summary": "There is an official judgement in the transcript.\n\nProfessor Green says DOMI had moments, especially the Yin and Yang concept, but a lot of his material was getting missed and he needed to focus on staying on the mic. Big Narstie is more direct, saying FENDRY shelled his face and that FENDRY was clearly the better man. Aitch says he originally misunderstood the assignment but then confirms that FENDRY 100% won the battle. The final judge explanation says DOMI had funny elements, but battle rap is not just entertainment, and bars-wise FENDRY took it.\n\nOfficial score: FENDRY wins.\n\nArchive note: DOMI was funny and had moments, but FENDRY recovered from a rough start and won the battle with a stronger second half and a decisive third round."
+    }
   },
   {
     "id": "pg-s05-2025-01-11-jaycee-vs-kime",
@@ -80264,7 +80285,10 @@ export const battles: Battle[] = [
         "explanation": "Strong closer-style personal: even JAYCEE’s own people expect the loss."
       }
     ],
-    "judgementSummary": "There is an official judgement in the transcript.\n\nAitch says the battle was close and that JAYCEE had a lot of bars, but his issue was how he delivered them. He says K.I.M.E felt more seasoned and gives it 2-1 to K.I.M.E. Professor Green also gives it to K.I.M.E, saying K.I.M.E took the first and came heavy enough in the third. Big Narstie says JAYCEE’s lyrics were good, but the punchlines were missing, while K.I.M.E was going straight in. The host confirms K.I.M.E as the winner.\n\nOfficial score: K.I.M.E 2-1.\n\nArchive note: JAYCEE had strong writing and a heavy third-round moment, but K.I.M.E had the cleaner delivery, stronger flow, better control and more polished battle performance."
+    "judgementSummary": {
+      "verdict": "Official Judgement: K.I.M.E 2-1",
+      "summary": "There is an official judgement in the transcript.\n\nAitch says the battle was close and that JAYCEE had a lot of bars, but his issue was how he delivered them. He says K.I.M.E felt more seasoned and gives it 2-1 to K.I.M.E. Professor Green also gives it to K.I.M.E, saying K.I.M.E took the first and came heavy enough in the third. Big Narstie says JAYCEE’s lyrics were good, but the punchlines were missing, while K.I.M.E was going straight in. The host confirms K.I.M.E as the winner.\n\nOfficial score: K.I.M.E 2-1.\n\nArchive note: JAYCEE had strong writing and a heavy third-round moment, but K.I.M.E had the cleaner delivery, stronger flow, better control and more polished battle performance."
+    }
   },
   {
     "id": "pg-s05-2025-01-18-cucha-vs-karma10tnf",
