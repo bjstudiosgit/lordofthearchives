@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+_next/
+out/
+
+# Logs
+*.log
+.codex-dev*.log
+
+# Build
+dist/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db

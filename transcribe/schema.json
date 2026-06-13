@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BattleReport",
+  "description": "A detailed analysis and report of a rap battle",
+  "type": "object",
+  "properties": {
+    "clashSummary": {
+      "type": "string",
+      "description": "A 3-5 sentence summary of the battle, highlighting the performance, key moments, and outcome."
+    },
+    "performanceAnalysis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "performer": {
+            "type": "string",
+            "description": "Name or ID of the MC being analyzed."
+          },
+          "overview": {
+            "type": "string",
+            "description": "A high-level overview of their performance."
+          },
+          "lyricalThemes": {
+            "type": "string",
+            "description": "The main subjects, metaphors, or angles they used."
+          },
+          "keyTechnicalHighlights": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "description": "A short title for the highlight (e.g., 'Star Alignment Scheme')."
+                },
+                "description": {
+                  "type": "string",
+                  "description": "A brief explanation of how this highlight was executed in their rounds."
+                }
+              },
+              "required": ["title", "description"]
+            }
+          }
+        },
+        "required": ["performer", "overview", "lyricalThemes", "keyTechnicalHighlights"]
+      },
+      "minItems": 2,
+      "maxItems": 4
+    },
+    "notableBars": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "performer": {
+            "type": "string",
+            "description": "The MC who delivered the bar."
+          },
+          "theme": {
+            "type": "string",
+            "description": "The category or subject of the punchline (e.g., 'Height', 'Family')."
+          },
+          "bar": {
+            "type": "string",
+            "description": "The exact quote from the transcript."
+          },
+          "explanation": {
+            "type": "string",
+            "description": "A brief breakdown of the wordplay or context."
+          }
+        },
+        "required": ["performer", "theme", "bar", "explanation"]
+      }
+    },
+    "oddMoments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of stumbles, restarts, mic drops, or weird occurrences."
+    },
+    "coolMoments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of crowd hype moments, excellent flow switches, or standout punches."
+    },
+    "postBattleContext": {
+      "type": "string",
+      "description": "Any additional aftermath context such as crowd votes, host selection, or tournament qualification."
+    }
+  },
+  "required": [
+    "clashSummary",
+    "performanceAnalysis",
+    "notableBars",
+    "oddMoments",
+    "coolMoments",
+    "postBattleContext"
+  ]
+}
