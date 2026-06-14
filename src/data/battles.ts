@@ -4123,8 +4123,7 @@ export const battles: Battle[] = [
     "stage": null,
     "group": null,
     "tag": null,
-    "winner": "debatable",
-    "statusNote": "No Official Winner",
+    "winner": "dan-dannah",
     "host": "Margs (Andre Wright)",
     "judges": [],
     "clashSummary": "Season 4 opened with a three-round heavyweight rematch between SKAMZ and DAN DANNAH. Margs explained that the season had moved away from the tournament format, leaving the audience to debate the result in the comments. SKAMZ attacked with animated delivery, recurring name flips and pop-culture references, while DAN DANNAH answered with a more controlled father-and-son angle, direct character attacks and reminders of their previous encounter. The transcript records no official verdict, making the battle a genuine audience decision.",
@@ -7176,25 +7175,364 @@ export const battles: Battle[] = [
     "postBattleContext": "The transcript never gives an official judges' decision, so the archive records this as an unjudged Season 4 battle with SKAMZ as the listed winner."
   },
   {
-    "id": "pg-s05-2023-09-02-drizzgb-vs-grams",
-    "slug": "drizzgb-trappy-vs-grams-passive",
-    "mc1": "drizzgb",
-    "mc2": "grams",
-    "mc3": "trappy",
-    "mc4": "passive",
-    "date": "02-09-2023",
-    "videoUrl": "https://www.youtube.com/watch?v=1MgsxzR9vJE",
-    "title": "DRIZZGB & TRAPPY vs GRAMS & PASSIVE",
-    "displayTitle": "DRIZZGB & TRAPPY vs GRAMS & PASSIVE",
+    "id": "pg-s05-skamz-sevz-vs-fdon-dan-dannah",
+    "slug": "skamz-sevz-vs-fdon-dan-dannah",
+    "mc1": "skamz",
+    "mc2": "f-don",
+    "mc3": "sevz",
+    "mc4": "dan-dannah",
+    "title": "SKAMZ & SEVZ vs F-DON & DAN DANNAH",
+    "displayTitle": "SKAMZ & SEVZ vs F-DON & DAN DANNAH",
     "theme": "pengame",
     "season": 5,
     "subGroup": "2v2 Tournament",
-    "customEp": "5x30",
+    "customEp": "2v2x5",
     "stage": null,
     "group": null,
     "tag": "2v2 Tournament",
-    "winner": "drizzgb",
-    "winner2": "trappy"
+    "winner": "f-don",
+    "winner2": "dan-dannah",
+    "isUnreleased": true
+  },
+  {
+      "id": "pg-s05-2023-09-02-drizzgb-vs-grams",
+      "slug": "drizzgb-trappy-vs-grams-passive",
+      "mc1": "drizzgb",
+      "mc2": "grams",
+      "mc3": "trappy",
+      "mc4": "passive",
+      "date": "02-09-2023",
+      "videoUrl": "https://www.youtube.com/watch?v=1MgsxzR9vJE",
+      "title": "DRIZZGB & TRAPPY vs GRAMS & PASSIVE",
+      "displayTitle": "DRIZZGB & TRAPPY vs GRAMS & PASSIVE",
+      "theme": "pengame",
+      "season": 5,
+      "subGroup": "2v2 Tournament",
+      "customEp": "2v2x6",
+      "stage": null,
+      "group": null,
+      "tag": "2v2 Tournament",
+      "winner": "drizzgb",
+      "winner2": "trappy",
+      "clashSummary": "DRIZZGB & TRAPPY vs GRAMS & PASSIVE took place at PenGame Rap Battle 2024, during the 2-on-2 semi-finals at Wembley Boxpark. This was the final battle of the night, with the winners advancing to the tournament final against F-DON & DAN DANNAH.\n\nThe judges for the battle are Christopher Savage, Young T, and Bugsey. The host makes it clear that this is a serious semi-final and that the winner goes through to the 2v2 final.\n\nGRAMS & PASSIVE win the coin toss, but DRIZZGB & TRAPPY go first. From the first round, DRIZZGB & TRAPPY show stronger 2v2 preparation. They use coordinated switches, shared setups, screen evidence and direct angles. Their first round focuses on GRAMS allegedly messaging Miss Ink, PASSIVE’s image, hygiene, shoes and the idea that PASSIVE has already overtaken GRAMS despite having fewer battles.\n\nGRAMS & PASSIVE respond with strong individual writing. PASSIVE brings clean name flips and direct punchlines, while GRAMS brings heavier personal attacks. Their first round has good material, but it does not feel as joined-up as DRIZZGB & TRAPPY’s opener.\n\nThe second round is the clearest example of DRIZZGB & TRAPPY’s chemistry. Their “back to zone and that” cadence, rematch angle, anti-Asian-joke angle, GRAMS sellout angle and PASSIVE name flips all combine into a strong team round. The crowd calls for a reload, but DRIZZGB & TRAPPY decide not to run it again at first, which shows confidence.\n\nGRAMS & PASSIVE’s second round goes darker. PASSIVE brings serious allegation-style material aimed at TRAPPY, including claims around women, messages and inappropriate behaviour. This round is heavy, but parts of the crowd boo and the angle becomes uncomfortable. The writing is pointed, but the impact is mixed.\n\nIn the third round, DRIZZGB & TRAPPY use a Birmingham-produced beat and continue attacking GRAMS and PASSIVE as a weak team. They use X-Men, football, smoke/grams wordplay, money/status angles and more direct 2v2 performance. GRAMS & PASSIVE answer with church/sermon imagery, Facebook accusation angles, and more direct personal attacks on TRAPPY and DRIZZGB.\n\nThe judges all agree that GRAMS & PASSIVE are talented individually, but they do not work as well as a team. DRIZZGB & TRAPPY are praised for their chemistry, timing, preparation and coordinated performance.\n\nThe official decision goes to DRIZZGB & TRAPPY, who advance to the 2v2 final.",
+      "performanceAnalysis": [
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "overview": "DRIZZGB & TRAPPY win because they understand the 2v2 format better. Their material is built as a team performance rather than two separate solo verses. They use call-and-response, planned switches, shared setups and coordinated crowd moments.\n\nTheir first round immediately sets the tone with the Miss Ink screen angle. They accuse GRAMS of moving badly in DMs and tell the crowd to look at the screen. That turns the battle into a live exposure moment rather than just a standard verse. They then switch to PASSIVE, attacking his shoes, hygiene, weakness and stage image.\n\nTheir strongest round is round two. The “back to zone and that” section gives the round rhythm, while the rematch angle against GRAMS gives it structure. They accuse GRAMS of only using Asian jokes, call him a sellout, mention him falling out with PenGame, and attack PASSIVE as weak and dirty. The round has the best teamwork of the battle.\n\nTheir third round is controlled and confident. They mock PASSIVE’s habit of producing beats, then use a Birmingham production to mark their own territory. The round uses X-Men, Wolverine, Deadpool, Professor X, Saka, Sancho and money/smoke wordplay. It is not just insult-heavy; it feels designed to close the semi-final.\n\nDRIZZGB & TRAPPY’s biggest strength is chemistry. Their timing makes them look like a real 2v2 team, and that is exactly what the judges reward.",
+              "lyricalThemes": "Miss Ink DM angle, Birmingham pride, GRAMS rematch, anti-Asian-joke angle, PenGame fall-out, PASSIVE’s appearance, hygiene, weak team chemistry, X-Men, football, smoke/grams wordplay, money/status angles.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round two."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "2v2 chemistry."
+                  },
+                  {
+                      "title": "Best angle",
+                      "description": "GRAMS as a sellout returning to PenGame after falling out."
+                  },
+                  {
+                      "title": "Best team element",
+                      "description": "Coordinated call-and-response switches."
+                  },
+                  {
+                      "title": "Battle-winning factor",
+                      "description": "Better preparation and stronger team performance."
+                  }
+              ]
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "overview": "GRAMS & PASSIVE have strong individual writing, especially PASSIVE. PASSIVE is clean, direct and controlled for most of the battle. GRAMS brings aggression and darker personal material. However, as a team they do not match DRIZZGB & TRAPPY’s chemistry.\n\nTheir first round has strong material. PASSIVE attacks DRIZZGB and TRAPPY’s size, status, relationship to Miss Ink, and overall image. GRAMS follows with heavier personal attacks, focusing on DRIZZGB, TRAPPY and their connections around PenGame. The writing is good, but the team structure is less smooth.\n\nTheir second round is more controversial. PASSIVE brings a serious allegation-style angle aimed at TRAPPY, involving women, messages and inappropriate behaviour. This is designed to be damaging, but it also creates a split reaction in the room. Some of the crowd boo, and the material becomes more uncomfortable than entertaining.\n\nTheir third round continues the dark angle. GRAMS opens with church/sermon imagery and says the battle is “God’s work.” They then keep attacking TRAPPY as a problem figure, using Facebook and internet-related claims. PASSIVE closes by saying TRAPPY should be on a different kind of list. Again, the material is heavy, but the room does not reward it enough to overcome DRIZZGB & TRAPPY’s teamwork.\n\nGRAMS & PASSIVE’s biggest strength is individual pen. Their weakness is team chemistry. The judges say this clearly: they are both good, but they do not combine as naturally as DRIZZGB & TRAPPY.",
+              "lyricalThemes": "DRIZZGB and TRAPPY image attacks, Miss Ink relationship angle, government funding/community worker jokes, serious allegations, Facebook exposure, church/sermon imagery, Joker references, N-word/race angle, Zohan, Mars/GRAMS anagram.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round one or three."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Individual writing."
+                  },
+                  {
+                      "title": "Best writer",
+                      "description": "PASSIVE."
+                  },
+                  {
+                      "title": "Best angle",
+                      "description": "TRAPPY allegation/Facebook angle."
+                  },
+                  {
+                      "title": "Battle-losing factor",
+                      "description": "Strong individually, weaker as a 2v2 unit."
+                  }
+              ]
+          }
+      ],
+      "notableBars": [
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "When most men talk to women first, they might say hi or hey.",
+              "explanation": "This starts the Miss Ink angle. DRIZZGB & TRAPPY set up normal conversation before contrasting it with GRAMS allegedly moving badly in DMs. It works because it starts casually before becoming an exposure angle."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "We’ve got info on GRAMS moving base — he should be ashamed.",
+              "explanation": "This is the foundation of the first-round attack. “Moving base” means moving badly or awkwardly in a social/romantic situation. They are saying GRAMS’ behaviour around Miss Ink was embarrassing."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "You got caught trying to get Miss Ink — look at the screen, now look at her face.",
+              "explanation": "This is a screen-evidence bar. It is effective because the crowd is not only hearing the accusation; they are being told to look at proof. In a 2v2, this adds theatre and makes the round feel more prepared."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Messages back to back, no shame.",
+              "explanation": "This continues the DM angle. The accusation is that GRAMS was sending repeated messages without success. It makes him look desperate and damages his cool image."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "If the fans can’t hear, then the fans can see.",
+              "explanation": "This is important because it explains the visual evidence angle. DRIZZGB & TRAPPY are using the screen as part of the performance. That gives the round a multimedia feel."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "You’re a simp, you’re skint, you’re a twirl, you’re a nerd, you’re a geek, you’re a neek.",
+              "explanation": "This is a stacking insult pattern. They pile labels on GRAMS and PASSIVE to make them look socially awkward and low-status. It is not complex, but the rhythm makes it hit."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "PASSIVE only had two battles before and he’s already better than you.",
+              "explanation": "This is one of the strongest GRAMS angles. It attacks GRAMS through his own partner. The point is that PASSIVE, despite being newer, has already overtaken him. In a 2v2, that creates division."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "He carried you through this whole season.",
+              "explanation": "This continues the partner-division angle. DRIZZGB & TRAPPY say GRAMS is not pulling his weight and PASSIVE is the stronger member of the team. It directly attacks their chemistry."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Okay GRAMS, we’re back for the rematch.",
+              "explanation": "This starts the second-round rematch angle. DRIZZGB & TRAPPY frame the battle as unfinished business with GRAMS, giving the round a clear narrative."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "You can’t use no Asian jokes.",
+              "explanation": "This attacks GRAMS’ writing habits. They accuse him of relying too much on Asian jokes or race-based material. It is a content critique as much as an insult."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "It’s P-A-W-S-I-V-E, it’s DRIZZGB, what the fuck do you mean fam?",
+              "explanation": "This flips PASSIVE’s spelling intro. PASSIVE often spells his name in rounds, so DRIZZGB & TRAPPY imitate and mock that style. It is a good way of taking an opponent’s branding and using it against them."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "I’ve smoked this Gram before.",
+              "explanation": "This is a direct GRAMS name flip. “Gram” can mean a small drug quantity, and “smoked” means both beaten and consumed. They are saying GRAMS has already been dealt with before."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "All this knife talk, how ironic that I get bored.",
+              "explanation": "This is a weapon-wordplay line. “Bored” can mean unimpressed, but also links to boring into something with a blade or tool. It mocks GRAMS’ violent talk as repetitive and unconvincing."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Why are you such a sellout? He wears a brand called RIOP, bro he can’t even move a ten ounce.",
+              "explanation": "This attacks GRAMS’ authenticity. “Move a ten ounce” links to drug-weight language, while the clothing-brand reference makes him look like someone wearing an image he cannot live up to."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "He’s been kicked out so many times by PenGame, please tell me why you fell out.",
+              "explanation": "This is a platform-history angle. DRIZZGB & TRAPPY accuse GRAMS of having problems with PenGame but still coming back. It makes him look inconsistent and dependent on the platform."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "They don’t respect you, Marnie, get out.",
+              "explanation": "This uses GRAMS’ real name, Marnie, to make the attack more personal. It is aimed at his status in PenGame and suggests the platform does not rate him the way he thinks."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "The only black that I see is the plaque in your teeth.",
+              "explanation": "This is a race/image/hygiene punch aimed at PASSIVE. It is harsh and personal, using “black” to flip into dental plaque. It should be read as battle material, not social commentary."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Who said crackheads could rap on beats?",
+              "explanation": "This is a drug/addiction insult aimed at GRAMS & PASSIVE. It is designed to make them look messy and unprofessional. It fits the wider angle that they are not clean enough to beat DRIZZGB & TRAPPY."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Say you hate PenGame, you came back to the league.",
+              "explanation": "This is one of the strongest status angles. They accuse GRAMS of criticising PenGame but still returning when he needs the platform. It frames him as contradictory."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Wait, let me calibrate. So your name’s GRAMS and PASSIVE — that’s a joke itself.",
+              "explanation": "This starts DRIZZGB & TRAPPY’s final round with a name-based reset. “Calibrate” suggests measuring or weighing, which fits the GRAMS concept. It also sets up the smoke/scale wordplay."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "After we smoke GRAMS and PASSIVE, GRAMS are weed to smoke themselves.",
+              "explanation": "This is a smoke/weight/name flip. GRAMS becomes both the battler and a drug quantity. It is a clean way to make his name part of the punch."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "We’re on a whole different scale.",
+              "explanation": "This continues the GRAMS measuring scheme. “Scale” can mean level, but also a weighing scale used for grams. It is a strong layered name flip."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "I turn beast — Wolverine. If the metal goes through Deadpool, it’s shambles.",
+              "explanation": "This references Wolverine and Deadpool from Marvel/X-Men. Wolverine has metal claws, and Deadpool is known for healing. DRIZZGB & TRAPPY use superhero imagery to make the attack feel cinematic."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "I’m like Professor X.",
+              "explanation": "This continues the X-Men scheme. Professor X is the leader of the X-Men. The line adds to the superhero theme and frames the speaker as controlling the battle."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Rat named GRAMS ain’t got money. Your name’s Marnie, but you ain’t got money.",
+              "explanation": "This is a money/name flip. Marnie sounds close to “money,” and GRAMS also links to value/weight. They use both to argue GRAMS has no real status."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "It’s ironic your name’s called GRAMS, because now everyone smokes them.",
+              "explanation": "This is one of the cleanest GRAMS flips. “Smokes them” means beats them, while grams can be smoked as drugs. It lands because it is simple, direct and tailored."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Look at this midget. He only watch porn if they see each other in it.",
+              "explanation": "This is a crude size and sexuality joke aimed at DRIZZGB or TRAPPY. It opens GRAMS & PASSIVE’s response with direct disrespect. It should be treated as battle material."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "GB means get a better bitch.",
+              "explanation": "This is a DRIZZGB name flip. “GB” usually points to Great Britain or branding, but PASSIVE turns it into “get a better bitch,” attacking DRIZZGB’s partner/relationship image."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Actual dwarf of the zoo.",
+              "explanation": "This is a size joke. It makes the opponent sound small and animalistic. It is simple, but in the room these direct visual insults can land quickly."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Trappy’s no trapper.",
+              "explanation": "This is the obvious name-flip angle on TRAPPY. If his name suggests trap credibility, GRAMS & PASSIVE say he does not live up to it. It attacks authenticity."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "DRIZZ is the guy to never show his face outside.",
+              "explanation": "This is a credibility attack. It implies DRIZZGB is not really active or present outside controlled environments. It is aimed at street image and confidence."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Do you want another scar on the back of your head?",
+              "explanation": "This is a personal physical-threat angle. It references an alleged previous injury or mark. It should be treated as battle material."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Say bye to PenGame like you said bye to your dad.",
+              "explanation": "This is a family/disappearance angle. It is designed as a harsh personal insult, not a factual statement. It attacks abandonment and platform exit at the same time."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Smoked you once, now I’ve got to re-roll this dead drizzle.",
+              "explanation": "This is a clean DRIZZGB name flip. “Drizzle” connects to DRIZZ, while “re-roll” and “smoked” connect to weed. It is one of GRAMS & PASSIVE’s better wordplay moments."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Orion got buried at sea, I bury these youths in the Thames.",
+              "explanation": "This references previous PenGame material involving WHOISORION and creates a water/burial image. The Thames gives it a London setting. It adds platform continuity."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Trappy is a community worker, so why’s he out here misleading the young’uns?",
+              "explanation": "This attacks TRAPPY’s public role or image. If he works around young people or community spaces, the bar accuses him of failing that responsibility. It becomes part of the later allegation-style angle."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Why’s Trappy in your name? Are you really a trappy? This guy gets government funding.",
+              "explanation": "This is another TRAPPY name/authenticity flip. Government funding clashes with the “trapper” image, making him look more institutional than street."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Miss Ink, I’ll soon be your husband.",
+              "explanation": "This responds to the Miss Ink angle. Rather than deny interest, GRAMS leans into it and says he could end up with her. It is a deflection through humour and bravado."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "You’re small like Baki.",
+              "explanation": "This references Baki, the martial-arts anime/manga character. The line is likely aimed at size and fighting image. It gives the insult an anime reference point."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "One chubby version of Anthony Mackie.",
+              "explanation": "This references Anthony Mackie, the actor known for playing Falcon/Captain America in Marvel. PASSIVE uses the comparison to mock the opponent’s look."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Big Cook, Little Cook, about to get cooked.",
+              "explanation": "This references Big Cook, Little Cook, the British children’s TV show. It works well in a 2v2 because DRIZZGB & TRAPPY are presented as a mismatched duo who are about to get cooked."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Even Kevin Hart couldn’t prepare you for what the fans gonna learn today.",
+              "explanation": "This references Kevin Hart, the comedian. The line suggests that even a professional comedian could not prepare them for the embarrassment about to be revealed."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "I’ve been getting messages from these victims telling me Trappy is real…",
+              "explanation": "This starts a serious allegation-style angle against TRAPPY. It should be treated carefully and not presented as verified fact. PASSIVE uses the claim to attack TRAPPY’s character."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "How the fuck’s he an entertainer? It’s Rush Hour — a Black man and an Asian.",
+              "explanation": "This references Rush Hour, the film series starring Jackie Chan and Chris Tucker. PASSIVE uses it to frame DRIZZGB & TRAPPY as a mismatched comedy/action duo. The wording is racialised and should be treated as battle material."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Liam Neeson, all these girls got taken.",
+              "explanation": "This references Taken, the film starring Liam Neeson. PASSIVE uses it to connect the allegation-style material to the idea of girls being “taken.” It is a dark pop-culture flip."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "This is my sermon. Do it like church.",
+              "explanation": "GRAMS opens the final round with religious imagery. A sermon is a church speech, so he frames the round as moral judgement. It gives the final response a serious tone."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Me and PASSIVE ain’t planned this — it’s God’s work.",
+              "explanation": "This tries to make their partnership feel natural or destined. It also pushes back against the idea that they lack chemistry by saying their connection is bigger than planning."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "These man are jokers — why so serious?",
+              "explanation": "This references The Joker from Batman, especially the famous “Why so serious?” line from The Dark Knight. It is used to mock DRIZZGB & TRAPPY as unserious while also making a pop-culture reference."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Try that in Luton and get blammed.",
+              "explanation": "This is a location/threat bar. Luton is used as a place where certain language or behaviour would allegedly get punished. It is battle material and should not be read literally."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "A man crept on a pussy — nothing like Zohan.",
+              "explanation": "This references You Don’t Mess with the Zohan, the Adam Sandler film. The line uses the Zohan reference as part of a crude sexual/character attack."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Majority GRAMS, there’s an anagram of Mars.",
+              "explanation": "This is a name-wordplay line. “GRAMS” can be rearranged to include “Mars” plus another letter, so GRAMS uses it as an anagram-based self-reference. It is more technical than much of his other material."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "There’s a different list TRAPPY should be on.",
+              "explanation": "This is another serious allegation-style closer. It implies TRAPPY belongs on a safeguarding or offender-type list. It should be archived carefully as battle material, not as a factual claim."
+          }
+      ]
   },
   {
     "id": "pg-s05-2024-04-02-whoisorion-vs-kandi",
@@ -7205,7 +7543,7 @@ export const battles: Battle[] = [
     "date": "02-04-2024",
     "videoUrl": "https://www.youtube.com/watch?v=9Yi2Q_vNKLE",
     "theme": "pengame",
-    "season": 5,
+    "season": 2025,
     "subGroup": "South vs North 2",
     "customEp": "5x45",
     "stage": null,
@@ -7214,21 +7552,275 @@ export const battles: Battle[] = [
     "winner": "whoisorion"
   },
   {
-    "id": "pg-s05-2024-09-14-che3kz-vs-premeboi-j",
-    "slug": "che3kz-vs-premeboi-j",
-    "mc1": "che3kz",
-    "mc2": "premeboi-j",
-    "title": "CHE3KZ vs PREMEBOI J",
-    "date": "14-09-2024",
-    "videoUrl": "https://www.youtube.com/watch?v=8xHhcLgskHQ",
-    "theme": "pengame",
-    "season": 5,
-    "subGroup": "North Battles",
-    "customEp": "5x14",
-    "stage": null,
-    "group": null,
-    "tag": "North Battles",
-    "winner": "che3kz"
+      "id": "pg-s05-2024-09-14-che3kz-vs-premeboi-j",
+      "slug": "che3kz-vs-premeboi-j",
+      "mc1": "che3kz",
+      "mc2": "premeboi-j",
+      "title": "CHE3KZ vs PREMEBOI J",
+      "date": "14-09-2024",
+      "videoUrl": "https://www.youtube.com/watch?v=8xHhcLgskHQ",
+      "theme": "pengame",
+      "season": 5,
+      "subGroup": "North Battles",
+      "customEp": "RBx02",
+      "stage": null,
+      "group": null,
+      "tag": "North Battles",
+      "winner": "che3kz",
+      "clashSummary": "CHE3KZ vs PREMEBOI J took place at PenGame North 2024. The host introduces the battle as part of the early/pre-season format, with no official judges present. Viewers are told to comment at home and decide who they think won.\n\nPREMEBOI J wins the coin toss and chooses for CHE3KZ to go first. CHE3KZ immediately takes control of the battle with direct, personal material. Her first round attacks PREMEBOI J’s appearance, attitude towards women, social image, and general awkwardness. She is aggressive, clear and gets straight to the point.\n\nPREMEBOI J responds with a more flow-based round, but his material is less direct. He talks about lyrical ability, culture, grinding and being a “lyrical bad man,” but he does not land as many specific personals. His delivery has moments, but CHE3KZ feels more prepared and more damaging.\n\nThe second round is the turning point. CHE3KZ brings a heavy research-style angle involving DMs, dating behaviour, consent, “Ask for Angela,” and Purple Aki. The round gets a strong reaction and a reload. PREMEBOI J then starts his second round but drops the mic. The host had warned before the battle that dropping the mic means no second chance, so PREMEBOI J does not get to complete that round.\n\nCHE3KZ’s third round continues the pressure. She attacks PREMEBOI J’s image, social status, Instagram, looks, star sign and lack of appeal. PREMEBOI J closes with a freestyle-style third, but it is more general and does not do enough to overturn the damage already done.\n\nThere is no official judgement, but on archive review this is a clear win for CHE3KZ. PREMEBOI J’s dropped mic in round two makes the scoring even more one-sided.",
+      "performanceAnalysis": [
+          {
+              "performer": "CHE3KZ",
+              "overview": "CHE3KZ controls the battle from the first round. Her material is direct, personal and easy to follow. She does not waste time trying to be overly technical; instead, she attacks PREMEBOI J’s appearance, hygiene, behaviour with women, social reputation and credibility.\n\nHer first round works because it immediately sets the tone. She makes PREMEBOI J look unattractive, awkward and uncomfortable around women. The “black Frankenstein” and “turtle without its shell” lines are simple visual insults, but they are clear and crowd-friendly.\n\nHer second round is her strongest. She brings a full character-assassination angle around DMs, dating, consent and “Ask for Angela.” It feels more researched than anything PREMEBOI J brings. The Purple Aki reference also lands as a Liverpool/UK cultural reference, giving the round a local sting.\n\nHer third round is a victory lap. She has already won the battle by this point, but she keeps attacking PREMEBOI J’s image, calling him unread, crusty, ugly and not worth checking online. The crowd-call section at the end gives her control of the room.\n\nCHE3KZ’s biggest strength is directness. Her material is not always subtle, but it is effective. She makes PREMEBOI J look uncomfortable and keeps the battle on her terms.",
+              "lyricalThemes": "PREMEBOI J’s looks, treatment of women, consent, DMs, hygiene, Purple Aki, Instagram, rejection, awkwardness, incel image, crowd control.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round two."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Direct personal attacks."
+                  },
+                  {
+                      "title": "Best angle",
+                      "description": "Consent / dating behaviour / “Ask for Angela.”"
+                  },
+                  {
+                      "title": "Biggest room moment",
+                      "description": "Purple Aki section and reload."
+                  },
+                  {
+                      "title": "Battle-winning factor",
+                      "description": "PREMEBOI J dropped the mic in round two and CHE3KZ stayed more consistent."
+                  }
+              ]
+          },
+          {
+              "performer": "PREMEBOI J",
+              "overview": "PREMEBOI J has moments of flow and energy, but he never fully takes control of the battle. His first round focuses more on lyrical confidence than direct personals. He talks about being a lyrical bad man, adapting to flows, and proving he belongs, but the material does not hit as hard as CHE3KZ’s specific attacks.\n\nHis second round is where the battle collapses for him. He starts to respond but drops the mic. Because the host clearly warned at the start that dropping the mic means no second chance, he is not allowed to restart. That gives CHE3KZ a major advantage and effectively costs him the round.\n\nHis third round is more freestyle-based. He tries to recover with confidence, talking about his own ability, being from a different cloth, having a sick team and not adapting because the raps will not take him back. However, it sounds more like a general freestyle than a direct battle-winning round.\n\nPREMEBOI J’s main weakness is lack of directness. He needed to answer CHE3KZ’s accusations and personals more sharply, but instead he often stays in broad lyrical-boast territory.",
+              "lyricalThemes": "lyrical ability, proving himself, flow adaptation, culture, freestyle confidence, neighbourhood image, self-belief.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round one or three."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Flow confidence."
+                  },
+                  {
+                      "title": "Best angle",
+                      "description": "Trying to frame CHE3KZ as not culturally or lyrically relevant."
+                  },
+                  {
+                      "title": "Main weakness",
+                      "description": "Not enough specific personals."
+                  },
+                  {
+                      "title": "Battle-losing factor",
+                      "description": "Dropped mic in round two."
+                  }
+              ]
+          }
+      ],
+      "notableBars": [
+          {
+              "performer": "CHE3KZ",
+              "bar": "This guy was gassed when he heard it’s a girl in a clash.",
+              "explanation": "CHE3KZ opens by saying PREMEBOI J underestimated her because she is a woman. It immediately frames the battle around gender and disrespect. She is saying he thought this would be easy, but he misjudged the matchup."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "He loves to hurt and beat women up just for a laugh.",
+              "explanation": "This is a serious allegation-style battle angle and should be treated strictly as battle material, not fact. CHE3KZ uses it to attack PREMEBOI J’s character and make him look dangerous or morally weak. It sets a dark tone early."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Prem, tell me why you never moisturise.",
+              "explanation": "This is a simple but effective appearance/hygiene insult. It makes PREMEBOI J look dry, uncared-for and unattractive. In a live battle, these short visual punches are easy for the crowd to catch."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Prem, you look like a black Frankenstein.",
+              "explanation": "This is a strong visual reference. Frankenstein’s monster is associated with being stitched together, unnatural and frightening-looking. CHE3KZ uses it to mock PREMEBOI J’s appearance."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Your face looks like the scene of a crime.",
+              "explanation": "This continues the appearance attack. Instead of saying he is ugly in a basic way, CHE3KZ makes his face sound like damage has happened there. It is exaggerated but effective battle imagery."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "You’re so ugly, the blind can tell.",
+              "explanation": "This is a classic battle-style insult. The point is that PREMEBOI J’s appearance is supposedly so bad that even someone who cannot see would notice. It is simple and harsh."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Looks like a turtle without its shell.",
+              "explanation": "This is another visual comparison. A turtle without its shell would look exposed, awkward and incomplete. CHE3KZ uses it to make PREMEBOI J seem physically odd and vulnerable."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "I heard on the Mersey you suck dick.",
+              "explanation": "This is sexuality-based battle material and should not be treated as fact. The reference to the Mersey gives it a Liverpool/North West setting. It is designed to embarrass PREMEBOI J locally."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Your ex slid in my DMs and told me to tell you…",
+              "explanation": "This is the start of CHE3KZ’s strongest angle. Bringing in an alleged ex gives the round a research-based feel. It makes the material sound sourced rather than random."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Your breath, it stinks. Deodorant failed you.",
+              "explanation": "This is a hygiene angle. CHE3KZ attacks PREMEBOI J’s smell, which is a direct and embarrassing live-room insult. It supports the wider image that he is unattractive and socially off-putting."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Stop standing outside her window with a dildo undressed.",
+              "explanation": "This is a serious allegation-style line framed as battle material. CHE3KZ uses it to make PREMEBOI J look creepy and inappropriate. It is one of the more shocking claims in the second round."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "She had one date with you, but you was weird and a pest.",
+              "explanation": "CHE3KZ continues the dating-behaviour angle. The word “pest” makes PREMEBOI J sound irritating, unwanted and hard to get rid of. It reinforces the idea that women are uncomfortable around him."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Consent is sexy, why does it anger you?",
+              "explanation": "This is one of CHE3KZ’s strongest lines conceptually. It uses the modern consent slogan “consent is sexy” and flips it into a direct accusation. The bar is effective because it feels socially current and morally pointed."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "If you see him in the club, ask the staff for Angela.",
+              "explanation": "This references Ask for Angela, a UK safety initiative where someone can discreetly ask bar staff for help if they feel unsafe on a date or night out. CHE3KZ uses it to make PREMEBOI J sound like the kind of man women need protection from. It is one of her best real-world references."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "You look like Shakira if he was ugly and from Temu.",
+              "explanation": "This appears to reference Shakira, the global pop star, and Temu, the low-cost online marketplace. CHE3KZ uses Temu to imply a cheap, poor-quality version of someone famous. It is a funny modern reference, even if the transcript catches the wording roughly."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Research you, heard you’re batty, and I know your uncle’s Purple Aki.",
+              "explanation": "This is a Liverpool/UK cultural reference. Purple Aki is a notorious figure often referenced in UK street humour and urban legend-style jokes around inappropriate behaviour and body/muscle fixation. CHE3KZ uses the name to make the round feel local, uncomfortable and heavily researched."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "I’m C-H-E-3-K to the Zed.",
+              "explanation": "CHE3KZ spells her name out to assert identity and control. It works as a reset after the more personal second round. She is making sure the crowd remembers who is running the clash."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Calling my morgue, my man is dead.",
+              "explanation": "This is battle-death language, not literal. CHE3KZ is saying PREMEBOI J is finished in the clash. It fits the third round as a victory-lap statement."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "He’s the type to get left unread.",
+              "explanation": "This is a social-media/dating insult. Being “left unread” means someone sees your message and does not respond. CHE3KZ uses it to make PREMEBOI J look undesirable and ignored."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "Incel gang, take love with head.",
+              "explanation": "This frames PREMEBOI J as an incel-type figure — someone rejected by women and resentful about it. It connects to her wider theme that he behaves badly around women and has no romantic appeal."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "I’m Leo, he’s Cancer, he’s sensitive to my banter.",
+              "explanation": "This is a zodiac-sign bar. Leo is often associated with confidence and boldness, while Cancer is stereotypically associated with sensitivity and emotion. CHE3KZ uses star signs to make PREMEBOI J look soft and easily hurt."
+          },
+          {
+              "performer": "CHE3KZ",
+              "bar": "When I say Pre, you say dead.",
+              "explanation": "This is crowd-control material. CHE3KZ turns PREMEBOI J’s name into a call-and-response chant. It shows control of the room and makes the battle feel like it belongs to her."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "16 for 16 was me, living a dream.",
+              "explanation": "PREMEBOI J opens by presenting himself as someone with lyrical ability and ambition. The wording suggests he sees himself as consistent, bar-for-bar. It is more of a self-introduction than a direct attack."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "I can see that you’re so not relevant.",
+              "explanation": "This is one of his clearer angles. PREMEBOI J tries to dismiss CHE3KZ as someone who does not matter in the scene. The problem is that he does not build the angle as strongly as CHE3KZ builds hers."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "Why do you think you can clash? You should have stayed home and done your homework.",
+              "explanation": "This attacks CHE3KZ as inexperienced or unprepared. The homework line makes her sound like someone who should be studying rather than battling. It is a basic but understandable angle."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "PenGame made a mistake, put your levels up to the test.",
+              "explanation": "PREMEBOI J says the platform made an error by matching CHE3KZ with him. He positions himself as the test she cannot pass. This could have been a strong angle, but it needed more direct evidence behind it."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "You’re a disgrace to the culture.",
+              "explanation": "This is a serious credibility attack. PREMEBOI J claims CHE3KZ does not represent battle rap or hip-hop culture properly. It is one of his stronger statements, but again it is broad rather than personal."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "I’ve got that lyrical bad man.",
+              "explanation": "PREMEBOI J leans into the idea that he is lyrically dangerous. This is more about style than content. It shows confidence, but it does not hit as hard as direct personals."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "Don’t act like the lyrical soldier.",
+              "explanation": "This continues his lyrical-identity angle. He is saying CHE3KZ should not pretend to be a serious lyrical fighter. It fits his overall attempt to challenge her credibility."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "I adapt to a flow you adopted.",
+              "explanation": "This is one of PREMEBOI J’s better technical ideas. He says he naturally adapts to flows, while CHE3KZ is only borrowing or copying one. It is a good rapper-vs-rapper angle."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "You’re a gangster, I’m a dancer too.",
+              "explanation": "The transcript is rough here, but PREMEBOI J appears to be contrasting street image with performance ability. It suggests he can move in different lanes. The line is not as clear as it needs to be, which limits its impact."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "You know I jump right on the money.",
+              "explanation": "This is a hustle/focus line. PREMEBOI J says he is money-motivated and direct. It works as self-branding, but it is not strongly aimed at CHE3KZ."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "If you wanna come against I, them lyrics will stroke you off of your vibe.",
+              "explanation": "This is from his final round and works as a warning. He is saying his lyrics can throw the opponent off balance. It is a performance claim rather than a personal punch."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "I never let my big black bullet touch your cookie.",
+              "explanation": "This is sexualised battle material and should be handled carefully. PREMEBOI J uses it as a crude rejection line, saying he would not be interested. It is designed to insult CHE3KZ’s desirability."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "Do your research, I hold my own.",
+              "explanation": "This is one of his more relevant responses, because CHE3KZ’s strongest material is research-based. PREMEBOI J says if she had really done research, she would know he can stand on his own. It is a useful rebuttal attempt, but not enough to swing the battle."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "Cut from a different cloth, you can tell from the texture.",
+              "explanation": "This is a standard self-confidence bar. “Different cloth” means being built differently, while “texture” extends the fabric metaphor. It is clean but generic."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "Not like Cosa Nostra.",
+              "explanation": "This references Cosa Nostra, the Sicilian Mafia. PREMEBOI J uses it to create a criminal-organisation image around loyalty or power. The line is more stylish than damaging."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "27 never looked as good.",
+              "explanation": "PREMEBOI J uses his age as a confidence line. He is saying he looks good for his age and is still performing well. It gives the final round a bit of personality."
+          },
+          {
+              "performer": "PREMEBOI J",
+              "bar": "Round of applause cause you stay clapped.",
+              "explanation": "This is a beauty insult. “Clapped” is UK slang for unattractive. PREMEBOI J tries to turn the crowd into part of the insult by asking for applause."
+          }
+      ]
   },
   {
     "id": "pg-s05-2024-09-18-zen-vs-caveman",
@@ -10426,67 +11018,894 @@ export const battles: Battle[] = [
     }
   },
   {
-    "id": "pg-s05-2024-10-19-whoisorion-vs-drizzgb",
-    "slug": "whoisorion-cheezee-vs-drizzgb-trappy",
-    "mc1": "whoisorion",
-    "mc2": "drizzgb",
-    "mc3": "cheezee",
-    "mc4": "trappy",
-    "title": "WHOISORION & CHEEZEE vs DRIZZGB & TRAPPY",
-    "displayTitle": "WHOISORION & CHEEZEE vs DRIZZGB & TRAPPY",
-    "date": "19-10-2024",
-    "videoUrl": "https://www.youtube.com/watch?v=Gs5oCCGUlX4",
-    "theme": "pengame",
-    "season": 5,
-    "subGroup": "2v2 Tournament",
-    "customEp": "5x26",
-    "stage": null,
-    "group": null,
-    "tag": "2v2 Tournament",
-    "winner": "drizzgb",
-    "winner2": "trappy"
+      "id": "pg-s05-2024-10-19-whoisorion-vs-drizzgb",
+      "slug": "whoisorion-cheezee-vs-drizzgb-trappy",
+      "mc1": "whoisorion",
+      "mc2": "drizzgb",
+      "mc3": "cheezee",
+      "mc4": "trappy",
+      "title": "WHOISORION & CHEEZEE vs DRIZZGB & TRAPPY",
+      "displayTitle": "WHOISORION & CHEEZEE vs DRIZZGB & TRAPPY",
+      "date": "19-10-2024",
+      "videoUrl": "https://www.youtube.com/watch?v=Gs5oCCGUlX4",
+      "theme": "pengame",
+      "season": 5,
+      "subGroup": "2v2 Tournament",
+      "customEp": "2v2x1",
+      "stage": null,
+      "group": null,
+      "tag": "2v2 Tournament",
+      "winner": "drizzgb",
+      "winner2": "trappy",
+      "clashSummary": "WHOISORION & CHEEZEE vs DRIZZGB & TRAPPY took place during PenGame Rap Battle 2024 as part of the 2v2 tournament run. The battle is introduced as a major clash, with the host shouting out Lounges TV, Platinum Education Services, and the live-stream audience before bringing both teams forward.\n\nWHOISORION wins the coin toss and chooses for DRIZZGB & TRAPPY to go first. From the start, DRIZZGB & TRAPPY make it clear that they are coming as a proper team. Their material is built around back-and-forth timing, switching between each other, attacking both opponents, and using screen evidence, relationship angles and chemistry-based punches.\n\nWHOISORION & CHEEZEE respond with darker and more personal material. Their first round includes allegations aimed at DRIZZGB, attacks on TRAPPY’s identity, his partner, and some direct physical disrespect. CHEEZEE also adds a grime section to change the pace. Their strongest moments come when they go fully personal, especially in round two, but their material becomes controversial because of the dead-mother and grave angles.\n\nThe battle becomes increasingly heated. DRIZZGB & TRAPPY attack WHOISORION and CHEEZEE’s team chemistry, claiming they are snaking each other behind the scenes. They use screenshots and “look at the screen” moments to show alleged proof that CHEEZEE had spoken behind WHOISORION’s back. Their “next man, next man, next man” section becomes one of the clearest 2v2 performance moments in the battle.\n\nWHOISORION & CHEEZEE continue with heavy personal material in the final round, including adoption, family, dead-mother and relationship angles. However, this hurts them with at least one judge, who says the mother material crossed a line and cost them rounds.\n\nThe official decision goes to DRIZZGB & TRAPPY. The judges praise their chemistry, flow, performance and control of the 2v2 format. One judge calls it 3-0 to DRIZZGB & TRAPPY, while others still acknowledge strong moments from WHOISORION & CHEEZEE. For archive purposes, this should be recorded as a DRIZZGB & TRAPPY win, with a recommended archive score of 2-1.",
+      "performanceAnalysis": [
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "overview": "DRIZZGB & TRAPPY win because they feel more like a two-man team. Their chemistry is stronger, their switches are sharper, and they use the 2v2 format better. They do not simply take turns rapping separate verses; they build moments together.\n\nTheir first round sets the tone by attacking both opponents’ size, image, home situation, relationships and names. The “battleships / bag of chips” section is clear and easy to catch, while the “holes in CHEEZEE like Swiss” line uses CHEEZEE’s name well. They also bring visual comedy and crowd-facing material about the opponents shaking the stage and needing double XL coffins.\n\nTheir second round is where they really take control as a team. They attack CHEEZEE’s name, PenGame status, previous group situation, and weight. They also use the “next man” repetition to create a live-room moment that sounds designed for a 2v2 setting. This is one of the clearest examples of them performing together rather than separately.\n\nTheir third round is their most strategic. They expose alleged behind-the-scenes messages, claim WHOISORION and CHEEZEE lack real chemistry, and use the screen to support their angle. They also use the “allegedly” section to frame accusations while keeping the room engaged. The final stretch about Orion’s parents and CHEEZEE’s relationship becomes very disrespectful, but the judges still give them the battle because of control and execution.\n\nDRIZZGB & TRAPPY’s biggest strength is teamwork. Their biggest weakness is that they also go into heavy personal territory, but compared with WHOISORION & CHEEZEE, their structure and chemistry make the difference.",
+              "lyricalThemes": "2v2 chemistry, Birmingham pride, body/weight jokes, CHEEZEE name flips, Swiss cheese, screenshots, team betrayal, girlfriend/relationship angles, “next man” repetition, grime energy, crowd control.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round two or three."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "2v2 chemistry and switching."
+                  },
+                  {
+                      "title": "Best team moment",
+                      "description": "“Next man, next man, next man.”"
+                  },
+                  {
+                      "title": "Best angle",
+                      "description": "WHOISORION and CHEEZEE lacking real team chemistry."
+                  },
+                  {
+                      "title": "Battle-winning factor",
+                      "description": "Better use of the 2v2 format."
+                  }
+              ]
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "overview": "WHOISORION & CHEEZEE have strong individual moments, but they do not feel as joined-up as DRIZZGB & TRAPPY. WHOISORION brings the darker personal material, while CHEEZEE brings energy and grime sections. When they work, they are dangerous, but the team balance is less consistent.\n\nTheir first round starts strongly with accusations aimed at DRIZZGB and TRAPPY, including age, Link Up TV, relationship and battle-identity angles. CHEEZEE’s grime section gives the round a different texture and helps them avoid sounding one-dimensional.\n\nTheir second round is their darkest. They focus on DRIZZGB’s race/ethnicity, family, adoption, real mother, and dead-mother material. This section gets a major reaction, but it also becomes the reason one judge later says they lost rounds. The material is impactful, but it crosses into an area some judges did not want.\n\nTheir third round keeps attacking family and relationship material. They bring adoption, real dad, real mum, TRAPPY’s status in Birmingham, and partner/relationship angles. The issue is that by this stage, DRIZZGB & TRAPPY have already made the battle about team chemistry and alleged internal betrayal, which is a stronger 2v2 angle.\n\nWHOISORION & CHEEZEE’s biggest strength is shock value and direct personal attack. Their biggest weakness is that the team chemistry is not as strong, and some of the dead-family material works against them in judging.",
+              "lyricalThemes": "DRIZZGB allegations, Peppa Pig, Link Up TV, TRAPPY’s partner, grime switch, race/ethnicity angles, adoption, dead-mother material, grave material, real dad/real mum angles, team identity.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round one or two."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Dark personal material."
+                  },
+                  {
+                      "title": "Best style switch",
+                      "description": "CHEEZEE’s grime section."
+                  },
+                  {
+                      "title": "Most controversial angle",
+                      "description": "Dead-mother and grave material."
+                  },
+                  {
+                      "title": "Battle-losing factor",
+                      "description": "Less team chemistry and personal material that cost them with judges."
+                  }
+              ]
+          }
+      ],
+      "notableBars": [
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "I can take them out all one by one like battleships.",
+              "explanation": "This is a simple but effective opener. Battleships is a game where players take turns sinking each other’s ships. DRIZZGB & TRAPPY use it to say they can remove both opponents one by one."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "The only bag they’ll get after this — bag of chips.",
+              "explanation": "This is a money/status insult. “Bag” can mean money, but they flip it into a cheap bag of chips. It makes WHOISORION and CHEEZEE look low-value after the battle."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Might put holes in CHEEZEE like Swiss.",
+              "explanation": "This is a direct CHEEZEE name flip. Swiss cheese is known for having holes in it, so the line turns CHEEZEE’s name into a punch. It is simple, clear and tailored."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Look at the big screen — we’re versus dads.",
+              "explanation": "This is a visual attack using the screen. DRIZZGB & TRAPPY try to make the opponents look older and less current. The screen element adds live-room theatre to the punch."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "You said you live by yourself, but that’s your dad’s house.",
+              "explanation": "This is a status and independence angle. They accuse the opponent of pretending to be self-sufficient while still living in family property. It attacks maturity and credibility."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "BMI, fitness test — are you making the right move? Have you got diabetes type two?",
+              "explanation": "This is a body/health insult aimed at size and fitness. BMI means body mass index, and type 2 diabetes is commonly associated in public discourse with weight and lifestyle. It is harsh battle material, used to mock appearance."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "They’re shaking the stage when the guys move.",
+              "explanation": "This is a weight/physical presence joke. It works in the room because the audience can see both opponents on stage. It is a live visual punch rather than a complex written bar."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Put them in double XL coffins.",
+              "explanation": "This continues the body-size angle. Double XL refers to clothing size, but they apply it to coffins. It is dark but clearly structured."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "I heard CHEEZEE and I thought sandwich toppings.",
+              "explanation": "This is another CHEEZEE name flip. It reduces his name to food, making him sound unserious. It also fits the wider body/food jokes used throughout the battle."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Grams and Piff, the battle switched — we were supposed to get rid of them first.",
+              "explanation": "This references the 2v2 tournament context. DRIZZGB & TRAPPY say they were meant to face different opponents first, but whoever stands in front of them will get dealt with. It makes them sound prepared for anyone."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Why the fuck is your name CHEEZEE? Your name’s after the shittest weed.",
+              "explanation": "This is a weed-name flip. “Cheese” is a known cannabis strain, but they use it to insult CHEEZEE by saying even the thing his name resembles is low-quality. It is tailored and easy to follow."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Pengame kicked him out the group, now he’s coming begging back up — oh please.",
+              "explanation": "This is a platform-history angle. They accuse CHEEZEE of being removed or distanced from the group, then returning when it suits him. It attacks loyalty and status."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "First one knockout, this one’s lethal.",
+              "explanation": "DRIZZGB & TRAPPY frame the battle as a sequel to previous damage. The line suggests they already hurt the opponents once and this second encounter is even more dangerous. It adds narrative to the performance."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "The next man, next man, next man.",
+              "explanation": "This becomes one of the biggest performance moments of the battle. The repetition works like a chant and highlights the relationship/loyalty angle. It also shows DRIZZGB & TRAPPY’s chemistry because the section feels designed for two voices."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "That’s what a bitch sounds like when certain man ain’t in the room.",
+              "explanation": "This is the start of their third-round exposure angle. They claim WHOISORION speaks differently when certain people are not present. The bar attacks courage and authenticity."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "You wouldn’t say that if he was here, now you’re telling Young Spray what to do?",
+              "explanation": "This references Young Spray, a UK rap figure and podcast personality. DRIZZGB & TRAPPY use the name to make the angle feel bigger than the battle, suggesting WHOISORION was moving strangely behind the scenes."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Before we all move forward, there’s a few things to address in the room.",
+              "explanation": "This sets up the “allegedly” section. It works because it sounds like they are about to present evidence rather than just rap. That makes the round feel structured and theatrical."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "WHOISORION is gay — allegedly.",
+              "explanation": "This is sexuality-based battle material and should not be treated as fact. The word “allegedly” is used to make the section sound like a mock legal disclaimer. It is part of the performance angle rather than verified information."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "Crowd, look at the screen ahead of me.",
+              "explanation": "This is one of the most important 2v2 tactics in the battle. DRIZZGB & TRAPPY use visual evidence to support the claim that CHEEZEE spoke behind WHOISORION’s back. It turns the battle from pure bars into a live presentation."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "She’s talking behind Orion’s back on Traps — that’s mad team chemistry.",
+              "explanation": "This is the strongest team-angle punch. In a 2v2, chemistry matters more than individual writing. DRIZZGB & TRAPPY say WHOISORION and CHEEZEE are not a real team because one allegedly talked behind the other’s back."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "You said your teammate should get slapped off — how could you say that? You’re meant to be his backup.",
+              "explanation": "This continues the team-chemistry angle. They accuse CHEEZEE of failing as a partner. It is effective because it attacks the structure of the team, not just the individuals."
+          },
+          {
+              "performer": "DRIZZGB & TRAPPY",
+              "bar": "CHEEZEE yourself, I call you feta cheese.",
+              "explanation": "This is a cheese-name flip using feta, a type of cheese. It is not the deepest bar, but it keeps the name-flip theme going and gives the round a quick punch."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Truth be told, I gotta shout DRIZZ — you can’t shout a man that like kids.",
+              "explanation": "This is a serious allegation-style angle and should be treated strictly as battle material, not fact. WHOISORION opens by trying to make DRIZZGB look morally damaged. It is dark and direct."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "The girls that he likes, they probably watch Peppa Pig.",
+              "explanation": "This references Peppa Pig, a children’s cartoon. The line continues the accusation-style angle by implying underage attraction. It is a shock-value bar, not a verified claim."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Can you look straight without moving your eye?",
+              "explanation": "This is a physical appearance/disability-style insult aimed at DRIZZGB’s eye. It is direct and visual. In battle rap terms, it is harsh but easy for the room to catch."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "We got CHEEZEE and WHOISORION versus DRIZZ and who is this guy?",
+              "explanation": "This attacks TRAPPY as unknown. Because TRAPPY is debuting, WHOISORION frames him as the weak link and someone with no status. It is a strong 2v2 opener because it immediately separates the established battler from the newcomer."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "I don’t know, but he’s not a trapper.",
+              "explanation": "This flips TRAPPY’s name. If his name is TRAPPY, the expectation is that he has trap credibility, but WHOISORION says he does not. It is a basic but direct name attack."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Plus his girl is a battle rapper.",
+              "explanation": "This brings TRAPPY’s partner into the battle. It becomes part of a wider angle about whether TRAPPY is known for his own ability or through his partner. This is a personal relationship angle."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "He was on Link Up TV, but liking a kid will put you behind bars.",
+              "explanation": "This references Link Up TV, a major UK music platform. WHOISORION contrasts public music exposure with the serious allegation-style material he is aiming at DRIZZGB. Again, this should be archived as battle material, not fact."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Since you don’t like drill, I brought out CHEEZEE — come out and play.",
+              "explanation": "This sets up CHEEZEE as a style switch. WHOISORION says if drill is not the lane, CHEEZEE can bring grime. It shows some attempt at team structure."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "I’m gonna get Big CHEEZEE and kill him with grime.",
+              "explanation": "This gives CHEEZEE a role in the team: he is the grime weapon. It is one of their better team-hand-off moments because it directly introduces the next style shift."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Man threw a ciggy… you didn’t chop.",
+              "explanation": "This appears to reference a previous incident involving a cigarette being thrown. It is used to question the opponent’s reaction or toughness. The line depends on scene context, so it is best treated as platform-specific battle material."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "DRIZZ claims he’s black, but I can’t address that cause my brother’s with me.",
+              "explanation": "This begins a race/ethnicity angle. WHOISORION questions DRIZZGB’s identity and how he presents himself. It is sensitive and should be framed as battle material rather than factual judgement."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Pakistan, Iraq and Iran, Afghanistan… bro, I lied, he’s from Kazakhstan.",
+              "explanation": "This is a nationality/identity scheme. WHOISORION throws out a list of countries, then lands on Kazakhstan as part of the joke. The line is designed to mock confusion around DRIZZGB’s background."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Fuck Borat, he’s like Ali G.",
+              "explanation": "This references Borat and Ali G, both characters created by Sacha Baron Cohen. Borat is associated with Kazakhstan, while Ali G is a parody of someone adopting Black/urban culture. WHOISORION uses the references to attack DRIZZGB’s identity and persona."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "How to get rid of an allergy? Let it sneeze at you — antihistamine.",
+              "explanation": "This is wordplay around allergy and antihistamine medication. The line is part of the Ali G / allergy sound pattern. It is one of WHOISORION’s more technical reference flips."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "I found out he’s adopted, he lives with Beverly — that’s his foster mum.",
+              "explanation": "This is a personal family/adoption angle and should be treated as battle material. WHOISORION uses it to attack DRIZZGB’s background and identity. It is invasive but clearly designed for shock value."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "I found out that his real mum died.",
+              "explanation": "This is where the battle enters very sensitive territory. WHOISORION brings up DRIZZGB’s deceased mother as part of a personal attack. The judges later say the mother/dead-family material affected their decision."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Why did Orion cross the road? To piss on his mother’s grave.",
+              "explanation": "This is one of the most controversial lines in the battle. It is a grave/dead-mother angle and should be archived carefully as battle material, not endorsed commentary. It gets a reaction but also costs the team with at least one judge."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "His mum died and nothing was the same.",
+              "explanation": "This references Drake’s album Nothing Was the Same, flipping the title into a mother-death bar. It is technically a pop-culture reference, but the subject matter is extremely personal. This is a clear example of a clever reference being dragged into a line judges may penalise."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Moral of the story, we’re both fat, so don’t say my name ain’t holding weight.",
+              "explanation": "CHEEZEE opens the third by acknowledging the weight jokes and flipping them. “Holding weight” means having credibility, while also connecting to body size. It is one of CHEEZEE’s stronger self-aware punches."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "TRAPPY, if it weren’t DRIZZ, I ain’t heard of TRAPPY.",
+              "explanation": "This attacks TRAPPY’s status. CHEEZEE says TRAPPY is only known because of DRIZZGB. In a 2v2, that is a useful angle because it tries to make one partner look carried."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "DRIZZ is the runner, he works for TRAPPY.",
+              "explanation": "This flips the team hierarchy. CHEEZEE suggests TRAPPY is really the leader and DRIZZGB is beneath him. It is a status attack aimed at dividing the team."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Your girl makes more money than you.",
+              "explanation": "This attacks TRAPPY through relationship and income. It suggests his partner has more status or financial value than he does. It is a personal angle aimed at making him look dependent."
+          },
+          {
+              "performer": "WHOISORION & CHEEZEE",
+              "bar": "Zen was calling you a pedo.",
+              "explanation": "This references previous PenGame material and battle history. CHEEZEE uses another battler’s accusation-style angle against DRIZZGB. Again, this should be treated as battle material, not verified fact."
+          }
+      ]
   },
   {
-    "id": "pg-s05-2024-10-19-grams-vs-storm",
-    "slug": "grams-passive-vs-storm-ad",
-    "mc1": "grams",
-    "mc2": "storm",
-    "mc3": "passive",
-    "mc4": "ad",
-    "date": "19-10-2024",
-    "videoUrl": "https://www.youtube.com/watch?v=OXbPIvnFCmU",
-    "title": "GRAMS & PASSIVE vs STORM & AD",
-    "displayTitle": "GRAMS & PASSIVE vs STORM & AD",
-    "theme": "pengame",
-    "season": 5,
-    "subGroup": "2v2 Tournament",
-    "customEp": "5x27",
-    "stage": null,
-    "group": null,
-    "tag": "2v2 Tournament",
-    "winner": "grams",
-    "winner2": "passive"
+      "id": "pg-s05-2024-10-19-grams-vs-storm",
+      "slug": "grams-passive-vs-storm-ad",
+      "mc1": "grams",
+      "mc2": "storm",
+      "mc3": "passive",
+      "mc4": "ad",
+      "date": "19-10-2024",
+      "videoUrl": "https://www.youtube.com/watch?v=OXbPIvnFCmU",
+      "title": "GRAMS & PASSIVE vs STORM & AD",
+      "displayTitle": "GRAMS & PASSIVE vs STORM & AD",
+      "theme": "pengame",
+      "season": 5,
+      "subGroup": "2v2 Tournament",
+      "customEp": "2v2x2",
+      "stage": null,
+      "group": null,
+      "tag": "2v2 Tournament",
+      "winner": "grams",
+      "winner2": "passive",
+      "clashSummary": "GRAMS & PASSIVE vs STORM & AD opened the first ever PenGame 2v2 tournament at Wembley Boxpark. The host introduces the battle as a new format for the league, with judges Loonz, Axel the Comedian, and Big Zuu deciding the result. The judges make it clear that they want proper bars, performance, and energy, while the reload panels are introduced to reward strong moments.\n\nSTORM wins the coin toss and chooses for GRAMS & PASSIVE to go first. From the start, GRAMS & PASSIVE lean into their contrast as a team: PASSIVE brings cleaner structure, jokes, name flips and crowd control, while GRAMS brings heavier aggression, directness and rhythm.\n\nTheir first round is built around mocking STORM & AD’s appearance, energy and chemistry. PASSIVE calls them “MC Grindr and DJ Steve,” compares them to CBBC/CBeebies mascots, and suggests they give off strange duo energy. GRAMS then adds more aggression, targeting their image and questioning whether they belong at this level.\n\nSTORM & AD respond with a more disrespectful round, attacking GRAMS’ past battles, his behaviour against F.T., and his image. They also bring heavy Diddy, sexuality and baby-oil jokes. Their first round has aggression, but GRAMS & PASSIVE feel more cohesive as a team.\n\nThe second round is where GRAMS & PASSIVE take control. PASSIVE’s Adam and Steve section lands hard in the room, using AD’s name and STORM’s name to create a full name-flip. He follows with Golden Grahams, James Charles, Harry Potter, AD before Christ, and weather/STORM references. This is the clearest round of the battle and one of the moments judges remember.\n\nSTORM & AD fight back in round two with attacks on GRAMS’ battle record, previous losses, sexuality angles, and accusations about his past performances. They bring pressure, but the round is less clean and less memorable than PASSIVE’s writing.\n\nThe third round becomes chaotic. PASSIVE says he produced the beat himself and starts strongly, but there is confusion around a reload. The judges eventually allow the reload and GRAMS & PASSIVE restart the round. PASSIVE brings sharp TV, construction, coke, nose and name-flip material, while GRAMS closes with a faster, more aggressive section using social-media/profile-picture angles.\n\nSTORM & AD close with a heavy final round, bringing profile-picture jokes, Diddy references, family material, Epstein-list shock lines, and violent imagery. Their flow is strong in parts, but the writing becomes harder to follow.\n\nThe judges split at first. Big Zuu gives it to GRAMS & PASSIVE. Loonz gives it to STORM & AD. Axel becomes the deciding judge and gives it to GRAMS & PASSIVE, praising their flow and saying their third-round energy moved the room.",
+      "performanceAnalysis": [
+          {
+              "performer": "GRAMS & PASSIVE",
+              "overview": "GRAMS & PASSIVE win because their material is cleaner, more memorable, and more structured across the battle. PASSIVE gives the team a strong written base, while GRAMS adds aggression and performance energy.\n\nPASSIVE is the strongest technical writer in the battle. His second round is the standout because it combines name flips, cultural references and clear punchlines. The Adam and Steve bar is the biggest moment because it flips AD and STORM’s names into a biblical/gay joke that lands immediately. He then keeps building with Golden Grahams, James Charles, Harry Potter, AD/BC and weather references.\n\nGRAMS contributes most through energy and pressure. His delivery in the third round gets the crowd moving, and Axel specifically mentions that GRAMS had the side of the room swaying like an R&B set. Even though he stalls in places, the team recovers well and makes the round work.\n\nTheir main strength is balance. PASSIVE brings clean setups and punchlines, while GRAMS adds presence. Their weakness is occasional breath control and third-round chaos, but they recover better than STORM & AD.",
+              "lyricalThemes": "CBBC/CBeebies mascots, X-Files, white-boy rap status, Adam and Steve, Golden Grahams, James Charles, Harry Potter, AD/BC, JCB, Ant and Dec, Dick and Dom, Storm/weather flips, social-media exposure.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round two."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Clear, memorable writing."
+                  },
+                  {
+                      "title": "Best moment",
+                      "description": "Adam and Steve name flip."
+                  },
+                  {
+                      "title": "Best team dynamic",
+                      "description": "PASSIVE’s structure plus GRAMS’ energy."
+                  },
+                  {
+                      "title": "Battle-winning factor",
+                      "description": "Cleaner punches and stronger room-control moments."
+                  }
+              ]
+          },
+          {
+              "performer": "STORM & AD",
+              "overview": "STORM & AD bring aggression, disrespect and some strong flow pockets, especially in the second and third rounds. Their best work comes when they attack GRAMS’ previous battles, his record, and his image. They clearly came with a lot of personal material.\n\nTheir first round is packed with attacks on GRAMS, including references to his clash with F.T., his suit/dancing image, and Diddy/baby-oil material. The round is aggressive, but it leans heavily into sexuality and scandal references instead of building one clean team angle.\n\nTheir second round targets GRAMS’ battle history and tries to paint him as someone who has been beaten repeatedly. They mention names from the PenGame scene and accuse him of being carried in previous clashes. This is a strong angle, but the delivery gets messy in places.\n\nTheir third round has good energy and some strong picture/profile-based material, but it becomes hard to follow at points. The judges still praise their flow, but GRAMS & PASSIVE’s clearer structure and stronger second round carry the decision.\n\nSTORM & AD’s strength is intensity. Their weakness is clarity. They have lots of disrespect, but not always enough clean structure to beat GRAMS & PASSIVE’s more organised writing.",
+              "lyricalThemes": "GRAMS’ battle record, F.T. battle, Diddy/baby-oil jokes, sexuality angles, profile-picture jokes, Facebook/profile exposure, Epstein-list shock material, family insults, violent imagery.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round three."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Aggression and pressure."
+                  },
+                  {
+                      "title": "Best angle",
+                      "description": "GRAMS’ battle record and previous performances."
+                  },
+                  {
+                      "title": "Best performance trait",
+                      "description": "High-energy flow pockets."
+                  },
+                  {
+                      "title": "Battle-losing factor",
+                      "description": "Less clarity and weaker structure."
+                  }
+              ]
+          }
+      ],
+      "notableBars": [
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "We’ve got MC Grindr and DJ Steve.",
+              "explanation": "PASSIVE opens by mocking STORM & AD as a strange duo rather than serious opponents. Grindr is a dating app often associated with gay men, so the line also sets up the sexuality-based jokes that appear throughout the battle. It is battle material and should not be treated as factual."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Look like the mascots for CBBC.",
+              "explanation": "This references CBBC, the BBC’s children’s television brand. PASSIVE uses it to make STORM & AD look childish, cartoonish and unserious. It is a clean visual insult."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "You’re the bitch in the X-Files.",
+              "explanation": "This references The X-Files, a TV show about strange and unexplained phenomena. PASSIVE uses it to say the opponents give off weird, suspicious energy. It fits the “strange activity” theme."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "STORM ain’t got no substance.",
+              "explanation": "This is a direct credibility attack. PASSIVE says STORM has the name and image, but no real depth behind it. It is simple, but it sets up later weather/STORM flips."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "What is this white boy doing in rap? You ain’t DEENO, PASSIVE or KANDI.",
+              "explanation": "PASSIVE references other white battlers on the PenGame platform to say STORM is not at their level. It is a platform-aware bar because it only fully lands if you know the PenGame scene."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "You look like Robin Thicke in his prime.",
+              "explanation": "This references Robin Thicke, the American singer known for a smooth pop/R&B image. PASSIVE uses it to mock AD or STORM’s look, suggesting they look more like a soft pop singer than a battle rapper."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "AD’s like Justin Timberlake.",
+              "explanation": "This continues the white R&B/pop-star comparison. Justin Timberlake is used as a contrast to battle-rap toughness. The follow-up “rock your body” also connects to Timberlake’s song Rock Your Body."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "They’re looking like the real-life version of them two Matrix agents.",
+              "explanation": "This references The Matrix, where the agents wear suits and look stiff, controlled and uniform. PASSIVE uses it to mock STORM & AD’s appearance and stage presence."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "AD, I’ve got an inkling, your name’s Adam and STORM is your sibling… Adam and Steve.",
+              "explanation": "This is the biggest name-flip of the battle. PASSIVE turns AD into “Adam” and STORM into “Steve,” flipping the biblical phrase Adam and Eve into Adam and Steve, a common gay-joke phrase. It lands because it is simple, unexpected and tailored to both names."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Sunday league versus the Champions League.",
+              "explanation": "PASSIVE uses football levels to compare the teams. Sunday league means amateur football, while the Champions League is elite European football. He is saying STORM & AD are amateur compared with GRAMS & PASSIVE."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "He don’t know about Golden Grahams.",
+              "explanation": "This references Golden Grahams, the breakfast cereal, and flips GRAMS’ name. It is a light but effective name-based punch because GRAMS can connect to “Grahams.”"
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Both of their dads done coke, so facing the GRAMS could end paralytic.",
+              "explanation": "This is drug wordplay. “Grams” can refer to drug weight, while “done coke” continues the drug angle. “Paralytic” also means extremely drunk or unable to function. It is dark battle material, not a factual claim."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "You both sniff more than a dog at a rave.",
+              "explanation": "This is another drug-use joke. Dogs sniff, raves are associated with drugs, and PASSIVE uses the image to accuse the opponents of sniffing substances. It is an exaggerated battle insult."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "You look like James Charles.",
+              "explanation": "This references James Charles, the American makeup influencer. PASSIVE uses the comparison as an appearance and sexuality-coded insult. It is a pop-culture visual punch."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "You look like Harry Potter and your mum will get muggled.",
+              "explanation": "This references Harry Potter, where non-magical people are called Muggles. PASSIVE flips “Muggle” into “muggled,” meaning robbed or attacked. It is a clean pop-culture wordplay bar."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "It’s not AD before Christ.",
+              "explanation": "This is one of PASSIVE’s smartest name flips. AD means Anno Domini, the calendar era after Christ, while BC means before Christ. PASSIVE uses AD’s name to say the timeline is wrong and the opponent is not important enough to come “before Christ.”"
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "Ask the weatherman, this STORM looks predictable.",
+              "explanation": "This is a direct STORM name flip. Weather forecasts predict storms, so PASSIVE uses that to say STORM is predictable as a battler. It is clean and tailored."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "It’s on sight like a JCB.",
+              "explanation": "A JCB is construction machinery often used on sites. PASSIVE flips “on sight” into “on site,” linking confrontation to a building site. It is a neat UK reference."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "If he took a camera with a fisheye lens in his nose, it would look like a snow globe.",
+              "explanation": "This is a visual appearance joke. A fisheye lens makes images look rounded and distorted, while a snow globe is round and glassy. PASSIVE uses it to exaggerate the size and shape of the opponent’s nose."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "What TV show are you from? It’s Ant and Dickhead and Dickhead and Dom.",
+              "explanation": "This references two British TV duos: Ant and Dec and Dick and Dom. PASSIVE flips both into insults, making STORM & AD look like a comedy double act rather than serious battlers."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "If I get dark and spiritual, roll your nan’s ashes up in my living room.",
+              "explanation": "This is a dead-relative shock bar. It should be treated strictly as battle material. The line is designed to sound extreme and disrespectful, not to state fact."
+          },
+          {
+              "performer": "GRAMS & PASSIVE",
+              "bar": "I’ll do STORM like Ant-Man.",
+              "explanation": "This references Ant-Man, the Marvel character who can shrink and fight in unusual ways. PASSIVE uses it as a pop-culture threat, tying STORM’s name into superhero-style imagery."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "Your first battle was more than the man.",
+              "explanation": "The transcript is rough here, but the point appears to be that STORM & AD are attacking GRAMS’ earlier battle record. They start by trying to make his previous performances look weak or embarrassing."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "You got creative with your hands against F.T., then I got in your face and he didn’t do shit against me.",
+              "explanation": "This is a direct battle-history angle. They reference GRAMS’ behaviour against F.T. and say he acted differently when facing them. It is designed to make GRAMS look selective with his aggression."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "GRAMS did he just bought the next Justin Bieber AD?",
+              "explanation": "This is a pop-star image attack. Justin Bieber is used to make AD look softer, poppier or less battle-ready. The wording is rough, but the reference fits the wider “white pop star” jokes in the battle."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "He chose violence against F.T., but for me this pussy came dressed in a suit and started dancing.",
+              "explanation": "This is one of their better direct angles. They say GRAMS was aggressive with F.T., but against them he looked formal and performative. It attacks consistency and courage."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "Two rounds deeper, I already out-barred this man.",
+              "explanation": "STORM & AD claim lyrical superiority early. This is not a complex bar, but it frames the battle as them already being ahead on pen and performance."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "You’re on your last chance, now don’t want to get kicked out again.",
+              "explanation": "This appears to reference GRAMS’ status or previous platform issues. It is a good battle angle because it makes the opponent sound unstable or at risk of being removed."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "You’re on a weekend with Diddy and some of his friends.",
+              "explanation": "This is a pop-culture scandal reference. Diddy is used here as shorthand for party/sexual scandal jokes. It is shock-value battle material and should be treated as an insult, not fact."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "One thousand bottles of baby oil.",
+              "explanation": "This continues the Diddy-style scandal reference. Baby-oil jokes became widely used in battle/online humour around Diddy-related controversy. In the battle, it is used to make GRAMS look sexually compromised or humiliated."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "You got beat by SKAMZ, you got beat by RILLS, you got beat by RANS, you got beat by SEVZ.",
+              "explanation": "This is one of STORM & AD’s strongest angles. They list names from the PenGame scene to attack GRAMS’ record. It is effective because it uses platform history instead of generic insults."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "Now you brought Jacob in this.",
+              "explanation": "Jacob refers to PASSIVE’s real name. They use it to make the battle more personal and to separate PASSIVE from his stage name. Real-name use often makes a battle feel more direct."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "He claims he’s a beat man, but he don’t weigh up shit.",
+              "explanation": "This is a GRAMS name/weight flip. “Weigh up” connects to grams as a measurement, while also meaning to measure someone’s value. They use it to say GRAMS does not measure up."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "You come to a clash with a bag of lube.",
+              "explanation": "This is a sexuality-based humiliation bar and should be treated as battle material. It is used to continue the theme of mocking the opponents’ masculinity and image."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "Smiles carried this man.",
+              "explanation": "This is a battle-history/teamwork attack. They claim someone else carried GRAMS in a previous context. It is useful in a 2v2 because it suggests GRAMS needs stronger partners to survive."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "Breath smells like a million dicks.",
+              "explanation": "This is crude personal disrespect. It is not technical, but it is designed to embarrass the opponent and get a reaction in the room."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "GRAMS’ secret Barbie.",
+              "explanation": "This is an appearance/social-media angle. They appear to use profile-picture or image material to make GRAMS look feminine or unserious. It fits their wider attempt to embarrass him visually."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "Why didn’t you think like a Diddy party?",
+              "explanation": "This keeps the Diddy reference going. The point is to connect GRAMS to scandal, party and sexuality jokes. Again, it should be treated as battle material rather than factual commentary."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "I heard that your dad’s on the Epstein list.",
+              "explanation": "This is an extreme allegation-style shock bar. The Epstein list reference is used to create scandal and disgust. It should be archived carefully as battle material, not as a factual claim."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "Off to intensive care when they try to repair him like Anakin.",
+              "explanation": "This references Anakin Skywalker from Star Wars, who is severely injured and rebuilt into Darth Vader. STORM & AD use the image to say the opponent will be damaged so badly he needs rebuilding."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "Excuse me Jacob, why’s your head so big?",
+              "explanation": "This returns to PASSIVE’s real name and uses a simple appearance attack. It is not complex, but it is direct and personal."
+          },
+          {
+              "performer": "STORM & AD",
+              "bar": "I got a bat and I’m Batman.",
+              "explanation": "This is a straightforward Batman reference. They turn the word “bat” into both a weapon and the comic-book character. It is simple but recognisable."
+          }
+      ]
   },
   {
-    "id": "pg-s05-2024-10-23-smil3z-vs-f-don",
-    "slug": "smil3z-iiiberealz-vs-f-don-dan-dannah",
-    "mc1": "smil3z",
-    "mc2": "f-don",
-    "mc3": "iiiberealz",
-    "mc4": "dan-dannah",
-    "title": "SMIL3Z & iiiBEREALZ vs F-DON & DAN DANNAH",
-    "displayTitle": "SMIL3Z & iiiBEREALZ vs F-DON & DAN DANNAH",
-    "date": "23-10-2024",
-    "videoUrl": "https://www.youtube.com/watch?v=w3WElZsbdsk",
-    "theme": "pengame",
-    "season": 5,
-    "subGroup": "2v2 Tournament",
-    "customEp": "5x28",
-    "stage": null,
-    "group": null,
-    "tag": "2v2 Tournament",
-    "winner": "f-don",
-    "winner2": "dan-dannah"
+      "id": "pg-s05-2024-10-23-smil3z-vs-f-don",
+      "slug": "smil3z-iiiberealz-vs-f-don-dan-dannah",
+      "mc1": "smil3z",
+      "mc2": "f-don",
+      "mc3": "iiiberealz",
+      "mc4": "dan-dannah",
+      "title": "SMIL3Z & iiiBEREALZ vs F-DON & DAN DANNAH",
+      "displayTitle": "SMIL3Z & iiiBEREALZ vs F-DON & DAN DANNAH",
+      "date": "23-10-2024",
+      "videoUrl": "https://www.youtube.com/watch?v=w3WElZsbdsk",
+      "theme": "pengame",
+      "season": 5,
+      "subGroup": "2v2 Tournament",
+      "customEp": "2v2x3",
+      "stage": null,
+      "group": null,
+      "tag": "2v2 Tournament",
+      "winner": "f-don",
+      "winner2": "dan-dannah",
+      "clashSummary": "SMIL3Z & iiiBEREALZ vs F-DON & DAN DANNAH took place at PenGame Rap Battle 2024, during the 2-on-2 tournament at Wembley Boxpark. The host introduces the clash as a serious heavyweight battle, with judges Big Zuu, Loonz, and Axel the Comedian deciding the result.\n\nF-DON & DAN DANNAH win the coin toss and choose for SMIL3Z & iiiBEREALZ to go first. From the opening round, SMIL3Z & iiiBEREALZ come with strong chemistry, direct insults and aggressive 2v2 pressure. Their first round attacks F-DON for forgetting bars, forcing delivery and lacking rhythm, while also mocking DAN DANNAH as someone who shouts more than he raps.\n\nF-DON & DAN DANNAH respond with a more traditional battle-rap structure. Their first round targets SMIL3Z and iiiBEREALZ as workers, office men and weed smokers rather than real threats. DAN DANNAH brings a strong Krusty the Clown / Springfield section that gets a reload and helps them build momentum.\n\nThe second round is where the battle turns. SMIL3Z & iiiBEREALZ continue with personals, attacking anger, image, background, partners and credibility. However, F-DON & DAN DANNAH’s second round lands harder. They use a strong “switching partners / swingers” angle, attacking SMIL3Z and iiiBEREALZ’s previous team-ups with GRAMS and WHOISORION. F-DON also calls himself the Godfather of PenGame, and DAN DANNAH brings a strong patois/Jamaican-style flow switch that the judges heavily praise.\n\nThe final round is close, but F-DON & DAN DANNAH take it through creativity. SMIL3Z & iiiBEREALZ bring more aggression and directness, but F-DON & DAN DANNAH close with a Thor hammer prop and a long Marvel/Pokémon/name-flip sequence. Axel and Big Zuu both specifically praise the creativity of the Thor section.\n\nThe official decision goes to F-DON & DAN DANNAH. Loonz gives it to SMIL3Z & iiiBEREALZ, but Axel and Big Zuu give it to F-DON & DAN DANNAH, making the final result 2-1.",
+      "performanceAnalysis": [
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "overview": "SMIL3Z & iiiBEREALZ start very strongly. Their first round is clean, confident and feels like a proper 2v2. They switch well, support each other’s lines and attack both opponents directly. The “Island Boys but the Black ones” line gets a major reaction and shows their ability to mix humour with insult.\n\nTheir strongest argument is that F-DON and DAN DANNAH are not as dangerous as their image suggests. They accuse F-DON of forgetting bars, lacking rhythm and forcing delivery, while DAN DANNAH is framed as someone who shouts in tune rather than actually barring. This gives their first round a clear direction.\n\nTheir second round keeps up the aggression. They attack DAN DANNAH’s anger, family, background and appearance, while also challenging F-DON’s image. iiiBEREALZ brings darker, more violent writing, while SMIL3Z keeps the punches more direct and crowd-friendly.\n\nTheir third round is intense but less clean. The aggression is there, but the material becomes more general and less structured. They still land punches about F-DON choking, DAN singing, and both opponents lacking real danger, but the round does not have the same standout concept as F-DON & DAN DANNAH’s Thor closer.\n\nSMIL3Z & iiiBEREALZ’s strength is chemistry and pressure. Their weakness is that the final round does not match the creativity of their opponents’ closer.",
+              "lyricalThemes": "F-DON forgetting bars, DAN DANNAH shouting, old-man image, OnlyFans references, Island Boys, bad fashion, anger, background, violence, lyrical superiority, choking and singing angles.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round one."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Team chemistry and early pressure."
+                  },
+                  {
+                      "title": "Best moment",
+                      "description": "Island Boys comparison."
+                  },
+                  {
+                      "title": "Best angle",
+                      "description": "F-DON and DAN DANNAH being loud but not dangerous."
+                  },
+                  {
+                      "title": "Battle-losing factor",
+                      "description": "Final round lacked the memorable concept of the Thor closer."
+                  }
+              ]
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "overview": "F-DON & DAN DANNAH win because they improve as the battle goes on. Their first round is solid, but their second and third rounds are where they take control.\n\nTheir second round is the strongest turning point. F-DON attacks SMIL3Z and iiiBEREALZ for switching partners, saying one teamed with GRAMS and one teamed with WHOISORION, then turning that into a “swingers” angle. It is a proper 2v2 angle because it attacks the team dynamic, not just the individuals.\n\nF-DON also uses his PenGame status well, calling himself the Godfather of PenGame and saying other battlers have been sired by him. That gives him authority in the room. DAN DANNAH then brings a patois/Jamaican-style flow switch that the judges clearly remember. Axel specifically says he could hear the Caribbean rhythm in it.\n\nTheir final round wins them the battle. The Thor hammer prop gives the round a clear concept. They build around Thor, hammer, sore/Thor, thorn/thought, dinosaur and Bulbasaur. It is funny, theatrical and easy for the judges to remember. Big Zuu says the creativity of the Thor section is what edged the third round for him.\n\nF-DON & DAN DANNAH’s strength is late-round creativity. Their weakness is that they start slower than SMIL3Z & iiiBEREALZ, but they recover and finish stronger.",
+              "lyricalThemes": "partner-switching, swingers, Godfather of PenGame, patois flow, Krusty the Clown, Springfield, Miles Morales, Street Fighter, Dragon Ball Z, Thor, Pokémon, I-be-lie name flip, battle-history angles.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round three."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Creativity and concept writing."
+                  },
+                  {
+                      "title": "Best moment",
+                      "description": "Thor hammer prop."
+                  },
+                  {
+                      "title": "Best 2v2 angle",
+                      "description": "Switching partners / swingers."
+                  },
+                  {
+                      "title": "Battle-winning factor",
+                      "description": "Stronger second and third rounds."
+                  }
+              ]
+          }
+      ],
+      "notableBars": [
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "I swear I put you and your bitch in a split before and now you come back for more.",
+              "explanation": "This opens the battle with a previous-history angle. SMIL3Z and iiiBEREALZ are saying F-DON and DAN DANNAH have already been damaged before, yet still came back to face them again. It gives their opener a sense of unfinished business."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "You was living in F-DON’s shadow.",
+              "explanation": "This is aimed at DAN DANNAH. The idea is that DAN is not his own threat, but someone standing behind F-DON’s status. In a 2v2 battle, attacking the weaker link is a smart strategy."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "F-DON always forgets his bars and you can’t control your vocal cords.",
+              "explanation": "This is a direct attack on both opponents. F-DON is accused of choking or forgetting material, while DAN is accused of poor vocal control. It sets up the idea that neither opponent is technically reliable."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "He can’t rap cause he ain’t got no rhythm, and when you rap everything’s just forced.",
+              "explanation": "This is a technical critique, not just an insult. They attack rhythm, delivery and natural flow. It is effective because it fits what judges are listening for in battle rap."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "We got ugly fucker and his little brother.",
+              "explanation": "This is a simple duo insult. It makes F-DON and DAN DANNAH look like an awkward pair rather than a dangerous team. It works because it attacks the visual setup of the 2v2."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "Season 4 had him scared all summer.",
+              "explanation": "This is a battle-history angle. It suggests F-DON or DAN avoided smoke during the season. It makes them look hesitant rather than confident."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "I was asking F, when we gonna battle? And he was doing a runner.",
+              "explanation": "This continues the avoidance angle. The claim is that F-DON did not want the matchup and was running from it. It makes F-DON look less fearless than his image suggests."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "DAN ain’t got bars, he shouts in tune.",
+              "explanation": "This is one of their clearest critiques of DAN DANNAH. It says his delivery has volume and rhythm, but lacks actual bars. It is a sharp way to separate performance from writing."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "Looking at the Island Boys, but the Black ones.",
+              "explanation": "This is one of the standout jokes in the battle. The Island Boys are viral internet figures known for their distinctive look and meme status. SMIL3Z and iiiBEREALZ use the comparison to make F-DON and DAN DANNAH look like a strange viral duo rather than serious battlers."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "After this there’s no sign of the boys.",
+              "explanation": "This continues the Island Boys scheme. “Sign of the boys” flips the phrase into a battle-death image, suggesting the opponents will disappear after the clash."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "Why did you choose to do battle rap when you’re there getting so angry?",
+              "explanation": "This is aimed at DAN DANNAH’s emotional delivery. Instead of treating anger as intimidating, they make it look uncontrolled and childish. It is a strong performance critique."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "I think your mum should have took a Plan B.",
+              "explanation": "This references Plan B, emergency contraception. It is an extreme birth/regret insult, used to say the opponent should not have been born. It is harsh battle material."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "Screwing up your face while you’re on the backseat of a motorbike.",
+              "explanation": "This is a visual attack. It paints the opponent as angry or tense in an undignified situation. The motorbike image also gives the bar a comic visual."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "Come from St Vincent and Jamaica.",
+              "explanation": "This is a heritage line. iiiBEREALZ uses it to claim Caribbean background and identity, likely in response to style or authenticity challenges. It also sets up later clashes around patois and Caribbean rhythm."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "You spend on drip while your face looks broke.",
+              "explanation": "This is a fashion-vs-face insult. “Drip” means clothing/style, but they say the opponent’s face ruins the image. It is a clean, easy-to-catch punch."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "He had to ask his bro, and his bro had to ask his bro.",
+              "explanation": "This is a status and dependency angle. It suggests the opponent cannot do anything independently and has to keep asking others for help. The repetition makes it more memorable."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "DAN, your style is old, nobody wanna hear shouting.",
+              "explanation": "This repeats the main DAN DANNAH critique. They say his style is outdated and relies too much on shouting. It is direct and relevant to his performance style."
+          },
+          {
+              "performer": "SMIL3Z & iiiBEREALZ",
+              "bar": "F always chokes and he still thinks that he’s hot.",
+              "explanation": "This is a direct attack on F-DON’s reliability. “Chokes” means forgetting or failing during a performance. The bar says F-DON has a known weakness but still acts like he is elite."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "You’re battling F, you’re mentioning DAN. You’re battling DAN, you’re mentioning F.",
+              "explanation": "This is a smart 2v2 opener. F-DON and DAN DANNAH accuse SMIL3Z and iiiBEREALZ of not knowing who to aim at. It frames them as unfocused and unable to attack properly."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "These man are only on smoking weed, they ain’t on smoke.",
+              "explanation": "This is a clean wordplay bar. “Smoking weed” is literal cannabis use, while “on smoke” means ready for conflict. They say SMIL3Z and iiiBEREALZ smoke weed but are not really dangerous."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "In school this guy was a boffin and this one here was never a problem.",
+              "explanation": "This attacks both opponents’ backgrounds. A “boffin” means a nerd or academic type, and “never a problem” means not a threat. It makes both opponents look soft."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "SMIL3Z, you’re just a worker. iiiBEREALZ, you work in the office.",
+              "explanation": "This is a status attack. They frame both opponents as normal working men rather than dangerous battlers. It undercuts the street/aggressive image."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "Me and F-DON bring heat just like a .38 Special.",
+              "explanation": "A .38 Special is a firearm reference. They use it to say their team brings danger and impact. It is a classic gun-bar comparison."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "This guy’s from Springfield. Look at this clown, looks crusty.",
+              "explanation": "This references Springfield, the town from The Simpsons, and leads into the Krusty the Clown angle. It is one of their strongest visual jokes because it gives the crowd a character image."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "Give me a burger.",
+              "explanation": "This connects to Krusty Burger from The Simpsons. The joke works because once the Springfield/Krusty reference lands, the burger line extends the scheme. The crowd reacts strongly."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "You was teamed with GRAMS… you was teamed with ORION…",
+              "explanation": "F-DON opens round two by attacking previous team-ups. This is smart 2v2 writing because it questions loyalty and chemistry. It says SMIL3Z and iiiBEREALZ are not a solid pair."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "These man are switching partners, these man are swingers.",
+              "explanation": "This is the main second-round angle. “Switching partners” means changing 2v2 partners, but “swingers” also means couples who swap partners sexually. It is a simple but effective double meaning."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "Mentioning man in sexual ways, I can’t lie, that shit is tired.",
+              "explanation": "F-DON criticises the opponents for relying on sexuality-based jokes. This is a clever move because he attacks their content while also taking the moral high ground for a moment."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "I’m the Godfather of PenGame, every one of these man got sired.",
+              "explanation": "This is a strong status bar. F-DON claims he is a founding or father-like figure in PenGame. “Sired” means fathered, so he is saying many battlers come from his influence."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "SMIL3Z start rapping in patois cause it makes you sound like a thug.",
+              "explanation": "This attacks SMIL3Z’s use of Jamaican patois. F-DON says it is an image choice rather than authentic toughness. It is a cultural-performance critique."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "Keep grinning till I start swinging like Spider-Man, call me Miles.",
+              "explanation": "This references Miles Morales, the Spider-Man character. The line connects swinging punches with Spider-Man swinging through the city. It is a clean comic-book reference."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "Me and F-DON street fight like Ryu and Ken.",
+              "explanation": "This references Ryu and Ken from Street Fighter. F-DON and DAN DANNAH compare themselves to a classic fighting-game duo, which fits the 2v2 format perfectly."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "Sonic boom like Guile.",
+              "explanation": "This continues the Street Fighter reference. Guile is known for the “Sonic Boom” move. It adds another fighting-game layer to the scheme."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "We move like Goku, Vegeta. These man are Tien and Yamcha.",
+              "explanation": "This references Dragon Ball Z. Goku and Vegeta are elite-level fighters, while Tien and Yamcha are often seen as lower-tier compared with them. It is a strong hierarchy bar."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "You are Tien, cause he has three eyes, and that’s how you spell your name.",
+              "explanation": "This is a clever iiiBEREALZ name flip. Tien from Dragon Ball Z has three eyes, and “iii” visually looks like three I’s. It is one of the smartest written punches in the battle."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "When I grip this hammer, it makes me feel like Thor.",
+              "explanation": "This begins the third-round Thor prop section. Thor is the Marvel god of thunder known for his hammer. Bringing out the prop makes the round theatrical and memorable."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "If I hit this guy with a hammer, his head would be feeling sore.",
+              "explanation": "This is a Thor/sore wordplay line. The sound connection makes it easy to catch, and the hammer prop helps the punch land visually."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "He’s a prick, he’s a thorn.",
+              "explanation": "This extends the Thor/sore/thorn sound pattern. It is not the deepest line alone, but as part of the scheme it keeps the rhythm moving."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "He said I look like a donkey, but he looks like a dinosaur.",
+              "explanation": "This is a simple image comparison. It answers an insult and flips it back with a bigger, sillier visual. The crowd can catch it quickly."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "Who’s your favourite Pokémon? Let me guess, Bulbasaur.",
+              "explanation": "This references Bulbasaur, one of the original Pokémon. It continues the “saur” sound pattern from dinosaur and Thor/sore. The judges specifically respond well to this type of creativity."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "I be rules? Your name should be I be lie.",
+              "explanation": "This is a direct iiiBEREALZ name flip. F-DON says iiiBEREALZ lies about his battle record and status. It is clean and personal."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "You said you ain’t lost one battle, but everyone here knows that is a lie.",
+              "explanation": "This attacks iiiBEREALZ’s credibility. It uses crowd knowledge and battle history rather than a random insult. That makes it more effective."
+          },
+          {
+              "performer": "F-DON & DAN DANNAH",
+              "bar": "You almost lost to DEENO, and he came here with four days’ notice.",
+              "explanation": "This is one of the strongest battle-history punches. It says iiiBEREALZ struggled with someone who had minimal prep time, which undercuts his claim of being unbeaten or dominant."
+          }
+      ]
   },
   {
     "id": "pg-s05-2024-10-29-skamz-vs-kandi",
@@ -17150,22 +18569,271 @@ export const battles: Battle[] = [
     }
   },
   {
-    "id": "pg-s05-2025-01-01-passive-vs-zen",
-    "slug": "passive-vs-zen",
-    "mc1": "passive",
-    "mc2": "zen",
-    "date": "01-01-2025",
-    "title": "PASSIVE vs ZEN",
-    "videoUrl": "https://www.youtube.com/watch?v=72rXm2Hfpo8",
-    "theme": "pengame",
-    "season": 5,
-    "subGroup": "North vs South Christmas Battles",
-    "views": "215k",
-    "winner": "zen",
-    "customEp": "5x33",
-    "stage": null,
-    "group": null,
-    "tag": "North vs South Christmas Battles"
+      "id": "pg-s05-2025-01-01-passive-vs-zen",
+      "slug": "passive-vs-zen",
+      "mc1": "passive",
+      "mc2": "zen",
+      "date": "01-01-2025",
+      "title": "PASSIVE vs ZEN",
+      "videoUrl": "https://www.youtube.com/watch?v=72rXm2Hfpo8",
+      "theme": "pengame",
+      "season": 5,
+      "subGroup": "North vs South Christmas Battles",
+      "views": "215k",
+      "winner": "zen",
+      "customEp": "5x31",
+      "stage": null,
+      "group": null,
+      "tag": "North vs South Christmas Battles",
+      "judges": [
+          "Professor Green",
+          "RD",
+          "Big Narstie"
+      ],
+      "clashSummary": "PASSIVE vs ZEN took place during PenGame Rap Battle 2025, on a major North vs South card with a high-profile judging panel made up of Professor Green, RD, and Big Narstie. Before the clash begins, the judges explain what they are looking for: proper bars, skill, metaphors, similes, double entendres, flows, lyrical ability, rebuttals and complete performances. Big Narstie also warns the battlers that lazy dead-relative material will lose points, making it clear that shock value alone will not be enough.\n\nPASSIVE wins the coin toss and chooses to go first. His opening round is strong, direct and confident. He attacks ZEN’s age, appearance, nose, sideburns, sexuality, experience and battle history. PASSIVE’s main angle is that ZEN is older, washed and should not be standing across from someone younger, fresher and more current.\n\nZEN responds with a dense, technical round full of name flips, appearance jokes, grime-style writing and quick references. His style is more frantic, but his writing is packed with layered punches. He attacks PASSIVE’s sideburns, slim build, hat, appearance, real name and musical image.\n\nThe battle swings properly in rounds two and three. PASSIVE keeps landing clear, easy-to-understand jokes, especially around ZEN’s nose, age and Bradford accent. However, ZEN becomes stronger as the battle goes on, especially when he starts controlling the 140 tempo and turning PASSIVE’s own material back against him.\n\nThe decisive moment comes in round three when PASSIVE reveals he produced the beat for his own round. ZEN instantly flips that angle by saying he is “producing a beating,” then builds a whole deadbeat/producer scheme from it. The judges clearly see that as the turning point.\n\nThe official judgement goes to ZEN. One judge gives PASSIVE round one and ZEN rounds two and three. Professor Green gives it to ZEN for tighter writing and more intricate bars over 140. Big Narstie says PASSIVE started well, but the producer angle came at the wrong time and helped cost him the battle.",
+      "performanceAnalysis": [
+          {
+              "performer": "PASSIVE",
+              "overview": "PASSIVE starts the battle very well. His first round is confident, clean and easy to follow. He immediately takes the younger-versus-older angle, positioning ZEN as an ageing battler who should not be clashing someone younger and sharper.\n\nHis name flips work well too. Because both “PASSIVE” and “ZEN” suggest calmness, he uses that irony to show that this battle is anything but peaceful. The line about practising Zen in the mountains before joking that he was actually getting fried in his den is one of his best early moments.\n\nPASSIVE’s second round keeps the pressure on. He attacks ZEN’s nose, accent, age, work image, pub-MC status and battle record. His material is usually clear and direct, which makes it easy for the room to catch. He is not always as intricate as ZEN, but he is more accessible.\n\nHis third round is where the battle starts to slip away. PASSIVE says he produced the beat, which should have been a flex, but it gives ZEN the perfect angle to flip back at him. PASSIVE still has good lines in the third, including the Mo Salah comparison, Angry Birds eyebrow bar and Don’t Flop/PenGame pet angle, but ZEN’s response overshadows it.\n\nPASSIVE’s strength is clarity. His weakness in this battle is timing. He starts strong enough to take the first round, but ZEN adapts better and wins the later rounds.",
+              "lyricalThemes": "age gap, ZEN’s nose, sideburns, old-man image, Bradford accent, pub MC vs playlist MC, name flips, producer flex, Don’t Flop/PenGame status, Mo Salah, Angry Birds, Jobcentre/Rehab.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round one."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Clear, direct punches."
+                  },
+                  {
+                      "title": "Best angle",
+                      "description": "Younger battler proving he is already better than the older, more experienced ZEN."
+                  },
+                  {
+                      "title": "Best name flip",
+                      "description": "PASSIVE and ZEN both suggesting calmness, despite the battle being aggressive."
+                  },
+                  {
+                      "title": "Main weakness",
+                      "description": "The producer/beat flex in round three gave ZEN a perfect rebuttal lane."
+                  }
+              ]
+          },
+          {
+              "performer": "ZEN",
+              "overview": "ZEN wins through technical density, flow control and stronger adaptation. His first round is packed with writing, even if some of it is harder to catch on first listen. He attacks PASSIVE’s appearance, sideburns, hat, slim build and name, while using references to Central Cee, Dappy from N-Dubz, Spider, Jacob’s Crackers and more.\n\nHis second round is stronger and more controlled. ZEN frames the battle as teacher versus student, which gives the round a clear theme. He attacks PASSIVE’s size, ears, whiteness, nose, hat, beard and overall look with references to E.T., Dumbo, Ice Age and a lamppost. This is where his writing begins to feel tighter than PASSIVE’s.\n\nHis third round wins the battle. PASSIVE says he produced the beat, and ZEN immediately turns it into the “producing a beating” angle. He then builds from that into deadbeat father wordplay, producer schemes, Medusa, Andrew Tate, Philip Schofield, Erling Haaland, South Park and mastering/mixing references. It is not just one punch — it becomes a whole run.\n\nZEN’s biggest strength is intricacy. His bars have more layers, and the judges reward that. His weakness is that he can be too gassed and frantic, which Big Narstie points out, but the technical quality carries him.",
+              "lyricalThemes": "teacher vs student, 140/grime control, PASSIVE’s sideburns, real name, hat, nose, producer/deadbeat flips, E.T., Dumbo, Ice Age, Medusa, Andrew Tate, Philip Schofield, Erling Haaland, South Park, mastering/mixing.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round three."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Dense writing and technical punchlines."
+                  },
+                  {
+                      "title": "Best tactical move",
+                      "description": "Flipping PASSIVE’s own producer angle into “producing a beating.”"
+                  },
+                  {
+                      "title": "Best judging factor",
+                      "description": "Tighter writing over 140."
+                  },
+                  {
+                      "title": "Battle-winning factor",
+                      "description": "Stronger rounds two and three."
+                  }
+              ]
+          }
+      ],
+      "notableBars": [
+          {
+              "performer": "PASSIVE",
+              "bar": "You’re a nice guy, I’m not pissing you off. We can still be mates after you take the loss.",
+              "explanation": "PASSIVE starts with controlled disrespect. He makes ZEN sound harmless and likeable, but still beatable. It gives the opening a relaxed confidence instead of coming in too forced."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "While you were practising Zen, I was practising Zen in the mountain, chilling with Buddhas and wise men.",
+              "explanation": "This is one of PASSIVE’s best name flips. ZEN’s name links to meditation, calmness and Buddhist imagery, so PASSIVE turns that into a full setup. He then undercuts it by joking that he was actually getting fried in his den, making the bar both clever and funny."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "I’m double the skill and double the bars and double the swag, but I’m half of your age.",
+              "explanation": "This is the main theme of PASSIVE’s first round. He uses the age gap against ZEN, saying even though he is younger, he has more ability, more style and more current appeal. It is direct and effective."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "Step back cause your nose takes space on the stage.",
+              "explanation": "PASSIVE repeatedly attacks ZEN’s nose, and this is one of the clearest visual punches. It works because it is simple and easy for the crowd to picture. In battle rap, strong visual jokes can land harder than complex writing."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "PASSIVE and ZEN? We’re meant to be calm, but I had to just prove that I’m better than you are.",
+              "explanation": "This is another strong name-based punch. Both names suggest peace or calmness, but PASSIVE flips that by saying the battle forced him to show aggression. It is tailored to both battlers."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "You’ve had more battles than me. I’ve only had three. They still put you beside me.",
+              "explanation": "PASSIVE uses ZEN’s experience against him. The point is that ZEN has battled far more, but PenGame still sees PASSIVE as good enough to stand beside him. It makes PASSIVE look like the rising talent and ZEN like the older battler being caught up."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "If you saw the way I was searching for Zen, you’d be the fool — I was trying to find peace.",
+              "explanation": "This is a clever double meaning. “Searching for Zen” means looking for the opponent, but also looking for peace. PASSIVE turns ZEN’s name into a concept and uses it as wordplay."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "You can fit sliding doors in your nose, is that why you got keys in your nostril?",
+              "explanation": "This extends the nose angle into a full image. Sliding doors and keys both connect to buildings and entryways, so PASSIVE exaggerates ZEN’s nose as if it is big enough to be a front entrance. It is childish, but funny and effective."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "He’s a pub MC, I’m a playlist one.",
+              "explanation": "PASSIVE contrasts ZEN’s style with his own. A “pub MC” suggests someone who can perform locally but does not have replay value, while a “playlist one” suggests music people actually choose to listen to. It is a clean status angle."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "How can you say I’m not strong? I just spent three battles carrying GRAMS.",
+              "explanation": "This is a PenGame-aware bar. “Carrying” means doing the heavy lifting, and GRAMS also links to weight. PASSIVE uses his battle history to argue that he has already proven strength by carrying previous situations."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "You’re not able, you’re not stable, like a stable held together with staples.",
+              "explanation": "This is a clean wordplay chain. Able, stable, stable and staples all connect through sound and meaning. It is not the deepest personal, but it shows PASSIVE’s ability to build patterns."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "For this third round, I produced it.",
+              "explanation": "This was meant to be a flex. PASSIVE is showing that he is not just a rapper — he can also produce beats. The problem is that ZEN uses this as the exact opening for his third-round attack, which becomes the main reason the judges give ZEN the battle."
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "I made the beat, I’m a musical G.",
+              "explanation": "PASSIVE doubles down on the producer angle. On paper, this shows range and musicianship. In battle terms, though, it gives ZEN a clear angle to attack, because ZEN can now flip “beats” into “beating” and “deadbeats.”"
+          },
+          {
+              "performer": "PASSIVE",
+              "bar": "You’re battling me to make me look good, cause he’s Don’t Flop’s bitch and PenGame’s pet.",
+              "explanation": "PASSIVE attacks ZEN’s position in the UK battle scene. Don’t Flop is a major UK battle league, and PenGame is the current platform. PASSIVE suggests ZEN is being used by platforms rather than standing as an independent threat."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "One of my names, the Grandmaster Mike Man’s one of my names.",
+              "explanation": "ZEN opens by giving himself title after title. “Grandmaster” suggests old-school hip-hop authority and skill. It frames ZEN as the more experienced, more established MC."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "PenGame champ, that’s one of my names.",
+              "explanation": "ZEN claims champion status early. That matters because PASSIVE’s main angle is that he is the younger, better battler. ZEN answers that by reminding the room he has already achieved status."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "This brother’s looking like Central Cee’s cig.",
+              "explanation": "This references Central Cee, one of the biggest UK rap artists. ZEN uses the image to make PASSIVE look thin, pale or fragile. It is a quick visual punch."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "At first glance, he’s looking like Dappy from N-Dubz.",
+              "explanation": "This references Dappy, the rapper/singer from N-Dubz, known for a distinctive look and hat style. ZEN uses it to attack PASSIVE’s appearance and fashion, especially because PASSIVE is often seen wearing a hat."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "This skinny cunt’s built like a garden rake.",
+              "explanation": "This is a simple body-image punch. A garden rake is long and thin, so ZEN uses it to mock PASSIVE’s build. It is direct and visual."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "He’s got a track called Spider…",
+              "explanation": "ZEN uses PASSIVE’s own music against him. By referencing a track called “Spider,” he turns PASSIVE’s catalogue into battle material. This is effective because it shows research and makes the attack feel tailored."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "You’ve never been no Afrobeat, but your name should’ve been Sideburn Boy.",
+              "explanation": "This appears to flip Burna Boy, the Afrobeats artist, into “Sideburn Boy.” ZEN uses PASSIVE’s sideburns as the main visual insult. It is a music-reference punch tailored to his opponent’s appearance."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Learnt your real name’s Jacob, think you can merk me? Now I’m Lord Jacob’s Crackers.",
+              "explanation": "This references Jacob’s Crackers, the well-known cracker brand. ZEN flips PASSIVE’s real name into a product reference. It is a clean name-flip because the joke depends on personal information."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Teacher versus the student right now.",
+              "explanation": "This becomes the theme of ZEN’s second round. He presents himself as the teacher and PASSIVE as the student. It fits the judges’ later comments that ZEN sounded tighter and more advanced."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Coming like it’s ICT, I bring a tooling.",
+              "explanation": "This continues the school theme. ICT refers to school computer lessons, while “tooling” can mean weaponry in street slang. ZEN mixes classroom imagery with threat language."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Now he’s looking like the white E.T.",
+              "explanation": "This references E.T., the alien from the famous film. ZEN uses it as an appearance joke aimed at PASSIVE’s look, head shape or build. It is clear and easy for the room to picture."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "P-A-S-S-I-V-E, you’d be better off calling him the one-flow Dumbo.",
+              "explanation": "ZEN flips PASSIVE’s name and adds a Dumbo reference. Dumbo is the Disney elephant known for huge ears, so the bar attacks both PASSIVE’s flow and appearance. “One-flow” suggests PASSIVE lacks variety."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Yeah, the guy’s white, but the guy’s whiter than most. You can rap white, but there’s bare white in your nose.",
+              "explanation": "ZEN builds a “white” scheme using race, appearance and drug imagery. The “white in your nose” line is a cocaine allegation-style punch and should be treated as battle material, not fact. Technically, the scheme works because the same word shifts meaning."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Has anybody here seen Ice Age? Without the hat, you’d be looking like Sid with a wig.",
+              "explanation": "This references Sid the Sloth from Ice Age. ZEN uses it to mock PASSIVE’s face and hat. It is one of the clearest visual jokes in the battle."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Just cause a brother’s got a neck like a lamppost, don’t mean that he’s gonna light up a street.",
+              "explanation": "This is one of ZEN’s best appearance punches. He says PASSIVE has a long neck like a lamppost, but still does not “light up” anything, meaning he lacks star quality or real impact."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Right now, Zen, I’m producing a beating.",
+              "explanation": "This is the battle-winning flip. PASSIVE says he produced his third-round beat, and ZEN immediately turns “producing” into “producing a beating.” The judges specifically point to this type of reversal as the reason ZEN took the later rounds."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "It’s ironic that you make dead beats — turns out that your dad was a deadbeat too.",
+              "explanation": "This is the strongest extension of the producer flip. “Dead beats” means bad instrumentals, while “deadbeat dad” means an absent or irresponsible father. It is personal allegation-style material and should be archived carefully, but as wordplay it is sharp."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "You must have been stoned, let’s see if you got the sight of Medusa.",
+              "explanation": "This references Medusa from Greek mythology, whose gaze turns people to stone. ZEN connects “stoned” as drug use with literally being turned to stone. It is a clever mythological flip."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Stop doing music bits, now he’s with kids like Philip Schofield.",
+              "explanation": "This references Philip Schofield, the British TV presenter involved in a major public scandal. It is a serious allegation-style comparison and should be treated as battle material, not fact. ZEN uses it to attack PASSIVE’s character through a controversial public reference."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "He looks like a gremlin and he’s imitating Devlin.",
+              "explanation": "This references Devlin, the UK rapper known for grime and rap. ZEN says PASSIVE is copying or imitating that kind of style rather than being original. It also adds an appearance insult with “gremlin.”"
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Ex-girl looking like Erling Haaland, new girl looking like Haaland again.",
+              "explanation": "This references Erling Haaland, the Manchester City striker known for his recognisable look. ZEN uses it to mock PASSIVE’s choice in women by saying both his ex and current girl resemble Haaland. It is a football/pop-culture appearance joke."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "I heard your girlfriend mouth stunk, so I put the kid in the South Park like Cartman.",
+              "explanation": "This references Cartman from South Park. ZEN uses the name for a crude sexual/relationship punch. It is offensive, but the reference is recognisable and fits his third-round shock style."
+          },
+          {
+              "performer": "ZEN",
+              "bar": "Might do bits when you master the mix, but you ain’t gonna win in a mix with a master.",
+              "explanation": "This is a strong closer because it ties back to PASSIVE’s producer angle. “Master the mix” is audio-production language, while “a master” refers to ZEN positioning himself as the superior MC. It closes the producer scheme cleanly."
+          }
+      ]
   },
   {
     "id": "pg-s05-2025-01-04-domi-dusk-vs-fendry",
@@ -29354,22 +31022,246 @@ export const battles: Battle[] = [
     }
   },
   {
-    "id": "pg-s2023-2024-01-31-drizzgb-vs-skamz",
-    "slug": "drizzgb-vs-skamz",
-    "mc1": "drizzgb",
-    "mc2": "skamz",
-    "winner": "skamz",
-    "title": "DRIZZGB vs SKAMZ",
-    "date": "31-01-2024",
-    "videoUrl": "https://www.youtube.com/watch?v=Is4HqSBvf6o",
-    "theme": "pengame",
-    "season": 2023,
-    "customEp": "Tx02",
-    "subGroup": "Group A",
-    "views": "42k",
-    "stage": "Group Stage",
-    "group": "A",
-    "tag": null
+      "id": "pg-s2023-2024-01-31-drizzgb-vs-skamz",
+      "slug": "drizzgb-vs-skamz",
+      "mc1": "drizzgb",
+      "mc2": "skamz",
+      "winner": "drizzgb",
+      "title": "DRIZZGB vs SKAMZ",
+      "date": "31-01-2024",
+      "videoUrl": "https://www.youtube.com/watch?v=Is4HqSBvf6o",
+      "theme": "pengame",
+      "season": 2023,
+      "customEp": "tx02",
+      "subGroup": "Group A",
+      "views": "42k",
+      "stage": "Group Stage",
+      "group": "A",
+      "tag": null,
+      "clashSummary": "DRIZZGB vs SKAMZ took place during PenGame Season 4, Group A, at Boxpark Croydon on the road to Wembley. The battle is introduced as a serious fixture, with the host saying the streets have been talking and that both battlers are known to be levels.\n\nSKAMZ wins the coin toss and chooses to go first. His opening round starts with confidence and the return of his “Disrespectful Skamz” persona, but he stumbles early and has to acknowledge the flop inside the round. He tries to turn the mistake into part of the performance, saying he flopped but still has smoke to dish out.\n\nDRIZZGB responds with one of the clearest angles of the battle. He attacks SKAMZ for flopping in previous high-pressure moments, especially after building momentum through Season 3. DRIZZGB also brings up past battles, SKAMZ’s run to the finals, his loss to F-DON, and controversy around material and kids. Round one clearly swings towards DRIZZGB because his angle is more direct and SKAMZ’s stumble gives him ammunition.\n\nSKAMZ improves in round two. He brings more aggression, name flips, London pride, and a stronger performance. His second round is probably his cleanest and most competitive, especially when he attacks DRIZZGB’s name, area and image.\n\nDRIZZGB’s second round keeps pressure on SKAMZ through battle-history angles. He references F-DON, GRAMS, backup-dancer energy, tuition, and SKAMZ trying to act bad. It is not as explosive as his first, but it keeps the battle competitive.\n\nThe third round becomes the deciding section. SKAMZ brings anime, TV and video-game references, including Top Boy, Jujutsu Kaisen, GTA, Doctor Strange and One Punch Man. DRIZZGB responds with a sharper character angle about SKAMZ’s alleged family situation and the way he has spoken about children in previous battles. The judges then become stuck because some claims are questioned live, especially the baby-mum/child angle.\n\nTwo judges cannot clearly call the battle and lean towards 50-50. The final judge says DRIZZGB had more that stood out and that SKAMZ did not aim enough directly at him. The host then uses crowd reaction to settle it, and the crowd gives the battle to DRIZZGB.",
+      "performanceAnalysis": [
+          {
+              "performer": "DRIZZGB",
+              "overview": "DRIZZGB wins the battle by being more direct and more memorable. His first round is the strongest opening of the clash because he immediately attacks SKAMZ’s biggest weakness: flopping under pressure. He does not just say SKAMZ flopped once; he builds a full angle around how SKAMZ reached big stages, had momentum, then failed when it mattered.\n\nHis writing is most effective when he uses battle history. He references SKAMZ’s Season 3 run, his battle with REN DMC, his loss to F-DON, his loss to GRAMS, and his wider reputation. That makes DRIZZGB sound like he came prepared rather than just throwing generic insults.\n\nHis third round is controversial but important. DRIZZGB attacks SKAMZ through alleged family material and questions the way SKAMZ has spoken about children in past battles. Some of the claims are disputed live, so the archive should treat them strictly as battle material, not verified fact. Even with that caveat, the angle stands out to the judges more than much of SKAMZ’s final-round writing.\n\nDRIZZGB’s biggest strength is angle selection. He knows what to attack: SKAMZ’s flops, reputation, previous losses and questionable material. His weakness is that some of his claims become messy and need clarification, but he still leaves the stronger impression.",
+              "lyricalThemes": "SKAMZ flopping, battle history, F-DON, GRAMS, REN DMC, bar-sourcing controversy, children/family material, backup dancer angle, tuition/education insult, new-generation takeover.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round one."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Direct angle writing."
+                  },
+                  {
+                      "title": "Best angle",
+                      "description": "SKAMZ flopping in important moments."
+                  },
+                  {
+                      "title": "Best tactical move",
+                      "description": "Using SKAMZ’s own battle history against him."
+                  },
+                  {
+                      "title": "Battle-winning factor",
+                      "description": "More memorable and more directly aimed material."
+                  }
+              ]
+          },
+          {
+              "performer": "SKAMZ",
+              "overview": "SKAMZ has moments, but the battle starts badly for him. His first round has energy and personality, but the early flop gives DRIZZGB the perfect angle. SKAMZ tries to flip the stumble into confidence, repeatedly saying he flopped but does not care. That self-awareness helps, but it does not fully save the round.\n\nHis second round is his best. He sounds more settled, brings more aggression and lands cleaner punches. He attacks DRIZZGB’s name, Birmingham identity, mother, status, and makes use of London pride. This is the round where SKAMZ looks most like himself.\n\nHis third round is creative and packed with references. The Top Boy / Sully, Jujutsu Kaisen / domain expansion, GTA, Doctor Strange, and One Punch Man references show a wider pop-culture pen. However, some of the material feels less directly aimed at DRIZZGB compared with DRIZZGB’s personal attacks. The final judge says this directly: SKAMZ had ability, but DRIZZGB said more that stood out.\n\nSKAMZ’s biggest strength is performance identity. When he is confident, the “Disrespectful Skamz” style works. His weakness here is focus. The first-round stumble and less targeted final-round material cost him.",
+              "lyricalThemes": "Disrespectful Skamz persona, self-aware flop flips, London vs Birmingham, mother/family disrespect, DrizzGB name flips, Top Boy, Jujutsu Kaisen, GTA, Doctor Strange, One Punch Man, anime imagery.",
+              "keyTechnicalHighlights": [
+                  {
+                      "title": "Best round",
+                      "description": "Round two."
+                  },
+                  {
+                      "title": "Strongest trait",
+                      "description": "Performance identity and aggression."
+                  },
+                  {
+                      "title": "Best reference run",
+                      "description": "Anime and pop-culture references in round three."
+                  },
+                  {
+                      "title": "Best recovery",
+                      "description": "Acknowledging and flipping his own flop."
+                  },
+                  {
+                      "title": "Battle-losing factor",
+                      "description": "First-round stumble and less direct final-round material."
+                  }
+              ]
+          }
+      ],
+      "notableBars": [
+          {
+              "performer": "SKAMZ",
+              "bar": "Guess who’s back? SKAMZ. Disrespectful SKAMZ.",
+              "explanation": "SKAMZ opens by reintroducing his battle persona. “Disrespectful SKAMZ” is the version of himself he wants the room to expect: rude, direct and aggressive. It sets the tone, even though the round later gets affected by the stumble."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "If I’m lifting an arm, not a helping hand.",
+              "explanation": "This is a threat bar built on a phrase flip. A “helping hand” usually means support, but SKAMZ says if he lifts an arm, it is for violence, not help. It is simple but effective."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "Yeah, I flopped, but I don’t care.",
+              "explanation": "This becomes important because SKAMZ stumbles early. Rather than pretending it did not happen, he tries to own it. The issue is that DRIZZGB then uses the flop as a full angle against him."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "I don’t care about flopping, I’m a veteran G.",
+              "explanation": "SKAMZ tries to frame the stumble as irrelevant because of his experience. It is a good recovery attempt, but in a judged battle, it still gives the opponent ammunition. This line shows his confidence but also highlights the problem."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "A guy from ends could never be me, but a guy from Brum could never be me.",
+              "explanation": "This is a London vs Birmingham status line. DRIZZGB represents Birmingham, and SKAMZ frames himself as someone from London who cannot be matched by someone from Brum. It is a location-based pride angle."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "They’re trying to say that SKAMZ got lighter, it’s only right that I’m bringing the flame.",
+              "explanation": "This is a self-image and fire bar. “Got lighter” can imply he has become softer or less dark/aggressive, while “bringing the flame” suggests he is proving the opposite. It is a good way to respond to doubts about his current form."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "I ain’t trying to be sour — lemonade.",
+              "explanation": "This is a sour/lemonade wordplay bar. Lemons are sour, lemonade is made from lemons, and SKAMZ uses that to say he is not bitter while still turning the situation into something sharp. It is a lighter punch, but clean."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "This dog ain’t sick, so step to a vet. How could he? Don’t run, Joseph, you stupid clown. Think that you’re sick, then I’m putting you down.",
+              "explanation": "This is a vet/dog scheme. If an animal is sick, it goes to a vet, but “putting you down” also means euthanasia. SKAMZ uses it to say DRIZZGB is not really sick as an MC and needs to be put down in the clash."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "I’m blooding from South L-O-N-D-O-N.",
+              "explanation": "SKAMZ uses spelling and location pride to stamp his identity. South London becomes part of his performance. It contrasts with DRIZZGB’s Birmingham identity."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "How has he got GB in his name? He don’t even live in Great Britain.",
+              "explanation": "This is a name flip on DRIZZGB. “GB” usually means Great Britain, but SKAMZ questions how DRIZZGB can use it while attacking his location or identity. The transcript is rough, but the point is that SKAMZ is trying to turn the name itself into a punch."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "If we’re talking Top Boy, then I’m Sully.",
+              "explanation": "This references Top Boy, the UK crime drama, and Sully, one of its most feared characters. SKAMZ uses the comparison to make himself sound ruthless and dangerous. It fits his disrespectful persona."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "JJK, I expand domain.",
+              "explanation": "This references Jujutsu Kaisen, an anime where “Domain Expansion” is a powerful technique. SKAMZ uses it to say he is entering a higher-power state in the battle. It is one of his clearer anime references."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "Got me waving a stick like I’m trying to pick guns on GTA.",
+              "explanation": "This references Grand Theft Auto, where players select and use weapons. SKAMZ turns “waving a stick” into a video-game weapon image. It is a clean gaming reference."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "Marvel shit, I’m waving it, I’ve been looking at the Doctor’s cage.",
+              "explanation": "This appears to reference Doctor Strange or Marvel-style magic imagery. SKAMZ uses it to keep the round in a comic-book/superpower lane. The transcript is rough, but the Marvel intention is clear."
+          },
+          {
+              "performer": "SKAMZ",
+              "bar": "One Punch Man, this my anime stage.",
+              "explanation": "This references One Punch Man, an anime character known for defeating opponents with one punch. SKAMZ uses it to say he can end DRIZZGB quickly and decisively. It completes the anime-heavy feel of his third round."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "SKAMZ, I can’t lie, I was rooting for you when I watched PenGame Season 3.",
+              "explanation": "DRIZZGB opens with a clever angle: he starts by saying he rated SKAMZ. That makes the later criticism hit harder because it sounds like disappointment rather than random hate. It also shows he knows SKAMZ’s history."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "You was cleaning them up… killed Juni, Dan Dannah, Amsterdam, F-DON didn’t turn up.",
+              "explanation": "This is a battle-history run. DRIZZGB lists SKAMZ’s previous momentum and success, reminding the room that SKAMZ was on a strong path. The setup makes the later “then you flopped” angle more damaging."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "How you gonna get all the way to the finals, do all that, but then just flop?",
+              "explanation": "This is DRIZZGB’s main first-round punch. He takes SKAMZ’s biggest public weakness and makes it the centre of the round. It works because SKAMZ had already stumbled in this battle too."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "How you gonna freestyle about flopping, then flop that, then flop it again?",
+              "explanation": "This is one of DRIZZGB’s best direct attacks. SKAMZ tries to turn flopping into a freestyle moment, but DRIZZGB says even that failed. It is sharp because it uses what just happened in the room."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "He’s probably thinking about the Rubik’s Cube pattern back then when he split with REN.",
+              "explanation": "This references SKAMZ’s battle history with REN DMC and uses the Rubik’s Cube as an image of confusion or patterns. The point is that SKAMZ is overthinking and breaking down under pressure. It is a more layered way to attack the flop."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "Flopped so much, F-DON felt bad.",
+              "explanation": "This continues the flop angle while bringing in F-DON, another PenGame figure. DRIZZGB uses SKAMZ’s previous loss and wider tournament context to make the stumble feel like a repeated pattern."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "How you picking up bars that come from a rapist?",
+              "explanation": "This is a serious allegation-style angle about bar sourcing and controversial material. It becomes a point the judges ask DRIZZGB to clarify after the battle. This should be archived carefully as battle material, not as a verified factual claim."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "You lost to F-DON, lost to GRAMS, and you lost your fans.",
+              "explanation": "This is a clean record/reputation angle. DRIZZGB stacks losses together, then adds “lost your fans” to say SKAMZ has not only lost battles but support. It is direct and easy to score."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "Fuck SKAMZ and fuck his brother.",
+              "explanation": "DRIZZGB opens round two with immediate aggression. It is not complex, but it shows he is not backing down. It also increases the personal tone of the battle."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "I beat GRAMS and you lost to GRAMS, so what does that make me?",
+              "explanation": "This is one of DRIZZGB’s strongest round-two arguments. He uses shared opponent logic: if he beat someone SKAMZ lost to, he can claim higher status. It is a classic battle rap comparison angle."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "If you wanna chat about backup dancer, get in my clash with Aliano. It’s a fact that you were my backup dancer.",
+              "explanation": "DRIZZGB turns performance behaviour into an insult. He says SKAMZ was acting like a backup dancer in a previous moment, not a main battler. It attacks presence and status rather than just bars."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "Go get them grades and pay off the dues, your tuition, you twat.",
+              "explanation": "This is an education/money insult. “Tuition” suggests student debt, learning or being schooled. DRIZZGB uses it to make SKAMZ look like someone who still has lessons to learn."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "I heard SKAMZ got a baby mum… one day your kid will get older…",
+              "explanation": "This starts DRIZZGB’s third-round family angle. It becomes controversial because SKAMZ denies having a child after the battle. For the archive, this should be described as allegation-style battle material rather than fact."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "You don’t deserve a child, the way you talk about kids is disgusting.",
+              "explanation": "This is the strongest moral angle in DRIZZGB’s third. Instead of only insulting SKAMZ, he attacks his past material and says the way he has spoken about children makes him unfit to have one. This line stands out to the judges because it feels more pointed than generic threats."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "You said you’d swing your next man’s daughter round the house by her phrase. Now you got a daughter yourself? I don’t think that’s safe.",
+              "explanation": "This is another serious child-related angle and should be handled carefully. DRIZZGB is accusing SKAMZ of hypocrisy: making violent child-related bars while allegedly having a child himself. It is a dark but targeted attack."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "Different pedigree.",
+              "explanation": "This is a short status bar. DRIZZGB says he and SKAMZ are not the same breed or level. It fits his wider argument that he represents the new risk while SKAMZ’s PenGame time is ending."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "Your time in PenGame’s done, so make way for the new risk.",
+              "explanation": "This is one of DRIZZGB’s cleanest closing ideas. He frames himself as the new threat replacing SKAMZ. It gives the battle a generational feel."
+          },
+          {
+              "performer": "DRIZZGB",
+              "bar": "You wanna know why I’m the best? Cause I didn’t spit a bar about scams or fraud.",
+              "explanation": "This is a clever closer because SKAMZ’s name invites easy scam/fraud wordplay. DRIZZGB says he avoided the obvious route and still beat him. It is a self-aware writing flex."
+          }
+      ]
   },
   {
     "id": "pg-s2023-2024-02-07-skamz-vs-blazn",
@@ -32409,6 +34301,7 @@ export const battles: Battle[] = [
     "winner": "whoisorion",
     "title": "WHOISORION vs KANDI",
     "date": "03-04-2024",
+    "videoUrl": "https://www.youtube.com/watch?v=9Yi2Q_vNKLE",
     "theme": "pengame",
     "season": 2023,
     "customEp": "Tx13",

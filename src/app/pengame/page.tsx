@@ -37,7 +37,7 @@ const getSeasonRank = (season: string): number => {
 const getSeasonTitle = (season: string): string => {
   if (season === "3.5") return "2023 Christmas Battles";
   if (season === "2023") return "2023 Tournament";
-  if (season === "5") return "Season 5 (2024 Battles)";
+  if (season === "5") return "Season 5 (2024/25 Battles)";
   if (season === "Champions League") return "PenGame Champions League 2026";
   if (season === "2025") return "2025 Battles";
   if (season === "Cold War") return "PenGame Cold War";
@@ -326,6 +326,8 @@ export default function PengamePage() {
                           ? sectionIndex === 1 ? "TB01" : `RBx${String(sectionIndex).padStart(2, "0")}`
                           : season === "5" && season5EpisodeLabels[battle.slug]
                             ? season5EpisodeLabels[battle.slug]
+                            : season === "2025"
+                              ? `25x${index + 1}`
                             : battle.customEp || getFallbackEpisodeLabel(season, index);
 
                       return (
