@@ -117,6 +117,36 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 {mc.name[0]}
               </div>
             </motion.div>
+            <div className="mt-6">
+              <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500 mb-3">
+                Form
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {mcBattles.map((battle) => {
+                  const outcome = getOutcome(battle);
+                  const formLabel = outcome === "WIN" ? "W" : outcome === "LOSS" ? "L" : "-";
+                  const formClass =
+                    outcome === "WIN"
+                      ? "border-emerald-500/40 bg-emerald-500/15 text-emerald-400"
+                      : outcome === "LOSS"
+                        ? "border-rose-500/40 bg-rose-500/15 text-rose-400"
+                        : "border-white/10 bg-zinc-900/60 text-zinc-500";
+
+                  return (
+                    <Link
+                      key={battle.id}
+                      href={getBattleRouteHref(battle)}
+                      as={getBattleHref(battle)}
+                      title={`${battle.displayTitle || battle.title}: ${outcome}`}
+                      aria-label={`${battle.displayTitle || battle.title}: ${outcome}`}
+                      className={`w-9 h-9 rounded-lg border flex items-center justify-center text-xs font-black transition-transform hover:-translate-y-0.5 ${formClass}`}
+                    >
+                      {formLabel}
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
           </div>
 
           {/* Right Column: Info */}

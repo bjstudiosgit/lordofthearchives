@@ -62,6 +62,16 @@ const sortTournamentBattles = (a: Battle, b: Battle): number => {
   return episodeA - episodeB;
 };
 
+const coldWarSectionOrder = ["A", "B", "C", "D", "Quarter Finals", "Semi Finals", "Finals"];
+
+const sortColdWarBattles = (a: Battle, b: Battle): number => {
+  const sectionA = a.group || a.stage || "";
+  const sectionB = b.group || b.stage || "";
+  const sectionDifference = coldWarSectionOrder.indexOf(sectionA) - coldWarSectionOrder.indexOf(sectionB);
+
+  return sectionDifference || sortTournamentBattles(a, b);
+};
+
 const season5RegionalSubGroups = new Set([
   "North Battles",
   "Wrexham Battles",
@@ -176,6 +186,8 @@ export default function PengamePage() {
       dedupeBattles([...seasonBattles]).sort(
         season === "2023"
           ? sortTournamentBattles
+          : season === "Cold War"
+            ? sortColdWarBattles
           : season === "5"
             ? sortSeason5Battles
             : sortBattlesById,
@@ -303,12 +315,18 @@ export default function PengamePage() {
                       const mc4 = battle.mc4 ? pengameMcs.find(m => m.id === battle.mc4) : undefined;
                       const battleSection = season === "2023"
                         ? battle.subGroup
+                        : season === "Cold War"
+                          ? battle.group ? `Group ${battle.group}` : battle.stage
                         : season === "5"
                           ? getSeason5Section(battle)
                           : undefined;
                       const previousBattleSection = index > 0
                         ? season === "2023"
                           ? seasonBattles[index - 1].subGroup
+                          : season === "Cold War"
+                            ? seasonBattles[index - 1].group
+                              ? `Group ${seasonBattles[index - 1].group}`
+                              : seasonBattles[index - 1].stage
                           : season === "5"
                             ? getSeason5Section(seasonBattles[index - 1])
                             : undefined
@@ -323,7 +341,9 @@ export default function PengamePage() {
                       const episodeLabel = season === "5" && battleSection === "Box Park 2v2 Tournament"
                         ? `2v2x${sectionIndex}`
                         : season === "5" && battleSection === "Regional Battles"
-                          ? sectionIndex === 1 ? "TB01" : `RBx${String(sectionIndex).padStart(2, "0")}`
+                          ? `RBx${String(sectionIndex).padStart(2, "0")}`
+                          : season === "5" && battleSection === "Dungeon Battles"
+                            ? `DBx${String(sectionIndex).padStart(2, "0")}`
                           : season === "5" && season5EpisodeLabels[battle.slug]
                             ? season5EpisodeLabels[battle.slug]
                             : season === "2025"

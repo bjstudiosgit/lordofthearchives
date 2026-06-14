@@ -40142,7 +40142,7 @@ export const battles: Battle[] = [
     "theme": "pengame",
     "season": 4,
     "subGroup": "2v2 Battles",
-    "customEp": "Tx28",
+    "customEp": "4x2v2",
     "stage": "2v2 Battles",
     "group": null,
     "tag": "2v2 Battles",
@@ -42379,7 +42379,95 @@ export const battles: Battle[] = [
     "seasonOrder": 2,
     "stage": "Group Stage",
     "group": "A",
-    "tag": null
+    "tag": null,
+    "judges": ["Rippy", "Jodie"],
+    "clashSummary": "PASSIVE vs SKAMZ took place during the PenGame Rap Battle 2025 Cold War Tournament in Group A, where the top two from each group progress to the quarter-finals. The host explains the tournament format, shouts out Platinum Education Services, Sound On, Chicken Shop and Lounges TV, and reminds viewers that episodes drop on Wednesdays and Saturdays.\n\nSKAMZ wins the coin toss and chooses to go first. The host frames the clash as a possible redemption moment because SKAMZ has carried a reputation for flopping, choking and inconsistent performances. SKAMZ opens confidently, attacking PASSIVE's appearance, race, hygiene, sideburns, smell and writing ability. His main angle is that PASSIVE is passive by name and nature.\n\nPASSIVE responds with a cleaner, more structured first round, attacking SKAMZ's voice, music, Instagram page, car-flexing, choking history, money, breath control, dreads and reputation. Round two is closer: SKAMZ brings more aggression, GTA references, knife talk, Jake/GRAMS angles and Arsenal imagery, while PASSIVE uses more technical and humorous material around SKAMZ's voice, hair, engineering sessions, weed, music, poverty, plugs and sockets, REN/Renee and past losses.\n\nThe third round decides the battle. SKAMZ's final round is short and mainly uses sexual and mum jokes with scam-scheming wordplay. PASSIVE answers with a much stronger round built around toe-to-toe, shoe-for-shoe and slew-for-slew patterns, then attacks SKAMZ's voice, puberty, followers, statistics, image and originality. His percentage-fee and copied-bars section gets a major reaction and leads to a heated moment around the 'it's his flow' line.\n\nThe judges give the battle to PASSIVE. Rippy says SKAMZ was present and had moments, but PASSIVE stole it towards the end. Jodie says the third round decided the battle. PASSIVE wins through cleaner writing, stronger structure and the decisive final round.",
+    "performanceAnalysis": [
+      {
+        "performer": "PASSIVE",
+        "overview": "PASSIVE wins through cleaner writing, better structure and a stronger final round. His first establishes a teacher-versus-student contrast and uses varied attacks on SKAMZ's voice, music, social media, choking, money and image. His second is his most consistently technical, using voice, pitch, engineering, Krusty Krab, Mariah Carey, REN/Renee, plug/socket and battle-record flips. His third clearly seals the result with a rhythmic toe-to-toe pattern followed by statistics, followers, originality and copied-bar angles. The percentage-fee section creates the battle's clearest crowd moment. He fumbles slightly in places, but his punchline construction and control carry him through.",
+        "lyricalThemes": "SKAMZ's voice, SpongeBob, helium and compression, Instagram car pictures, choking, poverty, dreads, weed, Krusty Krab, Mariah Carey, REN/Renee, past losses, followers, originality, copyright and a trademarked notebook.",
+        "keyTechnicalHighlights": [
+          { "title": "Best round", "description": "Round three." },
+          { "title": "Strongest trait", "description": "Structured punchline writing." },
+          { "title": "Best angle", "description": "SKAMZ's voice and originality." },
+          { "title": "Best crowd moment", "description": "People using my bars / percentage fee." },
+          { "title": "Battle-winning factor", "description": "Stronger final round and cleaner writing." }
+        ]
+      },
+      {
+        "performer": "SKAMZ",
+        "overview": "SKAMZ starts with energy and confidence but does not maintain enough structure. His first round has effective PASSIVE name flips, appearance attacks and a strong collateral-damage sequence. His second is his best because he moves toward more direct aggression, using GTA, knife, Jake/GRAMS, Arsenal and arsonist imagery. His short third round relies mainly on mum and sexual jokes and does not carry enough weight against PASSIVE's complete closer. His stage presence is strong, but the material is inconsistent and several angles remain underdeveloped.",
+        "lyricalThemes": "PASSIVE's appearance, sideburns, smell, white-rapper angle, passive/damage wordplay, GTA, knife talk, Jake/GRAMS, Arsenal kit, mum jokes, scam scheming and producer/music angles.",
+        "keyTechnicalHighlights": [
+          { "title": "Best round", "description": "Round two." },
+          { "title": "Strongest trait", "description": "Stage presence and aggression." },
+          { "title": "Best angle", "description": "PASSIVE being passive, average and not dangerous." },
+          { "title": "Best technical moment", "description": "Collateral damage / passive damage scheme." },
+          { "title": "Battle-losing factor", "description": "A short and weaker third round." }
+        ]
+      }
+    ],
+    "notableBars": [
+      { "performer": "SKAMZ", "theme": "Status", "bar": "Wait, hold on, who is this guy?", "explanation": "A dismissive opener belittling PASSIVE's status." },
+      { "performer": "SKAMZ", "theme": "Birth insult", "bar": "Your mum should have had her tubes tied.", "explanation": "A harsh birth-regret insult." },
+      { "performer": "SKAMZ", "theme": "Cold wordplay", "bar": "Think that you're cold till I show up and frostbite.", "explanation": "Extends being cold as an MC into frostbite." },
+      { "performer": "SKAMZ", "theme": "Name flip", "bar": "Couldn't find ZEN, now you're getting scammed on sight.", "explanation": "References ZEN and flips SKAMZ's name." },
+      { "performer": "SKAMZ", "theme": "Name flip", "bar": "P-A-J-L-S-I-V-E, watch me P-A-S-S right through.", "explanation": "Mocks PASSIVE's spelling intro and turns it into passing through him." },
+      { "performer": "SKAMZ", "theme": "Pop culture", "bar": "Sideburns failing to look Wolverine.", "explanation": "Uses Wolverine's facial hair as a visual comparison." },
+      { "performer": "SKAMZ", "theme": "Hygiene", "bar": "How the fuck could your bars be clean? B.O. louder than your THC.", "explanation": "Combines body odour, clean bars and cannabis." },
+      { "performer": "SKAMZ", "theme": "Hygiene", "bar": "Did your ancestors tell you not to bathe?", "explanation": "Continues the cleanliness angle." },
+      { "performer": "SKAMZ", "theme": "Character attack", "bar": "PASSIVE is average, he doesn't cause damage.", "explanation": "Attacks PASSIVE as harmless and forgettable." },
+      { "performer": "SKAMZ", "theme": "Damage scheme", "bar": "He got in the way, now this damage is passive.", "explanation": "Turns passive damage into a direct name flip." },
+      { "performer": "SKAMZ", "theme": "Damage scheme", "bar": "The first shot was collateral damage.", "explanation": "Extends the passive-damage sequence." },
+      { "performer": "SKAMZ", "theme": "Film wordplay", "bar": "So you better move rapid after I say cut - action.", "explanation": "Uses film-set language to frame a threat." },
+      { "performer": "SKAMZ", "theme": "Style attack", "bar": "This guy is white and he raps white.", "explanation": "Attacks PASSIVE's style and authenticity." },
+      { "performer": "SKAMZ", "theme": "Writing critique", "bar": "If you're here to describe what a man looks like, stop that now, that shit is a reach.", "explanation": "Pre-emptively dismisses appearance-based material." },
+      { "performer": "SKAMZ", "theme": "Name flip", "bar": "Of course we don't wanna hear violent bars if you're P-A-S-S-I-V-E just talking.", "explanation": "Questions violent material from someone named PASSIVE." },
+      { "performer": "SKAMZ", "theme": "Gaming", "bar": "I'll pull out my knife on PASSIVE - cold word, GTA.", "explanation": "Frames the threat through Grand Theft Auto." },
+      { "performer": "SKAMZ", "theme": "Personal", "bar": "If your name is Jake, you're telling the world that you're carrying Grams.", "explanation": "Uses PASSIVE's name and GRAMS for a scene-specific punch." },
+      { "performer": "SKAMZ", "theme": "Football", "bar": "Brother, I'm an arsonist, now it's top red and white like the Arsenal kit.", "explanation": "Links arson, Arsenal and the club's colours." },
+      { "performer": "SKAMZ", "theme": "Name flip", "bar": "You ain't never had a battle with a guy scheming - Scam scheming.", "explanation": "Connects SKAMZ's name to plotting." },
+      { "performer": "SKAMZ", "theme": "Win denial", "bar": "You must be loco thinking you can take this dub - how do I tell you? It's a no-no.", "explanation": "Denies PASSIVE the win." },
+      { "performer": "SKAMZ", "theme": "Sexual punch", "bar": "How many inches she take? Ocho.", "explanation": "Uses the Spanish word for eight in a crude punch." },
+      { "performer": "PASSIVE", "theme": "Authority", "bar": "I'm a teacher, my lesson.", "explanation": "Frames PASSIVE as teacher and SKAMZ as student." },
+      { "performer": "PASSIVE", "theme": "Music", "bar": "Stop making songs, I've done liked your sessions.", "explanation": "Attacks SKAMZ's music outside battle rap." },
+      { "performer": "PASSIVE", "theme": "Voice", "bar": "You sound like a really good SpongeBob impression, mix of helium and compression.", "explanation": "Combines cartoon voice, helium and audio production." },
+      { "performer": "PASSIVE", "theme": "Status", "bar": "Talk about hardest bars, give PASSIVE a mention.", "explanation": "Claims a place among PenGame's strongest writers." },
+      { "performer": "PASSIVE", "theme": "Tournament", "bar": "I'll test any contestant, the worst or the best and I'll best them.", "explanation": "Claims he can beat anyone in the tournament." },
+      { "performer": "PASSIVE", "theme": "Social media", "bar": "20% of your page is your music, the rest is pics of him sitting in cars.", "explanation": "Attacks SKAMZ's car-flexing Instagram image." },
+      { "performer": "PASSIVE", "theme": "Car wordplay", "bar": "I run it cause he ain't got drive for his bars.", "explanation": "Flips driving into motivation and writing." },
+      { "performer": "PASSIVE", "theme": "Name flip", "bar": "Your name is Scams but you're always broke.", "explanation": "Says SKAMZ cannot live up to a money-making name." },
+      { "performer": "PASSIVE", "theme": "Double meaning", "bar": "I'm a professional, he is a scam - in this game you have pros and cons.", "explanation": "Uses pro as professional and con as scammer." },
+      { "performer": "PASSIVE", "theme": "Appearance", "bar": "All of your dreads are dead out - he uses one when he wipes his nose.", "explanation": "A crude visual attack on SKAMZ's hair." },
+      { "performer": "PASSIVE", "theme": "Weed wordplay", "bar": "Hold the mic while I put Scams in a joint.", "explanation": "Uses joint as cannabis and confinement." },
+      { "performer": "PASSIVE", "theme": "Voice and weed", "bar": "Gonna get smoked cause I came to the clash more high than your voices.", "explanation": "Links cannabis and vocal pitch." },
+      { "performer": "PASSIVE", "theme": "Appearance", "bar": "Hair like a mop, you reckon you're so cool.", "explanation": "A simple visual attack on SKAMZ's hairstyle." },
+      { "performer": "PASSIVE", "theme": "Engineering", "bar": "I feel bad for the guy that does your vocals.", "explanation": "Says SKAMZ's voice makes recording difficult." },
+      { "performer": "PASSIVE", "theme": "Engineering", "bar": "If I was your engineer when it's your turn, I'd have to cover up my ears.", "explanation": "Extends the painful recording-session angle." },
+      { "performer": "PASSIVE", "theme": "Pop culture", "bar": "Go work at Krusty Krab on the fryer.", "explanation": "Returns to the SpongeBob theme." },
+      { "performer": "PASSIVE", "theme": "Voice", "bar": "You don't carry with a voice like Mariah.", "explanation": "References Mariah Carey while attacking vocal ability." },
+      { "performer": "PASSIVE", "theme": "Voice", "bar": "You sound like SEVZ but an octave higher.", "explanation": "Uses musical pitch to compare SKAMZ with SEVZ." },
+      { "performer": "PASSIVE", "theme": "Voice wordplay", "bar": "Big man, watch your tone - sorry, I mean watch your pitch.", "explanation": "Corrects a behavioural phrase into a vocal-pitch attack." },
+      { "performer": "PASSIVE", "theme": "Family wordplay", "bar": "If Ren is your dad, Renee is your mum, which means you're a literal son of a bitch.", "explanation": "Builds a family structure from REN and Renee." },
+      { "performer": "PASSIVE", "theme": "Status wordplay", "bar": "You're not the plug or a socket.", "explanation": "Says SKAMZ is neither connected nor important." },
+      { "performer": "PASSIVE", "theme": "Battle record", "bar": "You lost to Blazn and she was the worst, then you lost to Ren, so you must like losing to birds.", "explanation": "Uses previous losses for a gender-based wordplay attack." },
+      { "performer": "PASSIVE", "theme": "Preparation", "bar": "You're flopping with more than a month to rehearse.", "explanation": "Targets SKAMZ's preparation and choking reputation." },
+      { "performer": "PASSIVE", "theme": "Pattern writing", "bar": "We can go toe to toe, shoe for shoe, slew for slew.", "explanation": "Creates rhythm and sets up footwear imagery." },
+      { "performer": "PASSIVE", "theme": "Voice", "bar": "You battle puberty too.", "explanation": "Uses SKAMZ's voice to suggest unfinished puberty." },
+      { "performer": "PASSIVE", "theme": "Statistics", "bar": "I've been on PenGame half the time as you and have double the followers.", "explanation": "Claims faster platform growth and greater status." },
+      { "performer": "PASSIVE", "theme": "Statistics wordplay", "bar": "I'll read them stats, you're binoculars.", "explanation": "Connects visible statistics with binoculars." },
+      { "performer": "PASSIVE", "theme": "Fashion wordplay", "bar": "Kick man until my shoes Louboutin.", "explanation": "References Louboutin's red soles through violent imagery." },
+      { "performer": "PASSIVE", "theme": "Pop culture", "bar": "You look like the girl from Jimmy Neutron.", "explanation": "A cartoon-based visual insult." },
+      { "performer": "PASSIVE", "theme": "Pop culture", "bar": "You'll get kicked off a cliff for lying like Scar.", "explanation": "References Scar from The Lion King." },
+      { "performer": "PASSIVE", "theme": "Originality", "bar": "People using my bar cause he tried to be me - I want a percentage fee.", "explanation": "Frames PASSIVE as influential and owed payment for imitation." },
+      { "performer": "PASSIVE", "theme": "Copyright", "bar": "If I copyright things, it's PenGame, it's peak.", "explanation": "Says protecting his style would expose widespread copying." },
+      { "performer": "PASSIVE", "theme": "Penmanship", "bar": "Who else could say they trademarked their notebook?", "explanation": "Closes by presenting his written material as uniquely ownable." }
+    ],
+    "judgementSummary": {
+      "verdict": "PASSIVE wins (2-1)",
+      "summary": "Rippy says SKAMZ was present and had moments, but PASSIVE stole the battle towards the end. Jodie says the battle was close before the third round decided it for PASSIVE. The judges reward PASSIVE's stronger writing, better structure and decisive closer. Suggested round split: PASSIVE takes rounds one and three; SKAMZ takes round two."
+    }
   },
   {
     "id": "pg-s06-2025-03-12-passive-vs-rasiah",
@@ -45824,13 +45912,13 @@ export const battles: Battle[] = [
     "date": "24-03-2025",
     "videoUrl": "https://www.youtube.com/watch?v=2iD1-amdMRA",
     "theme": "pengame",
-    "season": "Cold War",
-    "competition": "PenGame Cold War",
-    "subGroup": "Group A",
+    "season": "2025",
+    "competition": "PenGame",
+    "subGroup": null,
     "customEp": "6x07",
     "seasonOrder": 7,
-    "stage": "Group Stage",
-    "group": "A",
+    "stage": "Regular Season",
+    "group": null,
     "tag": null,
     "winner": "missink"
   },
@@ -45843,13 +45931,13 @@ export const battles: Battle[] = [
     "date": "28-03-2025",
     "videoUrl": "https://www.youtube.com/watch?v=6QyxFkVFfgE",
     "theme": "pengame",
-    "season": "Cold War",
-    "competition": "PenGame Cold War",
-    "subGroup": "Group A",
+    "season": "2025",
+    "competition": "PenGame",
+    "subGroup": null,
     "customEp": "6x08",
     "seasonOrder": 8,
-    "stage": "Group Stage",
-    "group": "A",
+    "stage": "Regular Season",
+    "group": null,
     "tag": null,
     "winner": "bonnie-godiva"
   },
@@ -45861,13 +45949,13 @@ export const battles: Battle[] = [
     "title": "TAPPED24 vs JMUNI",
     "date": "31-03-2025",
     "theme": "pengame",
-    "season": "Cold War",
-    "competition": "PenGame Cold War",
-    "subGroup": "Group A",
+    "season": "2025",
+    "competition": "PenGame",
+    "subGroup": null,
     "customEp": "6x09",
     "seasonOrder": 9,
-    "stage": "Group Stage",
-    "group": "A",
+    "stage": "Regular Season",
+    "group": null,
     "tag": null,
     "videoUrl": "https://www.youtube.com/watch?v=EsgazGxYk6M",
     "winner": "unknown"
@@ -45879,14 +45967,14 @@ export const battles: Battle[] = [
     "mc2": "sevz",
     "title": "DRIZZGB vs SEVZ",
     "theme": "pengame",
-    "season": "Cold War",
-    "competition": "PenGame Cold War",
-    "subGroup": "Group A",
+    "season": "2025",
+    "competition": "PenGame",
+    "subGroup": null,
     "views": "68k",
     "customEp": "6x10",
     "seasonOrder": 10,
-    "stage": "Group Stage",
-    "group": "A",
+    "stage": "Regular Season",
+    "group": null,
     "tag": null,
     "winner": "unknown"
   },
@@ -45898,13 +45986,13 @@ export const battles: Battle[] = [
     "title": "F-DON vs K.I.M.E.",
     "videoUrl": "https://www.youtube.com/watch?v=rJgNjZACdZQ",
     "theme": "pengame",
-    "season": "Cold War",
-    "competition": "PenGame Cold War",
-    "subGroup": "Group A",
+    "season": "2025",
+    "competition": "PenGame",
+    "subGroup": null,
     "customEp": "6x11",
     "seasonOrder": 11,
-    "stage": "Group Stage",
-    "group": "A",
+    "stage": "Regular Season",
+    "group": null,
     "tag": null,
     "winner": "unknown"
   },
@@ -45926,7 +46014,330 @@ export const battles: Battle[] = [
     "views": "165k",
     "stage": "Group Stage",
     "group": "B",
-    "tag": null
+    "tag": null,
+    "host": "Markz",
+    "judges": [
+      "Savage Dan",
+      "Backroad G",
+      "Marvin Abbey"
+    ],
+    "clashSummary": "JM vs ZEN took place during the PenGame Rap Battle 2025 Cold War Tournament, Group B. The event is hosted by Markz, with judges Savage Dan, Backroad G, and Marvin Abbey deciding the result. The battle opens with a strong tournament atmosphere. Savage Dan notes before the battle that it is both Mother’s Day and Eid, saying he may be conflicted if the battle becomes too heavy on mum jokes, which becomes highly relevant later. ZEN wins the coin toss and chooses for JM to go first. JM starts round one by attacking ZEN’s appearance, Leeds background, nose, past battle record and style. ZEN’s first round is very strong, utilizing a full coffee/work scheme against JM. JM clearly takes round two with aggressive, personal, and family-based material. ZEN’s second round is much shorter, built around airport references, and does not have enough weight to match JM's. Round three is highly controversial; JM delivers a strong round with name flips, nose jokes, and a 'Turkish Gareth Bale' line, while ZEN responds with a massive third round that gets multiple reloads. The judges split. Savage Dan gives it to ZEN, Backroad G gives it to JM, and Marvin Abbey becomes the deciding judge, giving it to JM. The official winner is JM, but the battle is clearly controversial, with ZEN’s third round getting the bigger room reaction and JM showing the cleaner overall consistency.",
+    "performanceAnalysis": [
+      {
+        "performer": "JM",
+        "overview": "JM wins officially because his material is more consistent across the battle and because he clearly takes round two. His writing is aggressive, direct and personal. He does not rely on one single angle; he attacks ZEN’s appearance, age, background, battle history, experience, movement, nose, and cultural identity.",
+        "lyricalThemes": "Leeds/leads wordplay, ZEN’s nose, Don’t Flop history, PASSIVE comparison, Nightmare on Elm Street, Matrix, PenGame champion status, age/experience gap, Faris/Paris, Welsh identity, Turkish Gareth Bale.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Consistency and Directness",
+            "description": "JM's primary strength is his consistency across all three rounds. While he did not have the single biggest moment of the clash, his aggressive, personal writing maintained high impact throughout the entire battle."
+          },
+          {
+            "title": "Dominant Round Two",
+            "description": "JM clearly won the second round by ramping up his aggression and targeting ZEN's championship image, age, fatherhood, race, religion, and appearance with extremely harsh personal material."
+          },
+          {
+            "title": "Clean Round Three Writing",
+            "description": "His final round featured a clever 'Z-E-N / V-E-T-E-R-A-N' spelling structure, nose jokes, G-spot imagery, and a strong 'Turkish Gareth Bale' closing punchline."
+          }
+        ]
+      },
+      {
+        "performer": "ZEN",
+        "overview": "ZEN has the biggest room moments of the battle. His first and third rounds are especially strong, with connected schemes and heavy crowd reaction. His weakness is round two, which is much shorter and less developed.",
+        "lyricalThemes": "Coffee/mug scheme, girlfriend/hot chocolate angle, stolen-bar accusation, insurance/fire-theft wordplay, Joseph/manger, Heathrow/take-off, passenger princess, Top Gear, Wales/Swansea, Hennessy, Miyagi, Mary Berry, onion bhaji.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Structured Schemes",
+            "description": "ZEN's first round featured a highly structured and well-written coffee scheme, utilizing puns around mugs, flat whites, Nescafé, and Starbucks to attack JM."
+          },
+          {
+            "title": "Crowd Reaction & Haymakers",
+            "description": "His third round generated the biggest crowd reactions of the clash, highlighted by the 'onion bhaji' line and passenger princess angles, which required multiple reloads."
+          },
+          {
+            "title": "Round Two Underdevelopment",
+            "description": "ZEN's second round, based around airport and take-off wordplay, was too brief and lacked the weight to stand up to JM's aggressive second round."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "JM",
+        "theme": "Appearance & Location",
+        "bar": "I don’t wanna hear no bad chat from a guy with a big nose coming from Leeds.",
+        "explanation": "JM opens with appearance and location. He immediately targets ZEN’s nose and Leeds background, setting up the 'Leeds/leads' wordplay that follows."
+      },
+      {
+        "performer": "JM",
+        "theme": "Leeds/leads Wordplay",
+        "bar": "If you were fed, you would get no leads.",
+        "explanation": "This is a Leeds/leads wordplay bar. 'Leads' can mean investigative leads for police, while ZEN is from Leeds. JM says even if ZEN were police, he would get nowhere."
+      },
+      {
+        "performer": "JM",
+        "theme": "Leeds/leads Wordplay",
+        "bar": "I hear that this girl puts him on leads.",
+        "explanation": "This extends the Leeds/leads scheme into a dog-control image. 'On leads' suggests ZEN is being controlled by a woman, making him look weak or submissive."
+      },
+      {
+        "performer": "JM",
+        "theme": "Status & Reputation",
+        "bar": "Washed-out version of P-A-S-S-I-V-E.",
+        "explanation": "JM compares ZEN to PASSIVE, saying ZEN is a weaker version of him. It is a platform-aware insult because PASSIVE is a known PenGame figure."
+      },
+      {
+        "performer": "JM",
+        "theme": "Battle History",
+        "bar": "You lost facing Villain on Don’t Flop.",
+        "explanation": "This references ZEN’s battle history on Don’t Flop, a major UK battle rap platform. JM uses the loss to attack ZEN’s reputation outside PenGame."
+      },
+      {
+        "performer": "JM",
+        "theme": "Pop Culture Reference",
+        "bar": "I can go Nightmare on Elm Street into your sleep.",
+        "explanation": "This references A Nightmare on Elm Street, where Freddy Krueger attacks people in dreams. JM uses it to say he can reach ZEN even when he is sleeping."
+      },
+      {
+        "performer": "JM",
+        "theme": "Appearance",
+        "bar": "You look like Ibrahimović.",
+        "explanation": "This references Zlatan Ibrahimović, the footballer. JM uses the comparison as a visual insult, likely around nose, face shape or confidence."
+      },
+      {
+        "performer": "JM",
+        "theme": "Pop Culture Reference",
+        "bar": "Moves mad like Neo from Matrix, trying to dodge them bullets.",
+        "explanation": "This references Neo from The Matrix, especially the famous bullet-dodging scene. JM uses it to mock ZEN’s movement and performance style."
+      },
+      {
+        "performer": "JM",
+        "theme": "Status & Reputation",
+        "bar": "I don’t wanna hear about long-haired leng man, I don’t wanna hear about PenGame champ.",
+        "explanation": "JM rejects ZEN’s image and status. He says neither ZEN’s appearance nor his champion reputation matters in this battle."
+      },
+      {
+        "performer": "JM",
+        "theme": "Disrespect & Appearance",
+        "bar": "When you spit, you move mad like you’ve got cerebral palsy — or is that a cramp?",
+        "explanation": "This is a disability-based insult and should be treated strictly as battle material. JM uses it to mock ZEN’s movement while rapping. It is harsh and uncomfortable, but it is part of the battle’s second-round attack."
+      },
+      {
+        "performer": "JM",
+        "theme": "Status & Progress",
+        "bar": "I’ve improved on all my battles I’ve done, and you’re still stuck in your past.",
+        "explanation": "This is one of JM’s better status angles. He positions himself as improving quickly while ZEN is relying on old achievements. It is a strong tournament argument."
+      },
+      {
+        "performer": "JM",
+        "theme": "Experience Gap",
+        "bar": "If I had your experience, I’d be the baddest fam.",
+        "explanation": "JM points out the experience gap. He is saying ZEN has been around longer but has not done enough with that time. It makes JM look like the hungrier battler."
+      },
+      {
+        "performer": "JM",
+        "theme": "Appearance & Disrespect",
+        "bar": "This little idiot looks like a cracked-out Ilhan mixed with a Taliban.",
+        "explanation": "This is a race/religion/appearance insult and should be handled carefully as battle material only. JM uses political and ethnic imagery to mock ZEN’s appearance."
+      },
+      {
+        "performer": "JM",
+        "theme": "Identity & Disrespect",
+        "bar": "Your full name is Faris Sawar, and you can’t say a stuff for Allah.",
+        "explanation": "This uses ZEN’s real name and religious identity as an attack. Again, this should be treated as battle material, not factual commentary on faith."
+      },
+      {
+        "performer": "JM",
+        "theme": "Name Flip",
+        "bar": "You can never battle with me bro — Z-E-N, small zoot with a roach.",
+        "explanation": "JM starts his third by spelling ZEN’s name and reducing him to something small and smokeable. It is a direct name flip."
+      },
+      {
+        "performer": "JM",
+        "theme": "Age & Experience",
+        "bar": "I’m a V-E-T-E-R-A-N and I’m 22, you’re an old man and a pro.",
+        "explanation": "This is one of JM’s strongest concepts. He spells 'veteran' to say he is experienced despite being only 22, while ZEN is older and should be much further ahead."
+      },
+      {
+        "performer": "JM",
+        "theme": "Nose Joke",
+        "bar": "You’ve got a snorkel, that’s not a nose.",
+        "explanation": "This is a nose joke. A snorkel is long and sticks out, so JM uses it to exaggerate ZEN’s nose. It is simple but effective."
+      },
+      {
+        "performer": "JM",
+        "theme": "Nose Joke",
+        "bar": "She said ZEN can you reach my G-spot? He said I can with my nose.",
+        "explanation": "This continues the nose angle with a crude sexual punch. It gets a strong reaction because it is direct, visual and easy to understand."
+      },
+      {
+        "performer": "JM",
+        "theme": "Name Flip",
+        "bar": "Faris, you wish you was one of them guys in Paris.",
+        "explanation": "This is a Faris/Paris wordplay bar. JM uses ZEN’s real name and links it to Paris to attack his image and status."
+      },
+      {
+        "performer": "JM",
+        "theme": "Experience Gap",
+        "bar": "You got about 10 years’ experience on me dog, you should be embarrassed.",
+        "explanation": "This is a central JM argument. He says ZEN has been battling longer but is still in the same tournament position. It makes JM look like the rising talent."
+      },
+      {
+        "performer": "JM",
+        "theme": "Football Metaphor",
+        "bar": "It’s funny how I’m from the land of Wales, but he looks like the Turkish Gareth Bale.",
+        "explanation": "This references Gareth Bale, the Welsh footballer. JM, being from Wales, flips ZEN’s appearance into a 'Turkish Gareth Bale' insult. It is one of his best closing punches."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Name Pattern",
+        "bar": "Z to the N again.",
+        "explanation": "ZEN opens with his signature name pattern. It immediately brands the round and gives him a recognisable start."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Appearance",
+        "bar": "Your beard looks like a rug.",
+        "explanation": "This is a simple visual insult. ZEN attacks JM’s facial hair and makes it sound artificial or messy."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Lifestyle Allegation",
+        "bar": "You was in Wales sniffing up drugs in a club.",
+        "explanation": "This is a serious drug-use allegation-style angle and should be treated as battle material, not fact. ZEN uses it to attack JM’s image and lifestyle."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Coffee Scheme",
+        "bar": "JM used to work with coffee, and it made sense, cause now he’s getting talked for a mug.",
+        "explanation": "This begins ZEN’s strongest round-one scheme. 'Mug' means both a cup for coffee and a foolish person. It is a clean coffee/work wordplay bar."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Coffee Scheme",
+        "bar": "Your girl left for a Black guy… all you could give her was flat white.",
+        "explanation": "This continues the coffee scheme. A flat white is a coffee drink, and ZEN uses it as both a drink reference and a racial/relationship insult. It is battle material and should be handled as such."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Coffee Scheme",
+        "bar": "Used to wake up and make her a Nescafé, now she takes something Black in the morning.",
+        "explanation": "This extends the coffee/relationship scheme. Nescafé is a coffee brand, and 'Black in the morning' works as both coffee and relationship imagery."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Coffee Scheme",
+        "bar": "If I tell man the brother’s been grinding, just know I’m on about making coffee.",
+        "explanation": "This is a strong double meaning. 'Grinding' can mean working hard or grinding coffee beans. ZEN uses it to keep the scheme connected."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Coffee Scheme",
+        "bar": "You ever see this Starbuck? Costs an arm and a leg.",
+        "explanation": "This references Starbucks and the phrase 'costs an arm and a leg.' ZEN uses it to continue the coffee scheme while also implying violence or cost."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Biting Accusation",
+        "bar": "Stole that bar from a battle and we know.",
+        "explanation": "ZEN accuses JM of biting a bar. This is a serious accusation in battle rap because originality matters. It strengthens the round by attacking JM’s pen."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Coffee Scheme",
+        "bar": "This brother put a cap in cappuccino.",
+        "explanation": "This is one of the best coffee-scheme punches. 'Cap' can mean lie, and cappuccino is another coffee drink. ZEN uses the coffee language to call JM a liar."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Insurance Scheme",
+        "bar": "These days JM working insurance… third party, fire and theft.",
+        "explanation": "This is an insurance scheme. Third party, fire and theft is a type of car insurance cover. ZEN uses JM’s alleged work in insurance to build a full angle."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Biblical Flip",
+        "bar": "JM’s real name’s Joseph, but his little baby never had a space in a manger.",
+        "explanation": "This references the Nativity story, where Joseph is connected to the birth of Jesus and the manger. ZEN flips JM’s real name into a family/housing insult."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Airport Scheme",
+        "bar": "If I lick man down in Heathrow, you ain’t gonna see him take off again.",
+        "explanation": "This starts ZEN’s short second round. Heathrow is a major London airport, and 'take off' links to flights. It is a clean airport punch."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Airport Scheme",
+        "bar": "If the brother got killed today at the airport, there would be a big delay.",
+        "explanation": "This continues the airport scheme. Delays are common in airports, so ZEN uses that language to describe the impact of taking JM out."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Pop Culture Reference",
+        "bar": "If he ever puts a plane in the sky, it will launch a grenade like Ginger J.",
+        "explanation": "This mixes airport/plane imagery with a PenGame personality reference. It is a violent cartoon-style punch and part of the same travel scheme."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Status & Dominance",
+        "bar": "This poser’s yours, nothing but a passenger princess.",
+        "explanation": "This is one of ZEN’s third-round angles. 'Passenger princess' refers to someone who rides around being driven rather than doing the driving. ZEN uses it to make JM look dependent."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Pop Culture Reference",
+        "bar": "You were the one that drove car — we can all tell that this brother’s on Top Gear.",
+        "explanation": "This references Top Gear, the car television show. ZEN flips car/driving imagery into a punch about JM’s role and status."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Location Punch",
+        "bar": "Swansea, you’re about to drown.",
+        "explanation": "This is a location punch aimed at JM’s Welsh background. Swansea is a coastal Welsh city, so ZEN uses drowning imagery to make the attack feel localised."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Travel Angle",
+        "bar": "If it wasn’t for me, you’d be catching a train every time you’re out of town.",
+        "explanation": "This continues the travel/passenger angle. ZEN says JM depends on him for lifts or movement, making JM look less independent."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Pop Culture Reference",
+        "bar": "You ain’t got a technique like Miyagi.",
+        "explanation": "This references Mr. Miyagi from The Karate Kid, known for martial arts technique. ZEN says JM lacks technique, both in battle and possibly in movement."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Mum Joke",
+        "bar": "Your mum looks like Mary Berry.",
+        "explanation": "This references Mary Berry, the British TV baking personality. ZEN uses it as a visual mum joke. It gets folded into the wider family material."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Onion Bhaji Line",
+        "bar": "I found out that your cousin’s Bengali, that means that your mumsy’s white but she went and got fucked for an onion bhaji.",
+        "explanation": "This is the most controversial and most reactive bar of the battle. It uses ethnicity and food imagery to attack JM’s mother and mixed background. It should be archived carefully as offensive battle material, not endorsed commentary. The crowd reaction is huge, and the judges specifically mention the onion bhaji line."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Mum Joke",
+        "bar": "Your mum got ran through like a marathon.",
+        "explanation": "This continues the mum/sexual-history angle. It is crude and personal, used to extend the previous racialised family punch."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Status Punch",
+        "bar": "Tell man you’re the best in Wales, but right now it be looking very traumatic.",
+        "explanation": "This is a status punch. ZEN says JM’s claim to be one of the best in Wales is being damaged in the battle."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "JM won by split decision (2-1)",
+      "summary": "Savage Dan voted for ZEN, scoring the battle 2-1 for ZEN (giving ZEN rounds one and three, and JM round two), heavily influenced by ZEN's 'onion bhaji' line. Backroad G voted for JM. Marvin Abbey was the deciding judge and voted for JM; although he acknowledged ZEN's third round grew stronger with each reload, he preferred JM's consistency across the entire battle before the reloads occurred."
+    }
   },
   {
     "id": "pg-s06-2025-04-19-marcel-vs-smil3z",
@@ -45946,7 +46357,372 @@ export const battles: Battle[] = [
     "views": "130k",
     "stage": "Group Stage",
     "group": "B",
-    "tag": null
+    "tag": null,
+    "host": "Markz",
+    "judges": [
+      "Savage Dan",
+      "Backroad G",
+      "Marvin Abbey"
+    ],
+    "clashSummary": "MARCEL vs SMIL3Z took place during the PenGame Rap Battle 2025 Cold War Tournament, Group B. The battle is hosted by Markz, with judges Savage Dan, Backroad G, and Marvin Abbey. The event takes place on Mother’s Day, which becomes a running theme as both battlers use family and mum-based material. SMIL3Z wins the coin toss and chooses for MARCEL to go first. MARCEL opens round one with a bold Mother’s Day angle and attacks SMIL3Z’s father, family, Jamaican image, accent, appearance, eyes, lisp, and PenGame history. SMIL3Z responds with a darker, more aggressive round framing himself against the three white men in Group B, but it is less clean than MARCEL’s opener. In round two, MARCEL delivers a very personal story-style round about how SMIL3Z allegedly got his nickname 'Smiles' in prison. SMIL3Z counters with a commanding response, framing himself as a music artist rather than a battle rapper, and aggressively targets MARCEL's height, age, family, ability, and presence, shifting the momentum. MARCEL's third round is reference-heavy and creative (referencing cartoons, films, wrestling, and Marvel). SMIL3Z's third round is decisive, featuring repeated height jokes, speech jokes, Carnival/stampede imagery, and a microwave joke. SMIL3Z wins by unanimous decision (3-0).",
+    "performanceAnalysis": [
+      {
+        "performer": "MARCEL",
+        "overview": "MARCEL starts strongly with a cheeky, direct and well-structured first round. He writes with clear angles and builds a personal story in round two. He is reference-heavy and creative in round three, but ultimately loses control of the room's momentum once SMIL3Z starts landing heavier performance pressure.",
+        "lyricalThemes": "Mother’s Day, family, dad in the bando, fake Jamaican accent, rice and peas vs mushy peas, frog eyes, lisp, jail, scar story, Princess and the Frog, Finding Nemo, Toy Story, Scar, Beetlejuice, WrestleMania, Professor Xavier, Logan, Magneto.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Angle-Based Openers",
+            "description": "MARCEL opened the battle with a clever, custom Mother’s Day angle that used the specific date of the event to immediately grab attention and discipline his opponent."
+          },
+          {
+            "title": "Personal Storytelling",
+            "description": "In round two, he constructed a detailed narrative explaining the origin of SMIL3Z's nickname, alleging bullying, scars, and robbery in prison to damage his opponent's street image."
+          },
+          {
+            "title": "Reference-Heavy Writing",
+            "description": "His third round relied on pop culture, films, and Marvel comic references (Professor Xavier, Logan, Magneto, Finding Nemo, Beetlejuice) to build creative punches."
+          }
+        ]
+      },
+      {
+        "performer": "SMIL3Z",
+        "overview": "SMIL3Z wins by taking over the battle after round one with commanding stage presence, crowd control, and relentless pressure. He frames himself as a music artist on PenGame for exposure rather than a traditional battle rapper, delivering dark, blunt, and highly reactive rounds.",
+        "lyricalThemes": "being a music artist, PenGame exposure, family smoke, short-man jokes, speech/lisp jokes, Carnival stampede, “where’s your parents?”, microwave joke, bill drop/kill shot, cutting PenGame time short, off-camera persona vs stage aggression.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Commanding Stage Presence",
+            "description": "SMIL3Z's delivery became increasingly aggressive and convincing, allowing him to dominate the stage and capture the crowd's energy from round two onward."
+          },
+          {
+            "title": "Performative Haymakers",
+            "description": "He created one of the biggest moments of the clash with a performative high-five setup that mocked MARCEL's height, demonstrating excellent crowd connection."
+          },
+          {
+            "title": "Dark and Decisive Material",
+            "description": "SMIL3Z's third round was praised by judges for its dark tone, using a mix of child/parents angles, Carnival stampede imagery, and short-man jokes to completely take control of the battle."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "MARCEL",
+        "theme": "Mother’s Day Angle",
+        "bar": "Let me start by saying Happy Mother’s Day to his mum.",
+        "explanation": "MARCEL opens by using the date of the event. Since it is Mother’s Day, this line immediately turns the setting into part of the battle. It is cheeky and gets attention fast."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Mother’s Day Angle",
+        "bar": "I’m sorry that I can’t be there, cause I’ve got to discipline your son.",
+        "explanation": "This completes the Mother’s Day opener. MARCEL says he cannot be with SMIL3Z’s mum because he has to punish SMIL3Z in the battle. It is a strong, personal opener."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Family Insult",
+        "bar": "His dad’s trapped in a bando, he’s 50 thinking he’s Rocky, running round West London with a Rambo.",
+        "explanation": "This attacks SMIL3Z’s father and family image. A bando is an abandoned house often associated with drug activity, Rocky is the famous boxing character, and a Rambo is a knife. It paints the father as old but still acting reckless."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Family Insult",
+        "bar": "His dad’s never there at Christmas.",
+        "explanation": "This is an absent-father angle. MARCEL uses Christmas as a family setting to make the absence feel more pointed. It should be treated as battle material."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Cultural Authenticity",
+        "bar": "You ain’t Jamaican, you’re Jamaican.",
+        "explanation": "MARCEL attacks SMIL3Z’s Jamaican identity and accent. The line is a play on sounding Jamaican versus actually being Jamaican. It is a cultural-authenticity punch."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Cultural Authenticity",
+        "bar": "He don’t know about rice and peas, he puts mushy peas on fish and chips.",
+        "explanation": "This is a British/Jamaican food contrast. Rice and peas is associated with Caribbean food, while mushy peas and fish and chips are British. MARCEL uses food to say SMIL3Z’s image is not authentic."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Self-Deprecation",
+        "bar": "I don’t care if I’m five foot six, I’ll spit in your girlfriend’s cheeks in my lisp.",
+        "explanation": "MARCEL owns his height and lisp before SMIL3Z can use them. It is a defensive flip: he admits the obvious insult, then turns it into disrespect."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Appearance",
+        "bar": "You look like you sniffed a whole brick, and his eyes pop out like this.",
+        "explanation": "This is an appearance and drug-image insult. MARCEL attacks SMIL3Z’s eyes, saying they look wide or bulging. It is a visual punch."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Appearance",
+        "bar": "Frog-eyed prick, eyes too big.",
+        "explanation": "This continues the eye angle. Calling him frog-eyed gives the crowd a simple image to attach to SMIL3Z."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Wordplay",
+        "bar": "You got bullied in pen, you twat. Now you’re gonna get bullied with a pen.",
+        "explanation": "This is one of MARCEL’s best wordplay bars. 'Pen' can mean prison, but also a writing pen. He says SMIL3Z got bullied in prison and is now getting bullied lyrically."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Status & Backstage Talk",
+        "bar": "When I seen him at the last PenGame, he was begging me for some help.",
+        "explanation": "This is a backstage/status angle. MARCEL claims SMIL3Z wanted help from him, which makes SMIL3Z look dependent rather than dominant."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Status & Backstage Talk",
+        "bar": "Can we please team up and take ZEN out?",
+        "explanation": "This adds a tournament-specific angle. MARCEL says SMIL3Z needed him to deal with ZEN, which attacks SMIL3Z’s confidence and independence."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Prison Story",
+        "bar": "Let me tell you a story about how he got the nickname Smiles.",
+        "explanation": "MARCEL’s second round begins as a story round. This gives it structure and makes the audience listen for a reveal."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Street Logic",
+        "bar": "Going to jail don’t make you a badman, it just means you got caught on a move.",
+        "explanation": "This echoes a well-known battle/street-logic idea also associated with Chip-style phrasing. MARCEL uses it to say prison does not equal credibility."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Criminal Allegation",
+        "bar": "You went pen for robbing an old lady.",
+        "explanation": "This is a serious criminal allegation-style bar. It should be treated strictly as battle material, not fact. MARCEL uses it to damage SMIL3Z’s moral image."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Pop Culture Reference",
+        "bar": "Your favourite song is Call Me Maybe.",
+        "explanation": "This references Call Me Maybe by Carly Rae Jepsen. MARCEL uses it to make SMIL3Z look soft and poppy rather than dangerous."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Appearance",
+        "bar": "Frog face, why do your eyes look odd?",
+        "explanation": "MARCEL returns to the frog-eye angle in the third round. It is a repeated appearance attack."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Disney Reference",
+        "bar": "If your daughter’s your little princess, then you’re her princess and the frog.",
+        "explanation": "This references The Princess and the Frog. MARCEL flips SMIL3Z’s daughter/family material into a Disney joke, with SMIL3Z as the frog."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Pop Culture Reference",
+        "bar": "For Nemo, he’s finding kids.",
+        "explanation": "This references Finding Nemo. It is a cartoon reference turned into darker material. It should be treated as battle material."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Pop Culture Reference",
+        "bar": "Leaving black and blue like Dory.",
+        "explanation": "This references Dory, the blue fish from Finding Nemo. 'Black and blue' also means bruised, so MARCEL links the cartoon colour scheme with violence."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Toy Story Reference",
+        "bar": "I know a good man called Andy, he’ll bring toys and end your story.",
+        "explanation": "This references Toy Story, where Andy owns the toys. MARCEL uses 'end your story' as a finishing punch."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Lion King Reference",
+        "bar": "Like Scar, he killed Mufasa.",
+        "explanation": "This references The Lion King. Scar betrays and kills Mufasa, so MARCEL uses the reference to suggest betrayal or backstabbing."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Pop Culture Reference",
+        "bar": "How can you murk me when it literally looks like Beetlejuice?",
+        "explanation": "This references Beetlejuice, a character known for a strange, ghostly look. MARCEL uses it to mock SMIL3Z’s appearance."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Wrestling Reference",
+        "bar": "This is PenGame, not WrestleMania.",
+        "explanation": "This references WrestleMania, WWE’s biggest event. MARCEL uses it to mock performance theatrics and keep the battle grounded in rap."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "X-Men Scheme",
+        "bar": "I’ll put him in a wheelchair, he won’t be walking again like Professor Xavier.",
+        "explanation": "This references Professor Xavier from X-Men, who uses a wheelchair. It is a disability-based threat and should be treated strictly as battle material."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "X-Men Scheme",
+        "bar": "You don’t carry no metal like Logan.",
+        "explanation": "This references Logan/Wolverine, whose skeleton and claws are made of adamantium metal. MARCEL uses it to say SMIL3Z does not really carry weapons."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "X-Men Scheme",
+        "bar": "You don’t carry no metal like Magneto.",
+        "explanation": "This continues the X-Men scheme. Magneto controls metal, so MARCEL uses the reference to attack SMIL3Z’s gun/weapon talk."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Statement of Intent",
+        "bar": "Today is murder.",
+        "explanation": "SMIL3Z opens by making the battle feel serious. It is not a joke-based start; he is declaring intent."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Group Dynamic",
+        "bar": "I’ve got three white guys in my group trying to get a Black man down.",
+        "explanation": "This frames the whole Cold War group as a racialised underdog situation. SMIL3Z says he is facing three white opponents and still does not care. It gives him a strong personal narrative."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Group Dynamic",
+        "bar": "I ain’t trying to die first in this movie today.",
+        "explanation": "This continues the racialised movie-survival framing. It suggests he refuses to be the first one eliminated. It is both a battle and tournament angle."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Height Joke",
+        "bar": "Oompa Loompa might struggle to run if he trips and he’s done.",
+        "explanation": "This references the Oompa Loompas from Charlie and the Chocolate Factory, often used as short-person imagery. It is a height-based insult aimed at MARCEL."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Height Joke",
+        "bar": "Your legs dangle when you sit on the seat.",
+        "explanation": "This is a simple but effective height joke. It makes MARCEL seem child-sized."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Delivery Attack",
+        "bar": "Your speech mangled when you rap on the beat.",
+        "explanation": "SMIL3Z attacks MARCEL’s speech and delivery. This becomes a repeated angle throughout the battle. It is personal and harsh."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Disrespect",
+        "bar": "What the fuck has your mother done to you?",
+        "explanation": "This connects MARCEL’s appearance and speech to his mother. It is harsh Mother’s Day material and part of the battle’s darker tone."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Self-Framing",
+        "bar": "I ain’t no battle rapper, I’m a music artist.",
+        "explanation": "This is one of SMIL3Z’s most important self-framing lines. He separates himself from battle-rappers and says he entered PenGame for exposure and opportunity."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Self-Framing",
+        "bar": "The only reason I jumped on PenGame was for exposure, for some chances.",
+        "explanation": "This makes SMIL3Z’s motivation clear. He presents PenGame as a platform, not his whole identity. That makes his performance feel like a statement."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Defensive Turn",
+        "bar": "It’s Mother’s Day today. Whoever this is, my mum, come see me afterwards.",
+        "explanation": "SMIL3Z responds to the family/mum angles by bringing his own family energy into the battle. It makes his round feel more personal and defensive."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Height Joke",
+        "bar": "Have one of your short man syndrome acts, then you’re gonna take a trip to the moon.",
+        "explanation": "This attacks MARCEL’s height and temper. 'Short man syndrome' is used to say MARCEL overcompensates because of his size."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Height Joke",
+        "bar": "When he goes shopping, the grocery bags will drag on the floor.",
+        "explanation": "This is one of SMIL3Z’s cleanest height jokes. It gives the crowd a clear visual of MARCEL being too short to carry bags properly."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Performative Punch",
+        "bar": "Wah wah, legit man, high five — oh, you can’t reach.",
+        "explanation": "This is one of the biggest crowd moments. SMIL3Z sets up a high five, then flips MARCEL’s height by saying he cannot reach it. It is simple, performative and brutal."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Delivery Attack",
+        "bar": "You can’t rap on beat, that’s due to your fucked-up speech.",
+        "explanation": "SMIL3Z combines delivery critique with a speech insult. It is harsh, but it directly attacks MARCEL’s ability to rap."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Platform History",
+        "bar": "The only reason you went viral was because of Cheeks.",
+        "explanation": "This is a platform-history attack. SMIL3Z says MARCEL’s visibility did not come from his own skill, but from another moment or person connected to Cheeks."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Speech Insult",
+        "bar": "Your lisp is mental. If I was you, I’d be afraid to speak.",
+        "explanation": "This continues the speech/lisp angle. It is one of the darker and more personal lines in the battle."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Stampede Scenario",
+        "bar": "Imagine we were all in Carnival and there was a stampede.",
+        "explanation": "This starts a harsh physical scenario. Carnival suggests a packed crowd, and SMIL3Z uses the image to attack MARCEL’s ability to cope in that situation."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Height & Age Joke",
+        "bar": "I bet people come up to you and say, where’s your parents?",
+        "explanation": "This is a height/age-image joke. SMIL3Z says MARCEL looks like a child, so people assume he is lost and needs parents."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Height & Age Joke",
+        "bar": "Next minute he’s escorted home in a police car.",
+        "explanation": "This continues the child/lost-person angle. It makes MARCEL look vulnerable and out of place."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Height Joke",
+        "bar": "How do short people say hello? They give you a microwave.",
+        "explanation": "This is a short-person joke based on 'micro-wave': a small wave. It is a simple wordplay gag but lands heavily in the room."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Bill Drop vs Kill Shot",
+        "bar": "You’re here for the bill drop, I’m here for the kill shot.",
+        "explanation": "This contrasts money/exposure with destruction. SMIL3Z says MARCEL is just present for payment or platform opportunity, while he is here to end the battle."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Height & Status Punch",
+        "bar": "I’ll cut your time on PenGame short like your height is.",
+        "explanation": "This is one of SMIL3Z’s strongest name/status punches. He connects MARCEL’s height to his time on the platform, saying both will be short."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Self-Image Flip",
+        "bar": "Just because I smile and joke off camera, it doesn’t mean you won’t get wrapped up.",
+        "explanation": "This is a strong self-image flip. SMIL3Z says his friendly off-camera personality does not mean he is soft in battle."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Disability Threat",
+        "bar": "If I mash the words on a special kid, then the years that I get will be stacked up.",
+        "explanation": "This is a disability-based threat and should be treated strictly as battle material. SMIL3Z uses it to suggest attacking MARCEL would bring serious consequences."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Direct Threat",
+        "bar": "You won’t be leaving West, you’ll be going through torture.",
+        "explanation": "This closes the battle with a direct threat-style line. It is not wordplay-heavy, but it reinforces SMIL3Z’s aggressive final-round tone."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "SMIL3Z won by unanimous decision (3-0)",
+      "summary": "All three judges (Savage Dan, Backroad G, and Marvin Abbey) voted for SMIL3Z. Marvin Abbey noted that MARCEL took round one with the stronger opening angle, but the rest of the battle was a landslide for SMIL3Z. Backroad G and Savage Dan agreed that SMIL3Z's stage presence, crowd control, and darker writing (particularly in the final round) allowed him to completely take over after the first round."
+    }
   },
   {
     "id": "pg-s06-2025-04-23-jm-vs-marcel",
@@ -45966,7 +46742,402 @@ export const battles: Battle[] = [
     "views": "81k",
     "stage": "Group Stage",
     "group": "B",
-    "tag": null
+    "tag": null,
+    "host": "Markz",
+    "judges": [
+      "Backroad G",
+      "Savage Dan",
+      "Marvin Abbey"
+    ],
+    "clashSummary": "JM vs MARCEL took place during the PenGame Rap Battle 2025 Cold War Tournament, Group B. The battle is hosted by Markz, with judges Backroad G, Savage Dan, and Marvin Abbey deciding the result. JM wins the coin toss and chooses for MARCEL to go first. MARCEL opens round one by claiming he has been on grime since primary school and even before coming across Wiley. He tries to set the battle up as a grime clash, attacking JM’s accent, father, mother, girlfriend, daughter, Welsh background and image. He also brings a lot of personal material around JM’s mum, naming her and accusing her of being on Universal Credit. The round has moments, but MARCEL gets JM’s mum’s name slightly wrong, which JM immediately points out before starting his own round. JM’s first round is short but sharp. He attacks MARCEL’s stance, father, reliance on Cheeks, lisp, reselling, fake entrepreneur image, and battle value. His round is more focused and cleaner, which the judges later reward. Round two is MARCEL’s strongest. He uses a funeral/prayer concept for JM, calling him Joseph and building a whole “Dear Lord” structure around his death, jobseekers, weakness, family, daughter, crucifixion, Judas, Jesus, and JM’s baby mum allegedly leaving for a man named Ryan. This round causes a big reaction in the room because MARCEL brings out a picture and makes the baby-mum/new-boyfriend angle visual. JM responds in round two with more personal and technical material. He attacks MARCEL’s lisp, viral moment with Cheeks, appearance, size, Postman Pat look, sister, girlfriend, music, and the gap between his nose and lips. It is a good round, but the judges later give the second to MARCEL because of the weight of the prayer/funeral concept. Round three decides the battle. MARCEL comes with more grime-war energy, saying he will murk JM online, leave him on the floor, and turn him to ashes. He also returns to the Welsh/sheep/farmer angle and attacks JM’s dad with the Gay Pride photo angle. However, MARCEL stumbles and visibly loses control of parts of the round. The judges specifically say these mistakes hurt him. JM’s third is cleaner. He attacks MARCEL’s short-man syndrome, father, stance, lisp, bug eyes, girlfriend, strap-on angle, lack of music quality, scrap-metal image, and overall weirdness. He is sharper, steadier and more controlled. The judges give JM the first and third rounds, making him the official winner.",
+    "performanceAnalysis": [
+      {
+        "performer": "JM",
+        "overview": "JM wins the battle unanimously by delivering cleaner and more consistent rounds. Although MARCEL lands a major blow in round two, JM avoids errors and capitalizes on MARCEL's third-round stumbles with structured, punchy material targeting MARCEL's lisp and viral status.",
+        "lyricalThemes": "MARCEL’s lisp, short-man syndrome, father, Cheeks, viral identity, reselling, fake entrepreneur image, appearance, girlfriend, bug eyes, strap-on jokes, scrap-metal imagery, sharpness over volume.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Lisp and Viral Identity Critique",
+            "description": "JM focused heavily on MARCEL's viral identity, asserting that MARCEL's fame and views come from crowd mockery of his lisp and his reliance on Cheeks rather than his actual rapping ability."
+          },
+          {
+            "title": "Clean unleaded Wordplay",
+            "description": "In round two, JM delivered a clean double-meaning bar combining gun clip and petrol imagery ('When it comes to my lyrical clip, that’s petrol because it’s unleaded')."
+          },
+          {
+            "title": "Short-Man Syndrome and Stance",
+            "description": "JM opened his final round by attacking MARCEL's height, flinching behavior, and poor combat stance, using physical observation to dominate the stage presence."
+          }
+        ]
+      },
+      {
+        "performer": "MARCEL",
+        "overview": "MARCEL shows high grime energy and creates the biggest moment of the battle in round two with a creative mock funeral concept. However, his performance is undermined by fact-checking errors in round one and visible delivery stumbles in round three, costing him the overall decision.",
+        "lyricalThemes": "grime history, Wiley, Gordon Ramsay, family exposé, prayer/funeral concept, Joseph, Jesus/Judas, baby-mum/new-boyfriend angle, Welsh/sheep jokes, war, Gay Pride dad angle, Cole Palmer, fumbles under pressure.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Dear Lord Funeral Scheme",
+            "description": "MARCEL won round two with a highly creative, structured 'Dear Lord' funeral concept for 'Joseph', using religious imagery and mock prayers to expose JM's financial and personal life."
+          },
+          {
+            "title": "Baby-Mum Picture Angle",
+            "description": "To complete his second-round funeral scheme, he brought out a physical photo to mock JM's baby mum allegedly leaving him for another man named Ryan, generating a huge reaction in the room."
+          },
+          {
+            "title": "Wiley Grime Intro",
+            "description": "MARCEL opened round one by asserting his grime history, referencing Wiley and primary school roots to frame the clash as a classic grime war."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "MARCEL",
+        "theme": "Grime Credentials",
+        "bar": "I’ve been on grime since primary.",
+        "explanation": "MARCEL starts by claiming long-standing grime credentials. It sets up the battle as a grime clash rather than just a standard rap battle."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Grime Credentials",
+        "bar": "I was on grime before I came to clash Wiley.",
+        "explanation": "This references Wiley, one of grime’s foundational figures. MARCEL uses the name to show how far back his grime background allegedly goes."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Direct Challenge",
+        "bar": "If you think you’re so solid, then let’s have a scrap outside, G.",
+        "explanation": "This is a direct fighting challenge. MARCEL moves the battle away from words and into physical confrontation."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Self-Aware Wordplay",
+        "bar": "Short fuse and my temper’s tiny.",
+        "explanation": "This is self-aware wordplay. MARCEL is short, so 'temper’s tiny' flips his height into a temper reference."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Cooking Scheme",
+        "bar": "Like Gordon Ramsay, I’m cooking.",
+        "explanation": "This references Gordon Ramsay, the chef. MARCEL says he is cooking JM lyrically, meaning he is preparing to destroy him in the battle."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Cooking Scheme",
+        "bar": "JM’s mouldy and out of date, so right in the bin, that’s where I put him.",
+        "explanation": "This extends the cooking/food image. If JM is mouldy and expired, he belongs in the bin. It is a simple but clear punch."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Regional Insult",
+        "bar": "Your accent’s dead, I don’t like your tone.",
+        "explanation": "MARCEL attacks JM’s Welsh accent and voice. It is a regional insult and sets up more Wales-based material."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Threat Bar",
+        "bar": "Chat shit, get a bang to your dome.",
+        "explanation": "This is a threat bar. It uses direct violence imagery and should be treated as battle material."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Personal Allegation",
+        "bar": "His mum’s called Rachel Merrick, she’s on Universal Credit.",
+        "explanation": "This is a personal/family angle aimed at JM’s mum. Universal Credit is a UK benefits system. MARCEL uses it to attack family status, though JM says the name was pronounced wrong."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Funeral Scheme",
+        "bar": "Dear Lord, we are gathered here today to mourn the tragic death of Joseph.",
+        "explanation": "This opens MARCEL’s best round. It uses a funeral/prayer format and JM’s real name, Joseph, to make the round feel like a mock funeral."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Funeral Scheme",
+        "bar": "Dear Lord, I pray you get Joseph some new sneakers.",
+        "explanation": "MARCEL turns the prayer format into insult comedy. Instead of praying for peace, he prays for JM to get better shoes."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Funeral Scheme",
+        "bar": "Dear Lord, I pray you get Joseph off Jobseekers.",
+        "explanation": "This attacks JM’s financial or employment status. Jobseeker’s Allowance is associated with unemployment, and MARCEL uses it as a poverty/status joke."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Funeral Scheme",
+        "bar": "I will kill Joseph and send him back to meet Jesus.",
+        "explanation": "This continues the religious/funeral scheme. Joseph and Jesus are Biblical names, so MARCEL uses JM’s real name to connect the death angle to Christian imagery."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Slaughter Pun",
+        "bar": "You’re a sheep from Wales, and now you’ve been sent to the slaughter.",
+        "explanation": "This is a Wales/sheep stereotype turned into a death punch. 'Sent to the slaughter' means JM is being sacrificed in the battle."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Religious Flip",
+        "bar": "Don’t cross that line, get put on a cross like Jesus Christ.",
+        "explanation": "This is one of MARCEL’s stronger religious flips. 'Cross that line' becomes the setup for putting JM on a cross. It fits the funeral/prayer concept."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Betrayal Angle",
+        "bar": "This guy is a snake, he’ll betray you just like Judas.",
+        "explanation": "This references Judas, who betrayed Jesus. MARCEL frames JM as disloyal and treacherous."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Nativity Joke",
+        "bar": "When he goes home to that stable, that’s the only time he’s ever been ruthless.",
+        "explanation": "This links Joseph, Jesus and the stable from the Nativity story. It also flips 'ruthless' into a joke about being around animals or rural Wales."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Battle-Specific Punch",
+        "bar": "Cause of death: a severe lack of skill.",
+        "explanation": "This is a clean battle-specific punch. MARCEL says JM dies in the clash because he lacks talent."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Baby-Mum Angle",
+        "bar": "She left you for a man named Ryan, now this guy’s raising his kid instead.",
+        "explanation": "This is the biggest personal angle of the battle. MARCEL claims JM’s baby mum left him for another man who now helps raise his child. It is battle material, not verified fact, but it causes a major reaction."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Statement of Intent",
+        "bar": "It’s warring time.",
+        "explanation": "MARCEL starts round three by making the tone aggressive. He wants the round to feel like open conflict."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Grime War Threat",
+        "bar": "If you don’t want to get murked online, then get off the stage now.",
+        "explanation": "This is a modern battle threat. 'Murked online' means humiliated once the footage drops."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Sports Metaphor",
+        "bar": "They’re all on the bench, they ain’t match fit.",
+        "explanation": "This is a sports metaphor. If someone is not match fit, they are not ready to compete. MARCEL says JM is not prepared for the clash."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Visual Fight Punch",
+        "bar": "One uppercut make this guy do backflips.",
+        "explanation": "This is a visual fight punch. It exaggerates the impact of a hit."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Fire Imagery",
+        "bar": "One spark and I turn him to ashes.",
+        "explanation": "This continues the fire imagery. JM is framed as weak enough to burn instantly."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Parental Angle",
+        "bar": "I found a picture of his dad at Gay Pride.",
+        "explanation": "This is a sexuality-coded personal angle about JM’s dad. It should be treated strictly as battle material, not factual commentary."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Absurd Insult",
+        "bar": "Your dad had sex with a fish for the chippy.",
+        "explanation": "This is a crude fish-and-chip/Wales-style joke. It is absurd insult comedy rather than a literal claim."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Appearance",
+        "bar": "Looking like a crackhead Cole Palmer.",
+        "explanation": "This references Cole Palmer, the footballer. MARCEL uses the comparison as an appearance insult against JM."
+      },
+      {
+        "performer": "JM",
+        "theme": "Preparation Critique",
+        "bar": "Do your research, can’t match bars bro.",
+        "explanation": "JM starts his first round by saying MARCEL has not done enough preparation. It frames him as the sharper writer."
+      },
+      {
+        "performer": "JM",
+        "theme": "Stance Critique",
+        "bar": "Why is your right long guard on your left side?",
+        "explanation": "This is a fighting-stance critique. JM points out MARCEL’s guard is wrong, tying into the idea that MARCEL talks about fighting but lacks technique."
+      },
+      {
+        "performer": "JM",
+        "theme": "Parental Angle",
+        "bar": "Why has your dad left you with the next guy?",
+        "explanation": "This is a father/abandonment angle. JM attacks MARCEL’s family structure and upbringing."
+      },
+      {
+        "performer": "JM",
+        "theme": "Viral Association",
+        "bar": "You had to call on Cheeks for your meet-up.",
+        "explanation": "JM says MARCEL needed Cheeks to draw attention. It undermines MARCEL’s status by suggesting people only care because of someone else."
+      },
+      {
+        "performer": "JM",
+        "theme": "Viral Association",
+        "bar": "If it was just him, nobody would have been fussed.",
+        "explanation": "This continues the Cheeks angle. JM says MARCEL alone is not enough of a draw."
+      },
+      {
+        "performer": "JM",
+        "theme": "Domestic Allegation",
+        "bar": "All these bars about beating cases — you only beat females, it’s shameless.",
+        "explanation": "This is a serious allegation-style bar and should be treated as battle material. JM flips 'beating cases' into 'beating females,' attacking MARCEL’s moral image."
+      },
+      {
+        "performer": "JM",
+        "theme": "Viral Identity",
+        "bar": "If it weren’t for your lisp, you would be nameless.",
+        "explanation": "This is one of JM’s strongest MARCEL angles. He says MARCEL’s whole fame comes from his lisp, not his bars."
+      },
+      {
+        "performer": "JM",
+        "theme": "Reselling Angle",
+        "bar": "You hit retail, then go resell. You ain’t an entrepreneur, let’s face it.",
+        "explanation": "This attacks MARCEL’s money-making image. JM says buying and reselling items does not make him a real entrepreneur."
+      },
+      {
+        "performer": "JM",
+        "theme": "Confidence",
+        "bar": "Round one, murking, warm up for later.",
+        "explanation": "JM closes his first by saying he has already won the round and is only warming up. It sets up his later performance."
+      },
+      {
+        "performer": "JM",
+        "theme": "Lisp Attack",
+        "bar": "I think your lisp is dirty. I won’t do it like Cheeks did.",
+        "explanation": "JM directly references the previous viral lisp angle involving Cheeks. He says he will attack it differently, not just copy the obvious joke."
+      },
+      {
+        "performer": "JM",
+        "theme": "Appearance",
+        "bar": "You look like you're anaemic, or how MJ did straight after the bleaching.",
+        "explanation": "This references Michael Jackson and skin-bleaching discourse. JM uses it as an appearance insult against MARCEL."
+      },
+      {
+        "performer": "JM",
+        "theme": "Appearance",
+        "bar": "Looking like Postman Pat if you got him locked up on a G-Wing.",
+        "explanation": "This references Postman Pat, the children’s TV character, and a prison wing. JM turns MARCEL into a rougher, prison-version cartoon image."
+      },
+      {
+        "performer": "JM",
+        "theme": "Defense",
+        "bar": "If he swings, I’ma slip that.",
+        "explanation": "This is a boxing/fighting line. 'Slip' means avoid a punch with head movement. JM attacks MARCEL’s fighting credibility."
+      },
+      {
+        "performer": "JM",
+        "theme": "Mismatched Skill",
+        "bar": "Me versus bro is a mismatch.",
+        "explanation": "JM says the battle is uneven. He frames himself as clearly above MARCEL."
+      },
+      {
+        "performer": "JM",
+        "theme": "Unleaded Wordplay",
+        "bar": "When it comes to my lyrical clip, that’s petrol because it’s unleaded.",
+        "explanation": "This is one of JM’s cleaner technical bars. A 'clip' can mean ammunition, while unleaded is petrol. He combines gun and fuel imagery."
+      },
+      {
+        "performer": "JM",
+        "theme": "Fighting Scheme",
+        "bar": "Might just clinch him, then I might knee him.",
+        "explanation": "This is a Muay Thai-style fight reference. Clinching and kneeing are common in Muay Thai, which JM has referenced in other battles."
+      },
+      {
+        "performer": "JM",
+        "theme": "Viral Mockery",
+        "bar": "You got a million views on one of your clips, but that’s because they hate your lisp.",
+        "explanation": "This is a strong viral-status attack. JM says MARCEL’s numbers come from mockery, not skill."
+      },
+      {
+        "performer": "JM",
+        "theme": "Disability Mockery",
+        "bar": "Why you always on PenGame so much? Oh yeah, Make-A-Wish.",
+        "explanation": "This is a disability/charity-based insult and should be treated strictly as battle material. JM uses Make-A-Wish to mock MARCEL’s physical image and repeated appearances."
+      },
+      {
+        "performer": "JM",
+        "theme": "Appearance",
+        "bar": "There’s no gap in my résumé, like in between your nose and lips.",
+        "explanation": "This is a visual wordplay punch. 'Gap in my résumé' means no missing achievements, while the second half attacks MARCEL’s facial structure."
+      },
+      {
+        "performer": "JM",
+        "theme": "Height & Temperament",
+        "bar": "Tell him you got short man syndrome.",
+        "explanation": "JM opens round three by attacking MARCEL’s height and temperament. 'Short man syndrome' means overcompensating because of height."
+      },
+      {
+        "performer": "JM",
+        "theme": "Flinching Critique",
+        "bar": "I saw man twitching.",
+        "explanation": "This refers to MARCEL visibly reacting or flinching. JM uses stage behaviour against him."
+      },
+      {
+        "performer": "JM",
+        "theme": "Parental Disrespect",
+        "bar": "Don’t get vexed cause your bald dad’s missing.",
+        "explanation": "This combines anger and absent-father material. It is direct personal disrespect."
+      },
+      {
+        "performer": "JM",
+        "theme": "Flinching Critique",
+        "bar": "I’ll throw three jabs at this small man flinching.",
+        "explanation": "This returns to the fight angle. JM says MARCEL is already scared before the punches land."
+      },
+      {
+        "performer": "JM",
+        "theme": "Appearance",
+        "bar": "Don’t think cause you put curls in your hair, move mad better mind how you’re thinking.",
+        "explanation": "This attacks MARCEL’s image and confidence. JM says hairstyle does not change how dangerous he is."
+      },
+      {
+        "performer": "JM",
+        "theme": "Direct Insult",
+        "bar": "You filthy stinking dickhead pilgrim.",
+        "explanation": "This is a blunt insult built around hygiene and appearance. It is not complex but adds aggression."
+      },
+      {
+        "performer": "JM",
+        "theme": "Appearance",
+        "bar": "Your bug eyes look like they’re constantly pinging.",
+        "explanation": "This attacks MARCEL’s eyes, saying they look drug-affected or overly alert. It is a visual image."
+      },
+      {
+        "performer": "JM",
+        "theme": "Strap-on Flip",
+        "bar": "I got no strap, but your girl got a strap-on.",
+        "explanation": "This is a weapon/sexuality flip. 'Strap' can mean gun, but JM flips it into a strap-on joke about MARCEL’s girl."
+      },
+      {
+        "performer": "JM",
+        "theme": "Science/Violence Pun",
+        "bar": "I’ll break this prick right down to an atom.",
+        "explanation": "This is a science/violence punch. An atom is the smallest unit of matter, so JM says he will break MARCEL down completely."
+      },
+      {
+        "performer": "JM",
+        "theme": "Status & Lifestyle",
+        "bar": "On a Sunday you run around dens asking people for any scrap metal.",
+        "explanation": "This attacks MARCEL’s lifestyle and status. Scrap metal collecting is used as a poverty/low-status image."
+      },
+      {
+        "performer": "JM",
+        "theme": "Devil/Hell Imagery",
+        "bar": "You’re better off going straight to the devil.",
+        "explanation": "JM closes with a hell/devil image, saying MARCEL is beyond saving. It fits the battle’s dark personal tone."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "JM won by unanimous decision (3-0)",
+      "summary": "All three judges (Backroad G, Savage Dan, and Marvin Abbey) voted for JM. The judges awarded round two to MARCEL due to his creative religious funeral concept and the baby-mum picture angle, but gave rounds one and three to JM. They noted that JM was cleaner and steadier, whereas MARCEL's stumbles and stutters under pressure in the final round made his mistakes too obvious for the room to ignore."
+    }
   },
   {
     "id": "pg-s06-2025-04-23-fendry-vs-iiiberealz",
@@ -46006,7 +47177,354 @@ export const battles: Battle[] = [
     "views": "302k",
     "stage": "Group Stage",
     "group": "B",
-    "tag": null
+    "tag": null,
+    "host": "Markz",
+    "judges": [
+      "Savage Dan",
+      "Backroad G",
+      "Marvin Abbey"
+    ],
+    "clashSummary": "JM vs SMIL3Z took place during the PenGame Rap Battle 2025 Cold War Tournament, Group B. SMIL3Z wins the coin toss and chooses to let JM go first. JM opens with a more direct, physical, and performance-heavy style, attacking SMIL3Z’s dreads, music, violent image, Jamaican persona, and credibility. SMIL3Z responds with a strong first round, leaning into Wales jokes, sheep-shagging stereotypes, London dominance, and family wordplay. In round two, JM attempts an alphabetical-order scheme, while SMIL3Z focuses on OT, Prince of Wales imagery, and family/daughter angles. The third round decides the battle: JM opens with a massive daughter/Muay Thai rebuttal ('I taught my daughter Muay Thai, just so she can batter yours') that gets reloaded multiple times, followed by shots at SMIL3Z's previous losses and hygiene. SMIL3Z responds with a dark final round attacking JM's background and Group B teaming up against him, but JM's third-round momentum is too much. The judges unanimously give the battle to JM (3-0).",
+    "performanceAnalysis": [
+      {
+        "performer": "JM",
+        "overview": "JM wins the battle unanimously due to a dominant third round. He shifts from his previous style to be more physical, performance-heavy, and direct, successfully flipping SMIL3Z's daughter angle into the biggest punchline of the clash.",
+        "lyricalThemes": "Muay Thai, Welsh identity, fake violence, dreads, Jamaican/patois image, Spanish Town/Juan, alphabetical scheme, daughter rebuttal, aye-aye fingers, previous losses, Diddy wordplay, hygiene, dog/girlfriend material, underdog imagery.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Muay Thai Daughter Rebuttal",
+            "description": "JM delivered the most memorable bar of the battle by directly flipping SMIL3Z's second-round daughter angle with a Muay Thai punchline, erupting the room and getting multiple reloads."
+          },
+          {
+            "title": "Challenging Authenticity",
+            "description": "He focused on deconstructing SMIL3Z's Jamaican persona, using Spanish Town reference wordplay and the 'Juan' nameplay to frame SMIL3Z as fake-dangerous."
+          },
+          {
+            "title": "Alphabetical Scheme Experiment",
+            "description": "In round two, JM attempted a structured alphabetical-order setup, showing his technical ambition even as the scheme loosened up later in the round."
+          }
+        ]
+      },
+      {
+        "performer": "SMIL3Z",
+        "overview": "SMIL3Z performs well with high confidence and stage presence, particularly in round one where he establishes a strong London-vs-Wales dynamic. However, his second-round daughter angle gave JM the opening for a fatal rebuttal, and he was unable to recover the momentum in the third round.",
+        "lyricalThemes": "Wales stereotypes, London dominance, farm/sheep jokes, JM name flip, dad/gay pride flag angle, Rachel/family angle, packaging/parcel wordplay, Prince of Wales, daughter threats, Cardiff/OT, South Wales reputation, family research, London respect.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "London-vs-Wales Dominance",
+            "description": "SMIL3Z opened with high-impact regional insults, using sheep-shagging stereotypes and agricultural imagery to frame Wales as inferior to the London stage."
+          },
+          {
+            "title": "Clean Name Flip",
+            "description": "He delivered a clean name flip in his first round ('Smoked that J and caught that M'), showing sharp battle writing."
+          },
+          {
+            "title": "Territorial Hosting Angle",
+            "description": "In his final round, he framed himself as the reaper and the host of the room ('This is my house, you're the guest'), attempting to build a hostile environment for the away competitor."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "JM",
+        "theme": "Name Flip & P.E.",
+        "bar": "S-M-I-L-3-Z, I got 32 bars for your P.E.",
+        "explanation": "JM starts by spelling SMIL3Z’s name and saying he has 32 bars ready. 'P.E.' suggests physical education, linking into JM’s fighting and Muay Thai angle."
+      },
+      {
+        "performer": "JM",
+        "theme": "Appearance",
+        "bar": "You need the re-twist, you need the re-dread.",
+        "explanation": "This attacks SMIL3Z’s hair. JM says his dreads need maintenance, making it a simple visual insult."
+      },
+      {
+        "performer": "JM",
+        "theme": "Music Attack",
+        "bar": "I hear your tracks and they’re dead.",
+        "explanation": "This attacks SMIL3Z as a music artist. Since SMIL3Z often frames himself as an artist more than a battle rapper, JM targets his actual songs."
+      },
+      {
+        "performer": "JM",
+        "theme": "Fighting Scheme",
+        "bar": "If I throw one leg kick and overhand to your head top, you ain’t gonna think sense.",
+        "explanation": "This is a fight-scheme bar. JM references a leg kick and overhand punch, both combat-sport techniques, then says SMIL3Z will not be thinking straight afterwards."
+      },
+      {
+        "performer": "JM",
+        "theme": "Fighting Scheme",
+        "bar": "Cause I do Muay Thai.",
+        "explanation": "This grounds JM’s threat in a real martial art. Muay Thai uses kicks, knees, elbows and clinch work, so it fits his physical-threat scheme."
+      },
+      {
+        "performer": "JM",
+        "theme": "Musical Wordplay",
+        "bar": "I’ll pull strings, violins with a medley.",
+        "explanation": "This is a musical-control bar. 'Pull strings' means controlling events, while violins and medleys connect to music. JM uses it to say he is orchestrating the clash."
+      },
+      {
+        "performer": "JM",
+        "theme": "Away Game Credibility",
+        "bar": "I came down these ways on my ones every time, and not one of you guys can check me.",
+        "explanation": "This is a strong away-game line. JM says he came from Wales to London alone and nobody stopped him. It builds credibility."
+      },
+      {
+        "performer": "JM",
+        "theme": "Fighting Scheme",
+        "bar": "If it comes to the fighting, I’ll start kicking like Jet Li.",
+        "explanation": "This references Jet Li, the martial arts actor. JM continues the combat theme by comparing his kicks to a martial arts film star."
+      },
+      {
+        "performer": "JM",
+        "theme": "Authenticity",
+        "bar": "You don’t come from Spanish Town.",
+        "explanation": "This is aimed at SMIL3Z’s Jamaican image. Spanish Town is in Jamaica, so JM says SMIL3Z is not really from the place his style suggests."
+      },
+      {
+        "performer": "JM",
+        "theme": "Identity & Nameplay",
+        "bar": "I swear your full name has a Spanish sound.",
+        "explanation": "JM continues the identity angle by saying SMIL3Z’s name sounds Spanish rather than Jamaican. It sets up the 'Juan' flip."
+      },
+      {
+        "performer": "JM",
+        "theme": "Nameplay",
+        "bar": "Someone tell Juan that I’ve already won.",
+        "explanation": "This is a Spanish-name flip. 'Juan' sounds like 'one,' so JM uses it to say round one is already won while mocking the name angle."
+      },
+      {
+        "performer": "JM",
+        "theme": "Alphabetical Scheme",
+        "bar": "I’m a murk man in alphabetical order.",
+        "explanation": "JM starts round two with an alphabetical scheme. He signals that he is going to structure the round by letters. Even though the scheme loosens later, the idea shows technical ambition."
+      },
+      {
+        "performer": "JM",
+        "theme": "Music Attack",
+        "bar": "You don’t drop tracks, just horrible weird dubs.",
+        "explanation": "This attacks SMIL3Z’s music output. JM says his tracks are not proper songs, just weak recordings."
+      },
+      {
+        "performer": "JM",
+        "theme": "Direct Challenge",
+        "bar": "What would you do if I swung for you?",
+        "explanation": "This is a direct challenge. JM questions whether JM is really built for violence or just talks aggressively."
+      },
+      {
+        "performer": "JM",
+        "theme": "Authenticity",
+        "bar": "I grew up round yard man.",
+        "explanation": "JM claims familiarity with Jamaican or Caribbean-influenced environments, pushing back against SMIL3Z’s image and accent. It is part of his 'you’re not authentic' angle."
+      },
+      {
+        "performer": "JM",
+        "theme": "Family Insult",
+        "bar": "Your mum swings like Tarzan.",
+        "explanation": "This is a crude family insult using Tarzan imagery. It should be treated as battle material, not factual commentary."
+      },
+      {
+        "performer": "JM",
+        "theme": "Jamaican Food Wordplay",
+        "bar": "I’ll put 16 shots in a prick till I air man out like the holes in a patty.",
+        "explanation": "This is a layered Jamaican food and gun-bar image. A patty has air holes, and JM uses that to describe shooting holes through someone. It links to the wider patois/Jamaican angle."
+      },
+      {
+        "performer": "JM",
+        "theme": "Daughter Rebuttal",
+        "bar": "I taught my daughter Muay Thai, just so she can batter yours.",
+        "explanation": "This is the biggest bar of the battle. It directly flips SMIL3Z’s previous daughter angle. Instead of just responding defensively, JM turns it into a punchline that says even his daughter is ready. The crowd reaction makes this the decisive moment."
+      },
+      {
+        "performer": "JM",
+        "theme": "Authenticity",
+        "bar": "SMIL3Z, stop with the patois tour.",
+        "explanation": "This attacks SMIL3Z’s use of patois. JM frames it as an act or performance rather than authentic speech."
+      },
+      {
+        "performer": "JM",
+        "theme": "Appearance",
+        "bar": "Your dreads look like an aye-aye’s fingers.",
+        "explanation": "This references the aye-aye, a primate known for long, thin fingers. JM compares SMIL3Z’s dreads to those fingers, making it a strong visual insult."
+      },
+      {
+        "performer": "JM",
+        "theme": "Battle History",
+        "bar": "You lost against DAN DANNAH and F-DON.",
+        "explanation": "This uses battle history. JM reminds the room that SMIL3Z has already lost to F-DON & DAN DANNAH, weakening his status."
+      },
+      {
+        "performer": "JM",
+        "theme": "Hygiene Joke",
+        "bar": "The only soap that you know is in COD.",
+        "explanation": "This references Soap MacTavish, a character from Call of Duty. JM uses it as a hygiene joke, saying SMIL3Z does not know real soap, only the video-game character."
+      },
+      {
+        "performer": "JM",
+        "theme": "Living Conditions",
+        "bar": "You and your girlfriend sleep in a single bed and still make room for your dog.",
+        "explanation": "This is a personal living-condition and relationship joke. It is crude and visual, aimed at making SMIL3Z look low-status."
+      },
+      {
+        "performer": "JM",
+        "theme": "Underdog Scheme",
+        "bar": "I’m the underdog, best watch for your spot.",
+        "explanation": "JM closes by framing himself as the underdog who is taking over. It fits the battle because he is away from home and still wins."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Regional Insult",
+        "bar": "Walk on sheep, shag off.",
+        "explanation": "SMIL3Z opens with a Wales/sheep stereotype. It is a direct regional insult aimed at JM’s Welsh background. It is crude but sets the tone immediately."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Regional Insult",
+        "bar": "Go back to the farm where you came from.",
+        "explanation": "This continues the Wales/farm angle. SMIL3Z tries to make JM look rural and out of place in London."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Identity & Location",
+        "bar": "Wales is done now, you’re trying to beg London your boss.",
+        "explanation": "This is one of SMIL3Z’s strongest identity angles. He says JM is coming from Wales to London looking for approval, making London the superior stage."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Initial Scheme",
+        "bar": "I woke up in the A.M., itching for the P.M., heard my opponent is J.M.",
+        "explanation": "This is a name/time scheme. A.M., P.M. and J.M. are linked by initials, giving the bar rhythm and structure."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Name Flip",
+        "bar": "Smoked that J and caught that M.",
+        "explanation": "This is a clean JM name flip. 'J' can be a joint, and 'M' can suggest a body or murder. SMIL3Z turns JM’s name into a smoke/kill bar."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Slang Attack",
+        "bar": "Stop changing the slang, you’re doing the most.",
+        "explanation": "SMIL3Z accuses JM of changing his style or language to fit in. This supports the wider angle that JM is trying too hard in London."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Regional Flip",
+        "bar": "Prince of Wales, I’m taking the throne.",
+        "explanation": "This flips JM’s Welsh identity. Rather than letting JM own Wales, SMIL3Z says he is taking the Welsh crown himself."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Parental Angle",
+        "bar": "Dino sent me a picture of him in front of a gay pride flag.",
+        "explanation": "This is an image-based personal angle involving JM’s dad. It is sexuality-coded battle material and should not be treated as factual commentary."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Family Disrespect",
+        "bar": "Tell Rachel come and collect her son.",
+        "explanation": "SMIL3Z uses a family-name angle to make JM look like a child who needs collecting by his mother. It is part of his 'you are not a grown threat' theme."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Daughter Threat",
+        "bar": "Your son ain’t safe on PenGame floors.",
+        "explanation": "This brings family into the battle and threatens JM through his child. It is harsh battle material and becomes important because JM flips this type of angle in round three."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Packaging Scheme",
+        "bar": "If it’s smoke that you’re on, I’ll deliver you a box like it was packaging.",
+        "explanation": "This is a delivery/box/packaging scheme. 'Smoke' means conflict, and 'box' can mean coffin or parcel. SMIL3Z turns the threat into a delivery image."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Courage Attack",
+        "bar": "JM ain’t got no heart, I can tell that this brother is soft.",
+        "explanation": "This starts SMIL3Z’s second round by attacking JM’s courage. It is direct and easy to catch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Location Status",
+        "bar": "You came from Cardiff down to London just to get smoked and take a loss.",
+        "explanation": "This is a location-based status bar. SMIL3Z says JM travelled from Cardiff only to lose in London."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Location Status",
+        "bar": "Your ends is what we call OT.",
+        "explanation": "'OT' means out of town. SMIL3Z frames Cardiff as somewhere London people exploit and leave, reinforcing London dominance."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Regional Flip",
+        "bar": "SMIL3Z is the Prince of Wales right now.",
+        "explanation": "This continues the Welsh-throne angle. SMIL3Z says he is taking ownership of JM’s own territory."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Family Disrespect",
+        "bar": "I came across a picture of your nanny and her face looks like a fanny.",
+        "explanation": "This is a family/appearance insult. It is crude battle material aimed at JM’s grandmother."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Daughter Threat",
+        "bar": "If your daughter tries to make the wrong move, she’s only four years old, she’ll scratch up her face.",
+        "explanation": "This is a child/family threat-style angle and should be treated strictly as battle material. It is also the setup JM flips in his third round."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Location Status",
+        "bar": "If I sink your ship, you can really get close to Wales — that means I’ll drown you in Cardiff.",
+        "explanation": "This is a Wales/Cardiff water-location punch. SMIL3Z turns JM’s home city into the place he gets drowned."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Territorial Hosting",
+        "bar": "This is my house, you’re the guest.",
+        "explanation": "SMIL3Z starts his third by trying to reclaim the room. He says London/PenGame is his space, and JM is only visiting."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Wordplay",
+        "bar": "I’ll put shells in your back, then you’re back to your mouth. Now you can’t back your talk.",
+        "explanation": "This is a back/back-talk wordplay bar. He threatens JM physically while flipping the phrase 'back your talk,' meaning stand behind what you say."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Hygiene Insult",
+        "bar": "I bet your dog licks your mouth.",
+        "explanation": "This is a crude personal image used to mock JM’s hygiene and home life. It is part of the darker final-round material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Appearance",
+        "bar": "You look all inbred.",
+        "explanation": "This is a family/background insult and should be treated as battle material only. SMIL3Z uses it to attack JM’s appearance and Welsh background."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Reputation Attack",
+        "bar": "In South Wales, you’re known as a heathen.",
+        "explanation": "This is a reputation angle. SMIL3Z claims JM has a negative name in his own region. It is used to undermine JM’s status."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Reaper Threat",
+        "bar": "Little did you know, it’s the Reaper.",
+        "explanation": "SMIL3Z presents himself as death coming for JM. It is a classic battle-rap threat image."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Group Dynamic",
+        "bar": "How the fuck do you think that three of you men could come down to London and disrespect my side?",
+        "explanation": "This is the wider Group B angle. SMIL3Z says the Welsh/other battlers are coming into London and disrespecting his side, giving him a territorial reason to attack."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "JM won by unanimous decision (3-0)",
+      "summary": "All three judges voted for JM. Marvin Abbey gave round one to SMIL3Z, round two to JM, and noted that JM's third round was the clear decider. Savage Dan and Backroad G agreed, stating that while SMIL3Z had a strong presence, JM's third-round Muay Thai daughter rebuttal and subsequent haymakers generated too much momentum for SMIL3Z to recover from."
+    }
   },
   {
     "id": "pg-s06-2025-04-30-zen-vs-marcel",
@@ -46026,14 +47544,403 @@ export const battles: Battle[] = [
     "stage": "Group Stage",
     "group": "B",
     "tag": null,
-    "videoUrl": "https://www.youtube.com/watch?v=3gewrivwS_Y"
+    "videoUrl": "https://www.youtube.com/watch?v=3gewrivwS_Y",
+    "host": "Markz",
+    "judges": [
+      "Savage Dan",
+      "Marvin Abbey",
+      "Backroad G"
+    ],
+    "clashSummary": "ZEN vs MARCEL took place during the PenGame Rap Battle 2025 Cold War Tournament, Group B. The battle is hosted by Markz, with judges Savage Dan, Marvin Abbey, and Backroad G. ZEN wins the coin toss and chooses for MARCEL to go first. MARCEL opens with one of the strongest first rounds of the Group B card, utilizing a repeated 'that’s one of his names' structure to mock ZEN. ZEN responds by attacking MARCEL’s skin tone, height, face, mixed-race identity, and body. In round two, MARCEL continues attacking ZEN’s age, music, and previous battles, while ZEN delivers a stronger round targeting MARCEL's lisp, SpongeBob head shape, and rhythm. Round three decides the battle: MARCEL returns to humour, using a 'no onions' kebab-shop sequence and a 'big nose' call-and-response chant. ZEN responds with a more technical and serious round, using a Marcelo Garcia jiu-jitsu reference and a 'blueprint' closer. MARCEL wins by unanimous decision (3-0), with judges giving ZEN round two but favoring MARCEL's humour and performance in rounds one and three.",
+    "performanceAnalysis": [
+      {
+        "performer": "MARCEL",
+        "overview": "MARCEL wins the battle unanimously by making it funnier, more memorable, and easier for the room to follow. His comedic battle control, structured name jokes, and interactive crowd elements successfully overshadow ZEN's technical writing in rounds one and three.",
+        "lyricalThemes": "Bossman, BTEC Mo Salah, Master Splinter, big nose, ZEN’s real name, ethnic appearance jokes, sizzling sausages, PASSIVE battle, reload begging, kebab shop/no onions, dead music, age, mum/household jokes.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "One of His Names Structure",
+            "description": "MARCEL opened with a highly effective and simple 'that’s one of his names' list-like structure, giving ZEN memorable aliases like 'BTEC Mo Salah' and 'Master Splinter' to establish a clear theme."
+          },
+          {
+            "title": "Humour & Crowd Control",
+            "description": "His third round relied on performance and crowd control, setting up a kebab-shop 'no onions' joke and a loud 'big nose' call-and-response chant that won over the room."
+          },
+          {
+            "title": "Platform Critique",
+            "description": "He attacked ZEN's longevity and relevance, bringing up his low online views and questioning his real achievements outside of the battle rap circuit."
+          }
+        ]
+      },
+      {
+        "performer": "ZEN",
+        "overview": "ZEN demonstrates a highly technical pen, particularly in a strong second round where he attacks MARCEL's speech, lisp, and rhythm. However, despite layered references and a serious tone, his performance suffers from weaker crowd control compared to MARCEL's comedic style.",
+        "lyricalThemes": "skin tone, mixed-race jokes, Snow White/Seven Dwarfs, height, lisp, speech, Harry Potter/Slytherin, SpongeBob, Bible/Jesus, rhythm/off-beat critique, Marcelo Garcia, gimmicks, copying Ren DMC, blueprint.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Complexion & Height Puns",
+            "description": "In his first round, ZEN used Vybz Kartel, Snow White, and Seven Dwarfs references to construct visual puns attacking MARCEL's light skin tone and short height."
+          },
+          {
+            "title": "Speech and Lisp Critique",
+            "description": "He won round two by focusing on MARCEL's delivery issues, using Harry Potter/Slytherin puns and SpongeBob square head references to mock his speech pattern and head shape."
+          },
+          {
+            "title": "Martial Arts & Blueprint Closers",
+            "description": "ZEN delivered a smart jiu-jitsu choke reference utilizing Marcelo Garcia's name, concluding his performance with a strong 'blueprint' closer accusing MARCEL of copying others."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "MARCEL",
+        "theme": "Nickname Mockery",
+        "bar": "Bossman, that’s one of his names.",
+        "explanation": "This starts MARCEL’s main first-round structure. 'Bossman' is used to mock ZEN’s appearance and perceived shopkeeper/kebab-shop image. It becomes a repeated label throughout the battle."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Nickname Mockery",
+        "bar": "BTEC Mo Salah, that’s one of his names.",
+        "explanation": "This references Mohamed Salah, the Egyptian footballer. Calling ZEN a 'BTEC Mo Salah' means a cheaper, lower-quality version. It is an ethnic/appearance-based joke and should be treated as battle material."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Nickname Mockery",
+        "bar": "Master Splinter’s one of his names.",
+        "explanation": "This references Master Splinter from Teenage Mutant Ninja Turtles. MARCEL uses it to mock ZEN’s face, nose, hair or older-looking appearance. It becomes one of the main insults of the battle."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Platform Critique",
+        "bar": "The reload beggar, that’s one of his names.",
+        "explanation": "This attacks ZEN’s battle style. MARCEL says ZEN begs for reloads rather than earning them naturally. It becomes relevant because ZEN has had big reload moments in Group B."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Appearance",
+        "bar": "Big nose, that’s one of his names.",
+        "explanation": "This is the simplest and most repeated ZEN angle. MARCEL keeps attacking ZEN’s nose and turns it into a crowd chant later."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Branding Mockery",
+        "bar": "G to the N again’s one of his names.",
+        "explanation": "This mocks ZEN’s own 'Z to the N again' style. MARCEL flips ZEN’s branding into a joke, making his signature phrase sound repetitive."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Real Name Angle",
+        "bar": "I’mma tell you his actual name, it’s Faris.",
+        "explanation": "MARCEL uses ZEN’s real name to personalise the attack. Real-name angles make a battle feel more direct and less generic."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Real Name Angle",
+        "bar": "With that name you should be embarrassed.",
+        "explanation": "This continues the Faris angle. It is not complex, but it makes the real-name reveal more mocking."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Appearance",
+        "bar": "Head like a girl is your real name Alice.",
+        "explanation": "This is a gendered appearance joke, flipping Faris into Alice. It is battle material and aimed at making ZEN look less masculine."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Fantasy Imagery",
+        "bar": "You look like a witch, but I’ll bring a stick and make him vanish.",
+        "explanation": "This uses witch/wand imagery. Witches carry sticks or wands, and MARCEL says he will make ZEN disappear. It is a simple fantasy-image punch."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Appearance",
+        "bar": "Your forehead’s massive, you look like you’re hooked on acid.",
+        "explanation": "This is an appearance and drug-image bar. MARCEL attacks ZEN’s forehead and suggests he looks chemically affected. It is blunt visual humour."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Battle History",
+        "bar": "You should have lost to PASSIVE, cause you lost your breath.",
+        "explanation": "This references ZEN’s previous battle with PASSIVE. MARCEL says ZEN should have lost because his breath control failed. It is a battle-history critique."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Pop Culture Reference",
+        "bar": "You’ve got a nose like Michael Jackson. Does that mean that your sister’s Janet?",
+        "explanation": "This references Michael Jackson and Janet Jackson. MARCEL uses the nose comparison to set up a family/name flip. The joke is built around Michael’s famous changed nose."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Self-Image Critique",
+        "bar": "You say you’re the GOAT, but that’s like saying pigs can fly.",
+        "explanation": "This attacks ZEN’s self-image. GOAT means 'greatest of all time,' and MARCEL says that claim is impossible."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Career Status",
+        "bar": "You got 300 views in a year online.",
+        "explanation": "This is a career/status attack. MARCEL says ZEN’s music or content numbers are weak, undermining his claim to be elite."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Ethnic Appearance Joke",
+        "bar": "How do you look Asian, Kurdish, Albanian and Turkish at the same time?",
+        "explanation": "This is an ethnic appearance joke. It should be treated carefully as battle material. MARCEL is mocking ZEN’s ambiguous look rather than making a factual statement."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Viral Contrast",
+        "bar": "I don’t want to hear about sizzling sausages, got more views than your vids combined.",
+        "explanation": "This references MARCEL’s own 'sizzling sausages' moment. He uses it to say one viral moment from him outperformed ZEN’s whole catalogue."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Breath Control",
+        "bar": "You want to clash on grime? I hope you don’t lose your breath this time.",
+        "explanation": "This connects grime performance to breath control. MARCEL says ZEN struggles to maintain breath when rapping fast."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Lifestyle Comparison",
+        "bar": "Me and you ain’t nothing alike. I go to work in a Beemer, this guy goes on his pedal bike.",
+        "explanation": "This starts MARCEL’s second round by comparing status and lifestyle. A Beemer means BMW, while a pedal bike is positioned as low-status."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Status Angle",
+        "bar": "We’re in different leagues, got different paths and different dreams.",
+        "explanation": "MARCEL frames himself as being above ZEN in life and ambition. It is a status angle rather than a joke."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Film Reference",
+        "bar": "Take your face off like Nicolas Cage.",
+        "explanation": "This references the film Face/Off, starring Nicolas Cage. MARCEL uses it as a violent face-removal punch."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Age Attack",
+        "bar": "You’re way too old to be clashing. I swear you were born in the 1980s.",
+        "explanation": "This attacks ZEN’s age. MARCEL says ZEN has been around too long to still be in this position."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Matchup Joke",
+        "bar": "I would have found a better match on Tinder.",
+        "explanation": "This is a matchup joke. MARCEL says ZEN is such a poor opponent that even Tinder would have paired him with someone better."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Pop Culture Reference",
+        "bar": "It’s ironic I do jiu-jitsu, but he looks like Master Splinter.",
+        "explanation": "This connects MARCEL’s martial arts to the Master Splinter insult. Since Splinter is a martial arts master, the line fits both the fighting angle and the appearance joke."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Appearance",
+        "bar": "Bossman from the kebab shop with that forehead — you look like an alien.",
+        "explanation": "This is one of MARCEL’s third-round central images. He merges the Bossman/kebab-shop stereotype with the big-forehead/alien appearance angle."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Kebab Shop Food Joke",
+        "bar": "I said no onions, so why did they give me a plate of him?",
+        "explanation": "This is a kebab-shop food joke. ZEN is turned into part of the order, and 'no onions' becomes the setup for calling him an unwanted extra. It lands because it connects to the Bossman angle."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Crowd Control",
+        "bar": "When I shout big nose, I want you to shout back.",
+        "explanation": "This is crowd-control writing. MARCEL turns the insult into a call-and-response moment. It helps him win the room in round three."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Ghostwriting Accusation",
+        "bar": "He says he’s the GOAT, but Dialect writes all your bars and flows.",
+        "explanation": "This is a ghostwriting accusation. MARCEL says ZEN cannot claim greatness if someone else writes or shapes his material. It is a serious battle-rap credibility attack."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Age Attack",
+        "bar": "You’re like 35 and live with your mum.",
+        "explanation": "This is an age and living-situation insult. MARCEL uses it to make ZEN look stagnant and underachieving."
+      },
+      {
+        "performer": "MARCEL",
+        "theme": "Career Status",
+        "bar": "You’ve been battling your whole life, but apart from that, tell me what have you done?",
+        "explanation": "This is one of MARCEL’s strongest status bars. It attacks ZEN’s whole career arc: even with years of battle experience, what has he achieved outside it?"
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Sexual Wordplay",
+        "bar": "When I chat about forehead, your girlfriend only came for head like a fringe.",
+        "explanation": "This is a forehead/fringe/sexual wordplay bar. A fringe covers the forehead, and ZEN flips that into a crude punch. It is direct and layered."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Lead Wordplay",
+        "bar": "Draw for the lead, and that’s what you see me put four in his head.",
+        "explanation": "This is a gun/lead wordplay line. 'Lead' can mean bullets, and 'four in his head' continues the violent imagery."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Skin Tone Insult",
+        "bar": "You’re looking like Kodak Black with a photo-negative version.",
+        "explanation": "This references Kodak Black, the rapper, and the idea of a photo negative reversing colours. ZEN uses it to attack MARCEL’s skin tone and appearance."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Skin Tone Insult",
+        "bar": "Bleaching the skin like Kartel.",
+        "explanation": "This references Vybz Kartel, the dancehall artist often discussed in relation to skin bleaching. ZEN uses it to attack MARCEL’s complexion. It is battle material."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Skin Tone Insult",
+        "bar": "This brother’s coming like Darnell.",
+        "explanation": "This likely references Darnell from Big Brother, known for his distinctive light skin and appearance. ZEN uses it as another skin-tone comparison."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Pop Culture Reference",
+        "bar": "Skin Snow White when he’s got the same height as the Seven Dwarfs.",
+        "explanation": "This references Snow White and the Seven Dwarfs. It attacks both MARCEL’s complexion and height in one line."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Height Joke",
+        "bar": "You’re a dwarf or the largest hobbit, you ain’t but a halfling.",
+        "explanation": "This references fantasy races like hobbits and halflings, often depicted as short. ZEN uses it to continue the height angle."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Height Joke",
+        "bar": "You’re so short that you could take a shower with a bathtub.",
+        "explanation": "This is a simple height joke. It exaggerates MARCEL’s size by saying a bathtub would function like a shower."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Skin Tone Insult",
+        "bar": "You’re so white you would get sunburnt by a toaster.",
+        "explanation": "This is a skin-tone joke. It says MARCEL is so light-skinned that even a toaster could burn him. It is crude but memorable."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Separation",
+        "bar": "Me and you ain’t nothing alike.",
+        "explanation": "ZEN starts his second with separation. He says MARCEL is not on his level or path."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Speech/Lisp Attack",
+        "bar": "You think your lisp be shit? Looking at the pace he’s dribbling and he ain’t taking a pen.",
+        "explanation": "This attacks MARCEL’s speech/lisp. 'Dribbling' links to saliva and speech, while 'taking a pen' plays on football penalties and writing. It is performance-focused."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Pop Culture Reference",
+        "bar": "MARCEL used to watch Harry Potter but couldn’t say Severus Snape in Slytherin.",
+        "explanation": "This references Harry Potter, Severus Snape, and Slytherin. The joke is that MARCEL’s lisp would make those S sounds difficult."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Speech/Lisp Attack",
+        "bar": "His tongue still way too big for his mouth.",
+        "explanation": "This is a speech and appearance insult. ZEN says MARCEL cannot rap clearly because his tongue is physically getting in the way."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "SpongeBob Reference",
+        "bar": "MARCEL’s got a SpongeBob square head, so it’s only right that I’m rinsing him out.",
+        "explanation": "This references SpongeBob SquarePants. 'Rinsing him out' means attacking him, while SpongeBob is associated with washing/sponge imagery. It is a strong cartoon-wordplay punch."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Appearance",
+        "bar": "Head like a phone box, like a 3D robot.",
+        "explanation": "This continues the head-shape angle. A phone box and 3D robot are both boxy shapes, so ZEN uses them to mock MARCEL’s head."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Technical Violence",
+        "bar": "Now I’m getting surgical when I put a man down like a vertical.",
+        "explanation": "This is a technical violence bar. 'Surgical' means precise, and 'put a man down like a vertical' suggests dropping him straight down. It is more pen-based than joke-based."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Skin Tone Insult",
+        "bar": "If your skin’s so white, turn off the light, you’ll see his face glow like a rainbow.",
+        "explanation": "This continues the skin-tone angle. ZEN exaggerates MARCEL’s complexion by saying it glows in the dark."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Speech/Lisp Attack",
+        "bar": "If you ever said ‘suck her’, he’d spit enough for a bubble bath.",
+        "explanation": "This is another lisp/speech joke. The idea is that MARCEL spits heavily when saying certain sounds, enough to make bubbles."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Gun Bar",
+        "bar": "I don’t care where you come from, you’ll get shelled like a dum-dum.",
+        "explanation": "ZEN starts his third with a general threat. 'Dum-dum' can refer to expanding bullets, making it a gun-bar setup."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Hobbit Reference",
+        "bar": "MARCEL comes from the Shire.",
+        "explanation": "This references The Shire from The Lord of the Rings, home of the hobbits. It continues the short-person/fantasy imagery."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Height Joke",
+        "bar": "MARCEL used to be six foot, till he got shrunk in a dryer.",
+        "explanation": "This is another height joke, using the idea of clothes shrinking in a dryer. It is one of ZEN’s clearer comedic lines."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Martial Arts Reference",
+        "bar": "I’ll choke out MARCEL with a thought — Marcelo Garcia.",
+        "explanation": "This references Marcelo Garcia, a legendary Brazilian jiu-jitsu practitioner known for grappling and chokes. It is a smart martial arts reference because MARCEL had brought up jiu-jitsu."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Rhythm Critique",
+        "bar": "Even if you take him off track, he’ll be literally sitting off beat.",
+        "explanation": "This is a rhythm and height joke together. 'Off beat' means poor timing, but 'sitting off beat' also suggests he cannot stay in position physically."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Gimmick Critique",
+        "bar": "I don’t need gimmicks or props, any lyric I’m spitting, it pops.",
+        "explanation": "ZEN directly contrasts himself with MARCEL’s more comedic, prop-like crowd performance. He says his writing alone is enough."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Copying Accusation",
+        "bar": "I can know Ren DMC told me tell you to stick.",
+        "explanation": "This references Ren DMC and suggests MARCEL is copying or borrowing from other battlers. It sets up the copying angle."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Copying Accusation",
+        "bar": "He tried copying the next man’s plan, but got caught red-handed with a blueprint.",
+        "explanation": "ZEN’s best closer. A blueprint is a plan, and 'red-handed' means caught in the act. ZEN accuses MARCEL of copying strategy rather than building his own."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "MARCEL won by unanimous decision (3-0)",
+      "summary": "All three judges (Savage Dan, Marvin Abbey, Backroad G) voted for MARCEL. The judges gave round two to ZEN due to his stronger technical pen and lisp/rhythm attacks, but unanimously gave rounds one and three to MARCEL, citing his superior comedy, interactive call-and-response elements, and more entertaining live performance."
+    }
   },
   {
     "id": "pg-s06-2025-05-03-zen-vs-smil3z",
     "slug": "zen-vs-smil3z",
     "mc1": "zen",
     "mc2": "smil3z",
-    "winner": "smil3z",
+    "winner": "zen",
     "title": "ZEN vs SMIL3Z",
     "date": "03-05-2025",
     "videoUrl": "https://www.youtube.com/watch?v=-ilZEXmrji0",
@@ -46046,7 +47953,468 @@ export const battles: Battle[] = [
     "views": "173k",
     "stage": "Group Stage",
     "group": "B",
-    "tag": null
+    "tag": null,
+    "host": "Markz",
+    "judges": [
+      "Backroad G",
+      "Savage Dan",
+      "Marvin Abbey"
+    ],
+    "clashSummary": "ZEN vs SMIL3Z took place during the PenGame Rap Battle 2025 Cold War Tournament, Group B, as the last battle of the night. ZEN chooses to go first. ZEN opens strongly in round one, targeting SMIL3Z’s appearance, real name, flow, accent, and dentist/drill wordplay. SMIL3Z responds with a direct and aggressive first round attacking ZEN’s veteran status and forced reloads, using a card-game scheme. In round two, ZEN uses a dense garage/house DJ family scheme, while SMIL3Z counters with the 'one of his names' structure listing ZEN’s mocked nicknames. ZEN's third round turns highly personal, attacking SMIL3Z's relationship, girlfriend, and paternity doubts. SMIL3Z closes with a repeated 'warning' pattern linking to Heathrow, Salmonella, and RIP imagery. ZEN wins by unanimous decision (3-0), taking all three rounds (or rounds one and two, with round three being debatable/SMIL3Z's best). Despite ZEN winning the battle, the three-way tie in Group B (ZEN, SMIL3Z, and MARCEL all with 1 win) is resolved by the judges selecting SMIL3Z to advance alongside JM based on overall group stage performance.",
+    "performanceAnalysis": [
+      {
+        "performer": "ZEN",
+        "overview": "ZEN wins the battle by starting strongly and maintaining pressure across all rounds. His first round is the clearest of the battle, featuring a creative mix of name flips and drill wordplay. He then seals the win with a highly personal and damaging third round targeting SMIL3Z's relationship and family dynamics.",
+        "lyricalThemes": "Juan name flips, veteran status, drill/dentist wordplay, football references, fake Jamaican image, DJ dad scheme, garage/house, Billie Jean, dumplings, Cool Runnings, dominoes, chess, prostitute/escort angle, DNA/stepdad angle.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Drill/Dentist Wordplay",
+            "description": "ZEN delivered clean wordplay in round one linking drill music/violence to dental work ('The only drill that Smiles ever seen is when a bird has been to the dentist')."
+          },
+          {
+            "title": "DJ Dad Concept Scheme",
+            "description": "In his second round, he built a dense musical scheme around SMIL3Z's dad being a DJ, linking garage/house genres to family abandonment and 'pull-outs'."
+          },
+          {
+            "title": "Personal Relationship Exposure",
+            "description": "His third round shifted into highly personal territory, utilizing stepdad, escort advertisement, and DNA paternity doubt angles to emotionally dismantle his opponent."
+          }
+        ]
+      },
+      {
+        "performer": "SMIL3Z",
+        "overview": "SMIL3Z brings strong presence and territorial aggression but suffers from a slow start compared to ZEN's dominant first round. Although he delivers structured card-game and warning repetition schemes, his best material arrives too late. However, his overall performance throughout the group stage earns him advancement to the next round.",
+        "lyricalThemes": "ZEN as old vet, breath control, accent, Don’t Flop, reload begging, card-game scheme, Faris, Big Nose, London Dungeons, stage control, warning scheme, Heathrow, Salmonella, car crash, A&E, RIP.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Warning Repetition Motif",
+            "description": "SMIL3Z closed the battle with a strong 'warning' motif, repeating the warning pattern to build momentum while referencing Heathrow, Salmonella, and car crashes."
+          },
+          {
+            "title": "Card-Game Wordplay",
+            "description": "He opened with a structured card-game scheme, utilizing deck, ace of spades, folding, and poker face references to attack ZEN's veteran composure."
+          },
+          {
+            "title": "Nicknames List Concept",
+            "description": "In round two, SMIL3Z brought back the 'one of his names' structure to list ZEN's mocked nicknames (reload beggar, Big Nose Faris, Don't Flop joke man, Grandmaster Pussy, Coca-ZEN) to build on previous tournament narratives."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "ZEN",
+        "theme": "Appearance",
+        "bar": "Z to the N, I said you’re looking like an alien elf.",
+        "explanation": "ZEN opens with his signature 'Z to the N' branding, then immediately attacks SMIL3Z’s appearance. 'Alien elf' gives a strange, exaggerated visual."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Football Reference",
+        "bar": "When I run a man down like Fabian Delph.",
+        "explanation": "This references Fabian Delph, the footballer. ZEN uses Delph’s name as a running/chasing image, turning the football reference into a threat."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Grill/Dental Wordplay",
+        "bar": "Round one, wanna put the metal to your grill — this pussy old Smile better brace himself.",
+        "explanation": "This is a grill/braces/dental wordplay setup. 'Metal to your grill' can mean weapon to face, while 'brace himself' links to dental braces."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Drill Wordplay",
+        "bar": "The only drill that Smiles ever seen is when a bird has been to the dentist.",
+        "explanation": "This is one of ZEN’s cleanest wordplay lines. 'Drill' can mean street violence or a dental drill. He says SMIL3Z only knows the dentist version."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Apprentice/Master",
+        "bar": "I’m the master, I’m gonna teach the apprentice.",
+        "explanation": "ZEN positions himself as the experienced veteran and SMIL3Z as the learner. This fits the wider 'teacher versus student' framing of the clash."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Appearance",
+        "bar": "Looking like a Chelsea smile.",
+        "explanation": "A Chelsea smile refers to a cut extending from the corners of the mouth. ZEN uses it as a violent image against SMIL3Z’s face."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Name & Actor Flip",
+        "bar": "Your real name’s Juan Light Van Damme.",
+        "explanation": "This flips SMIL3Z’s real name into Jean-Claude Van Damme, the martial arts actor. It is a name and fighting reference at the same time."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Football Reference",
+        "bar": "Watching football is the only time you will ever see Juan Mata.",
+        "explanation": "This references Juan Mata, the footballer. ZEN uses 'Juan' as a repeated name flip, saying SMIL3Z only 'matters' through football wordplay."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Appearance",
+        "bar": "He’s shouting instead with his eye popping out of his head like Mr Potato.",
+        "explanation": "This references Mr Potato Head and attacks SMIL3Z’s eyes and shouting delivery. It is a visual performance critique."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Appearance",
+        "bar": "I bet your favourite fast-food chain is Popeyes.",
+        "explanation": "This is an eye/food pun. Because ZEN keeps attacking SMIL3Z’s wide eyes, Popeyes becomes 'pop eyes.' It is simple but effective."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Flow Attack",
+        "bar": "He spits like any posh white kid — we can all tell that you wanna be Ghetts.",
+        "explanation": "This attacks SMIL3Z’s flow and style. Ghetts is a respected grime MC, and ZEN says SMIL3Z is trying to imitate that type of delivery without being authentic."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Guitar Scheme",
+        "bar": "If I see him try amp up, he will get twisted if you ever see me roll with a sword.",
+        "explanation": "This is a guitar/amp/chord/sword scheme. 'Amp up' and 'chord' connect to music, while 'roll with a sword' brings violence into the image."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "DJ Dad Scheme",
+        "bar": "Your dad was a DJ… after he bred up your mum, that brother done a mix and a blend.",
+        "explanation": "This opens ZEN’s second-round dad/DJ scheme. 'Mix and blend' are DJ terms, but ZEN uses them sexually and personally."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "DJ Dad Scheme",
+        "bar": "More time mixing the garage and some house.",
+        "explanation": "This continues the DJ scheme. Garage and house are music genres, but the line also hints at domestic/relationship movement."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "DJ Dad Scheme",
+        "bar": "Should have been in your yard doing up pull-outs.",
+        "explanation": "This is a crude sexual punch. 'Pull-outs' refers to withdrawal, and ZEN links it to the dad/DJ/home scheme."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "DJ Dad Scheme",
+        "bar": "You will turn into a DJ too when you hit the deck.",
+        "explanation": "This is a deck/DJ wordplay bar. DJs use decks, while 'hit the deck' means fall down. It is cleanly tied to the round’s concept."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Music Reference",
+        "bar": "I’ll light up your world any time I see you take a step like Billie Jean.",
+        "explanation": "This references Billie Jean by Michael Jackson, especially the glowing floor tiles in the music video. ZEN links footsteps to lighting up the world."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Cultural Food Insult",
+        "bar": "Your mum’s Black but she can’t cook dumpling.",
+        "explanation": "This is a cultural food insult. It attacks Caribbean/Jamaican authenticity through food knowledge. It should be treated as battle material."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Halloween Imagery",
+        "bar": "You got a face like a Halloween mask, carve him in half like a pumpkin.",
+        "explanation": "This uses Halloween imagery. A mask and pumpkin carving are combined into a violent visual."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Pop Culture Reference",
+        "bar": "If I chase him down like Usain Bolt, guaranteed he won’t look Cool Runnings.",
+        "explanation": "This references Usain Bolt, the Jamaican sprinter, and Cool Runnings, the film about the Jamaican bobsled team. It is a layered Jamaican/pop-culture punch."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Dominoes Reference",
+        "bar": "Put him in a line-up and he’s getting beat like dominoes.",
+        "explanation": "This references dominoes, a game strongly associated with Caribbean social settings. 'Getting beat' means losing the game and getting beaten in battle."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Nameplay",
+        "bar": "I just popped three up in Smiles like I’m spelling his name.",
+        "explanation": "This flips the '3' in SMIL3Z. ZEN says he popped three shots or points into SMIL3Z, linking the number to the spelling of his name."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Teeth/Pearly Gates",
+        "bar": "I got pearly whites, I will send him to the pearly gates.",
+        "explanation": "This is a teeth/heaven wordplay line. 'Pearly whites' means white teeth, while 'pearly gates' refers to heaven. It connects appearance and death imagery."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Self-Assertion",
+        "bar": "One of my names is Grandmaster Mic Man.",
+        "explanation": "ZEN flips the 'one of his names' format back onto himself. Instead of letting SMIL3Z define him, he lists his own titles."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Battle History",
+        "bar": "Don’t Flop Champ, that’s one of my names.",
+        "explanation": "This references ZEN’s battle history and status from Don’t Flop. He uses it to remind the room he has pedigree outside PenGame."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Platform Status",
+        "bar": "PenGame Champ, that’s one of my names.",
+        "explanation": "ZEN reinforces his platform status. He is not just defending himself; he is reminding SMIL3Z that he has already won titles."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Mythology Reference",
+        "bar": "You’re in a war with a Gorgon.",
+        "explanation": "A Gorgon is a mythological monster associated with deadly power. ZEN uses the image to make himself sound dangerous and hard to face."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Violence",
+        "bar": "I will stick a fork in your organ.",
+        "explanation": "This is a violent body-image bar. It is direct and meant to shock."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Personal Allegation",
+        "bar": "I heard that your girl was an escort.",
+        "explanation": "This starts the heavy third-round relationship angle. It is allegation-style battle material and should not be treated as verified fact."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Personal Allegation",
+        "bar": "Twenty pound for 15 minutes on Viva Street.",
+        "explanation": "This references escort-advertising style imagery. It is used to make the accusation feel specific and damaging. Again, it is battle material."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Family Role",
+        "bar": "You’re a stepdad actually, why bro?",
+        "explanation": "ZEN attacks SMIL3Z’s family role. The point is to make him look humiliated in his relationship."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Paternity Angle",
+        "bar": "She told you that the kid’s albino.",
+        "explanation": "This is a DNA/paternity angle. ZEN suggests the explanation for the child’s appearance does not make sense. It is personal battle material."
+      },
+      {
+        "performer": "ZEN",
+        "theme": "Paternity Angle",
+        "bar": "Give me pom-pom, in the end all she gave him was another man’s child.",
+        "explanation": "This closes the third-round relationship angle. 'Pom-pom' is Caribbean slang for sex, and ZEN flips it into a paternity punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Reputation Attack",
+        "bar": "How the fuck are men really calling this guy a vet?",
+        "explanation": "SMIL3Z opens by questioning ZEN’s veteran status. It is a direct attack on his reputation."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Breath Control",
+        "bar": "You can’t even spit your flows without running out of breath.",
+        "explanation": "This is one of SMIL3Z’s main angles. He says ZEN’s breath control is too weak to justify his veteran status."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Reputation Attack",
+        "bar": "You’ve had ten years in this game and you’re still out here sounding the same.",
+        "explanation": "SMIL3Z attacks ZEN’s development. He says ZEN has had years to grow but still sounds unchanged."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Identity Insult",
+        "bar": "I would call you a terrorist, but you don’t cause no terror.",
+        "explanation": "This is a harsh identity-based insult and should be treated as battle material only. SMIL3Z uses it to say ZEN is not actually threatening."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Delivery Critique",
+        "bar": "Your accent sounds so shit when you rap, everybody gets fed up.",
+        "explanation": "SMIL3Z attacks ZEN’s accent and delivery. It links to the wider criticism that ZEN’s sound is hard to enjoy."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Reload Critique",
+        "bar": "Begging for reloads, brother it needs to stop.",
+        "explanation": "This is a repeated Group B angle. SMIL3Z says ZEN forces reloads rather than earning them naturally."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Platform Critique",
+        "bar": "Why did you leave Don’t Flop? We don’t like your stuff, let’s go back there.",
+        "explanation": "This references Don’t Flop, another UK battle rap platform. SMIL3Z says ZEN should go back there because PenGame does not rate his style."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Card Scheme",
+        "bar": "Pull up with the ace of spades and crack man’s head.",
+        "explanation": "This starts a card-game scheme. Ace of spades is both a card and a weapon-style image."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Card Scheme",
+        "bar": "Fold those cards you were dealt.",
+        "explanation": "This continues the card scheme. 'Cards you were dealt' means circumstances, while 'fold' means give up in a card game."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Card Scheme",
+        "bar": "Your poker face ain’t fooling nothing.",
+        "explanation": "Another card-game line. SMIL3Z says ZEN cannot hide fear or weakness."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Card Scheme",
+        "bar": "If you play your cards right, you won’t end up in a death trap.",
+        "explanation": "This closes the card scheme. It flips card-game strategy into survival advice."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Stage Control",
+        "bar": "This guy loves to control the stage so much it’s cringy.",
+        "explanation": "SMIL3Z attacks ZEN’s stage behaviour. ZEN often talks to the room and pushes for reloads, and SMIL3Z frames that as forced."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Women Angle",
+        "bar": "The only time he’s approaching gyal is when they’re tipsy.",
+        "explanation": "This is a women/approach angle. It attacks ZEN’s confidence and character around women."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Exile Theme",
+        "bar": "Like 2Mad, Sevz and SKAMZ, you’ll be booking a one-way ticket to Panama.",
+        "explanation": "This references previous PenGame names and likely uses Panama as an exile or departure image. It makes ZEN part of a wider list of people SMIL3Z says he can send away."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Appearance",
+        "bar": "He’s got his old girlfriend looking like Bin Laden, new girl looking like Laden again.",
+        "explanation": "This is an appearance and terror-reference insult. It is harsh and should be treated as battle material. The repeated 'Laden' sound is the wordplay."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Nicknames List",
+        "bar": "One of his names: begging for reloads.",
+        "explanation": "SMIL3Z opens his second by listing ZEN’s mocked identities. This attacks ZEN’s habit of calling for reloads."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Real Name Angle",
+        "bar": "Big Nose Faris, that’s one of his names.",
+        "explanation": "This uses ZEN’s real name, Faris, and his repeated nose angle. It personalises the insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Platform Critique",
+        "bar": "Don’t Flop joke man, that’s one of his names.",
+        "explanation": "SMIL3Z says ZEN’s Don’t Flop history is not impressive, but something to laugh at."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Branding Flip",
+        "bar": "Grandmaster Pussy, that’s one of his names.",
+        "explanation": "This flips ZEN’s 'Grandmaster' style into disrespect. It attacks the grandness of his image."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Drug Reference",
+        "bar": "Coca-ZEN, that’s one of his names.",
+        "explanation": "This is likely a drug-reference name flip, connecting ZEN’s name with cocaine. It is battle material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Territory Status",
+        "bar": "Let me show you how we do it in London.",
+        "explanation": "SMIL3Z frames the battle as London versus ZEN’s outside identity. It gives him home-territory energy."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Territory Status",
+        "bar": "Pop out a character and scare you like London Dungeons.",
+        "explanation": "This references London Dungeon, the horror attraction. SMIL3Z says London can scare ZEN."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violent Wordplay",
+        "bar": "Put your brains in your hands and now you’re gonna hold your thoughts.",
+        "explanation": "This is one of SMIL3Z’s cleaner violent wordplay bars. 'Hold your thoughts' usually means pause your thinking, but here it becomes a literal brain image."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Nose Joke",
+        "bar": "If ZEN sneezes and you’re walking behind him, you better make sure you’re prepped up.",
+        "explanation": "This continues the big-nose angle. SMIL3Z exaggerates the danger of standing behind ZEN when he sneezes."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status Critique",
+        "bar": "This overrated pussy needs simmering.",
+        "explanation": "This is a cooking/overrated insult. SMIL3Z says ZEN needs to be brought down or cooked."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Flow Critique",
+        "bar": "He can’t rap like me because he puts no rhythm in it.",
+        "explanation": "This is a technical critique. SMIL3Z says ZEN’s flow lacks rhythm compared with his own."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Appearance",
+        "bar": "When I first saw this guy with braids, I thought what the fuck is going on.",
+        "explanation": "SMIL3Z opens his third with a visual attack on ZEN’s braids and look."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Platform Critique",
+        "bar": "You beg reloads, beg Dialect, beg PenGame, beg Markz.",
+        "explanation": "This is the core third-round angle. SMIL3Z says ZEN depends on other people and the platform to make himself look important."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Veteran Status",
+        "bar": "You’re supposed to be a Don’t Flop vet.",
+        "explanation": "SMIL3Z says ZEN’s veteran status should mean more than this. It is a status challenge."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Nose Joke",
+        "bar": "Your nose must have blocked the exit.",
+        "explanation": "This is a birth/nose joke. SMIL3Z says ZEN’s nose was so big it got stuck during birth. It is crude but clear."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Warning Scheme",
+        "bar": "ZEN, I’ma only give you one warning.",
+        "explanation": "This begins the warning scheme. It gives the round a repeated structure and makes the ending feel organised."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Warning Scheme",
+        "bar": "Get ready, fly like an airline in Heathrow.",
+        "explanation": "This references Heathrow Airport. SMIL3Z uses airline imagery to say ZEN will be sent flying."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Warning Scheme",
+        "bar": "If you’re sick inside like Salmonella, warning.",
+        "explanation": "This references Salmonella, food poisoning. SMIL3Z uses sickness imagery as part of the warning pattern."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Warning Scheme",
+        "bar": "You get airlifted.",
+        "explanation": "This links to the earlier airline/Heathrow imagery but turns it into emergency evacuation. It is part of the violence/medical sequence."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Death Imagery",
+        "bar": "He’s getting put in the grave by me — everybody look what I done to him, R.I.P.",
+        "explanation": "SMIL3Z closes with death imagery. It is direct and aggressive, ending the round as a kill-shot attempt."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "ZEN won by unanimous decision (3-0)",
+      "summary": "All three judges (Backroad G, Savage Dan, and Marvin Abbey) voted for ZEN. Backroad G and Savage Dan gave round one and two to ZEN due to his strong opener and dense DJ dad scheme, noting that SMIL3Z's card scheme and warning closers came too late. Marvin Abbey also gave round one to ZEN and found the subsequent rounds muddy, making ZEN the clear winner based on his dominant first round. (Note: Despite ZEN winning this battle, the resulting three-way tie in Group B was resolved by the judges selecting SMIL3Z to qualify and advance alongside JM based on overall group stage performance)."
+    }
   },
   {
     "id": "pg-s06-2025-05-28-deeno-vs-fendry",
@@ -46066,7 +48434,402 @@ export const battles: Battle[] = [
     "views": "86k",
     "stage": "Group Stage",
     "group": "C",
-    "tag": null
+    "tag": null,
+    "host": "Markz",
+    "judges": [
+      "Paps Isn't Builded",
+      "Cash",
+      "Manga Saint"
+    ],
+    "clashSummary": "DEENO vs FENDRY took place during the PenGame Rap Battle 2025 Cold War Tournament, Group C. The battle is hosted by Markz, with judges Paps Isn't Builded, Cash, and Manga Saint deciding the result. FENDRY wins the coin toss and chooses to go first. FENDRY opens round one with high energy and direct attacks on DEENO’s preparation, reload begging, and TikTok Live presence. DEENO responds with a highly disrespectful first round targeting FENDRY's hygiene and family. In round two, FENDRY lands the biggest moment of the battle with a paternity angle, alleging DEENO's child belongs to Ginger J. DEENO counters with more family-focused material. Round three is won by DEENO, who delivers his best round using the Passive bunk-bed angle, Bonnie Blue of Yorkshire Town reference, and a yeast-infection bar. FENDRY wins by decision (2-1), taking rounds one and two, while DEENO takes round three.",
+    "performanceAnalysis": [
+      {
+        "performer": "FENDRY",
+        "overview": "FENDRY wins the battle 2-1 by securing the first two rounds with sharper, more direct writing. His delivery is highly confident, and he lands the defining punchline of the clash in round two with a personal paternity angle, which DEENO is unable to fully overcome despite a strong final round.",
+        "lyricalThemes": "DEENO’s preparation, TikTok Live, begging, reloads, Kandi, meatloaf/greed jokes, previous wins, paternity angle, Ginger J, begging friend, fake Nordic/Viking image, Ikea, Thor, Norway/Iceland, one-time winner.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "TikTok & Reload Mockery",
+            "description": "FENDRY opened round one by targeting DEENO's social media presence, mocking his time spent begging for gifts on TikTok Live and asking for reloads."
+          },
+          {
+            "title": "Ginger J Paternity Haymaker",
+            "description": "In his second round, he delivered a massive personal attack by questioning the paternity of DEENO's child, culminating in the line 'That child is Ginger J' which erupted the room."
+          },
+          {
+            "title": "Viking & Nordic Deconstruction",
+            "description": "In round three, he mocked DEENO's northern and Viking branding, reducing his Nordic heritage to Ikea furniture and meatballs."
+          }
+        ]
+      },
+      {
+        "performer": "DEENO",
+        "overview": "DEENO finishes the battle strongly to take round three, but loses the overall decision due to focusing too much of his early material on generic family insults rather than direct attacks on FENDRY. His final round stands out for its sharp shock humor and direct platform references.",
+        "lyricalThemes": "Harry Potter, Diagon Alley, hygiene, FENDRY’s mum/nan/sister, Viva Street, rope/death imagery, Season 5, Passive, Zen, Ace, Marks, Bonnie Blue, P-A-W-L-S-H-I-V-E, bullying, yeast infection.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Harry Potter Diagon Alley Scheme",
+            "description": "DEENO opened round one with a structured magic scheme, referencing Diagon Alley and Avada Kedavra to deliver a dark death punch."
+          },
+          {
+            "title": "Platform Bunk-Bed Angle",
+            "description": "In his third round, he targeted FENDRY's relationship with other battlers, joking that FENDRY and Passive share bunk beds due to their close association."
+          },
+          {
+            "title": "Yeast-Infection Shock Bar",
+            "description": "He landed one of the most memorable and disgusting comedic lines of the clash in round three, combining baking imagery with a gross personal insult about FENDRY's grandmother."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "FENDRY",
+        "theme": "Image Attack",
+        "bar": "First things first, let me say your dread.",
+        "explanation": "FENDRY opens with a hair/image attack. 'Dread' targets DEENO’s appearance and starts the round with a simple visual insult."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Intro Insult",
+        "bar": "This DEENO should have stayed in bed.",
+        "explanation": "This is a basic opener but effective. FENDRY says DEENO should never have turned up because he is about to lose."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Nursery Rhyme Flip",
+        "bar": "This little pig should have gone to the market, sold his bars and invested in lead.",
+        "explanation": "This flips the nursery rhyme This Little Piggy into a weapon/bar scheme. 'Lead' can mean bullets, so FENDRY turns a childish rhyme into violent battle imagery."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Nursery Rhyme Flip",
+        "bar": "This little pig should have known that the target only increased each time he fed.",
+        "explanation": "This continues the pig/feeding scheme. FENDRY suggests DEENO has made himself a bigger target by overindulging or overexposing himself."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Preparation Critique",
+        "bar": "DEENO just spent four months prepping, he still won’t forget his bars.",
+        "explanation": "This attacks DEENO’s preparation. FENDRY says even with months of prep, DEENO is still likely to forget material."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Social Media Angle",
+        "bar": "Too much time on TikTok Live, don’t get gifted bro, stop begging.",
+        "explanation": "This is a direct social-media angle. FENDRY says DEENO spends too much time live-streaming and asking for gifts, which makes him look needy."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Wordplay Scheme",
+        "bar": "Talk about capital Y… now DEENO, capital die.",
+        "explanation": "This is a capital-letter wordplay scheme. FENDRY plays with 'capitalise,' 'capital try,' and 'capital die,' turning grammar into a threat."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Metaphor",
+        "bar": "DEENO, you’re no hero, you’re placebo.",
+        "explanation": "This is one of FENDRY’s cleaner lines. A placebo looks like medicine but has no real effect, so FENDRY says DEENO looks useful but has no impact."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Reload Critique",
+        "bar": "Trying to beg for a reload.",
+        "explanation": "This is one of the main DEENO angles. FENDRY frames DEENO as someone who forces or begs reaction rather than naturally earning it."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Cartoon Reference",
+        "bar": "Clowning your fish like Nemo.",
+        "explanation": "This references Finding Nemo. FENDRY uses Nemo's clownfish status to construct a cartoonish insult."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Platform Association",
+        "bar": "Dino peenie, stop rubbing on Kandi’s genie.",
+        "explanation": "This references Kandi, another PenGame figure, and uses crude 'genie' imagery. FENDRY accuses DEENO of clinging to Kandi or benefiting from Kandi-related moments."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Greed Mockery",
+        "bar": "You get free reloads, that’s easy. You get free meatloafs, how greedy.",
+        "explanation": "This extends the reload and greed angles. FENDRY says DEENO gets reactions too easily and also mocks his appetite or size."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Resume List",
+        "bar": "How many man got smoked by FENDRY?",
+        "explanation": "This starts the second-round status list. FENDRY names several previous opponents to build the argument that DEENO is next."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Resume List",
+        "bar": "JM got smoked by FENDRY. RA’SIAH got smoked by FENDRY. DOMI got smoked by FENDRY.",
+        "explanation": "This is a resume-building sequence. FENDRY reminds the room of his past wins to establish momentum."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Paternity Angle",
+        "bar": "Your baby mum is white, so why does your kid have waves?",
+        "explanation": "This starts the biggest angle of the battle. FENDRY questions DEENO’s child’s paternity through hair texture. It is personal battle material, not a verified factual claim."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Paternity Angle",
+        "bar": "He’s got too much potential to be your son anyway.",
+        "explanation": "This is a harsh follow-up. FENDRY says the child seems too promising to belong to DEENO. It is disrespectful and designed to sting."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Paternity Angle",
+        "bar": "Well, that’s not your son. That child is Ginger J.",
+        "explanation": "This is the battle’s biggest haymaker. FENDRY links the child to Ginger J and turns the paternity angle into a PenGame-specific punch. The room reacts heavily."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Friendship Mockery",
+        "bar": "Stop begging, friend, it’s my best advice.",
+        "explanation": "This starts the 'begging friend' scheme. FENDRY says DEENO keeps trying to force friendship or connection."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Friendship Mockery",
+        "bar": "Begging friend, me and you not guys.",
+        "explanation": "This continues the same angle. FENDRY rejects DEENO socially, making him look desperate."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Allergy Joke",
+        "bar": "Sick of him like his egg intolerance — give him mayonnaise and he dies.",
+        "explanation": "This is a food/allergy joke. FENDRY uses 'egg intolerance' and mayonnaise to make DEENO seem physically weak."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Status Punch",
+        "bar": "DEENO the best MC? Said no one.",
+        "explanation": "This is a simple but effective status punch. FENDRY says nobody believes DEENO is elite."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Platform Status",
+        "bar": "After this clash, you’re packed. Get back to snatching crap from the cold drip.",
+        "explanation": "This is a platform/status closer. FENDRY says DEENO will be removed from the tournament and sent back to low-level behaviour."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Mirrored Clash",
+        "bar": "So now it’s Yin versus Yin, but I’m nothing like him.",
+        "explanation": "FENDRY opens round three by referencing the beat or previous battle context. 'Yin versus Yin' suggests a mirrored clash, but FENDRY says he is not the same as DEENO."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Appearance",
+        "bar": "Strawberry blonde with cigarette trim.",
+        "explanation": "This attacks DEENO’s hair colour and hairstyle. It is a visual punch."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Appearance",
+        "bar": "Go back to your din, won’t win by the hair of your million chin.",
+        "explanation": "This is a chin/appearance joke. FENDRY says DEENO cannot win even narrowly, while mocking his face."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Viking Angle",
+        "bar": "I don’t want to hear chat about Viking. DEENO, you’re not North, stop trying.",
+        "explanation": "This attacks DEENO’s Nordic/Viking image. FENDRY says DEENO is forcing a northern/Viking persona that does not fit."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Mythology Reference",
+        "bar": "Thor don’t whip beside him, just accept you get struck with lightning.",
+        "explanation": "This references Thor, the Norse god and Marvel character associated with lightning. FENDRY uses it to attack DEENO’s Viking image."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Nordic Angle",
+        "bar": "You’ll never be Norway or Iceland.",
+        "explanation": "This continues the Nordic angle. FENDRY says DEENO cannot claim those cold northern identities."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Nordic Angle",
+        "bar": "About Nordic, you’ve got Ikea.",
+        "explanation": "This references Ikea, the Swedish furniture company. FENDRY reduces DEENO’s Nordic image to flat-pack furniture and meatballs."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Name Flip",
+        "bar": "The second sound of your name is ‘no’.",
+        "explanation": "This is a DEENO name flip. He breaks down the sound of the name and turns it into rejection."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Appearance",
+        "bar": "Body shaped like a basketball, have DEENO bouncing around like Tigger.",
+        "explanation": "This references Tigger from Winnie the Pooh, known for bouncing. It attacks DEENO’s body shape and movement."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Battle History",
+        "bar": "You only come against S2MID, I guess you’re too mad — you’re a one-time winner.",
+        "explanation": "This references S2MAD and flips 'too mad' into a status critique. FENDRY says DEENO only has one meaningful win."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Battle Narrative",
+        "bar": "I travelled all the way up to York just so FENDRY would fight me.",
+        "explanation": "DEENO opens by framing himself as willing to travel and chase the clash. It builds a direct battle narrative."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Pop Culture Reference",
+        "bar": "I see this girl in Diagon Alley.",
+        "explanation": "This references Diagon Alley from Harry Potter. DEENO uses it to build a magic-themed section."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Pop Culture Reference",
+        "bar": "I’m waving a stick of Avada.",
+        "explanation": "This references Avada Kedavra, the killing curse from Harry Potter. DEENO uses it as a death threat inside the magic scheme."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Hygiene Insult",
+        "bar": "Go take a bath in bleach. I would say you’re washed, but it looks like you haven’t showered in weeks.",
+        "explanation": "This is a hygiene and 'washed' double meaning. 'Washed' means finished, but DEENO says FENDRY is so dirty he does not even qualify as washed."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Dismissal",
+        "bar": "FENDRY, he’s not competition.",
+        "explanation": "This is a straightforward dismissal. DEENO says FENDRY is not on his level."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Grind & Resilience",
+        "bar": "I lost all the time, but I’m back on my grind, can’t stop, won’t stop, feel like Meek.",
+        "explanation": "This references Meek Mill, known for grind and resilience. DEENO admits past losses but frames himself as persistent."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Personal Allegation",
+        "bar": "I got a link to Viva Street.",
+        "explanation": "This appears to reference escort-advertisement style material. DEENO uses it as part of a family/sex-work angle against FENDRY’s mum. It is battle material and should not be treated as fact."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Death Imagery",
+        "bar": "The only time FENDRY can hang is if there’s a rope on his neck.",
+        "explanation": "This is a dark death/suicide-style punch and should be treated carefully as battle material. DEENO uses it to attack FENDRY’s status and survival in the clash."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Platform Status",
+        "bar": "Watch how the screen gets dark — it’s Season 5 and I’m taking charge.",
+        "explanation": "DEENO starts round two by presenting himself as taking over the platform. It is a status and performance line."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Patois Discussion",
+        "bar": "How you gonna stand on the stage and let FENDRY say ‘oh what a rass’?",
+        "explanation": "This brings in SMIL3Z and Jamaican-language discussion. DEENO criticises how others reacted to FENDRY’s use of phrasing."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Patois Discussion",
+        "bar": "I’m not Jamaican, but if I was, I’d probably go try rass up his yard.",
+        "explanation": "DEENO responds to the Jamaican/patois issue by saying even if he were Jamaican, he would challenge FENDRY directly."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Personal Attack",
+        "bar": "Passive and Zen run trains with your mum and Ace is there, he’s the cameraman.",
+        "explanation": "This is a crude multi-person sexual/family attack involving other PenGame names. It is battle material and not factual."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Personal Attack",
+        "bar": "Marks turned polyamorous, now he’s fucking your mum and nan.",
+        "explanation": "This is another family/sexual shock bar using a PenGame figure. It is designed to get reaction through disrespect."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Platform Critique",
+        "bar": "Marks, how could you be FENDRY’s boss?",
+        "explanation": "This makes the angle platform-specific. DEENO questions how Markz could allow or manage FENDRY within PenGame."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Opening Push",
+        "bar": "Are you done yet? You can lose this, but don’t run yet.",
+        "explanation": "DEENO opens round three by telling FENDRY not to escape the loss. It is a strong direct opener."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Overpresence Attack",
+        "bar": "He’s from York, but he’s always here.",
+        "explanation": "This attacks FENDRY for constantly being at PenGame despite coming from York. It suggests he is overpresent or chasing the platform."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Platform Association",
+        "bar": "I think him and PASSIVE share bunk beds.",
+        "explanation": "This links FENDRY to PASSIVE and makes both look childish or dependent. It is a room-reference joke."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Personal Attack",
+        "bar": "The Bonnie Blue of Yorkshire Town — and that’s your mum.",
+        "explanation": "This references adult-content notoriety and uses it to attack FENDRY’s mother. It is harsh family battle material."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Personal Attack",
+        "bar": "He got paid for being a slag, but your mum did the act for free.",
+        "explanation": "This continues the sex-work/family angle. It is one of DEENO’s darker third-round punches."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Spelling Flip",
+        "bar": "P-A-W-L-S-H-I-V-E.",
+        "explanation": "This is a spelling flip aimed at FENDRY, likely connecting him to PASSIVE or Welsh imagery. DEENO uses the style of spelling to mock the opponent."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Regional Symbol Mockery",
+        "bar": "Your bars are weak, this guy is a leek.",
+        "explanation": "This uses 'leek' as a Welsh symbol and a weakness joke. It connects regional identity and writing ability."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Personal History",
+        "bar": "I heard you got bullied in school.",
+        "explanation": "This is a personal-history attack. DEENO uses it to weaken FENDRY’s tough image."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Superman Reference",
+        "bar": "You came down trying to act like Superman.",
+        "explanation": "This references Superman and suggests FENDRY is pretending to be heroic or powerful."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Shock Humour",
+        "bar": "Your nan probably baked bread with her own yeast infection.",
+        "explanation": "This is the bar the judges highlight as disgusting and funny. It combines baking/yeast imagery with a gross family insult. It is shock humour and clearly helped DEENO win round three."
+      },
+      {
+        "performer": "DEENO",
+        "theme": "Confrontation",
+        "bar": "I’ll walk straight up to you and Sky man.",
+        "explanation": "This line appears to reference direct confrontation and possibly a previous PenGame/person reference. It lands as part of DEENO’s final aggressive push."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "FENDRY won by decision (2-1)",
+      "summary": "The judges (Manga Saint, Cash, and Paps Isn't Builded) voted 2-1 for FENDRY. Manga Saint and Cash gave rounds one and two to FENDRY, praising his direct attacks and the paternity Ginger J haymaker, while awarding round three to DEENO. Paps Isn't Builded agreed with the scorecard, noting that DEENO's round three was excellent due to the yeast-infection bar, but FENDRY's delivery and direct writing in the first two rounds had already won him the clash."
+    }
   },
   {
     "id": "pg-s06-2025-05-31-sevz-vs-cucha",
@@ -46086,7 +48849,366 @@ export const battles: Battle[] = [
     "views": "143k",
     "stage": "Group Stage",
     "group": "C",
-    "tag": null
+    "tag": null,
+    "host": "Markz",
+    "judges": [
+      "Paps Isn't Builded",
+      "Manga Saint",
+      "Cash"
+    ],
+    "clashSummary": "SEVZ vs CUCHA took place during the PenGame Rap Battle 2025 Cold War Tournament, Group C. The event is hosted by Markz, powered by Sound On and sponsored by Chicken Shop, with judges Paps Isn't Builded, Manga Saint, and Cash deciding the result. SEVZ goes first. SEVZ opens round one by attacking CUCHA’s looks, relationships, and credibility. CUCHA responds with a theatrical round using an oud prop to physically strike SEVZ. In round two, SEVZ uses a structured barber/line-up and dojo theme, accusing CUCHA of involvement with the PenGame roster, while CUCHA counters with attacks on SEVZ's baby-face image and sexual reputation. Round three becomes highly personal and aggressive, with SEVZ delivering crude insults using Oyster card and transit imagery. CUCHA counters with a prepared family tree diagram targeting SEVZ's sisters. SEVZ wins by unanimous decision (3-0), with Paps and Cash giving him all three rounds while Manga gives CUCHA round three but scores the battle 2-1 for SEVZ.",
+    "performanceAnalysis": [
+      {
+        "performer": "SEVZ",
+        "overview": "SEVZ wins by unanimous decision by being clearer, more direct, and more consistent across all three rounds. While his third round is extremely crude, his delivery and structured attacks on CUCHA's reputation and relationships keep the room engaged and maintain his momentum throughout the clash.",
+        "lyricalThemes": "CUCHA’s reputation, sexuality, relationships, Karma, Candy, dojo/barber line-ups, Five Guys, Luffy, King Kong, snake/fake imagery, Mission Impossible, Tom Cruise, Oyster, make-up, black and yellow/buzzed.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Dojo and Barber Shop Theme",
+            "description": "SEVZ delivered a highly effective second round by constructing a unified dojo and female barber theme, accusing CUCHA of giving 'line-ups' and 'chopping' the entire PenGame roster."
+          },
+          {
+            "title": "Five Guys Wordplay",
+            "description": "In round one, he utilized food-chain wordplay, referencing Five Guys to mock CUCHA's relationship history and reputation in a simple, memorable way."
+          },
+          {
+            "title": "Oyster Transit Pun",
+            "description": "In his final round, he used London transit wordplay, comparing CUCHA's reputation to an Oyster card that constantly gets 'tapped' to maintain his attack density."
+          }
+        ]
+      },
+      {
+        "performer": "CUCHA",
+        "overview": "CUCHA showcases high theatricality, visual aids, and creative props but struggles with lyrical clarity and overall consistency. She wins round three on Manga's scorecard with a prepared family tree presentation, but her chaotic first round costs her the overall decision.",
+        "lyricalThemes": "Barking, sexuality, oud prop, family tree, sisters, Elvira, Frankie, Bonnie Blue-style references, baby-face jokes, fish/Nemo, Habibi, Jabba the Hutt, DPD, easy/easy/easy closer.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Oud Prop Physicality",
+            "description": "CUCHA created the most memorable moment of round one by pulling out an oud musical instrument prop and physically hitting SEVZ with it, stopping the room with visual comedy."
+          },
+          {
+            "title": "Family Tree Visual Aid",
+            "description": "She started her final round by presenting a physical family tree detailing SEVZ's sisters (Elvira and dancer/family dynamics), showing strong strategic preparation."
+          },
+          {
+            "title": "Nemo Fish Scheme",
+            "description": "She developed a fish-based wordplay scheme in round three, referencing Finding Nemo and 'fishy' memory to attack SEVZ's sister's relationships."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "SEVZ",
+        "theme": "Appearance",
+        "bar": "Your head’s too big.",
+        "explanation": "SEVZ starts with a simple appearance attack. It sets the tone early: he is going for direct visual insults rather than complex setup."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Confidence",
+        "bar": "Close my eyes, still hitting your face.",
+        "explanation": "This is a confidence punch. SEVZ says CUCHA’s head or face is such an easy target that he would not even need to aim."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Gendered Angle",
+        "bar": "Everyone’s saying you’re female, go easy and take my time.",
+        "explanation": "This is a gendered angle. SEVZ frames himself as holding back because CUCHA is female, then uses that as a setup to disrespect her anyway."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Social Circle",
+        "bar": "Type of girl to have no friends and say, ‘no, he’s just my slime.’",
+        "explanation": "This attacks CUCHA’s relationships and social circle. 'Slime' is used as slang for close friend, but SEVZ implies the friendships are questionable."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Reputation & Food Wordplay",
+        "bar": "She ain’t getting burgers, but she’s mentioned by more than Five Guys.",
+        "explanation": "This is one of SEVZ’s cleaner round-one punches. Five Guys is a burger chain, but 'more than five guys' also suggests multiple men mentioning her. It is a reputation/food-chain wordplay bar."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Appearance",
+        "bar": "Paper bag and I’m talking spice.",
+        "explanation": "This line suggests CUCHA is unattractive enough to need covering, while 'spice' adds a drug/UK-street image. It is a harsh appearance punch."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Partner Credibility",
+        "bar": "Your man won’t ride or get a get-back.",
+        "explanation": "SEVZ says CUCHA’s man would not defend her. It attacks both CUCHA’s relationship and her partner’s credibility."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Relationship Mockery",
+        "bar": "I heard you got Karma.",
+        "explanation": "This introduces a named-person angle. SEVZ uses Karma as both a person and a concept."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Relationship Mockery",
+        "bar": "It makes sense, they say karma’s a bitch.",
+        "explanation": "This is the punchline to the Karma setup. It uses the common phrase 'karma’s a bitch' to insult CUCHA and her relationship."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Platform Association",
+        "bar": "If you got a sweet tooth, you should have gone to the Candy shop.",
+        "explanation": "This references Candy/Kandi and flips it into a 'sweet tooth' joke. It connects PenGame names with a simple punchline."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Platform Reputation",
+        "bar": "I thought it was a PenGame roster, now you wanna bring in some thots.",
+        "explanation": "SEVZ says CUCHA has turned the roster into a gossip/relationship space. It is a platform-reputation angle."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Roster Attack",
+        "bar": "You let this dumb girl turn this place into a dojo with everyone she’s chopped.",
+        "explanation": "This is one of SEVZ’s best concepts. A dojo is a martial arts space, and 'chopped' can suggest fighting or sexual history. It attacks CUCHA’s reputation while using fight imagery."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Barber/Line-up Scheme",
+        "bar": "We all thought she was a female barber, giving all the mandem line-ups.",
+        "explanation": "This continues the 'chopped/line-up' idea. A barber gives line-ups, but SEVZ flips it into CUCHA being involved with multiple men."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Identity/Status",
+        "bar": "Just because you look different, don’t make a difference.",
+        "explanation": "This is a strong identity/status punch. SEVZ says CUCHA’s appearance or uniqueness does not translate into impact."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Flower Wordplay",
+        "bar": "In your ends you don’t get flowers, but you’re known for using your two lips.",
+        "explanation": "This is crude wordplay. 'Flowers' means praise, while 'two lips/tulips' links to a flower pun and sexual insult."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Pop Culture Reference",
+        "bar": "If I go fifth gear, Luffy is long.",
+        "explanation": "This likely references Luffy from One Piece, known for stretching. SEVZ uses the line to suggest he can stretch the attack or go further."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Dominance",
+        "bar": "Go ape shit, so I’m King like Kong.",
+        "explanation": "This references King Kong. SEVZ uses it as a dominance and aggression image."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Character Attack",
+        "bar": "She looks like a snake, the fake is here.",
+        "explanation": "This is a snake/fake character attack. It suggests CUCHA is untrustworthy and false."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Body Mockery",
+        "bar": "How can you be tight with this chick when everything about her seems so loose?",
+        "explanation": "This opens SEVZ’s third with a crude sexual insult. It attacks CUCHA’s reputation and body."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Movie Reference",
+        "bar": "Close your legs, Mission Impossible, somebody call Tom Cruise.",
+        "explanation": "This references Mission Impossible and Tom Cruise. SEVZ says closing her legs is so unlikely it would be a mission impossible."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Pregnancy Joke",
+        "bar": "Your baby will shoot out like a slip and slide.",
+        "explanation": "This is a crude body/pregnancy image. It is harsh battle material and should not be treated as factual commentary."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Gendered Fight Bar",
+        "bar": "I don’t hate women, but it’s calm, my sister would bang off your face.",
+        "explanation": "SEVZ anticipates criticism that his material is misogynistic, then says even his sister would fight CUCHA. It is a gendered fight bar."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Sexual Wordplay",
+        "bar": "Multiple D’s and I don’t mean grades.",
+        "explanation": "This is sexual wordplay. 'D’s' can mean grades or men, and SEVZ uses the double meaning to attack CUCHA’s reputation."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Oyster Wordplay",
+        "bar": "She gets tapped like an Oyster.",
+        "explanation": "This references an Oyster card, used for London transport. 'Tapped' means used on transport but also becomes a sexual insult."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Head Wordplay",
+        "bar": "She gives everyone head, I think it’s time you changed your mind state.",
+        "explanation": "This is head/mind wordplay. SEVZ links oral-sex imagery to changing mental state."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Make-up Wordplay",
+        "bar": "That make-up won’t make up for the fact you’re flat and broke.",
+        "explanation": "This is a make-up/make up wordplay bar. It attacks both CUCHA’s appearance and finances."
+      },
+      {
+        "performer": "SEVZ",
+        "theme": "Insect/Music Reference",
+        "bar": "Black and yellow, you know who it is. I can’t let her be, she just got buzzed.",
+        "explanation": "This references Wiz Khalifa’s Black and Yellow and bee/buzz imagery. SEVZ uses it to close with colour and insect wordplay."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Toughness Attack",
+        "bar": "You’re from Barking, but you ain’t no barking.",
+        "explanation": "CUCHA attacks SEVZ’s location and toughness. Barking is a place, but 'barking' also means acting loud or threatening. She says he is not really active."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Haircut Joke",
+        "bar": "Ray Combs and the chainsaw to find his parting.",
+        "explanation": "This seems to be a hairline/parting joke using cutting imagery. CUCHA attacks SEVZ’s hair and appearance."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Platform Vim",
+        "bar": "Candy, please stop giving me vim.",
+        "explanation": "CUCHA references Candy/Kandi and uses 'vim' to mean energy or encouragement. It suggests she is being pushed to go harder."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Sexuality Attack",
+        "bar": "Today we got a bi girl and a damn queer.",
+        "explanation": "This is sexuality-based battle material and should be handled carefully. CUCHA uses it to attack the identities or perceived identities in the room."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Prop Setup",
+        "bar": "Do I finish him with a whap? Do I finish him with a strap? Fuck it, I’ll finish this bitch with a smack.",
+        "explanation": "This sets up the oud prop moment. CUCHA acts out the line physically and creates one of the most memorable moments of the battle."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Platform/Reputation",
+        "bar": "Heard that you’ve got OnlyFans with one subscriber — only scams.",
+        "explanation": "This is a platform/reputation insult. CUCHA says SEVZ has no real audience or sexual appeal."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Roster Threat",
+        "bar": "Twenty percent of these pussies don’t rap, eighty percent get beat up.",
+        "explanation": "This is a broad PenGame threat line. CUCHA says many battlers cannot rap, and the rest would get physically dealt with."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Finances Attack",
+        "bar": "I heard broke he tried to pay his hairdresser in chocolate coins.",
+        "explanation": "This attacks SEVZ’s finances and hair. Paying in chocolate coins makes him look broke and childish."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Money Reference",
+        "bar": "Got a one-band like Floyd.",
+        "explanation": "This likely references Floyd Mayweather, known for money and fighting. CUCHA uses it as a money/fighting image."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Baby Face Joke",
+        "bar": "We both look like babies, but only he drinks white stuff daily.",
+        "explanation": "This is a crude baby/sexual joke. CUCHA acknowledges both look young but flips it into an insult against SEVZ."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Bonnie Blue Flip",
+        "bar": "Coming like Bonnie Blue’s trainee.",
+        "explanation": "This references adult-content notoriety. CUCHA uses it to attack sexual reputation and experience."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Barber Payment",
+        "bar": "He got his hair cut two days ago and paid by leaving her wet and jittery.",
+        "explanation": "This is a crude barber/sexual payment joke. It attacks SEVZ through grooming and reputation."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Underage Mockery",
+        "bar": "Return to your cup, you’re underage. What do you know about shots?",
+        "explanation": "This is a drinking/age/shots bar. 'Shots' can mean alcohol or gunfire. CUCHA uses it to make SEVZ look too young."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Family Tree",
+        "bar": "He mentioned his sisters, so I brought out his family tree.",
+        "explanation": "This starts CUCHA’s strongest round. It is a direct response to SEVZ mentioning family, and the visual aid makes the angle feel prepared."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Family Structure",
+        "bar": "As you can see, there’s a lack of women.",
+        "explanation": "CUCHA uses the family tree to attack SEVZ’s family structure. It is visual and direct."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Hair Security",
+        "bar": "Bullied into shaving my head? Could never be me, but I’m seeing it’s you.",
+        "explanation": "This flips an angle back onto SEVZ. CUCHA says he is the one with insecurity around hair."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Family Exposé",
+        "bar": "His sister Elvira is a dancer.",
+        "explanation": "This starts the sister angle. CUCHA uses family details to build her third-round case."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Adult Dancer Angle",
+        "bar": "Weekends there’s old men and poles.",
+        "explanation": "This turns the dancer angle into a sexualised insult, implying adult entertainment. It is battle material."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Family Exposé",
+        "bar": "She trapped Frankie with a baby.",
+        "explanation": "CUCHA introduces a relationship/paternity-style angle involving Frankie. It is personal battle material, not verified fact."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Nemo Reference",
+        "bar": "Just keep swimming.",
+        "explanation": "This references Finding Nemo. CUCHA uses the fish imagery to continue a sexual/family insult."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Fish Scheme",
+        "bar": "Her memory’s fishy, so she forgets who she topped off.",
+        "explanation": "This keeps the fish/Nemo scheme going. 'Fishy' means suspicious and also links to the aquatic reference."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Star Wars Reference",
+        "bar": "Jabba the Hutt in 3D.",
+        "explanation": "This references Jabba the Hutt from Star Wars. CUCHA uses it as an appearance insult aimed at SEVZ’s mum or family."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Delivery Analogy",
+        "bar": "Box passed around, DPD.",
+        "explanation": "This references DPD, the parcel delivery company. CUCHA uses 'box' as sexual slang and delivery imagery."
+      },
+      {
+        "performer": "CUCHA",
+        "theme": "Closer Repetition",
+        "bar": "Anyway, fuck your sisters, AKA easy, easy, easy and easy.",
+        "explanation": "This closes the family-tree angle with blunt repetition. It is crude but direct and memorable."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "SEVZ won by unanimous decision (3-0)",
+      "summary": "All three judges (Paps Isn't Builded, Manga Saint, and Cash) voted for SEVZ. Paps and Cash scored all three rounds for SEVZ, praising his superior clarity, pockets, and consistent delivery. Manga Saint scored the battle 2-1 for SEVZ, awarding round three to CUCHA due to her creative physical family tree diagram and Elvira/Frankie visual angles, but agreed that SEVZ's first two rounds secured him the overall win."
+    }
   },
   {
     "id": "pg-s06-2025-06-04-deeno-vs-cucha",

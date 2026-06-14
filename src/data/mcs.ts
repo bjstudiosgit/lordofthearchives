@@ -1058,6 +1058,17 @@ export const mcs: MC[] = [
     "style": "Technical",
     "image": "https://picsum.photos/seed/jynx/400/400",
     "bio": "PenGame Academy artist."
+  },
+  {
+    "id": "black-t",
+    "slug": "black-t",
+    "name": "BLACK T",
+    "battles": 1,
+    "wins": 0,
+    "losses": 0,
+    "style": "Aggressive",
+    "image": "https://picsum.photos/seed/black-t/400/400",
+    "bio": "PenGame Season 4 artist who debuted against RENAYA. Known for aggressive delivery, wordplay and performance-focused writing."
   }
 ];
 
