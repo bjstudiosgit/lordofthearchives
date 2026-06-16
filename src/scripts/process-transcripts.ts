@@ -676,6 +676,10 @@ export interface Battle {
   oddMoments?: string[];
   coolMoments?: string[];
   postBattleContext?: string;
+  judgementSummary?: {
+    verdict: string;
+    summary: string;
+  };
 }
 
 export const battles: Battle[] = ${JSON.stringify(updatedBattles, null, 2)};
