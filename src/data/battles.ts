@@ -3939,7 +3939,8 @@ export const battles: Battle[] = [
     "slug": "kmarh-vs-messie",
     "mc1": "kmarh",
     "mc2": "messie",
-    "title": "KMARH vs MESSIE",
+    "winner": "kmarh",
+    "title": "KMARH vs MESSIE 13",
     "date": "2021-11-14",
     "theme": "pengame",
     "season": 3,
@@ -4136,81 +4137,496 @@ export const battles: Battle[] = [
     "stage": null,
     "group": null,
     "tag": null,
-    "clashSummary": "DrizzGB and Kandi opened the Pen Game 2023 Christmas Special with a chaotic, aggressive clash built around personal insults, crowd reaction, voice attacks, appearance jokes, and a running angle around Kandi's girlfriend Tasha. There was no formal judge decision, so this should be treated as an exhibition-style battle rather than a scored tournament clash. Drizz had the clearer structure and more easily readable material, while Kandi brought raw shock-value aggression and unpredictability.",
+    "winner": "drizzgb",
+    "clashSummary": "DRIZZGB vs KANDI took place at the **PenGame Christmas Special 2023**, hosted by **Lippy Lickshot** and sponsored by **Rude Boy** and **Concealed**. In the Christmas spirit, instead of a coin toss, the host uses a Christmas cracker to decide who goes first.\r\n\r\nThe battle is loose, chaotic and full of crowd interruptions, but the result is clear. DRIZZGB has the stronger structure, clearer angles and the better overall battle performance. KANDI has moments, but he does not keep control long enough and appears to have no real third round.\r\n\r\nKANDI’s early material is aggressive and crude. He attacks DRIZZGB through girlfriend material, appearance, sexual allegation-style insults, voice, family and fake street talk. His delivery has energy, but the round is short and scattered. The host even says it is “not enough,” which sets the tone for the battle.\r\n\r\nDRIZZGB responds with a much cleaner first round. He attacks KANDI’s hygiene, appearance, voice, identity claims, ethnicity claims, fake accent, class positioning and lack of authenticity. The strongest angle is that KANDI is forcing his voice and trying to sound like someone else. DRIZZGB also flips KANDI’s name into “Candy Crush,” and the room reacts hard enough for a reload.\r\n\r\nKANDI’s second round has some good moments. He attacks DRIZZGB’s speech, class image, background, mother, car status, Pakistani/Jamaican identity, money and alleged snitching. The issue is that the round is shorter and less damaging than DRIZZGB’s response.\r\n\r\nDRIZZGB’s second round is the round that takes the battle away. He builds a whole story around KANDI using his girlfriend Tasha’s phone for the PenGame group chat because he allegedly cannot afford his own. He attacks KANDI’s relationship, money, benefits, rent, voice, fake Abra Kadabra style, mental state, lockdown image and girlfriend situation. The Tasha angle becomes the main story of the battle and gives DRIZZGB a clear opponent-specific attack.\r\n\r\nWhen it reaches round three, KANDI does not deliver a proper third. He says he did not realise it was done, that it kept going, and that he was finished from a while ago. This effectively hands the battle to DRIZZGB.\r\n\r\nDRIZZGB then delivers a third round and keeps attacking KANDI’s poverty, girlfriend, identity claims, melanin claims, relevance, followers, shows, girls and breathing/stress image. He also works the Tasha angle again, leading to crowd reactions and a “VAR” style check when people discuss whether Tasha is real. DRIZZGB ends by saying “3-0” and that he still smoked KANDI despite not being on form.\r\n\r\nThere is no official judging section, but the archive result is obvious.",
     "performanceAnalysis": [
       {
-        "performer": "DrizzGB",
-        "overview": "DrizzGB was the more organised battler. His rounds were clearer, more opponent-specific, and easier for the room to react to. He built repeated angles around Kandi's voice, image, finances, girlfriend, and general credibility, and he got the room reacting through jokes rather than just noise.",
-        "lyricalThemes": "Voice attacks, identity and credibility pressure, relationship angles, and crowd control.",
+        "performer": "DRIZZGB",
+        "overview": "DRIZZGB wins because he has the clearest angles and the most complete performance. He does not need the most complex writing; he wins through direct, opponent-specific attacks and better control.\r\n\r\nHis first round works because it breaks KANDI down as a person. The hygiene, fake voice, fake accent and fake identity angles are all clear. He says KANDI is trying to sound like Dutch / Abra Kadabra and calls out his claimed Irish, Pakistani and Jamaican links. That gives DRIZZGB a strong identity-based angle.\r\n\r\nHis second round is the best round of the battle. The Tasha phone/group-chat angle gives the clash a storyline. It makes KANDI look broke, dependent on his girlfriend and embarrassed in the PenGame chat. DRIZZGB keeps building on that angle with relationship, rent, benefits, voice and lockdown material.\r\n\r\nHis third round is enough to close. KANDI does not properly rap a third, while DRIZZGB keeps going. He returns to the Tasha angle, attacks KANDI’s claims, relevance and followers, and ends with enough confidence to call it 3-0.\r\n\r\nDRIZZGB’s biggest strength is angle selection. He finds one thing that can embarrass KANDI and keeps pressing it.",
+        "lyricalThemes": "Hygiene, fake voice, fake accent, Dutch / Abra Kadabra comparison, ethnicity claims, Candy Crush, girlfriend/Tasha phone, group chat, benefits, rent, relationship embarrassment, lockdown, mental asylum, medication, size 15 shoes, followers, relevance, girls, stress breathing.",
         "keyTechnicalHighlights": [
           {
-            "title": "Clearer Structure",
-            "description": "Drizz's setups and payoffs were easier to follow than Kandi's more chaotic writing."
+            "title": "Best round",
+            "description": "Round two."
           },
           {
-            "title": "Running Personal Angle",
-            "description": "He kept returning to the Tasha storyline and turned it into a full battle narrative."
+            "title": "Strongest trait",
+            "description": "Opponent-specific angle writing."
           },
           {
-            "title": "Crowd Control",
-            "description": "Several moments forced reactions and wheel-ups from the room."
+            "title": "Best angle",
+            "description": "KANDI using Tasha’s phone / girlfriend group-chat situation."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Tasha / phone / benefits / fake voice run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Better angles, cleaner control and a completed third round."
           }
         ]
       },
       {
-        "performer": "Kandi",
-        "overview": "Kandi brought shock-value aggression and a darker, more chaotic tone. He attacked appearance, family, and credibility, but his delivery and wording were often messy, so the impact was stronger than the structure. His style felt dangerous and unfiltered, but not as clean as Drizz's.",
-        "lyricalThemes": "Shock-value disrespect, appearance attacks, raw aggression, and unfiltered performance energy.",
+        "performer": "KANDI",
+        "overview": "KANDI has energy, but he loses because his rounds are shorter, less controlled and he does not complete the battle properly.\r\n\r\nHis first round has aggression but not enough structure. He goes after DRIZZGB’s girlfriend, family, looks, voice and sexual reputation, but it feels more like scattered shock material than a complete round.\r\n\r\nHis second round is better. He has a few sharper ideas about DRIZZGB’s identity, car status, mother, Pakistani/Jamaican claims and money. However, the round does not land as strongly as DRIZZGB’s Tasha angle.\r\n\r\nHis third is the decisive problem. KANDI does not deliver a proper third round. In a three-round battle, that makes the result very hard to debate.\r\n\r\nKANDI’s biggest strength is raw energy. His weakness is preparation and round control.",
+        "lyricalThemes": "Girlfriend material, sexual accusation-style bars, Big Shaq, Kit Kat, fake raps, Starbucks/flat white, Jenner, Gucci, mother angle, Pakistani/Jamaican identity, money/rupees, snitching, short second round, no clear third.",
         "keyTechnicalHighlights": [
           {
-            "title": "Unfiltered Energy",
-            "description": "Kandi sounded hostile and unpredictable, which gave his rounds an edge."
+            "title": "Best round",
+            "description": "Round two."
           },
           {
-            "title": "Immediate Disrespect",
-            "description": "He opened with direct attacks and tried to unsettle Drizz early."
+            "title": "Strongest trait",
+            "description": "Aggressive delivery."
           },
           {
-            "title": "Main Weakness",
-            "description": "Some bars felt like fragments rather than fully formed punchlines."
+            "title": "Best angle",
+            "description": "DRIZZGB’s identity and money claims."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Starbucks / flat white / Jenner / rupees run."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "No proper third round and weaker structure."
           }
         ]
       }
     ],
     "notableBars": [
       {
-        "performer": "DrizzGB",
-        "theme": "Voice Angle",
-        "bar": "Your voice sounds forced.",
-        "explanation": "Drizz keeps attacking Kandi's vocal tone and makes the whole persona look fake."
+        "performer": "DRIZZGB",
+        "theme": "Hygiene",
+        "bar": "This brother here is greasy as fuck.",
+        "explanation": "DRIZZGB opens with a hygiene attack, immediately making KANDI look dirty and unpolished."
       },
       {
-        "performer": "DrizzGB",
-        "theme": "Tasha Angle",
-        "bar": "He can't afford a phone.",
-        "explanation": "Drizz turns a small chat detail into a money and independence attack."
+        "performer": "DRIZZGB",
+        "theme": "Hygiene",
+        "bar": "Blood, you need to wash up.",
+        "explanation": "Continues the hygiene angle."
       },
       {
-        "performer": "Kandi",
+        "performer": "DRIZZGB",
         "theme": "Appearance",
-        "bar": "Big Shaq.",
-        "explanation": "Kandi uses the comedy-rap reference as a quick visual mockery angle."
+        "bar": "You look like you just woke up, you’re a scruff.",
+        "explanation": "A direct appearance punch."
       },
       {
-        "performer": "Kandi",
-        "theme": "Credibility",
+        "performer": "DRIZZGB",
+        "theme": "Status",
+        "bar": "Get a job, go sell that stuff.",
+        "explanation": "A work/money/status insult."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Voice",
+        "bar": "Why is your voice like that? You’re doing too much.",
+        "explanation": "The start of DRIZZGB’s main first-round angle: KANDI’s voice is forced."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Comparison",
+        "bar": "Stepping in this clash trying to sound like Dutch.",
+        "explanation": "A Dutch comparison. DRIZZGB says KANDI is imitating a style that is not his."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Voice",
+        "bar": "This brother needs Lemsip or a thousand cough sweets.",
+        "explanation": "A voice/throat punch."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Voice",
+        "bar": "Drink herbal tea, cause your voice sounds fucked.",
+        "explanation": "Continues the voice angle."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Authenticity",
+        "bar": "Why you straining your voice like that? That’s not you, my G.",
+        "explanation": "A direct authenticity attack."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Wordplay",
+        "bar": "Man’s name is KANDI, he’s slipping on cane and rocks.",
+        "explanation": "A KANDI/candy/cane/rocks wordplay."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Identity",
+        "bar": "Man said he’s Irish, Pakistani and Jamaican.",
+        "explanation": "DRIZZGB attacks KANDI’s identity claims."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Comparison",
+        "bar": "Moving like Drake, you’re a combination.",
+        "explanation": "A Drake/mixed-identity comparison."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Wordplay",
+        "bar": "I can get KANDI crushed.",
+        "explanation": "A Candy Crush name flip. One of the clearest bars of the battle."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Wordplay",
+        "bar": "Fuck your punchlines when I land these hooks.",
+        "explanation": "A boxing/writing punch."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Critique",
+        "bar": "Just cause you shout and rap with your eyes closed, that don’t make you a psycho.",
+        "explanation": "A strong delivery critique. KANDI’s intensity is framed as performative."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Imagery",
+        "bar": "Man gets pulled like vinyl.",
+        "explanation": "A reload / vinyl pull-up image."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Setup",
+        "bar": "In the next round, I’m gonna tell you all he used his girlfriend’s iPhone.",
+        "explanation": "A setup line for round two, making the crowd anticipate the personal angle."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Storytelling",
+        "bar": "Let me tell you a little story about KANDI’s broken dad.",
+        "explanation": "DRIZZGB opens round two with storytelling."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Poverty",
+        "bar": "He can’t afford a phone so he uses his girl’s in the PenGame chat.",
+        "explanation": "The main angle of the battle. KANDI is framed as broke and dependent on his girlfriend."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Embarrassment",
+        "bar": "Why would you use her number, you stupid fucking twat?",
+        "explanation": "A direct embarrassment punch."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Prediction",
+        "bar": "When you break up, I know the mandem will be hollering that.",
+        "explanation": "DRIZZGB says the situation will become a running joke."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Relationship",
+        "bar": "I feel sorry for Tasha.",
+        "explanation": "A girlfriend/relationship angle."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Insult",
+        "bar": "Nobody wanna mash her, she gotta settle with you.",
+        "explanation": "A relationship insult aimed at both KANDI and Tasha."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Poverty",
+        "bar": "You can’t afford no credit or data.",
+        "explanation": "A poverty/phone-data punch."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Money",
+        "bar": "You and your girl both sponge off benefits.",
+        "explanation": "A benefits/money attack."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Allegation",
+        "bar": "When you went pen, she was taking in hella digs.",
+        "explanation": "A prison/relationship allegation-style bar. It is battle material."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Comparison",
+        "bar": "A man really tried to sound like Abra Kadabra.",
+        "explanation": "A major style comparison. DRIZZGB says KANDI is forcing an Abra-style voice."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Critique",
+        "bar": "Your voice is as fake as a bitch.",
+        "explanation": "A direct delivery critique."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Wordplay",
+        "bar": "I got the magic, alakazam.",
+        "explanation": "A magic wordplay."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Insult",
+        "bar": "You look like you broke out a mental asylum.",
+        "explanation": "A harsh appearance/mental-state insult."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Money",
+        "bar": "I know Tasha pays for the rent and you’re on the couch.",
+        "explanation": "A domestic/financial attack."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Lifestyle",
+        "bar": "You probably still think that we’re in lockdown.",
+        "explanation": "A lifestyle/stagnation punch."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Status",
+        "bar": "You’re like 35 and you’re washed out.",
+        "explanation": "An age/status insult."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Confidence",
+        "bar": "When I’m 35, I’ll be a boss now.",
+        "explanation": "DRIZZGB compares his future trajectory to KANDI’s current status."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Wordplay",
+        "bar": "Microsoft Windows, what is that? Can’t shut down.",
+        "explanation": "A Windows/shutdown wordplay."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Wordplay",
+        "bar": "Broke and you will get broke.",
+        "explanation": "A money/violence double meaning."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Name Flip",
+        "bar": "Now he’s KANDI man.",
+        "explanation": "A KANDI / Candyman name flip."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Wordplay",
+        "bar": "KANDI ain’t got sweets for a gun.",
+        "explanation": "A candy/gun contrast."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Insult",
+        "bar": "By the sounds of it, you really need God.",
+        "explanation": "A spiritual/concern punch."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Mental Health",
+        "bar": "Someone ain’t been taking their medicine.",
+        "explanation": "A mental-health/medication insult. It is battle material."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Mental Health",
+        "bar": "Calm down, let me give him a sedative.",
+        "explanation": "Continues the medication/sedation angle."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Storytelling",
+        "bar": "I got Tasha’s number now.",
+        "explanation": "Returns to the main girlfriend angle."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Threat",
+        "bar": "Bring your crew, I’ll take out ten of them.",
+        "explanation": "A threat line."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Identity",
+        "bar": "You’re irrelevant claiming you got melanin.",
+        "explanation": "An identity/relevance punch."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Wordplay",
+        "bar": "I flow like Evian.",
+        "explanation": "A water/smoothness punch."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Critique",
+        "bar": "You talk about stuff you ain’t ever did.",
+        "explanation": "A fake-bars accusation."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Status",
+        "bar": "Get back on your bike, start pedalling.",
+        "explanation": "A status/money/work insult."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Social Media",
+        "bar": "This guy’s a beg, cause you follow more than your followers.",
+        "explanation": "A social-media status punch."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Wordplay",
+        "bar": "He’ll never get a show or gigs like holidays.",
+        "explanation": "A show/gig/holiday wordplay."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Confidence",
+        "bar": "PenGame, just give me the next thing.",
+        "explanation": "A confident closer. DRIZZGB asks for the next opponent."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Allegation",
+        "bar": "Now why does this guy look like he’s been nicked for sex crimes?",
+        "explanation": "A severe allegation-style insult. It is battle material, not a factual claim."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Performance",
+        "bar": "My lips bring the hits back.",
+        "explanation": "A performance/music line."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Insult",
+        "bar": "You bring a girl to the clash, I’m thinking how did he lips that?",
+        "explanation": "A girlfriend/attraction insult."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Threat",
+        "bar": "Back my shank and then twist that.",
+        "explanation": "A weapon/threat line. It is battle material."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Reference",
+        "bar": "You’ve never been hot like Big Shaq.",
+        "explanation": "A Big Shaq / “Man’s Not Hot” reference."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Wordplay",
+        "bar": "You always break there like a Kit Kat.",
+        "explanation": "A Kit Kat/breaking punch."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Critique",
+        "bar": "Stop with the shit raps.",
+        "explanation": "A blunt writing critique."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Street",
+        "bar": "I used to serve my food with a portion of fries.",
+        "explanation": "A street/food image."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Insult",
+        "bar": "You got knocked out, must be liking the floor.",
+        "explanation": "A fight/knockout insult."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Class",
+        "bar": "When you go to Starbucks with a flat white…",
+        "explanation": "KANDI opens round two with a coffee/class angle."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Status",
+        "bar": "You don’t drive with shit like Ding Eds.",
+        "explanation": "A car/status insult. The transcript is rough."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Status",
+        "bar": "Never touch foot in a German car.",
+        "explanation": "A car/money/status punch."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Reference",
+        "bar": "Only time you touch Jenner.",
+        "explanation": "A Jenner/Kardashian-style reference. The transcript is rough but functions as a celebrity/sex insult."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Violence",
+        "bar": "Take out your eyes, ears…",
+        "explanation": "A senses/body attack."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Reference",
+        "bar": "His mum like Brucie’s Jenner.",
+        "explanation": "A Caitlyn Jenner-style reference. It is battle material."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Allegation",
+        "bar": "He got nicked up twice for grabbing up Gucci.",
+        "explanation": "A theft/Gucci allegation-style insult. Battle material only."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Family",
+        "bar": "Your mum is my groupie.",
+        "explanation": "A mother/sexual insult."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Wordplay",
+        "bar": "Only got raps when he’s talking rupees.",
+        "explanation": "A money/ethnicity punch."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Accusation",
         "bar": "Rat is a snitch.",
-        "explanation": "A simple credibility attack aimed at making Drizz look untrustworthy."
+        "explanation": "A snitching accusation."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Admission",
+        "bar": "I didn’t realise it was done.",
+        "explanation": "KANDI’s third-round problem. He appears not to have a proper third ready."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Admission",
+        "bar": "I was done from a while.",
+        "explanation": "This effectively confirms his material had ended before a third-round performance."
       }
     ],
-    "oddMoments": [
-      "The battle starts with a Christmas cracker instead of a coin toss.",
-      "Kandi's round endings are messy in the transcript.",
-      "Drizz gets several wheel-ups, showing his material was landing in the room.",
-      "The Tasha angle becomes the central storyline of the battle.",
-      "There is no formal judge decision in the transcript."
-    ],
-    "postBattleContext": "This battle should be framed as a Christmas exhibition rather than a scored contest. DrizzGB's cleaner writing and room control make him the performance winner in most reads, but the transcript itself does not provide an official verdict."
+    "judgementSummary": {
+      "verdict": "drizzgb",
+      "summary": "Official visible result: N/A (Host wrapped the battle, DRIZZGB claimed 3-0). Suggested archive score: DRIZZGB 3-0 KANDI. Suggested round split: Round 1: DRIZZGB, Round 2: DRIZZGB, Round 3: DRIZZGB. Reason: DRIZZGB controlled the battle with the Tasha/group-chat angle and stronger delivery. KANDI had some aggressive material, but the lack of a proper third round makes this a clear DRIZZGB win. Performance Grades - DRIZZGB: B+, KANDI: C. Final Note: DRIZZGB did not need to be perfect here. He had the clearer angle, the funnier personal material and a complete third. KANDI had flashes, but DRIZZGB took the battle comfortably."
+    }
   },
   {
     "id": "pg-s3.5-2023-12-25-grams-vs-storm",
@@ -4227,123 +4643,520 @@ export const battles: Battle[] = [
     "stage": null,
     "group": null,
     "tag": null,
-    "clashSummary": "Grams vs Storm was one of the hotter Christmas Special battles. There was no formal judge decision in the transcript, but Grams appears to have controlled much of the room through performance, crowd reaction, and repeated personal angles. Storm brought darker street and death imagery, but Grams had the bigger and more memorable moments.",
+    "winner": "grams",
+    "clashSummary": "GRAMS vs STORM took place at the **PenGame Christmas Special 2023**, hosted by **Lippy Lickshot** and sponsored by **Rude Boy** and **Clued Up**. The battle uses the Christmas cracker system instead of a coin toss, and GRAMS starts first.\r\n\r\nGRAMS opens with theatre. Before rapping, he frames the battle as a funeral for STORM, then brings out a prop and makes the room wait while building tension. Once the beat starts, he attacks STORM’s name, height, views, music career, COVID-related content, lack of substance, family history and deceased nan. The round is harsh, personal and clearly designed to shake STORM early. GRAMS’s disrespect toward STORM’s nan becomes one of the central battle angles.\r\n\r\nSTORM’s first round is aggressive. He attacks GRAMS through drug imagery, family insults, threats, fake street credibility, women, food, demons, Bilbo Baggins, black magic and grave-digging. He has energy and some dark lines, but the round is less controlled than GRAMS’s opener. GRAMS has the cleaner structure and bigger angle.\r\n\r\nGRAMS’s second round switches into a racial and credibility angle. He calls STORM a white boy in rap, questions what he was doing in the trap, says his bars come from a rural lifestyle and attacks his credibility. He then moves into George Floyd, Tommy Robinson, African spellwork, daughter/future lines, offset/amigos wordplay, storm-water imagery and child-protection checks. It is a dangerous and uncomfortable round, but it is direct and opponent-specific.\r\n\r\nSTORM’s second round has aggression but is messier. He attacks GRAMS as short, fake, weak, and not really about the life he claims. He brings hearse, funeral, Madeleine McCann, chess, “virgin” and body-under-the-sea imagery. The energy is there, but it does not land with the same clarity as GRAMS’s second.\r\n\r\nGRAMS’s third round is the performance round of the battle. He changes the rhythm into more of a garage/house vibe and mocks STORM by saying this is more his type of music. The repeated “Storm, you are not the guy” hook gets the room moving and turns the battle into a moment. He then adds short-man jokes, girl/dog-in-bed material, dad, mum, grandma and family-stress angles. It is the most memorable round of the battle.\r\n\r\nSTORM closes with a stronger third than his second, attacking GRAMS’s realness, numbers, flats, boy-not-getting-backed, ex, street image, DMs, virginity and chess. It is a decent closer, but GRAMS’s beat switch and room control make the final round clear.\r\n\r\nThere is no official judging section. The host closes by telling viewers to comment who won.\r\n\r\nBased on the battle, GRAMS wins by Archive Judgement.",
     "performanceAnalysis": [
       {
-        "performer": "Grams",
-        "overview": "Grams came in like he planned a whole scene, not just three rounds. He used a funeral frame, direct identity attacks, and a third-round beat switch to keep the room reacting. His style was more theatrical and more controlled, which made his attacks feel bigger in the room.",
-        "lyricalThemes": "Funeral framing, identity attacks, crowd control, beat switching, and theatrical disrespect.",
+        "performer": "GRAMS",
+        "overview": "GRAMS wins because he controls the battle from the opening stunt to the final beat switch. He is more prepared, more direct and more memorable.\r\n\r\nHis first round sets the tone. The funeral framing gives the battle an event feel before he even starts rapping. His attacks on STORM’s name, height, music numbers, content and nan are harsh but effective as battle material. The round is nasty and focused.\r\n\r\nHis second round is the most controversial. He goes into race, rural background, trap credibility and Tommy Robinson imagery. It is uncomfortable, but it is clearly built around making STORM look like a white outsider pretending to have street experience. The angle is coherent, even when the content is extreme.\r\n\r\nHis third round wins the room. The garage-style beat switch and repeated hook make STORM look like he has been dragged onto GRAMS’s stage. It is simple but effective because the performance becomes bigger than the writing.\r\n\r\nGRAMS’s biggest strength is control. He knows how to create a moment.",
+        "lyricalThemes": "Funeral staging, Storm name flips, short-man jokes, views/likes, COVID content, deceased nan angle, white-boy-in-rap angle, rural/trap credibility, George Floyd, Tommy Robinson, African spellwork, daughter/future insults, storm-water wordplay, garage beat switch, “not the guy” hook, family stress.",
         "keyTechnicalHighlights": [
           {
-            "title": "Performance Control",
-            "description": "Grams stayed in command of the room and used reaction points well."
+            "title": "Best round",
+            "description": "Round three."
           },
           {
-            "title": "Name Flips",
-            "description": "He repeatedly downgraded Storm's name by treating him like a weak weather system instead of a real threat."
+            "title": "Strongest trait",
+            "description": "Performance control."
           },
           {
-            "title": "Third-Round Switch",
-            "description": "His garage/house-style beat switch was one of the biggest performance moments."
+            "title": "Best angle",
+            "description": "STORM is not the guy and does not belong in rap."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Garage beat switch / repeated “not the guy” hook."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Stronger moments, better structure and bigger crowd control."
           }
         ]
       },
       {
-        "performer": "Storm",
-        "overview": "Storm leaned into violence, horror imagery, and darker street references. He had intensity, but some of the writing was crowded and less clean than Grams' more controlled performance. He still had moments, especially when he simplified the idea and kept the attacks direct.",
-        "lyricalThemes": "Death imagery, horror references, street threats, and aggressive counter-writing.",
+        "performer": "STORM",
+        "overview": "STORM does not perform badly. He brings aggression and has moments in every round, but his writing is less controlled and he does not create a round as memorable as GRAMS’s third.\r\n\r\nHis first round is his most aggressive. He attacks GRAMS through drug, family, violence and black-magic imagery. It sounds dangerous, but it is not as targeted as GRAMS’s opening funeral angle.\r\n\r\nHis second round has punches but becomes scattered. The hearse, Madeleine McCann, chess and “fiddler” bars are dark, but the round does not build a clean case against GRAMS.\r\n\r\nHis third round is his best structured response. He talks about GRAMS’s numbers, capped-out claims, flats, not getting his boy back, ex, DMs and chess. It is a decent closer, but by that point GRAMS has already taken the battle’s biggest moments.\r\n\r\nSTORM’s biggest strength is aggression. His weakness is structure.",
+        "lyricalThemes": "Bliff/weed, family insults, violence, fake street credibility, women, food, black magic, grave-digging, hearse, Madeleine McCann, chess, DMs, ex, flats, numbers, virginity, deep-sea/body imagery.",
         "keyTechnicalHighlights": [
           {
-            "title": "Dark Tone",
-            "description": "Storm leaned hard into a threatening, horror-film style of writing."
+            "title": "Best round",
+            "description": "Round three."
           },
           {
-            "title": "Street References",
-            "description": "He used crime-drama and street imagery to make the battle feel dangerous."
+            "title": "Strongest trait",
+            "description": "Aggression."
           },
           {
-            "title": "Main Weakness",
-            "description": "Some of the material was dense without enough clean punchline structure."
+            "title": "Best angle",
+            "description": "GRAMS is fake and not really backing his claims."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Flats / numbers / DMs / chess section."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Less memorable and less controlled than GRAMS."
           }
         ]
       }
     ],
     "notableBars": [
       {
-        "performer": "Grams",
+        "performer": "GRAMS",
+        "theme": "Theatre",
+        "bar": "Before I even go into this, it’s been a sad day… because someone’s dying.",
+        "explanation": "GRAMS opens with funeral theatre, setting STORM up as the body."
+      },
+      {
+        "performer": "GRAMS",
         "theme": "Name Flip",
-        "bar": "This ain't no storm.",
-        "explanation": "Grams strips Storm's name of power by saying he is not a real storm."
+        "bar": "This ain’t no storm, it’s a gust of wind.",
+        "explanation": "A clean name flip. STORM is reduced from something powerful to something minor."
       },
       {
-        "performer": "Grams",
-        "theme": "Numbers Attack",
-        "bar": "400 views and 13 likes.",
-        "explanation": "A direct music-career attack that turns numbers into a credibility joke."
+        "performer": "GRAMS",
+        "theme": "Name Flip",
+        "bar": "I’ll quiet this storm.",
+        "explanation": "Another name flip. GRAMS says he can silence the storm."
       },
       {
-        "performer": "Grams",
-        "theme": "Speed / Escape",
-        "bar": "Take off faster than sports cars.",
-        "explanation": "Grams is saying Storm will have to run once the pressure comes on. The sports car image makes the escape sound fast, flashy, and embarrassing rather than heroic."
+        "performer": "GRAMS",
+        "theme": "Reference",
+        "bar": "The real X-Men Storm is a bitch — but she bad. This imposter here just a bitch.",
+        "explanation": "An X-Men / Storm reference, turning STORM’s name into an insult."
       },
       {
-        "performer": "Grams",
-        "theme": "Scene Shift",
+        "performer": "GRAMS",
+        "theme": "Appearance",
+        "bar": "He mad short, so he’s going home sad.",
+        "explanation": "A height punch."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Career",
+        "bar": "You get 400 views and 13 likes on the track.",
+        "explanation": "A music-career numbers attack."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Critique",
+        "bar": "Stop wasting your time with these raps.",
+        "explanation": "A career critique."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Content",
+        "bar": "His whole content is COVID related.",
+        "explanation": "A content/platform attack."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Wordplay",
+        "bar": "I’ll leave him dead like a COVID patient.",
+        "explanation": "A COVID/death punch. It is battle material."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Critique",
+        "bar": "He ain’t got substance.",
+        "explanation": "A direct writing/personality critique."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Family",
+        "bar": "When your nan went up to the heavens, you almost gave in.",
+        "explanation": "A deceased-family angle. It is battle material."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Family",
+        "bar": "She soon see her grandson again.",
+        "explanation": "A death/nan insult. It is battle material."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Imagery",
+        "bar": "Your coffin just came in.",
+        "explanation": "Continues the funeral setup."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Family",
+        "bar": "Just like nanny, I’ll leave you ancient.",
+        "explanation": "A harsh deceased-family punch."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Disrespect",
+        "bar": "Please don’t let me find out your last name, I might go cemetery and piss on remains.",
+        "explanation": "A grave-disrespect line. It is battle material."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Identity",
+        "bar": "I saw disrespect and I do that blatant.",
+        "explanation": "GRAMS makes the disrespect part of his identity."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Critique",
+        "bar": "Storm ain’t got no substance.",
+        "explanation": "He repeats the central writing critique."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Race/Identity",
+        "bar": "What is this white boy doing in rap?",
+        "explanation": "A race/genre-position attack."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Credibility",
+        "bar": "Your bars come from a rural lifestyle.",
+        "explanation": "A rural-versus-street credibility punch."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Credibility",
+        "bar": "Tell us all what you were doing in the trap.",
+        "explanation": "GRAMS questions STORM’s street claims."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Wordplay",
+        "bar": "You need weight in the bits before you can weigh up a pack.",
+        "explanation": "A drug/weight wordplay."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Confidence",
+        "bar": "You defeating me is a myth.",
+        "explanation": "A simple dominance line."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Violence",
+        "bar": "I’ll stomp on your head till you’re having a fit.",
+        "explanation": "A violent image. It is battle material."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Hostile Content",
+        "bar": "Do that for George Floyd.",
+        "explanation": "A racialised violence reference. It is hostile battle material."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Reference",
+        "bar": "I gotta put little Tommy Robinson through a slaughter.",
+        "explanation": "A Tommy Robinson reference used to frame STORM as a white outsider target."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Spiritual",
+        "bar": "I’ll get a spell from my African friend.",
+        "explanation": "A spiritual/curse line."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Status",
+        "bar": "It would’ve been better if you started PenGame to be a reporter.",
+        "explanation": "A role/status insult. STORM belongs reporting, not battling."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Consequence",
+        "bar": "I just killed your career.",
+        "explanation": "A direct battle-consequence line."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Wordplay",
+        "bar": "If my amigos with me, offset.",
+        "explanation": "An Amigos / Offset wordplay."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Wordplay",
+        "bar": "Storm a water talker.",
+        "explanation": "A Storm/water name flip."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Insult",
+        "bar": "DBS.",
+        "explanation": "A child-safety check reference, used as an insult. It is battle material."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Performance",
         "bar": "Fuck rap, this is more your vibe.",
-        "explanation": "This is a performance-angle punch. Grams changes the energy and says Storm belongs more in the kind of vibe or scene being used in the beat switch than in serious rap."
+        "explanation": "GRAMS opens the third by switching the style and mocking STORM’s musical lane."
       },
       {
-        "performer": "Grams",
-        "theme": "Pub Culture",
-        "bar": "Go have a pint.",
-        "explanation": "A pint points to pub culture, so Grams is basically saying Storm looks more like a pub regular than a battle rapper. It makes him seem ordinary and out of place."
+        "performer": "GRAMS",
+        "theme": "Confidence",
+        "bar": "Put any beat on, you’re gonna get fried.",
+        "explanation": "A confidence line. The beat does not matter; STORM loses regardless."
       },
       {
-        "performer": "Storm",
-        "theme": "Death Imagery",
-        "bar": "Head first in a hearse.",
-        "explanation": "Storm uses burial imagery to frame Grams as already finished."
+        "performer": "GRAMS",
+        "theme": "Hook",
+        "bar": "Trust me, Storm, you are not the guy.",
+        "explanation": "The central hook of the third round. Simple but effective."
       },
       {
-        "performer": "Storm",
-        "theme": "Off the Map",
-        "bar": "Off the map.",
-        "explanation": "A concise disappearance punch that fits his darker style."
+        "performer": "GRAMS",
+        "theme": "Status",
+        "bar": "Put the mic down and go have a pint.",
+        "explanation": "A pub/lad-culture insult."
       },
       {
-        "performer": "Storm",
-        "theme": "Smoking Angle",
-        "bar": "Roll you up.",
-        "explanation": "Storm flips Grams into spliff language. To 'roll someone up' is to smoke them out or consume them, so he is using smoking imagery as a threat."
+        "performer": "GRAMS",
+        "theme": "Insult",
+        "bar": "You let a dog in your bed and that’s why you ain’t getting no pussy at night.",
+        "explanation": "A relationship/sex insult."
       },
       {
-        "performer": "Storm",
-        "theme": "Street Imagery",
-        "bar": "Top Boy like Kamali.",
-        "explanation": "This references the UK crime drama Top Boy to make the bar feel more street-authentic and dangerous. It is a culture reference used to sell the threat image."
+        "performer": "GRAMS",
+        "theme": "Appearance",
+        "bar": "You’re short, that’s a fact, so most girls say you ain’t their type.",
+        "explanation": "A height/attraction punch."
       },
       {
-        "performer": "Storm",
-        "theme": "Identity Insult",
-        "bar": "Hairline's offside.",
-        "explanation": "A football term becomes a visual insult. Storm is saying the hairline is pushed too far back, as if it has gone out of position like an offside player."
+        "performer": "GRAMS",
+        "theme": "Family",
+        "bar": "I know at some point your dad is lying.",
+        "explanation": "A family/fatherhood attack."
       },
       {
-        "performer": "Storm",
-        "theme": "Checkmate Finish",
+        "performer": "GRAMS",
+        "theme": "Insult",
+        "bar": "Your life’s been a mess.",
+        "explanation": "A broad personal attack."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Status",
+        "bar": "PenGame child, you ain’t passing the test.",
+        "explanation": "A PenGame/status punch."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Family",
+        "bar": "Now grandma’s gone, there’s only one gen left.",
+        "explanation": "A family-lineage/deceased-nan punch. It is battle material."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Wordplay",
+        "bar": "Fuck all the chat, put GRAMS in a riz.",
+        "explanation": "A weed/rolling punch. GRAMS becomes something to smoke."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Wordplay",
+        "bar": "Roll you up, now I’m lighting this spliff.",
+        "explanation": "Continues the weed/name flip."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Confidence",
+        "bar": "I spent time on this bitch.",
+        "explanation": "STORM claims he prepared for GRAMS."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Violence",
+        "bar": "I fly-kick your mum.",
+        "explanation": "A mother/violence insult. It is battle material."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Threat",
+        "bar": "I told you I fold you in half.",
+        "explanation": "A physical-threat line."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Critique",
+        "bar": "You lie how you live.",
+        "explanation": "A fake-life accusation."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Credibility",
+        "bar": "You don’t supply on the strips.",
+        "explanation": "A street-credibility attack."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Hostile Content",
+        "bar": "Your whole life’s gone shit, take that knife to your wrist.",
+        "explanation": "A self-harm-style insult. It is hostile battle material."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Challenge",
+        "bar": "We can fight after this.",
+        "explanation": "A direct physical challenge."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Threat",
+        "bar": "Black magic, one wrong move and I back it.",
+        "explanation": "A dark/spiritual threat."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Imagery",
+        "bar": "I’m killing you, digging your grave.",
+        "explanation": "A death/grave image."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Family",
+        "bar": "Mention my kids…",
+        "explanation": "A family-protection angle."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Imagery",
+        "bar": "Chef Ramsay your plate.",
+        "explanation": "A cooking/knife reference."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Imagery",
+        "bar": "Now legs first must have been different, now he’s going head first in a hearse.",
+        "explanation": "A hearse/death punch."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Insult",
+        "bar": "GRAMS, you’re shit.",
+        "explanation": "Blunt but direct."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Pressure",
+        "bar": "You’re fucking with us, stop fucking him up.",
+        "explanation": "A crew/pressure line."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Hostility",
+        "bar": "I’m sick of this prick.",
+        "explanation": "Direct hostility."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Status",
+        "bar": "Not one of my women would you ever pull.",
+        "explanation": "A dating/status insult."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Violence",
+        "bar": "I’ll poke him.",
+        "explanation": "Weapon/violence line. It is battle material."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Rebuttal",
+        "bar": "Didn’t bring Nan to your funeral, embarrassing.",
+        "explanation": "A rebuttal to GRAMS’s nan angle."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Reference",
+        "bar": "Take him off the map like the gov did to Madeleine.",
+        "explanation": "A Madeleine McCann reference. It is dark battle material."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Wordplay",
+        "bar": "Bar to bar, you couldn’t find no Villa.",
+        "explanation": "A bar/Villa wordplay. The transcript is rough, but it functions as a writing/status punch."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Location",
+        "bar": "Pull up outside to the flats.",
+        "explanation": "STORM starts his third with street-location imagery."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Numbers",
+        "bar": "Your capped-out numbers, so you got wrapped.",
+        "explanation": "A fake-numbers / wrapped-up line."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Loyalty",
+        "bar": "Didn’t get your boy back, so you called Dad.",
+        "explanation": "A loyalty/family insult."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Framing",
+        "bar": "Let’s stick to the facts.",
+        "explanation": "STORM tries to reframe the battle as truth-based."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Violence",
+        "bar": "Nothing like a movie when a face gets stabbed.",
+        "explanation": "A violence/reality line. It is battle material."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Wordplay",
+        "bar": "Skinnyville, but I drop GRAMS like a bag.",
+        "explanation": "A body/grams/bag wordplay."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Relationship",
+        "bar": "Like his ex, all rhymes belong to the streets.",
+        "explanation": "A relationship/street punch."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Imagery",
+        "bar": "Take a detour to the deep core.",
+        "explanation": "A burial/deep-water image."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Exposure",
+        "bar": "I will go live, show my Insta.",
+        "explanation": "A social-media exposure angle."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Challenge",
+        "bar": "Swear on your life that I’ve got you.",
+        "explanation": "A challenge to tell the truth."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Exposure",
+        "bar": "When you’re lying again like I did in DMs.",
+        "explanation": "A DM/exposure line."
+      },
+      {
+        "performer": "STORM",
+        "theme": "Wordplay",
         "bar": "Checkmate, no chess.",
-        "explanation": "Storm borrows chess language to sound decisive, then immediately says it is not even a game anymore. The line is about ending the opponent outright rather than playing it out strategically."
+        "explanation": "A chess/endgame punch."
       }
     ],
-    "oddMoments": [
-      "Grams opens the battle like a funeral.",
-      "The battle gets very personal very quickly.",
-      "Storm returns with darker street and death imagery.",
-      "Grams' third-round beat switch is one of the biggest performance moments.",
-      "There is no official winner declared in the transcript."
-    ],
-    "postBattleContext": "This battle should be treated as a Christmas Special performance clash rather than a scored contest. Grams likely had the stronger room control, but the transcript does not give a formal verdict."
+    "judgementSummary": {
+      "verdict": "grams",
+      "summary": "Official visible result: N/A (Host told viewers to comment). Suggested archive score: GRAMS 3-0 STORM. Suggested round split: Round 1: GRAMS, Round 2: GRAMS, Round 3: GRAMS. Reason: GRAMS has the more memorable angles, better performance control and the biggest room moment. STORM fights back, but he never takes over the battle. Performance Grades - GRAMS: A-, STORM: B-. Final Note: STORM came with aggression, but GRAMS came with theatre. The funeral intro and garage-style third round make this a clear GRAMS archive win."
+    }
   },
   {
     "id": "pg-s3.5-2023-12-25-sevz-vs-twenty8",
