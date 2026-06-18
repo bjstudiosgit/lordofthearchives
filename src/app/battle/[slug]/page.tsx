@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const mc3 = battle.mc3 ? pengameMcs.find(m => m.id === battle.mc3) : undefined;
   const mc4 = battle.mc4 ? pengameMcs.find(m => m.id === battle.mc4) : undefined;
   
-  const getYouTubeId = (url: string | undefined) => {
+  const getYouTubeId = (url: string | null | undefined) => {
     if (!url) return "";
     const embedMatch = url.match(/embed\/([^?]+)/);
     if (embedMatch) return embedMatch[1];

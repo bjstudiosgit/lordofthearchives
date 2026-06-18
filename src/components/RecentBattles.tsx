@@ -45,6 +45,8 @@ export default function RecentBattles() {
     },
   ];
 
+  const upcomingArchives = ["Gzone", "Lord of the Mics", "Don't Flop", "Talk Is Cheap"];
+
   return (
     <section id="battles" className="relative scroll-mt-24 bg-black py-24">
       <div className="absolute inset-x-0 top-0 h-px bg-white/10" />
@@ -65,7 +67,7 @@ export default function RecentBattles() {
               The archive is <span className="text-brand">live</span>.
             </h2>
             <p className="mt-5 max-w-xl text-sm leading-relaxed text-zinc-400 md:text-base">
-              PenGame Seasons 1, 2, and 3 are archived. New archived entries are added every day.
+              {archivedComplete} of {activeBattles.length} indexed PenGame battles are fully archived, with {inProgress} entries in progress.
             </p>
           </motion.div>
 
@@ -128,10 +130,51 @@ export default function RecentBattles() {
                 href="/pengame"
                 className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-brand transition-colors hover:text-white"
               >
-                Open Index <TrendingUp size={17} />
+                PenGame Archive <TrendingUp size={17} />
               </Link>
             </div>
           </motion.div>
+
+          <div className="space-y-6">
+            {upcomingArchives.map((archive) => (
+              <div key={archive} className="rounded-2xl border border-white/10 bg-zinc-950 p-6 md:p-8">
+                <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                  <div>
+                    <p className="text-xs font-bold uppercase tracking-[0.24em] text-zinc-500">{archive} Coverage</p>
+                    <p className="mt-1 text-3xl font-display italic uppercase text-white">0% Complete</p>
+                  </div>
+                  <p className="text-xs font-bold uppercase tracking-[0.18em] text-zinc-500">0 battles indexed</p>
+                </div>
+
+                <div className="mb-8 h-4 rounded bg-zinc-900 ring-1 ring-white/10" />
+
+                <div className="grid gap-4 md:grid-cols-3">
+                  {metrics.map((metric) => {
+                    const Icon = metric.icon;
+
+                    return (
+                      <div key={metric.label} className="rounded-lg border border-white/10 bg-black/35 p-4">
+                        <div className="mb-4 flex items-center justify-between gap-3">
+                          <Icon className={metric.tone} size={20} />
+                          <span className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500">0%</span>
+                        </div>
+                        <p className="font-display text-4xl italic leading-none text-white">0</p>
+                        <p className="mt-2 min-h-8 text-[10px] font-bold uppercase tracking-[0.18em] text-zinc-400">
+                          {metric.label}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </div>
+
+                <div className="mt-8 border-t border-white/10 pt-6">
+                  <p className="text-xs leading-relaxed text-zinc-500">
+                    Complete means the archive entry has been fully checked, written, and signed off.
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

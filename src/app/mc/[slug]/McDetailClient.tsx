@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { pengameMcs } from "../../../data/mcs";
+import { formatBattleDate, parseBattleDate } from "../../../data/battleDates";
 import {
   getBattleHref,
   getBattleRouteHref,
@@ -13,7 +14,10 @@ import {
   getBattleParticipants,
   getBattleWinners,
   hasOfficialBattleResult,
+  isDrawBattle,
   isLeagueEligibleBattle,
+  isUnknownResultBattle,
+  isUnresolvedBattle,
 } from "../../../data/leagueStandings";
 import { motion } from "motion/react";
 import {
@@ -28,6 +32,7 @@ import {
   MapPin,
   Zap,
   Star,
+  Clock,
 } from "lucide-react";
 
 export default function McDetailClient({ slug }: { slug: string }) {
@@ -58,12 +63,18 @@ export default function McDetailClient({ slug }: { slug: string }) {
         battle.statusNote !== "Cancelled" &&
         battle.winner !== "cancelled",
     )
-    .sort((a, b) => parseBattleDate(b.date) - parseBattleDate(a.date));
+    .sort((a, b) => (parseBattleDate(b.date) ?? 0) - (parseBattleDate(a.date) ?? 0));
 
   const wins = mc.wins;
   const losses = mc.losses;
   const draws = mcBattles.filter(
-    (battle) => isLeagueEligibleBattle(battle) && !hasOfficialBattleResult(battle),
+    (battle) => isLeagueEligibleBattle(battle) && isDrawBattle(battle),
+  ).length;
+  const unknownResults = mcBattles.filter(
+    (battle) => isLeagueEligibleBattle(battle) && isUnknownResultBattle(battle),
+  ).length;
+  const unresolved = mcBattles.filter(
+    (battle) => isLeagueEligibleBattle(battle) && isUnresolvedBattle(battle),
   ).length;
   const battleCount = mc.battles;
   const totalPoints = mc.battles + mc.wins * 3;
@@ -112,9 +123,10 @@ export default function McDetailClient({ slug }: { slug: string }) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60" />
 
-              {/* Initial Badge */}
-              <div className="absolute bottom-8 right-8 w-20 h-20 bg-brand rounded-full flex items-center justify-center text-black font-display text-4xl italic shadow-[0_0_30px_rgba(242,125,38,0.4)]">
-                {mc.name[0]}
+              {/* Battle Record Badge */}
+              <div className="absolute bottom-8 right-8 w-20 h-20 bg-brand rounded-full flex flex-col items-center justify-center text-black shadow-[0_0_30px_rgba(242,125,38,0.4)]">
+                <span className="text-[8px] font-black uppercase tracking-[0.25em] leading-none">W-L</span>
+                <span className="font-display text-2xl italic leading-none">{mc.wins}-{mc.losses}</span>
               </div>
             </motion.div>
             <div className="mt-6">
@@ -168,6 +180,8 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 />
                 <StatBadge icon={<Zap size={14} />} label={`${battleCount} BATTLES`} />
                 <StatBadge icon={<Star size={14} />} label={`${totalPoints} POINTS`} />
+                {unknownResults > 0 && <StatBadge icon={<Clock size={14} />} label={`${unknownResults} UNKNOWN`} />}
+                {unresolved > 0 && <StatBadge icon={<Clock size={14} />} label={`${unresolved} UNRESOLVED`} />}
                 {mc.weightClass && <StatBadge icon={<Scale size={14} />} label={mc.weightClass} />}
                 {mc.height && <StatBadge icon={<Ruler size={14} />} label={mc.height} />}
                 {mc.location && <StatBadge icon={<MapPin size={14} />} label={mc.location} />}
@@ -274,7 +288,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                                 {battle.views || "0"} views
                               </span>
                               <span className="text-[10px] text-zinc-600 uppercase tracking-widest">
-                                {battle.date || "TBD"}
+                                {formatBattleDate(battle.date)}
                               </span>
                             </div>
                           </div>
@@ -295,12 +309,6 @@ export default function McDetailClient({ slug }: { slug: string }) {
   );
 }
 
-function parseBattleDate(dateStr: string | undefined): number {
-  if (!dateStr) return 0;
-  const parts = dateStr.split("-");
-  if (parts.length !== 3) return 0;
-  return new Date(Number(parts[2]), Number(parts[1]) - 1, Number(parts[0])).getTime();
-}
 
 function StatBadge({
   icon,

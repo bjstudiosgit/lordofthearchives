@@ -34,7 +34,9 @@ export default function IntroVideo() {
                 UK Grime History
               </p>
               <h1 className="text-3xl md:text-6xl font-display italic leading-[1.1] uppercase tracking-tight">
-                Its The <span className="text-brand">Lord of the Archives</span>. Grime History Encyclopedia.
+                The <span className="text-brand">Lord of the Archives</span>.
+                <br />
+                Every MC. Every Clash. Every Era.
               </h1>
             </div>
           </motion.div>

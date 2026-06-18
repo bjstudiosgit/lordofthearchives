@@ -54,11 +54,17 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        
-        <div className="pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+
+        <div className="pt-6 border-t border-white/5 flex flex-col md:flex-row items-center gap-4">
           <p className="text-zinc-500 text-[10px] uppercase tracking-widest">
             © 2026 LORD OF THE ARCHIVES. All rights reserved.
           </p>
+          <div className="flex flex-wrap items-center justify-center gap-3 text-[9px] text-zinc-600 grayscale opacity-60 transition-opacity hover:opacity-100">
+            <a href="https://openai.com" target="_blank" rel="noopener noreferrer">OpenAI</a>
+            <a href="https://notebooklm.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1"><img src="/notebooklm.svg" alt="" className="h-3 w-3" /> NotebookLM</a>
+            <a href="https://www.nvidia.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1"><img src="/nvidia.svg" alt="" className="h-3 w-4" /> NVIDIA</a>
+            <a href="https://www.bjstudios.co.uk" target="_blank" rel="noopener noreferrer">BJ Studios</a>
+          </div>
         </div>
       </div>
     </footer>

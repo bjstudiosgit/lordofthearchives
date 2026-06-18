@@ -1091,7 +1091,7 @@ const computeMcRecords = (battles: Battle[]): Map<string, McRecord> => {
     const winners = Array.from(
       new Set(
         [battle.winner, battle.winner2].filter(
-          (winner): winner is string => Boolean(winner) && participants.includes(winner),
+          (winner): winner is string => typeof winner === "string" && participants.includes(winner),
         ),
       ),
     );

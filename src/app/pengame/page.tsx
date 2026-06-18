@@ -9,6 +9,7 @@ import {
   type Battle,
 } from "../../data/battles";
 import { pengameMcs } from "../../data/mcs";
+import { formatBattleDate, parseBattleDate } from "../../data/battleDates";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { CheckCircle2, Play, Eye, Calendar, Trophy } from "lucide-react";
@@ -46,13 +47,68 @@ const getSeasonTitle = (season: string): string => {
   return `Season ${season}`;
 };
 
+const getEpisodeNumber = (battle: Battle): number | undefined => {
+  if (battle.seasonOrder !== undefined) return battle.seasonOrder;
+
+  const episodeMatch = battle.customEp?.match(/(\d+)(?!.*\d)/);
+  return episodeMatch ? Number(episodeMatch[1]) : undefined;
+};
+
 const sortBattlesById = (a: Battle, b: Battle): number => {
-  const seasonOrderA = a.seasonOrder ?? Number.MAX_SAFE_INTEGER;
-  const seasonOrderB = b.seasonOrder ?? Number.MAX_SAFE_INTEGER;
+  const episodeA = getEpisodeNumber(a);
+  const episodeB = getEpisodeNumber(b);
 
-  if (seasonOrderA !== seasonOrderB) return seasonOrderA - seasonOrderB;
+  if (episodeA !== undefined && episodeB !== undefined && episodeA !== episodeB) {
+    return episodeA - episodeB;
+  }
+  if (episodeA !== undefined && episodeB === undefined) return -1;
+  if (episodeA === undefined && episodeB !== undefined) return 1;
 
-  return a.id.localeCompare(b.id, undefined, { numeric: true, sensitivity: "base" });
+  const dateA = parseBattleDate(a.date);
+  const dateB = parseBattleDate(b.date);
+
+  if (dateA !== null && dateB !== null && dateA !== dateB) return dateA - dateB;
+  if (dateA !== null && dateB === null) return -1;
+  if (dateA === null && dateB !== null) return 1;
+
+  return a.title.localeCompare(b.title, undefined, { sensitivity: "base" });
+};
+
+const season2025EpisodeOverrides: Record<string, number> = {
+  "pg-s05-2024-04-02-whoisorion-vs-kandi": 2,
+  "pg-s06-2025-03-24-grams-vs-missink": 3,
+  "pg-s06-2025-03-28-kandi-vs-bonnie-godiva": 4,
+  "pg-s2025-zen-vs-f-don": 6,
+  "pg-s2025-anbu-sensei-vs-dan-dannah": 7,
+  "pg-s06-2025-03-31-tapped24-vs-jmuni": 8,
+  "pg-s06-2025-03-24-drizzgb-vs-sevz": 9,
+  "pg-s06-2025-04-05-f-don-vs-kime": 10,
+  "pg-s05-2025-05-05-domi-dusk-vs-rasiah": 11,
+  "pg-s05-2025-10-27-zen-vs-dan-dannah": 12,
+  "pg-s05-2025-06-02-tapped24-vs-domi-dusk": 13,
+  "pg-s05-2025-11-24-kmarh-vs-aliaano": 15,
+  "pg-s05-2025-12-24-trappy-vs-iiiberealz": 16,
+  "pg-s05-2025-12-17-varntae-vs-anbu-sensei": 17,
+  "pg-s2025-jm-vs-a-petrelli": 18,
+  "pg-s2025-kandi-vs-anbu-sensei": 19,
+  "pg-s05-2025-11-12-kime-vs-sevz": 20,
+};
+
+const get2025EpisodeNumber = (battle: Battle): number | undefined => {
+  const override = season2025EpisodeOverrides[battle.id];
+  if (override) return override;
+
+  const explicitEpisode = battle.customEp?.match(/^25x(\d+)$/i);
+  if (explicitEpisode) return Number(explicitEpisode[1]);
+
+  return battle.seasonOrder;
+};
+
+const sort2025Battles = (a: Battle, b: Battle): number => {
+  const episodeA = get2025EpisodeNumber(a) ?? Number.MAX_SAFE_INTEGER;
+  const episodeB = get2025EpisodeNumber(b) ?? Number.MAX_SAFE_INTEGER;
+
+  return episodeA - episodeB || a.id.localeCompare(b.id, undefined, { numeric: true, sensitivity: "base" });
 };
 
 const sortTournamentBattles = (a: Battle, b: Battle): number => {
@@ -98,9 +154,7 @@ const getSeason5Section = (battle: Battle): string => {
 
 const getDateValue = (date: string | undefined): number => {
   if (!date) return Number.MAX_SAFE_INTEGER;
-
-  const [day, month, year] = date.split("-").map(Number);
-  return Date.UTC(year, month - 1, day);
+  return parseBattleDate(date) ?? Number.MAX_SAFE_INTEGER;
 };
 
 const dedupeBattles = (battles: Battle[]): Battle[] => {
@@ -162,7 +216,7 @@ const getFallbackEpisodeLabel = (season: string, index: number): string => {
 
 export default function PengamePage() {
   // Helper to parse view strings like "46.3K" or "4,569" into numbers
-  const parseViews = (viewStr: string | number | undefined): number => {
+  const parseViews = (viewStr: string | number | null | undefined): number => {
     if (!viewStr) return 0;
     const clean = String(viewStr).replace(/,/g, "").toUpperCase();
     if (clean.endsWith("K")) {
@@ -190,6 +244,8 @@ export default function PengamePage() {
             ? sortColdWarBattles
           : season === "5"
             ? sortSeason5Battles
+            : season === "2025"
+              ? sort2025Battles
             : sortBattlesById,
       ),
     ] as const)
@@ -347,7 +403,7 @@ export default function PengamePage() {
                           : season === "5" && season5EpisodeLabels[battle.slug]
                             ? season5EpisodeLabels[battle.slug]
                             : season === "2025"
-                              ? `25x${index + 1}`
+                              ? `25x${get2025EpisodeNumber(battle) ?? index + 1}`
                             : battle.customEp || getFallbackEpisodeLabel(season, index);
 
                       return (
@@ -412,7 +468,7 @@ export default function PengamePage() {
                             <td className="hidden md:table-cell px-2 py-3 md:px-6 md:py-6">
                               <div className="flex items-center gap-2 text-zinc-400 text-xs">
                                 <Calendar size={14} className="opacity-50" />
-                                {battle.isUnreleased ? "In production" : (battle.date || "TBD")}
+                                {battle.isUnreleased ? "In production" : formatBattleDate(battle.date)}
                               </div>
                             </td>
                             <td className="hidden md:table-cell px-2 py-3 md:px-6 md:py-6">

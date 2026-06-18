@@ -1,7 +1,9 @@
 import { battles, type Battle } from "./battles";
 import { mcs } from "./mcs";
 
-const NON_RESULT_WINNERS = new Set(["", "unknown", "tbd", "cancelled"]);
+const NON_RESULT_WINNERS = new Set(["", "unknown", "tbd", "cancelled", "draw", "tie"]);
+const DRAW_WINNERS = new Set(["draw", "tie"]);
+const UNKNOWN_WINNERS = new Set(["unknown", "tbd"]);
 
 export interface LeagueStanding {
   id: string;
@@ -12,6 +14,8 @@ export interface LeagueStanding {
   wins: number;
   losses: number;
   draws: number;
+  unknown: number;
+  unresolved: number;
   points: number;
   isDsq: boolean;
   rank: number;
@@ -20,12 +24,24 @@ export interface LeagueStanding {
 export const getBattleParticipants = (battle: Battle): string[] =>
   Array.from(new Set([battle.mc1, battle.mc2, battle.mc3, battle.mc4].filter(Boolean) as string[]));
 
-export const getBattleWinners = (battle: Battle): string[] =>
-  [battle.winner, battle.winner2]
+export const getBattleWinners = (battle: Battle): string[] => {
+  const participants = getBattleParticipants(battle);
+
+  return [battle.winner, battle.winner2]
     .filter((winner): winner is string => Boolean(winner))
-    .filter(winner => !NON_RESULT_WINNERS.has(winner.toLowerCase()));
+    .filter(winner => !NON_RESULT_WINNERS.has(winner.toLowerCase()))
+    .filter(winner => participants.includes(winner));
+};
 
 export const hasOfficialBattleResult = (battle: Battle): boolean => getBattleWinners(battle).length > 0;
+
+export const isDrawBattle = (battle: Battle): boolean =>
+  Boolean(battle.winner && DRAW_WINNERS.has(battle.winner.toLowerCase()));
+
+export const isUnknownResultBattle = (battle: Battle): boolean =>
+  Boolean(battle.winner && UNKNOWN_WINNERS.has(battle.winner.toLowerCase()));
+
+export const isUnresolvedBattle = (battle: Battle): boolean => !battle.winner?.trim();
 
 export const isLeagueEligibleBattle = (battle: Battle): boolean =>
   !battle.isUnreleased &&
@@ -50,7 +66,9 @@ export const getLeagueStandings = (theme?: string): LeagueStanding[] => {
         if (!hasOfficialBattleResult(battle)) return false;
         return !getBattleWinners(battle).includes(mcId);
       }).length;
-      const draws = mcBattles.filter(battle => !hasOfficialBattleResult(battle)).length;
+      const draws = mcBattles.filter(isDrawBattle).length;
+      const unknown = mcBattles.filter(isUnknownResultBattle).length;
+      const unresolved = mcBattles.filter(isUnresolvedBattle).length;
       const points = wins * 3 + draws;
 
       return {
@@ -62,6 +80,8 @@ export const getLeagueStandings = (theme?: string): LeagueStanding[] => {
         wins,
         losses,
         draws,
+        unknown,
+        unresolved,
         points,
         isDsq: mcInfo?.isActive === false,
         rank: 0,

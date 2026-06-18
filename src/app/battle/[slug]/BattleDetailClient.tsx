@@ -3,6 +3,8 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import { hasBattleArchiveData, pengameBattles } from "../../../data/battles";
 import { getCreditPersonByName } from "../../../data/credits";
+import { formatBattleDate } from "../../../data/battleDates";
+import { hasOfficialBattleResult } from "../../../data/leagueStandings";
 import { pengameMcs } from "../../../data/mcs";
 import { ArrowLeft, Play, Share2, Trophy, Clock } from "lucide-react";
 
@@ -29,7 +31,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
   const hasArchiveData = hasBattleArchiveData(battle);
 
   // Helper to extract YouTube ID from embed URL
-  const getYouTubeId = (url: string | undefined) => {
+  const getYouTubeId = (url: string | null | undefined) => {
     if (!url) return "";
     const embedMatch = url.match(/embed\/([^?]+)/);
     if (embedMatch) return embedMatch[1];
@@ -51,7 +53,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
   };
 
   const videoId = getYouTubeId(battle.videoUrl);
-  const videoEmbedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : battle.videoUrl;
+  const videoEmbedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : battle.videoUrl ?? undefined;
   const schemaData = battle.videoUrl ? {
     "@context": "https://schema.org",
     "@type": "VideoObject",
@@ -151,7 +153,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               <div className="text-center mb-8">
                 <h2 className="text-2xl font-display italic uppercase text-white">Battle Result</h2>
                 <p className="text-zinc-400 text-sm mt-2 uppercase tracking-widest">
-                  {battle.winner ? "Official Judges' Decision" : "Awaiting Decision"}
+                  {hasOfficialBattleResult(battle) ? "Official Judges' Decision" : "Awaiting Decision"}
                 </p>
               </div>
 
@@ -185,7 +187,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 </div>
               </div>
 
-              {battle.clashSummary && (
+              {hasArchiveData && battle.clashSummary && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
                   <h3 className="text-xl font-display italic uppercase text-white mb-4">Clash Summary</h3>
                   <p className="text-zinc-300 leading-relaxed font-light">
@@ -194,7 +196,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 </div>
               )}
 
-              {battle.performanceAnalysis && (
+              {hasArchiveData && battle.performanceAnalysis && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
                   <h3 className="text-xl font-display italic uppercase text-white mb-6">Performance Analysis</h3>
                   <div className="grid md:grid-cols-2 gap-6">
@@ -212,7 +214,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 </div>
               )}
 
-              {battle.performanceAnalysis && battle.performanceAnalysis.some(a => a.keyTechnicalHighlights && a.keyTechnicalHighlights.length > 0) && (
+              {hasArchiveData && battle.performanceAnalysis && battle.performanceAnalysis.some(a => a.keyTechnicalHighlights && a.keyTechnicalHighlights.length > 0) && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
                   <h3 className="text-xl font-display italic uppercase text-white mb-6">Key Technical Highlights</h3>
                   <div className="grid md:grid-cols-2 gap-6">
@@ -233,7 +235,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 </div>
               )}
 
-              {notableBarsByPerformer && (
+              {hasArchiveData && notableBarsByPerformer && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
                   <div className="grid md:grid-cols-2 gap-6">
                     {Object.entries(notableBarsByPerformer).map(([performer, bars]) => (
@@ -255,7 +257,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 </div>
               )}
 
-              {((battle.oddMoments && battle.oddMoments.length > 0) ||
+              {hasArchiveData && ((battle.oddMoments && battle.oddMoments.length > 0) ||
                 (battle.coolMoments && battle.coolMoments.length > 0)) && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
                   <h3 className="text-xl font-display italic uppercase text-white mb-6">Clash Highlights</h3>
@@ -269,7 +271,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 </div>
               )}
 
-              {battle.postBattleContext && (
+              {hasArchiveData && battle.postBattleContext && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
                   <h3 className="text-xl font-display italic uppercase text-white mb-6">Post-Battle Context</h3>
                   <div className="bg-zinc-950/50 border border-white/5 rounded-2xl p-6">
@@ -280,7 +282,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 </div>
               )}
 
-              {battle.judgementSummary && (
+              {hasArchiveData && battle.judgementSummary && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
                   <h3 className="text-xl font-display italic uppercase text-white mb-6">Judgement Summary</h3>
                   <div className="bg-zinc-950/50 border border-white/5 rounded-2xl p-6">
@@ -573,7 +575,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               <div className="space-y-4">
                 <div className="flex justify-between items-center py-3 border-b border-white/5">
                   <span className="text-zinc-400 text-xs uppercase tracking-widest">Date</span>
-                  <span className="text-zinc-100 font-bold">{battle.date || "TBD"}</span>
+                  <span className="text-zinc-100 font-bold">{formatBattleDate(battle.date)}</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-white/5">
                   <span className="text-zinc-400 text-xs uppercase tracking-widest">Views</span>

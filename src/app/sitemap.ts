@@ -8,30 +8,27 @@ const SITE_URL = "https://www.lordofthearchives.co.uk";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-
   const staticPages: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/`, lastModified: now },
-    { url: `${SITE_URL}/pengame/`, lastModified: now },
-    { url: `${SITE_URL}/league/`, lastModified: now },
-    { url: `${SITE_URL}/mcs/`, lastModified: now },
-    { url: `${SITE_URL}/hosts-judges/`, lastModified: now },
+    { url: `${SITE_URL}/` },
+    { url: `${SITE_URL}/pengame` },
+    { url: `${SITE_URL}/league` },
+    { url: `${SITE_URL}/mcs` },
+    { url: `${SITE_URL}/hosts-judges` },
   ];
 
   const battlePages: MetadataRoute.Sitemap = pengameBattles.map((battle) => ({
     url: `${SITE_URL}${getBattleHref(battle)}`,
-    lastModified: now,
   }));
 
   const mcPages: MetadataRoute.Sitemap = pengameMcs.map((mc) => ({
-    url: `${SITE_URL}/mc/${mc.slug}/`,
-    lastModified: now,
+    url: `${SITE_URL}/mc/${mc.slug}`,
   }));
 
   const creditPages: MetadataRoute.Sitemap = creditPeople.map((person) => ({
-    url: `${SITE_URL}/hosts-judges/${person.slug}/`,
-    lastModified: now,
+    url: `${SITE_URL}/hosts-judges/${person.slug}`,
   }));
 
-  return [...staticPages, ...battlePages, ...mcPages, ...creditPages];
+  return [...new Map(
+    [...staticPages, ...battlePages, ...mcPages, ...creditPages].map((entry) => [entry.url, entry]),
+  ).values()];
 }

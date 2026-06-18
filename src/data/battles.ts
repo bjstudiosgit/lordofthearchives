@@ -1,4 +1,8 @@
+import { supplementalBattles } from "./supplementalBattles";
+
 export const lastUpdated = "June 2026";
+
+type NullableString = string | null;
 
 export interface Battle {
   id: string;
@@ -8,20 +12,20 @@ export interface Battle {
   mc3?: string;
   mc4?: string;
   title: string;
-  displayTitle?: string;
+  displayTitle?: NullableString;
   date?: string;
-  videoUrl?: string;
+  videoUrl?: NullableString;
   views?: string | number | null;
   winner?: string;
   winner2?: string;
   isUnreleased?: boolean;
   theme: string;
   season: number | string;
-  competition?: string;
-  subGroup?: string;
-  stage?: string;
-  group?: string;
-  tag?: string;
+  competition?: NullableString;
+  subGroup?: NullableString;
+  stage?: NullableString;
+  group?: NullableString;
+  tag?: NullableString;
   customEp?: string;
   seasonOrder?: number;
   statusNote?: string;
@@ -63,7 +67,7 @@ export const battles: Battle[] = [
     "mc2": "aymuni",
     "winner": "aymuni",
     "title": "F-DON vs AYMUNI",
-    "date": "26-07-2020",
+    "date": "2020-07-26",
     "videoUrl": "https://www.youtube.com/watch?v=EjyBfOa-xRY",
     "theme": "pengame",
     "season": 1,
@@ -205,7 +209,7 @@ export const battles: Battle[] = [
     "mc2": "ft",
     "winner": "ft",
     "title": "ASHLEY TRAGIC vs Forever Tapped",
-    "date": "30-07-2020",
+    "date": "2020-07-30",
     "videoUrl": "https://www.youtube.com/watch?v=5wrkWj3Ka3U",
     "theme": "pengame",
     "season": 1,
@@ -333,7 +337,7 @@ export const battles: Battle[] = [
     "mc2": "saidu",
     "winner": "saidu",
     "title": "SHORTY WOA vs SAIDU",
-    "date": "06-08-2020",
+    "date": "2020-08-06",
     "videoUrl": "https://www.youtube.com/watch?v=Ip9k3pT_lhY",
     "theme": "pengame",
     "season": 1,
@@ -441,7 +445,7 @@ export const battles: Battle[] = [
     "mc2": "dan-dannah",
     "winner": "bigga",
     "title": "BIGGA vs DAN DANNAH",
-    "date": "23-08-2020",
+    "date": "2020-08-23",
     "videoUrl": "https://www.youtube.com/watch?v=hCyj9Nfr9V0",
     "theme": "pengame",
     "season": 1,
@@ -549,7 +553,7 @@ export const battles: Battle[] = [
     "mc2": "aymuni",
     "winner": "aymuni",
     "title": "SAIDU vs AYMUNI (Semi)",
-    "date": "06-09-2020",
+    "date": "2020-09-06",
     "videoUrl": "https://www.youtube.com/watch?v=KXE4ZHwveZI",
     "theme": "pengame",
     "season": 1,
@@ -647,121 +651,579 @@ export const battles: Battle[] = [
     "slug": "bigga-vs-ft",
     "mc1": "bigga",
     "mc2": "ft",
-    "winner": "bigga",
-    "title": "BIGGA vs Forever Tapped (Semi)",
-    "date": "20-09-2020",
-    "videoUrl": "https://www.youtube.com/watch?v=RIeHpKnKsVo",
+    "title": "BIGGA vs Forever Tapped",
+    "date": "2020-09-20",
     "theme": "pengame",
-    "season": 1,
+    "season": "1",
     "views": "15k",
     "customEp": "1x05",
-    "stage": null,
+    "seasonOrder": 5,
+    "stage": "Semi",
     "group": null,
-    "tag": null,
-    "host": "Margs (Andre Wright)",
-    "judges": [
-      "Lippy Lickshot",
-      "LV General",
-      "Joe Black"
-    ],
-    "clashSummary": "The battle between Bigga and Dan was a heavily one-sided affair, ultimately described by the reviewers as a clear win and a \"body\" for Bigga. Bigga completely overpowered Dan through sheer presence, aggression, and a highly believable persona. While Dan showcased some good flow, his performance was ultimately derailed by a lack of vocal projection, poor beat selection, and audio issues, making him seem outmatched against Bigga's commanding delivery.",
+    "tag": "Semi",
+    "videoUrl": "https://www.youtube.com/watch?v=RIeHpKnKsVo",
+    "winner": "bigga",
+    "clashSummary": "BIGGA vs FOREVER TAPPED, also referred to as **F.T.** in the transcript, took place during **PenGame Rap Battles Season 1**. The host introduces it as the **second semi-final**, with BIGGA on the left and F.T. on the right.\n\nAfter the coin toss, BIGGA goes first.\n\nBIGGA opens round one with a confident and dismissive tone. He attacks F.T.’s look, status and threat level, saying F.T. should forfeit so BIGGA can walk away with the win. He brings in tuna tin, Cassanova, tick list, skunk, marrow, Halo, Big Narstie, heavyweight power and Professor X / rolling 60 imagery. The round is not overly complicated, but it immediately establishes BIGGA as the stronger and more comfortable rapper.\n\nF.T. responds with a shorter and more basic first round. He uses David and Goliath imagery, stones, arrows, Matrix, blades, Hadouken-style fighting references and direct violence. The material has energy but lacks the structure and depth of BIGGA’s opener. It feels more freestyle-like and less developed.\n\nBIGGA’s second round is stronger. He opens with vampire-life imagery and says he is controlling the battle like the father while F.T. is the orphan. He uses Infinity Gauntlet / Thanos imagery, Bird Box, baggage, independence, family, pain, YouTube deal, and directly states that in his opinion it is already 2-0. He then attacks F.T.’s credibility, calling him a “shot round the corner,” saying he lies when he rhymes, and framing him as someone who cannot climb to BIGGA’s level. This round gives BIGGA clear separation.\n\nF.T.’s second round has some better moments than his first. He calls BIGGA “big for nothing,” says he is not really on stuff, brings in coffin imagery, vampires, headshots, ex-girl material, riddles, Ganja, machines, trap days and Gangway references. However, the round becomes repetitive in places and does not fully close the gap.\n\nBIGGA’s third round is aggressive and direct. He uses street imagery, plugs, gang, floods and Crips, vampires, Westfield, Boko Haram, tag-team material, A10 McDonald’s, bad B’s, car damage and Cat D write-off references. He sounds more polished and more dominant than F.T., and he keeps the pressure on through the final stretch.\n\nF.T.’s final round is very short and openly freestyle-based. He says he is freestyling, uses “usual test,” Wayne Rooney, magic pot/cauldron, worker, holding, shaping/moulding, rocks/sculpting, strip/work, big money, Jamaican-style chicken and bacon references. It has some flashes but does not feel like a completed battle round.\n\nThe judges then begin giving their decision. One judge says BIGGA has “been there, done it” and that F.T. controls a crowd but lacks the same bars. Another judge calls it **3-0 BIGGA**. The visible judgement clearly favours BIGGA.\n\nOfficial visible result: **BIGGA wins**.",
     "performanceAnalysis": [
       {
-        "performer": "Bigga",
-        "overview": "Bigga's performance was defined by his strong cadence, intense aggression, and unmatched believability. The reviewers noted that he used his physical size and presence to his advantage, projecting his voice loudly and effectively, drawing comparisons to artists like Big Zu. He controlled the room and maintained a high level of confidence throughout.",
-        "lyricalThemes": "Vocal projection, room dominance, direct belittlement, and jail talk.",
+        "performer": "BIGGA",
+        "overview": "BIGGA wins clearly because he is more polished, more structured and more complete across the battle. He sounds like the more experienced battler from the first round.\n\nHis first round establishes the level difference. He uses direct insults, status claims and physical imagery to make F.T. look outmatched. The “forfeit” line sets the tone: BIGGA does not treat F.T. as a serious threat.\n\nHis second round is his best complete round. The vampire-life opener, Infinity Gauntlet / Thanos reference, Bird Box material and “in my opinion, it’s 2-0 still” line all make the round feel controlled. He also attacks F.T.’s credibility and makes him look like someone lying in his raps.\n\nHis third round keeps the aggression up. It has street references, threats, Westfield, Boko Haram, tag-team and car-damage imagery. Even if some lines are rough in the transcript, the delivery and confidence clearly separate him from F.T.\n\nBIGGA’s biggest strength is control. He sounds like he knows how to win a battle round.",
+        "lyricalThemes": "Forfeit, W, tick list, skunk, marrow, Halo, Big Narstie, heavyweight power, Professor X, vampire life, Infinity Gauntlet, Bird Box, baggage, family, pain, YouTube deal, credibility, trap days, Gangway, Westfield, Boko Haram, tag team, car damage, Cat D.",
         "keyTechnicalHighlights": [
           {
-            "title": "Simplicity and Belittlement",
-            "description": "Rather than relying on hyper-complex lyricism, Bigga utilized simple, direct bars that effectively belittled Dan. His technique framed Dan as a mere obstacle rather than a threat, which amplified his authoritative presence."
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Battle control."
+          },
+          {
+            "title": "Best angle",
+            "description": "F.T. is outmatched and should have forfeited."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Infinity Gauntlet / Bird Box / 2-0 control run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Better structure, more complete rounds and stronger authority."
           }
         ]
       },
       {
-        "performer": "Dan",
-        "overview": "Dan was praised for having a good \"techie\" flow, but his performance suffered drastically due to a lack of vocal projection. His voice was often muffled and too low, causing his lyrics to get lost. Reviewers observed that he appeared to rush his rounds, struggled to stay on beat, and at times looked as though he wanted to give up and just get through his verse.",
-        "lyricalThemes": "Techie flow, general punchlines, and generic battle bars.",
+        "performer": "FOREVER TAPPED",
+        "overview": "F.T. has energy and some crowd-control instinct, but he is not as lyrically prepared as BIGGA. The judges recognise that he can perform, but the writing is not strong enough.\n\nHis first round has basic battle imagery: David and Goliath, stones, arrows, Matrix, blades and fighting-game style attacks. It is energetic but too thin compared with BIGGA’s opener.\n\nHis second is better. The “big for nothing” angle is direct, and the coffin, vampire and trap-day material gives him something to work with. However, it becomes repetitive and does not land as a full rebuttal to BIGGA.\n\nHis third round is the clearest problem. He openly says he is freestyling, and the round is short. There are ideas around Rooney, cauldrons, moulding, rocks and Jamaican food, but it feels unfinished and gives the judges very little reason to swing the battle back.\n\nF.T.’s biggest strength is raw confidence. His weakness is preparation.",
+        "lyricalThemes": "David and Goliath, stones, arrows, Matrix, blades, Hadouken-style fighting, coffin, vampires, ex-girl, riddles, Ganja, machines, trap days, Gangway, Rooney, cauldron, moulding, strip work, Jamaican food.",
         "keyTechnicalHighlights": [
           {
-            "title": "General Punches vs. Tailored Attacks",
-            "description": "Dan relied heavily on his flow, but his bars were criticized for being generic \"general shots\". Reviewers noted that his punches were not specifically tailored to Bigga, making them less impactful in a direct clash."
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Raw performance energy."
+          },
+          {
+            "title": "Best angle",
+            "description": "BIGGA is “big for nothing.”"
+          },
+          {
+            "title": "Best technical section",
+            "description": "Coffin / vampire / headshot section."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Too much freestyle energy, not enough prepared material."
           }
         ]
       }
     ],
     "notableBars": [
       {
-        "performer": "Dan",
-        "theme": "Flow and Internal Rhyming",
-        "bar": "I'm taking control as I aim for the goal like a striker or more like a sniper",
-        "explanation": "Dan utilizes a sharp sports and military comparison. Linking the precision of \"aiming for the goal\" as a football striker with the lethal accuracy of a sniper, this bar highlights his structured flow and multi-syllabic rhyming capability."
-      },
-      {
-        "performer": "Dan",
-        "theme": "Wordplay",
-        "bar": "I don't do no more I'm not active, I still want to heat I'm not plastic",
-        "explanation": "This relies on layered street slang. Being \"not active\" typically means stepping away from street life, but he counters that by wanting \"heat\" (firearms or friction). The punchline \"I'm not plastic\" plays on how plastic melts under heat, asserting that he can withstand the pressure of a real clash."
-      },
-      {
-        "performer": "Dan",
-        "theme": "Aggression",
-        "bar": "I'm fire like this... doesn't mean I won't use my sword, you battle and lose the war",
-        "explanation": "This bar bridges lyrical fire with physical threats. By mentioning he'll \"use my sword,\" Dan suggests that even though he is highly technical (\"fire like this\"), he is still willing to bring the battle to a violent, real-world conclusion."
-      },
-      {
-        "performer": "Dan",
-        "theme": "Multi-syllabic Schemes",
-        "bar": "Shut man down with a hook in a draws / Wrapped around your head like turban / Send off a dead MC with a sermon / ...I exterminate man like vermin",
-        "explanation": "This impressively strings together a heavy multi-syllabic rhyme scheme (\"turban\", \"sermon\", \"vermin\"). It creates a vivid sequence mapping out the opponent's demise—from physical violence to a funeral \"sermon\" and treating them like \"vermin.\""
-      },
-      {
-        "performer": "Dan",
-        "theme": "Wordplay",
-        "bar": "Man tried to draw me out like CS, now with the doctor's the surgery",
-        "explanation": "A clever punchline connecting \"CS\" (which can refer to CS gas used by police to \"draw out\" suspects, or computer science/Counter-Strike) to ending up in the \"surgery,\" showcasing Dan's ability to weave double meanings."
-      },
-      {
-        "performer": "Bigga",
-        "theme": "Belittlement",
-        "bar": "I got grown man plans, little n**** ain't even on a task list / I'm going to treat you like fraud boys do and put you in a basket",
-        "explanation": "This bar uses wordplay around fraud and internet culture. \"Put you in a basket\" plays on both 'basket' as in adding items to a shopping cart during fraud, and physically disposing of someone. It establishes Bigga's authoritative \"grown man\" persona over Dan."
-      },
-      {
-        "performer": "Bigga",
-        "theme": "Disrespect",
-        "bar": "Me and your Auntie's already sorting out obituaries in the back...",
-        "explanation": "This establishes Bigga's dark, hyper-realistic persona. By invoking the opponent's aunt and casually discussing funeral arrangements (\"obituaries\"), Bigga creates an intensely personal and believable threat that transcends standard battle rap braggadocio."
-      },
-      {
-        "performer": "Bigga",
-        "theme": "Financial Mockery",
-        "bar": "All for the love of the cause, I told my n*** stay focused that's why I'm in love with this Ford / You're trying to see maximum profit and you ain't affording a Ford",
-        "explanation": "Bigga mocks the opponent's financial aspirations by contrasting \"maximum profit\" with the inability to afford a basic vehicle (\"Ford\"). The repetition of \"Ford\" acts as a dismissive pun on \"afford.\""
-      },
-      {
-        "performer": "Bigga",
+        "performer": "BIGGA",
         "theme": "Status",
-        "bar": "I look at you I don't see options, always been in the Prem, we ain't League hopping",
-        "explanation": "This grounds the battle in status and hierarchy. Using the English football league system, Bigga equates himself to the \"Prem\" (Premier League) and dismisses his opponent as a lower-tier player trying to jump leagues."
+        "bar": "You should just forfeit.",
+        "explanation": "BIGGA opens by saying F.T. should not even continue. It frames the battle as a mismatch."
       },
       {
-        "performer": "Bigga",
-        "theme": "Dismissive Punchline",
-        "bar": "I don't give a f** about you blood, this is a me problem",
-        "explanation": "A beautifully simple but devastatingly arrogant line. Bigga strips away any importance from his opponent, framing the entire battle not as a competition between two men, but merely as a personal inconvenience for himself."
+        "performer": "BIGGA",
+        "theme": "Confidence",
+        "bar": "So I can walk with this W and you can just take this L.",
+        "explanation": "A direct win/loss bar. Simple but effective."
       },
       {
-        "performer": "Bigga",
-        "theme": "Jail Talk",
-        "bar": "Teach me your slang, if I make you do a dash does that mean you're prang? ... Man, if we was in jail man you'll be f*ed",
-        "explanation": "Bigga abruptly drops traditional rap structures to engage in stark, conversational intimidation. Asking for vocabulary lessons on slang (\"prang\", \"dash\") belittles Dan's street cred, leading into a highly believable and terrifying \"jail\" threat."
+        "performer": "BIGGA",
+        "theme": "Status",
+        "bar": "I ain’t doing none of this for no prize money.",
+        "explanation": "BIGGA says he is not motivated by the money, suggesting the battle is about dominance."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Status",
+        "bar": "You ain’t on the n****s’ tick list.",
+        "explanation": "A status attack. F.T. is not important enough to be targeted."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Violence",
+        "bar": "You say something, everyone laughs, then you might see your own marrow.",
+        "explanation": "A violent punchline about being exposed down to the bone. It is battle material."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Reference",
+        "bar": "Stomp on your shit like Halo.",
+        "explanation": "A video-game-style stomp reference."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Wordplay",
+        "bar": "Only time I’m Big Narstie is when I fight.",
+        "explanation": "A Big Narstie / big nasty wordplay."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Confidence",
+        "bar": "This is a battle and that’s just light.",
+        "explanation": "BIGGA tells F.T. that the material so far is only light work."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Status",
+        "bar": "Heavyweight shit, I bring the power.",
+        "explanation": "A size/status bar. BIGGA frames himself as a heavyweight."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Imagery",
+        "bar": "They should throw the towel.",
+        "explanation": "A boxing image. F.T.’s corner should stop the fight."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Status",
+        "bar": "This battle is deeper than you, I am rapping.",
+        "explanation": "BIGGA says the battle has more depth than F.T. understands."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Reference",
+        "bar": "Wheelchair shit, be Professor X or rolling 60.",
+        "explanation": "A Professor X / wheelchair reference, mixed with street imagery."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Status",
+        "bar": "I’d rather be rich than famous.",
+        "explanation": "A mindset/status line."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Wordplay",
+        "bar": "Two different mindsets, now you’re brainless.",
+        "explanation": "A brain/mindset punch."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Violence",
+        "bar": "Put you in a chokehold.",
+        "explanation": "A physical dominance line."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Identity",
+        "bar": "Original Big Drip.",
+        "explanation": "A self-branding line."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Imagery",
+        "bar": "This vampire life got a n**** moving haunted.",
+        "explanation": "BIGGA opens round two with dark/vampire imagery."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Control",
+        "bar": "I’m controlling this battle, I am the daddy, you are my orphan.",
+        "explanation": "A strong control line. BIGGA positions himself as the authority figure."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Reference",
+        "bar": "It feels like I hold the Infinity Gauntlet.",
+        "explanation": "A Marvel / Thanos reference. BIGGA has all the power."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Reference",
+        "bar": "Snap like that, you vanish.",
+        "explanation": "Continues the Thanos scheme. F.T. disappears with a snap."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Reference",
+        "bar": "If you see the light, don’t panic. Bird Box ting, go grab it.",
+        "explanation": "A Bird Box reference. Seeing the light becomes dangerous."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Insult",
+        "bar": "You ain’t been nothing but baggage.",
+        "explanation": "A burden/status insult."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Authenticity",
+        "bar": "All this pain that I’m rapping, it sounds like food is still.",
+        "explanation": "A pain/music authenticity line."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Status",
+        "bar": "I’m not here trying to get a YouTube deal.",
+        "explanation": "BIGGA says he is not chasing online fame."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Confidence",
+        "bar": "In my opinion, it’s 2-0 still.",
+        "explanation": "A direct round-score claim after the second. He believes he has already won the first two."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Insult",
+        "bar": "You ain’t nothing but a shot round the corner.",
+        "explanation": "A street/status insult."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Critique",
+        "bar": "I think you lie, rhyme and talk.",
+        "explanation": "A credibility attack. F.T.’s raps are framed as fiction."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Status",
+        "bar": "You can’t climb this walk.",
+        "explanation": "A level/status punch."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Self-Awareness",
+        "bar": "I’m just polishing, I’ve got flaws.",
+        "explanation": "A self-aware line. BIGGA says he is still improving despite already controlling the battle."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Threat",
+        "bar": "I might catch you on a back street.",
+        "explanation": "A threat line. It is battle material."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Threat",
+        "bar": "They know my slogan, bitch, n**** just come outside.",
+        "explanation": "A direct street challenge."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Control",
+        "bar": "Don’t ask me about Bloods and Crips.",
+        "explanation": "A gang-reference line. BIGGA distances or controls the gang talk."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Critique",
+        "bar": "Brother, how many years was you in there?",
+        "explanation": "A prison/time line aimed at F.T.’s vampire/story material."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Critique",
+        "bar": "Stop telling man all these stories.",
+        "explanation": "A critique of F.T.’s material as fantasy."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Violence",
+        "bar": "On this battleground, headshot, bow.",
+        "explanation": "A battle/war punch. It is battle material."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Wordplay",
+        "bar": "Last night I figured it out like a riddle.",
+        "explanation": "A riddle/discovery setup."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Insult",
+        "bar": "You look like an eager beaver, then mutate into a rat.",
+        "explanation": "An animal/appearance insult."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Violence",
+        "bar": "If I rise the machine up, I’ll clean up.",
+        "explanation": "A machine/gun/clean-up punch."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Status",
+        "bar": "I’m with my members, you dickhead, you can’t tell me about Gangway.",
+        "explanation": "A crew/status line."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Authenticity",
+        "bar": "Real London street shit.",
+        "explanation": "A regional authenticity claim."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Imagery",
+        "bar": "You’re cutting yourself deep right now, you owe yourself a band-aid.",
+        "explanation": "A self-harm/cut metaphor. It says F.T. is damaging himself in the battle."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Threat",
+        "bar": "Catch you in Westfield, you’ll get dropped from the map.",
+        "explanation": "A location/threat line."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Reference",
+        "bar": "They’ll be calling me Boko Haram.",
+        "explanation": "A very dark extremist reference. It is hostile battle material."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Status",
+        "bar": "You don’t want to see that tag team.",
+        "explanation": "A crew/back-up line."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Imagery",
+        "bar": "Caught you slipping by A10 McD’s.",
+        "explanation": "A specific location-style setup."
+      },
+      {
+        "performer": "BIGGA",
+        "theme": "Violence",
+        "bar": "If I smash your head through the front window, then your motor’s a Cat D.",
+        "explanation": "A car-damage write-off punch. Cat D refers to a damaged vehicle category."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Control",
+        "bar": "Just stay silent.",
+        "explanation": "F.T. opens by telling BIGGA not to speak."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Critique",
+        "bar": "Big for nothing, he won’t even look that violent.",
+        "explanation": "A size/credibility attack. BIGGA is big but not dangerous."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Status",
+        "bar": "I don’t even care if you’re a giant.",
+        "explanation": "Continues the size angle."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Reference",
+        "bar": "God’s power, David done up Goliath.",
+        "explanation": "A David and Goliath reference. F.T. casts himself as the smaller man who can defeat the giant."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "Throw the stone, lick off your head.",
+        "explanation": "Continues the David/Goliath imagery."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "That’s cremated, that’s so basic.",
+        "explanation": "A death/cremation line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Reference",
+        "bar": "Don’t get trapped and lost in the Matrix.",
+        "explanation": "A Matrix reference."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "You get an arrow in your head.",
+        "explanation": "A weapon/threat line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "I don’t play with blades.",
+        "explanation": "A weapon bar. It is battle material."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Reference",
+        "bar": "Hadouken.",
+        "explanation": "A fighting-game reference from Street Fighter."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "Take him out of this planet.",
+        "explanation": "A big-scale removal punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "Kick his head on the floor.",
+        "explanation": "A direct fight line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "Take your beard off your jaw.",
+        "explanation": "An appearance/violence punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Threat",
+        "bar": "Guns, whacks, you’re big, what more?",
+        "explanation": "A threat line using BIGGA’s size."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Critique",
+        "bar": "Big for nothing, you ain’t really on stuff.",
+        "explanation": "F.T. returns to his best angle in round two: BIGGA is big but not active."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Critique",
+        "bar": "I can tell by the way you’re looking at the ground.",
+        "explanation": "A body-language attack."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "You might get put in that coffin tonight.",
+        "explanation": "A death/coffin line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Critique",
+        "bar": "Telling me about vampires…",
+        "explanation": "A rebuttal to BIGGA’s vampire imagery."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "Headshot, now I’m looking at glory.",
+        "explanation": "A headshot/status punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Performance",
+        "bar": "Let me sink into the beat.",
+        "explanation": "A flow/performance statement."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Insult",
+        "bar": "Your ex, verbal on the neck, but she’s used to text.",
+        "explanation": "A relationship/texting punch. The transcript is rough."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "I figured it out like a riddle.",
+        "explanation": "A riddle/realisation line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "Ganja got me lean up.",
+        "explanation": "A weed/intoxication line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Violence",
+        "bar": "If I rise the machine up, I’ll clean up.",
+        "explanation": "A gun/clean-up punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Status",
+        "bar": "Automatic rampage from the trap days.",
+        "explanation": "A trap/street-history line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Status",
+        "bar": "I’m with my members, you can’t tell me about Gangway.",
+        "explanation": "A crew/status line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Performance",
+        "bar": "Man’s freestyling.",
+        "explanation": "F.T. openly says the final round is freestyle-based, which hurts his judging case."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "They say no usual test.",
+        "explanation": "A repeated setup line in the final."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Reference",
+        "bar": "If I shoot the speech, man, you won’t be the same like Rooney left.",
+        "explanation": "A Wayne Rooney reference. The wording is rough but aims at change after impact."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "Fling that magic in the pot like cauldrons.",
+        "explanation": "A magic/cauldron image."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Insult",
+        "bar": "You look like a worker, when can you start holding?",
+        "explanation": "A work/holding line, suggesting BIGGA should be put to labour."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "I shape man like I’m moulding.",
+        "explanation": "A sculpting/control line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "Chop them rocks for man, he start sculpting.",
+        "explanation": "A drugs/rocks/sculpting wordplay."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "Put man on that strip, go do work.",
+        "explanation": "A street-work line. It is battle material."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Insult",
+        "bar": "You’re big, so you take big money, bring it back.",
+        "explanation": "A size/work/money punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "Bring your chicken, that’s Jamaican style.",
+        "explanation": "A food/culture line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Insult",
+        "bar": "You look like a kofar, pagan wild.",
+        "explanation": "A hostile identity insult. The transcript is rough."
       }
     ],
-    "oddMoments": [
-      "Audio Issues and \"Sabotage\": During Dan's round, the audio mixing was noticeably poor. The beat was too busy, Dan was off-time, and his vocal levels were far too low. The audio setup seemed almost \"sabotaged,\" though it was likely just a terrible choice of beat.",
-      "Blind Reactions: The hosts explicitly stated at the beginning of the video that they do not watch the battles in advance, meaning their reactions and constructive criticisms are entirely raw and off-the-cuff.",
-      "Future Matchup Speculation: The reviewers spent considerable time debating a potential future matchup between Bigga and another battler named \"A Money.\" They weighed A Money's superior lyricism against Bigga's overwhelming presence and believability, noting that \"battle rap\" often favors presence over pure lyricism."
-    ]
+    "judgementSummary": {
+      "verdict": "bigga",
+      "summary": "Official visible result: BIGGA wins. Suggested archive score: BIGGA 3-0 FOREVER TAPPED. Suggested round split: Round 1: BIGGA, Round 2: BIGGA, Round 3: BIGGA. Reason: F.T. had energy and some freestyle confidence, but BIGGA had the better prepared material, stronger control and more complete rounds. F.T.’s short freestyle third made the result clearer. Tournament Progression: BIGGA advances from the second semi-final. Performance Grades - BIGGA: B+, FOREVER TAPPED: C. Final Note: BIGGA controlled this clearly. F.T. had flashes, but the writing and preparation gap was too obvious by the final round."
+    }
   },
   {
     "id": "pg-s01-2020-10-12-bigga-vs-aymuni",
@@ -770,7 +1232,7 @@ export const battles: Battle[] = [
     "mc2": "aymuni",
     "winner": "bigga",
     "title": "BIGGA vs AYMUNI (FINAL)",
-    "date": "12-10-2020",
+    "date": "2020-10-12",
     "videoUrl": "https://www.youtube.com/watch?v=OHD0XCG94L8",
     "theme": "pengame",
     "season": 1,
@@ -859,7 +1321,7 @@ export const battles: Battle[] = [
     "mc1": "kmarh",
     "mc2": "lil-shakz",
     "title": "KMARH vs LIL SHAKZ (FINAL)",
-    "date": "28-03-2021",
+    "date": "2021-03-28",
     "videoUrl": "https://www.youtube.com/watch?v=IqxMWUwETog",
     "views": "111k",
     "winner": "lil-shakz",
@@ -931,7 +1393,7 @@ export const battles: Battle[] = [
     "mc1": "kmarh",
     "mc2": "cheezee",
     "title": "KMARH vs CHEEZEE (Semi)",
-    "date": "21-03-2021",
+    "date": "2021-03-21",
     "videoUrl": "https://www.youtube.com/watch?v=PsPJw3KvPsk",
     "views": "38k",
     "winner": "kmarh",
@@ -996,7 +1458,7 @@ export const battles: Battle[] = [
     "mc1": "lil-shakz",
     "mc2": "ren-dmc",
     "title": "LIL SHAKZ vs REN DMC (Semi)",
-    "date": "14-03-2021",
+    "date": "2021-03-14",
     "videoUrl": "https://www.youtube.com/watch?v=9Ao6f4p8wH0",
     "views": "103k",
     "winner": "lil-shakz",
@@ -1079,7 +1541,7 @@ export const battles: Battle[] = [
     "mc1": "cheezee",
     "mc2": "el-bandzo",
     "title": "CHEEZEE vs EL BANDZO",
-    "date": "07-03-2021",
+    "date": "2021-03-07",
     "videoUrl": "https://www.youtube.com/watch?v=hHf9oUvCqJk",
     "views": "42k",
     "winner": "cheezee",
@@ -1164,7 +1626,7 @@ export const battles: Battle[] = [
     "mc1": "lil-shakz",
     "mc2": "pocaa",
     "title": "LIL SHAKZ vs POCAA",
-    "date": "28-02-2021",
+    "date": "2021-02-28",
     "videoUrl": "https://www.youtube.com/watch?v=zjzdL7JcILk",
     "views": "53k",
     "winner": "lil-shakz",
@@ -1248,7 +1710,7 @@ export const battles: Battle[] = [
     "mc1": "frizz-price",
     "mc2": "ren-dmc",
     "title": "FRIZZ PRICE vs REN DMC",
-    "date": "21-02-2021",
+    "date": "2021-02-21",
     "videoUrl": "https://www.youtube.com/watch?v=eVVMoxD-8uc",
     "views": "163k",
     "winner": "ren-dmc",
@@ -1332,7 +1794,7 @@ export const battles: Battle[] = [
     "mc1": "kmarh",
     "mc2": "kurly",
     "title": "KMARH vs KURLY",
-    "date": "14-02-2021",
+    "date": "2021-02-14",
     "videoUrl": "https://www.youtube.com/watch?v=g3V6ioR7JBY",
     "views": "53k",
     "winner": "kmarh",
@@ -1420,7 +1882,7 @@ export const battles: Battle[] = [
     "theme": "pengame",
     "season": 3,
     "views": "85k",
-    "date": "19-12-2021",
+    "date": "2021-12-19",
     "videoUrl": "https://www.youtube.com/watch?v=zD8cB3tqS2Q",
     "customEp": "3x13",
     "subGroup": "Late Additions",
@@ -1514,7 +1976,7 @@ export const battles: Battle[] = [
     "theme": "pengame",
     "season": 3,
     "views": "66k",
-    "date": "14-11-2021",
+    "date": "2021-11-14",
     "videoUrl": "https://www.youtube.com/watch?v=yxqE3CHfxiY",
     "customEp": "3x11b",
     "subGroup": "Mid Season Drops",
@@ -1608,7 +2070,7 @@ export const battles: Battle[] = [
     "theme": "pengame",
     "season": 3,
     "views": "35k",
-    "date": "14-11-2021",
+    "date": "2021-11-14",
     "videoUrl": "https://www.youtube.com/watch?v=iOvKWdlh2EI",
     "customEp": "3x12",
     "subGroup": "Mid Season Drops",
@@ -1698,7 +2160,7 @@ export const battles: Battle[] = [
     "mc2": "amity",
     "winner": "dbc",
     "title": "DBC vs AMITY",
-    "date": "07-11-2021",
+    "date": "2021-11-07",
     "theme": "pengame",
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=bF7qJA9eiH0&t=6s&pp=ygUYU0tBTVogVlMgSUNVUkVEQU1TVEVSREFN0gcJCTgLAYcqIYzv",
@@ -1803,7 +2265,7 @@ export const battles: Battle[] = [
     "mc2": "ft",
     "winner": "kmarh",
     "title": "KMARH vs F.T",
-    "date": "03-11-2021",
+    "date": "2021-11-03",
     "theme": "pengame",
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=EYqYDM3ZC64",
@@ -1913,7 +2375,7 @@ export const battles: Battle[] = [
     "mc2": "junie",
     "winner": "skamz",
     "title": "SKAMZ vs JUNIE",
-    "date": "27-10-2021",
+    "date": "2021-10-27",
     "theme": "pengame",
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=rrYfCgsrc7w",
@@ -2018,7 +2480,7 @@ export const battles: Battle[] = [
     "mc2": "f-don",
     "winner": "f-don",
     "title": "ICUREDAMSTERDAM vs F-DON",
-    "date": "27-10-2021",
+    "date": "2021-10-27",
     "theme": "pengame",
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=rrYfCgsrc7w",
@@ -2122,7 +2584,7 @@ export const battles: Battle[] = [
     "mc2": "icuredamsterdam",
     "winner": "skamz",
     "title": "SKAMZ vs ICUREDAMSTERDAM",
-    "date": "27-10-2021",
+    "date": "2021-10-27",
     "theme": "pengame",
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=2xqTUyxbSxg",
@@ -2227,7 +2689,7 @@ export const battles: Battle[] = [
     "mc2": "ren-dmc",
     "winner": "ren-dmc",
     "title": "DBC vs REN DMC",
-    "date": "24-10-2021",
+    "date": "2021-10-24",
     "theme": "pengame",
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=kL9ZeJxOqLE",
@@ -2332,7 +2794,7 @@ export const battles: Battle[] = [
     "mc2": "animal",
     "winner": "kmarh",
     "title": "KMARH vs ANIMAL",
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "theme": "pengame",
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=XvtydpNkz7E",
@@ -2435,7 +2897,7 @@ export const battles: Battle[] = [
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=bF7qJA9eiH0",
     "views": "11k",
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "customEp": "3x09a",
     "subGroup": "Launch Battles",
     "seasonOrder": 16,
@@ -2541,7 +3003,7 @@ export const battles: Battle[] = [
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=2xqTUyxbSxg",
     "views": null,
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "customEp": "3x09b",
     "subGroup": "Launch Battles",
     "seasonOrder": 17,
@@ -2646,7 +3108,7 @@ export const battles: Battle[] = [
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=2xqTUyxbSxg",
     "views": "31k",
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "customEp": "3x06b",
     "subGroup": "Launch Battles",
     "seasonOrder": 11,
@@ -2744,7 +3206,7 @@ export const battles: Battle[] = [
     "theme": "pengame",
     "season": 3,
     "views": "13k",
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "videoUrl": "https://www.youtube.com/watch?v=3NHxEKvOm8U",
     "customEp": "3x10b",
     "subGroup": "Launch Battles",
@@ -2845,7 +3307,7 @@ export const battles: Battle[] = [
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=kL9ZeJxOqLE",
     "views": "45k",
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "customEp": "3x05b",
     "subGroup": "Launch Battles",
     "seasonOrder": 9,
@@ -2950,7 +3412,7 @@ export const battles: Battle[] = [
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=UUeIIKi0M68",
     "views": "18k",
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "customEp": "3x08b",
     "subGroup": "Launch Battles",
     "seasonOrder": 15,
@@ -3055,7 +3517,7 @@ export const battles: Battle[] = [
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=kL9ZeJxOqLE",
     "views": "28k",
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "customEp": "3x01a",
     "subGroup": "Launch Battles",
     "seasonOrder": 1,
@@ -3159,7 +3621,7 @@ export const battles: Battle[] = [
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=qMNxlYE7sek",
     "views": "18k",
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "customEp": "3x04",
     "subGroup": "Launch Battles",
     "seasonOrder": 7,
@@ -3269,7 +3731,7 @@ export const battles: Battle[] = [
     "mc2": "ren-dmc",
     "winner": "ren-dmc",
     "title": "AMITY vs REN DMC",
-    "date": "12-09-2021",
+    "date": "2021-09-12",
     "theme": "pengame",
     "season": 3,
     "videoUrl": "https://www.youtube.com/watch?v=UUeIIKi0M68",
@@ -3373,7 +3835,7 @@ export const battles: Battle[] = [
     "mc1": "messie",
     "mc2": "bmf-alz",
     "winner": "messie",
-    "date": "17-11-2021",
+    "date": "2021-11-17",
     "title": "MESSIE 13 vs BMF ALZ",
     "theme": "pengame",
     "season": 3,
@@ -3478,7 +3940,7 @@ export const battles: Battle[] = [
     "mc1": "kmarh",
     "mc2": "messie",
     "title": "KMARH vs MESSIE",
-    "date": "14-11-2021",
+    "date": "2021-11-14",
     "theme": "pengame",
     "season": 3,
     "views": null,
@@ -3572,7 +4034,7 @@ export const battles: Battle[] = [
     "mc2": "skamz",
     "winner": "skamz",
     "title": "REN DMC vs SKAMZ",
-    "date": "10-12-2023",
+    "date": "2023-12-10",
     "theme": "pengame",
     "season": 3,
     "views": "52k",
@@ -3668,7 +4130,7 @@ export const battles: Battle[] = [
     "theme": "pengame",
     "season": 3.5,
     "views": "92k",
-    "date": "24-12-2023",
+    "date": "2023-12-24",
     "videoUrl": "https://www.youtube.com/watch?v=cuSl7-qEfj0",
     "customEp": "X.01",
     "stage": null,
@@ -3756,7 +4218,7 @@ export const battles: Battle[] = [
     "mc1": "grams",
     "mc2": "storm",
     "title": "GRAMS vs STORM",
-    "date": "25-12-2023",
+    "date": "2023-12-25",
     "videoUrl": "https://www.youtube.com/watch?v=yg8_6ezAX0s",
     "theme": "pengame",
     "season": 3.5,
@@ -3888,11 +4350,12 @@ export const battles: Battle[] = [
     "slug": "sevz-vs-twenty8",
     "mc1": "sevz",
     "mc2": "twenty8",
+    "winner": "sevz",
     "title": "SEVZ Vs TWENTY8",
     "theme": "pengame",
     "season": 3.5,
     "views": "85k",
-    "date": "25-12-2023",
+    "date": "2023-12-25",
     "videoUrl": "https://www.youtube.com/watch?v=Mue8jWzJq_A",
     "customEp": "X.02",
     "stage": null,
@@ -4021,11 +4484,12 @@ export const battles: Battle[] = [
     "slug": "ft-vs-blazn",
     "mc1": "ft",
     "mc2": "blazn",
+    "winner": "ft",
     "title": "Forever Tapped vs BLAZN",
     "theme": "pengame",
     "season": 3.5,
     "views": "88k",
-    "date": "26-12-2023",
+    "date": "2023-12-26",
     "videoUrl": "https://www.youtube.com/watch?v=3NHxEKvOm8U",
     "customEp": "X.04",
     "stage": null,
@@ -4113,7 +4577,7 @@ export const battles: Battle[] = [
     "mc1": "skamz",
     "mc2": "dan-dannah",
     "title": "SKAMZ vs DAN DANNAH",
-    "date": "22-06-2023",
+    "date": "2023-06-22",
     "videoUrl": "https://www.youtube.com/watch?v=rwez7A43Pjs",
     "theme": "pengame",
     "season": 4,
@@ -4247,7 +4711,7 @@ export const battles: Battle[] = [
     "mc1": "sevz",
     "mc2": "grams",
     "title": "SEVZ vs GRAMS",
-    "date": "18-08-2023",
+    "date": "2023-08-18",
     "videoUrl": "https://www.youtube.com/watch?v=bKQyxyXpAr0",
     "theme": "pengame",
     "season": 4,
@@ -4618,7 +5082,7 @@ export const battles: Battle[] = [
     "mc2": "renaya",
     "winner": "renaya",
     "title": "BLACK T vs RENAYA",
-    "date": "25-08-2023",
+    "date": "2023-08-25",
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 6,
@@ -5018,7 +5482,7 @@ export const battles: Battle[] = [
     "mc2": "whoisorion",
     "winner": "f-don",
     "title": "F-DON vs WHOISORION",
-    "date": "23-09-2023",
+    "date": "2023-09-23",
     "videoUrl": "https://www.youtube.com/watch?v=xT7S7Z979hA",
     "theme": "pengame",
     "season": 4,
@@ -5153,7 +5617,7 @@ export const battles: Battle[] = [
     "winner": "ft",
     "title": "F.T vs PRYNLEE",
     "displayTitle": "F.T vs PRYNLEE",
-    "date": "30-09-2023",
+    "date": "2023-09-30",
     "videoUrl": "https://www.youtube.com/watch?v=VjAlQ8tpHjI",
     "theme": "pengame",
     "season": 4,
@@ -5164,121 +5628,7 @@ export const battles: Battle[] = [
     "group": null,
     "tag": null,
     "host": "Margs (Andre Wright)",
-    "judges": [],
-    "clashSummary": "F-DON and WHOISORION opened the night with a battle that mixed direct name-flips, body-shaming, family angles and a steady escalation in crowd hostility. WHOISORION came in first with a barrage aimed at F-DON's name, weight, age and Uber-driver image, while F-DON answered with father-and-son framing, class and ethnicity angles and a confident final-round closure. The transcript ends with Margs treating it as a strong battle rather than a formally judged one, and the archive records F-DON as the listed winner.",
-    "performanceAnalysis": [
-      {
-        "performer": "F-DON",
-        "overview": "F-DON brought veteran poise, a better sense of closure and the clearest final-round structure, especially when he tied his opponent back to family and status.",
-        "lyricalThemes": "Father-and-son framing, authority, final-round closers, status, and turning the battle back on the opponent's identity.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Father Angle",
-            "description": "He repeatedly framed WHOISORION as a son-like figure or a battle he had already outgrown."
-          },
-          {
-            "title": "Back Against Orion",
-            "description": "The Orion naming angle was used as an anchor for several of his strongest bars."
-          },
-          {
-            "title": "Final Round Control",
-            "description": "His last round tightened up the battle and gave him the cleanest close."
-          }
-        ]
-      },
-      {
-        "performer": "WHOISORION",
-        "overview": "WHOISORION brought the more relentless attack style, especially in the first round where he went hard on F-DON's age, appearance and career.",
-        "lyricalThemes": "Age, weight, Uber driving, name flips, family and identity insecurity.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Old Man Angle",
-            "description": "He repeatedly made F-DON's age and appearance the core of his attack."
-          },
-          {
-            "title": "Uber Driver Refrain",
-            "description": "WHOISORION returned to the Uber angle as a way to reduce F-DON's credibility."
-          },
-          {
-            "title": "Aggressive Open",
-            "description": "His first round set the tone with the most direct pressure of the battle."
-          }
-        ]
-      }
-    ],
-    "notableBars": [
-      {
-        "performer": "WHOISORION",
-        "theme": "Age",
-        "bar": "You're so old, you probably bought it for Tony Blair.",
-        "explanation": "A sharp age attack that ties F-DON to an earlier political era."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Job Angle",
-        "bar": "Shut your mouth and go back to your Uber.",
-        "explanation": "A clean reduction of F-DON's status to his day job."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "House Angle",
-        "bar": "Pen Game is my house now, so welcome home, son.",
-        "explanation": "A veteran flex that frames the entire battle as F-DON's territory."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Weight",
-        "bar": "Your belly's bigger than mine and Ashley's skinny. No way you could 69.",
-        "explanation": "A body-shaming punchline that extends into a sexualized joke."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Anime",
-        "bar": "I am Goku, your Gohan.",
-        "explanation": "A simple but effective father-and-son anime reference."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Family",
-        "bar": "My bro let it ring out, you and your bitch. That's how you arrange a marriage.",
-        "explanation": "A marriage-ring punchline that turns a weapon sound into a family insult."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Wisdom",
-        "bar": "I'm inspired by guys that provide wisdom. You're inspired by guys inside prison.",
-        "explanation": "A clean contrast angle that separates their influences and identities."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Body",
-        "bar": "I swear you are a little twat. I see you punching a punch machine and I laugh.",
-        "explanation": "A crowd-friendly dig at F-DON's toughness and presentation."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Hero",
-        "bar": "I'm the MC that runs shit like River Run in my element.",
-        "explanation": "A confident self-placement bar that reinforces his veteran status."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Closing",
-        "bar": "Everybody knows you ain't been bad. You're still serving up a bench in a bin bag.",
-        "explanation": "A final insult that tries to strip F-DON of any hard-man image."
-      }
-    ],
-    "oddMoments": [
-      "The transcript has repeated crowd-reaction loops and some clipped commentary.",
-      "WHOISORION's first round is unusually long and relentless.",
-      "Margs treats the battle as a strong opener rather than a formal judged contest."
-    ],
-    "coolMoments": [
-      "The battle sets the tone for Season 4 with two loud, heavyweight performances.",
-      "F-DON's final round feels like the cleanest close in the clash.",
-      "WHOISORION's first-round pressure keeps the battle competitive from the jump."
-    ],
-    "postBattleContext": "The transcript ends with Margs asking viewers to decide the winner. The archive keeps F-DON as the listed winner and treats the battle as an audience-calls moment rather than a formal judged result."
+    "judges": []
   },
   {
     "id": "pg-s04-2023-10-12-whoisorion-vs-renaya",
@@ -5287,7 +5637,7 @@ export const battles: Battle[] = [
     "mc2": "renaya",
     "winner": "whoisorion",
     "title": "WHOISORION vs RENAYA",
-    "date": "12-10-2023",
+    "date": "2023-10-12",
     "videoUrl": "https://www.youtube.com/watch?v=ic39lVGmkr0",
     "theme": "pengame",
     "season": 4,
@@ -5409,7 +5759,7 @@ export const battles: Battle[] = [
     "mc2": "kandi",
     "winner": "kandi",
     "title": "SKAMZ vs KANDI",
-    "date": "14-10-2023",
+    "date": "2023-10-14",
     "videoUrl": "https://www.youtube.com/watch?v=aHXWvEutw0w",
     "theme": "pengame",
     "season": 4,
@@ -5509,7 +5859,7 @@ export const battles: Battle[] = [
     "mc2": "jc",
     "winner": "f-don",
     "title": "F-DON vs JC",
-    "date": "12-11-2023",
+    "date": "2023-11-12",
     "videoUrl": "https://www.youtube.com/watch?v=1ak-PYsWcm4",
     "theme": "pengame",
     "season": 4,
@@ -5609,7 +5959,7 @@ export const battles: Battle[] = [
     "mc2": "whoisorion",
     "winner": "whoisorion",
     "title": "SKAMZ vs WHOISORION",
-    "date": "25-11-2023",
+    "date": "2023-11-25",
     "videoUrl": "https://www.youtube.com/watch?v=uSyg7e_dua8",
     "theme": "pengame",
     "season": 4,
@@ -5709,7 +6059,7 @@ export const battles: Battle[] = [
     "mc2": "renaya",
     "winner": "ren-dmc",
     "title": "REN DMC vs RENAYA",
-    "date": "10-12-2023",
+    "date": "2023-12-10",
     "videoUrl": "https://www.youtube.com/watch?v=Ur4QeBIu0zc",
     "theme": "pengame",
     "season": 4,
@@ -5810,7 +6160,7 @@ export const battles: Battle[] = [
     "winner": "ft",
     "title": "F.T vs iiiBEREALZ",
     "displayTitle": "F.T vs iiiBEREALZ",
-    "date": "25-12-2023",
+    "date": "2023-12-25",
     "videoUrl": "https://www.youtube.com/watch?v=j25ckAgC5_4",
     "theme": "pengame",
     "season": 4,
@@ -5908,13 +6258,13 @@ export const battles: Battle[] = [
     "slug": "cheezee-vs-smil3z",
     "mc1": "cheezee",
     "mc2": "smil3z",
-    "winner": "anbu-sensei",
+    "winner": "smil3z",
     "title": "CHEEZEE vs SMIL3Z",
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 22,
     "views": "156k",
-    "date": "07-04-2024",
+    "date": "2024-04-07",
     "videoUrl": "https://www.youtube.com/watch?v=8amzmw6EDTY",
     "customEp": "4x22",
     "stage": null,
@@ -6014,7 +6364,7 @@ export const battles: Battle[] = [
     "season": 4,
     "seasonOrder": 2,
     "views": "145k",
-    "date": "06-07-2023",
+    "date": "2023-07-06",
     "videoUrl": "https://www.youtube.com/watch?v=qg_MosabMok",
     "customEp": "4x02",
     "stage": null,
@@ -6142,13 +6492,13 @@ export const battles: Battle[] = [
     "slug": "dan-dannah-vs-smil3z",
     "mc1": "dan-dannah",
     "mc2": "smil3z",
-    "winner": "anbu-sensei",
+    "winner": "smil3z",
     "title": "DAN DANNAH vs SMIL3Z",
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 13,
     "views": "124k",
-    "date": "28-04-2024",
+    "date": "2024-04-28",
     "videoUrl": "https://www.youtube.com/watch?v=Et4qPga1hv4",
     "customEp": "4x13",
     "stage": null,
@@ -6270,7 +6620,7 @@ export const battles: Battle[] = [
     "season": 4,
     "seasonOrder": 4,
     "views": "105k",
-    "date": "04-08-2023",
+    "date": "2023-08-04",
     "videoUrl": "https://www.youtube.com/watch?v=-qKjJBC0uso",
     "customEp": "4x04",
     "stage": null,
@@ -6404,7 +6754,7 @@ export const battles: Battle[] = [
     "season": 4,
     "seasonOrder": 12,
     "views": "82k",
-    "date": "09-06-2024",
+    "date": "2024-06-09",
     "videoUrl": "https://www.youtube.com/watch?v=sVphZlho_zs",
     "customEp": "4x12",
     "stage": null,
@@ -6526,7 +6876,7 @@ export const battles: Battle[] = [
     "season": 4,
     "seasonOrder": 7,
     "views": "88k",
-    "date": "02-09-2023",
+    "date": "2023-09-02",
     "videoUrl": "https://www.youtube.com/watch?v=27vmHsuthuE",
     "customEp": "4x07",
     "stage": null,
@@ -6660,7 +7010,7 @@ export const battles: Battle[] = [
     "season": 4,
     "seasonOrder": 14,
     "views": "108k",
-    "date": "23-06-2024",
+    "date": "2024-06-23",
     "videoUrl": "https://www.youtube.com/watch?v=_WX5qdYNtoc",
     "customEp": "4x14",
     "stage": null,
@@ -6783,7 +7133,7 @@ export const battles: Battle[] = [
     "season": 4,
     "seasonOrder": 3,
     "views": "128k",
-    "date": "21-07-2023",
+    "date": "2023-07-21",
     "videoUrl": "https://www.youtube.com/watch?v=MMSQ_RQbqUk",
     "customEp": "4x03",
     "stage": null,
@@ -6917,128 +7267,14 @@ export const battles: Battle[] = [
     "season": 4,
     "seasonOrder": 9,
     "views": "76k",
-    "date": "16-09-2023",
+    "date": "2023-09-16",
     "videoUrl": "https://www.youtube.com/watch?v=BPdBaYkeZh0",
     "customEp": "4x09",
     "stage": null,
     "group": null,
     "tag": null,
     "host": "Margs (Andre Wright)",
-    "judges": [],
-    "clashSummary": "F-DON and WHOISORION opened the night with a battle that mixed direct name-flips, body-shaming, family angles and a steady escalation in crowd hostility. WHOISORION came in first with a barrage aimed at F-DON's name, weight, age and Uber-driver image, while F-DON answered with father-and-son framing, class and ethnicity angles and a confident final-round closure. The transcript ends with Margs treating it as a strong battle rather than a formally judged one, and the archive records F-DON as the listed winner.",
-    "performanceAnalysis": [
-      {
-        "performer": "F-DON",
-        "overview": "F-DON brought veteran poise, a better sense of closure and the clearest final-round structure, especially when he tied his opponent back to family and status.",
-        "lyricalThemes": "Father-and-son framing, authority, final-round closers, status, and turning the battle back on the opponent's identity.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Father Angle",
-            "description": "He repeatedly framed WHOISORION as a son-like figure or a battle he had already outgrown."
-          },
-          {
-            "title": "Back Against Orion",
-            "description": "The Orion naming angle was used as an anchor for several of his strongest bars."
-          },
-          {
-            "title": "Final Round Control",
-            "description": "His last round tightened up the battle and gave him the cleanest close."
-          }
-        ]
-      },
-      {
-        "performer": "WHOISORION",
-        "overview": "WHOISORION brought the more relentless attack style, especially in the first round where he went hard on F-DON's age, appearance and career.",
-        "lyricalThemes": "Age, weight, Uber driving, name flips, family and identity insecurity.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Old Man Angle",
-            "description": "He repeatedly made F-DON's age and appearance the core of his attack."
-          },
-          {
-            "title": "Uber Driver Refrain",
-            "description": "WHOISORION returned to the Uber angle as a way to reduce F-DON's credibility."
-          },
-          {
-            "title": "Aggressive Open",
-            "description": "His first round set the tone with the most direct pressure of the battle."
-          }
-        ]
-      }
-    ],
-    "notableBars": [
-      {
-        "performer": "WHOISORION",
-        "theme": "Age",
-        "bar": "You're so old, you probably bought it for Tony Blair.",
-        "explanation": "A sharp age attack that ties F-DON to an earlier political era."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Job Angle",
-        "bar": "Shut your mouth and go back to your Uber.",
-        "explanation": "A clean reduction of F-DON's status to his day job."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "House Angle",
-        "bar": "Pen Game is my house now, so welcome home, son.",
-        "explanation": "A veteran flex that frames the entire battle as F-DON's territory."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Weight",
-        "bar": "Your belly's bigger than mine and Ashley's skinny. No way you could 69.",
-        "explanation": "A body-shaming punchline that extends into a sexualized joke."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Anime",
-        "bar": "I am Goku, your Gohan.",
-        "explanation": "A simple but effective father-and-son anime reference."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Family",
-        "bar": "My bro let it ring out, you and your bitch. That's how you arrange a marriage.",
-        "explanation": "A marriage-ring punchline that turns a weapon sound into a family insult."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Wisdom",
-        "bar": "I'm inspired by guys that provide wisdom. You're inspired by guys inside prison.",
-        "explanation": "A clean contrast angle that separates their influences and identities."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Body",
-        "bar": "I swear you are a little twat. I see you punching a punch machine and I laugh.",
-        "explanation": "A crowd-friendly dig at F-DON's toughness and presentation."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Hero",
-        "bar": "I'm the MC that runs shit like River Run in my element.",
-        "explanation": "A confident self-placement bar that reinforces his veteran status."
-      },
-      {
-        "performer": "WHOISORION",
-        "theme": "Closing",
-        "bar": "Everybody knows you ain't been bad. You're still serving up a bench in a bin bag.",
-        "explanation": "A final insult that tries to strip F-DON of any hard-man image."
-      }
-    ],
-    "oddMoments": [
-      "The transcript has repeated crowd-reaction loops and some clipped commentary.",
-      "WHOISORION's first round is unusually long and relentless.",
-      "Margs treats the battle as a strong opener rather than a formal judged contest."
-    ],
-    "coolMoments": [
-      "The battle sets the tone for Season 4 with two loud, heavyweight performances.",
-      "F-DON's final round feels like the cleanest close in the clash.",
-      "WHOISORION's first-round pressure keeps the battle competitive from the jump."
-    ],
-    "postBattleContext": "The transcript ends with Margs asking viewers to decide the winner. The archive keeps F-DON as the listed winner and treats the battle as an audience-calls moment rather than a formal judged result."
+    "judges": []
   },
   {
     "id": "pg-s04-2024-08-05-sevz-vs-skamz",
@@ -7051,7 +7287,7 @@ export const battles: Battle[] = [
     "season": 4,
     "seasonOrder": 8,
     "views": "132k",
-    "date": "09-09-2023",
+    "date": "2023-09-09",
     "videoUrl": "https://www.youtube.com/watch?v=6E_P4AZYCto",
     "customEp": "4x08",
     "stage": null,
@@ -7851,7 +8087,7 @@ export const battles: Battle[] = [
       "mc2": "grams",
       "mc3": "trappy",
       "mc4": "passive",
-      "date": "02-09-2023",
+      "date": "2023-09-02",
       "videoUrl": "https://www.youtube.com/watch?v=1MgsxzR9vJE",
       "title": "DRIZZGB & TRAPPY vs GRAMS & PASSIVE",
       "displayTitle": "DRIZZGB & TRAPPY vs GRAMS & PASSIVE",
@@ -8190,7 +8426,7 @@ export const battles: Battle[] = [
     "mc1": "whoisorion",
     "mc2": "kandi",
     "title": "WHOISORION vs KANDI",
-    "date": "02-04-2024",
+    "date": "2024-04-02",
     "videoUrl": "https://www.youtube.com/watch?v=9Yi2Q_vNKLE",
     "theme": "pengame",
     "season": 2025,
@@ -8207,7 +8443,7 @@ export const battles: Battle[] = [
       "mc1": "che3kz",
       "mc2": "premeboi-j",
       "title": "CHE3KZ vs PREMEBOI J",
-      "date": "14-09-2024",
+      "date": "2024-09-14",
       "videoUrl": "https://www.youtube.com/watch?v=8xHhcLgskHQ",
       "theme": "pengame",
       "season": 5,
@@ -8478,7 +8714,7 @@ export const battles: Battle[] = [
     "mc1": "zen",
     "mc2": "caveman",
     "title": "ZEN vs CAVEMAN",
-    "date": "18-09-2024",
+    "date": "2024-09-18",
     "videoUrl": "https://www.youtube.com/watch?v=LJW3j439xXQ",
     "theme": "pengame",
     "season": 5,
@@ -8872,7 +9108,7 @@ export const battles: Battle[] = [
     "mc1": "kandi",
     "mc2": "prynlee",
     "title": "KANDI vs PRYNLEE",
-    "date": "21-09-2024",
+    "date": "2024-09-21",
     "videoUrl": "https://www.youtube.com/watch?v=Z_SvZqwoiMY",
     "theme": "pengame",
     "season": 5,
@@ -8888,13 +9124,13 @@ export const battles: Battle[] = [
     "slug": "rahika-vs-ricko",
     "mc1": "rahika",
     "mc2": "ricko",
-    "date": "25-09-2024",
+    "date": "2024-09-25",
     "videoUrl": "https://www.youtube.com/watch?v=CSzF9sZ_03E",
     "title": "RAHIKA vs RICKO",
     "theme": "pengame",
     "season": 5,
     "subGroup": "North Battles",
-    "customEp": "5x16",
+    "customEp": "RBx03",
     "stage": null,
     "group": null,
     "tag": "North Battles",
@@ -9330,7 +9566,7 @@ export const battles: Battle[] = [
     "mc1": "iiiberealz",
     "mc2": "ess2mad",
     "title": "iiiBEREALZ vs ESS2MAD",
-    "date": "28-09-2024",
+    "date": "2024-09-28",
     "videoUrl": "https://www.youtube.com/watch?v=rB79D9o-WQo",
     "theme": "pengame",
     "season": 5,
@@ -9866,7 +10102,7 @@ export const battles: Battle[] = [
     "mc1": "jm",
     "mc2": "fendry",
     "title": "JM vs FENDRY",
-    "date": "02-10-2024",
+    "date": "2024-10-02",
     "videoUrl": "https://www.youtube.com/watch?v=Cad3qLWsTR0",
     "theme": "pengame",
     "season": 5,
@@ -10449,7 +10685,7 @@ export const battles: Battle[] = [
     "slug": "grams-vs-whoisorion",
     "mc1": "grams",
     "mc2": "whoisorion",
-    "date": "09-10-2024",
+    "date": "2024-10-09",
     "videoUrl": "https://www.youtube.com/watch?v=mSwnP0m3sHo",
     "title": "GRAMS vs WHOISORION",
     "theme": "pengame",
@@ -11131,7 +11367,7 @@ export const battles: Battle[] = [
     "mc1": "passive",
     "mc2": "hunce",
     "title": "PASSIVE vs HUNCE",
-    "date": "12-10-2024",
+    "date": "2024-10-12",
     "videoUrl": "https://www.youtube.com/watch?v=fYNgIGjJKqg",
     "theme": "pengame",
     "season": 5,
@@ -11676,7 +11912,7 @@ export const battles: Battle[] = [
       "mc4": "trappy",
       "title": "WHOISORION & CHEEZEE vs DRIZZGB & TRAPPY",
       "displayTitle": "WHOISORION & CHEEZEE vs DRIZZGB & TRAPPY",
-      "date": "19-10-2024",
+      "date": "2024-10-19",
       "videoUrl": "https://www.youtube.com/watch?v=Gs5oCCGUlX4",
       "theme": "pengame",
       "season": 5,
@@ -11979,7 +12215,7 @@ export const battles: Battle[] = [
       "mc2": "storm",
       "mc3": "passive",
       "mc4": "ad",
-      "date": "19-10-2024",
+      "date": "2024-10-19",
       "videoUrl": "https://www.youtube.com/watch?v=OXbPIvnFCmU",
       "title": "GRAMS & PASSIVE vs STORM & AD",
       "displayTitle": "GRAMS & PASSIVE vs STORM & AD",
@@ -12271,7 +12507,7 @@ export const battles: Battle[] = [
       "mc4": "dan-dannah",
       "title": "SMIL3Z & iiiBEREALZ vs F-DON & DAN DANNAH",
       "displayTitle": "SMIL3Z & iiiBEREALZ vs F-DON & DAN DANNAH",
-      "date": "23-10-2024",
+      "date": "2024-10-23",
       "videoUrl": "https://www.youtube.com/watch?v=w3WElZsbdsk",
       "theme": "pengame",
       "season": 5,
@@ -12566,7 +12802,7 @@ export const battles: Battle[] = [
     "mc4": "deeno",
     "title": "SKAMZ & SEVZ vs KANDI & DEENO",
     "displayTitle": "SKAMZ & SEVZ vs KANDI & DEENO",
-    "date": "29-10-2024",
+    "date": "2024-10-29",
     "videoUrl": "https://www.youtube.com/watch?v=TpDAx1ew7gg",
     "theme": "pengame",
     "season": 5,
@@ -13108,8 +13344,9 @@ export const battles: Battle[] = [
     "slug": "domi-dusk-vs-jaycee",
     "mc1": "domi-dusk",
     "mc2": "jaycee",
+    "winner": "jaycee",
     "title": "DOMI DUSK vs JAYCEE",
-    "date": "30-10-2024",
+    "date": "2024-10-30",
     "videoUrl": "https://www.youtube.com/watch?v=vV4XT8mSsvQ",
     "theme": "pengame",
     "season": 5,
@@ -13283,7 +13520,7 @@ export const battles: Battle[] = [
     "mc1": "karma10tnf",
     "mc2": "mr-benz",
     "title": "KARMA10TNF vs MR.BENZ",
-    "date": "02-11-2024",
+    "date": "2024-11-02",
     "videoUrl": "https://www.youtube.com/watch?v=p-q9WTLYIHI",
     "theme": "pengame",
     "season": 5,
@@ -13807,7 +14044,7 @@ export const battles: Battle[] = [
     "slug": "drizzgb-vs-jm",
     "mc1": "drizzgb",
     "mc2": "jm",
-    "date": "03-11-2024",
+    "date": "2024-11-03",
     "title": "DRIZZGB vs JM",
     "theme": "pengame",
     "season": 5,
@@ -14194,7 +14431,7 @@ export const battles: Battle[] = [
     "mc1": "marcel",
     "mc2": "penno",
     "title": "MARCEL vs PENNO",
-    "date": "06-11-2024",
+    "date": "2024-11-06",
     "videoUrl": "https://www.youtube.com/watch?v=Ay7pCjVzCsU",
     "theme": "pengame",
     "season": 5,
@@ -14635,7 +14872,7 @@ export const battles: Battle[] = [
     "mc1": "millz",
     "mc2": "foz",
     "title": "MILLZ vs FOZ",
-    "date": "09-11-2024",
+    "date": "2024-11-09",
     "videoUrl": "https://www.youtube.com/watch?v=MNVSmLxNlcc",
     "theme": "pengame",
     "season": 5,
@@ -15082,7 +15319,7 @@ export const battles: Battle[] = [
     "mc1": "rasiah",
     "mc2": "220",
     "title": "RA'SIAH vs 220",
-    "date": "13-11-2024",
+    "date": "2024-11-13",
     "videoUrl": "https://www.youtube.com/watch?v=lGQp_RhhcS0",
     "theme": "pengame",
     "season": 5,
@@ -15672,7 +15909,7 @@ export const battles: Battle[] = [
     "slug": "anbu-sensei-vs-deeno",
     "mc1": "anbu-sensei",
     "mc2": "deeno",
-    "date": "27-11-2024",
+    "date": "2024-11-27",
     "videoUrl": "https://www.youtube.com/watch?v=iU4YJypksOk",
     "title": "ANBU SENSEI vs DEENO",
     "theme": "pengame",
@@ -16228,7 +16465,7 @@ export const battles: Battle[] = [
     "mc1": "ess2mad",
     "mc2": "deeno",
     "title": "ESS2MAD vs DEENO",
-    "date": "30-11-2024",
+    "date": "2024-11-30",
     "videoUrl": "https://www.youtube.com/watch?v=EcBXDHJYpb0",
     "theme": "pengame",
     "season": 5,
@@ -16625,7 +16862,7 @@ export const battles: Battle[] = [
     "mc1": "millz",
     "mc2": "karma10tnf",
     "title": "MILLZ vs KARMA10TNF",
-    "date": "18-12-2024",
+    "date": "2024-12-18",
     "videoUrl": "https://www.youtube.com/watch?v=WLZZUCCs42I",
     "theme": "pengame",
     "season": 5,
@@ -17165,7 +17402,7 @@ export const battles: Battle[] = [
     "mc1": "che3kz",
     "mc2": "marcel",
     "title": "CHE3KZ vs MARCEL",
-    "date": "11-12-2024",
+    "date": "2024-12-11",
     "videoUrl": "https://www.youtube.com/watch?v=TryRWFw4DGY",
     "theme": "pengame",
     "season": 5,
@@ -17319,12 +17556,12 @@ export const battles: Battle[] = [
     "mc1": "jm",
     "mc2": "mr-benz",
     "title": "JM vs MR.BENZ",
-    "date": "14-12-2024",
+    "date": "2024-12-14",
     "videoUrl": "https://www.youtube.com/watch?v=6hgdislkpGw",
     "theme": "pengame",
     "season": 5,
     "subGroup": "North Battles",
-    "customEp": "5x23",
+    "customEp": "RBx10",
     "stage": null,
     "group": null,
     "tag": "North Battles",
@@ -17976,7 +18213,7 @@ export const battles: Battle[] = [
     "mc1": "kime",
     "mc2": "caveman",
     "title": "K.I.M.E vs CAVEMAN",
-    "date": "07-12-2024",
+    "date": "2024-12-07",
     "videoUrl": "https://www.youtube.com/watch?v=g-WRsKVkb3I",
     "theme": "pengame",
     "season": 5,
@@ -18135,13 +18372,13 @@ export const battles: Battle[] = [
     "winner2": "trappy",
     "title": "DRIZZGB & TRAPPY vs F-DON & DAN DANNAH",
     "displayTitle": "DRIZZGB & TRAPPY vs F-DON & DAN DANNAH",
-    "date": "25-12-2024",
+    "date": "2024-12-25",
     "videoUrl": "https://www.youtube.com/watch?v=HoOQSlbsdf0",
     "theme": "pengame",
     "season": 5,
     "subGroup": "2v2 Tournament",
     "views": "302k",
-    "customEp": "5x31",
+    "customEp": "2v2x7",
     "stage": "Final",
     "group": null,
     "tag": "2v2 Tournament",
@@ -19017,7 +19254,7 @@ export const battles: Battle[] = [
     "slug": "dan-dannah-vs-iiiberealz",
     "mc1": "dan-dannah",
     "mc2": "iiiberealz",
-    "date": "26-12-2024",
+    "date": "2024-12-26",
     "videoUrl": "https://www.youtube.com/watch?v=kLL2HKMyWFs",
     "title": "DAN DANNAH vs iiiBEREALZ",
     "theme": "pengame",
@@ -19445,7 +19682,7 @@ export const battles: Battle[] = [
     "slug": "deeno-vs-jm",
     "mc1": "deeno",
     "mc2": "jm",
-    "date": "28-12-2024",
+    "date": "2024-12-28",
     "videoUrl": "https://www.youtube.com/watch?v=nEWdn3I6nlQ",
     "title": "DEENO vs JM",
     "theme": "pengame",
@@ -19748,7 +19985,7 @@ export const battles: Battle[] = [
       "slug": "passive-vs-zen",
       "mc1": "passive",
       "mc2": "zen",
-      "date": "01-01-2025",
+      "date": "2025-01-01",
       "title": "PASSIVE vs ZEN",
       "videoUrl": "https://www.youtube.com/watch?v=72rXm2Hfpo8",
       "theme": "pengame",
@@ -20015,7 +20252,7 @@ export const battles: Battle[] = [
     "slug": "domi-dusk-vs-fendry",
     "mc1": "domi-dusk",
     "mc2": "fendry",
-    "date": "04-01-2025",
+    "date": "2025-01-04",
     "title": "DOMI DUSK vs FENDRY",
     "videoUrl": "https://www.youtube.com/watch?v=Uiq_H6S_fis",
     "theme": "pengame",
@@ -20696,7 +20933,7 @@ export const battles: Battle[] = [
     "slug": "jaycee-vs-kime",
     "mc1": "jaycee",
     "mc2": "kime",
-    "date": "11-01-2025",
+    "date": "2025-01-11",
     "videoUrl": "https://www.youtube.com/watch?v=5k0qXDQe9Zc",
     "title": "JAYCEE vs K.I.M.E",
     "theme": "pengame",
@@ -21479,7 +21716,7 @@ export const battles: Battle[] = [
     "mc1": "cucha",
     "mc2": "karma10tnf",
     "winner": "cucha",
-    "date": "18-01-2025",
+    "date": "2025-01-18",
     "title": "CUCHA vs KARMA10TNF",
     "videoUrl": "https://www.youtube.com/watch?v=6BMNwwVGQuY",
     "theme": "pengame",
@@ -22008,7 +22245,7 @@ export const battles: Battle[] = [
     "season": 5,
     "subGroup": "2025 Chicken Shop Battles",
     "customEp": "5x38",
-    "date": "22-01-2025",
+    "date": "2025-01-22",
     "videoUrl": "https://www.youtube.com/watch?v=0WumtkpJnIE",
     "stage": null,
     "group": null,
@@ -22358,7 +22595,7 @@ export const battles: Battle[] = [
     "subGroup": "2025 Chicken Shop Battles",
     "customEp": "5x39",
     "views": "52k",
-    "date": "25-01-2025",
+    "date": "2025-01-25",
     "videoUrl": "https://www.youtube.com/watch?v=bTFHmhIZhvQ",
     "stage": null,
     "group": null,
@@ -23004,7 +23241,7 @@ export const battles: Battle[] = [
     "subGroup": "2025 Chicken Shop Battles",
     "customEp": "5x37",
     "views": "22k",
-    "date": "29-01-2025",
+    "date": "2025-01-29",
     "videoUrl": "https://www.youtube.com/watch?v=cLbzlRDVBtA",
     "stage": null,
     "group": null,
@@ -23565,9 +23802,9 @@ export const battles: Battle[] = [
     "theme": "pengame",
     "season": 5,
     "subGroup": "2025 Chicken Shop Battles",
-    "customEp": "5x38",
+    "customEp": "5x40",
     "views": "48k",
-    "date": "01-02-2025",
+    "date": "2025-02-01",
     "videoUrl": "https://www.youtube.com/watch?v=2SLu421-rjI",
     "stage": null,
     "group": null,
@@ -23732,9 +23969,9 @@ export const battles: Battle[] = [
     "theme": "pengame",
     "season": 5,
     "subGroup": "2025 Chicken Shop Battles",
-    "customEp": "5x39",
+    "customEp": "5x41",
     "views": "19k",
-    "date": "06-02-2025",
+    "date": "2025-02-06",
     "videoUrl": "https://www.youtube.com/watch?v=BuBgv8qx5jA",
     "stage": null,
     "group": null,
@@ -24557,12 +24794,12 @@ export const battles: Battle[] = [
     "mc2": "hunce",
     "winner": "domi-dusk",
     "title": "DOMI DUSK vs HUNCE",
-    "date": "08-02-2025",
+    "date": "2025-02-08",
     "videoUrl": "https://www.youtube.com/watch?v=OwgC7cTldzs",
     "theme": "pengame",
     "season": 5,
     "subGroup": "2025 Chicken Shop Battles",
-    "customEp": "5x40",
+    "customEp": "5x42",
     "views": "34k",
     "stage": null,
     "group": null,
@@ -25459,7 +25696,7 @@ export const battles: Battle[] = [
     "mc1": "whoisorion",
     "mc2": "zen",
     "winner": "zen",
-    "date": "12-02-2025",
+    "date": "2025-02-12",
     "title": "WHOISORION vs ZEN",
     "videoUrl": "https://www.youtube.com/watch?v=NpGsWG3wyMs",
     "theme": "pengame",
@@ -26104,14 +26341,14 @@ export const battles: Battle[] = [
     "mc1": "hunce",
     "mc2": "anbu-sensei",
     "winner": "anbu-sensei",
-    "date": "12-02-2025",
+    "date": "2025-02-12",
     "videoUrl": "https://www.youtube.com/watch?v=OvJDWnktDak",
     "title": "HUNCE vs ANBU SENSEI",
     "statusNote": "Audio release only",
     "theme": "pengame",
     "season": 5,
     "subGroup": "Box Park 1v1 Battles",
-    "customEp": "5x42",
+    "customEp": "5x43",
     "views": "92k",
     "stage": null,
     "group": null,
@@ -26515,7 +26752,7 @@ export const battles: Battle[] = [
     "mc1": "deeno",
     "mc2": "kandi",
     "winner": "kandi",
-    "date": "15-02-2025",
+    "date": "2025-02-15",
     "title": "DEENO vs KANDI",
     "videoUrl": "https://www.youtube.com/watch?v=eH2SAFop3Dw",
     "theme": "pengame",
@@ -27016,7 +27253,7 @@ export const battles: Battle[] = [
     "mc1": "grams",
     "mc2": "mr-benz",
     "title": "GRAMS vs MR.BENZ",
-    "date": "19-02-2025",
+    "date": "2025-02-19",
     "videoUrl": "https://www.youtube.com/watch?v=rFl86v_k3Ak",
     "theme": "pengame",
     "season": 5,
@@ -27639,7 +27876,7 @@ export const battles: Battle[] = [
     "theme": "pengame",
     "season": 5,
     "subGroup": "South vs North 2",
-    "date": "19-02-2025",
+    "date": "2025-02-19",
     "videoUrl": "https://www.youtube.com/watch?v=BZ6mj-OLNAc",
     "customEp": "5x47",
     "stage": null,
@@ -28317,7 +28554,7 @@ export const battles: Battle[] = [
     "mc1": "rasiah",
     "mc2": "fendry",
     "title": "RA'SIAH vs FENDRY",
-    "date": "24-02-2025",
+    "date": "2025-02-24",
     "videoUrl": "https://www.youtube.com/watch?v=wvCBSkhtmpE",
     "theme": "pengame",
     "season": 5,
@@ -29022,7 +29259,7 @@ export const battles: Battle[] = [
     "mc1": "fendry",
     "mc2": "jaycee",
     "title": "FENDRY vs JAYCEE",
-    "date": "26-02-2025",
+    "date": "2025-02-26",
     "videoUrl": "https://www.youtube.com/watch?v=IDdNJQcjqmM",
     "theme": "pengame",
     "season": 5,
@@ -29684,7 +29921,7 @@ export const battles: Battle[] = [
     "mc1": "storm",
     "mc2": "cheezee",
     "winner": "cheezee",
-    "date": "03-03-2025",
+    "date": "2025-03-03",
     "title": "STORM vs CHEEZEE",
     "videoUrl": "https://www.youtube.com/watch?v=SV1TMBL-fzY",
     "theme": "pengame",
@@ -30202,7 +30439,7 @@ export const battles: Battle[] = [
     "slug": "iiiberealz-vs-rasiah",
     "mc1": "iiiberealz",
     "mc2": "rasiah",
-    "date": "01-04-2025",
+    "date": "2025-04-01",
     "videoUrl": "https://www.youtube.com/watch?v=9Ht0f3aW3Dk",
     "title": "iiiBEREALZ vs RA'SIAH",
     "theme": "pengame",
@@ -30397,7 +30634,7 @@ export const battles: Battle[] = [
     "slug": "missink-vs-cucha",
     "mc1": "missink",
     "mc2": "cucha",
-    "date": "07-04-2025",
+    "date": "2025-04-07",
     "title": "MISSINK vs CUCHA",
     "videoUrl": "https://www.youtube.com/watch?v=jDN2K8vboMs",
     "theme": "pengame",
@@ -31085,7 +31322,7 @@ export const battles: Battle[] = [
     "mc1": "domi-dusk",
     "mc2": "rasiah",
     "title": "DOMI DUSK vs RA'SIAH",
-    "date": "05-05-2025",
+    "date": "2025-05-05",
     "videoUrl": "https://www.youtube.com/watch?v=9vJt4wJFDq4",
     "theme": "pengame",
     "season": "2025",
@@ -31103,7 +31340,7 @@ export const battles: Battle[] = [
     "mc1": "tapped24",
     "mc2": "domi-dusk",
     "title": "TAPPED24 vs DOMI DUSK",
-    "date": "02-06-2025",
+    "date": "2025-06-02",
     "videoUrl": "https://www.youtube.com/watch?v=aijMyPxEPxo",
     "theme": "pengame",
     "season": "2025",
@@ -31120,7 +31357,7 @@ export const battles: Battle[] = [
     "mc1": "rasiah",
     "mc2": "smil3z",
     "title": "RA'SIAH vs SMIL3Z",
-    "date": "02-07-2025",
+    "date": "2025-07-02",
     "theme": "pengame",
     "season": "Cold War",
     "competition": "PenGame Cold War",
@@ -31870,7 +32107,7 @@ export const battles: Battle[] = [
     "mc2": "skamz",
     "winner": "skamz",
     "title": "GRAMS vs SKAMZ",
-    "date": "13-09-2025",
+    "date": "2025-09-13",
     "theme": "pengame",
     "season": "Cold War",
     "competition": "PenGame Cold War",
@@ -32576,7 +32813,7 @@ export const battles: Battle[] = [
     "mc1": "zen",
     "mc2": "dan-dannah",
     "title": "ZEN vs DAN DANNAH",
-    "date": "27-10-2025",
+    "date": "2025-10-27",
     "theme": "pengame",
     "season": "2025",
     "customEp": "5x56",
@@ -32594,7 +32831,7 @@ export const battles: Battle[] = [
     "mc1": "kime",
     "mc2": "sevz",
     "title": "K.I.M.E vs SEVZ",
-    "date": "12-11-2025",
+    "date": "2025-11-12",
     "theme": "pengame",
     "season": "2025",
     "subGroup": "Regular Season",
@@ -32611,7 +32848,7 @@ export const battles: Battle[] = [
     "mc1": "dan-dannah",
     "mc2": "trappy",
     "title": "DAN DANNAH vs TRAPPY",
-    "date": "15-11-2025",
+    "date": "2025-11-15",
     "theme": "pengame",
     "season": "Cold War",
     "competition": "PenGame Cold War",
@@ -33231,7 +33468,7 @@ export const battles: Battle[] = [
     "stage": "Quarter Finals",
     "group": null,
     "tag": "Side battle",
-    "date": "16-08-2025",
+    "date": "2025-08-16",
     "videoUrl": "https://www.youtube.com/watch?v=zCUEw1FMEhM",
     "winner": "drizzgb",
     "clashSummary": "DRIZZGB vs F-DON took place in the PenGame Rap Battle 2025 Cold War Quarterfinals. The judging panel is Koji Radical, Progression, and Wiley. F-DON goes first. F-DON opens round one by immediately attacking DRIZZGB’s appearance, eye condition, posture, movement and relationship with TRAPPY. He uses “eye to eye” irony, Redman/Method Man, Sully, money, box/forklift imagery, Drizz/Trappy association and the previous battle context. The strongest early angle is the cross-eyed material, including the line about DRIZZGB never getting hit by a car because he can look both ways at the same time. DRIZZGB responds with a stronger and more direct first round. He attacks F-DON’s speech, relevance, veteran status, previous record, mother, girl, horse face, stability, cane/disabled wordplay, nose and previous battles. The glasses/slept-on sequence becomes one of the best moments of the first round. The room reacts strongly, and the judges later give round one to DRIZZGB. Round two is competitive. F-DON opens by saying DRIZZGB is not real and is just acting. He attacks him through Franklin, block chat, Biggie/Ready to Die, doctors/vitals, leader/disciple, rifles/Bible, “slept wrong,” the ape line, 100 Drizzles vs one F, son/Japan and Rascal/Dizzee imagery. It is a good round and has direct material. DRIZZGB’s second round is more memorable. He breaks down F-DON’s name, using F and D as insult initials, attacks his age, speech, mic drops, dementia/Alzheimer’s, face, scars, nose, writers, Asian/Afghanistan/Taliban material and “batty man” accusations. Some of the material is harsh and identity-based, but within the battle it lands strongly enough for the judges to give him round two. Round three is F-DON’s best round. He comes with cleaner writing and stronger punch structure: burger/fries, Jin-Woo/Solo Leveling, Mowgli, Great Barr/great bars, GBH, 7-Eleven, Dragon Ball Z and Spirit Bomb imagery. Koji specifically says this is one of F-DON’s best rounds he has heard from him, but says F-DON needed more rounds at that level earlier. DRIZZGB’s third is aggressive but less polished than his first two. He attacks F-DON’s nose, Lambo, belt, podcast/gifted angle, bar-for-bar claim, hardness, gender presentation and name. It has energy, but the judges all agree F-DON takes the third. The official decision is DRIZZGB wins 2-1. DRIZZGB takes rounds one and two. F-DON takes round three, but it comes too late to overturn the battle.",
@@ -33878,7 +34115,7 @@ export const battles: Battle[] = [
     "stage": "Semi Finals",
     "group": null,
     "tag": "Side battle",
-    "date": "10-09-2025",
+    "date": "2025-09-10",
     "videoUrl": "https://www.youtube.com/watch?v=lj6QVgOBxL0",
     "winner": "zen",
     "clashSummary": "ZEN vs MARCEL 2 took place during the PenGame Rap Battle 2025 Cold War Semi-Finals. This was a rematch between two northern battlers, with ZEN representing Leeds and MARCEL representing Manchester. The host frames it as “battle of the up north,” with the pressure high because their previous clash had gone MARCEL’s way. ZEN goes first. ZEN opens with a big statement round. He brings back his “Grand Mastermind,” “Dog Block Champ,” and “Z to the N” identity, then attacks MARCEL through size, delivery, lisp, head shape, previous win, reload begging, and stage image. His Roberto Carlos/Argos counter line gets a big reaction early. He then goes into Lord Farquaad/Shrek, delivery, grandad shock material, wet dog imagery, dinner plate/defibrillator, Villa, Drake/Dracula, wet-floor signs, Harry Maguire, Heady 1000 and war imagery. It is a strong opener with crowd control and different pockets. MARCEL responds with a direct name-flip round. He flips “Z to the N again” into “Z to the M again,” says he is ending ZEN again, references beating him before along with JM, and uses D12/Eminem/Killshot imagery. He attacks ZEN for crying outside after their last battle, begging for reloads like Oliver Twist, looking like Mike Righteous on heroin, his mum, his girls, ego, and trying to get redemption. It is a strong response, but ZEN’s first has the bigger variety and command. Round two sees ZEN switch into a more personal and comedic attack. He calls MARCEL a Craig Mitch/crayfish hybrid, attacks his head size, height, face, race ambiguity, copied bars, baby Guinness, micromanaged job, inability to reach pedals, and flips MARCEL’s Michael Jackson/nose angle back by saying MARCEL is more like MJ because he was a Black guy who turned out white. Some material is identity-based and offensive, but within the clash it lands as a direct character attack. MARCEL’s second is aggressive and structured around physical dominance. He brings “Never Back Down,” ground-and-pound, Will Smith/Chris Rock, Rihanna/Chris Brown, WWE champion, Mortal Kombat, family incest shock material, onion bhaji, pelican face, speech impediment, soldier/regiment and “who’s ready then” call-and-response. The round has energy, but the judges later feel ZEN has more clarity and stronger bar work. ZEN’s third is the clearest closer. He switches again, brings bassline energy, North-vs-North status, Tesco/head-size bars, Top Boy, Esco, Google Maps, Family Feud, grandma material, reload/girlfriend angle, Tyrion Lannister, Excalibur, Pencil Game, Kim Kardashian/Cheeks, and then closes with a strong “again” scheme: he got robbed, came back, and is ending MARCEL again. This round reinforces the rematch narrative. MARCEL’s third brings football, England, Four Lions, shop/Yorkshire, family/ethnicity angles, sister/holiday material, Joker/Bane/Batman, Venom, Spider-Man, Mary Jane, Carnage, poker, Nishi, eBay guns, PK and a warning closer. It is solid, but the judges feel MARCEL leans too heavily on sound effects and does not match ZEN’s clarity. The official decision is ZEN wins by unanimous judges’ decision. PK calls it 3-0 ZEN, while Strands and Craig Mitch both give the battle to ZEN. Craig says it was a photo finish but ZEN brought more energy, clarity, straight bars and different flows. This result levels the rivalry: MARCEL won their previous clash, but ZEN wins the rematch.",
@@ -34576,7 +34813,7 @@ export const battles: Battle[] = [
     "mc2": "jaycee",
     "winner": "jaycee",
     "title": "Forever Tapped vs JAYCEE",
-    "date": "20-09-2025",
+    "date": "2025-09-20",
     "videoUrl": "https://www.youtube.com/watch?v=Rsv-zRxai-8",
     "displayTitle": "Forever Tapped vs JAYCEE",
     "theme": "pengame",
@@ -35102,7 +35339,7 @@ export const battles: Battle[] = [
     "mc1": "kmarh",
     "mc2": "aliaano",
     "title": "K.MARH vs ALIAANO",
-    "date": "24-11-2025",
+    "date": "2025-11-24",
     "theme": "pengame",
     "season": "2025",
     "customEp": "5x59",
@@ -35120,7 +35357,7 @@ export const battles: Battle[] = [
     "mc1": "trappy",
     "mc2": "drizzgb",
     "title": "Finals Cypher (Trappy/DrizzGB/Kojey)",
-    "date": "25-11-2025",
+    "date": "2025-11-25",
     "theme": "pengame",
     "season": "2025",
     "customEp": "5x60",
@@ -35137,17 +35374,729 @@ export const battles: Battle[] = [
     "mc1": "varntae",
     "mc2": "anbu-sensei",
     "title": "VARNTAE vs ANBU SENSEI",
-    "date": "17-12-2025",
+    "date": "2025-12-17",
     "theme": "pengame",
     "season": "2025",
     "subGroup": "Christmas Special",
     "views": "141k",
-    "customEp": "5x61",
+    "customEp": "25x17",
+    "seasonOrder": 17,
     "stage": null,
     "group": null,
     "tag": "Christmas Special",
     "videoUrl": "https://www.youtube.com/watch?v=0PsRkfaZ1jU",
-    "winner": "anbu-sensei"
+    "winner": "anbu-sensei",
+    "clashSummary": "VARNTAE vs ANBU SENSEI took place at the **PenGame Christmas Special** in the dungeon. The host introduces it as a serious battle and sets the tone early with a warning that ANBU’s views are his own after ANBU starts taking the material into darker territory.\n\nANBU SENSEI goes first.\n\nANBU opens with a high-impact first round. He immediately attacks VARNTAE’s Academy status, claiming VARNTAE should never have been let out of Academy to battle a young veteran. He brings in Solo Leveling / Sung Jin-Woo references, OJ Simpson, Avatar: The Last Airbender, geography/sediment imagery, Bleach / Senbonzakura, infrared, sniper skulls, Blaze, Trappy fainting at finals, vinyl, lino and rhino wordplay. The round gets a major reaction and is stopped for a reload, which tells you how hard it lands in the room.\n\nVARNTAE answers with a more personal first. He attacks ANBU for online ranting, begging for respect, painting his nails black, using anime aesthetics, being rejected by women, living like a simp, asking for advice, crying online about PenGame and trying to run back DAN DANNAH-style material. He also flips the Sensei title by saying he is the real one teaching ANBU. His round is direct and lands well, but ANBU’s opener has the bigger impact.\n\nANBU’s second is even darker and more intense. He says he surpasses death, flips flashlight / Marz’s head imagery, calls VARNTAE an Academy boy trying to come among veterans, attacks his relationship history, uses Dragon Ball / Final Flash, Whoopi Goldberg, Batarang, Chippendale, Isabel, Cerebral Assassin, TMNT, Chris Benoit, chemotherapy, G-Zone and chess-board imagery. The round gets stopped again because the room reacts heavily. It is the strongest round of the battle.\n\nVARNTAE’s second is his best round. He attacks ANBU’s emo/goth image, white friend group, Dr. Martens, Moses / parting the sea, burning bush, losing to KANDI, anime sheets, karaoke, hentai links, dildos in a bag, dreadlocks, Babylon, Greebo image, cheap drinks, feminine image and Bonnie Black rejection angle. It is sharp and more opponent-specific than his first. This is the one round where VARNTAE has the strongest case.\n\nANBU’s third switches into a “Soldier” hook and continues with heavy war and death imagery. He uses Lee Rigby, Whitney Houston, Kobe Bryant, Tomb Raider / Lara Croft, Rey Mysterio / Sin Cara, Hatton, Jericho, Captain America, Fernando Torres and guillotine references. The round is dense, aggressive and keeps his momentum going.\n\nVARNTAE closes with a full nose-angle round. He attacks ANBU’s nose with repeated jokes about smoke, spray, social security, blankets, gravitational pull, PPE, car wash, birth, shame, family embarrassment, shovels and cheese. He also adds simp/feminist/greebo/freeloading angles and ends by saying ANBU brings nothing good to the platform. It is funny and clear, but it is too repetitive compared with ANBU’s heavier closer.\n\nThere is no official judgement. The host asks viewers to get in the comments and say who won.\n\nBased on the battle, ANBU SENSEI wins by Archive Judgement.",
+    "performanceAnalysis": [
+      {
+        "performer": "ANBU SENSEI",
+        "overview": "ANBU wins because he has the bigger reactions, the denser writing and the stronger first two rounds. His material is aggressive, reference-heavy and delivered with serious conviction.\n\nHis first round sets the tone immediately. The “Academy boy versus young vet” angle is strong because it puts VARNTAE below him in the PenGame hierarchy. He mixes anime, gaming, weapons and battle-record material in a way that sounds dangerous and controlled. The room reaction proves the round lands.\n\nHis second is the battle-winning round. It is darker, more technical and more layered than anything else in the battle. The Dragon Ball / Final Flash section, Batarang, Chris Benoit, chemo, G-Zone and chess-board ending show a lot of range. It is hostile, but as battle rap it is effective.\n\nHis third is slightly less clean than his second but still strong. The Soldier hook gives it identity, and the references to Lee Rigby, Whitney Houston, Kobe Bryant, Lara Croft and Jericho keep the round full of imagery. He finishes with a strong sense of control.\n\nANBU’s biggest strength is intensity. He sounds like he wants to leave damage every round.",
+        "lyricalThemes": "Academy status, young veteran, Solo Leveling, Sung Jin-Woo, OJ Simpson, Avatar, sediment, Senbonzakura, infrared, sniper skull, Trappy finals, Lazarus, Final Flash, Whoopi Goldberg, Batarang, Chippendale, Isabel, Cerebral Assassin, TMNT, Chris Benoit, chemo, G-Zone, Soldier hook, Lee Rigby, Whitney Houston, Kobe Bryant, Lara Croft, Jericho, Fernando Torres, guillotine.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Aggressive reference-heavy writing."
+          },
+          {
+            "title": "Best angle",
+            "description": "VARNTAE is an Academy-level battler not ready for a young vet."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Final Flash / Batarang / Chris Benoit / chess-board run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Bigger reactions and heavier first two rounds."
+          }
+        ]
+      },
+      {
+        "performer": "VARNTAE",
+        "overview": "VARNTAE has a strong battle and does not get washed. His second round is genuinely dangerous, and his third is funny in places. However, he loses because ANBU’s first two rounds are more damaging and better received.\n\nHis first round has a clear strategy: attack ANBU’s online behaviour, anime image, goth styling and relationship issues. The “Captain Save All The Hoes” angle gives him a personal frame, and the Bonnie Black material makes it feel scene-specific.\n\nHis second round is his best. The Dr. Martens / Moses / burning bush section is sharp, and the “anime sheets” and “dildo in a bag” material gets reaction because it is specific and humiliating. He also makes a strong effort to attack ANBU’s image as a greebo/anime/simp figure.\n\nHis third is easy to follow but over-focused. The nose jokes are funny, but spending most of the round on one physical feature makes it feel lighter than ANBU’s final. It works as comedy, but not enough as a closing battle round.\n\nVARNTAE’s biggest strength is direct personal attack. His weakness is that his third does not build enough beyond the nose angle.",
+        "lyricalThemes": "Captain Save All The Hoes, online ranting, goth nails, anime image, PenGame profit, asking for advice, friendzone, dominant women, Bonnie Black, Dr. Martens, Moses, burning bush, KANDI loss, anime sheets, hentai links, dildos in bag, dreads, Babylon, Greebo, cheap drinks, feminine image, ANBU’s nose, social security, gravitational pull, car wash, shovel, cheese.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Direct personal angles."
+          },
+          {
+            "title": "Best angle",
+            "description": "ANBU’s anime/goth/simp image."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Dr. Martens / Moses / burning bush section."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Third round becomes too repetitive around the nose angle."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Confidence",
+        "bar": "I’ve never been no sensei, I never rest.",
+        "explanation": "ANBU opens by flipping his own name and presenting himself as constantly active."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Critique",
+        "bar": "VARNTAE tries to say that he fucks up beats, that shit is a lie.",
+        "explanation": "A direct attack on VARNTAE’s music/performance ability."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Call me Sensei, Sung Jin-Woo, strapped with a rise like Solo Leveling.",
+        "explanation": "A **Solo Leveling** reference. Sung Jin-Woo rises in power, matching ANBU’s “level up” image."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Can’t enter the league like Aang when you’re out of your element.",
+        "explanation": "An **Avatar: The Last Airbender** reference. Aang controls elements, while VARNTAE is outside his."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Wordplay",
+        "bar": "Learn this shit in geography, if I rock George, you get left in sediments.",
+        "explanation": "A geography/rock/sediment wordplay."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Violence",
+        "bar": "It’s time for dividing your life when I find me a knife.",
+        "explanation": "A division/cutting image. It is battle material."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Identity",
+        "bar": "All that melanin might disappear when I bleach your skin.",
+        "explanation": "A racialised bleach/skin line. It is hostile battle material."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Senbonzakura.",
+        "explanation": "A **Bleach** anime reference, used as weapon imagery."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Strategy",
+        "bar": "Can’t call bully if you get bullied.",
+        "explanation": "A reversal line. VARNTAE cannot play bully if he is the one being bullied."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Wordplay",
+        "bar": "I don’t know about A-Rex, MSN, Nokia phones or infrared, but I know about Blaze that’s menacing.",
+        "explanation": "A tech/old-school reference run, ending with menace."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Faint like Trappy at finals.",
+        "explanation": "A PenGame history reference. ANBU uses Trappy’s finals incident as an insult."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Wordplay",
+        "bar": "Spin them like vinyl.",
+        "explanation": "A music/violence image."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Wordplay",
+        "bar": "Shit get messy like lino.",
+        "explanation": "A lino/floor mess punch."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Wordplay",
+        "bar": "Straight to the point like rhino.",
+        "explanation": "A rhino/horn/directness punch."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Threat",
+        "bar": "You against I? It’s hazardous.",
+        "explanation": "A danger/status opener."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Even PenGame can’t buy Lazarus.",
+        "explanation": "A resurrection line. Lazarus was raised from the dead, but VARNTAE cannot be saved."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Status",
+        "bar": "The platform’s lacking on challenges.",
+        "explanation": "ANBU says VARNTAE is not enough of a challenge."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Status",
+        "bar": "How can you let VARNTAE out of Academy?",
+        "explanation": "A strong PenGame hierarchy attack. VARNTAE is framed as not main-stage ready."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Status",
+        "bar": "Having him clash with the youngest vet.",
+        "explanation": "ANBU positions himself as young but already seasoned."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Status",
+        "bar": "He crashes back to cadet.",
+        "explanation": "A soldier/rank punch. VARNTAE is demoted."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Confidence",
+        "bar": "None of my punches light.",
+        "explanation": "A writing/violence claim."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "I’ll send your soul to the ark.",
+        "explanation": "A biblical/flood-style image."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Metal in her chest like Stark.",
+        "explanation": "An **Iron Man / Tony Stark** reference."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Confidence",
+        "bar": "You ain’t dying to come back, I am the one that’s surpassing death.",
+        "explanation": "A resurrection/survival line."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Humour",
+        "bar": "I’ll blind VARNTAE by holding a flashlight and reflect it off Marz’s head.",
+        "explanation": "A Marz/bald-head reflection joke used as an attack."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Status",
+        "bar": "Academy boy trying to come be among.",
+        "explanation": "Another Academy/status punch."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Insult",
+        "bar": "You watch a girl get fucked, you cuck.",
+        "explanation": "A relationship/humiliation line. It is battle material."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Final Flash him.",
+        "explanation": "A **Dragon Ball Z** reference. Final Flash is Vegeta’s attack."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Appearance",
+        "bar": "Looking like a young Whoopi Goldberg.",
+        "explanation": "A celebrity appearance punch."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Straight to the point like Batarang.",
+        "explanation": "A Batman/Batarang reference."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Violence",
+        "bar": "Chest get caved in.",
+        "explanation": "A direct violence line."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Get folded in half like Isabel.",
+        "explanation": "An Animal Crossing / Isabelle-style name reference mixed with violence."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Cerebral Assassin.",
+        "explanation": "A Triple H wrestling nickname reference."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Wordplay",
+        "bar": "If I’m rising up some TNT, it’s not TMNT.",
+        "explanation": "A TNT/TMNT wordplay. Explosives versus Teenage Mutant Ninja Turtles."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Chris Benoit, I’ll aim for the wife and kid as well.",
+        "explanation": "A very dark wrestling reference. It is hostile battle material."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Violence",
+        "bar": "Levi Jean slashed you in your neck, shave your hair like you’re doing up chemo.",
+        "explanation": "A haircut/chemo attack. It is battle material."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Insult",
+        "bar": "Caught my man in the next man’s G-Zone.",
+        "explanation": "A G-Zone / relationship humiliation punch."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Status",
+        "bar": "Binging terms, can’t be a vet on the board. Right now you’re only a rook.",
+        "explanation": "A chess ranking line. VARNTAE is not a veteran or king; he is only a rook."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Wordplay",
+        "bar": "You can’t be a king if your queen gets hooked.",
+        "explanation": "A chess/relationship punch."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Performance",
+        "bar": "Soldier, ANBU killing this soldier.",
+        "explanation": "ANBU’s third-round hook. It turns VARNTAE into a cadet/soldier target."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Status",
+        "bar": "Your record dead in the regiment, still not relevant.",
+        "explanation": "A military/status punch. VARNTAE’s record does not give him relevance."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Violence",
+        "bar": "When I’m in the scope of the shots, they miss me.",
+        "explanation": "A sniper/soldier image."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Lee Rigby.",
+        "explanation": "A very dark UK reference. It is hostile battle material."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "I’ll send him to Houston singing part is Whitney.",
+        "explanation": "A Whitney Houston reference."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Think you can shoot like Kobe, Broski die with your chopper, G.D. Bryant.",
+        "explanation": "A Kobe Bryant / helicopter reference. It is very dark battle material."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Get buried in riches so I can raid that tomb like Lara.",
+        "explanation": "A **Tomb Raider / Lara Croft** reference."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "619, get left in the state, that’s Rey or Sin Cara.",
+        "explanation": "A wrestling reference to Rey Mysterio and Sin Cara."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Walls of Jericho not gonna save y’all.",
+        "explanation": "A Chris Jericho wrestling reference."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Captain America trying to be a tourist.",
+        "explanation": "A Marvel/reference punch."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Reference",
+        "bar": "Can’t manage this shit like Fernando Torres.",
+        "explanation": "A football reference to Fernando Torres."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Violence",
+        "bar": "This one here came right from the guillotine.",
+        "explanation": "A closing execution image."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "Captain Save All The Hoes.",
+        "explanation": "VARNTAE opens by calling ANBU a simp or saviour figure for women."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "You should walk around with an S on your chest plate.",
+        "explanation": "A Superman-style “saviour” punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "Every day crying online about PenGame.",
+        "explanation": "A direct attack on ANBU’s online behaviour."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "Draw a line from the dot to the dot, connected, I’m not calling ANBU Sketch Face.",
+        "explanation": "A face/skin/spot-drawing insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "You paint your nails black.",
+        "explanation": "A goth/emo image attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Family",
+        "bar": "Your mum said, Elijah, what is this nonsense?",
+        "explanation": "A real-name/family line aimed at ANBU’s style."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Identity",
+        "bar": "The Bible says that it is demonic.",
+        "explanation": "A religious/family angle linked to ANBU’s goth/anime image."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "You don’t make PenGame profit.",
+        "explanation": "A platform-value attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Reference",
+        "bar": "My name’s not DAN DANNAH, you can’t run back that cheeky event.",
+        "explanation": "A battle-history reference to ANBU vs DAN DANNAH."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "How many times have you called my line trying to ask for advice?",
+        "explanation": "A relationship/status angle. VARNTAE claims ANBU looks up to him."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Wordplay",
+        "bar": "Let me teach you again.",
+        "explanation": "A Sensei flip. VARNTAE claims he is the real teacher."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "You get friendzoned by openly dominant hoes.",
+        "explanation": "A relationship humiliation line."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "Disrespectful anime flows, not viable tactics.",
+        "explanation": "A direct critique of ANBU’s style."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "That blue star on your face ain’t hiding your abscess.",
+        "explanation": "A face/skin insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "Go put time into practice, you might start climbing the rankings.",
+        "explanation": "A work-rate and rank attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "I’m speaking on Marz’s behalf and for all of the dogs, we’re all tired of your ranting.",
+        "explanation": "A platform/community angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "You wouldn’t need to beg if you had respect already established.",
+        "explanation": "A status/respect punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "If you live a pussyhole lifestyle, ANBU, how is it that you never get none?",
+        "explanation": "A sexuality/status insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "You devoted your life to a hoe and it went wrong.",
+        "explanation": "A relationship failure angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "She was joyriding with the next one, and the next one.",
+        "explanation": "A cheating/relationship humiliation punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "Stop waiting in line for Bonnie Black.",
+        "explanation": "A named relationship/scene angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "I heard she don’t like virgins, that’s why she airs your line of connection.",
+        "explanation": "A virgin/rejection punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Identity",
+        "bar": "All of your emo friends are white.",
+        "explanation": "A race/subculture attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "You and your guys contracted verruca cause you all share Dr. Martens boots.",
+        "explanation": "A Dr. Martens/verruca foot joke. Strong because it attacks the goth/emo style visually."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Reference",
+        "bar": "I think Elijah thought it was Moses, begging the sea parting two.",
+        "explanation": "A Moses/Bible reference linked to ANBU’s real name and religious imagery."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Reference",
+        "bar": "That bush was burning.",
+        "explanation": "A burning bush Bible reference."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Career",
+        "bar": "You lost to KANDI, bitch bye.",
+        "explanation": "A battle-record attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Confidence",
+        "bar": "You chose to walk into war with VARNTAE to cause self-harm.",
+        "explanation": "A battle-choice/self-destruction line."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "Stick to your karaoke with tusks.",
+        "explanation": "A singing/style insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "Go share hentai links with your Gs.",
+        "explanation": "An anime/sexual stereotype insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Reference",
+        "bar": "GGG, Golovkin, measure unboxing.",
+        "explanation": "A boxing reference to Gennady Golovkin."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Violence",
+        "bar": "Put him in the dirt like heavy construction.",
+        "explanation": "A burial/construction punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "You got rejected and you’re upset.",
+        "explanation": "A simple relationship angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "She wouldn’t let you hit cause there’s anime sheets on your mum bed.",
+        "explanation": "One of VARNTAE’s strongest opponent-specific jokes."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "ANBU’s holding a strap, it’s a dildo inside of a bag.",
+        "explanation": "A crude prop/weapon flip. It is battle material."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "He looks at chebs and smiles in a clash.",
+        "explanation": "A battle-observation/personal attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Identity",
+        "bar": "All that pride but you’re hiding your flag.",
+        "explanation": "A sexuality/pride angle. It is hostile battle material."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "You couldn’t score with a whore at Babylon.",
+        "explanation": "A sex/club insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Identity",
+        "bar": "You’re the first Black greebo that I met.",
+        "explanation": "A race/subculture insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "LSP cans are 35 pence.",
+        "explanation": "A cheap-drink/poverty angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "After this you can’t cry to Marz.",
+        "explanation": "A platform/protection line."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "ANBU’s nose can smoke half of a brand new spray.",
+        "explanation": "The start of the third-round nose angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "ANBU’s nose is the only social security in the world.",
+        "explanation": "A nose-size joke, implying the nose needs its own status."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "ANBU’s nose has stories full, it’s got its own gravitational pull.",
+        "explanation": "A size/exaggeration punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "That cap nose is part of your PPE.",
+        "explanation": "A PPE/protection joke."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "Take your nose to the car wash man for a mini valet.",
+        "explanation": "A hygiene/size punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "During the birth, mum was in pain.",
+        "explanation": "A birth/nose-size insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Family",
+        "bar": "She took one long look at your face, said to the doctor, I give you my way.",
+        "explanation": "A harsh mother/birth rejection joke."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "Your nose is the end of the shovel.",
+        "explanation": "A nose/shovel image."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "You’d be the richest person alive if being a bitch online was a hustle.",
+        "explanation": "A strong online-behaviour attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Identity",
+        "bar": "Gay Black feminist simp.",
+        "explanation": "A hostile identity insult. It is battle material."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "Nemo trying to take chip into next man’s lava.",
+        "explanation": "A cartoon/scene insult. The transcript is rough but functions as ridicule."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "You’ll only win this clash if it’s knees.",
+        "explanation": "A kneeling/submission line."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "Nose is bigger than anime freeze.",
+        "explanation": "A nose/anime insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "You don’t bring nothing good to the platform.",
+        "explanation": "A platform-value attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Insult",
+        "bar": "You’re just a rat for the cheese.",
+        "explanation": "A money/opportunist insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Threat",
+        "bar": "After this clash with me, I hope you collapse in the street.",
+        "explanation": "A final hostile closer. It is battle material."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "anbu-sensei",
+      "summary": "Archive result: ANBU SENSEI wins. Archive score: ANBU SENSEI 3-0 VARNTAE. Suggested round split: Round 1: ANBU SENSEI, Round 2: ANBU SENSEI / close, Round 3: ANBU SENSEI. Reason: VARNTAE’s second is competitive and his third is funny, but ANBU’s first two rounds are too heavy. The room reaction, reloads and density of material give ANBU the clear archive win. Performance Grades - ANBU SENSEI: A, VARNTAE: B. Final Note: VARNTAE came with angles, but ANBU came with damage. This is one of ANBU’s stronger performances: dark, layered, aggressive and delivered like he wanted the body."
+    }
   },
   {
     "id": "pg-s05-2025-12-24-trappy-vs-iiiberealz",
@@ -35155,7 +36104,7 @@ export const battles: Battle[] = [
     "mc1": "trappy",
     "mc2": "iiiberealz",
     "title": "TRAPPY vs iiiBEREALZ",
-    "date": "24-12-2025",
+    "date": "2025-12-24",
     "theme": "pengame",
     "season": "2025",
     "subGroup": "Christmas Special",
@@ -35173,7 +36122,7 @@ export const battles: Battle[] = [
     "mc1": "skamz",
     "mc2": "sevz",
     "title": "SKAMZ vs SEVZ",
-    "date": "09-09-2023",
+    "date": "2023-09-09",
     "videoUrl": "https://www.youtube.com/watch?v=DECvslhWjPo",
     "theme": "pengame",
     "season": 2023,
@@ -35734,7 +36683,7 @@ export const battles: Battle[] = [
     "mc2": "blazn",
     "winner": "ren-dmc",
     "title": "REN DMC vs BLAZN",
-    "date": "27-01-2024",
+    "date": "2024-01-27",
     "videoUrl": "https://www.youtube.com/watch?v=KdixjypYofU",
     "theme": "pengame",
     "season": 2023,
@@ -36031,7 +36980,7 @@ export const battles: Battle[] = [
       "mc2": "skamz",
       "winner": "drizzgb",
       "title": "DRIZZGB vs SKAMZ",
-      "date": "31-01-2024",
+      "date": "2024-01-31",
       "videoUrl": "https://www.youtube.com/watch?v=Is4HqSBvf6o",
       "theme": "pengame",
       "season": 2023,
@@ -36273,7 +37222,7 @@ export const battles: Battle[] = [
     "mc2": "blazn",
     "winner": "skamz",
     "title": "SKAMZ vs BLAZN",
-    "date": "07-02-2024",
+    "date": "2024-02-07",
     "videoUrl": "https://www.youtube.com/watch?v=JLgtqbs6HN0",
     "theme": "pengame",
     "season": 2023,
@@ -36473,7 +37422,7 @@ export const battles: Battle[] = [
     "mc1": "ren-dmc",
     "mc2": "drizzgb",
     "title": "REN DMC vs DRIZZGB",
-    "date": "07-02-2024",
+    "date": "2024-02-07",
     "videoUrl": "https://www.youtube.com/watch?v=OOZAd1TtT9A",
     "theme": "pengame",
     "season": 2023,
@@ -36735,7 +37684,7 @@ export const battles: Battle[] = [
     "mc2": "blazn",
     "winner": "drizzgb",
     "title": "DRIZZGB vs BLAZN",
-    "date": "14-02-2024",
+    "date": "2024-02-14",
     "videoUrl": "https://www.youtube.com/watch?v=oEKgvkt1_y0",
     "theme": "pengame",
     "season": 2023,
@@ -37019,7 +37968,7 @@ export const battles: Battle[] = [
     "mc1": "skamz",
     "mc2": "ren-dmc",
     "title": "SKAMZ vs REN DMC",
-    "date": "17-02-2024",
+    "date": "2024-02-17",
     "videoUrl": "https://www.youtube.com/watch?v=fAmMPCXJVCs",
     "theme": "pengame",
     "season": 2023,
@@ -37341,7 +38290,7 @@ export const battles: Battle[] = [
     "mc2": "iiiberealz",
     "winner": "f-don",
     "title": "F-DON vs iiiBEREALZ",
-    "date": "21-02-2024",
+    "date": "2024-02-21",
     "videoUrl": "https://www.youtube.com/watch?v=OKnnvyGPhuU",
     "theme": "pengame",
     "season": 2023,
@@ -37584,7 +38533,7 @@ export const battles: Battle[] = [
     "mc2": "deeno",
     "winner": "smil3z",
     "title": "SMIL3Z vs DEENO",
-    "date": "24-02-2024",
+    "date": "2024-02-24",
     "videoUrl": "https://www.youtube.com/watch?v=lhMhWKs7mAk",
     "theme": "pengame",
     "season": 2023,
@@ -37857,7 +38806,7 @@ export const battles: Battle[] = [
     "mc2": "deeno",
     "winner": "f-don",
     "title": "F-DON vs DEENO",
-    "date": "28-02-2024",
+    "date": "2024-02-28",
     "videoUrl": "https://www.youtube.com/watch?v=LD-wdrRQNh4",
     "theme": "pengame",
     "season": 2023,
@@ -38166,7 +39115,7 @@ export const battles: Battle[] = [
     "mc2": "iiiberealz",
     "winner": "smil3z",
     "title": "SMIL3Z vs iiiBEREALZ",
-    "date": "02-03-2024",
+    "date": "2024-03-02",
     "videoUrl": "https://www.youtube.com/watch?v=qBIzm2166hk",
     "theme": "pengame",
     "season": 2023,
@@ -38505,7 +39454,7 @@ export const battles: Battle[] = [
     "mc2": "deeno",
     "winner": "iiiberealz",
     "title": "iiiBEREALZ vs DEENO",
-    "date": "06-03-2024",
+    "date": "2024-03-06",
     "videoUrl": "https://www.youtube.com/watch?v=y1I3Ur-naf0",
     "theme": "pengame",
     "season": 2023,
@@ -38856,7 +39805,7 @@ export const battles: Battle[] = [
     "mc2": "smil3z",
     "winner": "smil3z",
     "title": "F-DON vs SMIL3Z",
-    "date": "09-03-2024",
+    "date": "2024-03-09",
     "videoUrl": "https://www.youtube.com/watch?v=UiGcqxoqnes",
     "theme": "pengame",
     "season": 2023,
@@ -39303,7 +40252,7 @@ export const battles: Battle[] = [
     "mc2": "kandi",
     "winner": "whoisorion",
     "title": "WHOISORION vs KANDI",
-    "date": "03-04-2024",
+    "date": "2024-04-03",
     "videoUrl": "https://www.youtube.com/watch?v=9Yi2Q_vNKLE",
     "theme": "pengame",
     "season": 2023,
@@ -39696,7 +40645,7 @@ export const battles: Battle[] = [
     "mc2": "dan-dannah",
     "winner": "cheezee",
     "title": "CHEEZEE vs DAN DANNAH",
-    "date": "06-04-2024",
+    "date": "2024-04-06",
     "videoUrl": "https://www.youtube.com/watch?v=PhfHQf5G5G8",
     "theme": "pengame",
     "season": 2023,
@@ -40017,7 +40966,7 @@ export const battles: Battle[] = [
     "mc2": "cheezee",
     "winner": "whoisorion",
     "title": "WHOISORION vs CHEEZEE",
-    "date": "10-04-2024",
+    "date": "2024-04-10",
     "videoUrl": "https://www.youtube.com/watch?v=vGXVPRJUfOA",
     "theme": "pengame",
     "season": 2023,
@@ -40470,7 +41419,7 @@ export const battles: Battle[] = [
     "mc2": "kandi",
     "winner": "dan-dannah",
     "title": "DAN DANNAH vs KANDI",
-    "date": "13-04-2024",
+    "date": "2024-04-13",
     "videoUrl": "https://www.youtube.com/watch?v=KMiWwP_LWIw",
     "theme": "pengame",
     "season": 2023,
@@ -40814,7 +41763,7 @@ export const battles: Battle[] = [
     "mc1": "cheezee",
     "mc2": "kandi",
     "title": "CHEEZEE vs KANDI",
-    "date": "17-04-2024",
+    "date": "2024-04-17",
     "theme": "pengame",
     "season": 2023,
     "customEp": "Tx17",
@@ -41267,7 +42216,7 @@ export const battles: Battle[] = [
     "mc2": "dan-dannah",
     "winner": "whoisorion",
     "title": "WHOISORION vs DAN DANNAH",
-    "date": "20-04-2024",
+    "date": "2024-04-20",
     "videoUrl": "https://www.youtube.com/watch?v=Y-Wi8wUh_Ec",
     "theme": "pengame",
     "season": 2023,
@@ -41670,7 +42619,7 @@ export const battles: Battle[] = [
     "mc1": "sevz",
     "mc2": "prynlee",
     "title": "SEVZ vs PRYNLEE",
-    "date": "04-05-2024",
+    "date": "2024-05-04",
     "videoUrl": "https://www.youtube.com/watch?v=QFaATrditrM",
     "theme": "pengame",
     "season": 2023,
@@ -42033,7 +42982,7 @@ export const battles: Battle[] = [
     "mc2": "ft",
     "title": "SEVZ vs Forever Tapped",
     "displayTitle": "SEVZ vs Forever Tapped",
-    "date": "08-05-2024",
+    "date": "2024-05-08",
     "videoUrl": "https://www.youtube.com/watch?v=X2QCtM3AIYE",
     "theme": "pengame",
     "season": 2023,
@@ -42347,7 +43296,7 @@ export const battles: Battle[] = [
     "mc1": "grams",
     "mc2": "prynlee",
     "title": "GRAMS vs PRYNLEE",
-    "date": "11-05-2024",
+    "date": "2024-05-11",
     "videoUrl": "https://www.youtube.com/watch?v=sHyfaHUsWc8",
     "theme": "pengame",
     "season": 2023,
@@ -42757,7 +43706,7 @@ export const battles: Battle[] = [
     "mc1": "skamz",
     "mc2": "grams",
     "title": "SKAMZ vs GRAMS",
-    "date": "12-09-2023",
+    "date": "2023-09-12",
     "videoUrl": "https://www.youtube.com/watch?v=bXY5a7Hjs38",
     "theme": "pengame",
     "season": 4,
@@ -42766,60 +43715,7 @@ export const battles: Battle[] = [
     "stage": null,
     "group": null,
     "tag": null,
-    "winner": "unknown",
-    "clashSummary": "SEVZ vs GRAMS took place during **PenGame Season 4**. The host introduces SEVZ as a young newcomer to the platform, while GRAMS is introduced as someone the platform expects to see more of. The battle sits within the Season 4 comment-led format, where viewers are encouraged to get in the comments and decide who they think won.\n\nSEVZ wins the coin toss and chooses to go first. From the opening round, he presents himself as the cleaner writer, using wordplay, structure and references to show control. GRAMS responds with a more aggressive, street-heavy style, repeatedly framing SEVZ as young, inexperienced and not ready for him.\n\nThe battle is a style clash. **SEVZ has the cleaner pen and more technical structure**, while **GRAMS has the stronger aggression and presence**. SEVZâ€™s writing is more organised across the three rounds, especially with the superhero, biblical and name-flip references. GRAMS has the heavier performance moments, particularly in the third round where he uses his name for weed and weight-based wordplay.\n\nThere is **no official winner announced** in the transcript. The host sends the decision to the comments rather than giving a judged result.\n\nFor archive consistency, this battle should be scored as **SEVZ edging GRAMS 2-1**. GRAMS has the stronger final round, but SEVZ takes the battle overall through cleaner writing, better structure and more consistent technical control.",
-    "performanceAnalysis": [
-      {
-        "performer": "SEVZ",
-        "overview": "SEVZ performs like someone trying to prove he belongs on the platform. His first round is built around clean writing and confidence. He opens with **â€œI rap clean like Iâ€™m OCDâ€**, which frames him as precise and organised, before moving into bread, OnlyFans, drift, caskets and guillotine imagery.\n\nHis second round is the most reference-heavy. He uses Marvel, Iron Man, Clark Kent, Hawkeye, Noahâ€™s Ark, Cain and Abel, Muhammad Ali, and Jack and Jill. The round shows ambition and a clear attempt to write layered material rather than just throw out insults.\n\nHis third round is his strongest from a battle perspective. SEVZ attacks GRAMSâ€™ name directly, flipping **grams** into weight, measurement and status. He says GRAMS cannot â€œmeasure upâ€ to his speech and frames himself as someone who came for a serious PenGame spot, not just a clash.\n\nSEVZâ€™s strength is that his writing has structure. His weakness is that some of the bars are more clever than explosive, meaning GRAMS sometimes feels more immediately impactful in the room.",
-        "lyricalThemes": "clean penmanship, OnlyFans wordplay, car/drift imagery, guillotine imagery, Marvel references, biblical references, GRAMS name flips, measurement/weight wordplay, PenGame ambition.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Best round",
-            "description": "Round three."
-          },
-          {
-            "title": "Strongest trait",
-            "description": "Cleaner structure and layered writing."
-          },
-          {
-            "title": "Best scheme",
-            "description": "GRAMS / weight / measurement flips."
-          },
-          {
-            "title": "Best reference run",
-            "description": "Tony Stark, Marvel, Clark Kent and Hawkeye."
-          }
-        ]
-      },
-      {
-        "performer": "GRAMS",
-        "overview": "GRAMS battles with a more aggressive, direct style. He does not try to out-write SEVZ in complexity; instead, he leans into pressure, threat and presence. His writing makes the battle feel heavier and more confrontational.\n\nHis first round is built around attacking SEVZâ€™s youth and experience. GRAMS repeatedly frames him as a newcomer who is not ready for the level of contact he is bringing. The directness works well in the room because it is easy to follow and easy to react to.\n\nHis second round keeps that energy going, but his third round is where he feels most at home. He uses his own name as an angle, flipping grams into weight, weed and smoke, and presenting himself as someone with more real-world authority than his opponent. That final round gives him his strongest room impact of the battle.\n\nGRAMSâ€™ weakness is consistency. He has the more forceful moments, but SEVZâ€™s writing is better organised across the full battle.",
-        "lyricalThemes": "aggression, street energy, youth vs experience, threat imagery, smoke/weed wordplay, weight/measurement flips, direct room pressure.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Best round",
-            "description": "Round three."
-          },
-          {
-            "title": "Strongest trait",
-            "description": "Pressure and directness."
-          },
-          {
-            "title": "Best angle",
-            "description": "Name flip / smoke / weight scheme."
-          },
-          {
-            "title": "Best room impact",
-            "description": "The third-round aggression."
-          }
-        ]
-      }
-    ],
-    "judgementSummary": {
-      "verdict": "Winner: SEVZ",
-      "summary": "There is no official winner announced in the transcript. The host sends the decision to the comments rather than giving a judged result. For archive consistency, this battle is scored as SEVZ edging GRAMS 2-1."
-    }
+    "winner": "unknown"
   },
   {
     "id": "pg-s2023-2024-05-18-grams-vs-ft",
@@ -42828,7 +43724,7 @@ export const battles: Battle[] = [
     "mc2": "ft",
     "title": "GRAMS vs Forever Tapped",
     "displayTitle": "GRAMS vs Forever Tapped",
-    "date": "18-05-2024",
+    "date": "2024-05-18",
     "videoUrl": "https://www.youtube.com/watch?v=CNb9rI3MRng",
     "theme": "pengame",
     "season": 2023,
@@ -43155,7 +44051,7 @@ export const battles: Battle[] = [
     "mc1": "sevz",
     "mc2": "cheezee",
     "title": "SEVZ vs CHEEZEE",
-    "date": "25-05-2024",
+    "date": "2024-05-25",
     "videoUrl": "https://www.youtube.com/watch?v=1MZK2MMH2cg",
     "theme": "pengame",
     "season": 2023,
@@ -43661,7 +44557,7 @@ export const battles: Battle[] = [
     "mc1": "whoisorion",
     "mc2": "drizzgb",
     "title": "WHOISORION vs DRIZZGB",
-    "date": "01-06-2024",
+    "date": "2024-06-01",
     "videoUrl": "https://www.youtube.com/watch?v=1YUdUfHwN6Y",
     "theme": "pengame",
     "season": 2023,
@@ -44119,7 +45015,7 @@ export const battles: Battle[] = [
     "mc1": "smil3z",
     "mc2": "skamz",
     "title": "SMIL3Z vs SKAMZ",
-    "date": "08-06-2024",
+    "date": "2024-06-08",
     "videoUrl": "https://www.youtube.com/watch?v=lYnSuNjCjjo",
     "theme": "pengame",
     "season": 2023,
@@ -44667,7 +45563,7 @@ export const battles: Battle[] = [
     "mc1": "ren-dmc",
     "mc2": "f-don",
     "title": "REN DMC vs F-DON",
-    "date": "15-06-2024",
+    "date": "2024-06-15",
     "videoUrl": "https://www.youtube.com/watch?v=h2xd9HbRANU",
     "theme": "pengame",
     "season": 2023,
@@ -45140,7 +46036,7 @@ export const battles: Battle[] = [
     "mc4": "smil3z",
     "title": "WHOISORION & iiiBEREALZ vs GRAMS & SMIL3Z",
     "displayTitle": "WHOISORION & iiiBEREALZ vs GRAMS & SMIL3Z",
-    "date": "03-08-2024",
+    "date": "2024-08-03",
     "videoUrl": "https://www.youtube.com/watch?v=nvsvjrSb5DY",
     "theme": "pengame",
     "season": 4,
@@ -45308,7 +46204,7 @@ export const battles: Battle[] = [
     "mc2": "drizzgb",
     "title": "REN DMC vs DRIZZGB 2",
     "displayTitle": "REN DMC vs DRIZZGB 2",
-    "date": "07-08-2024",
+    "date": "2024-08-07",
     "videoUrl": "https://www.youtube.com/watch?v=PxqpG9UtEww",
     "theme": "pengame",
     "season": 2023,
@@ -45923,7 +46819,7 @@ export const battles: Battle[] = [
     "mc2": "skamz",
     "winner": "ren-dmc",
     "title": "REN DMC vs SKAMZ",
-    "date": "10-08-2024",
+    "date": "2024-08-10",
     "videoUrl": "https://www.youtube.com/watch?v=QzWWm2YmW00",
     "theme": "pengame",
     "season": 2023,
@@ -46520,7 +47416,7 @@ export const battles: Battle[] = [
     "mc2": "rasiah",
     "winner": "rasiah",
     "title": "KANDI vs RA'SIAH",
-    "date": "05-03-2025",
+    "date": "2025-03-05",
     "videoUrl": "https://www.youtube.com/watch?v=as_la5t5iqA",
     "theme": "pengame",
     "season": "Cold War",
@@ -47371,7 +48267,7 @@ export const battles: Battle[] = [
     "mc2": "skamz",
     "winner": "passive",
     "title": "PASSIVE vs SKAMZ",
-    "date": "08-03-2025",
+    "date": "2025-03-08",
     "videoUrl": "https://www.youtube.com/watch?v=bIpqrBLcVqw",
     "theme": "pengame",
     "season": "Cold War",
@@ -47479,7 +48375,7 @@ export const battles: Battle[] = [
     "mc2": "rasiah",
     "winner": "passive",
     "title": "PASSIVE vs RA'SIAH",
-    "date": "12-03-2025",
+    "date": "2025-03-12",
     "videoUrl": "https://www.youtube.com/watch?v=lYnwH9sTZGk",
     "theme": "pengame",
     "season": "Cold War",
@@ -48384,7 +49280,7 @@ export const battles: Battle[] = [
     "mc2": "skamz",
     "winner": "skamz",
     "title": "KANDI vs SKAMZ",
-    "date": "22-03-2025",
+    "date": "2025-03-22",
     "videoUrl": "https://www.youtube.com/watch?v=c4FT_-jYPpk",
     "theme": "pengame",
     "season": "Cold War",
@@ -49205,7 +50101,7 @@ export const battles: Battle[] = [
     "mc2": "rasiah",
     "winner": "rasiah",
     "title": "SKAMZ vs RA'SIAH",
-    "date": "15-03-2025",
+    "date": "2025-03-15",
     "videoUrl": "https://www.youtube.com/watch?v=zKNs9v1szKY",
     "theme": "pengame",
     "season": "Cold War",
@@ -49954,7 +50850,7 @@ export const battles: Battle[] = [
     "mc2": "kandi",
     "winner": "passive",
     "title": "PASSIVE vs KANDI",
-    "date": "22-03-2025",
+    "date": "2025-03-22",
     "videoUrl": "https://www.youtube.com/watch?v=FNcbo032rW4",
     "theme": "pengame",
     "season": "Cold War",
@@ -50912,7 +51808,7 @@ export const battles: Battle[] = [
     "mc1": "grams",
     "mc2": "missink",
     "title": "GRAMS vs MISSINK",
-    "date": "24-03-2025",
+    "date": "2025-03-24",
     "videoUrl": "https://www.youtube.com/watch?v=2iD1-amdMRA",
     "theme": "pengame",
     "season": "2025",
@@ -50931,7 +51827,7 @@ export const battles: Battle[] = [
     "mc1": "kandi",
     "mc2": "bonnie-godiva",
     "title": "KANDI vs BONNIE GODIVA",
-    "date": "28-03-2025",
+    "date": "2025-03-28",
     "videoUrl": "https://www.youtube.com/watch?v=6QyxFkVFfgE",
     "theme": "pengame",
     "season": "2025",
@@ -50950,7 +51846,7 @@ export const battles: Battle[] = [
     "mc1": "tapped24",
     "mc2": "jmuni",
     "title": "TAPPED24 vs JMUNI",
-    "date": "31-03-2025",
+    "date": "2025-03-31",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -51006,7 +51902,7 @@ export const battles: Battle[] = [
     "mc2": "zen",
     "winner": "jm",
     "title": "JM vs ZEN",
-    "date": "16-04-2025",
+    "date": "2025-04-16",
     "videoUrl": "https://www.youtube.com/watch?v=m-i86qkAvB8",
     "theme": "pengame",
     "season": "Cold War",
@@ -51349,7 +52245,7 @@ export const battles: Battle[] = [
     "mc2": "smil3z",
     "winner": "smil3z",
     "title": "MARCEL vs SMIL3Z",
-    "date": "19-04-2025",
+    "date": "2025-04-19",
     "videoUrl": "https://www.youtube.com/watch?v=8C0wpxyNjfA",
     "theme": "pengame",
     "season": "Cold War",
@@ -51734,7 +52630,7 @@ export const battles: Battle[] = [
     "mc2": "marcel",
     "winner": "jm",
     "title": "JM vs MARCEL",
-    "date": "23-04-2025",
+    "date": "2025-04-23",
     "videoUrl": "https://www.youtube.com/watch?v=cBuI0vkdy4I",
     "theme": "pengame",
     "season": "Cold War",
@@ -52148,7 +53044,7 @@ export const battles: Battle[] = [
     "mc1": "fendry",
     "mc2": "iiiberealz",
     "winner": "fendry",
-    "date": "23-04-2025",
+    "date": "2025-04-23",
     "title": "FENDRY vs iiiBEREALZ",
     "theme": "pengame",
     "season": "Cold War",
@@ -52712,7 +53608,7 @@ export const battles: Battle[] = [
     "mc2": "smil3z",
     "winner": "jm",
     "title": "JM vs SMIL3Z",
-    "date": "26-04-2025",
+    "date": "2025-04-26",
     "videoUrl": "https://www.youtube.com/watch?v=cd7l9D0p7aQ",
     "theme": "pengame",
     "season": "Cold War",
@@ -53079,7 +53975,7 @@ export const battles: Battle[] = [
     "mc2": "marcel",
     "winner": "marcel",
     "title": "ZEN vs MARCEL",
-    "date": "16-04-2025",
+    "date": "2025-04-16",
     "theme": "pengame",
     "season": "Cold War",
     "competition": "PenGame Cold War",
@@ -53488,7 +54384,7 @@ export const battles: Battle[] = [
     "mc2": "smil3z",
     "winner": "zen",
     "title": "ZEN vs SMIL3Z",
-    "date": "03-05-2025",
+    "date": "2025-05-03",
     "videoUrl": "https://www.youtube.com/watch?v=-ilZEXmrji0",
     "theme": "pengame",
     "season": "Cold War",
@@ -53969,7 +54865,7 @@ export const battles: Battle[] = [
     "mc2": "fendry",
     "winner": "fendry",
     "title": "DEENO vs FENDRY",
-    "date": "28-05-2025",
+    "date": "2025-05-28",
     "videoUrl": "https://www.youtube.com/watch?v=3yaLKvfSp5o",
     "theme": "pengame",
     "season": "Cold War",
@@ -54384,7 +55280,7 @@ export const battles: Battle[] = [
     "mc2": "cucha",
     "winner": "sevz",
     "title": "SEVZ vs CUCHA",
-    "date": "31-05-2025",
+    "date": "2025-05-31",
     "videoUrl": "https://www.youtube.com/watch?v=2B8OSXMsyl4",
     "theme": "pengame",
     "season": "Cold War",
@@ -54763,7 +55659,7 @@ export const battles: Battle[] = [
     "mc2": "cucha",
     "winner": "cucha",
     "title": "DEENO vs CUCHA",
-    "date": "04-06-2025",
+    "date": "2025-06-04",
     "videoUrl": "https://www.youtube.com/watch?v=uhj2-0XDzEo",
     "theme": "pengame",
     "season": "Cold War",
@@ -55140,7 +56036,7 @@ export const battles: Battle[] = [
     "mc2": "fendry",
     "winner": "sevz",
     "title": "SEVZ vs FENDRY",
-    "date": "07-06-2025",
+    "date": "2025-06-07",
     "videoUrl": "https://www.youtube.com/watch?v=XAbOEncQcPs",
     "theme": "pengame",
     "season": "Cold War",
@@ -55553,7 +56449,7 @@ export const battles: Battle[] = [
     "mc2": "cucha",
     "winner": "fendry",
     "title": "FENDRY vs CUCHA",
-    "date": "11-06-2025",
+    "date": "2025-06-11",
     "videoUrl": "https://www.youtube.com/watch?v=gtLAE2vjdN0",
     "theme": "pengame",
     "season": "Cold War",
@@ -56032,7 +56928,7 @@ export const battles: Battle[] = [
     "mc2": "deeno",
     "winner": "deeno",
     "title": "SEVZ vs DEENO",
-    "date": "14-06-2025",
+    "date": "2025-06-14",
     "videoUrl": "https://www.youtube.com/watch?v=2NZH98272YM",
     "theme": "pengame",
     "season": "Cold War",
@@ -56457,7 +57353,7 @@ export const battles: Battle[] = [
     "mc2": "karma10tnf",
     "winner": "iiiberealz",
     "title": "iiiBEREALZ vs KARMA10TNF",
-    "date": "09-07-2025",
+    "date": "2025-07-09",
     "videoUrl": "https://www.youtube.com/watch?v=GbFEtydekdc",
     "theme": "pengame",
     "season": "Cold War",
@@ -56888,7 +57784,7 @@ export const battles: Battle[] = [
     "mc2": "jaycee",
     "winner": "jaycee",
     "title": "iiiBEREALZ vs JAYCEE",
-    "date": "12-07-2025",
+    "date": "2025-07-12",
     "videoUrl": "https://www.youtube.com/watch?v=vB0RUppQtLk",
     "theme": "pengame",
     "season": "Cold War",
@@ -57373,7 +58269,7 @@ export const battles: Battle[] = [
     "mc2": "che3kz",
     "winner": "che3kz",
     "title": "KARMA10TNF vs CHE3KZ",
-    "date": "16-07-2025",
+    "date": "2025-07-16",
     "videoUrl": "https://www.youtube.com/watch?v=fda25xwlaRY",
     "theme": "pengame",
     "season": "Cold War",
@@ -57816,7 +58712,7 @@ export const battles: Battle[] = [
     "mc2": "che3kz",
     "winner": "che3kz",
     "title": "JAYCEE vs CHE3KZ",
-    "date": "19-07-2025",
+    "date": "2025-07-19",
     "videoUrl": "https://www.youtube.com/watch?v=pMkmX0yXHEU",
     "theme": "pengame",
     "season": "Cold War",
@@ -58301,7 +59197,7 @@ export const battles: Battle[] = [
     "mc2": "karma10tnf",
     "winner": "jaycee",
     "title": "JAYCEE vs KARMA10TNF",
-    "date": "23-07-2025",
+    "date": "2025-07-23",
     "videoUrl": "https://www.youtube.com/watch?v=F5RtuRAuHB0",
     "theme": "pengame",
     "season": "Cold War",
@@ -58858,7 +59754,7 @@ export const battles: Battle[] = [
     "mc2": "che3kz",
     "winner": "iiiberealz",
     "title": "iiiBEREALZ vs CHE3KZ",
-    "date": "26-07-2025",
+    "date": "2025-07-26",
     "videoUrl": "https://www.youtube.com/watch?v=FcijpIWcBzk",
     "theme": "pengame",
     "season": "Cold War",
@@ -59391,7 +60287,7 @@ export const battles: Battle[] = [
     "mc2": "smil3z",
     "winner": "smil3z",
     "title": "JAYCEE vs SMIL3Z",
-    "date": "03-09-2025",
+    "date": "2025-09-03",
     "theme": "pengame",
     "season": "Cold War",
     "competition": "PenGame Cold War",
@@ -59935,7 +60831,7 @@ export const battles: Battle[] = [
     "mc1": "passive",
     "mc2": "fendry",
     "title": "PASSIVE vs FENDRY",
-    "date": "05-09-2025",
+    "date": "2025-09-05",
     "theme": "pengame",
     "season": "Cold War",
     "customEp": "6x35",
@@ -60793,7 +61689,7 @@ export const battles: Battle[] = [
     "mc2": "passive",
     "winner": "passive",
     "title": "JM vs PASSIVE",
-    "date": "06-09-2025",
+    "date": "2025-09-06",
     "theme": "pengame",
     "season": "Cold War",
     "competition": "PenGame Cold War",
@@ -61404,7 +62300,7 @@ export const battles: Battle[] = [
     "mc2": "sevz",
     "winner": "rasiah",
     "title": "RA'SIAH vs SEVZ",
-    "date": "17-09-2025",
+    "date": "2025-09-17",
     "theme": "pengame",
     "season": "Cold War",
     "competition": "PenGame Cold War",
@@ -62026,7 +62922,7 @@ export const battles: Battle[] = [
     "mc1": "smil3z",
     "mc2": "fendry",
     "title": "SMIL3Z vs FENDRY",
-    "date": "25-10-2025",
+    "date": "2025-10-25",
     "theme": "pengame",
     "season": "Cold War",
     "competition": "PenGame Cold War",
@@ -62047,7 +62943,7 @@ export const battles: Battle[] = [
     "mc2": "dan-dannah",
     "winner": "dan-dannah",
     "title": "SKAMZ vs DAN DANNAH",
-    "date": "18-02-2026",
+    "date": "2026-02-18",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62066,7 +62962,7 @@ export const battles: Battle[] = [
     "mc1": "bmf-alz",
     "mc2": "zion",
     "title": "BMF ALZ vs ZION",
-    "date": "22-03-2026",
+    "date": "2026-03-22",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62086,7 +62982,7 @@ export const battles: Battle[] = [
     "mc1": "iiiberealz",
     "mc2": "dan-dannah",
     "title": "iiiBEREALZ vs DAN DANNAH",
-    "date": "05-04-2026",
+    "date": "2026-04-05",
     "videoUrl": "https://www.youtube.com/watch?v=bR5DYMHJnjU",
     "theme": "pengame",
     "season": "Champions League",
@@ -62106,7 +63002,7 @@ export const battles: Battle[] = [
     "mc1": "whoisorion",
     "mc2": "jaycee",
     "title": "WHOISORION vs JAYCEE",
-    "date": "11-04-2026",
+    "date": "2026-04-11",
     "videoUrl": "https://www.youtube.com/watch?v=saDVRCNX7AE",
     "theme": "pengame",
     "season": "Champions League",
@@ -62126,7 +63022,7 @@ export const battles: Battle[] = [
     "mc1": "anbu-sensei",
     "mc2": "drizzgb",
     "title": "ANBU SENSEI vs DRIZZGB",
-    "date": "13-04-2026",
+    "date": "2026-04-13",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62146,7 +63042,7 @@ export const battles: Battle[] = [
     "mc1": "jm",
     "mc2": "kmarh",
     "title": "JM vs K.MARH",
-    "date": "15-04-2026",
+    "date": "2026-04-15",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62166,7 +63062,7 @@ export const battles: Battle[] = [
     "mc1": "lc",
     "mc2": "relapse",
     "title": "LC vs RELAPSE",
-    "date": "18-04-2026",
+    "date": "2026-04-18",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62186,7 +63082,7 @@ export const battles: Battle[] = [
     "mc1": "varntae",
     "mc2": "star-co",
     "title": "VARNTAE vs STAR.CO",
-    "date": "20-04-2026",
+    "date": "2026-04-20",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62206,7 +63102,7 @@ export const battles: Battle[] = [
     "mc1": "monroe",
     "mc2": "pocaa",
     "title": "MONROE vs POCAA",
-    "date": "22-04-2026",
+    "date": "2026-04-22",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62226,7 +63122,7 @@ export const battles: Battle[] = [
     "mc1": "eddfirst",
     "mc2": "domi-dusk",
     "title": "EDDFIRST vs DOMI DUSK",
-    "date": "25-04-2026",
+    "date": "2026-04-25",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62246,7 +63142,7 @@ export const battles: Battle[] = [
     "mc1": "whoisorion",
     "mc2": "lc",
     "title": "WHOISORION vs LC",
-    "date": "03-05-2026",
+    "date": "2026-05-03",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62266,7 +63162,7 @@ export const battles: Battle[] = [
     "mc1": "monroe",
     "mc2": "kmarh",
     "title": "MONROE vs K.MARH",
-    "date": "03-05-2026",
+    "date": "2026-05-03",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62286,7 +63182,7 @@ export const battles: Battle[] = [
     "mc1": "drizzgb",
     "mc2": "rp",
     "title": "DRIZZGB vs RP",
-    "date": "03-05-2026",
+    "date": "2026-05-03",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62306,7 +63202,7 @@ export const battles: Battle[] = [
     "mc1": "kandi",
     "mc2": "star-co",
     "title": "KANDI vs STAR.CO",
-    "date": "03-05-2026",
+    "date": "2026-05-03",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62326,7 +63222,7 @@ export const battles: Battle[] = [
     "mc1": "skamz",
     "mc2": "relapse",
     "title": "SKAMZ vs RELAPSE",
-    "date": "03-05-2026",
+    "date": "2026-05-03",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62346,7 +63242,7 @@ export const battles: Battle[] = [
     "mc1": "char-b",
     "mc2": "dan-dannah",
     "title": "CHAR.B vs DAN DANNAH",
-    "date": "03-05-2026",
+    "date": "2026-05-03",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62366,7 +63262,7 @@ export const battles: Battle[] = [
     "mc1": "iiiberealz",
     "mc2": "pocaa",
     "title": "iiiBEREALZ vs POCAA",
-    "date": "03-05-2026",
+    "date": "2026-05-03",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62386,7 +63282,7 @@ export const battles: Battle[] = [
     "mc1": "varntae",
     "mc2": "domi-dusk",
     "title": "VARNTAE vs DOMI DUSK",
-    "date": "03-05-2026",
+    "date": "2026-05-03",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62406,7 +63302,7 @@ export const battles: Battle[] = [
     "mc1": "eddfirst",
     "mc2": "jaycee",
     "title": "EDDFIRST vs JAYCEE",
-    "date": "03-05-2026",
+    "date": "2026-05-03",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62426,7 +63322,7 @@ export const battles: Battle[] = [
     "mc1": "jm",
     "mc2": "anbu-sensei",
     "title": "JM vs ANBU SENSEI",
-    "date": "30-05-2026",
+    "date": "2026-05-30",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62446,7 +63342,7 @@ export const battles: Battle[] = [
     "mc1": "skamz",
     "mc2": "whoisorion",
     "title": "SKAMZ vs WHOISORION",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62466,7 +63362,7 @@ export const battles: Battle[] = [
     "mc1": "kandi",
     "mc2": "iiiberealz",
     "title": "KANDI vs iiiBEREALZ",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62486,7 +63382,7 @@ export const battles: Battle[] = [
     "mc1": "dan-dannah",
     "mc2": "monroe",
     "title": "DAN DANNAH vs MONROE",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62506,7 +63402,7 @@ export const battles: Battle[] = [
     "mc1": "jm",
     "mc2": "varntae",
     "title": "JM vs VARNTAE",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62526,7 +63422,7 @@ export const battles: Battle[] = [
     "mc1": "anbu-sensei",
     "mc2": "relapse",
     "title": "ANBU SENSEI vs RELAPSE",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62546,7 +63442,7 @@ export const battles: Battle[] = [
     "mc1": "jaycee",
     "mc2": "kmarh",
     "title": "JAYCEE vs K.MARH",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62566,7 +63462,7 @@ export const battles: Battle[] = [
     "mc1": "eddfirst",
     "mc2": "star-co",
     "title": "EDDFIRST vs STAR.CO",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62586,7 +63482,7 @@ export const battles: Battle[] = [
     "mc1": "char-b",
     "mc2": "pocaa",
     "title": "CHAR.B vs POCAA",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62606,7 +63502,7 @@ export const battles: Battle[] = [
     "mc1": "domi-dusk",
     "mc2": "rp",
     "title": "DOMI DUSK vs RP",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62626,7 +63522,7 @@ export const battles: Battle[] = [
     "mc1": "drizzgb",
     "mc2": "lc",
     "title": "DRIZZGB vs LC",
-    "date": "31-05-2026",
+    "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
@@ -62646,7 +63542,7 @@ export const battles: Battle[] = [
     "mc1": "monroe",
     "mc2": "rackz",
     "title": "MONROE vs RACKZ",
-    "date": "12-11-2025",
+    "date": "2025-11-12",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Clashes",
@@ -62664,7 +63560,7 @@ export const battles: Battle[] = [
     "mc1": "dyzz",
     "mc2": "jynx",
     "title": "DYZZ vs JYNX",
-    "date": "19-11-2025",
+    "date": "2025-11-19",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Clashes",
@@ -62682,7 +63578,7 @@ export const battles: Battle[] = [
     "mc1": "jmuni",
     "mc2": "mz",
     "title": "J MUNI vs MZ",
-    "date": "01-12-2025",
+    "date": "2025-12-01",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Clashes",
@@ -62700,7 +63596,7 @@ export const battles: Battle[] = [
     "mc1": "mz",
     "mc2": "s-kidz",
     "title": "MZ vs S'KIDZ",
-    "date": "05-12-2025",
+    "date": "2025-12-05",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Clashes",
@@ -62717,7 +63613,7 @@ export const battles: Battle[] = [
     "mc1": "eddfirst",
     "mc2": "varntae",
     "title": "EDDFIRST vs VARNTAE",
-    "date": "15-12-2025",
+    "date": "2025-12-15",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Clashes",
@@ -62735,7 +63631,7 @@ export const battles: Battle[] = [
     "mc1": "guni",
     "mc2": "7wxve",
     "title": "GUNI vs 7WXVE",
-    "date": "20-12-2025",
+    "date": "2025-12-20",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Clashes",
@@ -62753,7 +63649,7 @@ export const battles: Battle[] = [
     "mc1": "eddfirst",
     "mc2": "scotty",
     "title": "EDDFIRST vs SCOTTY",
-    "date": "03-01-2026",
+    "date": "2026-01-03",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Graduation Day",
@@ -62771,7 +63667,7 @@ export const battles: Battle[] = [
     "mc1": "jaycee",
     "mc2": "rp",
     "title": "JAYCEE vs RP",
-    "date": "10-01-2026",
+    "date": "2026-01-10",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Graduation Day",
@@ -62788,7 +63684,7 @@ export const battles: Battle[] = [
     "mc1": "lc",
     "mc2": "penno",
     "title": "LC vs PENNO",
-    "date": "28-01-2026",
+    "date": "2026-01-28",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Clashes",
@@ -62806,7 +63702,7 @@ export const battles: Battle[] = [
     "mc1": "dyzz",
     "mc2": "rackz",
     "title": "DYZZ vs RACKZ",
-    "date": "05-02-2026",
+    "date": "2026-02-05",
     "videoUrl": "https://www.youtube.com/watch?v=0qT7qS4_G1o",
     "theme": "pengame",
     "season": "Academy",
@@ -62824,7 +63720,7 @@ export const battles: Battle[] = [
     "mc1": "lc",
     "mc2": "anbu-sensei",
     "title": "LC vs ANBU SENSEI",
-    "date": "07-02-2026",
+    "date": "2026-02-07",
     "videoUrl": "https://www.youtube.com/watch?v=04BHiF6ZiCs",
     "theme": "pengame",
     "season": "Academy",
@@ -62842,7 +63738,7 @@ export const battles: Battle[] = [
     "mc1": "jmuni",
     "mc2": "mz",
     "title": "J MUNI vs MZ II",
-    "date": "09-02-2026",
+    "date": "2026-02-09",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Clashes",
@@ -62859,7 +63755,7 @@ export const battles: Battle[] = [
     "mc1": "iffy",
     "mc2": "star-co",
     "title": "IFFY vs STAR CO",
-    "date": "10-02-2026",
+    "date": "2026-02-10",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Graduation Day",
@@ -62877,7 +63773,7 @@ export const battles: Battle[] = [
     "mc1": "scotty",
     "mc2": "guni",
     "title": "SCOTTY vs GUNI",
-    "date": "18-02-2026",
+    "date": "2026-02-18",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Clashes",
@@ -62894,7 +63790,7 @@ export const battles: Battle[] = [
     "mc1": "rp",
     "mc2": "eddfirst",
     "title": "RP vs EDDFIRST",
-    "date": "21-02-2026",
+    "date": "2026-02-21",
     "videoUrl": "https://www.youtube.com/watch?v=Te8n1UbyGUc",
     "theme": "pengame",
     "season": "Academy",
@@ -62908,7 +63804,9 @@ export const battles: Battle[] = [
   }
 ];
 
-export const pengameBattles: Battle[] = battles;
+export const pengameBattles: Battle[] = Array.from(
+  new Map([...battles, ...supplementalBattles].map((battle) => [battle.id, battle])).values(),
+).filter((battle) => battle.id !== "pg-s05-2025-11-25-trappy-vs-drizzgb");
 
 export const getBattlePageStem = (battle: Pick<Battle, "slug">): string =>
   battle.slug

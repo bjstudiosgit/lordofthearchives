@@ -616,6 +616,7 @@ const newReports: Record<string, any> = {
 
 // Update battles array
 const updatedBattles = battles.map(battle => {
+  if (!battle.customEp) return battle;
   const report = newReports[battle.customEp];
   if (report) {
     console.log(`Updating battle report for ${battle.customEp} (${battle.title})`);

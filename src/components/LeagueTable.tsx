@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { motion } from "motion/react";
+import { useMemo, useState } from "react";
 import { Clock } from "lucide-react";
 import { pengameMcs } from "../data/mcs";
 import { pengameBattles } from "../data/battles";
@@ -10,35 +10,43 @@ interface LeagueTableProps {
   showTitle?: boolean;
 }
 
+type SortMode = "appearances" | "wins" | "losses" | "winRate" | "points";
+
 export default function LeagueTable({ limit, showTitle = true }: LeagueTableProps) {
-  let rankings = [...pengameMcs]
-    .sort((a, b) => {
-      const aPoints = a.battles + (a.wins * 3);
-      const bPoints = b.battles + (b.wins * 3);
-      if (bPoints !== aPoints) return bPoints - aPoints;
-      
-      // Tie-breaker: fewest losses
-      if (a.losses !== b.losses) return a.losses - b.losses;
-      
-      // Tie-breaker: most battles
+  const [sortMode, setSortMode] = useState<SortMode>("points");
+
+  const rankings = useMemo(() => {
+    const sorted = [...pengameMcs].sort((a, b) => {
+      const comparisons: Record<SortMode, number> = {
+        appearances: b.battles - a.battles,
+        wins: b.wins - a.wins,
+        losses: b.losses - a.losses,
+        winRate: getWinRate(b.wins, b.losses) - getWinRate(a.wins, a.losses),
+        points: getPoints(b) - getPoints(a),
+      };
+
+      const primary = comparisons[sortMode];
+      if (primary !== 0) return primary;
+      if (sortMode !== "losses" && a.losses !== b.losses) return a.losses - b.losses;
       return b.battles - a.battles;
-    })
-    .map((mc, index) => ({
+    });
+
+    return sorted.map((mc, index) => ({
       rank: index + 1,
       id: mc.id,
       slug: mc.slug,
       name: mc.name,
-      points: mc.battles + (mc.wins * 3),
+      points: getPoints(mc),
       battles: mc.battles,
       wins: mc.wins,
       losses: mc.losses,
+      winRate: getWinRate(mc.wins, mc.losses),
       unreleased: pengameBattles.filter(b => b.isUnreleased && (b.mc1 === mc.id || b.mc2 === mc.id)).length,
-      change: "none"
+      change: "none",
     }));
+  }, [sortMode]);
 
-  if (limit) {
-    rankings = rankings.slice(0, limit);
-  }
+  const visibleRankings = limit ? rankings.slice(0, limit) : rankings;
 
   return (
     <section id="league" className="py-24 scroll-mt-24">
@@ -49,6 +57,29 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
             <h3 className="text-5xl font-display italic uppercase">PenGame <span className="text-brand">Leaderboard</span></h3>
           </div>
         )}
+
+        <div className="mb-6 flex flex-wrap items-center gap-2">
+          {[
+            { value: "points", label: "Points" },
+            { value: "appearances", label: "Appearances" },
+            { value: "wins", label: "Wins" },
+            { value: "losses", label: "Losses" },
+            { value: "winRate", label: "Win Ratio" },
+          ].map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              onClick={() => setSortMode(option.value as SortMode)}
+              className={`rounded-full border px-3 py-1 text-[10px] font-black uppercase tracking-[0.2em] transition-colors ${
+                sortMode === option.value
+                  ? "border-brand bg-brand/10 text-brand"
+                  : "border-white/10 bg-zinc-900/60 text-zinc-400 hover:border-white/20 hover:text-white"
+              }`}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
 
         <div className="bg-zinc-900/50 rounded-3xl border border-white/5 overflow-hidden">
           <div className="overflow-x-auto">
@@ -69,6 +100,10 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
                     <span className="md:hidden">L</span>
                     <span className="hidden md:inline">Losses</span>
                   </th>
+                  <th className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
+                    <span className="md:hidden">WR</span>
+                    <span className="hidden md:inline">Win Ratio</span>
+                  </th>
                   <th className="px-2 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
                     <span className="md:hidden">Pts</span>
                     <span className="hidden md:inline">Points</span>
@@ -76,15 +111,8 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
                 </tr>
               </thead>
               <tbody>
-                {rankings.map((mc, index) => (
-                  <motion.tr
-                    key={mc.name}
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ delay: index * 0.05 }}
-                    viewport={{ once: true }}
-                    className="border-b border-white/5 hover:bg-white/5 transition-colors cursor-pointer"
-                  >
+                {visibleRankings.map((mc) => (
+                  <tr key={mc.id} className="border-b border-white/5 hover:bg-white/5 transition-colors cursor-pointer">
                     <td className="hidden md:table-cell px-2 py-3 md:px-8 md:py-6">
                       <span className={`font-display italic text-lg md:text-2xl ${mc.rank < 4 ? "text-brand" : "text-zinc-300"}`}>
                         {mc.rank < 10 ? `0${mc.rank}` : mc.rank}
@@ -111,8 +139,11 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
                     </td>
                     <td className="px-1 py-3 md:px-8 md:py-6 font-mono text-[11px] md:text-base text-center text-zinc-300">{mc.wins}</td>
                     <td className="px-1 py-3 md:px-8 md:py-6 font-mono text-[11px] md:text-base text-center text-zinc-300">{mc.losses}</td>
+                    <td className="px-1 py-3 md:px-8 md:py-6 font-mono text-[11px] md:text-base text-center text-zinc-300">
+                      {formatWinRate(mc.wins, mc.losses)}
+                    </td>
                     <td className="px-2 py-3 md:px-8 md:py-6 font-bold text-[11px] md:text-base text-center text-zinc-100">{mc.points.toLocaleString()}</td>
-                  </motion.tr>
+                  </tr>
                 ))}
               </tbody>
             </table>
@@ -133,4 +164,20 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
       </div>
     </section>
   );
+}
+
+function formatWinRate(wins: number, losses: number): string {
+  const total = wins + losses;
+  if (total <= 0) return "0.0%";
+  return `${((wins / total) * 100).toFixed(1)}%`;
+}
+
+function getPoints(mc: { battles: number; wins: number }): number {
+  return mc.battles + mc.wins * 3;
+}
+
+function getWinRate(wins: number, losses: number): number {
+  const total = wins + losses;
+  if (total <= 0) return 0;
+  return wins / total;
 }
