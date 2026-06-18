@@ -5614,21 +5614,520 @@ export const battles: Battle[] = [
     "slug": "ft-vs-prynlee",
     "mc1": "ft",
     "mc2": "prynlee",
-    "winner": "ft",
     "title": "F.T vs PRYNLEE",
     "displayTitle": "F.T vs PRYNLEE",
     "date": "2023-09-30",
-    "videoUrl": "https://www.youtube.com/watch?v=VjAlQ8tpHjI",
     "theme": "pengame",
     "season": 4,
-    "seasonOrder": 11,
     "views": "94k",
     "customEp": "4x11",
+    "seasonOrder": 11,
     "stage": null,
     "group": null,
     "tag": null,
-    "host": "Margs (Andre Wright)",
-    "judges": []
+    "videoUrl": "https://www.youtube.com/watch?v=VjAlQ8tpHjI",
+    "winner": "ft",
+    "clashSummary": "FOREVER TAPPED vs PRYNLEE DA DIVAA took place during **PenGame Season 4**, with Big Mawz hosting. The host introduces it as one person making their debut and one person making their return. FOREVER TAPPED is also teased for previously running away from SCAMPS, adding pressure to his return.\r\n\r\nFOREVER TAPPED goes first.\r\n\r\nFOREVER TAPPED opens with a direct and cruel first round built mostly around PRYNLEE’s body, looks and weight. He calls her fat, dirty, unattractive and compares her to an ape, gorilla and beast. He also flips the Beauty and the Beast idea and uses “stroke of luck” material after the host jokes about her presence. The round is harsh, but it is focused and consistent. TAPPED sets the tone early by making the whole clash a body-image attack.\r\n\r\nPRYNLEE answers with energy but less structure. She attacks TAPPED’s mother, belly, age, pride, homelessness, badness and lack of progress despite years in the scene. She also says TAPPED is not that guy and looks like a stealer before weight loss. The round has personality and a few decent rebuttal-style hits, but it is shorter and less polished than TAPPED’s opener.\r\n\r\nFOREVER TAPPED’s second round is his clearest round. He continues the body-image angle but sharpens it with more punchlines: Precious, exercise, lesser fries, Zumba, Pumba, diabetes, chicken and chips, Walkers, breath and pregnancy jokes. It is repetitive in theme, but more battle-ready than his first. He sounds more composed and gets through the round with a clear structure.\r\n\r\nPRYNLEE’s second is her best round. She brings more direct attack and uses a prop-style moment with underwear/panties, flipping F.T. into a gendered insult and telling him to collect his panties. She also attacks his career, height, status, lips and lack of talent, while saying PenGame called her because there is a shortage of talent. It is her strongest performance moment, but it still does not fully match TAPPED’s cleaner construction.\r\n\r\nFOREVER TAPPED’s third is the most developed writing in the battle. He moves from basic fat jokes into a more personal angle around mental health, emotional eating, abandonment, father issues and food imagery. He links daddy issues, mixtape jokes, takeout, stakeout, buffet, sauce stains, plates, microwave and cooking imagery. The round is brutal and uncomfortable, but it is also the most complete round of the clash.\r\n\r\nPRYNLEE’s third has energy but falls apart structurally. She starts with Jordan, frozen ones, Plankton, dancing, Aquafina and Spanish material, but it becomes harder to follow and less targeted. The host asks what she said in Spanish and she explains that she called herself a princess. It has performance personality, but not enough clean battle material to swing the result.\r\n\r\nThere is no official decision. The host tells viewers to get in the comments and say who won.\r\n\r\nBased on the battle, FOREVER TAPPED wins by Archive Judgement.",
+    "performanceAnalysis": [
+      {
+        "performer": "FOREVER TAPPED",
+        "overview": "FOREVER TAPPED wins because he has the clearer structure, more complete rounds and better punchline density. The content is repetitive and often crude, but as a battle performance it stays on target.\r\n\r\nHis first round establishes the battle’s central angle: PRYNLEE’s body and appearance. The material is harsh and one-dimensional, but it is direct and consistent. He gives the crowd a clear reason to understand his attack.\r\n\r\nHis second round is his cleanest. The Precious, Zumba, Pumba, diabetes, chicken and chips, Walkers and pregnancy angles are all variations on the same theme, but he delivers them with confidence. This round gives him control.\r\n\r\nHis third is his most developed. He moves beyond surface-level weight jokes into emotional eating, abandonment and father issues. It is uncomfortable material, but it is the most complete writing of the battle and makes the result clearer.\r\n\r\nTAPPED’s biggest strength is focus. His weakness is lack of variety.",
+        "lyricalThemes": "Weight, body image, Beauty and the Beast, Precious, exercise, Zumba, Pumba, diabetes, chicken and chips, Walkers, pregnancy, mental health, emotional eating, abandonment, daddy issues, takeout, buffet, stakeout, microwave/cooking imagery.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Focused insult writing."
+          },
+          {
+            "title": "Best angle",
+            "description": "PRYNLEE’s body image and emotional eating."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Daddy issues / takeout / stakeout / microwave run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "More complete rounds and cleaner attack structure."
+          }
+        ]
+      },
+      {
+        "performer": "PRYNLEE",
+        "overview": "PRYNLEE has energy and character, but the writing is less consistent than TAPPED’s. Her second round is her best because it has the clearest angle and a performance moment.\r\n\r\nHer first round attacks TAPPED’s age, belly, pride, homelessness, mother and lack of progress. She sounds confident, but the round does not build as cleanly as TAPPED’s opener.\r\n\r\nHer second round is stronger. The “FT” name flip and panty/prop-style moment give her something memorable. She also attacks his career being frozen, his height, his lips and his lack of status. This is the one round where she has a real case.\r\n\r\nHer third round loses focus. It has energy, Spanish, dancing, Plankton and Aquafina references, but the material becomes harder to follow and does not land as clean battle writing.\r\n\r\nPRYNLEE’s biggest strength is personality. Her weakness is structure.",
+        "lyricalThemes": "Mother insults, belly/pregnancy jokes, age, homelessness, pride, lack of progress, Barbie Dreamhouse, steakhouse, shortage of talent, Frozen / Let It Go, height, lips, panty prop, Plankton, Aquafina, Spanish/princess moment.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Performance personality."
+          },
+          {
+            "title": "Best angle",
+            "description": "F.T. name flip and panty/prop moment."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Frozen career / height / panty section."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Third round becomes too loose and unfocused."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Insult",
+        "bar": "You got a pack of runs. Are you cracked or dumb?",
+        "explanation": "TAPPED opens aggressively, suggesting PRYNLEE is both chaotic and unintelligent."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Appearance",
+        "bar": "You’re fat with no bum.",
+        "explanation": "A direct body insult and the start of TAPPED’s repeated body-image angle."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Appearance",
+        "bar": "Your body a horrid one.",
+        "explanation": "Another appearance attack, keeping the opener blunt."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Rejection",
+        "bar": "There’s no way I can dig her.",
+        "explanation": "A rejection line. TAPPED says he finds PRYNLEE unattractive."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "This ape, she is fake, a gorilla.",
+        "explanation": "Animal comparison used as an appearance insult. It is hostile battle material."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "If anyone thinks this beast is beauty, I question a man’s vision.",
+        "explanation": "A Beauty and the Beast-style flip."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "You’re here with a stroke of luck.",
+        "explanation": "A stroke/luck wordplay, tied to the host’s intro."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "I don’t wanna hear anyone big you up, you’re big enough.",
+        "explanation": "One of TAPPED’s better first-round weight flips. “Big you up” becomes body size."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Insult",
+        "bar": "How can you come here looking so fat and dirty, a pig in mud?",
+        "explanation": "A weight/hygiene insult."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Appearance",
+        "bar": "You’re not thick, you’re a fatty.",
+        "explanation": "TAPPED separates attractive thickness from obesity."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Appearance",
+        "bar": "Belly hangover.",
+        "explanation": "A body/shape punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Self-Awareness",
+        "bar": "I’m known for taking the piss.",
+        "explanation": "TAPPED opens round two by admitting his style is mockery."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "When Marz said large up yourself, I don’t think he meant like this.",
+        "explanation": "A strong “large up” wordplay. Marz’s phrase becomes a weight joke."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Reference",
+        "bar": "You think I’m gonna let Miss rain over me when she look like Precious?",
+        "explanation": "A Precious reference used as a body-image attack."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Diet/Health",
+        "bar": "How about exercise and doing some lesser fries?",
+        "explanation": "A diet/exercise punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "You’re so fat to look at you, I gotta stretch my eyes.",
+        "explanation": "A visual exaggeration punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Reference",
+        "bar": "How about do some Zumba?",
+        "explanation": "A fitness reference."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Reference",
+        "bar": "You got all this belly, no wonder this one here really look like Pumba.",
+        "explanation": "A Lion King / Pumba reference."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Insult",
+        "bar": "I don’t know if you’re an obese virgin or a heavy freak.",
+        "explanation": "A sex/body insult."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Rejection",
+        "bar": "If you offer me demon time, I’ll go and find Jesus Christ.",
+        "explanation": "A sexual rejection line. TAPPED says he would choose religion over sex with PRYNLEE."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "You’ll never get a cream pie from me, but I’ll give her a pizza slice.",
+        "explanation": "A crude food/sex wordplay. It is battle material."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "I know there’s an earthquake any time that you step on road.",
+        "explanation": "A weight/impact exaggeration."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Diet/Health",
+        "bar": "You’re gonna die from diabetes, too much chicken and chips.",
+        "explanation": "A food/health insult."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Diet/Health",
+        "bar": "You’re not a sweet one, stop them sweeties and all them crisps.",
+        "explanation": "Food/sweets/crisps angle."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Fitness",
+        "bar": "So fat when you run your gums, you run out of breath.",
+        "explanation": "A talking/fitness punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Mental Health",
+        "bar": "No whack, I’mma trigger your mental health.",
+        "explanation": "TAPPED opens the third with a darker psychological angle."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Mental Health",
+        "bar": "Emotionally eating, she started at seven or twelve.",
+        "explanation": "An emotional-eating/backstory insult. It is battle material."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Family",
+        "bar": "Her dad abandoned her, his angel been going through hell.",
+        "explanation": "A father-abandonment angle. It is battle material."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Self-Awareness",
+        "bar": "I’ve been through that as well.",
+        "explanation": "A self-aware moment where TAPPED briefly connects his own experience to the angle."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "We should make a mixtape, ballys and tissues.",
+        "explanation": "A pain/crying/trauma line."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Family",
+        "bar": "I can only give you cocky, I can’t help with your daddy issues.",
+        "explanation": "A crude sexual/father-issues punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Imagery",
+        "bar": "Imagine walking your daughter to school and everyone stands and points.",
+        "explanation": "A social-shame/family image."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Family",
+        "bar": "The fattest girl in the playground, no wonder he did not stay round.",
+        "explanation": "A harsh abandonment/body punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "How many times have you ate out?",
+        "explanation": "A food/sex double meaning."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "You turned to a fed when the police said they were doing a stakeout.",
+        "explanation": "A steak/stakeout wordplay."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Wordplay",
+        "bar": "Belly, you’re the beast when you’re getting that takeout.",
+        "explanation": "A Beauty and the Beast / takeout punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Food",
+        "bar": "Buffet, that’s a day out.",
+        "explanation": "A food/activity insult."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Food/Hygiene",
+        "bar": "When you get sauce on your top, do you lick it to get that stain out?",
+        "explanation": "A food/hygiene punch."
+      },
+      {
+        "performer": "FOREVER TAPPED",
+        "theme": "Closing",
+        "bar": "Microwave, you really got cooked.",
+        "explanation": "A cooking/battle-death closer."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Disrespect",
+        "bar": "F.T., go fuck your mama.",
+        "explanation": "PRYNLEE opens with a blunt mother insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Domination",
+        "bar": "I’ll chew this n**** up then spit him out.",
+        "explanation": "A domination/eating metaphor."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Self-Awareness",
+        "bar": "I’ve got no manners.",
+        "explanation": "A self-branding line: she is coming disrespectful."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Reference",
+        "bar": "Karate Kid, Jackie Chan.",
+        "explanation": "A martial-arts/fighting reference."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Critique",
+        "bar": "You ain’t about that life.",
+        "explanation": "A credibility attack."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Rebuttal",
+        "bar": "F.T., why is your belly still here?",
+        "explanation": "A rebuttal body joke aimed back at TAPPED."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Appearance",
+        "bar": "You’ve been preggers for three whole years.",
+        "explanation": "A pregnancy/weight insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Wordplay",
+        "bar": "You ain’t banging no mash, just yamming on bangers and mash.",
+        "explanation": "A gun/mash and food/bangers-and-mash wordplay."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Age/Status",
+        "bar": "F.T., you’re like 35. Where’s your pride?",
+        "explanation": "An age/progress insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Career",
+        "bar": "Been doing this shit for years and you ain’t got life.",
+        "explanation": "A career-progress attack."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Appearance",
+        "bar": "You look like a stealer before the weight loss.",
+        "explanation": "A celebrity/body comparison."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Violence",
+        "bar": "My brothers put holes in heads like Donald’s.",
+        "explanation": "A violence/reference line. It is battle material."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Wordplay",
+        "bar": "You ain’t got no heart, so I’ll pierce and play through it like my name is Cupid.",
+        "explanation": "A Cupid/heart punch."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Disrespect",
+        "bar": "You’re a bitch, go play with your Barbie Dreamhouse.",
+        "explanation": "A femininity/toy insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Wordplay",
+        "bar": "If you want beef, let me take you to the steakhouse.",
+        "explanation": "A beef/steakhouse wordplay."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Confidence",
+        "bar": "This is PRYNLEE’s playground.",
+        "explanation": "A confidence/stage-control line."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Wordplay",
+        "bar": "I’ll have you doing hammies like Greyhound.",
+        "explanation": "A running/hamstring/Greyhound punch."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Status",
+        "bar": "How you got me here beefing a bitch? I said that I wanted a challenge.",
+        "explanation": "PRYNLEE frames TAPPED as below her level."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Critique",
+        "bar": "Good thing that PenGame called me, I see that there is a shortage of talent.",
+        "explanation": "A platform/roster insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Reference",
+        "bar": "Your career is frozen. Let it go.",
+        "explanation": "A Frozen / Let It Go reference."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Career/Appearance",
+        "bar": "Your career and height is really the same, none of them ever gonna grow.",
+        "explanation": "A height/career-progress punch."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Critique",
+        "bar": "You talk about putting a man in a split, but you won’t go blow for blow.",
+        "explanation": "A fight/credibility line."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Appearance",
+        "bar": "Your lips are black, look like a disabled crow.",
+        "explanation": "An appearance insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Disrespect",
+        "bar": "F.T. stands for female tranny.",
+        "explanation": "A transphobic name flip. It is hostile battle material."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Prop",
+        "bar": "Come and collect your panty.",
+        "explanation": "A prop-style/panty insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Prop",
+        "bar": "Why did you get the wrong size?",
+        "explanation": "A size/underwear prop joke."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Appearance",
+        "bar": "You know you’re extra, extra, extra large.",
+        "explanation": "A size insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Wordplay",
+        "bar": "Stomped him out then put him on a shoe — I guess that’s the Jordan one.",
+        "explanation": "A Jordan sneaker/stomping punch."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Disrespect",
+        "bar": "I don’t fuck with this n****.",
+        "explanation": "A direct hostility line."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Appearance",
+        "bar": "You’re the size of Plankton.",
+        "explanation": "A SpongeBob / Plankton height insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Masculinity",
+        "bar": "You ain’t got no dick.",
+        "explanation": "A masculinity insult."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Confidence",
+        "bar": "PRYNLEE DA DIVAA, pussy wet like Aquafina.",
+        "explanation": "A name-branding/sexual line."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Performance",
+        "bar": "I speak Spanish.",
+        "explanation": "A performance moment where PRYNLEE switches language and explains it to the host."
+      },
+      {
+        "performer": "PRYNLEE",
+        "theme": "Status",
+        "bar": "I’m a princess.",
+        "explanation": "Her Spanish section resolves into self-branding: PRYNLEE as princess/diva."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "ft",
+      "summary": "Official visible result: N/A (Host told viewers to comment). Suggested archive score: FOREVER TAPPED 3-0 PRYNLEE DA DIVAA. Suggested round split: Round 1: FOREVER TAPPED, Round 2: FOREVER TAPPED / close, Round 3: FOREVER TAPPED. Reason: PRYNLEE’s second round is competitive and has the bigger prop-style moment, but TAPPED is clearer and more consistent across all three. His third round makes the result decisive. Performance Grades - FOREVER TAPPED: B, PRYNLEE DA DIVAA: C+. Final Note: This battle is mostly shock humour and body-image disrespect. TAPPED wins on structure and completion, while PRYNLEE brings personality but not enough clean writing to take rounds."
+    }
   },
   {
     "id": "pg-s04-2023-10-12-whoisorion-vs-renaya",
@@ -7261,20 +7760,639 @@ export const battles: Battle[] = [
     "slug": "a-petrelli-vs-smil3z",
     "mc1": "a-petrelli",
     "mc2": "smil3z",
-    "winner": "smil3z",
     "title": "A PETRELLI vs SMIL3Z",
+    "date": "2023-09-16",
     "theme": "pengame",
     "season": 4,
-    "seasonOrder": 9,
     "views": "76k",
-    "date": "2023-09-16",
-    "videoUrl": "https://www.youtube.com/watch?v=BPdBaYkeZh0",
     "customEp": "4x09",
+    "seasonOrder": 9,
     "stage": null,
     "group": null,
     "tag": null,
-    "host": "Margs (Andre Wright)",
-    "judges": []
+    "videoUrl": "https://www.youtube.com/watch?v=BPdBaYkeZh0",
+    "winner": "smil3z",
+    "clashSummary": "A. PETRELLI vs SMIL3Z took place during **PenGame Season 4**, with Big Mawz hosting. The event is sponsored by **Rude Boy**, with this battle also sponsored by **Drip Nation**. The host introduces it as a special battle because both battlers are making their PenGame debut.\n\nPETRELLI goes first.\n\nPETRELLI opens with an aggressive first round aimed at SMIL3Z’s status, family, girlfriend, time served, bars and credibility. He says he can take SMIL3Z out of people’s lives, claims his girl is running PETRELLI’s lines, attacks his spelling, calls him out for allegedly repping prison/time-served material, and says SMIL3Z is not a star. The round has threat and energy, but it is messy in structure and does not fully settle into a clean angle.\n\nSMIL3Z responds with a more controlled first. He opens by saying he will send demons to fetch PETRELLI’s soul, then attacks PETRELLI as a rookie while framing himself as the veteran. He uses one-man-army imagery, soul/death threats, alien jokes, clothing and money insults, and says PETRELLI is not really on blasting or badness. It is a stronger and more complete debut round.\n\nPETRELLI’s second is his best round. He attacks SMIL3Z’s background, bars, daughter, mother, threat level, drinking, family and street credibility. He uses South London place-name material including Streatham, Peckham, Welling and Palace, then moves into shotgun, Pamela Anderson / Baywatch, Paco Rabanne, Heath Ledger / Joker and chef imagery. He stumbles near the end but still delivers his most interesting material of the battle.\n\nSMIL3Z answers with a stronger second. He attacks PETRELLI’s appearance, family, mother, badness, forehead, rap cap, baby mum, punchlines and status. He says PETRELLI looks inbred, homeless, unfed and has a forehead visible from miles away. He also brings baby-mum violation, nettles imagery and claims he is the hardest on PenGame. The round has more complete control and stronger insult density.\n\nThe third round decides the battle beyond debate. PETRELLI starts his final round, but after only a few bars he drops the mic. The host stops the round and states clearly that the rule is: if you drop the mic, you are done. PETRELLI does not continue.\n\nSMIL3Z then delivers a full third round. He attacks PETRELLI’s mother, family, health, baby mum, forehead, ancestry, face, cancellation, style, weakness and lack of improvement. He ends by saying the PETRELLI pack has turned to “runtz,” turning PETRELLI into something smoked and finished.\n\nThere is no official judging section in the transcript. The host closes by saying both men represented on their debut and tells viewers to comment who they think won.\n\nBased on the material and PETRELLI’s third-round non-completion, SMIL3Z wins clearly by Archive Judgement.",
+    "performanceAnalysis": [
+      {
+        "performer": "SMIL3Z",
+        "overview": "SMIL3Z wins because he delivers three complete rounds and looks more prepared. His debut performance is rough in places, but he shows stronger control, more direct insult writing and better round structure than PETRELLI.\n\nHis first round is a good introduction. He immediately separates himself from PETRELLI by saying PETRELLI is a rookie while he is already moving like a veteran. The demon/soul material, one-man-army line and alien/homeless jokes give the round a clear battle identity.\n\nHis second round is his strongest. He attacks PETRELLI’s appearance, mother, forehead, family, rap cap and baby mum. It has the highest insult density of the battle and keeps moving without falling apart.\n\nHis third round seals the win. PETRELLI drops the mic and cannot complete his final, while SMIL3Z gives a full closer. That alone makes the battle very hard to score against SMIL3Z.\n\nSMIL3Z’s biggest strength is completion. He brings three full rounds and does not collapse under debut-stage pressure.",
+        "lyricalThemes": "Demons, soul, one-man army, rookie/vet, alien image, homelessness, Yardman John, mother/family attacks, forehead, rap cap, baby mum, nettles, hardest on PenGame, ancestry, cancellation, weakness, PETRELLI pack/runtz.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Completion and direct insult writing."
+          },
+          {
+            "title": "Best angle",
+            "description": "PETRELLI as unprepared, rough-looking and not battle-ready."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Forehead / homeless / baby-mum / nettles run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Three complete rounds plus PETRELLI’s third-round non-completion."
+          }
+        ]
+      },
+      {
+        "performer": "A. PETRELLI",
+        "overview": "PETRELLI has flashes of personality and some good ideas, especially in round two, but he loses because his rounds are less clean and his third round ends early.\n\nHis first round has aggression but lacks polish. He attacks SMIL3Z’s family, girlfriend, spelling and prison/time-served image, but the round does not fully build into one dominant angle.\n\nHis second round is easily his best. The South London location run and shotgun/Baywatch/Paco Rabanne/Joker material gives him stronger structure. He starts to show the kind of writing that would later become more effective in future PenGame battles.\n\nHis third round damages his whole performance. He begins with “this shit just got real,” but then drops the mic. The host ends the round immediately under PenGame rules. In an archive judgement, that is effectively a lost round.\n\nPETRELLI’s biggest strength is potential. His weakness here is execution.",
+        "lyricalThemes": "Girl running lines, time served, spelling, demons, violence, South London locations, Streatham, Peckham, Welling, Palace, family attacks, daughter therapy, shotgun, Baywatch, Paco Rabanne, Heath Ledger/Joker, chef imagery, mic drop/non-completion.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Flashes of creative location-based writing."
+          },
+          {
+            "title": "Best angle",
+            "description": "South London place-name scheme."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Streatham / Peckham / Welling / Palace run."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Dropping the mic in round three."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Violence",
+        "bar": "I took SMIL3Z right out of their life.",
+        "explanation": "PETRELLI opens with a death/removal image, saying he can erase SMIL3Z from the people around him."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Disrespect",
+        "bar": "I got your girl running my lines.",
+        "explanation": "A girl/music/status insult. PETRELLI says SMIL3Z’s girl is more interested in his material."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Critique",
+        "bar": "I heard that you’ve done some time.",
+        "explanation": "A prison/time-served angle."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Wordplay",
+        "bar": "SMIL3Z ain’t got more than three ounces.",
+        "explanation": "A name/number flip. SMIL3Z becomes connected to “three” and weight."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Wordplay",
+        "bar": "I see by the way that you’re spelling it.",
+        "explanation": "A spelling/name punch."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Insult",
+        "bar": "My n****, you’re tweaking.",
+        "explanation": "A direct instability insult."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Imagery",
+        "bar": "Spinning with demons.",
+        "explanation": "A dark/violent image."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Reference",
+        "bar": "Big n****s all Hulkish.",
+        "explanation": "A Hulk/body/power reference."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Critique",
+        "bar": "I heard your bars, G. You are not a star, G.",
+        "explanation": "A direct writing and status attack."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Status",
+        "bar": "Fuck proving points, fuck battle rap.",
+        "explanation": "PETRELLI tries to frame the battle as more than performance."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Status",
+        "bar": "I know we spoke online, but in real life…",
+        "explanation": "A real-life versus online angle."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Violence",
+        "bar": "Man’s pain like a heart attack.",
+        "explanation": "A pain/heart attack punch."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Confidence",
+        "bar": "It’s a wrap as soon as I get penning.",
+        "explanation": "A writing confidence line. Once PETRELLI starts writing, the battle is done."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Reference",
+        "bar": "Only thing that’s gonna save you is if Scamz wrote your second.",
+        "explanation": "A PenGame reference. PETRELLI implies SMIL3Z would need help from SCAMZ to survive."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Violence",
+        "bar": "You’re going down south when a shell hits a melon.",
+        "explanation": "A direction/violence punch. It is battle material."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Reference",
+        "bar": "Cars get sitting next to bricks like Streatham.",
+        "explanation": "A South London location/reference line."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Wordplay",
+        "bar": "I’m trying to put S in one like Peckham.",
+        "explanation": "A place-name / letter-wordplay bar."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Wordplay",
+        "bar": "I can’t hack the sixteen like Welling.",
+        "explanation": "A Welling/location and sixteen-bars reference."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Disrespect",
+        "bar": "I’m the type of guy to tell you about your mother.",
+        "explanation": "PETRELLI signals he is willing to get disrespectful."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Violence",
+        "bar": "One shot will make him jump up, it’s adrenaline.",
+        "explanation": "A shot/adrenaline punch."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Violence",
+        "bar": "Small knives get flickies.",
+        "explanation": "A weapon line. It is battle material."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Wordplay",
+        "bar": "I’ll put SMIL3Z in the back of the van, then I’ll make his Baywatch like Pamela Ann.",
+        "explanation": "A Pamela Anderson / Baywatch reference."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Wordplay",
+        "bar": "Spray something on the bitch like Paco Rabanne.",
+        "explanation": "A fragrance/spray punch."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Wordplay",
+        "bar": "Shotgun snap back like the strap on my hat.",
+        "explanation": "A shotgun/snapback/strap wordplay."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Reference",
+        "bar": "He is not Heath Ledger, he is not a Joker.",
+        "explanation": "A Batman/Joker reference. PETRELLI says SMIL3Z is not dangerous or iconic."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Violence",
+        "bar": "I got the satam, it’s a real toy.",
+        "explanation": "PETRELLI begins his third with weapon imagery, but the round is cut short soon after."
+      },
+      {
+        "performer": "A. PETRELLI",
+        "theme": "Status",
+        "bar": "This shit just got real, boy.",
+        "explanation": "A third-round setup line that never develops because of the mic drop."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Imagery",
+        "bar": "I’mma send my demons to fetch your soul.",
+        "explanation": "SMIL3Z opens with supernatural/death imagery."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Threat",
+        "bar": "If you want war, let’s go.",
+        "explanation": "A direct challenge."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "Pray to God, then let him know you gone dead up today.",
+        "explanation": "A death/prayer line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "Call up mumsy, tell her you won’t make it home.",
+        "explanation": "A mother/death punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "I don’t steal punchlines, just direct flows.",
+        "explanation": "A writing/credibility line. SMIL3Z says his material is direct and original."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "I don’t need to beat around the bush.",
+        "explanation": "A directness punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "I’m a one-man army.",
+        "explanation": "A self-reliance line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "I’m a vet, you’re a rookie.",
+        "explanation": "A clear hierarchy angle, despite both being debuting on this platform."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Disrespect",
+        "bar": "Blood, I don’t wanna hear your stuff.",
+        "explanation": "A dismissal of PETRELLI’s writing."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Wordplay",
+        "bar": "Sixteen bars gone straight to his gut.",
+        "explanation": "A bar/violence double meaning."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Threat",
+        "bar": "Welcome to my world where you’re not saving.",
+        "explanation": "A no-escape line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Imagery",
+        "bar": "Everything smoky, trouble inhaling.",
+        "explanation": "A smoke/danger image."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "Talk about gyal, but he looks like an alien.",
+        "explanation": "A girl-talk/appearance punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "Hell of a rap cap, man, I can’t entertain him.",
+        "explanation": "A fake-bars accusation."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "New clothes, man, I’m fresh to death. PETRELLI’s rocky, ain’t got no bread.",
+        "explanation": "A fashion/money/status attack."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "You’re looking homeless and you need to be fed.",
+        "explanation": "A harsh appearance/poverty insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "Should I pick man up and just throw man?",
+        "explanation": "A physical dominance line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Reference",
+        "bar": "I was talking to Yardman John.",
+        "explanation": "A Yardman-style setup."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "You ain’t on blasting.",
+        "explanation": "A fake-gun/fake-badness attack."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "You don’t even know where you start.",
+        "explanation": "An identity/confusion insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "No more dancing on TikTok for them.",
+        "explanation": "A social-media/performance attack."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "Look at this fucking inbred.",
+        "explanation": "SMIL3Z opens round two with a family/appearance insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "Your mum should have swallowed you.",
+        "explanation": "A harsh existence insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "Your face looks horrible.",
+        "explanation": "A direct appearance punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "I’ll run man down like run outs.",
+        "explanation": "A chase/violence line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Imagery",
+        "bar": "You can get left by the canal.",
+        "explanation": "A location/death image."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Reference",
+        "bar": "This ain’t no Mortal Kombat, you can’t come back finishing.",
+        "explanation": "A Mortal Kombat reference. PETRELLI will not get a comeback or finisher."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Disrespect",
+        "bar": "Spitting in his mum’s face, it’s just disrespect that I’m giving him.",
+        "explanation": "A mother/disrespect line. It is battle material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Reference",
+        "bar": "Scotch bonnet.",
+        "explanation": "A pepper/heat reference."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "I can see it in his eyes, he’s not on it.",
+        "explanation": "A body-language credibility attack."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "I ain’t gonna talk that father shit, cause I wouldn’t want to father you.",
+        "explanation": "A fatherhood insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Disrespect",
+        "bar": "Slap mumsy just for raising you.",
+        "explanation": "A mother/raising insult. It is battle material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "Your son’s a prick and he’s moving loose.",
+        "explanation": "A direct character attack."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Confidence",
+        "bar": "My pen come different.",
+        "explanation": "A writing confidence line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "You’re fucking with the wrong n****, a strong hitter.",
+        "explanation": "A self-positioning line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "You’re out here looking like nobody’s child.",
+        "explanation": "A lost/neglected appearance insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "You can see his forehead from miles.",
+        "explanation": "A forehead/appearance punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "All of that cap in your rap is atrocious.",
+        "explanation": "A fake-bars critique."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "You can have a ball like me, just own it.",
+        "explanation": "A confidence/status line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "Your face already written off.",
+        "explanation": "A damaged-face/car write-off style insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "I’ll leave your forehead open, leaking swollen.",
+        "explanation": "A forehead/violence punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Imagery",
+        "bar": "My lyrics, them send my shot.",
+        "explanation": "A pen-as-weapon line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Disrespect",
+        "bar": "I’ll get my friends to run train on your baby mum.",
+        "explanation": "A crude baby-mum/sexual insult. It is battle material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Wordplay",
+        "bar": "I bet that stung like nettles.",
+        "explanation": "A nettle/sting punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Confidence",
+        "bar": "I’m the hardest on PenGame.",
+        "explanation": "A major status claim."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Self-Awareness",
+        "bar": "Third round for fuck’s sake.",
+        "explanation": "SMIL3Z starts his final round by recognising the pressure and importance of closing."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Threat",
+        "bar": "One way or another, you gonna suffer.",
+        "explanation": "A threat line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "Mums ain’t gonna find you in the gutter.",
+        "explanation": "A death/body-location line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Confidence",
+        "bar": "Violations come quick, rapid.",
+        "explanation": "A battle-style statement."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "You should’ve stayed up in your yard.",
+        "explanation": "A warning that PETRELLI should not have taken the battle."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Imagery",
+        "bar": "These events are tragic.",
+        "explanation": "A battle-event tragedy line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "On the PenGame ting, I’m the bandit.",
+        "explanation": "A self-branding line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "Disintegrate your skin like acid.",
+        "explanation": "A violent acid image. It is battle material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "Looks like you’re getting braids done too tight, now your forehead’s looking like a flat TV with no channels.",
+        "explanation": "One of SMIL3Z’s strongest appearance jokes."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "You’re a product of ancestry.",
+        "explanation": "A family/genetics insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "Your face looks mangled.",
+        "explanation": "A direct appearance punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "Today’s the day PETRELLI’s gonna get cancelled.",
+        "explanation": "A cancellation/status line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Confidence",
+        "bar": "Whether it’s rap or drill, I’m a handful.",
+        "explanation": "A versatility claim."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Confidence",
+        "bar": "I’m versatile with it.",
+        "explanation": "SMIL3Z states his adaptability."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "Head to car, family barn, brains leaking.",
+        "explanation": "A violent image. It is battle material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "Ambulance was too late when they seen him.",
+        "explanation": "A death/emergency line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Violence",
+        "bar": "He was born with smoke in his chest from me.",
+        "explanation": "A smoke/damage line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Wordplay",
+        "bar": "He couldn’t handle the smoke that he was receiving.",
+        "explanation": "A battle/smoke punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "Your style’s dead, improvements is a must.",
+        "explanation": "A direct critique of PETRELLI’s style."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Insult",
+        "bar": "You’ll always be weak and frail and rough.",
+        "explanation": "A final status dismissal."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Wordplay",
+        "bar": "All of a sudden, this PETRELLI pack has turned to runtz.",
+        "explanation": "A strong closer. PETRELLI becomes a weed pack that SMIL3Z has smoked down."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "smil3z",
+      "summary": "Official visible result: N/A (Host told viewers to comment). Suggested archive score: SMIL3Z 3-0 A. PETRELLI. Suggested round split: Round 1: SMIL3Z, Round 2: SMIL3Z, Round 3: SMIL3Z. Reason: SMIL3Z had the stronger complete performance, better second-round pressure, and a full third round. PETRELLI’s third-round mic drop/non-completion makes the final round decisive. Performance Grades - SMIL3Z: B+, A. PETRELLI: C+. Final Note: PETRELLI showed flashes, especially in round two, but the debut pressure caught him in the third. SMIL3Z stayed composed and took the battle clearly."
+    }
   },
   {
     "id": "pg-s04-2024-08-05-sevz-vs-skamz",
@@ -43707,15 +44825,481 @@ export const battles: Battle[] = [
     "mc2": "grams",
     "title": "SKAMZ vs GRAMS",
     "date": "2023-09-12",
-    "videoUrl": "https://www.youtube.com/watch?v=bXY5a7Hjs38",
     "theme": "pengame",
     "season": 4,
-    "seasonOrder": 16,
+    "views": null,
     "customEp": "4x16",
+    "seasonOrder": 16,
     "stage": null,
     "group": null,
     "tag": null,
-    "winner": "unknown"
+    "videoUrl": "https://www.youtube.com/watch?v=bXY5a7Hjs38",
+    "winner": "grams",
+    "clashSummary": "SKAMZ vs GRAMS took place during **PenGame Season 4**, hosted by Big Mawz and sponsored by **Rude Boy**. The host introduces it as the last battle of the night, with both battlers clearly known to the platform.\r\n\r\nGRAMS chooses to go first.\r\n\r\nGRAMS opens with a confident first round, immediately framing the clash as “black on black crime” and saying SKAMZ is a mascot who will need reviving. He brings God-mode imagery, lightning, violin, Zoro, diamonds, stars, samosas, chicken frying, pen-game writing, fatherhood, online typing and retirement angles. The round is direct and controlled, with GRAMS attacking SKAMZ’s toughness, status and credibility.\r\n\r\nSKAMZ answers with some good moments in round one. He flips GRAMS into weight/scales imagery, says Markz put him on the scale and now it is nothing new to weigh up GRAMS. He also brings Amsterdam, samurai, Dora, supply-charge imagery, heist bars and a “verbalist” angle. However, the round ends weakly with repeated “you’re shit” lines, which makes the close feel underwritten compared with GRAMS.\r\n\r\nGRAMS steps up in round two. He says SKAMZ’s whole verse was jokes and cap, then attacks his street credibility, saying SKAMZ may know about trapping but has not had to go and get a man back. He claims his own name carries real-world meaning, says his weed line has seen more thousands than SKAMZ’s headline status, calls himself Shaolin, threatens to evict SKAMZ and uses daughter/play-house, Lion/Lion King, Goofy and Luffy references. It is the strongest complete round of the battle.\r\n\r\nSKAMZ’s second round collapses. He tries to begin with a “long live Nanny” angle, repeating the setup several times, but then admits he has flopped and has to freestyle the rest. He does not recover the round. The stumble becomes a major turning point.\r\n\r\nGRAMS then delivers a third round that seals the battle. He attacks SKAMZ for only getting this far because of references, says SKAMZ has no violence in his sentences, calls him desperate, says he has run into Luffy, and uses Erling Haaland, Goofy, Boosie, Snoop Dogg and Snoopy references. The round is not perfect, but it is complete, and by this point GRAMS is far ahead.\r\n\r\nSKAMZ’s final round does not happen. He starts with “yo” repeatedly, then tells the host that he does not have a third round and will end it there. GRAMS reacts by saying SKAMZ is making PenGame look bad and that he has taken his position.\r\n\r\nThere is no official judging section. The host tells viewers to comment who they think won.\r\n\r\nBased on the available battle, GRAMS wins clearly by Archive Judgement.",
+    "performanceAnalysis": [
+      {
+        "performer": "GRAMS",
+        "overview": "GRAMS wins because he completes all three rounds, has stronger structure and keeps attacking SKAMZ from multiple angles. He sounds more prepared, more confident and more locked in.\r\n\r\nHis first round is a solid opener. He attacks SKAMZ’s status, music image, toughness and fatherhood, while using anime and battle imagery to make the round feel layered. The Zoro / pirate hunter section and lightning/God-mode references give the round identity.\r\n\r\nHis second round is his best. The central angle is that SKAMZ’s street talk is fake. GRAMS says SKAMZ may know about trapping, but he has not had to move in real-life situations. He also makes the point that his own name, GRAMS, connects to something more believable in the ends. This is the clearest argument of the battle.\r\n\r\nHis third round is enough to close. It attacks SKAMZ’s lack of violence, desperation and references, while using Luffy, Haaland, Goofy, Boosie, Snoop Dogg and Snoopy material. The most important thing is that GRAMS actually has a third round, while SKAMZ does not.\r\n\r\nGRAMS’s biggest strength is composure. He stays ready while SKAMZ falls apart.",
+        "lyricalThemes": "Black-on-black crime, mascot, God mode, lightning, Zoro, diamonds, stars, samosas/chicken, pen-game writing, fatherhood, online typing, real street credibility, trapping, flats, weed line, Shaolin, daughter/play-house, Lion King, Luffy, Haaland, Goofy, Boosie, Snoop Dogg, Snoopy.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Preparation and composure."
+          },
+          {
+            "title": "Best angle",
+            "description": "SKAMZ’s street talk is cap."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Trapping / flats / weed line / Shaolin run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Three complete rounds while SKAMZ collapses."
+          }
+        ]
+      },
+      {
+        "performer": "SKAMZ",
+        "overview": "SKAMZ has flashes in round one but loses the battle through lack of preparation. His first round has some decent wordplay, but his second falls apart and his third is completely missing.\r\n\r\nHis first round is the only round where he has a real case. The scales/weighing up GRAMS line is smart, and the Amsterdam / samurai / intent-to-supply section gives him some structure. However, the ending is weak and repetitive.\r\n\r\nHis second round is the turning point. The “long live Nanny” angle might have become something, but he repeats the setup too many times and then admits he flopped. Once he says he has to freestyle the rest, the round is effectively lost.\r\n\r\nHis third round confirms the result. SKAMZ admits he has no third and ends the battle there. That makes it impossible to score the battle in his favour.\r\n\r\nSKAMZ’s biggest strength is early punch potential. His weakness is preparation and completion.",
+        "lyricalThemes": "Weighing up GRAMS, Amsterdam, samurai, Dora, intent to supply, heist imagery, verbalist, one-win angle, Nanny angle, flop admission, no third round.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round one."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Name-flip potential."
+          },
+          {
+            "title": "Best angle",
+            "description": "Weighing up GRAMS / scales imagery."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Markz put him on the scale / Amsterdam / samurai run."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Flopped second round and no third round."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "GRAMS",
+        "theme": "Violence",
+        "bar": "Right now I’m on black-on-black criming.",
+        "explanation": "GRAMS opens with violent battle imagery, setting the clash as damage between two Black battlers."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Status",
+        "bar": "SKAMZ is a mascot, they’ll try and revive him.",
+        "explanation": "A strong status punch. SKAMZ is reduced from battler to mascot."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Imagery",
+        "bar": "GRAMS in God mode, that’s why I had to pattern the lightning to strike him.",
+        "explanation": "A God-mode/lightning image. GRAMS frames himself as above normal level."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Critique",
+        "bar": "Thinks that he’s Shelley when he jumps on the beat.",
+        "explanation": "A music/artist comparison, suggesting SKAMZ thinks he is colder than he is."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Insult",
+        "bar": "This n**** is sweet, go get him a violin.",
+        "explanation": "A softness/emotional punch."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Reference",
+        "bar": "Every other line, I’m a pirate hunter like Zoro.",
+        "explanation": "A One Piece / Zoro reference. Zoro is a swordsman, used here for cutting through opponents."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Imagery",
+        "bar": "I’ll cut through diamonds.",
+        "explanation": "A sharpness/hardness punch."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Status",
+        "bar": "You can be a star, I will still shoot you out of alignment.",
+        "explanation": "A star/space/status line."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Food/Cooking",
+        "bar": "I finished with the samosas, now it’s your chicken, I’m gonna start frying.",
+        "explanation": "A food/cooking punch. GRAMS turns SKAMZ into the next thing getting cooked."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Threat",
+        "bar": "If this was a battle on road, I would just see this man on sight.",
+        "explanation": "A real-life threat line. It is battle material."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Confidence",
+        "bar": "Now we’re on PenGame, I’m gonna kill him with writing.",
+        "explanation": "A clean battle-rap distinction: on stage, the weapon is the pen."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Imagery",
+        "bar": "I’ve been a student dealing with SKAMZ, part of my assignment.",
+        "explanation": "A student/assignment line. SKAMZ becomes coursework."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Fatherhood",
+        "bar": "Mind how you talk, now you’re a father.",
+        "explanation": "A fatherhood angle. GRAMS says SKAMZ should move more carefully."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Critique",
+        "bar": "You’re only putting that work on your typing.",
+        "explanation": "An online-versus-real-life punch. SKAMZ is active online, not outside."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Consequence",
+        "bar": "I make SKAMZ consider retiring.",
+        "explanation": "A direct battle-consequence line."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Imagery",
+        "bar": "He thinks he’s hot till I douse his flame, I’m the fire hydrant.",
+        "explanation": "A strong heat/fire-extinguishing punch."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Critique",
+        "bar": "SKAMZ whole verse full of jokes and cap.",
+        "explanation": "GRAMS opens round two by calling SKAMZ fake."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Credibility",
+        "bar": "He might know about trapping, but have you ever had to go get a man back?",
+        "explanation": "A street-credibility challenge. GRAMS says SKAMZ talks the life but has not lived the pressure."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Environment",
+        "bar": "I’m chatting about pulling up into the flats.",
+        "explanation": "A real-environment setup."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Violence",
+        "bar": "Where if you’re outnumbered, you could get wrapped.",
+        "explanation": "A danger/violence line."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Violence",
+        "bar": "I’ve seen one bang make brothers collapse.",
+        "explanation": "A one-punch/real-life violence line."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Credibility",
+        "bar": "SKAMZ isn’t about it.",
+        "explanation": "A direct credibility verdict."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Status",
+        "bar": "SKAMZ should allow it, that is a stage name.",
+        "explanation": "A strong name/status punch. GRAMS says “SKAMZ” is just a performance identity."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Credibility",
+        "bar": "I’ve got GRAMS in my name and in ends I’m really around it.",
+        "explanation": "GRAMS flips his own name into street credibility."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Status",
+        "bar": "You’re the headliner on this show, but I bet that my weed line seen more thousands.",
+        "explanation": "A platform/status punch. SKAMZ may headline, but GRAMS claims more real-world movement."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Reference",
+        "bar": "You cannot verse me, I am a Shaolin.",
+        "explanation": "A martial-arts/discipline reference."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Wordplay",
+        "bar": "Started a gram, now I’ve turned to a mountain.",
+        "explanation": "A grams-to-mountain scale-up line."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Removal",
+        "bar": "I’ll evict SKAMZ and dash man out.",
+        "explanation": "A removal/housing punch."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Family",
+        "bar": "Just link with your daughter so we can play house.",
+        "explanation": "A fatherhood/family insult. It is battle material."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Wordplay",
+        "bar": "Thought he was a lion, this n**** is lying.",
+        "explanation": "A lion/lying wordplay."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Insult",
+        "bar": "His mum should have swallowed.",
+        "explanation": "A harsh existence insult."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Confidence",
+        "bar": "I’m moving in plain sight.",
+        "explanation": "A confidence line. GRAMS is not hiding."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Rebuttal",
+        "bar": "SKAMZ said he swings like mule… that n****’s a bitch.",
+        "explanation": "GRAMS mocks a previous SKAMZ claim."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Prediction",
+        "bar": "Winning this battle’s a myth.",
+        "explanation": "A decisive statement that SKAMZ cannot win."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Critique",
+        "bar": "You only got this far cause of references.",
+        "explanation": "A direct critique of SKAMZ’s battle career."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Critique",
+        "bar": "You ain’t got no violence in your sentences.",
+        "explanation": "A strong writing critique. SKAMZ may rap, but the words do not feel dangerous."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Personality",
+        "bar": "You’re some clever kid, now you sound desperate.",
+        "explanation": "A personality/status punch."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Reaction",
+        "bar": "Cooked by a crowd, that’s why I’m here peppering.",
+        "explanation": "A cooking/pepper/crowd reaction line."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Reference",
+        "bar": "I’m on attack like Erling Haaland, command of my finishing brilliant.",
+        "explanation": "A football reference. Haaland is known for finishing chances."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Self-Awareness",
+        "bar": "This shit rare coming from a newbie.",
+        "explanation": "GRAMS highlights that he is new but already performing strongly."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Reference",
+        "bar": "He just ran into Luffy.",
+        "explanation": "A One Piece reference. Luffy is a powerful protagonist, used here as a mismatch image."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Comparison",
+        "bar": "He more like Goofy, I’m more like Boosie.",
+        "explanation": "A cartoon/rapper contrast."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Reference",
+        "bar": "I will smoke this don like Snoop Dogg.",
+        "explanation": "A weed/smoke/Snoop Dogg reference."
+      },
+      {
+        "performer": "GRAMS",
+        "theme": "Wordplay",
+        "bar": "He just barked, so he more like Snoopy.",
+        "explanation": "A Snoop/Snoopy dog wordplay."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Violence",
+        "bar": "I’ve been putting guys in packs, this is not new to man.",
+        "explanation": "SKAMZ opens by saying he has already packed opponents before."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "Since Markz put him on the scale, it’s nothing new to weigh up GRAMS.",
+        "explanation": "One of SKAMZ’s best bars. GRAMS is weighed like product, while Markz is tied into the setup."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "Like Amsterdam, I’ll send him high.",
+        "explanation": "A weed/Amsterdam punch."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "You need one when you’re wrestling man.",
+        "explanation": "A plan/wrestling line."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Imagery",
+        "bar": "Not like Dora, you get buried in sand by samurai SKAMZ.",
+        "explanation": "A Dora/exploration and samurai image. The wording is rough, but it works as a character punch."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Imagery",
+        "bar": "Longest blade, konnichiwa, then get straight to the cutting.",
+        "explanation": "A Japanese/samurai blade reference."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Rebuttal",
+        "bar": "I hear my man begging for smoke. Don’t beg, it’s disgusting.",
+        "explanation": "A smoke/challenge rebuttal."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Status",
+        "bar": "I only took this battle because of the verbal that this guy kept running.",
+        "explanation": "SKAMZ frames the clash as a response to GRAMS talking online."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Family",
+        "bar": "How can you not see that your mum is a whore?",
+        "explanation": "A mother insult. It is battle material."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "He said he got his third eye open, now you can’t see no more.",
+        "explanation": "A third-eye/vision punch."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "I’ll drag GRAMS out of the boot like you’re getting charged for intent to supply.",
+        "explanation": "A strong drugs/legal wordplay. GRAMS becomes product in a boot."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Imagery",
+        "bar": "Or stuff man in a bag like hands up, this is a heist.",
+        "explanation": "A robbery/body-bag image."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Violence",
+        "bar": "I send guys to Jesus Christ.",
+        "explanation": "A death/threat line."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Record",
+        "bar": "You only got one win, stop talking shit.",
+        "explanation": "A battle-record attack."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Critique",
+        "bar": "This guy’s a verbalist.",
+        "explanation": "SKAMZ calls GRAMS someone who talks rather than acts."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Insult",
+        "bar": "Let me tell you some facts, bro, you are really shit.",
+        "explanation": "A blunt but weak line that marks the start of his repetitive ending."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Record",
+        "bar": "You only got one win, so I don’t really wanna hear shit.",
+        "explanation": "Another record-based dismissal."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Family",
+        "bar": "He said his nan was alive, so Markz, long live Nanny.",
+        "explanation": "SKAMZ’s second-round setup. The idea could have become a personal angle."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Threat",
+        "bar": "Say something out of order and it’ll be hashtag long live Nanny.",
+        "explanation": "A threat built around GRAMS’s nan. It is battle material."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Admission",
+        "bar": "I can’t even lie, I flopped.",
+        "explanation": "The key moment of the battle. SKAMZ admits the round has collapsed."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Admission",
+        "bar": "I gotta freestyle the rest.",
+        "explanation": "SKAMZ tries to recover, but the damage is already done."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Admission",
+        "bar": "I don’t care if I flopped it.",
+        "explanation": "A failed attempt to brush off the mistake."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Admission",
+        "bar": "I ain’t got a third round, so I’mma just end it here.",
+        "explanation": "The decisive line. SKAMZ forfeits the final round by admitting he has no material."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "grams",
+      "summary": "Official visible result: N/A (Host told viewers to comment). Suggested archive score: GRAMS 3-0 SKAMZ. Suggested round split: Round 1: GRAMS, Round 2: GRAMS, Round 3: GRAMS. Reason: GRAMS was more prepared, more direct and completed the battle. SKAMZ had a decent first round, but the second-round flop and missing third make the result decisive. Performance Grades - GRAMS: A-, SKAMZ: D+. Final Note: This is not just a win for GRAMS — it is a collapse from SKAMZ. GRAMS took the opportunity, stayed composed and made the headline name look unprepared."
+    }
   },
   {
     "id": "pg-s2023-2024-05-18-grams-vs-ft",
