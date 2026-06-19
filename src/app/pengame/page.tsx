@@ -371,6 +371,8 @@ export default function PengamePage() {
                       const mc4 = battle.mc4 ? pengameMcs.find(m => m.id === battle.mc4) : undefined;
                       const battleSection = season === "2023"
                         ? battle.subGroup
+                        : season === "Champions League"
+                          ? battle.subGroup
                         : season === "Cold War"
                           ? battle.group ? `Group ${battle.group}` : battle.stage
                         : season === "5"
@@ -379,6 +381,8 @@ export default function PengamePage() {
                       const previousBattleSection = index > 0
                         ? season === "2023"
                           ? seasonBattles[index - 1].subGroup
+                          : season === "Champions League"
+                            ? seasonBattles[index - 1].subGroup
                           : season === "Cold War"
                             ? seasonBattles[index - 1].group
                               ? `Group ${seasonBattles[index - 1].group}`

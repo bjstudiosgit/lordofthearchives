@@ -1072,6 +1072,63 @@ export const mcs: MC[] = [
   }
 ];
 
+const academyMcProfiles = [
+  ["wizdom", "WIZDOM"],
+  ["elz", "ELZ"],
+  ["trickyy", "TRICKYY"],
+  ["ritchie-rich", "RITCHIE RICH"],
+  ["jase", "JASE"],
+  ["shelton", "SHELTON"],
+  ["essmack", "ESSMACK"],
+  ["grhymz", "GRHYMZ"],
+  ["afrodon", "AFRODON"],
+  ["h-star", "H STAR"],
+  ["khaos-kayy", "KHAOS KAYY"],
+  ["leo-mg", "LEO MG"],
+  ["kie5", "KIE5"],
+  ["zanotti", "ZANOTTI"],
+  ["zkay", "ZKAY"],
+  ["selly-the-rapper", "SELLY THE RAPPER"],
+  ["cv", "CV"],
+  ["jsmih", "JSMIH"],
+] as const;
+
+mcs.push(
+  ...academyMcProfiles.map(([id, name]) => ({
+    id,
+    slug: id,
+    name,
+    battles: 0,
+    wins: 0,
+    losses: 0,
+    style: "Versatile",
+    image: `https://picsum.photos/seed/${id}/400/400`,
+    bio: "PenGame Academy artist.",
+  })),
+);
+
+const season2025McProfiles = [
+  ["rizzy-raps", "RIZZY RAPS"],
+  ["zoellz", "ZOELLZ"],
+  ["crai-g", "CRAI-G"],
+  ["cojay", "COJAY"],
+  ["tek", "TEK"],
+] as const;
+
+mcs.push(
+  ...season2025McProfiles.map(([id, name]) => ({
+    id,
+    slug: id,
+    name,
+    battles: 0,
+    wins: 0,
+    losses: 0,
+    style: "Versatile",
+    image: `https://picsum.photos/seed/${id}/400/400`,
+    bio: "PenGame 2025 artist.",
+  })),
+);
+
 type McRecord = {
   battles: number;
   wins: number;

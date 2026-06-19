@@ -66636,8 +66636,73 @@ export const battles: Battle[] = [
   }
 ];
 
+const championsLeagueFixtures = [
+  ["pg-s06-2026-04-05-iiiberealz-vs-dan-dannah", "iiiberealz", "dan-dannah", "iiiBEREALZ vs DAN DANNAH", 1],
+  ["pg-scl-2026-fixture1-skamz-vs-kandi", "skamz", "kandi", "SKAMZ vs KANDI", 2],
+  ["pg-s06-2026-04-11-whoisorion-vs-jaycee", "jaycee", "whoisorion", "JAYCEE vs WHOISORION", 3],
+  ["pg-s06-2026-04-13-anbu-sensei-vs-drizzgb", "anbu-sensei", "drizzgb", "ANBU SENSEI vs DRIZZGB", 4],
+  ["pg-scl-2026-04-15-jm-vs-kmarh", "jm", "kmarh", "JM vs K MARH", 5],
+  ["pg-scl-2026-04-18-lc-vs-relapse", "lc", "relapse", "LC vs RELAPSE", 6],
+  ["pg-scl-2026-04-20-varntae-vs-star-co", "varntae", "star-co", "VARNTAE vs STAR CO", 7],
+  ["pg-scl-2026-04-22-monroe-vs-pocaa", "monroe", "pocaa", "MONROE vs POCAA", 8],
+  ["pg-scl-2026-04-25-eddfirst-vs-domi-dusk", "domi-dusk", "eddfirst", "DOMI DUSK vs EDDFIRST", 9],
+  ["pg-scl-2026-fixture1-rp-vs-char-b", "rp", "char-b", "RP vs CHAR B", 10],
+  ["pg-scl-2026-05-03-skamz-vs-relapse", "skamz", "relapse", "SKAMZ vs RELAPSE", 11],
+  ["pg-scl-2026-05-03-kandi-vs-star-co", "kandi", "star-co", "KANDI vs STAR CO", 12],
+  ["pg-scl-2026-05-03-drizzgb-vs-rp", "drizzgb", "rp", "DRIZZGB vs RP", 13],
+  ["pg-scl-2026-05-03-monroe-vs-kmarh", "monroe", "kmarh", "MONROE vs K MARH", 14],
+  ["pg-scl-2026-05-03-whoisorion-vs-lc", "whoisorion", "lc", "WHOISORION vs LC", 15],
+  ["pg-scl-2026-05-03-char-b-vs-dan-dannah", "char-b", "dan-dannah", "CHAR B vs DAN DANNAH", 16],
+  ["pg-scl-2026-05-03-iiiberealz-vs-pocaa", "pocaa", "iiiberealz", "POCAA vs iiiBEREALZ", 17],
+  ["pg-scl-2026-05-03-varntae-vs-domi-dusk", "varntae", "domi-dusk", "VARNTAE vs DOMI DUSK", 18],
+  ["pg-scl-2026-05-03-eddfirst-vs-jaycee", "eddfirst", "jaycee", "EDDFIRST vs JAYCEE", 19],
+  ["pg-scl-2026-05-30-jm-vs-anbu-sensei", "anbu-sensei", "jm", "ANBU SENSEI vs JM", 20],
+  ["pg-scl-2026-05-31-skamz-vs-whoisorion", "skamz", "whoisorion", "SKAMZ vs WHOISORION", 21],
+  ["pg-scl-2026-05-31-jm-vs-varntae", "jm", "varntae", "JM vs VARNTAE", 22],
+  ["pg-scl-2026-05-31-dan-dannah-vs-monroe", "dan-dannah", "monroe", "DAN DANNAH vs MONROE", 23],
+  ["pg-scl-2026-05-31-char-b-vs-pocaa", "pocaa", "char-b", "POCAA vs CHAR B", 24],
+  ["pg-scl-2026-05-31-drizzgb-vs-lc", "lc", "drizzgb", "LC vs DRIZZGB", 25],
+  ["pg-scl-2026-05-31-domi-dusk-vs-rp", "domi-dusk", "rp", "DOMI DUSK vs RP", 26],
+  ["pg-scl-2026-05-31-anbu-sensei-vs-relapse", "anbu-sensei", "relapse", "ANBU SENSEI vs RELAPSE", 27],
+  ["pg-scl-2026-05-31-kandi-vs-iiiberealz", "kandi", "iiiberealz", "KANDI vs iiiBEREALZ", 28],
+  ["pg-scl-2026-05-31-eddfirst-vs-star-co", "star-co", "eddfirst", "STAR CO vs EDDFIRST", 29],
+  ["pg-scl-2026-05-31-jaycee-vs-kmarh", "jaycee", "kmarh", "JAYCEE vs K MARH", 30],
+] as const;
+
+const championsLeagueOverrides: Record<string, Partial<Battle>> = Object.fromEntries(
+  championsLeagueFixtures.map(([id, mc1, mc2, title, order]) => {
+    const fixture = Math.ceil(order / 10);
+    return [id, {
+      mc1,
+      mc2,
+      title,
+      season: "Champions League",
+      competition: "Champions League",
+      subGroup: `Fixture ${fixture}`,
+      stage: `Champions League Fixture ${fixture}`,
+      customEp: `CLx${String(order).padStart(2, "0")}`,
+      seasonOrder: order,
+    }];
+  }),
+);
+
+const catalogOverrides: Record<string, Partial<Battle>> = {
+  ...championsLeagueOverrides,
+  "pg-s06-2026-02-18-skamz-vs-dan-dannah": {
+    season: "2026", competition: "PenGame", subGroup: "2026 Battles", stage: null, customEp: "26x01", seasonOrder: 1,
+  },
+  "pg-s06-2026-03-22-bmf-alz-vs-zion": {
+    season: "2026", competition: "PenGame", subGroup: "2026 Battles", stage: null, customEp: "26x02", seasonOrder: 2,
+  },
+};
+
+const normalizedBattles = [...battles, ...supplementalBattles].map((battle) => ({
+  ...battle,
+  ...catalogOverrides[battle.id],
+}));
+
 export const pengameBattles: Battle[] = Array.from(
-  new Map([...battles, ...supplementalBattles].map((battle) => [battle.id, battle])).values(),
+  new Map(normalizedBattles.map((battle) => [battle.id, battle])).values(),
 ).filter((battle) => battle.id !== "pg-s05-2025-11-25-trappy-vs-drizzgb");
 
 export const getBattlePageStem = (battle: Pick<Battle, "slug">): string =>
