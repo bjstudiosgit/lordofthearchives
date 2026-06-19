@@ -67,7 +67,7 @@ export default function RecentBattles() {
               The archive is <span className="text-brand">live</span>.
             </h2>
             <p className="mt-5 max-w-xl text-sm leading-relaxed text-zinc-400 md:text-base">
-              {archivedComplete} of {activeBattles.length} indexed PenGame battles are fully archived, with {inProgress} entries in progress.
+              The vault is filling up: {archivedComplete} of {activeBattles.length} PenGame battles are locked in, with {inProgress} more cooking.
             </p>
           </motion.div>
 

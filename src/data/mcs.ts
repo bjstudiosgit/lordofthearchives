@@ -1074,6 +1074,7 @@ export const mcs: MC[] = [
 
 const academyMcProfiles = [
   ["wizdom", "WIZDOM"],
+  ["jayceii", "JAYCEII"],
   ["elz", "ELZ"],
   ["trickyy", "TRICKYY"],
   ["ritchie-rich", "RITCHIE RICH"],

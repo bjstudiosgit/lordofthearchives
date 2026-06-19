@@ -16412,6 +16412,7 @@ export const battles: Battle[] = [
     "mc2": "jm",
     "date": "2024-11-03",
     "title": "DRIZZGB vs JM",
+    "videoUrl": "https://www.youtube.com/watch?v=HKIhiKAZ9V0",
     "theme": "pengame",
     "season": 5,
     "subGroup": "Wrexham Battles",
@@ -37742,11 +37743,11 @@ export const battles: Battle[] = [
     "title": "VARNTAE vs ANBU SENSEI",
     "date": "2025-12-17",
     "theme": "pengame",
-    "season": "2025",
-    "subGroup": "Christmas Special",
+    "season": "2025 Christmas",
+    "subGroup": "Christmas Battles",
     "views": "141k",
-    "customEp": "25x17",
-    "seasonOrder": 17,
+    "customEp": "x25.04",
+    "seasonOrder": 4,
     "stage": null,
     "group": null,
     "tag": "Christmas Special",
@@ -65766,14 +65767,390 @@ export const battles: Battle[] = [
     "seasonOrder": 36,
     "stage": "Finals",
     "group": null,
-    "tag": null
+    "tag": null,
+    "clashSummary": "FENDRY vs SMIL3Z was the **PenGame Cold War Final**, held at **Ministry of Sound** and powered by **SoundOn**. The winner takes the full prize: **£5,000**. The judging panel includes **Harry Pinero**, **Professor Green** and **Abracadabra**.\n\nThis is the culmination of the Cold War tournament, but the final itself becomes one-sided very quickly.\n\nFENDRY goes first and arrives with a “Professor Fendry” / teacher concept. He sets himself up as the teacher coming to give SMIL3Z a lesson, but the round falls apart almost immediately. He stumbles, freestyles, loses structure and openly admits he is underprepared. There are bits of crowd-control material, jokes about SMIL3Z’s beanie and hair, and some Harry Potter-style lines, but the round does not operate like a final-level tournament performance.\n\nSMIL3Z answers with a brutal first round. He attacks FENDRY’s rural image, York background, sheep-shagging angle, dead relatives, family, writing ability, presence, breathing, battle record and overall right to be in the final. He says FENDRY should have stayed in his mother’s womb and ends by promising to expose him by the third. SMIL3Z instantly takes control of the room.\n\nFENDRY’s second round continues the teacher/school concept with a chair and council-style setup, but again he cannot land the material cleanly. He calls SMIL3Z “Smouse,” talks about Derek, Zoe, robbing status and champion status, but then admits the first round was dead and that he forgot his bars. He openly says he is flopping and apologises for the final.\n\nSMIL3Z’s second round is another clear win. He attacks FENDRY as homeless, suicidal, weak, broke, badly dressed, on coke, unable to breathe, unable to keep composure and unworthy of the final. He says FENDRY has been a letdown since he was picked for PenGame and mocks how he got this far. SMIL3Z’s delivery is much sharper and he keeps direct pressure on FENDRY throughout.\n\nFENDRY’s third round tries to salvage the battle. He mentions SMIL3Z’s girlfriend/baby mother, rushing for the hour, shotgun imagery and a report-card/Z-minus closer. However, he again admits he did poorly and apologises, saying he tried to do something special but could not pull it together.\n\nSMIL3Z then delivers the strongest round of the battle. He brings out evidence and uses a prop angle involving FENDRY posting another man with FENDRY’s name on his neck. SMIL3Z turns it into an exposure round, attacking FENDRY’s image, sexuality angle, online behaviour, mother, homelessness, level, relevance and final status. He then finishes with a high-energy closer that seals the battle.\n\nAfter the battle, the judges make it clear that SMIL3Z won. Harry Pinero calls it a mismatch and a bodybag, congratulating SMIL3Z on the £5,000. Professor Green says FENDRY had props but no bars. Abracadabra also supports SMIL3Z and tells FENDRY he needed to come properly prepared for PenGame.\n\nFENDRY admits he messed up, saying he had ideas but could not get them together in time. He apologises and says he will release the rounds he intended to say elsewhere.\n\nOfficial winner: **SMIL3Z**.",
+    "performanceAnalysis": [
+      {
+        "performer": "SMIL3Z",
+        "overview": "SMIL3Z wins because he treats the final like a final. He comes prepared, composed and aggressive. He never gives FENDRY a way back into the battle.\n\nHis first round immediately exposes the gap. While FENDRY is struggling to get through his concept, SMIL3Z brings clear battle material, direct insults and tournament-final pressure. He attacks FENDRY’s background, family, ability and legitimacy.\n\nHis second round is just as strong. He attacks FENDRY’s breathing, clothing, poverty image, coke angle, homelessness and battle record. He makes the argument that FENDRY should not have reached the final.\n\nHis third is the most damaging because it brings the prop/evidence angle. SMIL3Z shows something to the room and turns it into an exposure round, saying FENDRY lost respect by posting another man with his name on his neck. The crowd reaction and judges’ comments confirm the round did the damage.\n\nSMIL3Z’s biggest strength is pressure. He does not just win the battle; he makes the final feel like a mismatch.",
+        "lyricalThemes": "Rural/York background, sheep-shagging angle, family/dead relatives, fake toughness, breathing problems, bad clothing, homelessness, coke/poverty image, battle record, lack of composure, prop/evidence exposure, name-on-neck angle, final dominance, Cold War champion status.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Pressure and opponent-specific exposure."
+          },
+          {
+            "title": "Best angle",
+            "description": "FENDRY posted another man with his name on his neck."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Prop/evidence exposure into final-round close."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Complete preparation and dominant control."
+          }
+        ]
+      },
+      {
+        "performer": "FENDRY",
+        "overview": "FENDRY loses because he is not prepared enough for the final. His idea is interesting — a teacher/professor concept with props — but the execution collapses.\n\nHis first round has moments of humour, but it becomes clear he is freestyling and underprepared. The teacher concept does not land strongly enough because the material is not clean.\n\nHis second round confirms the problem. He uses a chair and tries to create a school-council setup, but he forgets bars and admits the performance is going badly. That damages the battle badly because this is a tournament final for £5,000.\n\nHis third is slightly better, but not enough. He gets through more material, but again apologises and admits he could not pull the final together. That makes it impossible to argue he won any round.\n\nFENDRY’s biggest strength is creativity. His weakness is preparation.",
+        "lyricalThemes": "Professor/teacher concept, school-council prop, Smouse name flip, Derek/Zoe references, champion-status robbery angle, girlfriend/baby mother, shotgun imagery, report-card/Z-minus closer, apology for poor performance.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Conceptual creativity."
+          },
+          {
+            "title": "Best angle",
+            "description": "Professor/teacher setup."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Report-card / Z-minus closer."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Forgetting material and admitting he was underprepared."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "SMIL3Z",
+        "theme": "Concept",
+        "bar": "Let me score this learner.",
+        "explanation": "SMIL3Z flips FENDRY’s teacher/student concept back on him by treating him as the learner."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "You’re way below average.",
+        "explanation": "A direct final-level critique."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Location",
+        "bar": "You’re from the softest side of the map.",
+        "explanation": "A location/status attack."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Background",
+        "bar": "You get chased by cows and sheep and call it beef.",
+        "explanation": "A rural-background punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Reference",
+        "bar": "You should’ve been real, so passive.",
+        "explanation": "A Passive reference and authenticity critique."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "The finals ain’t looking attractive.",
+        "explanation": "SMIL3Z says FENDRY being in the final weakens the event."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Imagery",
+        "bar": "I’ll slice your neck with the reload sign.",
+        "explanation": "A PenGame-specific reload-sign weapon image."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Family",
+        "bar": "I saw a pic of your mum, she was ugly as fuck.",
+        "explanation": "A family/appearance insult. Battle material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Family",
+        "bar": "You gon’ need paranormal activity to back me up.",
+        "explanation": "A dead-relatives/ghost-support line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "You must be skunk to think you can run your gums.",
+        "explanation": "A weed/intelligence insult."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Setup",
+        "bar": "By the third I swear on my life, I’mma expose this sneak.",
+        "explanation": "A setup for his third-round reveal."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Personal",
+        "bar": "I know for fact you’re homeless.",
+        "explanation": "A harsh personal angle."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "Every battle you’ve had, you’ve been shit.",
+        "explanation": "A battle-record critique."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "Can’t control your breathing when you spit.",
+        "explanation": "A performance critique."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "How the fuck did you get this far?",
+        "explanation": "A direct final-legitimacy attack."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Appearance",
+        "bar": "Look at the creps, look at the jeans, look at the T-shirt.",
+        "explanation": "A clothing/presentation breakdown."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Appearance",
+        "bar": "You look broke.",
+        "explanation": "A simple but effective appearance/status punch."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Warning",
+        "bar": "I dare you say the word n****.",
+        "explanation": "A race/authenticity warning. Battle material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "You ain’t got skills for this road.",
+        "explanation": "A skill/status dismissal."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Closer",
+        "bar": "Put down your pen, your PenGame’s ended.",
+        "explanation": "A battle-ending closer."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Exposure",
+        "bar": "Remember I said I got evidence?",
+        "explanation": "SMIL3Z opens the third by paying off his earlier promise."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Exposure",
+        "bar": "Why the fuck is your name on the next man’s neck?",
+        "explanation": "The main exposure angle of the battle."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "You’re posting this shit like it’s a flex.",
+        "explanation": "SMIL3Z attacks FENDRY’s judgement and online behaviour."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Critique",
+        "bar": "FENDRY is a walking why.",
+        "explanation": "A strong summary of the exposure angle: SMIL3Z frames FENDRY as confusing and questionable."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "We are not cool, you are not my guy.",
+        "explanation": "A clear separation line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Family",
+        "bar": "Go dig out your mum with a reload sign.",
+        "explanation": "A harsh PenGame-specific family/death insult. Battle material."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Threat",
+        "bar": "You won’t survive, your time is up.",
+        "explanation": "A final-round kill line."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Comparison",
+        "bar": "Your bars are dead, I’m levels above.",
+        "explanation": "A direct skill comparison."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Closer",
+        "bar": "I power up my ting and take him out of this bitch.",
+        "explanation": "A final-boss type closer."
+      },
+      {
+        "performer": "SMIL3Z",
+        "theme": "Status",
+        "bar": "I’m levelling up.",
+        "explanation": "Champion-status statement."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Concept",
+        "bar": "It’s your boy, Professor FENDRY.",
+        "explanation": "FENDRY opens with a teacher/professor concept."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Concept",
+        "bar": "I’ve got a very special student today.",
+        "explanation": "He frames SMIL3Z as the student."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Concept",
+        "bar": "I’m a teacher, I’ve got to teach him something.",
+        "explanation": "A concept setup that could have worked with stronger execution."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Status",
+        "bar": "I’ll show man about crowd control.",
+        "explanation": "A stage-control claim."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Status",
+        "bar": "Time to slap you out of that crowd control.",
+        "explanation": "A crowd-control/reload angle."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Appearance",
+        "bar": "Take off the beanie, fam, tell me what’s under the hair.",
+        "explanation": "A hair/hat insult."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Appearance",
+        "bar": "Your trim is dead.",
+        "explanation": "A simple appearance punch."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Appearance",
+        "bar": "Why is your face bigger than your head?",
+        "explanation": "An appearance joke."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Insult",
+        "bar": "Smells like a pussy, I’m boffing.",
+        "explanation": "A crude insult. Transcript wording is rough."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Family",
+        "bar": "You’ve got a wife and kids.",
+        "explanation": "A family angle against SMIL3Z."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Reference",
+        "bar": "Expecto Patronum.",
+        "explanation": "A Harry Potter reference."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Concept",
+        "bar": "We had a teacher round, but he was acting up in his first class.",
+        "explanation": "FENDRY continues the school concept in round two."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Concept",
+        "bar": "We had to call in the school council.",
+        "explanation": "A prop/concept continuation."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Name Flip",
+        "bar": "This guy’s name is Smouse.",
+        "explanation": "A SMIL3Z name flip."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Threat",
+        "bar": "Now I’m robbing you.",
+        "explanation": "A robbery/status line."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Status",
+        "bar": "Give me that watch, give me that chain, give me that champ status.",
+        "explanation": "A champion-status robbery angle."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Admission",
+        "bar": "I forgot my bars.",
+        "explanation": "A damaging admission in the final."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Admission",
+        "bar": "I’m flopping, I’m sorry for the finals.",
+        "explanation": "FENDRY directly acknowledges the collapse."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Setup",
+        "bar": "If I take this back in third round, it’s dark for him.",
+        "explanation": "FENDRY tries to set up a comeback."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Setup",
+        "bar": "Turn the beat off, give me silence.",
+        "explanation": "A change-of-pace request."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Closer",
+        "bar": "Let’s talk at his report card — Z minus.",
+        "explanation": "A school/report-card closer."
+      },
+      {
+        "performer": "FENDRY",
+        "theme": "Admission",
+        "bar": "My bad, I tried to do something special.",
+        "explanation": "A post-round apology and admission."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "SMIL3Z wins",
+      "summary": "Official result: SMIL3Z wins. Official status: Cold War Champion. Prize: £5,000. Judges’ call: Clear SMIL3Z win. Suggested score: SMIL3Z 3-0 FENDRY. Reason: FENDRY was underprepared and repeatedly forgot material. SMIL3Z delivered three complete rounds, exposed him in the third and controlled the entire final. Performance Grades - SMIL3Z: A, FENDRY: D. Final Note: This was meant to be a final, but it became a coronation. FENDRY had ideas and props, but SMIL3Z had bars, structure and the killer instinct. SMIL3Z leaves as the Cold War Champion and £5,000 winner."
+    }
+
   },
   {
     "id": "pg-s06-2026-02-18-skamz-vs-dan-dannah",
     "slug": "skamz-vs-dan-dannah-2",
     "mc1": "skamz",
     "mc2": "dan-dannah",
-    "winner": "dan-dannah",
+    "winner": "unknown",
     "title": "SKAMZ vs DAN DANNAH",
     "date": "2026-02-18",
     "theme": "pengame",
@@ -65786,7 +66163,406 @@ export const battles: Battle[] = [
     "stage": "Champions League",
     "group": null,
     "tag": null,
-    "videoUrl": "https://www.youtube.com/watch?v=YVmYId8Mq5k"
+    "videoUrl": "https://www.youtube.com/watch?v=YVmYId8Mq5k",
+    "clashSummary": "SKAMZ vs DAN DANNAH took place on **PenGame Rap Battle 2026** in the dungeon. The host frames it as a rematch/trilogy battle and closes by asking viewers to get in the comments and say who won the trilogy.\n\nDAN DANNAH wins the coin toss and goes first.\n\nDAN opens with high energy and a strong “wah” rhythm. He attacks SKAMZ’s name, saying he is not Sosa, not a scammer, not a real road figure, and not as dangerous as he claims. He builds around fake-gangster material, cheap dates, Attack on Titan, getting soaked in beef, blades, hand grenades, short fuse and SKAMZ reaching finals then flopping. The round is clean, aggressive and sets the tone.\n\nSKAMZ responds by saying he could not write properly for the battle, but still has enough to make DAN pay with his life. He immediately goes personal, references DAN asking him not to mention his daughter, and says in battle he can say what he likes. He uses reality-check, D-A-N, Dandana/Dan, Star Wars/Jabba, daughter/Zen angle, and Pop Smoke-style material. The round is direct and personal, but DAN’s opener is more complete.\n\nDAN’s second keeps the pressure up. He attacks SKAMZ as a fake scammer, uses 419 fraud references, porky pie/rasta wordplay, says he is prepared to fight in the mud, and delivers the line about not liking SKAMZ and busting his head open with the mic like Mike Tyson. The room reacts strongly. This is probably DAN’s best round.\n\nSKAMZ’s second is more playful and angle-heavy. He uses Dan/dandelion wordplay, sexuality/ruler/straight lines, fake king/crown material, broke/broken wordplay, Ninja Turtle, Venom/Carnage, Spider-Man, Shaolin, Street Fighter and Big Bang/Howard references. It has writing, but DAN’s second has more intensity and impact.\n\nDAN’s third is another strong round. He says he has aimed three rounds at SKAMZ, cooking him, blazing him like a spliff, and forcing him into bad outcomes. He attacks SKAMZ’s legend status, PenGame drama, Sosa/Somoza, soldier/soda, Angola, ogre/Fiona, insecurity, imagination, animation, alligator snap and hair-dye angles. It is a strong closer and keeps DAN consistent across all three.\n\nSKAMZ’s third is his best round. He starts with Among Us/imposter material, then uses drop-the-mic/detention, Eddie Gordo, dojo, Evian/naive, F-DON jumping in, Attack on Titan/Armin/Reiner, Mike Tyson/python, Red Rangers, gold/silver-lining and Sparta material. He does need restarts, but the final version lands with energy and gives him his clearest round.\n\nNo official result is announced. The host says it was a dope battle and asks viewers to comment who they think won the trilogy.\n\nOfficial result: **No official winner called**.",
+    "performanceAnalysis": [
+      {
+        "performer": "DAN DANNAH",
+        "overview": "DAN DANNAH has the stronger archive case because he is more consistent over three rounds.\n\nHis first round is focused and aggressive. He takes the “Scamz” name and flips it into fake-scammer/fake-road material, then builds into violent imagery and Attack on Titan references.\n\nHis second is his strongest. The 419/fraud angle, rasta/porky-pie wordplay and Mike Tyson line give the round real impact. The room reacts heavily.\n\nHis third is not as explosive as his second, but it is still strong. He keeps the pressure on and uses wider references, from Sosa/Somoza to Fiona, animation and hair-dye material.\n\nDAN’s biggest strength is consistency. He does not have the messiest round, and he keeps the same intensity throughout.",
+        "lyricalThemes": "Wah energy, fake scammer, Sosa, road image, cheap dates, Attack on Titan, beef/marinate, blades, hand grenades, short fuse, finals flop, 419 fraud, rasta/porky pie, Mike Tyson, Thailand, dandelion-style name flips, Sosa/Somoza, Angola, ogre/Fiona, insecurity, animation, alligator snap, hair dye.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Consistent aggression."
+          },
+          {
+            "title": "Best angle",
+            "description": "Fake scammer / 419 fraud / not really road."
+          },
+          {
+            "title": "Best technical section",
+            "description": "419 / rasta / porky pie / Mike Tyson sequence."
+          },
+          {
+            "title": "Battle factor",
+            "description": "Stronger first two rounds and fewer execution issues."
+          }
+        ]
+      },
+      {
+        "performer": "SKAMZ",
+        "overview": "SKAMZ has a strong third and some good personal angles, but he is less consistent than DAN.\n\nHis first round is personal and direct. The daughter/Zen angle is the biggest moment, though it is also very sensitive battle material. He also has a good Star Wars/Jabba section and a strong “dying wish” closer.\n\nHis second has ideas, but it is less damaging than DAN’s second. The Dan/dandelion material and ruler/straight wordplay are clever, but the round leans more on humour and sexuality angles than impact.\n\nHis third is his best. The Among Us, detention, Eddie Gordo, Evian/naive and Attack on Titan scheme give him his cleanest structure. Even with restarts, the round lands well and likely gives him the third.\n\nSKAMZ’s biggest strength is angle writing. His weakness here is execution; the third-round restarts stop him from clearly overtaking DAN.",
+        "lyricalThemes": "Daughter/Zen angle, D-A-N, Star Wars/Jabba, Pop Smoke, dandelion, ruler/straight wordplay, crown/fake king, broke/broken, Ninja Turtle, Venom/Carnage, Spider-Man, Shaolin, Street Fighter, Big Bang/Howard, Among Us, detention, Eddie Gordo, Evian/naive, Attack on Titan, Armin/Reiner, Mike Tyson/python, Red Rangers, Sparta.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Creative reference writing."
+          },
+          {
+            "title": "Best angle",
+            "description": "Among Us / imposter / villain setup."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Among Us into detention / Eddie Gordo / Evian / Attack on Titan sequence."
+          },
+          {
+            "title": "Battle factor",
+            "description": "Strong finish, but restarts and inconsistency stop him taking the battle."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Angle",
+        "bar": "Your name’s Skamz, real name so soft.",
+        "explanation": "DAN starts by attacking the name and persona."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Angle",
+        "bar": "You ain’t no scammer.",
+        "explanation": "The core first-round angle."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Critique",
+        "bar": "Rap like you’re some sort of road thug — liar, capper.",
+        "explanation": "A fake-road critique."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Wordplay",
+        "bar": "Just because you scream out ‘wah’ don’t mean you’re ready for war.",
+        "explanation": "A self-aware “wah/war” punch."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Critique",
+        "bar": "You got to the finals and flopped.",
+        "explanation": "A performance-history attack."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Critique",
+        "bar": "How many times have you flopped? I forgot.",
+        "explanation": "A good memory/choke punch."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Positioning",
+        "bar": "Any time that I lost, I came back stronger.",
+        "explanation": "A strong self-positioning line."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Reference",
+        "bar": "Call me a price — 419.",
+        "explanation": "A fraud/scam reference."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Wordplay",
+        "bar": "You can never be a rasta, you tell too much porky pie.",
+        "explanation": "Rasta/porky-pie wordplay."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Status",
+        "bar": "You ain’t prepared to get your hands dirty. Me, I’m prepared to fight in the mud.",
+        "explanation": "A toughness contrast."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Aggression",
+        "bar": "I actually don’t like him.",
+        "explanation": "A direct escalation."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Imagery",
+        "bar": "If we actually start fighting, I’ll bust his head open with a mic and shock it like my name is Mike Tyson.",
+        "explanation": "One of DAN’s biggest room-reaction lines."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Imagery",
+        "bar": "I’ll kick you like I’m from Thailand.",
+        "explanation": "A Muay Thai / Thailand punch."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Wordplay",
+        "bar": "If you’re so live on this, then right now why you dying?",
+        "explanation": "A clean life/death contrast."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Concept",
+        "bar": "Three rounds of my aim at his big artist.",
+        "explanation": "Third-round statement of intent."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Concept",
+        "bar": "Like a candle, I’m making a wish.",
+        "explanation": "Candle/wish setup."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Status",
+        "bar": "I’m cooking.",
+        "explanation": "A simple performance claim."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Imagery",
+        "bar": "You’ll get blazed like a spliff.",
+        "explanation": "A smoke/burning punch."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Status",
+        "bar": "You ain’t number one, are you taking the piss?",
+        "explanation": "Status attack."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Wordplay",
+        "bar": "Not a legend — if you think it’s eight, it’s a myth.",
+        "explanation": "Legend/myth wordplay."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Wordplay",
+        "bar": "About Sosa, you’ll get fired like Somoza.",
+        "explanation": "Sosa/Somoza wordplay."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Wordplay",
+        "bar": "You ain’t no soldier, you just got stopped like soda.",
+        "explanation": "Soldier/soda punch."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Reference",
+        "bar": "Make him my Princess Fiona.",
+        "explanation": "Ogre/Fiona reference."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Critique",
+        "bar": "You ain’t disrespectful, you’re insecure.",
+        "explanation": "A strong character critique."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Critique",
+        "bar": "You’ve got too much animation.",
+        "explanation": "Animated/exaggerated persona angle."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Imagery",
+        "bar": "Make me snap like alligators.",
+        "explanation": "A violence/animal punch."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Wordplay",
+        "bar": "Even now, you’re still dying hair.",
+        "explanation": "Hair-dye/dying wordplay."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Context",
+        "bar": "For this battle, I couldn’t write.",
+        "explanation": "A risky opener, but he flips it by saying he still has enough to compete."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Context",
+        "bar": "This is a battle, I do what the fuck I like.",
+        "explanation": "SKAMZ defends using personal material."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Concept",
+        "bar": "I’m smoking D-A-N again.",
+        "explanation": "Name spelling / rematch angle."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "This ain’t a blue story.",
+        "explanation": "A film/music reference."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "Your BM looks like Jabba the Hutt.",
+        "explanation": "Star Wars/body insult."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "You ain’t built for these Star Wars anymore.",
+        "explanation": "Continues the Star Wars scheme."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Critique",
+        "bar": "Just because you scream out ‘wah’ don’t mean you’re ready for war.",
+        "explanation": "SKAMZ also attacks the “wah/war” image."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Critique",
+        "bar": "Crying isn’t enough.",
+        "explanation": "A direct emotional critique."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Angle",
+        "bar": "As your dying wish, I won’t mention your daughter again.",
+        "explanation": "A sensitive personal angle used as battle material."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "How the fuck is Dan a lion? Dan is a flower, he literally acts like a dandelion.",
+        "explanation": "One of SKAMZ’s cleanest name flips."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "How can you be a ruler, brother? You’re not even straight.",
+        "explanation": "Ruler/straight wordplay. Battle material."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "You can call me broke, but you’re broken.",
+        "explanation": "Broke/broken wordplay."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Status",
+        "bar": "This was a one-way ticket to hell.",
+        "explanation": "A strong battle-status line."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Imagery",
+        "bar": "Ninja Turtle mist.",
+        "explanation": "A visual/reference punch."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "Build him up into Venom, then turn him into Carnage.",
+        "explanation": "Spider-Man/Venom/Carnage reference."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "This ain’t a Shaolin trip.",
+        "explanation": "Martial-arts reference."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "Give him a big bang like Howard.",
+        "explanation": "Big Bang Theory/Howard reference."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Concept",
+        "bar": "I’ll get him done in the worst way — I’m a monster.",
+        "explanation": "Third-round opener."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "Stuffed down in the vents after cutting his neck — I’m an imposter.",
+        "explanation": "Among Us reference."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "They didn’t know that the villain among us.",
+        "explanation": "Continues the Among Us scheme."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Performance",
+        "bar": "Me dropping the mic? That’s not something that you should mention.",
+        "explanation": "SKAMZ controls a known angle against him."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Concept",
+        "bar": "Sit down, it’s detention.",
+        "explanation": "Student/lesson setup."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "Eddie Gordo, step in my dojo.",
+        "explanation": "Tekken/martial-arts reference."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "Evian backwards — naive.",
+        "explanation": "Clean wordplay."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "This a war, Reiner, you should’ve been Armored Titan.",
+        "explanation": "Attack on Titan reference."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "I’m not a snake, just brought me a python.",
+        "explanation": "Snake/python punch."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "Give him a strike, that’s lightning.",
+        "explanation": "Strike/lightning wordplay."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Wordplay",
+        "bar": "I’m gold, cause I’m cold — your flows ain’t passing the silver lining.",
+        "explanation": "Medal/weather wordplay."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Reference",
+        "bar": "Truth say there can only be one, so I’ll kick man down like this is Sparta.",
+        "explanation": "300/Sparta closer."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "unknown",
+      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: DAN DANNAH 2-1 SKAMZ. Suggested round split: Round 1: DAN DANNAH, Round 2: DAN DANNAH, Round 3: SKAMZ. Reason: DAN is more consistent and stronger across the first two rounds. SKAMZ finishes well and likely takes the third, but the restarts and earlier inconsistency leave DAN ahead overall. Archive Grades - DAN DANNAH: A-, SKAMZ: B+. Final Note: This is a strong trilogy battle. SKAMZ has a dangerous third, but DAN DANNAH’s first two rounds are cleaner, more consistent and more damaging. Archive result: DAN DANNAH 2-1, no official winner called."
+    }
   },
   {
     "id": "pg-s06-2026-03-22-bmf-alz-vs-zion",
@@ -65806,7 +66582,377 @@ export const battles: Battle[] = [
     "group": null,
     "tag": null,
     "winner": "unknown",
-    "statusNote": "Awaiting upload"
+    "videoUrl": "https://www.youtube.com/watch?v=eOujt2rtrEQ",
+    "statusNote": "Awaiting upload",
+    "clashSummary": "ELZ vs ZION took place on **PenGame Rap Battle 2026** in the dungeon. host introduces it as an adult PenGame dungeon battle and later sends the result to the comments rather than giving a formal winner.\n\nELZ goes first.\n\nELZ opens with a heavy biblical concept round built around ZION’s name. He uses religious imagery throughout: Lord post-Christmas, Psalms, Satan in Zion, repentance, divine intervention, David and Goliath, Samuel, Lazarus, Moses, Noah, the Temple of David and Israel. It is a dense, highly themed round and one of the clearest concept rounds in the battle.\n\nZION replies with more aggression. He says he was told to be more aggressive, then attacks ELZ physically, lyrically and personally. He uses Garden of Eden, arson, Kung Fu Panda, American food, Star Wars/Mace, Undertaker, cane shots, tooth fairy and pie imagery. It is more direct and violent in tone, but less structured than ELZ’s opener.\n\nELZ’s second continues the pressure. He attacks ZION’s writing, numbers, intelligence, flow, voice, image and originality. He brings Sonic, Fantasia, Rizzle Kicks, Vecna, IQ/chromosome imagery, spelling schemes, TLC, Robin Hood, monarchy and Palestine references. This round is less unified than his first but still has stronger writing density than ZION’s second.\n\nZION’s second is aggressive and personal. He attacks ELZ’s Leicester background, age, followers, prison performance, EP title, weight, diet, family and consistency. He also uses George Floyd tribute imagery, Oompa Loompa and “big boy table” angles. There are moments, but the round feels more scattered than ELZ’s second.\n\nELZ’s third starts strong. He attacks ZION as a keyboard warrior, sweatshop worker, germ, appetizer, Black Bag/Jordan image, Goofy voice, Harry spare reference, Shenseea, dental care, elocution, Passive imitation and Ozempic Games. However, near the end he drops/stumbles and admits he dropped it. That gives ZION a clear opening.\n\nZION’s third is his best round. He attacks ELZ as a social-media ghost, hobby rapper, inconsistent battler, lonely kid, diabetic/takeaway image, CEX-style loser, and then directly references the idea of not choking in the third. That final point lands because ELZ has just dropped. ZION clearly wins the third round.\n\nThe transcript does not include an official judge decision. The host simply tells viewers to get in the comments and say who they think won.\n\nOfficial result: **No official winner called**.",
+    "performanceAnalysis": [
+      {
+        "performer": "ELZ",
+        "overview": "ELZ has the better writing across the first two rounds. His first round is the most complete concept in the battle.\n\nThe biblical ZION scheme is strong because it does not just use one religious reference; it builds an entire round around the opponent’s name. The punches are layered, and the structure is clear.\n\nHis second round is also strong, with more varied references and technical punches. It is slightly less focused than the first, but still sharp.\n\nThe issue is the third. ELZ starts well, but dropping near the end damages the round heavily. In a battle that has no official decision, that stumble is the main reason the result cannot be marked as a clean ELZ win.\n\nELZ’s biggest strength is conceptual writing. His weakness here is closing cleanly.",
+        "lyricalThemes": "Biblical imagery, Zion name flips, Psalms, Satan, repentance, divine intervention, David and Goliath, Lazarus, Moses, Noah, Israel, Sonic, Rizzle Kicks, Vecna, IQ/chromosome punch, spelling schemes, Robin Hood, Palestine, M. Bison, sanitizer, Equalizer, Harry spare reference, Passive imitation, Ozempic Games.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round one."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Concept writing."
+          },
+          {
+            "title": "Best angle",
+            "description": "Full biblical ZION name scheme."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Satan / repentance / divine intervention / David and Goliath sequence."
+          },
+          {
+            "title": "Battle factor",
+            "description": "Wins the first two rounds on writing, but the third-round drop prevents a clean official-style win."
+          }
+        ]
+      },
+      {
+        "performer": "ZION",
+        "overview": "ZION is more aggressive and has the best third round. His issue is that his first two rounds are less controlled than ELZ’s.\n\nHis first round has energy and violence, but it does not match ELZ’s biblical structure. The best parts are the Garden of Eden, Mace, Undertaker and tooth fairy sections.\n\nHis second has some good personal material, especially the Leicester/one good season angle and the follower-count section. However, it is still rough and jumps between angles quickly.\n\nHis third is the clear standout. He directly capitalises on ELZ dropping, then attacks ELZ’s social presence, career seriousness, loneliness and consistency. The “that’s why you don’t choke in the third round” idea is the strongest strategic moment from ZION because it lands in real time.\n\nZION’s biggest strength is aggression and late-round adjustment. His weakness is structure.",
+        "lyricalThemes": "Garden of Eden, arson, Kung Fu Panda, American food, cheeseburger imagery, Star Wars/Mace, Undertaker, cane shots, tooth fairy, Leicester football angle, followers, prison performance, EP/family angle, big boy table, Oompa Loompa, social ghost, hobby rapper, lonely kid, takeaway/death row, third-round choke rebuttal.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Aggression and rebuttal timing."
+          },
+          {
+            "title": "Best angle",
+            "description": "ELZ choking/dropping in the third."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Social ghost / hobby rapper / don’t choke in the third sequence."
+          },
+          {
+            "title": "Battle factor",
+            "description": "Strong finish makes the battle debatable."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "ELZ",
+        "theme": "Status",
+        "bar": "Bear witness, this the birth of the Lord post-Christmas.",
+        "explanation": "A strong opening that sets the biblical tone."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Wordplay",
+        "bar": "Only place gassing you up is Psalms.",
+        "explanation": "A clever religious/name flip."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Threat",
+        "bar": "God can’t save you from catching these palms.",
+        "explanation": "A faith/violence punch."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Wordplay",
+        "bar": "Can’t turn the other cheek when I’m bringing the arm.",
+        "explanation": "A biblical phrase flipped into violence."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Concept",
+        "bar": "You never should have ever let Satan in Zion.",
+        "explanation": "One of ELZ’s best name-based punches."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Concept",
+        "bar": "I’ll grant you repentance.",
+        "explanation": "Continues the religious judgement theme."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Status",
+        "bar": "How can he look up? I’m in ascendance.",
+        "explanation": "A spiritual elevation/status punch."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Concept",
+        "bar": "Smiting you down, it’s divine intervention.",
+        "explanation": "A clean religion/destruction line."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Imagery",
+        "bar": "This is really going to be the hill that you die on.",
+        "explanation": "A strong “Zion hill” style battle image."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Reference",
+        "bar": "David and Goliath, one rock to your jaw.",
+        "explanation": "Biblical underdog punch."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Reference",
+        "bar": "I’m Lazarus.",
+        "explanation": "A resurrection/reference line."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Reference",
+        "bar": "I’m parting your wave like Moses.",
+        "explanation": "A Moses/sea split flip."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Reference",
+        "bar": "Then I’m riding the wave like Noah.",
+        "explanation": "A flood/Noah continuation."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Wordplay",
+        "bar": "Don’t play with a pen, it ain’t got game.",
+        "explanation": "A PenGame name flip."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Concept",
+        "bar": "It’s scriptural that I spray on stage.",
+        "explanation": "Religious writing / battle writing fusion."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Reference",
+        "bar": "You ain’t get no gems or rings for your Sonic soul.",
+        "explanation": "A Sonic reference."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Reference",
+        "bar": "Last time I clashed Hudson or Dorian, this time it’s Jordan from Rizzle Kicks.",
+        "explanation": "A lookalike/reference punch."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Reference",
+        "bar": "Leave you upside down like your name was Vecna.",
+        "explanation": "A Stranger Things / Vecna punch."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Critique",
+        "bar": "If I wanted to kill myself, I’d climb your chromosome count and drop to your IQ.",
+        "explanation": "A harsh intelligence punch. Battle material."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Wordplay",
+        "bar": "A-G-L-O-O-K-S-O-B-O-R-E-D.",
+        "explanation": "A spelling scheme attacking ZION’s style/look."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Status",
+        "bar": "Real kings don’t bend the knee.",
+        "explanation": "A royalty/status line."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Wordplay",
+        "bar": "This ain’t your retribution, Zion, this is your extracution.",
+        "explanation": "A retribution/execution-style wordplay."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Critique",
+        "bar": "You imitate Passive, I’m really active.",
+        "explanation": "A style/identity critique."
+      },
+      {
+        "performer": "ELZ",
+        "theme": "Wordplay",
+        "bar": "Battle Ozempic Games, I snatched it.",
+        "explanation": "A weight-loss/Olympics-style punch."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Angle",
+        "bar": "Jaws said I need to be more aggressive.",
+        "explanation": "ZION opens by responding to prior critique."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Threat",
+        "bar": "I’ll get in his face and clip that jaw.",
+        "explanation": "A direct aggression line."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Reference",
+        "bar": "You’ll get banished at the Garden of Eden.",
+        "explanation": "A biblical rebuttal to ELZ’s religious theme."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Threat",
+        "bar": "I’ll beat you lyrically, then beat you down physically.",
+        "explanation": "A lyrical/physical threat line."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Imagery",
+        "bar": "Burn your family home to a crisp, put it out with my piss.",
+        "explanation": "Shock-value arson imagery. Battle material."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Appearance",
+        "bar": "Bare-bellied from Kung Fu Panda.",
+        "explanation": "A body/film punch."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Appearance",
+        "bar": "The embodiment of American food.",
+        "explanation": "A body/food insult."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Appearance",
+        "bar": "Mr Cheeseburger.",
+        "explanation": "A simple visual/body punch."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Reference",
+        "bar": "Call me Mace, I’ll light up the place with my saber.",
+        "explanation": "A Star Wars / Mace Windu punch."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Imagery",
+        "bar": "I go by Undertaker.",
+        "explanation": "A wrestling/death image."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Reference",
+        "bar": "I’ll beat him again with a cane.",
+        "explanation": "Continues the Undertaker/Kane wrestling reference."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Imagery",
+        "bar": "Your teeth will fly, and the tooth fairy would bring him a pie.",
+        "explanation": "A teeth/body punch."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Location",
+        "bar": "Leicester had about one good season.",
+        "explanation": "A football/location punch."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Reference",
+        "bar": "This your endgame — Avengers.",
+        "explanation": "A Marvel/endgame flip."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Critique",
+        "bar": "In six years, you got under 500 followers.",
+        "explanation": "A social-media status attack."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Critique",
+        "bar": "When you rap, I feel imprisoned.",
+        "explanation": "A performance/listening insult."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Status",
+        "bar": "If you wanna sit over here with the big boy table, please don’t just bring a big boy diet.",
+        "explanation": "A body/status punch."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Appearance",
+        "bar": "I’ll start with this Oompa Loompa that stood in my way.",
+        "explanation": "A Willy Wonka/body image."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Critique",
+        "bar": "This guy moves like a ghost on socials.",
+        "explanation": "A social-media presence attack."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Critique",
+        "bar": "My question: what is he hiding?",
+        "explanation": "Continues the ghost/social angle."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Critique",
+        "bar": "You treat this thing like a hobby.",
+        "explanation": "A seriousness/career critique."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Reference",
+        "bar": "Murder on my mind like Melly.",
+        "explanation": "A YNW Melly reference."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Critique",
+        "bar": "His music makes me suicidal.",
+        "explanation": "A harsh music-quality attack. Battle material."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Imagery",
+        "bar": "Death row, cold word.",
+        "explanation": "A death-row/takeaway-style punch."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Status",
+        "bar": "You’re not in the Academy trailer.",
+        "explanation": "A platform-status punch."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Angle",
+        "bar": "Don’t judge what I did before this.",
+        "explanation": "A self-correction / growth angle."
+      },
+      {
+        "performer": "ZION",
+        "theme": "Angle",
+        "bar": "That’s why you don’t choke in the third round.",
+        "explanation": "ZION’s strongest strategic closer because ELZ dropped in the third."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "unknown",
+      "summary": "Official result: No official winner called. Decision type: Comments decide. Recommended site status: No Official Decision / Fan Vote Pending. Archive lean: ELZ 2-1 ZION. Suggested round split: Round 1: ELZ, Round 2: ELZ, Round 3: ZION. Reason: ELZ has the stronger writing and structure in the first two rounds, but ZION clearly wins the third after ELZ drops/stumbles. Archive Grades - ELZ: B / B+, ZION: B. Final Note: ELZ’s pen is stronger early, but ZION makes the battle debatable by closing better and punishing the third-round drop. Officially, this should stay as Fan Vote Pending unless PenGame later confirms a winner."
+    }
   },
   {
     "id": "pg-s06-2026-04-05-iiiberealz-vs-dan-dannah",
@@ -66384,25 +67530,358 @@ export const battles: Battle[] = [
     "stage": "Academy Clashes",
     "group": null,
     "tag": null,
-    "winner": "unknown"
-  },
-  {
-    "id": "pg-s08-2025-11-19-dyzz-vs-jynx",
-    "slug": "dyzz-vs-jynx",
-    "mc1": "dyzz",
-    "mc2": "jynx",
-    "title": "DYZZ vs JYNX",
-    "date": "2025-11-19",
-    "theme": "pengame",
-    "season": "Academy",
-    "subGroup": "Academy Clashes",
-    "videoUrl": "https://www.youtube.com/watch?v=DaeHry0lL7o",
-    "views": "10k",
-    "customEp": "Academy x02",
-    "stage": "Academy Clashes",
-    "group": null,
-    "tag": null,
-    "winner": "unknown"
+        "winner": "monroe",
+    "clashSummary": "MONROE vs RACKZ took place on **PenGame Academy 2025** in Manchester at **The Clint Store**. The host introduces the battle as part of PenGame’s search for new Academy talent.\n\nRACKZ goes first.\n\nRACKZ opens with a confidence-heavy first round. He says MONROE must be stupid to clash him, calls the track violent, says he is new gen while MONROE is old gen, and claims he is colder on beats. He uses “lean and pop” repetition, king/throne imagery and says this is his time. The round has energy but feels more like a general performance than a direct breakdown of MONROE.\n\nMONROE responds with a more opponent-specific first round. He attacks RACKZ’s smell, face covering, hiding his identity, witness-protection imagery, relationship status, clothing, melanin, and whether RACKZ is really a gunman. He also flips RACKZ’s stage presence and says RACKZ should be more proud to show himself. This round feels more tailored and wins the opener.\n\nRACKZ’s second round uses MONROE’s name as an acrostic scheme, spelling out letters and linking them to insults. He calls MONROE maliciously murdered, a nuisance, organic, and then flips woman/wooden/pudding lines. It is more structured than his first, but still not as direct or damaging as MONROE.\n\nMONROE’s second is stronger. He frames RACKZ as broke, unable to pay money back, weak with women, not a bad boy, and all talk. He uses Coke and Mentos, Lomachenko, FIFA, Metro, public fighting, body-bag imagery and “show up to the next one” threats. The round has more pressure and clearer angles.\n\nRACKZ’s third is his best round. He brings Manchester/hangman wordplay, crowd aggression, depression imagery, primary-school allegation-style material as battle insult, and says MONROE’s bars are basic. He also says he is not scared and that PenGame prepared a body for him. It is better, but still not enough to overtake MONROE’s directness.\n\nMONROE’s third closes the battle clearly. He attacks RACKZ’s mum/Marty McFly angle, diet, apple crumble, shaved head, KitKat Chunky, body shape, clothing, friend-zone status, lack of money and being broke despite the name RACKZ. He also flips one of RACKZ’s lines about “shank and spray me,” which the host highlights after the battle.\n\nAt the end, the host gives the battle to **MONROE**. He says MONROE was more direct and had a better battle attitude, while RACKZ’s material felt generic and not geared enough towards MONROE. RACKZ is praised for not stumbling, but told he needs more direct opponent breakdowns.\n\nOfficial host winner: **MONROE**.",
+    "performanceAnalysis": [
+      {
+        "performer": "MONROE",
+        "overview": "MONROE wins because he is more direct and more opponent-specific. His rounds feel written for RACKZ, while RACKZ often sounds like he is performing general bars.\n\nHis first round is strong because he immediately attacks RACKZ’s look, hiding his face, witness-protection angle, relationship image and melanin. The host later specifically mentions the melanin line as wild, which shows it stuck.\n\nHis second is probably his strongest overall round. He uses the broke/RACKZ contradiction, relationship lines, bad-boy image, money and body-bag imagery to make RACKZ look less credible.\n\nHis third finishes cleanly. The diet, apple-crumble, shaved-head, KitKat Chunky and friend-zone angles are clear and funny. He also has enough direct personal material to leave a stronger final impression.\n\nMONROE’s biggest strength is directness. He listens to who is in front of him and attacks that person.",
+        "lyricalThemes": "RACKZ hiding his face, witness protection, melanin, gunman image, smell, broke/RACKZ contradiction, debt, relationship status, Coke and Mentos, Lomachenko, FIFA, public fighting, diet, apple crumble, shaved head, KitKat Chunky, friend-zone status, lack of money.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Direct opponent-specific writing."
+          },
+          {
+            "title": "Best angle",
+            "description": "RACKZ talks money and danger but looks broke and unconvincing."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Broke/RACKZ / money-back / bad-boy contradiction section."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "More tailored material across all three rounds."
+          }
+        ]
+      },
+      {
+        "performer": "RACKZ",
+        "overview": "RACKZ loses, but he does not collapse. The host says he did not stumble, which matters in Academy. His issue is that the material is not specific enough.\n\nHis first round has energy but feels broad. The new-gen/old-gen angle is usable, but not developed deeply enough.\n\nHis second round is his best written section because the MONROE acrostic gives it structure. However, it still feels more like a name exercise than a real character breakdown.\n\nHis third has more bite and is his strongest performance round, especially the Manchester/hangman section. But by then, MONROE has already been more direct for two rounds.\n\nRACKZ’s biggest strength is confidence. His weakness is opponent-specific writing.",
+        "lyricalThemes": "New gen vs old gen, violent track, lean and pop, king/throne imagery, MONROE acrostic, malicious/nuisance/organic/everybody scheme, woman/wooden/pudding line, Manchester/hangman, primary-school allegation-style insult, depression, basic bars, no chin/hair insults.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Confidence and clean completion."
+          },
+          {
+            "title": "Best angle",
+            "description": "Manchester/hangman wordplay."
+          },
+          {
+            "title": "Best technical section",
+            "description": "MONROE acrostic in round two."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Too many bars feel generic rather than built for MONROE."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "RACKZ",
+        "theme": "Status",
+        "bar": "You must be stupid.",
+        "explanation": "RACKZ opens by framing MONROE as foolish for taking the battle."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Status",
+        "bar": "This one here is a violent track.",
+        "explanation": "A tone-setting line."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Angle",
+        "bar": "I am new gen, new flows; you’re just old gen.",
+        "explanation": "RACKZ’s main first-round angle."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Status",
+        "bar": "You don’t know about road life, you was the guy who got sent to the shops.",
+        "explanation": "A street-credibility attack."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Branding",
+        "bar": "Lean and pop.",
+        "explanation": "A repeated catchphrase/movement line."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Status",
+        "bar": "Who is the king on the throne? That’s me.",
+        "explanation": "A self-crowning line."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Angle",
+        "bar": "I’m younger than you.",
+        "explanation": "A youth/new-generation angle."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Status",
+        "bar": "This time I’m saying that it’s my time.",
+        "explanation": "A confidence closer."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Wordplay",
+        "bar": "M is for maliciously murdering.",
+        "explanation": "The start of the MONROE acrostic scheme."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Wordplay",
+        "bar": "N is for nuisance.",
+        "explanation": "Part of the name-spelling scheme."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Wordplay",
+        "bar": "O is for organic, my flows are fresh.",
+        "explanation": "A fresh-flow punch."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Wordplay",
+        "bar": "Took your lyrics and spelt your name.",
+        "explanation": "RACKZ explains the structure of the acrostic."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Status",
+        "bar": "I’m the one that’s bringing the force in.",
+        "explanation": "A force/pressure line."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Reference",
+        "bar": "In my Toy Story, this one gonna like you so I am bossing.",
+        "explanation": "A Toy Story/Buzz-style line, though the transcript is rough."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Critique",
+        "bar": "You just ain’t got a heart.",
+        "explanation": "A courage/heart insult."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Location",
+        "bar": "Manchester banging.",
+        "explanation": "A location/energy statement."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Wordplay",
+        "bar": "If we’re playing a game where you guess the word, then this is the man that I’m hanging.",
+        "explanation": "Hangman wordplay."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Critique",
+        "bar": "Bars are basic.",
+        "explanation": "A direct skill critique."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Threat",
+        "bar": "You don’t want to see me jump on a beat.",
+        "explanation": "A performance threat."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Status",
+        "bar": "I’m not scared of him.",
+        "explanation": "A confidence line."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Appearance",
+        "bar": "It’s about time you grew hair on your chin.",
+        "explanation": "A maturity/appearance punch."
+      },
+      {
+        "performer": "RACKZ",
+        "theme": "Status",
+        "bar": "Can you not see big RACKZ on a beat is really what scared him?",
+        "explanation": "A self-branding closer."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Personal",
+        "bar": "Your whole aroma is pissy.",
+        "explanation": "A hygiene/smell insult."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Critique",
+        "bar": "You flow like your toes are sticky.",
+        "explanation": "A delivery/body-hygiene punch."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Critique",
+        "bar": "Your forehead’s wet and your palms are clammy.",
+        "explanation": "An anxiety/nervousness angle."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Personal",
+        "bar": "You still share bed with your mum when you’re sleeping.",
+        "explanation": "A maturity/family insult."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Personal",
+        "bar": "You need a family meeting.",
+        "explanation": "A family-status punch."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Angle",
+        "bar": "Snitched on the gang… witness protection.",
+        "explanation": "A face-covering/snitching angle."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Angle",
+        "bar": "Why are you hiding your face in a clash?",
+        "explanation": "One of MONROE’s clearest direct attacks."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Angle",
+        "bar": "You should be proud to be Black; why not show off your melanin more?",
+        "explanation": "A direct line the host later highlights as wild."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Status",
+        "bar": "RACKZ ain’t never been a gunman.",
+        "explanation": "A credibility attack."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Wordplay",
+        "bar": "There’s a broke youth called RACKZ.",
+        "explanation": "A name/money contradiction."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Status",
+        "bar": "Can’t pay back all the dough from last week.",
+        "explanation": "A debt/money punch."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Personal",
+        "bar": "I wouldn’t do that to a gal.",
+        "explanation": "A relationship/morality jab."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Status",
+        "bar": "Tell that I’m ready for war.",
+        "explanation": "A performance-war line."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Imagery",
+        "bar": "I explode like Coke and Mentos.",
+        "explanation": "A pressure/explosion punch."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Reference",
+        "bar": "Flow like Lomachenko.",
+        "explanation": "A boxing/flow comparison."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Imagery",
+        "bar": "I’ll punch man up so bad in public, OGs running up like stop this fighting.",
+        "explanation": "A public-violence image. Battle material."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Threat",
+        "bar": "Please don’t show up to the next one.",
+        "explanation": "A warning line."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Reference",
+        "bar": "You fancy your mum like Marty McFly.",
+        "explanation": "A Back to the Future / incest-style insult. Battle material."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Comedy",
+        "bar": "You told everybody you was on a diet last month, and I seen you with an apple crumble.",
+        "explanation": "One of MONROE’s funniest direct punches."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Comedy",
+        "bar": "Your favourite meal is a KitKat Chunky.",
+        "explanation": "A body/food insult."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Personal",
+        "bar": "When you’re around us, the smell is funky.",
+        "explanation": "A smell/hygiene callback."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Threat",
+        "bar": "You don’t feel safe without exits near me.",
+        "explanation": "A threat/intimidation line."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Angle",
+        "bar": "RACKZ, you better show us your money.",
+        "explanation": "A direct name/money challenge."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Personal",
+        "bar": "You go out for a drink on a Saturday night, but you never go home with a honey.",
+        "explanation": "A dating/status punch."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Personal",
+        "bar": "Friendzone bouncers see you when you get sent home.",
+        "explanation": "A social/club punch."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Status",
+        "bar": "Broke you, and it’s all mental.",
+        "explanation": "A final broke/status insult."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "MONROE wins",
+      "summary": "Official result: MONROE wins. Suggested score: MONROE 3-0 RACKZ. Reason: RACKZ completed his rounds, but MONROE had the more direct, opponent-specific material in every round. Performance Grades - MONROE: C / C+, RACKZ: D. Academy Status: Both have room for improvement and could return, but MONROE clearly takes this battle. Final Note: RACKZ had confidence and no stumbles, but MONROE battled the person in front of him. Directness wins this one."
+    }
   },
   {
     "id": "pg-s08-2025-12-01-jmuni-vs-mz",
@@ -66420,24 +67899,304 @@ export const battles: Battle[] = [
     "stage": "Academy Clashes",
     "group": null,
     "tag": null,
-    "winner": "unknown"
-  },
-  {
-    "id": "pg-s08-2025-12-05-mz-vs-s-kidz",
-    "slug": "mz-vs-s-kidz",
-    "mc1": "mz",
-    "mc2": "s-kidz",
-    "title": "MZ vs S'KIDZ",
-    "date": "2025-12-05",
-    "theme": "pengame",
-    "season": "Academy",
-    "subGroup": "Academy Clashes",
-    "views": "14k",
-    "customEp": "Academy x04",
-    "stage": "Academy Clashes",
-    "group": null,
-    "tag": null,
-    "winner": "unknown"
+        "winner": "jmuni",
+    "clashSummary": "J MUNI vs MZ took place on **PenGame Academy 2025** at **Crep Select in Lewisham**. The host introduces it as the first battle of the day and explains that Academy battlers will be graded live, with honest feedback on whether they should return.\n\nThe transcript refers to MZ as **Ems / Michael** in places.\n\nJ MUNI goes first.\n\nJ MUNI opens with a short but direct first round. He attacks MZ’s career path, saying he should go be a milkman, says he begged his way onto the platform through D-Real, and brings angles about his music, girlfriend leaving, and not being built for the stage. The round has some good direct material, but it does not fully pull away.\n\nMZ answers with a solid first. He attacks J MUNI’s lack of songs, lack of money, previous choke, sister/family material, and uses samurai/shogun imagery. He also says J MUNI had one battle and could not finish it. This round is competitive enough that the host later calls the first round a draw.\n\nJ MUNI’s second round is where he starts to separate. He directly addresses the choke angle, admits he choked in his first battle, but says he came back with vengeance and is here to win. He attacks MZ’s music level, says MZ came back ten times worse, and says that is why his girlfriend left. It is short, but direct and effective.\n\nMZ’s second has more flow and energy. He says he is taking it back to a grime flow, calls his lyrics killer and rhythm sick, and attacks J MUNI’s appearance, weight, girlfriend, Hagrid look and lack of motion. The delivery is better, but the host still gives the round to J MUNI.\n\nJ MUNI’s third is his clearest winning round. He says his real name is Jaden Britton, flips that into Britain’s Got Talent, then attacks MZ for having no whip, no chain, no yard and not being dangerous. He repeats earlier relationship insults, attacks MZ as Shameless-looking, says he was still in nappies while J was outside, and finishes with a direct diss-clash section. The round has the best structure from J MUNI.\n\nMZ’s third is respectable for a first-time battler. He uses Jaden’s name, calls him a liar and cheat, references his Tapped battle, breathing, Call of Duty, Instagram rapper image, Baghdad/Iraq imagery and says he is not new to this. But it does not overturn J MUNI’s third.\n\nAfter the battle, the host says the first round was close enough to call a draw, but he gives the second and third rounds to **J MUNI**. MZ is praised for getting all his bars out and not dropping the mic in his first battle, but J MUNI is clearly declared the winner.\n\nOfficial host winner: **J MUNI**.",
+    "performanceAnalysis": [
+      {
+        "performer": "J MUNI",
+        "overview": "J MUNI wins because he improves after the first round and takes control in rounds two and three.\n\nHis first round is direct but not dominant. The milkman, D-Real, girlfriend-left and music angles are good, but MZ answers strongly enough to make the round debatable.\n\nHis second round is smart because he does not avoid the choke angle. He admits it, flips it, and says he came back with vengeance. That honesty gives him control of the narrative.\n\nHis third is his best. The Jaden Britton / Britain’s Got Talent flip gives the round identity, and the rest of the material is more aggressive and better structured than MZ’s third.\n\nJ MUNI’s biggest strength is growth. The host specifically says he is improving and gaining confidence with each performance.",
+        "lyricalThemes": "Milkman career angle, D-Real platform angle, music criticism, girlfriend-left angle, first-battle choke rebuttal, vengeance return, Jaden Britton / Britain’s Got Talent, no whip/chain/yard, Shameless image, nappy-changing age angle, diss-clash closer.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Confidence and direct rebuttal."
+          },
+          {
+            "title": "Best angle",
+            "description": "Owning the previous choke and turning it into a comeback story."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Jaden Britton / Britain’s Got Talent run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Clearer second and third rounds."
+          }
+        ]
+      },
+      {
+        "performer": "MZ",
+        "overview": "MZ loses, but this is a respectable first battle. He gets his material out, does not drop the mic, and earns another chance.\n\nHis first round is his best. He attacks J MUNI’s lack of music, lack of money and previous choke, while using samurai/shogun imagery. The host calls the first round a draw, which is a strong start for a debut.\n\nHis second has more flow, but the angles become less direct. The grime-flow/COVID-zone/villain material shows style, but J MUNI’s direct choke rebuttal wins the round.\n\nHis third is decent but not enough. The Jaden-name material and Instagram rapper angle are useful, but J MUNI’s third has more control and crowd impact.\n\nMZ’s biggest strength is that he completes his rounds. His weakness is that he needs sharper, more opponent-specific writing.",
+        "lyricalThemes": "No iTunes/songs, no money, sister/family insults, Honey Monster, samurai/shogun, previous choke, Christian heart, grime flow, COVID zone, villain imagery, Kermit, Hagrid, snowman, Jaden name, Tapped battle, COD, Instagram rapper, Baghdad/Iraq imagery.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round one."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Completing his material under Academy pressure."
+          },
+          {
+            "title": "Best angle",
+            "description": "J MUNI’s previous choke."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Samurai / shogun / choke critique section."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "J MUNI becomes more direct and controlled from round two onward."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "J MUNI",
+        "theme": "Status",
+        "bar": "Go be a milkman.",
+        "explanation": "A career/status insult."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Wordplay",
+        "bar": "Michael was stuck in a cycle.",
+        "explanation": "A name/pattern punch aimed at MZ."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Critique",
+        "bar": "You begged D-Real… to let you come on this platform.",
+        "explanation": "A platform-access angle."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Personal",
+        "bar": "Your girl left you.",
+        "explanation": "A personal relationship punch."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Threat",
+        "bar": "After this clash I’ll shake your hand and knock you out on the dance floor.",
+        "explanation": "A sportsmanship-into-violence punch."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Status",
+        "bar": "I’m from Leeds and came for the win.",
+        "explanation": "A simple identity/status line."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Angle",
+        "bar": "Did I choke in my first battle? Yes.",
+        "explanation": "A strong self-rebuttal. J MUNI owns the weakness before MZ can keep using it."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Angle",
+        "bar": "Did I come back with a vengeance? Yes.",
+        "explanation": "The comeback angle."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Angle",
+        "bar": "Am I gonna win this battle? Yes.",
+        "explanation": "A confident round-two closer."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Critique",
+        "bar": "Came back ten times worse and didn’t change shit.",
+        "explanation": "A direct critique of MZ’s improvement level."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Personal",
+        "bar": "That’s why your girlfriend left.",
+        "explanation": "A personal finish to the improvement angle."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Status",
+        "bar": "My real name’s Jaden Britton.",
+        "explanation": "J MUNI brings his real name into the final round."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Wordplay",
+        "bar": "I’ll show you Britton’s got talent.",
+        "explanation": "A Britain’s Got Talent / Britton name flip."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Status",
+        "bar": "You don’t have no whip, don’t have no chain, don’t have no yard.",
+        "explanation": "A material-status attack."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Personal",
+        "bar": "You said J don’t talk on my gal…",
+        "explanation": "J MUNI repeats and reinforces the relationship angle."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Appearance",
+        "bar": "You look like you come straight from Shameless.",
+        "explanation": "A UK TV / estate-image insult."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Age",
+        "bar": "You was inside, nappy just changing.",
+        "explanation": "An age/experience angle."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Command",
+        "bar": "Let’s get back to the diss clash.",
+        "explanation": "A good final-round reset."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Critique",
+        "bar": "Looked for your songs, not one of them on iTunes.",
+        "explanation": "A music-career attack."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Wordplay",
+        "bar": "J got no money.",
+        "explanation": "A direct J Money name flip."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Critique",
+        "bar": "Why you on stage, brother?",
+        "explanation": "A platform-suitability critique."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Appearance",
+        "bar": "Look like Honey Monster deprived of all the honey.",
+        "explanation": "An appearance/body punch."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Imagery",
+        "bar": "Lyrical samurai, battling a shogun.",
+        "explanation": "A strong warrior-image line."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Angle",
+        "bar": "Had one battle and choked, you couldn’t finish it.",
+        "explanation": "MZ’s main first-round angle."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Threat",
+        "bar": "I’ll pick you all apart.",
+        "explanation": "A technical breakdown threat."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Threat",
+        "bar": "My gun is always armed.",
+        "explanation": "A weapon/aggression line. Battle material."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Style",
+        "bar": "We call that greasy; I told them that I am way too cold.",
+        "explanation": "A grime-flow/coldness line."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Wordplay",
+        "bar": "My bars up in the COVID zone.",
+        "explanation": "A sick/viral-style punch."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Style",
+        "bar": "My lyrics are killer, my rhythm is sick.",
+        "explanation": "A disease/skill pattern."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Style",
+        "bar": "They think I’m a villain.",
+        "explanation": "A self-image line."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Appearance",
+        "bar": "Fat like Hagrid.",
+        "explanation": "A Harry Potter / Hagrid body insult."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Appearance",
+        "bar": "Built like a snowman.",
+        "explanation": "A body/shape punch."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Critique",
+        "bar": "You’re just a rapper with no motion.",
+        "explanation": "A movement/energy critique."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Status",
+        "bar": "Jaden, you must be mistaken.",
+        "explanation": "MZ uses J MUNI’s real name in the third."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Critique",
+        "bar": "You’re a liar and a cheat.",
+        "explanation": "A character attack."
+      },
+      {
+        "performer": "MZ",
+        "theme": "History",
+        "bar": "I saw you battle Tapped.",
+        "explanation": "A battle-history reference."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Critique",
+        "bar": "Instagram rapper.",
+        "explanation": "A platform-status insult."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Imagery",
+        "bar": "Graveyard left for this PenGame time.",
+        "explanation": "A death/battle setting line."
+      },
+      {
+        "performer": "MZ",
+        "theme": "Imagery",
+        "bar": "What, you blow up overnight? Just like Baghdad.",
+        "explanation": "A warzone/explosion punch."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "J MUNI wins",
+      "summary": "Official result: J MUNI wins. Official round card: Round 1: Draw, Round 2: J MUNI, Round 3: J MUNI. Suggested score: J MUNI 2-0-1 MZ. Reason: MZ makes the first round competitive, but J MUNI clearly takes over in rounds two and three with better rebuttal, more confidence and stronger direct writing. Performance Grades - J MUNI: B+, MZ: C. Final Note: MZ had a respectable debut and deserves another go. J MUNI wins clearly after round one and shows visible improvement from his previous Academy performances."
+    }
   },
   {
     "id": "pg-s08-2025-12-15-eddfirst-vs-varntae",
@@ -66455,7 +68214,400 @@ export const battles: Battle[] = [
     "stage": "Academy Clashes",
     "group": null,
     "tag": null,
-    "winner": "unknown"
+        "winner": "varntae",
+    "clashSummary": "ED FIRST vs VARNTAE took place on **PenGame Academy** at **Off Season in Leicester**. It is presented as the last battle of the day and treated like a main-event level Academy clash. Both battlers come in with strong energy, and the host later describes the battle as an A-class performance from both sides.\n\nED FIRST chooses to go first.\n\nED opens with a confident debut-style round. He says it is his debut but that he can still light up the league. His first round attacks VARNTAE’s “soldier” image, claims of authenticity, keyboard-warrior behaviour, peace-and-war contradictions, dance routines, smoking/weed angles, and false persona. He also brings name flips, “stolen valour” material and says VARNTAE lies when he raps. It is a strong opening with a lot of layered ideas.\n\nVARNTAE answers with a bigger first-round performance. He immediately brings aggressive imagery, calling the clash euthanasia and saying no one from Ed’s crew can save him. He attacks ED’s weight, breathing, arteries, mother, father, appearance, family and relationship with Charlotte. He also uses food, kebab, cardio, River Jordan and burial imagery. The round gets a big reaction and establishes VARNTAE’s presence early.\n\nED’s second round leans into VARNTAE’s soldier image again. He attacks VARNTAE’s “frontline reggae soldier” style, black gloves, CapCut/cap-artist angle, fake artistry, size difference, food imagery and repetition. The round has good performance moments and a strong rhythmic section, but some of the transcript is rough and harder to follow.\n\nVARNTAE’s second is more direct. He attacks ED’s life, Charlotte, exes, food, weight, body, insecurity, coke/nose imagery, complexion, fake image and battle status. He also calls ED a lesser threat than DEENO and uses DJ Khaled / “another one” material. This round continues the body-image and authenticity angles while adding more personal detail.\n\nED’s third is shorter but focused. He says he does not want to hear VARNTAE rap, attacks his wife/girl angle, says VARNTAE will not shoot, and uses Boohoo, Count Dooku and 3-0 imagery. It has moments, but it does not fully close the battle.\n\nVARNTAE’s third is the decisive round. He opens it like a funeral, saying everyone is gathered to mourn Edward Hunt. He then attacks ED’s breath, coke use, benefits, kebab-shop image, girlfriend, mother, fake accent, body, Grim Sickers/DJ allegiance, feature request and belly. The round is clear, personal and damaging. The host later says the battle was close going into the third, but VARNTAE edged it there.\n\nAfter the battle, the host says both battlers delivered A-class performances. He says the level was high, with bars, performance, flows and delivery from both sides. However, he gives the battle to **VARNTAE**, saying the third round made the difference.\n\nOfficial host winner: **VARNTAE**.",
+    "performanceAnalysis": [
+      {
+        "performer": "VARNTAE",
+        "overview": "VARNTAE wins because his material is more damaging when it matters most. He has the stronger first-round reaction and the decisive third round.\n\nHis first round works because it is aggressive and performance-heavy. He immediately makes ED look vulnerable by attacking his weight, breathing, body, family and credibility. The round has momentum and room control.\n\nHis second round keeps the pressure on. He attacks ED’s personal life, Charlotte, body, nose, appearance, insecurity and battle status. Some of the wording is harsh, but the angle is clear: ED is fake, unhealthy, insecure and not as dangerous as he thinks.\n\nHis third round wins the battle. The funeral opening gives it structure, and the personal angles land harder than ED’s third. The breath, coke, benefits, kebab-shop, fake accent and feature-request material gives VARNTAE enough direct damage to edge the clash.\n\nVARNTAE’s biggest strength is pressure and personal attack. He makes his rounds feel like events.",
+        "lyricalThemes": "Funeral framing, euthanasia, soldier/war imagery, ED’s weight, breathing, arteries, family, Charlotte, kebab shop, coke/nose imagery, benefits, White Lightning, fake accent, Grim Sickers/DJ allegiance, feature request, belly/body image.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Personal pressure."
+          },
+          {
+            "title": "Best angle",
+            "description": "ED’s image, body and personal life."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Funeral opener into Ed/dead/body/benefits/kebab-shop material."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Stronger third round in a close clash."
+          }
+        ]
+      },
+      {
+        "performer": "ED FIRST",
+        "overview": "ED FIRST loses narrowly but shows he is clearly Academy-graduation level. His writing is layered, technical and confident.\n\nHis first round is strong. The soldier/stolen-valour angle gives him a real battle argument. He attacks VARNTAE’s fake war image, keyboard-warrior behaviour and contradictions between peace and violence. It is a good opener.\n\nHis second has good rhythm and performance, especially when he leans into the “soldier” and “frontline reggae soldier” sections. He also works in black gloves, CapCut/cap artist, size, food and repetition. The issue is that VARNTAE’s second feels more direct and personal.\n\nHis third is the round that costs him. It is not weak, but it is shorter and less damaging than VARNTAE’s. In a close battle, the final impression matters, and VARNTAE finishes stronger.\n\nED’s biggest strength is technical concept writing. His weakness in this clash is that VARNTAE lands more personal damage.",
+        "lyricalThemes": "Debut confidence, Breach gang, stolen valour, soldier image, keyboard warrior, peace/war contradiction, weed/smoke, dance routines, CapCut/cap artist, black gloves, frontline reggae soldier, Boohoo, loose-screw/wifey angle, Count Dooku, 3-0 prediction.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round one."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Conceptual writing."
+          },
+          {
+            "title": "Best angle",
+            "description": "VARNTAE’s soldier image is fake/stolen valour."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Soldier / keyboard warrior / peace-and-war contradiction run."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Third round is not as damaging as VARNTAE’s."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "It’s a debut, but I still light up the league.",
+        "explanation": "ED frames himself as new but already dangerous."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Threat",
+        "bar": "I’ll put VARNTAE in the ground.",
+        "explanation": "A direct death/burial punch."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Critique",
+        "bar": "Stolen valour, don’t stand for that.",
+        "explanation": "ED’s main first-round angle: VARNTAE’s soldier image is fake."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Critique",
+        "bar": "Keyboard warrior, talk with your mouth.",
+        "explanation": "A fake-online-toughness attack."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Self-Awareness",
+        "bar": "If it’s all about flow, then it ain’t me.",
+        "explanation": "ED shows self-awareness and says he is not relying only on flow."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "We don’t see eye to eye, then that’s fine with me.",
+        "explanation": "A conflict/status line."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Critique",
+        "bar": "How you gonna preach on peace and protect it in Gs?",
+        "explanation": "A contradiction punch: VARNTAE talks peace but performs violence."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Critique",
+        "bar": "Guns and peace, guns and peace.",
+        "explanation": "A repeated contradiction motif."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Disability",
+        "bar": "This guy’s got as much answers as amputees.",
+        "explanation": "A harsh disability-based punch. Battle material only."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Authenticity",
+        "bar": "You lie when you rap, that’s stating a fact.",
+        "explanation": "A direct authenticity attack."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "Nobody here gonna hype PG.",
+        "explanation": "A crowd/status punch."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Angle",
+        "bar": "Soldier outside with it.",
+        "explanation": "ED starts leaning into the soldier angle again."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Wordplay",
+        "bar": "CapCut… cap artist.",
+        "explanation": "A strong modern editing/cap/fake-image wordplay."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "I put my shit on a market in the land market.",
+        "explanation": "A market/artistry line, though the transcript is rough."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Size",
+        "bar": "Can’t go pound for pound, he’s too slim.",
+        "explanation": "A size/boxing punch."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Comedy",
+        "bar": "After the clash I might order a Pepe’s.",
+        "explanation": "A food/comedy closer."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Mockery",
+        "bar": "Frontline reggae soldier.",
+        "explanation": "A direct mockery of VARNTAE’s image and delivery."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Dismissal",
+        "bar": "I don’t wanna hear VARNTAE rap.",
+        "explanation": "ED opens the final with dismissal."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Angle",
+        "bar": "VARNTAE won’t shoot you.",
+        "explanation": "A fake-toughness angle."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Wordplay",
+        "bar": "You ain’t mad on your chest like Boohoo.",
+        "explanation": "A Boohoo clothing/chest wordplay."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Reference",
+        "bar": "Stardust for 3-0, Count Dooku.",
+        "explanation": "A Star Wars / Count Dooku reference tied to a 3-0 claim."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Threat",
+        "bar": "This clash is euthanasia.",
+        "explanation": "VARNTAE frames the battle as putting ED down."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Angle",
+        "bar": "None of them Breach gang guys can save ya.",
+        "explanation": "A crew/support-system attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Threat",
+        "bar": "Send him to the sky to reside with the saviour.",
+        "explanation": "A death/heaven punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "He can’t catch his breath.",
+        "explanation": "A breathing/fitness attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "You look like a Turkish barber.",
+        "explanation": "An appearance insult."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Comedy",
+        "bar": "Your favourite artist is Shawarma Kebab.",
+        "explanation": "A food/culture punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Imagery",
+        "bar": "He steps into war with the armour of a flap.",
+        "explanation": "A weakness/war image."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "He’s got clogs in his arteries.",
+        "explanation": "A weight/health punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Threat",
+        "bar": "There’s a high chance that his heart will collapse.",
+        "explanation": "Continues the body/health angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Comedy",
+        "bar": "It’s a whole earthquake when you’re walking.",
+        "explanation": "A weight/impact punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Wordplay",
+        "bar": "Water flow like River Jordan.",
+        "explanation": "A biblical/geographical flow reference."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Threat",
+        "bar": "Watch this freak get cooked alive.",
+        "explanation": "A threat/food image."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Personal",
+        "bar": "Don’t let me holler at Charlotte.",
+        "explanation": "A direct relationship angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Personal",
+        "bar": "Your father’s a racist.",
+        "explanation": "A family accusation-style punch. Battle material."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Threat",
+        "bar": "If you don’t want to box, I’ma leave him in an urn.",
+        "explanation": "A fight/death/cremation line."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Personal",
+        "bar": "I know life gets hard for Ed.",
+        "explanation": "A direct name setup."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "Two fat white boys, DEENO’s a bigger threat.",
+        "explanation": "A status comparison that puts ED below DEENO."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Appearance",
+        "bar": "You look like DJ Khaled — I don’t wanna hear another one from him again.",
+        "explanation": "A DJ Khaled / “another one” appearance punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "Your inferiority ain’t complex.",
+        "explanation": "One of VARNTAE’s cleaner lines. It says ED is simply inferior, not just insecure."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "Half of Colombia’s inside that.",
+        "explanation": "A cocaine/nose punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Angle",
+        "bar": "We are gathered here today.",
+        "explanation": "VARNTAE opens the third like a funeral."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Personal",
+        "bar": "To commiserate the dearly departed Edward Hunt.",
+        "explanation": "He turns ED’s full name into a funeral announcement."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Wordplay",
+        "bar": "It’s ironic they call him Ed, cause it’s supposed to be why I got dead.",
+        "explanation": "An Ed/dead name flip."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "You should wash out your mouth with bleach.",
+        "explanation": "A breath/disgust punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "Too much coke in your nasal passage.",
+        "explanation": "A drug/nose angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Personal",
+        "bar": "You look like inbred product of incest.",
+        "explanation": "A family/appearance insult. Battle material."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Comedy",
+        "bar": "He’s always at the kebab shop cause he’s a fat bastard.",
+        "explanation": "A food/weight punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "How does he spend his JSA benefits? Two litres of White Lightning.",
+        "explanation": "A poverty/benefits/alcohol punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Personal",
+        "bar": "Charlotte can’t save your life.",
+        "explanation": "A relationship/death punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "I’m a cerebral assassin.",
+        "explanation": "A Triple H-style reference and pen/control claim."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Wordplay",
+        "bar": "Humpty Dumpty fell off the wall.",
+        "explanation": "A body/fall/broken-pieces punch."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Critique",
+        "bar": "You’re forcing an accent for a reaction.",
+        "explanation": "A delivery/authenticity critique."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Status",
+        "bar": "You wanted a feature before the clash.",
+        "explanation": "A status/power dynamic angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Closer",
+        "bar": "The only friend that you’ve got is your belly.",
+        "explanation": "A final body/solitude punch."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "VARNTAE wins",
+      "summary": "Official result: VARNTAE wins. Suggested score: VARNTAE 2-1 ED FIRST. Suggested round split: Round 1: VARNTAE / debatable, Round 2: ED FIRST / debatable, Round 3: VARNTAE. Reason: ED FIRST brings strong concept writing and a good debut-level performance, but VARNTAE lands the heavier personal damage and wins the deciding third round. Performance Grades - VARNTAE: A, ED FIRST: A-. Final Note: This was one of the stronger Academy clashes. ED FIRST proved he belongs, but VARNTAE’s third-round pressure gave him the edge. Close battle, clear winner."
+    }
   },
   {
     "id": "pg-s08-2025-12-20-guni-vs-7wxve",
@@ -66473,7 +68625,334 @@ export const battles: Battle[] = [
     "stage": "Academy Clashes",
     "group": null,
     "tag": null,
-    "winner": "unknown"
+        "winner": "guni",
+    "clashSummary": "GUNI vs 7WXVE took place on **PenGame Academy 2025** at **Off Season in Leicester**. The host introduces the battle as part of the Midlands Academy run and says viewers should get in the comments and grade the battlers.\n\n7WXVE wins the coin toss off camera and chooses for GUNI to go first.\n\nGUNI opens with a direct first round. He attacks 7WXVE’s background, saying he studied hair and beauty, drama and netball, then builds an angle around Sam Smith, image, girlfriend/wife, clinic jokes, body-shaming, lack of music and weak online presence. He also searches 7WXVE’s name across Spotify, YouTube, Instagram and TikTok, saying nothing comes up. The round is not massively energetic, but it is complete and targeted.\n\n7WXVE’s first round starts badly. He openly comments that his delivery was poor, then struggles through a short section involving rope, choking, girlfriend insults and hopelessness. He does not get enough clean material out to challenge GUNI’s first.\n\nGUNI’s second round is stronger. He says he does not want to clash 7WXVE because 7WXVE has not done enough work, has no career, no tracks, no story, no pain, and is only clashing people instead of making music. He attacks 7WXVE’s girlfriend, farm background, Corsa travel, lack of social following and no songs. He also uses the wave/ocean angle to say he is bigger than 7WXVE.\n\n7WXVE’s second has more material than his first, but he still struggles. He tries to bring darker imagery, teeth insults, Sheffield references, grandmother/mother insults, and says he is from Sheffield with a blazer. The round has a few moments, but the delivery and structure are weak.\n\nGUNI’s third is his clearest round. He attacks 7WXVE for what allegedly happened in the toilets, saying that is how he knows 7WXVE was anxious. He then moves into bankruptcy, body, clothing, rainbow flag, Harry Styles, not having songs, water from a bong, girlfriend’s clothes, bad-man act, degree/master’s ambition, trap life, karma and domestic-violence allegations as battle material. The round is direct enough to close the battle clearly.\n\n7WXVE’s third again falls apart. He brings kicks, sister/incest lines, Fortnite allegations, granddad material and sword-fight imagery, but he does not complete cleanly and gets called time.\n\nAfter the battle, the host says 7WXVE stumbled or dropped material in all three rounds. 7WXVE admits he did not write for the battle. The host gives the battle to **GUNI**, saying GUNI got his rounds out despite needing more excitement in his delivery. 7WXVE receives a joke “Y” grade because the host says he cannot even give him the normal failed letter grade. GUNI is given around a **C / C-**.\n\nOfficial host winner: **GUNI**.",
+    "performanceAnalysis": [
+      {
+        "performer": "GUNI",
+        "overview": "GUNI wins because he completes his rounds and stays more controlled. His delivery is not exciting, but he has actual prepared material.\n\nHis first round is built around 7WXVE’s image and lack of music. The Sam Smith angle, online-search angle and “no songs” angle all help establish that 7WXVE is not musically active enough to be taken seriously.\n\nHis second round is probably his best. He attacks 7WXVE’s lack of career, no tracks, no stories, no work rate, low social following and wave name. This round has the clearest case: 7WXVE is not really building anything.\n\nHis third round continues that pressure, adding the toilet/anxiety angle, no-songs angle, fake bad-man image and life-direction contrast. GUNI says he is aiming for a degree and a yard, while 7WXVE is playing at trap life. That gives the round a stronger identity angle.\n\nGUNI’s biggest strength is structure. His weakness is performance — the host says his delivery is monotone and needs more excitement.",
+        "lyricalThemes": "Hair and beauty, drama, netball, Sam Smith, clinic/girlfriend angle, body-shaming, no Spotify/YouTube/TikTok presence, no songs, D-Lo comparison, low followers, wave/ocean flip, toilet anxiety, bankrupt image, no music career, bong/water, bad-man act, degree/master’s ambition, fake trap image.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Prepared structure."
+          },
+          {
+            "title": "Best angle",
+            "description": "7WXVE has no songs, no career and no real online presence."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Spotify / YouTube / TikTok / no-song search angle."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Completed rounds while 7WXVE repeatedly stumbled."
+          }
+        ]
+      },
+      {
+        "performer": "7WXVE",
+        "overview": "7WXVE loses because he is not prepared enough. He has some ideas, but he stumbles across all three rounds and admits he did not write for the battle.\n\nHis first round is too short and openly shaky. There is not enough material to score it over GUNI.\n\nHis second is better but still not clean enough. He brings dark imagery, teeth insults, Sheffield identity and family angles, but the delivery is not controlled.\n\nHis third is again underprepared. The ideas become scattered and he does not build a clear enough case against GUNI.\n\n7WXVE’s biggest strength is that he has some aggression and a few punch ideas. His weakness is preparation.",
+        "lyricalThemes": "Rope/choking imagery, girlfriend insults, teeth, Sheffield, grandmother/mother insults, dark imagery, kicks, sister/incest insults, Fortnite allegations, granddad material, sword-fight imagery.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Occasional aggression."
+          },
+          {
+            "title": "Best angle",
+            "description": "Teeth/appearance and Sheffield identity."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Sheffield / teeth / dark imagery section."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "No prep, multiple stumbles and unfinished rounds."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "GUNI",
+        "theme": "Status",
+        "bar": "He did hair and beauty, now he goes uni studying drama.",
+        "explanation": "A background/status punch aimed at 7WXVE’s image."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "Top of the netball team.",
+        "explanation": "A masculinity/sport insult."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "His top artist was Sam Smith.",
+        "explanation": "A music-taste attack."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Comedy",
+        "bar": "When Sam Smith said make some noise, he threw his boxers on stage.",
+        "explanation": "A comic concert-image punch."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Status",
+        "bar": "I typed your name on Spotify — nothing.",
+        "explanation": "A strong career-status punch."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Status",
+        "bar": "Typed your name on YouTube — empty.",
+        "explanation": "Continues the online-presence angle."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Status",
+        "bar": "Typed your name on TikTok — dead.",
+        "explanation": "Completes the search-platform sequence."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "You ain’t made one song, your career is a lie.",
+        "explanation": "One of GUNI’s clearest battle arguments."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "I don’t wanna clash this guy, he ain’t done no work.",
+        "explanation": "A direct status critique."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "Had a few battles and begged for reloads.",
+        "explanation": "A platform-performance attack."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "You ain’t had no career, no tracks.",
+        "explanation": "A music-career critique."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "No pain in his heart, he ain’t been through hell.",
+        "explanation": "A writing-content critique."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "All you can do is clash.",
+        "explanation": "GUNI says 7WXVE is not a full artist."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Wordplay",
+        "bar": "If seven’s a wave, then I’m like the ocean.",
+        "explanation": "A clean name flip."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "This youth brings his phone in to read his bars and still starts choking.",
+        "explanation": "A preparation/performance attack."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Location",
+        "bar": "My girl from Sheff doesn’t know you.",
+        "explanation": "A local-status punch."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Status",
+        "bar": "Two hundred followers on his socials.",
+        "explanation": "A numbers/relevance punch."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Status",
+        "bar": "He’s got no songs, so he makes no pence.",
+        "explanation": "A music-income punch."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Angle",
+        "bar": "You should see what he did to the toilets back there; that’s how I know man’s anxious.",
+        "explanation": "A strong anxiety/toilet angle."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Appearance",
+        "bar": "He’s built like a spliff.",
+        "explanation": "A body/shape insult."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Appearance",
+        "bar": "He ain’t had protein since Christmas.",
+        "explanation": "A body/fitness punch."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Personal",
+        "bar": "Why does your room have a rainbow flag?",
+        "explanation": "A sexuality-coded insult. Battle material only."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "Why did you walk around like a gangster with Harry Styles blasting in your ears?",
+        "explanation": "A fake-badman/music-taste contradiction."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Critique",
+        "bar": "Why have you never released one song?",
+        "explanation": "The central career critique returns."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Status",
+        "bar": "I want a degree and a master’s.",
+        "explanation": "GUNI contrasts his own ambition with 7WXVE’s image."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Status",
+        "bar": "I’m tryna buy a yard.",
+        "explanation": "A life-goal/status line."
+      },
+      {
+        "performer": "GUNI",
+        "theme": "Personal",
+        "bar": "It’s karma from when you beat up your girl.",
+        "explanation": "A domestic-violence allegation used as battle material."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Threat",
+        "bar": "You took a wrong step, you can’t undo.",
+        "explanation": "A warning opener."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Imagery",
+        "bar": "Tie yourself up with a rope.",
+        "explanation": "A self-harm-style insult. Battle material only."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Personal",
+        "bar": "Your girlfriend’s legs always open.",
+        "explanation": "A sexual relationship insult."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Style",
+        "bar": "I spit words on wind.",
+        "explanation": "A self-styled poetic line."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Threat",
+        "bar": "Lyrically bury your body.",
+        "explanation": "A battle-rap death image."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Style",
+        "bar": "I still get cold like minus three.",
+        "explanation": "A temperature/coldness punch."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Personal",
+        "bar": "Your grandma…",
+        "explanation": "A family disrespect angle. Battle material."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Appearance",
+        "bar": "You got yellow infected teeth.",
+        "explanation": "A dental/appearance punch."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Appearance",
+        "bar": "See a dentist.",
+        "explanation": "Simple but clear follow-up to the teeth angle."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Identity",
+        "bar": "I’m from Sheff with a blazer.",
+        "explanation": "A Sheffield identity line."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Style",
+        "bar": "It’s like conversations, I write bars and my story rhymes.",
+        "explanation": "A writing/identity claim."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Critique",
+        "bar": "He smells like garbage.",
+        "explanation": "A hygiene insult."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Threat",
+        "bar": "Quick kick and I’m injuring guys.",
+        "explanation": "A physical-threat line."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Personal",
+        "bar": "He goes home, shouts babe, and his sister replies.",
+        "explanation": "An incest/family insult. Battle material."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Threat",
+        "bar": "I’ll send man into the skies.",
+        "explanation": "A death/threat line."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Personal",
+        "bar": "You’ve been talking to children on Fortnite.",
+        "explanation": "A serious allegation-style insult. Battle material only."
+      },
+      {
+        "performer": "7WXVE",
+        "theme": "Personal",
+        "bar": "I heard you had your granddad’s sword fight.",
+        "explanation": "A crude family/sexual insult. Battle material."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "GUNI wins",
+      "summary": "Official result: GUNI wins. Suggested score: GUNI 3-0 7WXVE. Reason: 7WXVE was underprepared and stumbled across all three rounds. GUNI was not perfect, but he had actual rounds, clear angles and enough material to win comfortably. Performance Grades - GUNI: C / C-, 7WXVE: Y / ungradable joke grade. Final Note: GUNI wins by preparation more than dominance. His delivery needs work, but 7WXVE came in without proper prep and it showed. Academy result: GUNI clear."
+    }
   },
   {
     "id": "pg-s08-2026-01-03-eddfirst-vs-scotty",
@@ -66491,15 +68970,427 @@ export const battles: Battle[] = [
     "stage": "Academy Graduation Day",
     "group": null,
     "tag": null,
-    "winner": "unknown"
+        "winner": "eddfirst",
+    "clashSummary": "ED FIRST vs SCOTTY took place on **PenGame Academy** as a **graduation battle**. The host explains that this is the last Academy battle of the day and that the battlers are being assessed for whether they are ready to move onto the main PenGame platform.\n\nSCOTTY wins the coin toss off camera and chooses for ED FIRST to go first.\n\nED FIRST opens with a confident first round, immediately calling the battle a 30 and saying there is cash on the line. He attacks SCOTTY’s battle experience, lack of progress, split-decision history, victim status, old Don’t Flop background and inability to write strong rounds despite having years to prepare. ED also uses a lot of opponent-specific wordplay around Scotty being a “nerd,” being offline, Wi-Fi, PS5/4K, dead weight, djembe, endgame and “lamb to the slaughter” imagery. It is a strong Academy opener.\n\nSCOTTY’s first round starts slightly shaky but grows stronger as it goes on. He attacks ED’s weight, age, clothing, appearance, music, PE background, head shape, teeth, and body. His main angle is that ED is overweight, older, awkward and not visually convincing as a rapper. The second half of the round is much stronger than the first.\n\nED’s second round is shorter in the transcript, but it still has strong ideas. He calls SCOTTY the hype man’s hype man, says he looks like someone rough on the spectrum with big headphones and a lanyard, and uses Binance/crypto, IMAX and mortuary imagery. The round appears less complete in transcript form, but the host later still grades ED very highly overall.\n\nSCOTTY’s second round is more complete than his first. He attacks ED’s body again, using E-double-D / double-Ds, D-I-E, K-hole, tranquiliser, rent, crack, touring, life support and torture references. He also says ED does not know what motion is and that his boat would sink. It is a solid round and shows SCOTTY improving as the battle goes on.\n\nED’s third has a stumble, but he still lands material. He attacks SCOTTY’s Academy status, says the YouTube comments will break him down, uses Stan Lee / Marvel references, Strictly, Zangief, taxi, clash history and a final coffin closer. He says round one was the talking, round two was walking through, and round three is the name on the coffin. It is not flawless, but it is still a strong enough closer.\n\nSCOTTY’s third is his best round. He attacks ED’s age, net worth, clothing, Fred Durst/Limp Bizkit look, missing neck, Uncle Fester image, gap teeth, breathing, weight, Reese’s Pieces, body, inability to see his penis, lack of sex, child-related insult material, rustiness, Humpty Dumpty and falling off the wall. This round is the clearest round SCOTTY wins or at least makes highly debatable.\n\nAt the end, the host says ED FIRST takes the battle. He gives ED an **A performance**, saying it was nearly flawless and that ED is ready for the main stage. SCOTTY is praised for improving through the battle, especially in the third, and is graded around **B/B+**. Both battlers are told they deserve to return and test themselves against someone from the main roster.\n\nOfficial host winner: **ED FIRST**.",
+    "performanceAnalysis": [
+      {
+        "performer": "ED FIRST",
+        "overview": "ED FIRST wins because he looks more prepared, more composed and more main-stage ready. His writing has more layers and he brings better battle-rap structure.\n\nHis first round is his strongest. He attacks SCOTTY’s experience, lack of development and history, while mixing in strong nerd/tech/console imagery. The “lamb to the slaughter” and “rob these rounds in an hour” sections make ED sound confident and in control.\n\nHis second is shorter in the transcript, but the ideas are still sharp. The hype-man, spectrum/headphones, Binance and IMAX lines all show stronger pen work than standard Academy material.\n\nHis third has a small stumble, but he recovers enough. The Stan Lee / Marvel scheme and final coffin closer show that ED understands how to build a round with structure.\n\nED’s biggest strength is technical writing. He already sounds closer to the main roster than Academy level.",
+        "lyricalThemes": "30 prediction, split decisions, Scotty as a nerd/victim, Wi-Fi/offline, lamb to slaughter, PS5/4K, dead weight, djembe/endgame, Don’t Flop, hype man, headphones/lanyard, Binance, IMAX, mortuary, Academy comments, Stan Lee/Marvel, Zangief, coffin closer.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round one."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Technical structure and battle control."
+          },
+          {
+            "title": "Best angle",
+            "description": "SCOTTY has had years to prepare but still is not ready."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Lamb to slaughter / PS5 / dead weight / endgame run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Cleaner writing and stronger main-stage readiness."
+          }
+        ]
+      },
+      {
+        "performer": "SCOTTY",
+        "overview": "SCOTTY loses officially but has a strong showing, especially by the end. The host makes it clear that SCOTTY grew into the battle.\n\nHis first round starts shaky, but the second half is much stronger. He attacks ED’s weight, age, appearance, outfit, PE background and head shape. Some of the material is simple, but he starts finding a rhythm.\n\nHis second round is better. The E-double-D / double-Ds / D-I-E section gives him a clearer structure, and he keeps building around ED’s body, age and awkwardness.\n\nHis third round is his best by far. He attacks ED’s net worth, age, Fred Durst look, missing neck, Uncle Fester image, teeth, breathing, weight, body, Reese’s Pieces and Humpty Dumpty. This round makes the battle competitive and shows why the host wants him back.\n\nSCOTTY’s biggest strength is insult writing and visual humour. His weakness is starting slowly.",
+        "lyricalThemes": "ED’s weight, age, doughnuts, PE degree, Minecraft head, Primark, double-Ds, K-hole, tranquiliser, rent/events, dork image, music torture, motion/boat imagery, Fred Durst/Limp Bizkit, Uncle Fester, gap teeth, Reese’s Pieces, Humpty Dumpty, rustiness.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Visual insult writing."
+          },
+          {
+            "title": "Best angle",
+            "description": "ED’s weight, age and appearance."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Reese’s Pieces / 2019 slim / 2025 body section."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "Slow start and less polished structure."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "ED FIRST",
+        "theme": "Confidence",
+        "bar": "I can’t lie, this a 30.",
+        "explanation": "ED starts confidently, predicting a clean win."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Confidence",
+        "bar": "Cash on the line, who’s taking bets?",
+        "explanation": "A betting/winner-energy opener."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Wordplay",
+        "bar": "Scotty get beamed up like he was offline.",
+        "explanation": "A sci-fi / Wi-Fi flip."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Critique",
+        "bar": "You’re the reason your girl don’t like grime.",
+        "explanation": "A clean personal/music insult."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "This nerd gets to win, then it’s sci-fi.",
+        "explanation": "A nerd/sci-fi/status punch."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "Another split decision, I might switch him.",
+        "explanation": "A split-decision / splitting-opponent line."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Threat",
+        "bar": "He’s another mug that I gotta chalk off.",
+        "explanation": "A kill-list / chalk outline punch."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Imagery",
+        "bar": "They set a lamb to the slaughter.",
+        "explanation": "ED frames SCOTTY as helpless."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "They set a sheep to the sensei.",
+        "explanation": "A strong follow-up, making ED the teacher/master."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Wordplay",
+        "bar": "Scotty lead A on PenGame.",
+        "explanation": "A PS5/4K/lead-type wordplay section."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Threat",
+        "bar": "Get dragged out the building dead weight.",
+        "explanation": "A physical defeat image."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Critique",
+        "bar": "I’ll rob these rounds in an hour. He couldn’t do that in three years.",
+        "explanation": "One of ED’s clearest experience attacks."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "This is levels on you, no pressure on you.",
+        "explanation": "A level-gap bar."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "Go back to Don’t Flop.",
+        "explanation": "A battle-scene/status attack."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "You look like the hype man’s hype man.",
+        "explanation": "A strong status insult."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Action",
+        "bar": "Taxi and smoke in the second he buys that.",
+        "explanation": "A movement/escape punch, though the transcript is rough."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Appearance",
+        "bar": "You ever seen rough on the spectrum? Big headphones and lanyard.",
+        "explanation": "A disability-targeted insult. Battle material only."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Wordplay",
+        "bar": "I’m taxing his crypto like Binance.",
+        "explanation": "A crypto/exchange punch."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Threat",
+        "bar": "If I put him on the screen, it’s a funeral.",
+        "explanation": "A screen/death punch."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Wordplay",
+        "bar": "Front row with IMAX.",
+        "explanation": "A cinematic/funeral-viewing punch."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Threat",
+        "bar": "I’ve got space in the mortuary left.",
+        "explanation": "A death/mortuary threat line."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Status",
+        "bar": "Let’s chat about Academy. Says a lot about them that he made it out.",
+        "explanation": "ED attacks SCOTTY’s graduation status."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Critique",
+        "bar": "When this drops on the net, that’ll waste him now.",
+        "explanation": "A YouTube/comment-section punch."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Appearance",
+        "bar": "You look like a cop.",
+        "explanation": "A simple appearance/status insult."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Wordplay",
+        "bar": "Stan Lee / Marvel",
+        "explanation": "ED uses Stan Lee and Marvel references to build a hero/comic-style section."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Reference",
+        "bar": "Say it with chest, scarred like Zangief.",
+        "explanation": "A Street Fighter/Zangief reference."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Structure",
+        "bar": "Round one was the talking to, round two I was walking through.",
+        "explanation": "A strong round-by-round summary."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Closer",
+        "bar": "Round three, there’s the name and the coffin.",
+        "explanation": "A clean closer."
+      },
+      {
+        "performer": "ED FIRST",
+        "theme": "Threat",
+        "bar": "Scotty, nobody’s mourning you.",
+        "explanation": "A death/no-respect punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "Ed First look kinda freaky.",
+        "explanation": "SCOTTY opens with appearance-based attack."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "You look like a nitty if you was hooked on pizza dough.",
+        "explanation": "A drug/food/appearance insult."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "Too many doughnuts, this doughnut won’t beat me.",
+        "explanation": "A body/food punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Critique",
+        "bar": "I’m here to see Ed freeze and choke.",
+        "explanation": "A battle-performance attack."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Age",
+        "bar": "Thirty years old, you don’t move like a man.",
+        "explanation": "An age/maturity punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Status",
+        "bar": "You studied three years doing P.E.",
+        "explanation": "A direct education/career angle."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "He’s still fat, was he going to the right class?",
+        "explanation": "A PE/weight punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "Your head shaped like the guy from Minecraft.",
+        "explanation": "A block-head/Minecraft insult."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Status",
+        "bar": "This CV gets you part-time at Primark.",
+        "explanation": "A CV/resume/job-status punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Wordplay",
+        "bar": "E-double-D’s got double-Ds.",
+        "explanation": "A name/chest/body punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Wordplay",
+        "bar": "E-double-D, better not cry when you D-I-E.",
+        "explanation": "Name-spelling into death wordplay."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "He looks like a horse; will it just tranquilise him?",
+        "explanation": "An animal/tranquiliser punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Threat",
+        "bar": "I’ll sever him, bury him, salt him, pepper him.",
+        "explanation": "A cooking/body punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Critique",
+        "bar": "You need to quit rapping, get your life in order.",
+        "explanation": "A career/life critique."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Critique",
+        "bar": "You don’t know what motion is.",
+        "explanation": "A flow/movement critique."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "You look so wet like the ocean is.",
+        "explanation": "A wet/weak image."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Wordplay",
+        "bar": "Son of a bitch, then Ed Force.",
+        "explanation": "A name/action flip."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Status",
+        "bar": "I get twice my age and he’s still not paid.",
+        "explanation": "An age/money punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Status",
+        "bar": "Three times bigger than your net worth.",
+        "explanation": "A body/net-worth insult."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "Why are you dressed like Fred Durst?",
+        "explanation": "A Limp Bizkit / Fred Durst appearance punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "Where’d your neck go?",
+        "explanation": "A body/neck punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "They put a beard on Uncle Fester.",
+        "explanation": "An Addams Family / Uncle Fester insult."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "The gap between you and me, same size as the gap in your teeth.",
+        "explanation": "A skill-gap/teeth-gap punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Critique",
+        "bar": "Keep the mic away from your lips; we can hear every time you breathe.",
+        "explanation": "A breathing/performance insult."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "It hasn’t always been this big though — one too many Reese’s Pieces.",
+        "explanation": "A body/weight-gain punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "2019 you were slim like me, but 2025 can’t see your penis.",
+        "explanation": "The most direct weight punch of Scotty’s third."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "Ed got stripes like Adidas.",
+        "explanation": "A brand/body/status punch."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Appearance",
+        "bar": "Resisted the urge for three rounds to call this motherfucker Humpty Dumpty.",
+        "explanation": "A strong late-round visual insult."
+      },
+      {
+        "performer": "SCOTTY",
+        "theme": "Closer",
+        "bar": "Only one of us coming out in one piece.",
+        "explanation": "A Humpty Dumpty / battle-result closer."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "ED FIRST wins",
+      "summary": "Official result: ED FIRST wins. Suggested score: ED FIRST 2-1 SCOTTY. Suggested round split: Round 1: ED FIRST, Round 2: ED FIRST, Round 3: SCOTTY / debatable. Reason: ED FIRST is cleaner, more structured and closer to main-stage ready. SCOTTY finishes strongly, but ED’s first two rounds carry the battle. Performance Grades - ED FIRST: A, SCOTTY: B / B+. Graduation Status: Both graduate from Academy and are invited back to test themselves against main-roster opponents. Final Note: ED FIRST wins the battle, but SCOTTY proves he belongs. ED has the cleaner pen and structure; SCOTTY has the stronger visual insult writing and a powerful third. Solid Academy graduation battle."
+    }
   },
   {
-    "id": "pg-s08-2026-01-10-jaycee-vs-rp",
-    "slug": "jaycee-vs-rp",
-    "mc1": "jaycee",
+    "id": "pg-s08-2026-01-10-jayceii-vs-rp",
+    "slug": "jayceii-vs-rp",
+    "mc1": "jayceii",
     "mc2": "rp",
-    "title": "JAYCEE vs RP",
+    "title": "JAYCEII vs RP",
     "date": "2026-01-10",
+    "videoUrl": "https://www.youtube.com/watch?v=pdjQHXT8Hio",
     "theme": "pengame",
     "season": "Academy",
     "subGroup": "Academy Graduation Day",
@@ -66508,7 +69399,370 @@ export const battles: Battle[] = [
     "stage": "Academy Graduation Day",
     "group": null,
     "tag": null,
-    "winner": "unknown"
+        "winner": "rp",
+    "clashSummary": "JAYCEII vs RP took place on **PenGame Academy 2026** as the last battle of the night. The host frames Academy as a place where battlers are assessed, graded and either moved forward, sent back to work on their craft, or put to the viewers for feedback.\n\nRP goes first.\n\nRP opens with a direct first round aimed at JAYCEII’s credibility, toughness, lifestyle and image. He says JAYCEII is not really active, only clutches a heater when holding a radiator, only has a knife when cutting pizza, and is not believable as someone who rolls with weapons. He also attacks JAYCEII’s work life, drug references, hygiene, age, mental state and relationship material. It is a long and aggressive opener, and RP clearly comes prepared.\n\nJAYCEII’s first round has a serious problem early on. He starts with energy but gets caught in a repeated section, saying “don’t you dare” multiple times before recovering. Once he gets going, he attacks RP as an uncle/older man, says RP is not rated, calls him fake, says he needs therapy, and uses age, reputation and drug imagery. There are good ideas, but the early stumble/repetition hurts the round.\n\nRP’s second round continues the pressure. He attacks JAYCEII for being unwanted, broke, confused, a fake roadman, and says he signed his death wish when he signed the PenGame agreement. He also uses old bill/bonnet imagery, tombstone/coffin material and dentist/teeth punches. The round is shorter but controlled.\n\nJAYCEII’s second is his strongest clean round. He attacks RP for having no reputation, being older but still low-level, having poor numbers, weak music, and not being a real challenge. He uses “RP but no rep” as the central name flip and builds around monthly viewers, age and lack of impact. This is the round where JAYCEII makes the battle competitive.\n\nRP’s third is his best round. He uses a full gaming scheme, calling himself the final boss and saying JAYCEII would need cheat codes to defeat him. He brings Lara Croft, God of War, PS, PC, Arkham Asylum, Joker, Batman, GTA, Mario Kart, Streets of Rage, Sonic, Golden Axe, Sega and Space Invader references. It is structured, memorable and tailored to the Academy setting.\n\nJAYCEII’s third is also strong in places. He attacks RP’s age, crack references, music, Drizz/Trappy replies, monthly listeners, teeth, smell and old-man image. He switches into a more direct style and spells out J-A-Y-C-E double I before comparing himself to Mike Tyson. However, he drops the mic at the end, which makes the host’s decision easy.\n\nAfter the battle, the host says JAYCEII’s third was his best round, but the mic drop costs him badly. JAYCEII is given a **Y grade** and told he will not graduate today, though he is welcome back to Academy to improve.\n\nRP is praised for his imposing style and the way he addresses opponents. The host gives RP a **C+**, says he likes him, and tells viewers to vote/comment on whether RP deserves to graduate or battle someone from the main roster.\n\nAcademy outcome: **RP wins**.",
+    "performanceAnalysis": [
+      {
+        "performer": "RP",
+        "overview": "RP wins because he is more composed and delivers the cleaner full battle. His third round is the strongest technical round of the clash.\n\nHis first round establishes him as the more prepared battler. The radiator/heater line, pizza/knife line and fake-weapon angle all work because they attack JAYCEII’s credibility directly.\n\nHis second round is not as explosive, but it stays controlled and keeps the same pressure. He attacks JAYCEII’s value, toughness, and stage readiness.\n\nHis third round is the clearest round. The gaming scheme is well structured and easy to follow. It gives RP a strong closing impression and makes him look more polished than his grade suggests.\n\nRP’s biggest strength is presence. The host specifically says there is something imposing about his style.",
+        "lyricalThemes": "Fake weapon image, radiator/heater punch, pizza/knife punch, labourer/work angle, drug references, Pinky and the Brain, Method Man/Bring the Pain, tombstone/coffin, dentist/teeth, final boss, Lara Croft, God of War, cheat code, PC, Arkham Asylum, Joker/Batman, GTA, Mario Kart, Sega, Space Invader.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Imposing presence and structured schemes."
+          },
+          {
+            "title": "Best angle",
+            "description": "Gaming/final-boss scheme."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Cheat code / God of War / Arkham / GTA / Mario Kart / Sega run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "Cleaner performance and no decisive mic drop."
+          }
+        ]
+      },
+      {
+        "performer": "JAYCEII",
+        "overview": "JAYCEII loses because of execution, not lack of ideas. His second and third rounds have usable material, but the first-round repetition and third-round mic drop cost him.\n\nHis first round starts badly because of the repeated “don’t you dare” section. He does recover, but the round is damaged before it gets going.\n\nHis second round is strong. The “RP has no rep” angle is direct and easy to catch. He attacks RP’s age, monthly viewers, lack of reputation and weak music. This is JAYCEII’s best scoring round.\n\nHis third round is also strong in content. The age, crack, Leicester, Drizz/Trappy, monthly listeners, teeth, Listerine and Mike Tyson material gives him plenty to work with. The problem is the mic drop at the end, which the host holds against him.\n\nJAYCEII’s biggest strength is direct insult writing. His weakness is composure.",
+        "lyricalThemes": "RP has no rep, age gap, low monthly viewers, weak music, crack/park imagery, Drizz/Trappy replies, teeth/Listerine, cut-the-beat boxing, J-A-Y-C-E double I, Mike Tyson, bison, dentist/teeth-whitening, “young fly kick” closer.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Direct name flips and disrespect."
+          },
+          {
+            "title": "Best angle",
+            "description": "RP has no reputation."
+          },
+          {
+            "title": "Best technical section",
+            "description": "RP / no rep / age / monthly viewers section."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "First-round repetition and third-round mic drop."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "RP",
+        "theme": "Angle",
+        "bar": "Only time J.C.’s got a knife in his hands is when he’s cutting a pizza.",
+        "explanation": "A strong fake-weapon punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Wordplay",
+        "bar": "Holding a radiator is the only time you’re clutching a heater.",
+        "explanation": "A heater/gun/radiator wordplay line."
+      },
+      {
+        "performer": "RP",
+        "theme": "Status",
+        "bar": "You work as a labourer.",
+        "explanation": "A job/status angle."
+      },
+      {
+        "performer": "RP",
+        "theme": "Personal",
+        "bar": "Why are you paying women to piss on your face?",
+        "explanation": "A humiliation/sexual kink insult. Battle material."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "You move like Pinky with the links to Brain.",
+        "explanation": "A Pinky and the Brain reference."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "I’ve got the Method Man, I can bring the pain.",
+        "explanation": "A Method Man / Bring the Pain reference."
+      },
+      {
+        "performer": "RP",
+        "theme": "Status",
+        "bar": "If you’re packing your bags, you’ll be back at your mum’s.",
+        "explanation": "A defeat/return-home punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Threat",
+        "bar": "When you found out you were battling me, you bought your tombstone and paid for your coffin.",
+        "explanation": "A death/burial punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Threat",
+        "bar": "I’ll take out your teeth like I was a dentist.",
+        "explanation": "A dental/violence punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Angle",
+        "bar": "When you signed the PenGame agreement, you were basically signing your death wish.",
+        "explanation": "A good Academy-specific line."
+      },
+      {
+        "performer": "RP",
+        "theme": "Setup",
+        "bar": "I’m the final boss.",
+        "explanation": "The start of RP’s best round."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "I’ll kill JC and then raid his tomb like Lara Croft.",
+        "explanation": "A Tomb Raider/Lara Croft punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "Me, I’m the God of War.",
+        "explanation": "A God of War reference."
+      },
+      {
+        "performer": "RP",
+        "theme": "Status",
+        "bar": "You’d need a cheat code for man to defeat me.",
+        "explanation": "One of RP’s strongest bars."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "Normally I’m on a hard setting when I spray, but battling J, I pulled it back to easy.",
+        "explanation": "A difficulty-setting punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "Arkham Asylum, mad with the bars.",
+        "explanation": "A Batman/Joker setup."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "You’re a joker, you ain’t running with a bat in the dark.",
+        "explanation": "Continues the Batman scheme."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "Shotgun from GTA.",
+        "explanation": "A Grand Theft Auto reference."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "Dodging from a shell like it’s Mario Kart.",
+        "explanation": "A Mario Kart shell punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "Streets of Rage.",
+        "explanation": "A classic beat-’em-up reference."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "You’ll run faster than Sonic.",
+        "explanation": "A Sonic reference."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "Golden Axe.",
+        "explanation": "Another old-school game reference."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "I’m fully old school like a Space Invader.",
+        "explanation": "A strong closer to the retro-gaming scheme."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Status",
+        "bar": "Any time and place, I’m there.",
+        "explanation": "A confidence opener."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Status",
+        "bar": "You are not rated.",
+        "explanation": "A direct status punch."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Threat",
+        "bar": "I’ll be the reason you can’t sleep.",
+        "explanation": "A threat/intimidation line."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Imagery",
+        "bar": "Knock man’s head off the microwave.",
+        "explanation": "A domestic/object punch."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Critique",
+        "bar": "You need therapy.",
+        "explanation": "A mental-state insult."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Wordplay",
+        "bar": "RP, you ain’t got no rep.",
+        "explanation": "JAYCEII’s cleanest name flip."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Status",
+        "bar": "If this were my show, you would’ve been barred.",
+        "explanation": "A platform-control punch."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Status",
+        "bar": "How could they ever think we’re par?",
+        "explanation": "A level-gap line."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Threat",
+        "bar": "I hope you die real soon.",
+        "explanation": "A harsh death insult. Battle material."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Disrespect",
+        "bar": "I’ll use the flowers from your grave to wipe the shit off my arse.",
+        "explanation": "Grave-disrespect punch."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Critique",
+        "bar": "How many albums have you released, and how many people are viewing?",
+        "explanation": "A music-numbers attack."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Age",
+        "bar": "Thirty-three and still trying to make it.",
+        "explanation": "Age/status attack."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Critique",
+        "bar": "Three monthly viewers.",
+        "explanation": "A numbers/relevance punch."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Appearance",
+        "bar": "Does this guy look like a disabled meerkat?",
+        "explanation": "A visual insult. Battle material."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Wordplay",
+        "bar": "RP but he hardly got reputation.",
+        "explanation": "Another RP/no-rep flip."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Critique",
+        "bar": "Silly old man, why do you always sound like you got something to prove?",
+        "explanation": "A strong age/ego critique."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Angle",
+        "bar": "I just came here so I could say shut up to you.",
+        "explanation": "A direct battle-purpose line."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Comedy",
+        "bar": "He’s been releasing since Leicester actually won.",
+        "explanation": "A Leicester title-season/timeframe joke."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Critique",
+        "bar": "He ain’t made it nowhere.",
+        "explanation": "A career-stagnation punch."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Critique",
+        "bar": "I saw you reply to Drizz three times.",
+        "explanation": "A clout-chasing/platform angle."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Critique",
+        "bar": "You mentioned Trappy so much…",
+        "explanation": "Another clout/association angle."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Status",
+        "bar": "Out of your monthly listeners, I’m like two of them.",
+        "explanation": "A strong music-listener punch."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Critique",
+        "bar": "All your tunes are literally garbage.",
+        "explanation": "A direct music critique."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Style",
+        "bar": "Cut the beat, fuck this battle, I wanna box this prick.",
+        "explanation": "A performance switch into confrontation."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Branding",
+        "bar": "J-A-Y-C-E double I.",
+        "explanation": "Name-spelling branding."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Reference",
+        "bar": "I move like Mike Tyson.",
+        "explanation": "A boxing reference."
+      },
+      {
+        "performer": "JAYCEII",
+        "theme": "Wordplay",
+        "bar": "This guy’s cattle and I’m bison.",
+        "explanation": "Animal dominance line."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "RP wins",
+      "summary": "Official result: RP wins. Suggested score: RP 2-1 JAYCEII. Suggested round split: Round 1: RP, Round 2: JAYCEII, Round 3: RP. Reason: JAYCEII has good material, especially in rounds two and three, but the mic drop and early repetition hurt him. RP is cleaner overall and has the strongest structured round with the gaming scheme. Performance Grades - RP: C+, JAYCEII: Y / non-graduating grade. Graduation Status - RP: Viewer feedback requested for graduation/main-roster opportunity. JAYCEII: Does not graduate today, but is welcome back to Academy. Final Note: JAYCEII had flashes, but RP controlled the battle better. The third-round mic drop made the result straightforward: RP edges it."
+    }
   },
   {
     "id": "pg-s08-2026-01-28-lc-vs-penno",
@@ -66526,60 +69780,340 @@ export const battles: Battle[] = [
     "stage": "Academy Clashes",
     "group": null,
     "tag": null,
-    "winner": "unknown"
-  },
-  {
-    "id": "pg-s08-2026-02-05-dyzz-vs-rackz",
-    "slug": "dyzz-vs-rackz",
-    "mc1": "dyzz",
-    "mc2": "rackz",
-    "title": "DYZZ vs RACKZ",
-    "date": "2026-02-05",
-    "videoUrl": "https://www.youtube.com/watch?v=0qT7qS4_G1o",
-    "theme": "pengame",
-    "season": "Academy",
-    "subGroup": "Academy Graduate Debut",
-    "views": "14k",
-    "customEp": "Academy x10",
-    "stage": "Academy Graduate Debut",
-    "group": null,
-    "tag": null,
-    "winner": "unknown"
-  },
-  {
-    "id": "pg-s06-2026-02-07-lc-vs-anbu-sensei",
-    "slug": "lc-vs-anbu-sensei",
-    "mc1": "lc",
-    "mc2": "anbu-sensei",
-    "title": "LC vs ANBU SENSEI",
-    "date": "2026-02-07",
-    "videoUrl": "https://www.youtube.com/watch?v=04BHiF6ZiCs",
-    "theme": "pengame",
-    "season": "Academy",
-    "customEp": "Academy x11",
-    "subGroup": "Academy Graduate Debut",
-    "views": "42k",
-    "stage": "Academy Graduate Debut",
-    "group": null,
-    "tag": null,
-    "winner": "unknown"
-  },
-  {
-    "id": "pg-s08-2026-02-09-jmuni-vs-mz-2",
-    "slug": "jmuni-vs-mz-2",
-    "mc1": "jmuni",
-    "mc2": "mz",
-    "title": "J MUNI vs MZ II",
-    "date": "2026-02-09",
-    "theme": "pengame",
-    "season": "Academy",
-    "subGroup": "Academy Clashes",
-    "views": "11k",
-    "customEp": "Academy x12",
-    "stage": "Academy Clashes",
-    "group": null,
-    "tag": null,
-    "winner": "unknown"
+    "winner": "unknown",
+    "clashSummary": "LC vs PENNO took place on **PenGame Academy 2026**. The host introduces it as an Academy battle between **Penno and LC**, with PENNO going first after the off-camera coin toss.\n\nPENNO opens with a strong first round. He brands himself with the “P to the E to the double N-O” intro, attacks LC as a “PenGame artist” with a gassed-up bio, says LC is not known where he is from, and brings smoke, fighting, soap/hygiene, F-Done/choke and Dank of England imagery. It is aggressive, energetic and more polished than some of his earlier Academy showings.\n\nLC responds with a sharp first. He attacks PENNO as Ryan, questions why PenGame booked him, says he lost to a lisp, brings PenGame revolution, Roddy McPutin, knife/fender imagery and says PENNO is deluded. LC’s round feels more controlled and direct than expected, and it immediately makes the opener debatable.\n\nPENNO’s second is built around graduation day and not fumbling. He says he came from the north to rip up the scene, attacks LC as not roster-ready, brings relay/baton imagery, LC/nail wordplay, family angles, Duracell/battery lines and says LC will not get back up when the battery dies. It is a strong second and shows PENNO stepping up.\n\nLC’s second is one of his best rounds. He answers with a more aggressive and personal angle, attacking PENNO’s name, look, girl, family, stamina, race-war framing and credibility. He brings the Scarlett Jean line, Saddam Hussein plane-crash imagery, fender/bender wordplay and decapitation imagery. The host reacts strongly and says the battle is becoming difficult to judge.\n\nPENNO’s third switches the beat and style. He goes into a more rap-heavy closer, talking about being back with a bang, wrapping LC in knots, karma coming around, Mega Man stumble, not dropping the mic, long journeys just to take a loss, and sending LC back home. It is a very strong final round and arguably PENNO’s cleanest section.\n\nLC’s third matches the energy. He brings Ryu and Ken, Kakarot, Amazon, Goonies, Skepta “what do you mean,” stream/release angles, East Midlands vs South, Midas touch, Royal Highness, volatile movement and a serious allegation-style closer as battle material. It is direct, fast and forceful.\n\nAt the end, the host says he tried to score it but could not. Every time one battler seemed to take a round, the other answered strongly. He praises PENNO’s beat switch and LC’s ability to follow and answer. The host refuses to call a winner, gives both battlers **B+**, and tells the comments to decide who won and who should graduate.\n\nOfficial host result: **No winner called / fan vote decision**.",
+    "performanceAnalysis": [
+      {
+        "performer": "PENNO",
+        "overview": "PENNO performs at one of his strongest Academy levels here. He sounds more focused, more prepared and more confident than before.\n\nHis first round is aggressive and direct. The bio/gassed-up angle, soap/hygiene material and F-Done/choke line give the opener good bite.\n\nHis second continues the pressure with graduation-day framing. The relay/baton and Duracell/battery sections work because they connect to performance and stamina.\n\nHis third is his best round. The beat switch helps him show more musicality, and the “back with a bang” section gives him a proper closer. The long-journey/loss angle is a clean way to end against LC.\n\nPENNO’s biggest strength is improvement. The host specifically says he has been getting better every time.",
+        "lyricalThemes": "P-E-double-N-O branding, PenGame bio angle, smoke/fight imagery, dirty/skids/soap, F-Done/choke, Dank of England, graduation day, not fumbling, relay/baton, LC/nail wordplay, Duracell/battery, karma, Mega Man stumble, long journey/loss angle.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Improved structure and energy."
+          },
+          {
+            "title": "Best angle",
+            "description": "LC taking a long journey just to lose."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Back-with-a-bang / karma / Mega Man / long-journey closer."
+          },
+          {
+            "title": "Battle factor",
+            "description": "Shows major Academy growth and main-platform readiness."
+          }
+        ]
+      },
+      {
+        "performer": "LC",
+        "overview": "LC matches PENNO closely and may have the strongest rebuttal-style presence in the battle because he goes second every round and answers well.\n\nHis first round is sharp. He attacks PENNO as Ryan, questions the booking, and brings direct material about PENNO’s past performances and credibility.\n\nHis second is his standout. The personal angles are heavy, the Scarlett Jean section gets a strong reaction, and the Saddam Hussein crash line is one of the biggest shock punches in the battle.\n\nHis third keeps the pressure on. The Ryu/Ken, Kakarot, Amazon, Goonies and Skepta references show range, while the East Midlands vs South angle gives him a location identity.\n\nLC’s biggest strength is response pressure. He keeps answering PENNO and making each round difficult to score.",
+        "lyricalThemes": "Ryan/Penno name angle, booking critique, lost-to-a-lisp angle, PenGame revolution, Roddy McPutin, fender/bender, Scarlett Jean, Saddam Hussein plane crash, race-war framing, Ryu and Ken, Kakarot, Amazon, Goonies, Skepta “what do you mean,” Midas touch, Royal Highness, East Midlands vs South.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Reply pressure and aggression."
+          },
+          {
+            "title": "Best angle",
+            "description": "Personal attack section around PENNO’s girl and image."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Scarlett Jean / Saddam Hussein / fender-bender sequence."
+          },
+          {
+            "title": "Battle factor",
+            "description": "Uses second-position advantage well and makes every round debatable."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "PENNO",
+        "theme": "Branding",
+        "bar": "P to the E to the double N-O.",
+        "explanation": "PENNO’s signature branding."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Status",
+        "bar": "Fat boy Ed Wood did a lot of smoke, so I came down here just to smoke this prick.",
+        "explanation": "A smoke/body/intent opener."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Critique",
+        "bar": "PenGame artist typed in your bio — who went and gassed this kid?",
+        "explanation": "A status/bio attack."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Wordplay",
+        "bar": "You can get boxed like egg fried rice.",
+        "explanation": "A boxing/takeaway punch."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Wordplay",
+        "bar": "Don’t write bars, go get a bar of soap.",
+        "explanation": "A hygiene/writing wordplay."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Reference",
+        "bar": "Call him F-Done — choke.",
+        "explanation": "A PenGame reference and choke punch."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Reference",
+        "bar": "I ain’t seen no smoke like Dank of England.",
+        "explanation": "A weed/smoke reference."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Status",
+        "bar": "This is graduation day, I ain’t fumbling for shit.",
+        "explanation": "A strong Academy-context line."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Reference",
+        "bar": "I ain’t fumbling like F.T.",
+        "explanation": "A Forever Tapped / fumble reference."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Location",
+        "bar": "I came down from the north to rip up the whole scene.",
+        "explanation": "A location and ambition line."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Imagery",
+        "bar": "No, you ain’t running this race, this a relay.",
+        "explanation": "A race/relay setup."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Imagery",
+        "bar": "I got the baton in my hand.",
+        "explanation": "Continues the relay scheme."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Wordplay",
+        "bar": "Give LC a nail.",
+        "explanation": "A name/nail wordplay."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Wordplay",
+        "bar": "You ain’t getting back up when your battery dies.",
+        "explanation": "A Duracell/battery closer."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Status",
+        "bar": "I’m back with a bang.",
+        "explanation": "A strong third-round opener."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Wordplay",
+        "bar": "If I wrap LC up in knots.",
+        "explanation": "Name/situation wordplay."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Concept",
+        "bar": "My left hand’s karma, because it’ll go around then it’ll come around.",
+        "explanation": "A strong karma/punchline concept."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Reference",
+        "bar": "Mega Man stumble.",
+        "explanation": "A gaming/reference punch."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Critique",
+        "bar": "Don’t flop, don’t forget your bars.",
+        "explanation": "A performance-control warning."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Status",
+        "bar": "Long journey just to take that loss.",
+        "explanation": "One of PENNO’s cleanest closer lines."
+      },
+      {
+        "performer": "PENNO",
+        "theme": "Threat",
+        "bar": "You should’ve stayed in bed, gone work.",
+        "explanation": "A simple but effective dismissal."
+      },
+      {
+        "performer": "LC",
+        "theme": "Status",
+        "bar": "Who the fuck is this boy, who’s this guy?",
+        "explanation": "LC starts by questioning PENNO’s status."
+      },
+      {
+        "performer": "LC",
+        "theme": "Personal",
+        "bar": "Ryan Pendle gonna get brutalised.",
+        "explanation": "A real-name/direct attack."
+      },
+      {
+        "performer": "LC",
+        "theme": "Status",
+        "bar": "PenGame that I’m trying to revolutionise.",
+        "explanation": "A self-positioning line."
+      },
+      {
+        "performer": "LC",
+        "theme": "Wordplay",
+        "bar": "Ryan’s democracy get crucified.",
+        "explanation": "A political/revolution wordplay."
+      },
+      {
+        "performer": "LC",
+        "theme": "Critique",
+        "bar": "You lost to a lisp.",
+        "explanation": "A battle-history insult."
+      },
+      {
+        "performer": "LC",
+        "theme": "Wordplay",
+        "bar": "Put you to sleep, no dreams, no lucid.",
+        "explanation": "A sleep/lucid-dream punch."
+      },
+      {
+        "performer": "LC",
+        "theme": "Reference",
+        "bar": "Man drop bombs like Roddy McPutin.",
+        "explanation": "A Roddy Ricch / Putin-style war punch."
+      },
+      {
+        "performer": "LC",
+        "theme": "Threat",
+        "bar": "You wanna war me, bro? You’re on the operative.",
+        "explanation": "A war/ops opener."
+      },
+      {
+        "performer": "LC",
+        "theme": "Critique",
+        "bar": "This a war zone and you’re not a fighter.",
+        "explanation": "A credibility punch."
+      },
+      {
+        "performer": "LC",
+        "theme": "Wordplay",
+        "bar": "Penno has got more jeans than China.",
+        "explanation": "A genes/jeans-style wordplay."
+      },
+      {
+        "performer": "LC",
+        "theme": "Personal",
+        "bar": "What’s her name? Scarlett Jean.",
+        "explanation": "A personal/girl angle."
+      },
+      {
+        "performer": "LC",
+        "theme": "Personal",
+        "bar": "It’s public knowledge that she gives brain.",
+        "explanation": "A sexual allegation-style line. Battle material."
+      },
+      {
+        "performer": "LC",
+        "theme": "Personal",
+        "bar": "Don’t ever take this girl on a plane — it’ll crash like the acts of Saddam Hussein.",
+        "explanation": "One of LC’s biggest shock punches."
+      },
+      {
+        "performer": "LC",
+        "theme": "Wordplay",
+        "bar": "What you gonna do to the fender? Nothing.",
+        "explanation": "A fender/bender setup."
+      },
+      {
+        "performer": "LC",
+        "theme": "Imagery",
+        "bar": "Decapitated.",
+        "explanation": "A violent finishing image."
+      },
+      {
+        "performer": "LC",
+        "theme": "Reference",
+        "bar": "High-duking like Ryu and Ken.",
+        "explanation": "A Street Fighter reference."
+      },
+      {
+        "performer": "LC",
+        "theme": "Reference",
+        "bar": "Super Saiyan, I feel like Kakarot.",
+        "explanation": "A Dragon Ball Z reference."
+      },
+      {
+        "performer": "LC",
+        "theme": "Imagery",
+        "bar": "Born in the Amazon.",
+        "explanation": "A wildness/jungle image."
+      },
+      {
+        "performer": "LC",
+        "theme": "Reference",
+        "bar": "Stuff from the Goonies.",
+        "explanation": "A film/appearance punch."
+      },
+      {
+        "performer": "LC",
+        "theme": "Reference",
+        "bar": "What you mean, like Skepta?",
+        "explanation": "A grime reference."
+      },
+      {
+        "performer": "LC",
+        "theme": "Critique",
+        "bar": "Your flow has got vaginal dryness; my flow gonna flow like water.",
+        "explanation": "A crude flow comparison. Battle material."
+      },
+      {
+        "performer": "LC",
+        "theme": "Status",
+        "bar": "My bars got the touch of Midas.",
+        "explanation": "A gold/Midas quality claim."
+      },
+      {
+        "performer": "LC",
+        "theme": "Status",
+        "bar": "Call me the Royal Highness.",
+        "explanation": "A status/title punch."
+      },
+      {
+        "performer": "LC",
+        "theme": "Threat",
+        "bar": "Trying to break all your molecules.",
+        "explanation": "A destruction/science-style punch."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "unknown",
+      "summary": "Official result: No winner called. Decision type: Fan vote / comments decide. Recommended site status: Draw / No Decision. Suggested Round View - Round 1: Debatable, Round 2: LC / debatable, Round 3: PENNO / debatable. Reason: LC may edge the second with the stronger shock angles, while PENNO’s third is arguably the cleanest final round. The battle is too close to force a confident winner. Performance Grades - LC: B+, PENNO: B+. Graduation / Platform Status: Both are strongly positioned for graduation or main-platform placement. The host says both deserve a turn in the dungeon against someone proper. Final Note: This is one of the strongest Academy clashes. No official winner should be recorded unless the fan vote is later confirmed. For the archive, mark it as Draw / Fan Vote Pending."
+    }
   },
   {
     "id": "pg-s06-2026-02-10-iffy-vs-star-co",
@@ -66597,24 +70131,394 @@ export const battles: Battle[] = [
     "stage": "Academy Graduation Day",
     "group": null,
     "tag": null,
-    "winner": "unknown"
-  },
-  {
-    "id": "pg-s08-2026-02-18-scotty-vs-guni",
-    "slug": "scotty-vs-guni",
-    "mc1": "scotty",
-    "mc2": "guni",
-    "title": "SCOTTY vs GUNI",
-    "date": "2026-02-18",
-    "theme": "pengame",
-    "season": "Academy",
-    "subGroup": "Academy Clashes",
-    "views": "9k",
-    "customEp": "Academy x14",
-    "stage": "Academy Clashes",
-    "group": null,
-    "tag": null,
-    "winner": "unknown"
+        "winner": "star-co",
+    "clashSummary": "IFFY vs STAR CO took place on **PenGame Academy 2026** as part of a graduation day. The host explains that not everyone will graduate, and that viewers can comment or vote on the website if they disagree with who gets brought back.\n\nThe battle is introduced as **STAR CO vs IFFY**, though IFFY repeatedly references STAR CO’s previous **H STAR** name.\n\nIFFY goes first.\n\nIFFY opens with a round aimed at STAR CO’s name change, image and supposed weakness. He says the new name is dead, attacks STAR CO’s face, says he is not a killer, and brings virtual-sex / virtual-ex material near the end. The round has moments, but the host later says there were mic issues, meaning IFFY’s opening was not fully clear.\n\nSTAR CO’s first round is the strongest round of the battle. He comes in with strong presence, direct attacks and clean delivery. He uses wave imagery, Darth/lightsaber references, family angles, sister/mother/father material, Arsenal wordplay and a strong closer around not passing to IFFY. The host later says this may be his favourite PenGame Academy round so far. STAR CO takes the first clearly.\n\nIFFY’s second round has more energy. He spells out I-F-F-Y, says he will send H STAR to the sky, attacks STAR CO for being in the back of KANDI’s battle, uses Two-Face, Mrs Puff, phone/password, text, and “glazed KANDI” angles. It is better than his first, but still not enough to match STAR CO’s pressure.\n\nSTAR CO’s second keeps the same aggression. He uses pyromaniac, “let there be light,” Rambo blade, fatty boy, trackies, irrelevance, incest, cross-eyed, hard-drive and star-sign material. It is direct, intense and keeps him comfortably ahead.\n\nIFFY’s third round has his best energy. He repeats a hook-style section about giving STAR CO a taste of his own medicine, says STAR CO’s bars need development, and uses EastEnders references like Leon Butcher and Peggy Mitchell. He finishes by telling STAR CO to change his name. It is a respectable closer, but not enough to win a round.\n\nSTAR CO’s third seals the 3-0. He brings a serious domestic-violence allegation angle as battle material, then moves into Lagos/boat/Uber imagery, EasyJet/Peter Spence/plane scheme, jet-lag imagery, school-bag visuals, L2/R2 controller bars, mum insults and “get off the stage” commands. He finishes by saying the audience has just seen him upgrade.\n\nAt the end, the host says the result is clear: **STAR CO won all three rounds**. He praises STAR CO’s clarity, flow, aggression, consistency and directness. He gives STAR CO an **A+** and says he wants to see him against someone from the main roster. IFFY is given a **C-**, with the host saying he kept going and improved in the third, but needs more work.\n\nOfficial winner: **STAR CO**.",
+    "performanceAnalysis": [
+      {
+        "performer": "STAR CO",
+        "overview": "STAR CO dominates the battle because he is more direct, more confident and much cleaner. His material sounds prepared for IFFY, not generic.\n\nHis first round is the standout. The host specifically praises it as possibly his favourite Academy round. STAR CO comes in with immediate presence, strong voice, direct punches and layered schemes. The Darth/lightsaber, wave, family and Arsenal sections all land.\n\nHis second round keeps the pressure high. He does not dip after the big first. The pyromaniac/light/fire material, Rambo blade imagery, body insults and hard-drive section keep IFFY under pressure.\n\nHis third round shows he can close. He uses a serious accusation-style angle and then turns it into a fast, aggressive final section with travel, plane, jet-lag and controller imagery. It feels like a full performance, not just a list of bars.\n\nSTAR CO’s biggest strength is complete delivery. He gets through all three rounds with control and aggression.",
+        "lyricalThemes": "Wave imagery, Darth/lightsaber, family angles, sister/mother/father lines, Arsenal/pass wordplay, pyromaniac/fire, Rambo blade, body insults, hard-drive angle, domestic-violence allegation as battle material, Lagos/boat/Uber, EasyJet/plane scheme, jet lag, L2/R2 controller imagery, “get off the stage” closer.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round one."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Complete control and aggression."
+          },
+          {
+            "title": "Best angle",
+            "description": "IFFY is outmatched and not dangerous."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Wave / Darth / lightsaber / Arsenal opening run."
+          },
+          {
+            "title": "Battle-winning factor",
+            "description": "STAR CO keeps the same high level through all three rounds."
+          }
+        ]
+      },
+      {
+        "performer": "IFFY",
+        "overview": "IFFY loses clearly, but he does improve as the battle goes on. His first is hurt by mic issues, his second has more energy, and his third is his best performance.\n\nHis first round has some ideas around STAR CO’s name change and virtual-life angles, but it does not land strongly enough. The mic issue also damages his ability to make an impact.\n\nHis second is better. He brings more direct attacks and uses KANDI, Two-Face, Mrs Puff, phone/password and “glazed KANDI” material. The round has more energy, but STAR CO’s second is still stronger.\n\nHis third is his best. The repeated hook gives it structure, and the EastEnders references show some creativity. The problem is that by the third, STAR CO has already built a clear lead.\n\nIFFY’s biggest strength is that he keeps going and improves late. His weakness is that his punches are not landing at STAR CO’s level yet.",
+        "lyricalThemes": "H STAR name-change angle, victim/killer contrast, virtual sex/ex material, KANDI battle reference, Two-Face, Mrs Puff, phone/password, glazing KANDI angle, medicine hook, bar-development critique, EastEnders, Leon Butcher, Peggy Mitchell, name-change closer.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Persistence and late energy."
+          },
+          {
+            "title": "Best angle",
+            "description": "STAR CO’s name change from H STAR."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Medicine hook / EastEnders section."
+          },
+          {
+            "title": "Battle-losing factor",
+            "description": "STAR CO’s delivery, clarity and round structure are far stronger."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "IFFY",
+        "theme": "Angle",
+        "bar": "Man like H-Star, change your name.",
+        "explanation": "IFFY immediately attacks the rebrand from H STAR to STAR CO."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Angle",
+        "bar": "H-Star, that’s dead.",
+        "explanation": "A direct name-change dismissal."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Critique",
+        "bar": "You ain’t no killer.",
+        "explanation": "A credibility attack."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Threat",
+        "bar": "I’ll turn you victim.",
+        "explanation": "IFFY frames himself as the aggressor."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Status",
+        "bar": "You wanna be a trophy? I’m taking.",
+        "explanation": "A status/control punch."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Imagery",
+        "bar": "Pengame’s a whole buffet.",
+        "explanation": "A hunger/competition image."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Critique",
+        "bar": "23, Double X, he’s paying for virtual sex.",
+        "explanation": "A virtual-sex/social-status insult."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Branding",
+        "bar": "I-double-F-Y.",
+        "explanation": "A name-spelling self-branding line."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Wordplay",
+        "bar": "Watch me send H STAR to the sky.",
+        "explanation": "A star/sky name flip."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Threat",
+        "bar": "Don’t get rude, I’ll put you in a suit then go get food.",
+        "explanation": "A funeral/suit/death punch."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Reference",
+        "bar": "You were in the back of KANDI’s battle.",
+        "explanation": "A scene/status reference."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Appearance",
+        "bar": "Two Face always red.",
+        "explanation": "A Batman/Two-Face appearance punch."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Appearance",
+        "bar": "Who knew Juby Red and Mrs Puff had a baby?",
+        "explanation": "A cartoon appearance comparison."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Critique",
+        "bar": "Don’t text me, text me yourself.",
+        "explanation": "A phone/contact punch."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Angle",
+        "bar": "Tell me the password please, I got one more try till it blocks my G.",
+        "explanation": "A phone/password angle."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Critique",
+        "bar": "The way he glazed KANDI.",
+        "explanation": "A crowd/scene behaviour attack."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Style",
+        "bar": "This is done, these are eleven.",
+        "explanation": "A repeated hook-style section."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Angle",
+        "bar": "Taste of your own medicine.",
+        "explanation": "IFFY frames the third as a return shot."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Critique",
+        "bar": "All your bars need development.",
+        "explanation": "A writing critique."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Critique",
+        "bar": "I looked at your brethren’s clips, I can tell why you’re shit.",
+        "explanation": "A crew/quality attack."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Reference",
+        "bar": "I’m more like Leon Butcher.",
+        "explanation": "An EastEnders reference."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Reference",
+        "bar": "I’ll do you like Peggy Mitchell.",
+        "explanation": "Another EastEnders reference, used as a punchline."
+      },
+      {
+        "performer": "IFFY",
+        "theme": "Angle",
+        "bar": "H-Star, change it.",
+        "explanation": "IFFY ends by returning to the name-change angle."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Wordplay",
+        "bar": "I’m the wave, you’re arse sunk.",
+        "explanation": "A clean wave/name/status punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Wordplay",
+        "bar": "I call you Darth.",
+        "explanation": "A Darth Vader setup."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Wordplay",
+        "bar": "Do you mind I convey the lightsaber?",
+        "explanation": "A Star Wars/lightsaber weapon reference."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Status",
+        "bar": "I’m levels ahead.",
+        "explanation": "A direct skill-gap claim."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Personal",
+        "bar": "Your daddy should have never left.",
+        "explanation": "A father/family insult. Battle material."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Personal",
+        "bar": "I had your sister undress.",
+        "explanation": "A family/sexual disrespect angle. Battle material."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Imagery",
+        "bar": "Black blade stuck in your intestine.",
+        "explanation": "A violent weapon image."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Status",
+        "bar": "I keep it classified.",
+        "explanation": "A secrecy/control line."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Wordplay",
+        "bar": "He likes Arsenal, if he’s on my team I’d never play a pass to you.",
+        "explanation": "A football/Arsenal/pass punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Imagery",
+        "bar": "He thought he was safe. I’m a pyromaniac.",
+        "explanation": "STAR CO opens round two with fire imagery."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Wordplay",
+        "bar": "God said let there be light; I kill him with smite.",
+        "explanation": "A biblical/light/smite punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Imagery",
+        "bar": "Rambo blade for man.",
+        "explanation": "A Rambo/weapon line."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Status",
+        "bar": "I told you, if you experience this, I’m new to the game and you can’t match this.",
+        "explanation": "A confidence/status line."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Style",
+        "bar": "Fatty boy, skatty boy, aggy aggy boy.",
+        "explanation": "A rhythmic insult pattern."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Status",
+        "bar": "You’re irrelevant.",
+        "explanation": "A blunt status punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Comedy",
+        "bar": "Son of a slug, are you bugging or what?",
+        "explanation": "A creature/insult punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Personal",
+        "bar": "Your dad’s your uncle.",
+        "explanation": "A family/incest insult. Battle material."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Appearance",
+        "bar": "One eye one breath, line up.",
+        "explanation": "An appearance/targeting punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Comedy",
+        "bar": "Your uncle looks like Sadiq Khan.",
+        "explanation": "A visual/family comparison."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Critique",
+        "bar": "I can slap this boy for your hard drive.",
+        "explanation": "A tech/hard-drive punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Angle",
+        "bar": "Now I’m asking if he did it.",
+        "explanation": "STAR CO opens the third with an accusation-style angle."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Challenge",
+        "bar": "He could have told me if he didn’t.",
+        "explanation": "A challenge to deny the allegation."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Comedy",
+        "bar": "I’m winning this race, the car is a pistol, Lightning McQueen, ka-chow, I kill him.",
+        "explanation": "A Cars / Lightning McQueen punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Appearance",
+        "bar": "This guy looks about 45.",
+        "explanation": "An age/appearance insult."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Critique",
+        "bar": "Came here on a boat, now you Uber drive.",
+        "explanation": "A migration/job-status punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Wordplay",
+        "bar": "EasyJet.",
+        "explanation": "Part of his travel/plane scheme."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Comedy",
+        "bar": "Already looks jet-lagged.",
+        "explanation": "A travel/appearance punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Imagery",
+        "bar": "Child’s rucksack, Ribena lunch bag.",
+        "explanation": "A childish appearance image."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Wordplay",
+        "bar": "L2, R2, control shoot.",
+        "explanation": "A PlayStation/controller punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Command",
+        "bar": "Get off the stage.",
+        "explanation": "A direct command to end IFFY’s performance."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Closer",
+        "bar": "You just seen a man upgrade.",
+        "explanation": "A strong final statement: STAR CO says this battle shows his level-up."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "STAR CO wins",
+      "summary": "Official result: STAR CO wins. Official score: STAR CO 3-0 IFFY. Reason: STAR CO delivered three complete, aggressive and direct rounds. IFFY improved late, but STAR CO was cleaner, more powerful and more memorable in every round. Performance Grades - STAR CO: A+, IFFY: C-. Graduation Status: STAR CO is recommended for a main-roster opportunity. IFFY is welcome back but needs more work. Final Note: STAR CO did exactly what Academy is for: proved he can perform at a higher level. This was a clear 3-0 and one of the strongest Academy showings."
+    }
   },
   {
     "id": "pg-s06-2026-02-21-rp-vs-eddfirst",
@@ -66625,14 +70529,391 @@ export const battles: Battle[] = [
     "date": "2026-02-21",
     "videoUrl": "https://www.youtube.com/watch?v=Te8n1UbyGUc",
     "theme": "pengame",
-    "season": "Academy",
-    "subGroup": "Academy",
+    "season": "2026",
+    "competition": "PenGame",
+    "subGroup": "2026 Battles",
     "views": "44k",
-    "customEp": "Academy x15",
-    "stage": "Academy",
+    "customEp": "26x12",
+    "seasonOrder": 12,
+    "stage": null,
     "group": null,
     "tag": null,
-    "winner": "unknown"
+    "winner": "unknown",
+    "clashSummary": "RP vs EDDFIRST took place on **PenGame Rap Battle 2026** in the dungeon. The host frames both MCs as newer members of the platform and says this is main-stage settings. This is a main PenGame battle, not an Academy clash.\n\nEDDFIRST wins the coin toss and puts RP first.\n\nRP opens with a very aggressive body-shaming round. He attacks EDDFIRST’s weight, appearance, sexuality, relationship, wife, driving, health, hygiene and general image. He uses double-D name flips, bra-size jokes, bacon sandwich imagery, no-neck jokes, IBS/tablets, and a repeated fat/body angle. The round gets reactions, but it stays on one main lane.\n\nEDDFIRST replies with a stronger and more varied first. He says RP is the last person he would choose to clash if he wanted to get his name on the map, attacks RP’s crack-pipe/drug image, Relapse association, one-flow style, face, shingles/Pringles imagery, Ambu-style spots, Arthur/Thanos references, and says RP only does well in certain spaces, not the wider grime scene. It is a better-structured response.\n\nRP’s second keeps the same pressure. He plays on “Ed First” by saying ED clearly is not winning any races, then attacks his drinking, money, body, age, veteran status, girlfriend, American/body image, heart health, nose and Beach Gang status. He has some funny lines, but the content still circles the same fat/appearance angle.\n\nEDDFIRST’s second is sharper. He flips RP into RIP, attacks RP’s single flow, breath work, depth, cadence, “one bar, one flow” style and ability. He also brings Frank Gallagher, Zuma, funeral imagery, and says RP is out of his depth. This round is cleaner and more technical than RP’s second.\n\nRP’s third again focuses on EDDFIRST’s weight, balance, appetite, fitness, penis/body jokes, catfishing, gastric band, gym, elastic trousers and mattress smell. It has a few effective jokes, but by this point the angle is repetitive.\n\nEDDFIRST’s third closes the battle better. He attacks RP as dead weight, calls him RP Sketchface, references VarnTae template-style appearance, age, breath, Flow Zone, Arsenal/Wenger, defender/Bendtner wordplay, eyes being far apart, seeing both sides, placement, Jaywalk/Cheeze, fades/no tapers and basement imagery. The round has more variety and confirms EDDFIRST’s archive win.\n\nNo official winner is announced on camera.\n\nOfficial result: **No official winner called**.",
+    "performanceAnalysis": [
+      {
+        "performer": "EDDFIRST",
+        "overview": "EDDFIRST has the stronger battle because his writing is more varied and better structured.\n\nHis first round responds well to RP’s body angle by attacking RP’s lack of variation, one-flow style, drug image, face and scene status. He also controls the pace better after the room reactions and reloads.\n\nHis second is probably his best round. The RP/RIP flip is clean, and the one-flow / breathwork / out-of-depth angle directly critiques RP as an MC rather than just insulting his appearance.\n\nHis third gives the battle a stronger close. The Flow Zone, Arsenal/Wenger, Bendtner and “both sides” material shows more writing range than RP’s repeated fat jokes.\n\nEDDFIRST’s biggest strength is that he attacks performance, status and style. RP attacks mostly appearance, while EDDFIRST attacks RP as a battler.",
+        "lyricalThemes": "RP/RIP, crack-pipe angle, Relapse association, one-flow style, shingles, Pringles, Ambu spots, Arthur/Thanos, Frank Gallagher, Zuma, funeral imagery, out-of-depth, cadence/calibre, Flow Zone, Arsenal/Wenger, Bendtner, both-sides/eyes angle, no tapers, basement imagery.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round two."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Angle variety."
+          },
+          {
+            "title": "Best angle",
+            "description": "RP has one flow and one lane."
+          },
+          {
+            "title": "Best technical section",
+            "description": "RP/RIP into one-flow/out-of-depth sequence."
+          },
+          {
+            "title": "Battle factor",
+            "description": "Stronger writing across all three rounds."
+          }
+        ]
+      },
+      {
+        "performer": "RP",
+        "overview": "RP brings energy and some funny insults, but his material is too repetitive.\n\nHis first round has impact because it comes out aggressively. The double-D name flip, bra-size jokes, no-neck material, body/health lines and wife angle get reactions.\n\nHis second continues the same theme with race/races, relay team, Beach Gang, age, American/body jokes and nose material. There are good one-liners, but the round does not expand enough.\n\nHis third is the clearest example of the issue. He keeps attacking EDDFIRST’s weight, appetite, catfishing, gastric band and gym habits. Some jokes land, but the angle has been overused by then.\n\nRP’s biggest strength is delivery and aggression. His weakness is lack of angle variety.",
+        "lyricalThemes": "Weight/body angle, Double-D name flip, bra-size jokes, wife/girlfriend material, Israeli settler/IDF shock line, bacon sandwich, no neck, IBS/tablets, Ed First/race wordplay, DJ Khaled, full English, gastric band, ham sandwich, gym, elastic trousers, mattress smell.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round one."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Aggressive insult delivery."
+          },
+          {
+            "title": "Best angle",
+            "description": "EDDFIRST’s size and image."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Double-D / bra-size / body-image sequence."
+          },
+          {
+            "title": "Battle factor",
+            "description": "Starts aggressively, but becomes repetitive."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "You big fat disgusting grimy greb.",
+        "explanation": "RP opens with immediate body-shaming aggression."
+      },
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "Ed looks like an Israeli settler.",
+        "explanation": "A political/appearance shock line. Battle material."
+      },
+      {
+        "performer": "RP",
+        "theme": "Wordplay",
+        "bar": "Why you got two D’s in your name?",
+        "explanation": "Setup for the Double-D name flip."
+      },
+      {
+        "performer": "RP",
+        "theme": "Insult",
+        "bar": "Would’ve used one in mine instead.",
+        "explanation": "A sexual/name punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "You ain’t bigger with lyrics just because you’ve got bigger tits than your missus.",
+        "explanation": "Body/name/relationship punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "Why did you not try diet?",
+        "explanation": "Direct body angle."
+      },
+      {
+        "performer": "RP",
+        "theme": "Health",
+        "bar": "You’re a bacon sandwich away from your time of death.",
+        "explanation": "Food/health punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "When was the last time you’ve seen your dick?",
+        "explanation": "Body/visibility insult."
+      },
+      {
+        "performer": "RP",
+        "theme": "Wordplay",
+        "bar": "He’s got double D in his name — does it resemble his bra size?",
+        "explanation": "The clearest Double-D flip."
+      },
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "Said he’s had it rough, but his body size don’t resemble a hard life.",
+        "explanation": "A body/life-experience insult."
+      },
+      {
+        "performer": "RP",
+        "theme": "Personal",
+        "bar": "Imagine you and your missus in bed…",
+        "explanation": "A relationship/body shock line."
+      },
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "God forgot to give him a neck.",
+        "explanation": "Appearance punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Health",
+        "bar": "He’s on tablets to stop him from shitting his kegs.",
+        "explanation": "Health/body joke."
+      },
+      {
+        "performer": "RP",
+        "theme": "Wordplay",
+        "bar": "He clearly ain’t winning no races, why the fuck’s he called Ed First?",
+        "explanation": "Ed First/race wordplay."
+      },
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "Too fat to run, so when the feds land, literally walks off.",
+        "explanation": "Body/chase punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Status",
+        "bar": "Weakest link.",
+        "explanation": "Status/dismissal line."
+      },
+      {
+        "performer": "RP",
+        "theme": "Reference",
+        "bar": "Still looks like the white DJ Khaled.",
+        "explanation": "Celebrity/body comparison."
+      },
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "Tried crowd surfing once, jumped off stage, the whole place was a mad thing.",
+        "explanation": "Weight/crowd-surfing image."
+      },
+      {
+        "performer": "RP",
+        "theme": "Health",
+        "bar": "He’s a full English away from the day that his heart starts beating.",
+        "explanation": "Food/health punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Health",
+        "bar": "Went doctors to get some help, gave him a gastric band and he snapped it.",
+        "explanation": "Gastric-band body joke."
+      },
+      {
+        "performer": "RP",
+        "theme": "Appearance",
+        "bar": "All of the trousers you have are elastic.",
+        "explanation": "Clothing/body punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Status",
+        "bar": "If you’re battling me, I’m gonna take you to hell with this rap shit.",
+        "explanation": "A direct battle statement."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "You wanted a clash to get your name on the map — RP would be the last one.",
+        "explanation": "A strong status opener."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "Whenever real MCs get mentioned, this fiend’s not even the last one.",
+        "explanation": "A ranking/status insult."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Wordplay",
+        "bar": "Every shit you take off your crack pipe, we know that it might be your last one.",
+        "explanation": "Drug/last-one wordplay. Battle material."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Association",
+        "bar": "It’s funny that you’re rolling with Relapse.",
+        "explanation": "Relapse association/name flip."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Critique",
+        "bar": "Every clash bar you’ve ever wrote sounds exactly the same as the last one.",
+        "explanation": "A strong critique of RP’s repetition."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "You can’t act like a killer when you’re stuck with a bigger threat.",
+        "explanation": "Persona/status punch."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Imagery",
+        "bar": "Outside picking up fag butts.",
+        "explanation": "Poverty/addiction image."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Appearance",
+        "bar": "What’s that shit on your face, like shingles?",
+        "explanation": "Appearance/skin punch."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Reference",
+        "bar": "More spots on his face than Ambu.",
+        "explanation": "PenGame reference."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Wordplay",
+        "bar": "Hope not one of them pops like Pringles.",
+        "explanation": "Spots/Pringles punch."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Reference",
+        "bar": "You killed Arthur this scene like Thanos.",
+        "explanation": "Reference punch."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Reference",
+        "bar": "The other Arthur would have put you in boxes.",
+        "explanation": "Arthur/boxing-style continuation."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "You only done well in a conference.",
+        "explanation": "Scene/status critique."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Wordplay",
+        "bar": "I’ll turn RP into R.I.P.",
+        "explanation": "One of EDDFIRST’s cleanest name flips."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "He can’t bar like me, he can’t war like me.",
+        "explanation": "Skill/status contrast."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Critique",
+        "bar": "One bar, one flow, one punch combo.",
+        "explanation": "A concise critique of RP’s style."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "RP’s out of his depth.",
+        "explanation": "Direct battle judgement."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "Whoever made this match, I’m a thousand percent a voucher for them.",
+        "explanation": "A mismatch/status line."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Imagery",
+        "bar": "Three-piece suit for the funeral, formal.",
+        "explanation": "Funeral image."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "I ain’t got spare change for you.",
+        "explanation": "Poverty/status jab."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Appearance",
+        "bar": "Fast verse, dead weight.",
+        "explanation": "Third-round body/status opener."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Wordplay",
+        "bar": "I’m gonna call you RP Sketchface.",
+        "explanation": "Appearance/name flip."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Critique",
+        "bar": "Bro, you’re like 45, go spend time with your family.",
+        "explanation": "Age/status punch."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "They don’t wanna see RP on the roster.",
+        "explanation": "Platform-status attack."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Platform",
+        "bar": "I don’t wanna chat about Flow Zone.",
+        "explanation": "Scene/platform angle."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Reference",
+        "bar": "Arsenal switching on Wenger.",
+        "explanation": "Football reference."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Reference",
+        "bar": "He thinks he’s the goat like Nicklas Bendtner.",
+        "explanation": "Football/status punch."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Appearance",
+        "bar": "RP sees both of the sides.",
+        "explanation": "A face/eyes angle."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Wordplay",
+        "bar": "RP really wanna run a fade, then I tell him no tapers.",
+        "explanation": "Fade/no-tapers wordplay."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Status",
+        "bar": "Get back in your basement.",
+        "explanation": "Dismissal closer."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "unknown",
+      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: EDDFIRST 3-0 RP. Suggested round split: Round 1: EDDFIRST, Round 2: EDDFIRST, Round 3: EDDFIRST. Reason: RP has aggression and a few funny body-image punches, but EDDFIRST has more range, cleaner rebuttal value and stronger MC-based criticism. RP repeats the fat angle too heavily, while EDDFIRST attacks RP’s style, scene position, delivery and credibility. Archive Grades - EDDFIRST: B+, RP: C+. Final Note: EDDFIRST controls the battle through variety and structure. RP brings energy, but the repeated body-shaming angle becomes predictable. Archive result: EDDFIRST 3-0, no official winner called."
+    }
   }
 ];
 
@@ -66692,7 +70973,7 @@ const catalogOverrides: Record<string, Partial<Battle>> = {
     season: "2026", competition: "PenGame", subGroup: "2026 Battles", stage: null, customEp: "26x01", seasonOrder: 1,
   },
   "pg-s06-2026-03-22-bmf-alz-vs-zion": {
-    season: "2026", competition: "PenGame", subGroup: "2026 Battles", stage: null, customEp: "26x02", seasonOrder: 2,
+    mc1: "elz", title: "ELZ vs ZION", season: "2026", competition: "PenGame", subGroup: "2026 Battles", stage: null, customEp: "26x02", seasonOrder: 2,
   },
 };
 

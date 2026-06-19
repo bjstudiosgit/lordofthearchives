@@ -8,24 +8,35 @@ const SITE_URL = "https://www.lordofthearchives.co.uk";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const currentDate = new Date();
+
   const staticPages: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/` },
-    { url: `${SITE_URL}/pengame` },
-    { url: `${SITE_URL}/league` },
-    { url: `${SITE_URL}/mcs` },
-    { url: `${SITE_URL}/hosts-judges` },
+    { url: `${SITE_URL}/`, lastModified: currentDate, changeFrequency: 'daily', priority: 1 },
+    { url: `${SITE_URL}/pengame`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${SITE_URL}/league`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${SITE_URL}/mcs`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${SITE_URL}/hosts-judges`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
   ];
 
   const battlePages: MetadataRoute.Sitemap = pengameBattles.map((battle) => ({
     url: `${SITE_URL}${getBattleHref(battle)}`,
+    lastModified: battle.date ? new Date(battle.date) : currentDate,
+    changeFrequency: 'weekly',
+    priority: 0.8,
   }));
 
   const mcPages: MetadataRoute.Sitemap = pengameMcs.map((mc) => ({
     url: `${SITE_URL}/mc/${mc.slug}`,
+    lastModified: currentDate,
+    changeFrequency: 'weekly',
+    priority: 0.7,
   }));
 
   const creditPages: MetadataRoute.Sitemap = creditPeople.map((person) => ({
     url: `${SITE_URL}/hosts-judges/${person.slug}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly',
+    priority: 0.6,
   }));
 
   return [...new Map(

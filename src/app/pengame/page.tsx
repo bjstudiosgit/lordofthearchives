@@ -16,7 +16,9 @@ import { CheckCircle2, Play, Eye, Calendar, Trophy } from "lucide-react";
 
 const seasonDisplayOrder: Record<string, number> = {
   "Champions League": 11,
+  "2026": 10.5,
   Academy: 10,
+  "2025 Christmas": 9.5,
   "Cold War": 9,
   "2025": 8,
   "5": 7,
@@ -40,6 +42,8 @@ const getSeasonTitle = (season: string): string => {
   if (season === "2023") return "2023 Tournament";
   if (season === "5") return "Season 5 (2024/25 Battles)";
   if (season === "Champions League") return "PenGame Champions League 2026";
+  if (season === "2026") return "2026 Battles";
+  if (season === "2025 Christmas") return "2025 Christmas Battles";
   if (season === "2025") return "2025 Battles";
   if (season === "Cold War") return "PenGame Cold War";
   if (season === "Academy") return "PenGame Academy";
@@ -407,7 +411,7 @@ export default function PengamePage() {
                           : season === "5" && season5EpisodeLabels[battle.slug]
                             ? season5EpisodeLabels[battle.slug]
                             : season === "2025"
-                              ? `25x${get2025EpisodeNumber(battle) ?? index + 1}`
+                              ? `25x${String(index + 1).padStart(2, "0")}`
                             : battle.customEp || getFallbackEpisodeLabel(season, index);
 
                       return (
