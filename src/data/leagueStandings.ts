@@ -1,4 +1,5 @@
-import { battles, type Battle } from "./battles";
+import type { Battle } from "./battleTypes";
+import { pengameBattles as battles } from "./pengameBattles";
 import { mcs } from "./mcs";
 
 const NON_RESULT_WINNERS = new Set(["", "unknown", "tbd", "cancelled", "draw", "tie"]);

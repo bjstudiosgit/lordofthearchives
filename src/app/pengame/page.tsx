@@ -6,8 +6,8 @@ import {
   hasBattleArchiveData,
   pengameBattles,
   lastUpdated,
-  type Battle,
-} from "../../data/battles";
+} from "../../data/pengameBattles";
+import type { Battle } from "../../data/battleTypes";
 import { pengameMcs } from "../../data/mcs";
 import { formatBattleDate, parseBattleDate } from "../../data/battleDates";
 import Link from "next/link";

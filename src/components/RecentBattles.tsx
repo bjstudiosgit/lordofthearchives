@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import Link from "next/link";
 import { Archive, CheckCircle2, Clock3, ListTodo, TrendingUp } from "lucide-react";
-import { hasBattleArchiveData, pengameBattles } from "../data/battles";
+import { hasBattleArchiveData, pengameBattles } from "../data/pengameBattles";
 
 export default function RecentBattles() {
   const activeBattles = pengameBattles.filter(

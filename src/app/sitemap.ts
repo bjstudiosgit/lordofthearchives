@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getBattleHref, pengameBattles } from "../data/battles";
+import { getBattleHref, pengameBattles } from "../data/pengameBattles";
 import { creditPeople } from "../data/credits";
 import { pengameMcs } from "../data/mcs";
 

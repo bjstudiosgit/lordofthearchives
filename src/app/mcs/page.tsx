@@ -23,10 +23,9 @@ export default function MCIndex() {
 
   const filteredAndSortedMCs = useMemo(() => {
     return pengameMcs
-      .filter((mc) => 
+      .filter((mc) =>
         mc.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        mc.nickname?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        mc.style.toLowerCase().includes(searchQuery.toLowerCase())
+        mc.nickname?.toLowerCase().includes(searchQuery.toLowerCase())
       )
       .sort((a, b) => {
         let comparison = 0;
@@ -57,12 +56,11 @@ export default function MCIndex() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-sm font-bold text-brand uppercase tracking-[0.3em] mb-4">MC Roster</h1>
           <h2 className="text-4xl md:text-6xl font-display italic uppercase leading-tight">
-            The Archive <br /><span className="text-brand">Index</span>
+            Lord of the Archives <br /><span className="text-brand">Artists</span>
           </h2>
           <p className="text-zinc-400 mt-4 max-w-xl text-sm md:text-lg leading-relaxed">
-            PenGame-only roster (for now). Scoring: 1 Point per Appearance + 3 Bonus Points per Win.
+            Every MC logged in The Archive. Tap any name to pull up their full profile — battle record, form, stats, and complete history.
           </p>
         </div>
 
@@ -72,7 +70,7 @@ export default function MCIndex() {
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-zinc-500" size={18} />
             <input
               type="text"
-              placeholder="Search MCs by name, nickname or style..."
+              placeholder="Search MCs by name or nickname..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-zinc-900/50 border border-white/5 rounded-2xl py-4 pl-12 pr-4 text-white placeholder:text-zinc-600 focus:outline-none focus:border-brand/50 transition-colors"
@@ -122,11 +120,6 @@ export default function MCIndex() {
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60" />
-                  
-                  {/* Rank/Badge Overlay */}
-                  <div className="absolute top-4 right-4 bg-zinc-950/80 backdrop-blur-md border border-white/10 px-3 py-1 rounded-full text-[10px] font-black text-brand uppercase tracking-widest">
-                    {mc.style}
-                  </div>
                 </div>
 
                 <div className="p-6">

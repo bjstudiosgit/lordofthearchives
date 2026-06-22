@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { hasBattleArchiveData, pengameBattles } from "../../../data/battles";
+import { hasBattleArchiveData, pengameBattles } from "../../../data/pengameBattles";
 import { getCreditPersonByName } from "../../../data/credits";
 import { formatBattleDate } from "../../../data/battleDates";
 import { hasOfficialBattleResult } from "../../../data/leagueStandings";

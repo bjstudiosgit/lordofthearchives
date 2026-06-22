@@ -7,7 +7,7 @@ import {
   getBattleLegacyPageStem,
   getBattlePageStem,
   pengameBattles,
-} from "../../../data/battles";
+} from "../../../data/pengameBattles";
 import { pengameMcs } from "../../../data/mcs";
 import BattleDetailClient from "./BattleDetailClient";
 

@@ -8,8 +8,8 @@ import {
   getBattleHref,
   getBattleRouteHref,
   pengameBattles,
-  type Battle,
-} from "../../../data/battles";
+} from "../../../data/pengameBattles";
+import type { Battle } from "../../../data/battleTypes";
 import {
   getBattleParticipants,
   getBattleWinners,

@@ -3,14 +3,14 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Clock } from "lucide-react";
 import { pengameMcs } from "../data/mcs";
-import { pengameBattles } from "../data/battles";
+import { pengameBattles } from "../data/pengameBattles";
 
 interface LeagueTableProps {
   limit?: number;
   showTitle?: boolean;
 }
 
-type SortMode = "appearances" | "wins" | "losses" | "winRate" | "points";
+type SortMode = "appearances" | "wins" | "losses" | "winRate" | "lossRate" | "points";
 
 export default function LeagueTable({ limit, showTitle = true }: LeagueTableProps) {
   const [sortMode, setSortMode] = useState<SortMode>("points");
@@ -22,6 +22,7 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
         wins: b.wins - a.wins,
         losses: b.losses - a.losses,
         winRate: getWinRate(b.wins, b.losses) - getWinRate(a.wins, a.losses),
+        lossRate: getLossRate(b.wins, b.losses) - getLossRate(a.wins, a.losses),
         points: getPoints(b) - getPoints(a),
       };
 
@@ -41,6 +42,7 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
       wins: mc.wins,
       losses: mc.losses,
       winRate: getWinRate(mc.wins, mc.losses),
+      lossRate: getLossRate(mc.wins, mc.losses),
       unreleased: pengameBattles.filter(b => b.isUnreleased && (b.mc1 === mc.id || b.mc2 === mc.id)).length,
       change: "none",
     }));
@@ -65,6 +67,7 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
             { value: "wins", label: "Wins" },
             { value: "losses", label: "Losses" },
             { value: "winRate", label: "Win Ratio" },
+            { value: "lossRate", label: "Loss Ratio" },
           ].map((option) => (
             <button
               key={option.value}
@@ -104,6 +107,10 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
                     <span className="md:hidden">WR</span>
                     <span className="hidden md:inline">Win Ratio</span>
                   </th>
+                  <th className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
+                    <span className="md:hidden">LR</span>
+                    <span className="hidden md:inline">Loss Ratio</span>
+                  </th>
                   <th className="px-2 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
                     <span className="md:hidden">Pts</span>
                     <span className="hidden md:inline">Points</span>
@@ -141,6 +148,9 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
                     <td className="px-1 py-3 md:px-8 md:py-6 font-mono text-[11px] md:text-base text-center text-zinc-300">{mc.losses}</td>
                     <td className="px-1 py-3 md:px-8 md:py-6 font-mono text-[11px] md:text-base text-center text-zinc-300">
                       {formatWinRate(mc.wins, mc.losses)}
+                    </td>
+                    <td className="px-1 py-3 md:px-8 md:py-6 font-mono text-[11px] md:text-base text-center text-zinc-300">
+                      {formatLossRate(mc.wins, mc.losses)}
                     </td>
                     <td className="px-2 py-3 md:px-8 md:py-6 font-bold text-[11px] md:text-base text-center text-zinc-100">{mc.points.toLocaleString()}</td>
                   </tr>
@@ -180,4 +190,14 @@ function getWinRate(wins: number, losses: number): number {
   const total = wins + losses;
   if (total <= 0) return 0;
   return wins / total;
+}
+
+function formatLossRate(wins: number, losses: number): string {
+  return `${(getLossRate(wins, losses) * 100).toFixed(1)}%`;
+}
+
+function getLossRate(wins: number, losses: number): number {
+  const total = wins + losses;
+  if (total <= 0) return 0;
+  return losses / total;
 }

@@ -1,4 +1,5 @@
-import { pengameBattles, type Battle } from "./battles";
+import type { Battle } from "./battleTypes";
+import { pengameBattles } from "./pengameBattles";
 
 export interface MC {
   id: string;

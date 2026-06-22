@@ -1,12 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { battles } from "../data/battles.js";
+import { pengameBattles as battles } from "../data/pengameBattles.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const battlesFilePath = path.resolve(__dirname, "..", "data", "battles.ts");
+const battlesFilePath = path.resolve(__dirname, "..", "data", "pengameBattles.ts");
 const transcribeDir = path.resolve(__dirname, "..", "..", "transcribe");
 const archivedDir = path.resolve(transcribeDir, "archived");
 
@@ -629,63 +629,14 @@ const updatedBattles = battles.map(battle => {
 });
 
 // Construct TypeScript file output
-const fileContent = `export const lastUpdated = "June 2026";
+const fileContent = `import type { Battle } from "./battleTypes";
 
-export interface Battle {
-  id: string;
-  slug: string;
-  mc1: string;
-  mc2: string;
-  mc3?: string;
-  mc4?: string;
-  title: string;
-  displayTitle?: string;
-  date?: string;
-  videoUrl?: string;
-  views?: string | number | null;
-  winner?: string;
-  winner2?: string;
-  isUnreleased?: boolean;
-  theme: string;
-  season: number | string;
-  competition?: string;
-  subGroup?: string;
-  stage?: string;
-  group?: string;
-  tag?: string;
-  customEp?: string;
-  seasonOrder?: number;
-  statusNote?: string;
-  host?: string;
-  judges?: string[];
-  clashSummary?: string;
-  performanceAnalysis?: {
-    performer: string;
-    overview: string;
-    lyricalThemes: string;
-    keyTechnicalHighlights: {
-      title: string;
-      description: string;
-    }[];
-  }[];
-  notableBars?: {
-    performer?: string;
-    theme?: string;
-    bar: string;
-    explanation?: string;
-  }[];
-  oddMoments?: string[];
-  coolMoments?: string[];
-  postBattleContext?: string;
-  judgementSummary?: {
-    verdict: string;
-    summary: string;
-  };
-}
+export const lastUpdated = "June 2026";
 
-export const battles: Battle[] = ${JSON.stringify(updatedBattles, null, 2)};
+export const hasBattleArchiveData = (battle: Battle): boolean =>
+  Boolean(battle.clashSummary?.trim());
 
-export const pengameBattles: Battle[] = battles;
+export const pengameBattles: Battle[] = ${JSON.stringify(updatedBattles, null, 2)};
 
 export const getBattlePageStem = (battle: Pick<Battle, "slug">): string =>
   battle.slug
@@ -727,9 +678,9 @@ export const findBattleByRouteSlug = (routeSlug: string): Battle | undefined => 
 };
 `;
 
-// Write battles.ts
+// Write pengameBattles.ts
 fs.writeFileSync(battlesFilePath, fileContent, "utf-8");
-console.log("Successfully updated src/data/battles.ts");
+console.log("Successfully updated src/data/pengameBattles.ts");
 
 // Archive transcript files
 const files = fs.readdirSync(transcribeDir);
