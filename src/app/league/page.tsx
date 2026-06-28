@@ -8,8 +8,8 @@ import { Trophy, Medal } from "lucide-react";
 export default function League() {
   const rankings = [...pengameMcs]
     .sort((a, b) => {
-      const aPoints = a.battles + (a.wins * 3);
-      const bPoints = b.battles + (b.wins * 3);
+      const aPoints = getPoints(a);
+      const bPoints = getPoints(b);
       if (bPoints !== aPoints) return bPoints - aPoints;
       if (a.losses !== b.losses) return a.losses - b.losses;
       return b.battles - a.battles;
@@ -17,7 +17,7 @@ export default function League() {
     .slice(0, 3)
     .map((mc, index) => ({
       ...mc,
-      points: mc.battles + (mc.wins * 3),
+      points: getPoints(mc),
       rank: index + 1,
     }));
 
@@ -32,8 +32,8 @@ export default function League() {
               <span className="text-brand">League</span>
             </h2>
             <p className="text-zinc-400 mt-4 md:mt-6 max-w-xl text-sm md:text-lg leading-relaxed">
-              Current PenGame-only leaderboard. Points are awarded as follows: 1 point for an appearance and 3 bonus
-              points for a win.
+              Current PenGame-only leaderboard. Points are awarded as follows: 1 point for a resulted appearance and 3
+              bonus points for a win.
             </p>
           </div>
 
@@ -98,4 +98,8 @@ export default function League() {
       </div>
     </motion.div>
   );
+}
+
+function getPoints(mc: { battles: number; wins: number; scoredBattles?: number }): number {
+  return (mc.scoredBattles ?? mc.battles) + mc.wins * 3;
 }

@@ -9,6 +9,7 @@ export interface MC {
   battles: number;
   wins: number;
   losses: number;
+  scoredBattles?: number;
   style: string;
   image: string;
   bio: string;
@@ -35,7 +36,7 @@ export const mcs: MC[] = [
     "wins": 13,
     "losses": 4,
     "style": "Lyrical",
-    "image": "/mc-Fdon.png",
+    "image": "/fdon.png",
     "bio": "PenGame Season 3 Champion. Known for his intricate wordplay and deep metaphors, F-DON is a veteran of the scene who consistently pushes the boundaries of lyricism.",
     "weightClass": "Lightweight",
     "height": "5'9\"",
@@ -56,7 +57,7 @@ export const mcs: MC[] = [
     "wins": 3,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/aymuni/400/400",
+    "image": "/aymuni.png",
     "bio": "PenGame Season 1 artist. A master of flow and technical precision.",
     "weightClass": "Welterweight",
     "height": "5'11\"",
@@ -76,7 +77,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/ashley/400/400",
+    "image": "/ashleytragic.png",
     "bio": "PenGame Season 1 artist."
   },
   {
@@ -87,7 +88,7 @@ export const mcs: MC[] = [
     "wins": 5,
     "losses": 4,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/ft/400/400",
+    "image": "/forevertapped.png",
     "bio": "PenGame Season 1 artist."
   },
   {
@@ -98,7 +99,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/shorty/400/400",
+    "image": "/shortywoa.png",
     "bio": "PenGame Season 1 artist."
   },
   {
@@ -109,7 +110,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/saidu/400/400",
+    "image": "/saidu.png",
     "bio": "PenGame Season 1 artist."
   },
   {
@@ -120,7 +121,7 @@ export const mcs: MC[] = [
     "wins": 2,
     "losses": 1,
     "style": "Powerhouse",
-    "image": "https://picsum.photos/seed/bigga/400/400",
+    "image": "/bigga.png",
     "bio": "PenGame Season 1 artist."
   },
   {
@@ -131,7 +132,7 @@ export const mcs: MC[] = [
     "wins": 2,
     "losses": 10,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/dan/400/400",
+    "image": "/dandannah.png",
     "bio": "PenGame Season 1 artist."
   },
   {
@@ -142,7 +143,7 @@ export const mcs: MC[] = [
     "wins": 6,
     "losses": 2,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/kmarh/400/400",
+    "image": "/kmarh.png",
     "bio": "PenGame Season 2 artist."
   },
   {
@@ -153,7 +154,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/kurly/400/400",
+    "image": "/kurly.png",
     "bio": "PenGame Season 2 artist."
   },
   {
@@ -164,7 +165,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/frizz/400/400",
+    "image": "/frizzprice.png",
     "bio": "PenGame Season 2 artist."
   },
   {
@@ -176,7 +177,7 @@ export const mcs: MC[] = [
     "wins": 8,
     "losses": 2,
     "style": "Versatile",
-    "image": "/rendmc_profile_1776002244532.png",
+    "image": "/rendmc.png",
     "bio": "PenGame Season 4 and 2023 Tournament Champion. Ren DMC is widely regarded as one of the most technically skilled and versatile MCs in the league, with a high win rate to prove it."
   },
   {
@@ -187,7 +188,7 @@ export const mcs: MC[] = [
     "wins": 3,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/shakz/400/400",
+    "image": "/lilshakz.png",
     "bio": "PenGame Season 2 artist."
   },
   {
@@ -198,7 +199,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/pocaa/400/400",
+    "image": "/pocaa.png",
     "bio": "PenGame Season 2 artist."
   },
   {
@@ -209,7 +210,7 @@ export const mcs: MC[] = [
     "wins": 4,
     "losses": 5,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/cheezee/400/400",
+    "image": "/cheezee.png",
     "bio": "PenGame Season 2 artist."
   },
   {
@@ -220,7 +221,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Powerhouse",
-    "image": "https://picsum.photos/seed/bandzo/400/400",
+    "image": "/elbandzo.png",
     "bio": "PenGame Season 2 artist."
   },
   {
@@ -231,7 +232,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 3,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/amity/400/400",
+    "image": "/amity.png",
     "bio": "PenGame Season 3 artist."
   },
   {
@@ -242,7 +243,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 2,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/dbc/400/400",
+    "image": "/dbc.png",
     "bio": "PenGame Season 3 artist."
   },
   {
@@ -254,7 +255,7 @@ export const mcs: MC[] = [
     "wins": 12,
     "losses": 7,
     "style": "Aggressive",
-    "image": "/skamz_profile_1776002260450.png",
+    "image": "/skamz.png",
     "bio": "The most active battler in the league. Skamz brings unparalleled energy and aggression to every clash. A finalist in multiple seasons and a core pillar of the PenGame community."
   },
   {
@@ -265,7 +266,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 2,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/junie/400/400",
+    "image": "/junie.png",
     "bio": "PenGame Season 3 artist."
   },
   {
@@ -276,7 +277,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 2,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/icure/400/400",
+    "image": "/icuredamsterdam.png",
     "bio": "PenGame Season 3 artist."
   },
   {
@@ -287,7 +288,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 2,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/animal/400/400",
+    "image": "/animal.png",
     "bio": "PenGame Season 3 artist."
   },
   {
@@ -298,7 +299,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 0,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/messie/400/400",
+    "image": "/messie13.png",
     "bio": "PenGame Season 3 artist."
   },
   {
@@ -309,7 +310,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 2,
     "style": "Powerhouse",
-    "image": "https://picsum.photos/seed/bmf/400/400",
+    "image": "/bmfalz.png",
     "bio": "PenGame Season 3 artist."
   },
   {
@@ -320,7 +321,7 @@ export const mcs: MC[] = [
     "wins": 6,
     "losses": 5,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/orion/400/400",
+    "image": "/whoisorion.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -331,7 +332,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/dhani/400/400",
+    "image": "/dhani.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -342,7 +343,8 @@ export const mcs: MC[] = [
     "wins": 7,
     "losses": 3,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/sevz/400/400",
+    "instagram": "pressuremakes_",
+    "image": "/sevz.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -353,7 +355,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 5,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/grams/400/400",
+    "image": "/grams.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -364,7 +366,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 2,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/renaya/400/400",
+    "image": "/renaya.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -375,7 +377,8 @@ export const mcs: MC[] = [
     "wins": 6,
     "losses": 2,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/drizz/400/400",
+    "instagram": "popular/drizzgb",
+    "image": "/drizzgb.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -386,7 +389,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/petrelli/400/400",
+    "image": "/apetrelli.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -397,7 +400,7 @@ export const mcs: MC[] = [
     "wins": 12,
     "losses": 3,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/smil3z/400/400",
+    "image": "/smil3z.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -408,7 +411,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 3,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/prynlee/400/400",
+    "image": "/prynlee.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -419,7 +422,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 2,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/aliaano/400/400",
+    "image": "/aliaano.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -430,7 +433,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/jc/400/400",
+    "image": "/jc.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -441,7 +444,7 @@ export const mcs: MC[] = [
     "wins": 3,
     "losses": 10,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/kandi/400/400",
+    "image": "/kandi.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -452,7 +455,7 @@ export const mcs: MC[] = [
     "wins": 6,
     "losses": 5,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/berealz/400/400",
+    "image": "/iiiberealz.png",
     "bio": "PenGame Season 4 artist."
   },
   {
@@ -463,7 +466,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/twenty8/400/400",
+    "image": "/twenty8.png",
     "bio": "PenGame Christmas 2023 artist."
   },
   {
@@ -474,7 +477,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 1,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/storm/400/400",
+    "image": "/storm.png",
     "bio": "PenGame Christmas 2023 artist."
   },
   {
@@ -485,7 +488,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 4,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/blazn/400/400",
+    "image": "/blazn.png",
     "bio": "PenGame Christmas 2023 artist."
   },
   {
@@ -497,7 +500,7 @@ export const mcs: MC[] = [
     "wins": 7,
     "losses": 6,
     "style": "Lyrical",
-    "image": "/deeno_profile_1776002276273.png",
+    "image": "/deeno.png",
     "bio": "The Viking of the Gzone. Deeno brings raw power and commanding presence to every clash. Known for heavy disrespect, layered multi-syllabic writing and smooth flow switches, he combines versatility with aggression. Crowned with the unmistakable ginger beard, he steps into battles like a raider ready for war.",
     "weightClass": "Light Heavyweight",
     "height": "5'11\" (And a smidge)",
@@ -518,7 +521,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 2,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/ess2mad/400/400",
+    "image": "/ess2mad.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -529,7 +532,7 @@ export const mcs: MC[] = [
     "wins": 3,
     "losses": 5,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/jm/400/400",
+    "image": "/jm.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -540,7 +543,7 @@ export const mcs: MC[] = [
     "wins": 6,
     "losses": 2,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/fendry/400/400",
+    "image": "/fendry.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -551,7 +554,7 @@ export const mcs: MC[] = [
     "wins": 2,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/missink/400/400",
+    "image": "/missink.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -562,7 +565,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 5,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/cucha/400/400",
+    "image": "/cucha.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -573,7 +576,7 @@ export const mcs: MC[] = [
     "wins": 5,
     "losses": 3,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/passive/400/400",
+    "image": "/passive.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -584,7 +587,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 3,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/hunce/400/400",
+    "image": "/hunce.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -595,7 +598,7 @@ export const mcs: MC[] = [
     "wins": 4,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/anbu/400/400",
+    "image": "/anbusensei.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -606,7 +609,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 2,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/domi/400/400",
+    "image": "/domidusk.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -617,7 +620,7 @@ export const mcs: MC[] = [
     "wins": 4,
     "losses": 2,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/jaycee/400/400",
+    "image": "/jaycee.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -628,7 +631,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 1,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/trappy/400/400",
+    "image": "/trappy.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -639,7 +642,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/ad/400/400",
+    "image": "/ad.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -650,7 +653,7 @@ export const mcs: MC[] = [
     "wins": 2,
     "losses": 3,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/che3kz/400/400",
+    "image": "/che3kz.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -661,7 +664,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/preme/400/400",
+    "image": "/premeboij.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -672,7 +675,7 @@ export const mcs: MC[] = [
     "wins": 5,
     "losses": 2,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/zen/400/400",
+    "image": "/zen.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -683,7 +686,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/caveman/400/400",
+    "image": "/caveman.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -694,7 +697,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/rahika/400/400",
+    "image": "/rahika.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -705,7 +708,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/ricko/400/400",
+    "image": "/ricko.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -716,7 +719,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 3,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/karma/400/400",
+    "image": "/karma10tnf.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -727,7 +730,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/mrbenz/400/400",
+    "image": "/mrbenz.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -738,7 +741,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 3,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/marcel/400/400",
+    "image": "/marcel.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -749,7 +752,7 @@ export const mcs: MC[] = [
     "wins": 1,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/penno/400/400",
+    "image": "/penno.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -760,7 +763,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/millz/400/400",
+    "image": "/millz.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -771,7 +774,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/foz/400/400",
+    "image": "/foz.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -782,7 +785,7 @@ export const mcs: MC[] = [
     "wins": 4,
     "losses": 2,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/rasiah/400/400",
+    "image": "/rasiah.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -793,7 +796,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/220/400/400",
+    "image": "/220.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -804,7 +807,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 2,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/kime/400/400",
+    "image": "/kime.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -815,7 +818,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/2mwad/400/400",
+    "image": "/2mwad.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -826,7 +829,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/mello/400/400",
+    "image": "/mello.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -837,7 +840,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/tapped24/400/400",
+    "image": "/tapped24.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -848,7 +851,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/charb/400/400",
+    "image": "/charb.png",
     "bio": "PenGame Season 5 artist."
   },
   {
@@ -859,7 +862,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/bonnie/400/400",
+    "image": "/bonniegodiva.png",
     "bio": "PenGame Cold War artist."
   },
   {
@@ -870,7 +873,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/jmuni/400/400",
+    "image": "/jmuni.png",
     "bio": "PenGame Cold War artist."
   },
   {
@@ -881,7 +884,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/lc/400/400",
+    "image": "/lc.png",
     "bio": "PenGame 2026 Champions League artist."
   },
   {
@@ -892,7 +895,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/iffy/400/400",
+    "image": "/iffy.png",
     "bio": "PenGame Academy 2026 artist."
   },
   {
@@ -903,7 +906,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Versatile",
-    "image": "https://picsum.photos/seed/starco/400/400",
+    "image": "/starco.png",
     "bio": "PenGame Academy 2026 artist."
   },
   {
@@ -914,7 +917,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/rp/400/400",
+    "image": "/rp.png",
     "bio": "PenGame 2026 Champions League artist."
   },
   {
@@ -925,7 +928,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/monroe/400/400",
+    "image": "/monroe.png",
     "bio": "PenGame 2026 Champions League artist."
   },
   {
@@ -936,7 +939,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/varntae/400/400",
+    "image": "/varntae.png",
     "bio": "PenGame 2026 Champions League artist."
   },
   {
@@ -947,7 +950,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/eddfirst/400/400",
+    "image": "/eddfirst.png",
     "bio": "PenGame 2026 Champions League artist."
   },
   {
@@ -958,7 +961,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/zion/400/400",
+    "image": "/zion.png",
     "bio": "PenGame 2026 Champions League artist."
   },
   {
@@ -969,7 +972,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/rackz/400/400",
+    "image": "/rackz.png",
     "bio": "PenGame Academy artist."
   },
   {
@@ -980,7 +983,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/mz/400/400",
+    "image": "/mz.png",
     "bio": "PenGame Academy artist."
   },
   {
@@ -991,7 +994,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/relapse/400/400",
+    "image": "/relapse.png",
     "bio": "PenGame Academy artist."
   },
   {
@@ -1002,7 +1005,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/guni/400/400",
+    "image": "/guni.png",
     "bio": "PenGame Academy artist."
   },
   {
@@ -1013,7 +1016,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Lyrical",
-    "image": "https://picsum.photos/seed/scotty/400/400",
+    "image": "/scotty.png",
     "bio": "PenGame Academy artist."
   },
   {
@@ -1024,7 +1027,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/7wxve/400/400",
+    "image": "/7wxve.png",
     "bio": "PenGame Academy artist."
   },
   {
@@ -1035,7 +1038,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/skidz/400/400",
+    "image": "/skidz.png",
     "bio": "PenGame Academy artist."
   },
   {
@@ -1046,7 +1049,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/dyzz/400/400",
+    "image": "/dyzz.png",
     "bio": "PenGame Academy artist."
   },
   {
@@ -1057,7 +1060,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Technical",
-    "image": "https://picsum.photos/seed/jynx/400/400",
+    "image": "/jynx.png",
     "bio": "PenGame Academy artist."
   },
   {
@@ -1068,7 +1071,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 0,
     "style": "Aggressive",
-    "image": "https://picsum.photos/seed/black-t/400/400",
+    "image": "/blackt.png",
     "bio": "PenGame Season 4 artist who debuted against RENAYA. Known for aggressive delivery, wordplay and performance-focused writing."
   }
 ];
@@ -1104,7 +1107,7 @@ mcs.push(
     wins: 0,
     losses: 0,
     style: "Versatile",
-    image: `https://picsum.photos/seed/${id}/400/400`,
+    image: `/${name.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
     bio: "PenGame Academy artist.",
   })),
 );
@@ -1126,7 +1129,7 @@ mcs.push(
     wins: 0,
     losses: 0,
     style: "Versatile",
-    image: `https://picsum.photos/seed/${id}/400/400`,
+    image: `/${name.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
     bio: "PenGame 2025 artist.",
   })),
 );
@@ -1135,6 +1138,7 @@ type McRecord = {
   battles: number;
   wins: number;
   losses: number;
+  scoredBattles: number;
 };
 
 const computeMcRecords = (battles: Battle[]): Map<string, McRecord> => {
@@ -1156,10 +1160,11 @@ const computeMcRecords = (battles: Battle[]): Map<string, McRecord> => {
     );
 
     for (const mcId of participants) {
-      const current = records.get(mcId) ?? { battles: 0, wins: 0, losses: 0 };
+      const current = records.get(mcId) ?? { battles: 0, wins: 0, losses: 0, scoredBattles: 0 };
 
       current.battles += 1;
       if (winners.length > 0) {
+        current.scoredBattles += 1;
         if (winners.includes(mcId)) current.wins += 1;
         else current.losses += 1;
       }
@@ -1185,8 +1190,9 @@ export const pengameMcs: MC[] = Array.from(pengameRecordsById.entries())
         battles: record.battles,
         wins: record.wins,
         losses: record.losses,
+        scoredBattles: record.scoredBattles,
         style: "Unknown",
-        image: `https://picsum.photos/seed/${encodeURIComponent(mcId)}/400/400`,
+        image: `/${mcId.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
         bio: "PenGame artist.",
       };
     }
@@ -1196,6 +1202,7 @@ export const pengameMcs: MC[] = Array.from(pengameRecordsById.entries())
       battles: record.battles,
       wins: record.wins,
       losses: record.losses,
+      scoredBattles: record.scoredBattles,
     };
   })
   .sort((a, b) => a.name.localeCompare(b.name));

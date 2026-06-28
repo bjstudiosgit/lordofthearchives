@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import {
-  getBattleHref,
   getBattleRouteHref,
   hasBattleArchiveData,
   pengameBattles,
@@ -256,8 +255,10 @@ export default function PengamePage() {
     .sort(([seasonA], [seasonB]) => getSeasonRank(seasonB) - getSeasonRank(seasonA));
 
   const totalViewsNum = pengameBattles.reduce((acc, b) => acc + parseViews(b.views), 0);
-  const totalViewsStr = totalViewsNum >= 1000 
-    ? (totalViewsNum / 1000).toFixed(1) + "K" 
+  const totalViewsStr = totalViewsNum >= 1000000
+    ? (totalViewsNum / 1000000).toFixed(1) + " mil"
+    : totalViewsNum >= 1000
+    ? (totalViewsNum / 1000).toFixed(1) + "K"
     : totalViewsNum.toString();
 
   return (
@@ -277,7 +278,7 @@ export default function PengamePage() {
             <div className="bg-zinc-900/30 border border-white/5 p-8 rounded-3xl min-w-[180px]">
               <div className="flex items-center gap-2 text-zinc-400 mb-2">
                 <Eye size={14} className="text-brand" />
-                <span className="text-[11px] tracking-wide font-semibold">Total Views</span>
+                <span className="text-[11px] tracking-wide font-semibold">YouTube Views</span>
               </div>
               <div className="text-3xl font-semibold text-white mb-1">{totalViewsStr}</div>
               <div className="flex items-center justify-between mt-1">
@@ -431,7 +432,7 @@ export default function PengamePage() {
                             className="group hover:bg-white/5 transition-all duration-300"
                           >
                             <td className="px-2 py-3 md:px-6 md:py-6">
-                              <Link href={getBattleRouteHref(battle)} as={getBattleHref(battle)} className="font-mono text-brand text-[10px] md:text-sm hover:underline" aria-label={`Episode ${episodeLabel} details`}>
+                              <Link href={getBattleRouteHref(battle)} className="font-mono text-brand text-[10px] md:text-sm hover:underline" aria-label={`Episode ${episodeLabel} details`}>
                                 {episodeLabel}
                               </Link>
                             </td>
@@ -453,7 +454,7 @@ export default function PengamePage() {
                                       </>
                                     )}
                                   </span>
-                                  <Link href={getBattleRouteHref(battle)} as={getBattleHref(battle)} className="text-zinc-400 text-[10px] md:text-sm hover:text-brand transition-colors" aria-label={`Watch ${mc1?.name || battle.mc1} vs ${mc2?.name || battle.mc2}`}>VS</Link>
+                                  <Link href={getBattleRouteHref(battle)} className="text-zinc-400 text-[10px] md:text-sm hover:text-brand transition-colors" aria-label={`Watch ${mc1?.name || battle.mc1} vs ${mc2?.name || battle.mc2}`}>VS</Link>
                                   <span className="flex items-center gap-1 md:gap-2">
                                     {battle.mc3 && (battle.winner === battle.mc2 || battle.winner2 === battle.mc2) && <Trophy size={14} className="text-brand md:w-[18px] md:h-[18px]" />}
                                     <Link href={`/mc/${mc2?.slug}`} className="hover:text-brand hover:underline underline-offset-4 transition-colors">

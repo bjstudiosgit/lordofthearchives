@@ -29,6 +29,8 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
   const team2Won = battle.winner === battle.mc2 && (!battle.mc4 || battle.winner2 === battle.mc4);
   const hostCredit = battle.host ? getCreditPersonByName(battle.host) : undefined;
   const hasArchiveData = hasBattleArchiveData(battle);
+  const isNoOfficialDecision = battle.statusNote?.toLowerCase().includes("no official decision") ?? false;
+  const winnerLabel = isNoOfficialDecision ? "LOTA Result" : "Official Winner";
 
   // Helper to extract YouTube ID from embed URL
   const getYouTubeId = (url: string | null | undefined) => {
@@ -153,7 +155,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               <div className="text-center mb-8">
                 <h2 className="text-2xl font-display italic uppercase text-white">Battle Result</h2>
                 <p className="text-zinc-400 text-sm mt-2 uppercase tracking-widest">
-                  {hasOfficialBattleResult(battle) ? "Official Judges' Decision" : "Awaiting Decision"}
+                  {isNoOfficialDecision ? battle.statusNote : hasOfficialBattleResult(battle) ? "Official Judges' Decision" : "Awaiting Decision"}
                 </p>
               </div>
 
@@ -166,7 +168,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 <div className={`relative overflow-hidden rounded-2xl border p-8 text-center ${team1Won ? 'border-brand bg-brand/5 ring-2 ring-brand ring-offset-4 ring-offset-zinc-950' : 'border-white/5 bg-zinc-900/30'}`}>
                   {team1Won && (
                     <div className="absolute top-4 left-1/2 -translate-x-1/2 flex items-center gap-2 text-brand font-bold text-xs uppercase tracking-widest bg-brand/10 px-3 py-1 rounded-full">
-                      <Trophy size={14} /> Official Winner
+                      <Trophy size={14} /> {winnerLabel}
                     </div>
                   )}
                   <div className={`relative z-10 ${team1Won ? 'mt-8' : ''}`}>
@@ -178,7 +180,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 <div className={`relative overflow-hidden rounded-2xl border p-8 text-center ${team2Won ? 'border-brand bg-brand/5 ring-2 ring-brand ring-offset-4 ring-offset-zinc-950' : 'border-white/5 bg-zinc-900/30'}`}>
                   {team2Won && (
                     <div className="absolute top-4 left-1/2 -translate-x-1/2 flex items-center gap-2 text-brand font-bold text-xs uppercase tracking-widest bg-brand/10 px-3 py-1 rounded-full">
-                      <Trophy size={14} /> Official Winner
+                      <Trophy size={14} /> {winnerLabel}
                     </div>
                   )}
                   <div className={`relative z-10 ${team2Won ? 'mt-8' : ''}`}>
@@ -293,7 +295,6 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                   </div>
                 </div>
               )}
-
 
             </section>
 

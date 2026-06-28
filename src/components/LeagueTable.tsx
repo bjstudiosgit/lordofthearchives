@@ -167,7 +167,7 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
           )}
           <div className="px-8 py-4 bg-zinc-950/50 border-t border-white/5">
             <p className="text-[10px] text-zinc-300 uppercase tracking-widest font-bold text-center">
-              Scoring: 1 Point per Appearance + 3 Bonus Points per Win
+              Scoring: 1 Point per Resulted Appearance + 3 Bonus Points per Win
             </p>
           </div>
         </div>
@@ -182,8 +182,8 @@ function formatWinRate(wins: number, losses: number): string {
   return `${((wins / total) * 100).toFixed(1)}%`;
 }
 
-function getPoints(mc: { battles: number; wins: number }): number {
-  return mc.battles + mc.wins * 3;
+function getPoints(mc: { battles: number; wins: number; scoredBattles?: number }): number {
+  return (mc.scoredBattles ?? mc.battles) + mc.wins * 3;
 }
 
 function getWinRate(wins: number, losses: number): number {

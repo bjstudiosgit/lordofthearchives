@@ -8,8 +8,8 @@ export const metadata = {
 };
 
 export default function HostsJudgesPage() {
-  const hosts = creditPeople.filter((person) => person.role === "Host");
-  const judges = creditPeople.filter((person) => person.role === "Judge");
+  const hosts = creditPeople.filter((person) => person.role.includes("Host"));
+  const judges = creditPeople.filter((person) => person.role.includes("Judge"));
 
   return (
     <main className="min-h-screen bg-zinc-950 pt-32 pb-24 text-white">

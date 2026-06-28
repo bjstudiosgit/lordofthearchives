@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { pengameMcs } from "../../../data/mcs";
 import { formatBattleDate, parseBattleDate } from "../../../data/battleDates";
 import {
-  getBattleHref,
   getBattleRouteHref,
   pengameBattles,
 } from "../../../data/pengameBattles";
@@ -95,6 +94,11 @@ export default function McDetailClient({ slug }: { slug: string }) {
     return getBattleWinners(battle).includes(mc.id) ? "WIN" : "LOSS";
   };
 
+  const getEventLabel = (battle: Battle) => {
+    if (battle.theme === "pengame") return "PenGame";
+    return battle.theme;
+  };
+
   return (
     <div className="min-h-screen pt-32 pb-24 bg-zinc-950 text-white selection:bg-brand selection:text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -148,7 +152,6 @@ export default function McDetailClient({ slug }: { slug: string }) {
                     <Link
                       key={battle.id}
                       href={getBattleRouteHref(battle)}
-                      as={getBattleHref(battle)}
                       title={`${battle.displayTitle || battle.title}: ${outcome}`}
                       aria-label={`${battle.displayTitle || battle.title}: ${outcome}`}
                       className={`w-9 h-9 rounded-lg border flex items-center justify-center text-xs font-black transition-transform hover:-translate-y-0.5 ${formClass}`}
@@ -257,10 +260,9 @@ export default function McDetailClient({ slug }: { slug: string }) {
                       <Link
                         key={battle.id}
                         href={getBattleRouteHref(battle)}
-                        as={getBattleHref(battle)}
-                        className="flex items-center justify-between p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
+                        className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
                       >
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-center gap-4 min-w-0">
                           <div className="w-12 h-12 rounded-xl overflow-hidden border border-white/10">
                             <img
                               src={opponent?.image || `https://picsum.photos/seed/${opponentId}/100/100`}
@@ -269,7 +271,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                               referrerPolicy="no-referrer"
                             />
                           </div>
-                          <div>
+                          <div className="min-w-0">
                             <div className="flex items-center gap-2 mb-1">
                               <span className="text-[10px] font-black text-zinc-500 uppercase tracking-widest">
                                 VS {opponentLabel}
@@ -280,10 +282,13 @@ export default function McDetailClient({ slug }: { slug: string }) {
                                 {outcome}
                               </span>
                             </div>
-                            <h3 className="font-display italic uppercase text-xl group-hover:text-brand transition-colors">
+                            <h3 className="font-display italic uppercase text-xl group-hover:text-brand transition-colors truncate">
                               {battle.displayTitle || battle.title}
                             </h3>
-                            <div className="flex items-center gap-3 mt-1">
+                            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1">
+                              <span className="text-[10px] text-brand font-black uppercase tracking-widest">
+                                {getEventLabel(battle)}
+                              </span>
                               <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
                                 {battle.views || "0"} views
                               </span>
@@ -293,7 +298,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                             </div>
                           </div>
                         </div>
-                        <div className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center group-hover:bg-brand group-hover:text-black transition-all">
+                        <div className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center group-hover:bg-brand group-hover:text-black transition-all shrink-0">
                           <Play size={16} fill="currentColor" />
                         </div>
                       </Link>
