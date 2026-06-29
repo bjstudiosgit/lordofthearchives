@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { hasBattleArchiveData, pengameBattles } from "../../../data/pengameBattles";
+import { getRepeatClashNumber, hasBattleArchiveData, pengameBattles } from "../../../data/pengameBattles";
 import { gzoneBattles } from "../../../data/gzone";
 import { getCreditPersonByName } from "../../../data/credits";
 import { formatBattleDate } from "../../../data/battleDates";
@@ -26,6 +26,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
   const mc4 = battle.mc4 ? allMcs.find(m => m.id === battle.mc4) : undefined;
   const team1Name = [mc1?.name ?? battle.mc1, mc3?.name].filter(Boolean).join(" & ");
   const team2Name = [mc2?.name ?? battle.mc2, mc4?.name].filter(Boolean).join(" & ");
+  const repeatClashLabel = getRepeatClashNumber(battle);
   const team1Won = battle.winner === battle.mc1 && (!battle.mc3 || battle.winner2 === battle.mc3);
   const team2Won = battle.winner === battle.mc2 && (!battle.mc4 || battle.winner2 === battle.mc4);
   const hostCredit = battle.host ? getCreditPersonByName(battle.host) : undefined;
@@ -106,6 +107,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             >
               <h1 className="text-5xl md:text-7xl font-display italic uppercase leading-tight mb-8">
                 {team1Name} <span className={themeTextClass}>VS</span> {team2Name}
+                {repeatClashLabel && <span> #{repeatClashLabel}</span>}
               </h1>
 
               {battle.isUnreleased && (

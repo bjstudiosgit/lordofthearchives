@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props) {
   const person = creditPeople.find((candidate) => candidate.slug === resolvedParams.slug);
 
   return {
-    title: person ? `${person.name} | Hosts & Judges` : "Host or Judge | Lord of the Archives",
+    title: person ? `${person.name} Hosts & Judges` : "Host or Judge Lord of the Archives",
     description: person?.bio,
   };
 }

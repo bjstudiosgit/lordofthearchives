@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { Users, Trophy, Menu, X, Youtube, Play, Scale } from "lucide-react";
+import { Users, Trophy, Menu, X, Youtube, Play, Scale, Eye } from "lucide-react";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 
@@ -29,7 +29,7 @@ export default function Navbar() {
 
   const navGroups = [
     {
-      label: "PenGame",
+      label: "PenGame Rap Battle",
       tone: "brand",
       links: [
         { name: "Archive", href: "/pengame", icon: Play },
@@ -37,7 +37,7 @@ export default function Navbar() {
       ],
     },
     {
-      label: "Gzone",
+      label: "Gzone Rap Battle",
       tone: "gzone",
       links: [
         { name: "Archive", href: "/gzone", icon: Trophy },
@@ -45,12 +45,13 @@ export default function Navbar() {
       ],
     },
     {
-      label: "LOTA",
+      label: "Lord of the Archives Stats",
       tone: "neutral",
       links: [
         { name: "MCs", href: "/mcs", icon: Users },
-        { name: "Hosts & Judges", href: "/hosts-judges", icon: Scale },
-        { name: "Overall League", href: "/lota-league", icon: Trophy },
+        { name: "Hosts", href: "/hosts-judges", icon: Scale },
+        { name: "League", href: "/lota-league", icon: Trophy },
+        { name: "People", href: "/peoples-vote", icon: Eye },
       ],
     },
   ];
@@ -73,11 +74,14 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 px-3 pt-3 sm:px-6">
       <div className="max-w-7xl mx-auto rounded-2xl border border-white/10 bg-black/75 shadow-[0_12px_40px_rgba(0,0,0,0.45)] backdrop-blur-xl">
         <div className="flex items-center justify-between h-16 px-4 sm:px-6">
-          <div className="flex items-center">
+          <div className="flex items-center shrink-0">
             <Link href="/" className="group flex items-center gap-2.5">
-              <div className="w-9 h-9 bg-brand rounded-xl border border-yellow-200/60 flex items-center justify-center font-display text-xl text-black italic shadow-[0_0_22px_rgba(255,215,0,0.22)] transition-transform group-hover:-rotate-3">L</div>
+              <div className="w-9 h-9 bg-brand rounded-xl border border-yellow-200/60 flex items-center justify-center font-display text-xl text-black shadow-[0_0_22px_rgba(255,215,0,0.22)] transition-transform group-hover:-rotate-3">L</div>
               <div className="flex flex-col leading-none">
-                <span className="font-display text-lg sm:text-xl tracking-tighter uppercase italic leading-none text-brand">LORD OF THE ARCHIVES</span>
+                <span className="font-display text-lg sm:text-xl tracking-tighter uppercase leading-none text-brand">LORD OF THE ARCHIVES</span>
+                <span className="mt-1 text-[9px] font-bold uppercase tracking-[0.18em] leading-none text-zinc-300">
+                  WE NEVER FORGET
+                </span>
               </div>
             </Link>
           </div>
@@ -114,7 +118,7 @@ export default function Navbar() {
                           key={link.href}
                           href={link.href}
                           onClick={(e) => handleLinkClick(e, link.href)}
-                          className={`flex items-center gap-2 rounded-xl border px-2.5 py-1.5 text-sm font-medium transition-all ${toneClasses}`}
+                          className={`flex items-center gap-1.5 rounded-xl border px-2 py-1.5 text-sm font-medium transition-all ${toneClasses}`}
                         >
                           <link.icon size={15} />
                           {link.name}

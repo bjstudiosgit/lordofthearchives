@@ -5,6 +5,7 @@ import {
   hasBattleArchiveData,
   pengameBattles,
   lastUpdated,
+  getRepeatClashNumber,
 } from "../../data/pengameBattles";
 import type { Battle } from "../../data/battleTypes";
 import { pengameMcs } from "../../data/mcs";
@@ -160,6 +161,16 @@ const getDateValue = (date: string | undefined): number => {
   return parseBattleDate(date) ?? Number.MAX_SAFE_INTEGER;
 };
 
+const getCustomLabelNumber = (battle: Battle): number => {
+  const labelNumber = battle.customEp?.match(/(\d+)$/);
+  return labelNumber ? Number(labelNumber[1]) : Number.MAX_SAFE_INTEGER;
+};
+
+const getRepeatClashLabel = (battle: Battle): string | undefined => {
+  const clashNumber = getRepeatClashNumber(battle);
+  return clashNumber ? `#${clashNumber}` : undefined;
+};
+
 const dedupeBattles = (battles: Battle[]): Battle[] => {
   const seen = new Set<string>();
   return battles.filter((battle) => {
@@ -184,6 +195,16 @@ const sortSeason5Battles = (a: Battle, b: Battle): number => {
     return sortTournamentBattles(a, b);
   }
 
+  if (
+    sectionA === "Box Park 1v1 Battles" ||
+    sectionA === "North vs South Christmas Battles" ||
+    sectionA === "2025 Chicken Shop Battles"
+  ) {
+    return getCustomLabelNumber(a) - getCustomLabelNumber(b) ||
+      getDateValue(a.date) - getDateValue(b.date) ||
+      a.id.localeCompare(b.id, undefined, { numeric: true, sensitivity: "base" });
+  }
+
   return getDateValue(a.date) - getDateValue(b.date) ||
     sortTournamentBattles(a, b) ||
     a.id.localeCompare(b.id, undefined, { numeric: true, sensitivity: "base" });
@@ -198,13 +219,19 @@ const season5EpisodeLabels: Record<string, string> = {
   "anbu-sensei-vs-deeno": "5x22",
   "dan-dannah-vs-iiiberealz": "5x29",
   "missink-vs-cucha": "5x50",
-  "ess2mad-vs-deeno": "5x23",
-  "hunce-vs-anbu-sensei": "5x42",
-  "deeno-vs-jm": "5x30",
-  "passive-vs-zen": "5x31",
-  "domi-dusk-vs-fendry": "5x32",
-  "jaycee-vs-kime": "5x33",
-  "iiiberealz-vs-rasiah": "5x49",
+  "ess2mad-vs-deeno": "1v1x2",
+  "hunce-vs-anbu-sensei": "1v1x3",
+  "deeno-vs-jm": "NvSx2",
+  "passive-vs-zen": "NvSx1",
+  "domi-dusk-vs-fendry": "NvSx3",
+  "jaycee-vs-kime": "NvSx5",
+  "iiiberealz-vs-rasiah": "NvSx4",
+  "che3kz-vs-cucha": "Shopx1",
+  "missink-vs-prynlee": "Shopx2",
+  "2mwad-vs-skamz": "Shopx3",
+  "anbu-sensei-vs-smil3z": "Shopx4",
+  "marcel-vs-kandi": "Shopx5",
+  "domi-dusk-vs-hunce": "Shopx6",
 };
 
 const getFallbackEpisodeLabel = (season: string, index: number): string => {
@@ -218,6 +245,10 @@ const getFallbackEpisodeLabel = (season: string, index: number): string => {
 };
 
 export default function PengamePage() {
+  React.useEffect(() => {
+    document.title = "PenGame Archives Lord of the Archives";
+  }, []);
+
   // Helper to parse view strings like "46.3K" or "4,569" into numbers
   const parseViews = (viewStr: string | number | null | undefined): number => {
     if (!viewStr) return 0;
@@ -229,6 +260,17 @@ export default function PengamePage() {
       return parseFloat(clean.replace("M", "")) * 1000000;
     }
     return parseInt(clean) || 0;
+  };
+
+  const formatBattleViews = (viewStr: string | number | null | undefined): string => {
+    if (!viewStr) return "0";
+    const raw = String(viewStr).trim();
+    if (/[km]$/i.test(raw)) return raw;
+
+    const views = parseViews(raw);
+    if (views >= 1000000) return `${Math.floor(views / 1000000)}M`;
+    if (views >= 1000) return `${Math.floor(views / 1000)}k`;
+    return String(views);
   };
 
   const seasons = pengameBattles.reduce((acc, battle) => {
@@ -267,7 +309,6 @@ export default function PengamePage() {
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
           <div>
-            <h1 className="text-sm font-semibold text-zinc-400 tracking-wide mb-4">PenGame</h1>
             <h2 className="text-3xl md:text-5xl font-semibold leading-tight">
               PenGame <span className="text-brand">Archives</span>
             </h2>
@@ -374,6 +415,7 @@ export default function PengamePage() {
                       const mc2 = pengameMcs.find(m => m.id === battle.mc2);
                       const mc3 = battle.mc3 ? pengameMcs.find(m => m.id === battle.mc3) : undefined;
                       const mc4 = battle.mc4 ? pengameMcs.find(m => m.id === battle.mc4) : undefined;
+                      const repeatClashLabel = !battle.mc3 ? getRepeatClashLabel(battle) : undefined;
                       const battleSection = season === "2023"
                         ? battle.subGroup
                         : season === "Champions League"
@@ -471,6 +513,11 @@ export default function PengamePage() {
                                     )}
                                     {!battle.mc3 && battle.winner === battle.mc2 && <Trophy size={14} className="text-brand md:w-[18px] md:h-[18px]" />}
                                   </span>
+                                  {repeatClashLabel && (
+                                    <span className="text-sm md:text-lg font-semibold text-zinc-100">
+                                      {repeatClashLabel}
+                                    </span>
+                                  )}
                                 </span>
                               </div>
                             </td>
@@ -483,7 +530,7 @@ export default function PengamePage() {
                             <td className="hidden md:table-cell px-2 py-3 md:px-6 md:py-6">
                               <div className="flex items-center gap-2 text-zinc-100 font-mono text-xs">
                                 <span className="w-1 h-1 rounded-full bg-brand/50" />
-                                {battle.views || "0"}
+                                {formatBattleViews(battle.views)}
                               </div>
                             </td>
                             <td className="px-2 py-3 md:px-6 md:py-6 text-right md:text-left">

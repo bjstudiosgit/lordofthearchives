@@ -66,7 +66,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const team1Name = [mc1?.name ?? battle.mc1, mc3?.name].filter(Boolean).join(" & ");
   const team2Name = [mc2?.name ?? battle.mc2, mc4?.name].filter(Boolean).join(" & ");
   const leagueName = battle.theme === "gzone" ? "Gzone" : "PenGame";
-  const title = `${team1Name} vs ${team2Name} | ${leagueName}`;
+  const title = `${team1Name} vs ${team2Name} ${leagueName} Battle`;
   const description = `${team1Name} faces ${team2Name} in this ${leagueName} battle.`;
   const battleUrl = `https://www.lordofthearchives.co.uk${getBattleHref(battle)}`;
 

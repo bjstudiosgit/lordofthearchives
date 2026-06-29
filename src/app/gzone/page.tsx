@@ -5,7 +5,7 @@ import { gzoneBattles } from "../../data/gzone";
 import { getBattleRouteHref } from "../../data/pengameBattles";
 
 export const metadata = {
-  title: "Gzone League | Lord of the Archives",
+  title: "Gzone League Lord of the Archives",
   description: "Gzone Season 1 battles and league standings.",
 };
 
@@ -32,20 +32,12 @@ export default function GzonePage() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="mb-4 text-sm font-semibold tracking-wide text-zinc-400">Gzone</p>
             <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
               Gzone <span className="text-gzone">League</span>
             </h1>
             <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-400 md:text-base">
               Season 1 battle archive.
             </p>
-            <Link
-              href="/gzone/league"
-              className="mt-6 inline-flex items-center gap-2 rounded-xl border border-gzone/40 bg-gzone/10 px-4 py-3 text-xs font-bold uppercase tracking-widest text-gzone transition-colors hover:bg-gzone hover:text-black"
-            >
-              <Trophy size={16} />
-              Gzone League
-            </Link>
           </div>
 
           <div className="flex flex-wrap gap-4">

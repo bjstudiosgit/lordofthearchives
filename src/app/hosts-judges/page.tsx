@@ -3,7 +3,7 @@ import { Scale, ChevronRight } from "lucide-react";
 import { creditPeople } from "../../data/credits";
 
 export const metadata = {
-  title: "Hosts & Judges | Lord of the Archives",
+  title: "Hosts & Judges Lord of the Archives",
   description: "Hosts and judges credited across Lord of the Archives battle pages.",
 };
 

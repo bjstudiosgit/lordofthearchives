@@ -84,7 +84,7 @@ export const mcs: MC[] = [
   {
     "id": "ft",
     "slug": "ft",
-    "name": "Forever Tapped",
+    "name": "FOREVER TAPPED",
     "battles": 10,
     "wins": 5,
     "losses": 4,

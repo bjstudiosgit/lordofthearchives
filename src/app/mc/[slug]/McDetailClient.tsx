@@ -33,7 +33,22 @@ import {
   Zap,
   Star,
   Clock,
+  Eye,
 } from "lucide-react";
+
+const parseViews = (views: Battle["views"]): number => {
+  if (!views) return 0;
+  const clean = String(views).replace(/,/g, "").trim().toUpperCase();
+  if (clean.endsWith("M")) return Math.floor(parseFloat(clean) * 1000000);
+  if (clean.endsWith("K")) return Math.floor(parseFloat(clean) * 1000);
+  return Number.parseInt(clean, 10) || 0;
+};
+
+const formatViews = (views: number): string => {
+  if (views >= 1000000) return `${(views / 1000000).toFixed(1)}M`;
+  if (views >= 1000) return `${Math.floor(views / 1000)}k`;
+  return String(views);
+};
 
 export default function McDetailClient({ slug }: { slug: string }) {
   const router = useRouter();
@@ -78,6 +93,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
   ).length;
   const battleCount = mc.battles;
   const totalPoints = mc.wins * 3;
+  const totalBattleViews = mcBattles.reduce((total, battle) => total + parseViews(battle.views), 0);
 
   const getMcName = (mcId: string) => allMcs.find((m) => m.id === mcId)?.name || mcId;
 
@@ -141,6 +157,21 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 <span className="font-display text-2xl italic leading-none">{mc.wins}-{mc.losses}</span>
               </div>
             </motion.div>
+            <div className="mt-6 rounded-2xl border border-brand/20 bg-zinc-900/50 px-5 py-4 shadow-[0_0_24px_rgba(255,213,0,0.08)]">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-brand/10 border border-brand/30 flex items-center justify-center text-brand">
+                  <Eye size={18} />
+                </div>
+                <div>
+                  <p className="font-display italic text-3xl uppercase leading-none text-white">
+                    {formatViews(totalBattleViews)}
+                  </p>
+                  <p className="mt-1 text-[10px] font-black uppercase tracking-[0.25em] text-zinc-500">
+                    Total battle views
+                  </p>
+                </div>
+              </div>
+            </div>
             <div className="mt-6">
               <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500 mb-3">
                 Form
