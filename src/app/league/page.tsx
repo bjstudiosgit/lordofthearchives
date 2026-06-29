@@ -26,14 +26,12 @@ export default function League() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h1 className="text-sm font-bold text-brand uppercase tracking-[0.3em] mb-4">Unofficial Rankings</h1>
             <h2 className="text-4xl md:text-6xl font-display italic uppercase leading-tight">
               PenGame <br />
               <span className="text-brand">League</span>
             </h2>
             <p className="text-zinc-400 mt-4 md:mt-6 max-w-xl text-sm md:text-lg leading-relaxed">
-              Current PenGame-only leaderboard. Points are awarded as follows: 1 point for a resulted appearance and 3
-              bonus points for a win.
+              PenGame leaderboard across the archive. Points are awarded as follows: 3 points for a win.
             </p>
           </div>
 
@@ -100,6 +98,6 @@ export default function League() {
   );
 }
 
-function getPoints(mc: { battles: number; wins: number; scoredBattles?: number }): number {
-  return (mc.scoredBattles ?? mc.battles) + mc.wins * 3;
+function getPoints(mc: { wins: number }): number {
+  return mc.wins * 3;
 }

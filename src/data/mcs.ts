@@ -1,4 +1,5 @@
 import type { Battle } from "./battleTypes";
+import { gzoneBattles } from "./gzone";
 import { pengameBattles } from "./pengameBattles";
 
 export interface MC {
@@ -1134,6 +1135,38 @@ mcs.push(
   })),
 );
 
+const gzoneMcProfiles = [
+  ["1flaymr", "1FLAYMR"],
+  ["ajna", "AJNA"],
+  ["badee-harz", "BADEE HARZ"],
+  ["btizz", "BTIZZ"],
+  ["cj-zino", "CJ ZINO"],
+  ["deluxx", "DELUXX"],
+  ["ldn-mikez", "LDN MIKEZ"],
+  ["nattyebk", "NATTYEBK"],
+  ["pr1nc3", "PR1NC3"],
+  ["proty", "PROTY"],
+  ["renzo", "RENZO"],
+  ["roman", "ROMAN"],
+  ["ryno", "RYNO"],
+  ["tymeless", "TYMELESS"],
+  ["z-k", "Z.K"],
+] as const;
+
+mcs.push(
+  ...gzoneMcProfiles.map(([id, name]) => ({
+    id,
+    slug: id,
+    name,
+    battles: 0,
+    wins: 0,
+    losses: 0,
+    style: "Versatile",
+    image: `/${name.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
+    bio: "Gzone Season 1 artist.",
+  })),
+);
+
 type McRecord = {
   battles: number;
   wins: number;
@@ -1177,6 +1210,7 @@ const computeMcRecords = (battles: Battle[]): Map<string, McRecord> => {
 };
 
 const pengameRecordsById = computeMcRecords(pengameBattles);
+const allRecordsById = computeMcRecords([...pengameBattles, ...gzoneBattles]);
 
 export const pengameMcs: MC[] = Array.from(pengameRecordsById.entries())
   .map(([mcId, record]) => {
@@ -1194,6 +1228,35 @@ export const pengameMcs: MC[] = Array.from(pengameRecordsById.entries())
         style: "Unknown",
         image: `/${mcId.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
         bio: "PenGame artist.",
+      };
+    }
+
+    return {
+      ...base,
+      battles: record.battles,
+      wins: record.wins,
+      losses: record.losses,
+      scoredBattles: record.scoredBattles,
+    };
+  })
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+export const allMcs: MC[] = Array.from(allRecordsById.entries())
+  .map(([mcId, record]) => {
+    const base = mcs.find((mc) => mc.id === mcId);
+
+    if (!base) {
+      return {
+        id: mcId,
+        slug: mcId,
+        name: mcId,
+        battles: record.battles,
+        wins: record.wins,
+        losses: record.losses,
+        scoredBattles: record.scoredBattles,
+        style: "Unknown",
+        image: `/${mcId.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
+        bio: "Battle artist.",
       };
     }
 

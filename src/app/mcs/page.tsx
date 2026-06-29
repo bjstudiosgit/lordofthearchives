@@ -2,7 +2,7 @@
 import React, { useState, useMemo } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
-import { pengameMcs } from "../../data/mcs";
+import { allMcs } from "../../data/mcs";
 import { 
   Search, 
   Filter, 
@@ -22,7 +22,7 @@ export default function MCIndex() {
   const [sortOrder, setSortOrder] = useState<SortOrder>("asc");
 
   const filteredAndSortedMCs = useMemo(() => {
-    return pengameMcs
+    return allMcs
       .filter((mc) =>
         mc.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         mc.nickname?.toLowerCase().includes(searchQuery.toLowerCase())

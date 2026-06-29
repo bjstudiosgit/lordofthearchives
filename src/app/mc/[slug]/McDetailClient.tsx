@@ -2,8 +2,9 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { pengameMcs } from "../../../data/mcs";
+import { allMcs } from "../../../data/mcs";
 import { formatBattleDate, parseBattleDate } from "../../../data/battleDates";
+import { gzoneBattles } from "../../../data/gzone";
 import {
   getBattleRouteHref,
   pengameBattles,
@@ -37,7 +38,7 @@ import {
 export default function McDetailClient({ slug }: { slug: string }) {
   const router = useRouter();
 
-  const mc = pengameMcs.find((m) => m.slug === slug);
+  const mc = allMcs.find((m) => m.slug === slug);
 
   if (!mc) {
     return (
@@ -55,7 +56,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
     );
   }
 
-  const mcBattles = pengameBattles
+  const mcBattles = [...pengameBattles, ...gzoneBattles]
     .filter(
       (battle) =>
         getBattleParticipants(battle).includes(mc.id) &&
@@ -76,9 +77,9 @@ export default function McDetailClient({ slug }: { slug: string }) {
     (battle) => isLeagueEligibleBattle(battle) && isUnresolvedBattle(battle),
   ).length;
   const battleCount = mc.battles;
-  const totalPoints = mc.battles + mc.wins * 3;
+  const totalPoints = mc.wins * 3;
 
-  const getMcName = (mcId: string) => pengameMcs.find((m) => m.id === mcId)?.name || mcId;
+  const getMcName = (mcId: string) => allMcs.find((m) => m.id === mcId)?.name || mcId;
 
   const getBattleSides = (battle: Battle) => {
     const teamA = [battle.mc1, battle.mc3].filter(Boolean) as string[];
@@ -96,8 +97,15 @@ export default function McDetailClient({ slug }: { slug: string }) {
 
   const getEventLabel = (battle: Battle) => {
     if (battle.theme === "pengame") return "PenGame";
+    if (battle.theme === "gzone") return "Gzone";
     return battle.theme;
   };
+
+  const getThemeTextClass = (battle: Battle) => battle.theme === "gzone" ? "text-gzone" : "text-brand";
+  const getThemeHoverClass = (battle: Battle) => battle.theme === "gzone" ? "group-hover:text-gzone" : "group-hover:text-brand";
+  const getThemeHoverBgClass = (battle: Battle) => battle.theme === "gzone" ? "group-hover:bg-gzone" : "group-hover:bg-brand";
+
+  const getBattleHref = (battle: Battle) => getBattleRouteHref(battle);
 
   return (
     <div className="min-h-screen pt-32 pb-24 bg-zinc-950 text-white selection:bg-brand selection:text-black">
@@ -151,7 +159,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                   return (
                     <Link
                       key={battle.id}
-                      href={getBattleRouteHref(battle)}
+                      href={getBattleHref(battle)}
                       title={`${battle.displayTitle || battle.title}: ${outcome}`}
                       aria-label={`${battle.displayTitle || battle.title}: ${outcome}`}
                       className={`w-9 h-9 rounded-lg border flex items-center justify-center text-xs font-black transition-transform hover:-translate-y-0.5 ${formClass}`}
@@ -246,7 +254,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                   {mcBattles.map((battle) => {
                     const { opponentTeam } = getBattleSides(battle);
                     const opponentId = opponentTeam[0];
-                    const opponent = pengameMcs.find((m) => m.id === opponentId);
+                    const opponent = allMcs.find((m) => m.id === opponentId);
                     const opponentLabel = opponentTeam.map(getMcName).join(" & ") || "TBD";
                     const outcome = getOutcome(battle);
                     const outcomeClass =
@@ -255,11 +263,14 @@ export default function McDetailClient({ slug }: { slug: string }) {
                         : outcome === "LOSS"
                           ? "bg-rose-500/20 text-rose-500"
                           : "bg-zinc-700/40 text-zinc-400";
+                    const themeTextClass = getThemeTextClass(battle);
+                    const themeHoverClass = getThemeHoverClass(battle);
+                    const themeHoverBgClass = getThemeHoverBgClass(battle);
 
                     return (
                       <Link
                         key={battle.id}
-                        href={getBattleRouteHref(battle)}
+                        href={getBattleHref(battle)}
                         className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
                       >
                         <div className="flex items-center gap-4 min-w-0">
@@ -282,11 +293,11 @@ export default function McDetailClient({ slug }: { slug: string }) {
                                 {outcome}
                               </span>
                             </div>
-                            <h3 className="font-display italic uppercase text-xl group-hover:text-brand transition-colors truncate">
+                            <h3 className={`font-display italic uppercase text-xl ${themeHoverClass} transition-colors truncate`}>
                               {battle.displayTitle || battle.title}
                             </h3>
                             <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1">
-                              <span className="text-[10px] text-brand font-black uppercase tracking-widest">
+                              <span className={`text-[10px] ${themeTextClass} font-black uppercase tracking-widest`}>
                                 {getEventLabel(battle)}
                               </span>
                               <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
@@ -298,7 +309,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                             </div>
                           </div>
                         </div>
-                        <div className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center group-hover:bg-brand group-hover:text-black transition-all shrink-0">
+                        <div className={`w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center ${themeHoverBgClass} group-hover:text-black transition-all shrink-0`}>
                           <Play size={16} fill="currentColor" />
                         </div>
                       </Link>

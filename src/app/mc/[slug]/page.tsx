@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { pengameMcs } from "../../../data/mcs";
+import { allMcs } from "../../../data/mcs";
 import McDetailClient from "./McDetailClient";
 
 type Props = {
@@ -9,12 +9,12 @@ type Props = {
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  return pengameMcs.map((mc) => ({ slug: mc.slug }));
+  return allMcs.map((mc) => ({ slug: mc.slug }));
 }
 
 export default async function McPage({ params }: Props) {
   const resolvedParams = await Promise.resolve(params);
-  const mc = pengameMcs.find((candidate) => candidate.slug === resolvedParams.slug);
+  const mc = allMcs.find((candidate) => candidate.slug === resolvedParams.slug);
 
   if (!mc) {
     notFound();

@@ -27,11 +27,32 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
-  const navLinks = [
-    { name: "Pengame", href: "/pengame", icon: Play },
-    { name: "MCs", href: "/mcs", icon: Users },
-    { name: "Hosts & Judges", href: "/hosts-judges", icon: Scale },
-    { name: "PenGame League", href: "/league", icon: Trophy },
+  const navGroups = [
+    {
+      label: "PenGame",
+      tone: "brand",
+      links: [
+        { name: "Archive", href: "/pengame", icon: Play },
+        { name: "League", href: "/league", icon: Trophy },
+      ],
+    },
+    {
+      label: "Gzone",
+      tone: "gzone",
+      links: [
+        { name: "Archive", href: "/gzone", icon: Trophy },
+        { name: "League", href: "/gzone/league", icon: Trophy },
+      ],
+    },
+    {
+      label: "LOTA",
+      tone: "neutral",
+      links: [
+        { name: "MCs", href: "/mcs", icon: Users },
+        { name: "Hosts & Judges", href: "/hosts-judges", icon: Scale },
+        { name: "Overall League", href: "/lota-league", icon: Trophy },
+      ],
+    },
   ];
 
   const isHome = pathname === "/";
@@ -62,21 +83,46 @@ export default function Navbar() {
           </div>
           
           <div className="hidden md:block">
-            <div className="ml-4 flex items-baseline space-x-4">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.name}
-                  href={link.href}
-                  onClick={(e) => handleLinkClick(e, link.href)}
-                  className={`px-3 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 border ${
-                    pathname === link.href
-                      ? "border-brand/35 bg-brand/10 text-brand"
-                      : "border-transparent text-zinc-300 hover:border-white/10 hover:bg-white/5 hover:text-brand"
-                  }`}
-                >
-                  <link.icon size={16} />
-                  {link.name}
-                </Link>
+            <div className="ml-4 flex items-center gap-4">
+              {navGroups.map((group) => (
+                <div key={group.label} className="flex flex-col gap-1">
+                  <div
+                    className={`px-2 text-[9px] font-black uppercase tracking-[0.22em] ${
+                      group.tone === "gzone" ? "text-gzone" : group.tone === "brand" ? "text-brand" : "text-zinc-500"
+                    }`}
+                  >
+                    {group.label}
+                  </div>
+                  <div className="flex items-center gap-1">
+                    {group.links.map((link) => {
+                      const isActive = pathname === link.href;
+                      const toneClasses =
+                        group.tone === "gzone"
+                          ? isActive
+                            ? "border-gzone/35 bg-gzone/10 text-gzone"
+                            : "border-transparent text-gzone hover:border-gzone/20 hover:bg-gzone/5"
+                          : group.tone === "brand"
+                            ? isActive
+                              ? "border-brand/35 bg-brand/10 text-brand"
+                              : "border-transparent text-brand hover:border-brand/20 hover:bg-brand/5"
+                            : isActive
+                              ? "border-brand/35 bg-brand/10 text-brand"
+                              : "border-transparent text-zinc-300 hover:border-white/10 hover:bg-white/5 hover:text-brand";
+
+                      return (
+                        <Link
+                          key={link.href}
+                          href={link.href}
+                          onClick={(e) => handleLinkClick(e, link.href)}
+                          className={`flex items-center gap-2 rounded-xl border px-2.5 py-1.5 text-sm font-medium transition-all ${toneClasses}`}
+                        >
+                          <link.icon size={15} />
+                          {link.name}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                </div>
               ))}
               <div className="flex items-center gap-2 ml-2">
                 <a 
@@ -121,16 +167,33 @@ export default function Navbar() {
           className="md:hidden border-t border-white/10 bg-black/95 rounded-b-2xl"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                onClick={(e) => handleLinkClick(e, link.href)}
-                className="text-zinc-200 hover:text-orange-500 block px-3 py-4 rounded-md text-base font-medium flex items-center gap-3"
-              >
-                <link.icon size={20} />
-                {link.name}
-              </Link>
+            {navGroups.map((group) => (
+              <div key={group.label} className="border-b border-white/5 py-2 last:border-b-0">
+                <div
+                  className={`px-3 py-2 text-[10px] font-black uppercase tracking-[0.24em] ${
+                    group.tone === "gzone" ? "text-gzone" : group.tone === "brand" ? "text-brand" : "text-zinc-500"
+                  }`}
+                >
+                  {group.label}
+                </div>
+                {group.links.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={(e) => handleLinkClick(e, link.href)}
+                    className={`flex items-center gap-3 rounded-md px-3 py-3 text-base font-medium ${
+                      group.tone === "gzone"
+                        ? "text-gzone hover:bg-gzone/5"
+                        : group.tone === "brand"
+                          ? "text-brand hover:bg-brand/5"
+                          : "text-zinc-200 hover:text-brand"
+                    }`}
+                  >
+                    <link.icon size={20} />
+                    {link.name}
+                  </Link>
+                ))}
+              </div>
             ))}
             <div className="px-3 py-4 flex items-center justify-center gap-4">
               <a 

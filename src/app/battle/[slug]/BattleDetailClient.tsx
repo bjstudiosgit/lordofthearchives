@@ -2,14 +2,15 @@
 import Link from "next/link";
 import { motion } from "motion/react";
 import { hasBattleArchiveData, pengameBattles } from "../../../data/pengameBattles";
+import { gzoneBattles } from "../../../data/gzone";
 import { getCreditPersonByName } from "../../../data/credits";
 import { formatBattleDate } from "../../../data/battleDates";
 import { hasOfficialBattleResult } from "../../../data/leagueStandings";
-import { pengameMcs } from "../../../data/mcs";
+import { allMcs } from "../../../data/mcs";
 import { ArrowLeft, Play, Share2, Trophy, Clock } from "lucide-react";
 
 export default function BattleDetailClient({ slug }: { slug: string }) {
-  const battle = pengameBattles.find(b => b.slug === slug);
+  const battle = [...pengameBattles, ...gzoneBattles].find(b => b.slug === slug);
 
   if (!battle) {
     return (
@@ -19,10 +20,10 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
     );
   }
 
-  const mc1 = pengameMcs.find(m => m.id === battle.mc1);
-  const mc2 = pengameMcs.find(m => m.id === battle.mc2);
-  const mc3 = battle.mc3 ? pengameMcs.find(m => m.id === battle.mc3) : undefined;
-  const mc4 = battle.mc4 ? pengameMcs.find(m => m.id === battle.mc4) : undefined;
+  const mc1 = allMcs.find(m => m.id === battle.mc1);
+  const mc2 = allMcs.find(m => m.id === battle.mc2);
+  const mc3 = battle.mc3 ? allMcs.find(m => m.id === battle.mc3) : undefined;
+  const mc4 = battle.mc4 ? allMcs.find(m => m.id === battle.mc4) : undefined;
   const team1Name = [mc1?.name ?? battle.mc1, mc3?.name].filter(Boolean).join(" & ");
   const team2Name = [mc2?.name ?? battle.mc2, mc4?.name].filter(Boolean).join(" & ");
   const team1Won = battle.winner === battle.mc1 && (!battle.mc3 || battle.winner2 === battle.mc3);
@@ -31,6 +32,11 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
   const hasArchiveData = hasBattleArchiveData(battle);
   const isNoOfficialDecision = battle.statusNote?.toLowerCase().includes("no official decision") ?? false;
   const winnerLabel = isNoOfficialDecision ? "LOTA Result" : "Official Winner";
+  const isGzone = battle.theme === "gzone";
+  const themeTextClass = isGzone ? "text-gzone" : "text-brand";
+  const themeHoverTextClass = isGzone ? "hover:text-gzone" : "hover:text-brand";
+  const backHref = isGzone ? "/gzone" : "/pengame";
+  const backLabel = isGzone ? "Back to Gzone" : "Back to PenGame";
 
   // Helper to extract YouTube ID from embed URL
   const getYouTubeId = (url: string | null | undefined) => {
@@ -55,12 +61,12 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
   };
 
   const videoId = getYouTubeId(battle.videoUrl);
-  const videoEmbedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : battle.videoUrl ?? undefined;
-  const schemaData = battle.videoUrl ? {
+  const videoEmbedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : undefined;
+  const schemaData = videoId ? {
     "@context": "https://schema.org",
     "@type": "VideoObject",
     "name": `${battle.title} Rap Battle`,
-    "description": `${team1Name} faces ${team2Name} in this PenGame battle.`,
+    "description": `${team1Name} faces ${team2Name} in this ${isGzone ? "Gzone" : "PenGame"} battle.`,
     "thumbnailUrl": `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
     "uploadDate": formatDateForSchema(battle.date),
     "contentUrl": `https://www.youtube.com/watch?v=${videoId}`,
@@ -82,11 +88,11 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
       )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link 
-          href="/pengame" 
-          aria-label="Back to PenGame"
-          className="inline-flex items-center gap-2 text-zinc-400 hover:text-brand transition-colors mb-12 uppercase tracking-widest text-xs font-bold"
+          href={backHref}
+          aria-label={backLabel}
+          className={`inline-flex items-center gap-2 text-zinc-400 ${themeHoverTextClass} transition-colors mb-12 uppercase tracking-widest text-xs font-bold`}
         >
-          <ArrowLeft size={16} /> Back to PenGame
+          <ArrowLeft size={16} /> {backLabel}
         </Link>
 
         <div className="grid lg:grid-cols-3 gap-12">
@@ -99,7 +105,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               className="text-center"
             >
               <h1 className="text-5xl md:text-7xl font-display italic uppercase leading-tight mb-8">
-                {team1Name} <span className="text-brand">VS</span> {team2Name}
+                {team1Name} <span className={themeTextClass}>VS</span> {team2Name}
               </h1>
 
               {battle.isUnreleased && (
@@ -111,7 +117,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               )}
               
               <div className="aspect-video bg-zinc-900 rounded-3xl border border-white/10 overflow-hidden relative group">
-                {battle.videoUrl ? (
+                {videoEmbedUrl ? (
                   <iframe
                     src={videoEmbedUrl}
                     title={battle.title}

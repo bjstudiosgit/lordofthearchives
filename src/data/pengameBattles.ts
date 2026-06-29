@@ -5848,7 +5848,7 @@ export const pengameBattles: Battle[] = [
     "season": 4,
     "seasonOrder": 6,
     "views": "0",
-    "videoUrl": null,
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/blacktvsrenaya.html",
     "customEp": "4x06",
     "stage": null,
     "group": null,
@@ -7021,7 +7021,7 @@ export const pengameBattles: Battle[] = [
     "winner": "kandi",
     "title": "SKAMZ vs KANDI",
     "date": "2023-10-14",
-    "videoUrl": "https://www.youtube.com/watch?v=aHXWvEutw0w",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/skamzvskandi.html",
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 20,
@@ -9302,6 +9302,7 @@ export const pengameBattles: Battle[] = [
     "mc4": "dan-dannah",
     "title": "SKAMZ & SEVZ vs F-DON & DAN DANNAH",
     "displayTitle": "SKAMZ & SEVZ vs F-DON & DAN DANNAH",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/skamzsevzvsfdondandannah.html",
     "theme": "pengame",
     "season": 5,
     "subGroup": "2v2 Tournament",
@@ -78651,7 +78652,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "jm",
     "mc2": "a-petrelli",
     "title": "JM vs A PETRELLI",
-    "videoUrl": "https://www.youtube.com/watch?v=h-_jZB4lLu0",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/jmvskapetrelli.html",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -85188,6 +85189,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "crai-g",
     "mc2": "cojay",
     "title": "CRAIG G vs COJAY",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/craigvscojay.html",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -85655,6 +85657,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "tek",
     "mc2": "cojay",
     "title": "TEK vs COJAY",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/tekvscojay.html",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -86124,6 +86127,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "deeno",
     "mc2": "char-b",
     "title": "DEENO vs CHAR B",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/deenovscharb.html",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -86525,6 +86529,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "kmarh",
     "mc2": "jaycee",
     "title": "K.MARH vs JAYCEE",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/kmarhvsjaycee.html",
     "theme": "pengame",
     "season": "2025 Christmas",
     "competition": "PenGame",
@@ -86854,6 +86859,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "ft",
     "mc2": "sevz",
     "title": "FOREVER TAPPED vs SEVZ",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/ftvssevz.html",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -87112,7 +87118,7 @@ export const pengameBattles: Battle[] = [
     }
   },
   { id: "pg-scl-2026-fixture1-skamz-vs-kandi", slug: "skamz-vs-kandi", mc1: "skamz", mc2: "kandi", title: "SKAMZ vs KANDI", theme: "pengame", season: "Champions League", competition: "Champions League", subGroup: "Fixture 1", stage: "Champions League Fixture 1", customEp: "CLx02", seasonOrder: 2, winner: "kandi" },
-  { id: "pg-scl-2026-fixture1-rp-vs-char-b", slug: "rp-vs-char-b", mc1: "rp", mc2: "char-b", title: "RP vs CHAR B", theme: "pengame", season: "Champions League", competition: "Champions League", subGroup: "Fixture 1", stage: "Champions League Fixture 1", customEp: "CLx10", seasonOrder: 10, winner: "unknown" },
+  { id: "pg-scl-2026-fixture1-rp-vs-char-b", slug: "rp-vs-char-b", mc1: "rp", mc2: "char-b", title: "RP vs CHAR B", videoUrl: "https://www.lordofthearchives.co.uk/battle/rpvscharb.html", theme: "pengame", season: "Champions League", competition: "Champions League", subGroup: "Fixture 1", stage: "Champions League Fixture 1", customEp: "CLx10", seasonOrder: 10, winner: "unknown" },
   {
     "id": "pg-s2026-jm-vs-f-don",
     "slug": "jm-vs-f-don",
@@ -87474,6 +87480,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "kmarh",
     "mc2": "monroe",
     "title": "K.MARH vs MONROE",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/kmarhvsmonroe.html",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -87846,6 +87853,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "lc",
     "mc2": "anbu-sensei",
     "title": "LC vs ANBU SENSEI",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/lcvsanbusensei.html",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -88284,6 +88292,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "marcel",
     "mc2": "khaos",
     "title": "MARCEL vs KHAOS",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/marcelvskhaoskayy.html",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -88746,6 +88755,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "relapse",
     "mc2": "storm",
     "title": "RELAPSE vs STORM",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/relapsevsstorm.html",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -89112,6 +89122,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "sevz",
     "mc2": "domi-dusk",
     "title": "SEVZ vs DOMI DUSK",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/sevzvsdomidusk.html",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -89598,6 +89609,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "zoellz",
     "mc2": "pocaa",
     "title": "ZOELLZ vs POCAA",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/zoellzvspocaa.html",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -89922,6 +89934,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "aliaano",
     "mc2": "star-co",
     "title": "ALIAANO vs STAR CO",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/aliaanovsstarco.html",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -90348,6 +90361,7 @@ export const pengameBattles: Battle[] = [
     "mc1": "penno",
     "mc2": "jmuni",
     "title": "PENNO vs J MUNI",
+    "videoUrl": "https://www.lordofthearchives.co.uk/battle/pennovsjmuni.html",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -92796,7 +92810,7 @@ export const pengameBattles: Battle[] = [
       "summary": "Official result: WIZDOM wins. Suggested score: WIZDOM 2-1 JASE. Suggested round split: Round 1: JASE, Round 2: WIZDOM, Round 3: WIZDOM. Reason: JASE starts well but drops the second round. WIZDOM completes his material and closes better. Performance Grades - WIZDOM: C-, JASE: Y. Graduation Status: Neither graduates today. Both are welcome back to Academy for more battles and practice. Final Note: JASE had the better first impression, but the second-round drop killed his chance. WIZDOM was rough but completed the job and took the official win."
     }
   },
-  { id: "pg-s05-sevz-vs-grams-2", slug: "sevz-vs-grams-2", mc1: "sevz", mc2: "grams", title: "SEVZ vs GRAMS #2", theme: "pengame", season: 5, subGroup: "Box Park 1v1 Battles", stage: null, tag: "Box Park 1v1 Battles", customEp: "5x63", seasonOrder: 63, winner: "unknown" }
+  { id: "pg-s05-sevz-vs-grams-2", slug: "sevz-vs-grams-2", mc1: "sevz", mc2: "grams", title: "SEVZ vs GRAMS #2", videoUrl: "https://www.lordofthearchives.co.uk/battle/sevzvsgrams2.html", theme: "pengame", season: 5, subGroup: "Box Park 1v1 Battles", stage: null, tag: "Box Park 1v1 Battles", customEp: "5x63", seasonOrder: 63, winner: "unknown" }
 ];
 
 const championsLeagueFixtures = [
@@ -92862,6 +92876,64 @@ const championsLeagueFixtures = [
   ["pg-scl-2026-08-23-eddfirst-vs-drizzgb", "eddfirst", "drizzgb", "EDDFIRST vs DRIZZGB", 60],
 ] as const;
 
+const championsLeagueUrls: Record<string, string> = {
+  "pg-scl-2026-04-15-jm-vs-kmarh": "https://www.lordofthearchives.co.uk/battle/jmvskmarh.html",
+  "pg-scl-2026-04-18-lc-vs-relapse": "https://www.lordofthearchives.co.uk/battle/lcvsrelapse.html",
+  "pg-scl-2026-04-20-varntae-vs-star-co": "https://www.lordofthearchives.co.uk/battle/varntaevsstarco.html",
+  "pg-scl-2026-04-22-monroe-vs-pocaa": "https://www.lordofthearchives.co.uk/battle/monroevspocaa.html",
+  "pg-scl-2026-04-25-eddfirst-vs-domi-dusk": "https://www.lordofthearchives.co.uk/battle/eddfirstvsdomidusk.html",
+  "pg-scl-2026-05-03-whoisorion-vs-lc": "https://www.lordofthearchives.co.uk/battle/whoisorionvslc.html",
+  "pg-scl-2026-05-03-monroe-vs-kmarh": "https://www.lordofthearchives.co.uk/battle/monroevskmarh.html",
+  "pg-scl-2026-05-03-drizzgb-vs-rp": "https://www.lordofthearchives.co.uk/battle/drizzgbvsrp.html",
+  "pg-scl-2026-05-03-kandi-vs-star-co": "https://www.lordofthearchives.co.uk/battle/kandivsstarco.html",
+  "pg-scl-2026-05-03-skamz-vs-relapse": "https://www.lordofthearchives.co.uk/battle/skamzvsrelapse.html",
+  "pg-scl-2026-05-03-char-b-vs-dan-dannah": "https://www.lordofthearchives.co.uk/battle/charbvsdandannah.html",
+  "pg-scl-2026-05-03-iiiberealz-vs-pocaa": "https://www.lordofthearchives.co.uk/battle/iiiberealzvspocaa.html",
+  "pg-scl-2026-05-03-varntae-vs-domi-dusk": "https://www.lordofthearchives.co.uk/battle/varntaevsdomidusk.html",
+  "pg-scl-2026-05-03-eddfirst-vs-jaycee": "https://www.lordofthearchives.co.uk/battle/eddfirstvsjaycee.html",
+  "pg-scl-2026-05-30-jm-vs-anbu-sensei": "https://www.lordofthearchives.co.uk/battle/jmvsanbusensei.html",
+  "pg-scl-2026-05-31-skamz-vs-whoisorion": "https://www.lordofthearchives.co.uk/battle/skamzvswhoisorion2.html",
+  "pg-scl-2026-05-31-kandi-vs-iiiberealz": "https://www.lordofthearchives.co.uk/battle/kandivsiiiberealz.html",
+  "pg-scl-2026-05-31-dan-dannah-vs-monroe": "https://www.lordofthearchives.co.uk/battle/dandannahvsmonroe.html",
+  "pg-scl-2026-05-31-jm-vs-varntae": "https://www.lordofthearchives.co.uk/battle/jmvsvarntae.html",
+  "pg-scl-2026-05-31-anbu-sensei-vs-relapse": "https://www.lordofthearchives.co.uk/battle/anbusenseivsrelapse.html",
+  "pg-scl-2026-05-31-jaycee-vs-kmarh": "https://www.lordofthearchives.co.uk/battle/jayceevskmarh.html",
+  "pg-scl-2026-05-31-eddfirst-vs-star-co": "https://www.lordofthearchives.co.uk/battle/eddfirstvsstarco.html",
+  "pg-scl-2026-05-31-char-b-vs-pocaa": "https://www.lordofthearchives.co.uk/battle/charbvspocaa.html",
+  "pg-scl-2026-05-31-domi-dusk-vs-rp": "https://www.lordofthearchives.co.uk/battle/domiduskvsrp.html",
+  "pg-scl-2026-05-31-drizzgb-vs-lc": "https://www.lordofthearchives.co.uk/battle/drizzgbvslc.html",
+  "pg-scl-2026-06-28-skamz-vs-jaycee": "https://www.lordofthearchives.co.uk/battle/skamzvsjaycee.html",
+  "pg-scl-2026-06-28-kandi-vs-monroe": "https://www.lordofthearchives.co.uk/battle/kandivsmonroe.html",
+  "pg-scl-2026-06-28-iiiberealz-vs-domi-dusk": "https://www.lordofthearchives.co.uk/battle/iiiberealzvsdomidusk.html",
+  "pg-scl-2026-06-28-dan-dannah-vs-jm": "https://www.lordofthearchives.co.uk/battle/dandannahvsjm.html",
+  "pg-scl-2026-06-28-whoisorion-vs-star-co": "https://www.lordofthearchives.co.uk/battle/whoisorionvsstarco.html",
+  "pg-scl-2026-06-28-anbu-sensei-vs-char-b": "https://www.lordofthearchives.co.uk/battle/anbusenseivscharb.html",
+  "pg-scl-2026-06-28-relapse-vs-pocaa": "https://www.lordofthearchives.co.uk/battle/relapsevspocaa.html",
+  "pg-scl-2026-06-28-varntae-vs-rp": "https://www.lordofthearchives.co.uk/battle/varntaevsrp.html",
+  "pg-scl-2026-06-28-kmarh-vs-drizzgb": "https://www.lordofthearchives.co.uk/battle/kmarhvsdrizzgb.html",
+  "pg-scl-2026-06-28-eddfirst-vs-lc": "https://www.lordofthearchives.co.uk/battle/eddfirstvslc.html",
+  "pg-scl-2026-07-26-skamz-vs-anbu-sensei": "https://www.lordofthearchives.co.uk/battle/skamzvsanbusensei.html",
+  "pg-scl-2026-07-26-kandi-vs-jaycee": "https://www.lordofthearchives.co.uk/battle/kandivsjaycee.html",
+  "pg-scl-2026-07-26-iiiberealz-vs-jm": "https://www.lordofthearchives.co.uk/battle/iiiberealzvsjm.html",
+  "pg-scl-2026-07-26-dan-dannah-vs-star-co": "https://www.lordofthearchives.co.uk/battle/dandannahvsstarco.html",
+  "pg-scl-2026-07-26-whoisorion-vs-kmarh": "https://www.lordofthearchives.co.uk/battle/whoisorionvskmarh.html",
+  "pg-scl-2026-07-26-relapse-vs-char-b": "https://www.lordofthearchives.co.uk/battle/relapsevscharb.html",
+  "pg-scl-2026-07-26-monroe-vs-drizzgb": "https://www.lordofthearchives.co.uk/battle/monroevsdrizzgb.html",
+  "pg-scl-2026-07-26-varntae-vs-lc": "https://www.lordofthearchives.co.uk/battle/varntaevslc.html",
+  "pg-scl-2026-07-26-eddfirst-vs-rp": "https://www.lordofthearchives.co.uk/battle/eddfirstvsrp.html",
+  "pg-scl-2026-07-26-pocaa-vs-domi-dusk": "https://www.lordofthearchives.co.uk/battle/pocaavsdomidusk.html",
+  "pg-scl-2026-08-23-skamz-vs-jm": "https://www.lordofthearchives.co.uk/battle/skamzvsjm.html",
+  "pg-scl-2026-08-23-kandi-vs-domi-dusk": "https://www.lordofthearchives.co.uk/battle/kandivsdomidusk.html",
+  "pg-scl-2026-08-23-iiiberealz-vs-whoisorion": "https://www.lordofthearchives.co.uk/battle/iiiberealzvswhoisorion.html",
+  "pg-scl-2026-08-23-dan-dannah-vs-varntae": "https://www.lordofthearchives.co.uk/battle/dandannahvsvarntae.html",
+  "pg-scl-2026-08-23-anbu-sensei-vs-lc": "https://www.lordofthearchives.co.uk/battle/anbusenseivslc.html",
+  "pg-scl-2026-08-23-jaycee-vs-pocaa": "https://www.lordofthearchives.co.uk/battle/jayceevspocaa.html",
+  "pg-scl-2026-08-23-relapse-vs-monroe": "https://www.lordofthearchives.co.uk/battle/relapsevsmonroe.html",
+  "pg-scl-2026-08-23-char-b-vs-kmarh": "https://www.lordofthearchives.co.uk/battle/charbvskmarh.html",
+  "pg-scl-2026-08-23-star-co-vs-rp": "https://www.lordofthearchives.co.uk/battle/starcovsrp.html",
+  "pg-scl-2026-08-23-eddfirst-vs-drizzgb": "https://www.lordofthearchives.co.uk/battle/eddfirstvsdrizzgb.html",
+};
+
 const championsLeagueOverrides: Record<string, Partial<Battle>> = Object.fromEntries(
   championsLeagueFixtures.map(([id, mc1, mc2, title, order]) => {
     const fixture = Math.ceil(order / 10);
@@ -92875,6 +92947,7 @@ const championsLeagueOverrides: Record<string, Partial<Battle>> = Object.fromEnt
       stage: `Champions League Fixture ${fixture}`,
       customEp: `CLx${String(order).padStart(2, "0")}`,
       seasonOrder: order,
+      videoUrl: championsLeagueUrls[id],
     }];
   }),
 );
@@ -92917,12 +92990,12 @@ export const getBattleHref = (battle: Pick<Battle, "slug">): string =>
 export const getBattleRouteHref = (battle: Pick<Battle, "slug">): string =>
   `/battle/${getBattlePageStem(battle)}`;
 
-export const findBattleByRouteSlug = (routeSlug: string): Battle | undefined => {
+export const findBattleByRouteSlug = (routeSlug: string, battles: Battle[] = pengameBattles): Battle | undefined => {
   const cleanSlug = decodeURIComponent(routeSlug).replace(/\/+$/g, "");
   const cleanStem = cleanSlug.replace(/\.html$/i, "");
   const legacyStem = cleanStem.replace(/\.html$/i, "");
 
-  return pengameBattles.find(
+  return battles.find(
     (battle) =>
       battle.slug === cleanSlug ||
       battle.slug === cleanStem ||

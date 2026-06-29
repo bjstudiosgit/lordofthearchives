@@ -8,7 +8,8 @@ import {
   getBattlePageStem,
   pengameBattles,
 } from "../../../data/pengameBattles";
-import { pengameMcs } from "../../../data/mcs";
+import { gzoneBattles } from "../../../data/gzone";
+import { allMcs } from "../../../data/mcs";
 import BattleDetailClient from "./BattleDetailClient";
 
 type Props = {
@@ -20,7 +21,7 @@ export const dynamicParams = false;
 export async function generateStaticParams() {
   const routeSlugs = new Set<string>();
 
-  pengameBattles.forEach((battle) => {
+  [...pengameBattles, ...gzoneBattles].forEach((battle) => {
     routeSlugs.add(getBattlePageStem(battle));
     routeSlugs.add(getBattleLegacyPageStem(battle));
     routeSlugs.add(battle.slug);
@@ -36,16 +37,16 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await Promise.resolve(params);
-  const battle = findBattleByRouteSlug(resolvedParams.slug);
+  const battle = findBattleByRouteSlug(resolvedParams.slug, [...pengameBattles, ...gzoneBattles]);
   
   if (!battle) {
     return { title: 'Battle Not Found' };
   }
   
-  const mc1 = pengameMcs.find(m => m.id === battle.mc1);
-  const mc2 = pengameMcs.find(m => m.id === battle.mc2);
-  const mc3 = battle.mc3 ? pengameMcs.find(m => m.id === battle.mc3) : undefined;
-  const mc4 = battle.mc4 ? pengameMcs.find(m => m.id === battle.mc4) : undefined;
+  const mc1 = allMcs.find(m => m.id === battle.mc1);
+  const mc2 = allMcs.find(m => m.id === battle.mc2);
+  const mc3 = battle.mc3 ? allMcs.find(m => m.id === battle.mc3) : undefined;
+  const mc4 = battle.mc4 ? allMcs.find(m => m.id === battle.mc4) : undefined;
   
   const getYouTubeId = (url: string | null | undefined) => {
     if (!url) return "";
@@ -64,8 +65,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   const team1Name = [mc1?.name ?? battle.mc1, mc3?.name].filter(Boolean).join(" & ");
   const team2Name = [mc2?.name ?? battle.mc2, mc4?.name].filter(Boolean).join(" & ");
-  const title = `${team1Name} vs ${team2Name} | PenGame`;
-  const description = `${team1Name} faces ${team2Name} in this PenGame battle.`;
+  const leagueName = battle.theme === "gzone" ? "Gzone" : "PenGame";
+  const title = `${team1Name} vs ${team2Name} | ${leagueName}`;
+  const description = `${team1Name} faces ${team2Name} in this ${leagueName} battle.`;
   const battleUrl = `https://www.lordofthearchives.co.uk${getBattleHref(battle)}`;
 
   return {
@@ -93,7 +95,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BattlePage({ params }: Props) {
   const resolvedParams = await Promise.resolve(params);
-  const battle = findBattleByRouteSlug(resolvedParams.slug);
+  const battle = findBattleByRouteSlug(resolvedParams.slug, [...pengameBattles, ...gzoneBattles]);
   
   if (!battle) {
     notFound();

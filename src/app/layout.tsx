@@ -28,11 +28,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-7YLK7S5HW2');
           `}
         </Script>
-      </head>
-      <body className="min-h-screen bg-zinc-950 selection:bg-brand selection:text-black text-white">
-        <Navbar />
-        {children}
-        <Footer />
         {ADSENSE_CLIENT && (
           <Script
             id="google-adsense"
@@ -42,6 +37,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             crossOrigin="anonymous"
           />
         )}
+      </head>
+      <body className="min-h-screen bg-zinc-950 selection:bg-brand selection:text-black text-white">
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
