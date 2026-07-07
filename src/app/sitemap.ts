@@ -10,6 +10,16 @@ export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date();
+  const getLastModified = (date?: string | null) => {
+    if (!date) return currentDate;
+
+    const parsedDate = new Date(date);
+    if (Number.isNaN(parsedDate.getTime()) || parsedDate > currentDate) {
+      return currentDate;
+    }
+
+    return parsedDate;
+  };
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, lastModified: currentDate, changeFrequency: 'daily', priority: 1 },
@@ -19,13 +29,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/gzone/league`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/lota-league`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/peoples-vote`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${SITE_URL}/property`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE_URL}/mcs`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/hosts-judges`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
   ];
 
   const battlePages: MetadataRoute.Sitemap = [...pengameBattles, ...gzoneBattles].map((battle) => ({
     url: `${SITE_URL}${getBattleHref(battle)}`,
-    lastModified: battle.date ? new Date(battle.date) : currentDate,
+    lastModified: getLastModified(battle.date),
     changeFrequency: 'weekly',
     priority: 0.8,
   }));

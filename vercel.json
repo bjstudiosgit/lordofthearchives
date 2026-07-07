@@ -18,6 +18,296 @@
       "permanent": true
     },
     {
+      "source": "/mc/a-petrelli",
+      "destination": "/mc/apetrelli",
+      "permanent": true
+    },
+    {
+      "source": "/mc/a-petrelli.html",
+      "destination": "/mc/apetrelli",
+      "permanent": true
+    },
+    {
+      "source": "/mc/anbu-sensei",
+      "destination": "/mc/anbusensei",
+      "permanent": true
+    },
+    {
+      "source": "/mc/anbu-sensei.html",
+      "destination": "/mc/anbusensei",
+      "permanent": true
+    },
+    {
+      "source": "/mc/ashley-tragic",
+      "destination": "/mc/ashleytragic",
+      "permanent": true
+    },
+    {
+      "source": "/mc/ashley-tragic.html",
+      "destination": "/mc/ashleytragic",
+      "permanent": true
+    },
+    {
+      "source": "/mc/badee-harz",
+      "destination": "/mc/badeeharz",
+      "permanent": true
+    },
+    {
+      "source": "/mc/badee-harz.html",
+      "destination": "/mc/badeeharz",
+      "permanent": true
+    },
+    {
+      "source": "/mc/black-t",
+      "destination": "/mc/blackt",
+      "permanent": true
+    },
+    {
+      "source": "/mc/black-t.html",
+      "destination": "/mc/blackt",
+      "permanent": true
+    },
+    {
+      "source": "/mc/bmf-alz",
+      "destination": "/mc/bmfalz",
+      "permanent": true
+    },
+    {
+      "source": "/mc/bmf-alz.html",
+      "destination": "/mc/bmfalz",
+      "permanent": true
+    },
+    {
+      "source": "/mc/bonnie-godiva",
+      "destination": "/mc/bonniegodiva",
+      "permanent": true
+    },
+    {
+      "source": "/mc/bonnie-godiva.html",
+      "destination": "/mc/bonniegodiva",
+      "permanent": true
+    },
+    {
+      "source": "/mc/char-b",
+      "destination": "/mc/charb",
+      "permanent": true
+    },
+    {
+      "source": "/mc/char-b.html",
+      "destination": "/mc/charb",
+      "permanent": true
+    },
+    {
+      "source": "/mc/cj-zino",
+      "destination": "/mc/cjzino",
+      "permanent": true
+    },
+    {
+      "source": "/mc/cj-zino.html",
+      "destination": "/mc/cjzino",
+      "permanent": true
+    },
+    {
+      "source": "/mc/crai-g",
+      "destination": "/mc/craig",
+      "permanent": true
+    },
+    {
+      "source": "/mc/crai-g.html",
+      "destination": "/mc/craig",
+      "permanent": true
+    },
+    {
+      "source": "/mc/dan-dannah",
+      "destination": "/mc/dandannah",
+      "permanent": true
+    },
+    {
+      "source": "/mc/dan-dannah.html",
+      "destination": "/mc/dandannah",
+      "permanent": true
+    },
+    {
+      "source": "/mc/domi-dusk",
+      "destination": "/mc/domidusk",
+      "permanent": true
+    },
+    {
+      "source": "/mc/domi-dusk.html",
+      "destination": "/mc/domidusk",
+      "permanent": true
+    },
+    {
+      "source": "/mc/el-bandzo",
+      "destination": "/mc/elbandzo",
+      "permanent": true
+    },
+    {
+      "source": "/mc/el-bandzo.html",
+      "destination": "/mc/elbandzo",
+      "permanent": true
+    },
+    {
+      "source": "/mc/f-don",
+      "destination": "/mc/fdon",
+      "permanent": true
+    },
+    {
+      "source": "/mc/f-don.html",
+      "destination": "/mc/fdon",
+      "permanent": true
+    },
+    {
+      "source": "/mc/frizz-price",
+      "destination": "/mc/frizzprice",
+      "permanent": true
+    },
+    {
+      "source": "/mc/frizz-price.html",
+      "destination": "/mc/frizzprice",
+      "permanent": true
+    },
+    {
+      "source": "/mc/h-star",
+      "destination": "/mc/hstar",
+      "permanent": true
+    },
+    {
+      "source": "/mc/h-star.html",
+      "destination": "/mc/hstar",
+      "permanent": true
+    },
+    {
+      "source": "/mc/khaos-kayy",
+      "destination": "/mc/khaoskayy",
+      "permanent": true
+    },
+    {
+      "source": "/mc/khaos-kayy.html",
+      "destination": "/mc/khaoskayy",
+      "permanent": true
+    },
+    {
+      "source": "/mc/ldn-mikez",
+      "destination": "/mc/ldnmikez",
+      "permanent": true
+    },
+    {
+      "source": "/mc/ldn-mikez.html",
+      "destination": "/mc/ldnmikez",
+      "permanent": true
+    },
+    {
+      "source": "/mc/leo-mg",
+      "destination": "/mc/leomg",
+      "permanent": true
+    },
+    {
+      "source": "/mc/leo-mg.html",
+      "destination": "/mc/leomg",
+      "permanent": true
+    },
+    {
+      "source": "/mc/lil-shakz",
+      "destination": "/mc/lilshakz",
+      "permanent": true
+    },
+    {
+      "source": "/mc/lil-shakz.html",
+      "destination": "/mc/lilshakz",
+      "permanent": true
+    },
+    {
+      "source": "/mc/mr-benz",
+      "destination": "/mc/mrbenz",
+      "permanent": true
+    },
+    {
+      "source": "/mc/mr-benz.html",
+      "destination": "/mc/mrbenz",
+      "permanent": true
+    },
+    {
+      "source": "/mc/premeboi-j",
+      "destination": "/mc/premeboij",
+      "permanent": true
+    },
+    {
+      "source": "/mc/premeboi-j.html",
+      "destination": "/mc/premeboij",
+      "permanent": true
+    },
+    {
+      "source": "/mc/ren-dmc",
+      "destination": "/mc/rendmc",
+      "permanent": true
+    },
+    {
+      "source": "/mc/ren-dmc.html",
+      "destination": "/mc/rendmc",
+      "permanent": true
+    },
+    {
+      "source": "/mc/ritchie-rich",
+      "destination": "/mc/ritchierich",
+      "permanent": true
+    },
+    {
+      "source": "/mc/ritchie-rich.html",
+      "destination": "/mc/ritchierich",
+      "permanent": true
+    },
+    {
+      "source": "/mc/rizzy-raps",
+      "destination": "/mc/rizzyraps",
+      "permanent": true
+    },
+    {
+      "source": "/mc/rizzy-raps.html",
+      "destination": "/mc/rizzyraps",
+      "permanent": true
+    },
+    {
+      "source": "/mc/selly-the-rapper",
+      "destination": "/mc/sellytherapper",
+      "permanent": true
+    },
+    {
+      "source": "/mc/selly-the-rapper.html",
+      "destination": "/mc/sellytherapper",
+      "permanent": true
+    },
+    {
+      "source": "/mc/shorty-woa",
+      "destination": "/mc/shortywoa",
+      "permanent": true
+    },
+    {
+      "source": "/mc/shorty-woa.html",
+      "destination": "/mc/shortywoa",
+      "permanent": true
+    },
+    {
+      "source": "/mc/star-co",
+      "destination": "/mc/starco",
+      "permanent": true
+    },
+    {
+      "source": "/mc/star-co.html",
+      "destination": "/mc/starco",
+      "permanent": true
+    },
+    {
+      "source": "/mc/z-k",
+      "destination": "/mc/zk",
+      "permanent": true
+    },
+    {
+      "source": "/mc/z-k.html",
+      "destination": "/mc/zk",
+      "permanent": true
+    },
+    {
       "source": "/mc/:slug.html",
       "destination": "/mc/:slug",
       "permanent": true

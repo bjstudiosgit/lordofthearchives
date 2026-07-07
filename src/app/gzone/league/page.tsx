@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import { motion } from "motion/react";
 import { Trophy } from "lucide-react";
 import { getGzoneStandings } from "../../../data/gzone";
+import { getMcProfileHref } from "../../../data/mcs";
 
 type SortMode = "appearances" | "wins" | "losses" | "winRate" | "lossRate" | "points";
 
@@ -59,7 +60,7 @@ export default function GzoneLeaguePage() {
                   transition={{ delay: index * 0.1 }}
                   className="group flex items-center justify-between rounded-2xl border border-white/5 bg-zinc-900/40 p-4 backdrop-blur-sm transition-all hover:border-gzone/30"
                 >
-                  <Link href={`/mc/${mc.slug}`} className="flex flex-1 items-center gap-4" aria-label={`View ${mc.name}'s profile`}>
+                  <Link href={getMcProfileHref(mc.id)} className="flex flex-1 items-center gap-4" aria-label={`View ${mc.name}'s profile`}>
                     <div className="relative">
                       <div
                         className={`flex h-12 w-12 items-center justify-center rounded-xl border bg-zinc-800 text-xl font-bold italic text-gzone ${
@@ -169,7 +170,7 @@ export default function GzoneLeaguePage() {
                         </span>
                       </td>
                       <td className="px-2 py-3 md:px-8 md:py-6">
-                        <Link href={`/mc/${mc.slug}`} className="flex items-center gap-2 md:gap-4 group/name">
+                        <Link href={getMcProfileHref(mc.id)} className="flex items-center gap-2 md:gap-4 group/name">
                           <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-white/10 bg-zinc-800 text-[10px] font-bold text-gzone transition-colors md:h-10 md:w-10 md:text-base">
                             {mc.name[0]}
                           </div>

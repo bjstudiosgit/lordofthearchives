@@ -27,10 +27,46 @@ export interface MC {
   badges?: string[];
 }
 
+export const mcProfileSlugOverrides: Record<string, string> = {
+  "a-petrelli": "apetrelli",
+  "anbu-sensei": "anbusensei",
+  "ashley-tragic": "ashleytragic",
+  "badee-harz": "badeeharz",
+  "black-t": "blackt",
+  "bmf-alz": "bmfalz",
+  "bonnie-godiva": "bonniegodiva",
+  "char-b": "charb",
+  "cj-zino": "cjzino",
+  "crai-g": "craig",
+  "dan-dannah": "dandannah",
+  "domi-dusk": "domidusk",
+  "el-bandzo": "elbandzo",
+  "f-don": "fdon",
+  "frizz-price": "frizzprice",
+  "h-star": "hstar",
+  "khaos-kayy": "khaoskayy",
+  "ldn-mikez": "ldnmikez",
+  "leo-mg": "leomg",
+  "lil-shakz": "lilshakz",
+  "mr-benz": "mrbenz",
+  "premeboi-j": "premeboij",
+  "ren-dmc": "rendmc",
+  "ritchie-rich": "ritchierich",
+  "rizzy-raps": "rizzyraps",
+  "selly-the-rapper": "sellytherapper",
+  "shorty-woa": "shortywoa",
+  "star-co": "starco",
+  "z-k": "zk",
+};
+
+export const getMcProfileSlug = (mcId: string): string => mcProfileSlugOverrides[mcId] ?? mcId;
+
+export const getMcProfileHref = (mcId: string): string => `/mc/${getMcProfileSlug(mcId)}`;
+
 export const mcs: MC[] = [
   {
     "id": "f-don",
-    "slug": "f-don",
+    "slug": "fdon",
     "name": "F-DON",
     "nickname": "The Lyrical Don",
     "battles": 20,
@@ -72,7 +108,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "ashley-tragic",
-    "slug": "ashley-tragic",
+    "slug": "ashleytragic",
     "name": "ASHLEY TRAGIC",
     "battles": 1,
     "wins": 0,
@@ -94,7 +130,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "shorty-woa",
-    "slug": "shorty-woa",
+    "slug": "shortywoa",
     "name": "SHORTY WOA",
     "battles": 1,
     "wins": 0,
@@ -127,7 +163,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "dan-dannah",
-    "slug": "dan-dannah",
+    "slug": "dandannah",
     "name": "DAN DANNAH",
     "battles": 18,
     "wins": 2,
@@ -160,7 +196,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "frizz-price",
-    "slug": "frizz-price",
+    "slug": "frizzprice",
     "name": "FRIZZ PRICE",
     "battles": 1,
     "wins": 0,
@@ -171,7 +207,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "ren-dmc",
-    "slug": "ren-dmc",
+    "slug": "rendmc",
     "name": "REN DMC",
     "nickname": "The Legend",
     "battles": 14,
@@ -183,7 +219,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "lil-shakz",
-    "slug": "lil-shakz",
+    "slug": "lilshakz",
     "name": "LIL SHAKZ",
     "battles": 3,
     "wins": 3,
@@ -216,7 +252,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "el-bandzo",
-    "slug": "el-bandzo",
+    "slug": "elbandzo",
     "name": "EL BANDZO",
     "battles": 1,
     "wins": 0,
@@ -305,7 +341,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "bmf-alz",
-    "slug": "bmf-alz",
+    "slug": "bmfalz",
     "name": "BMF ALZ",
     "battles": 3,
     "wins": 0,
@@ -384,7 +420,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "a-petrelli",
-    "slug": "a-petrelli",
+    "slug": "apetrelli",
     "name": "A PETRELLI",
     "battles": 1,
     "wins": 0,
@@ -593,7 +629,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "anbu-sensei",
-    "slug": "anbu-sensei",
+    "slug": "anbusensei",
     "name": "ANBU SENSEI",
     "battles": 10,
     "wins": 4,
@@ -604,7 +640,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "domi-dusk",
-    "slug": "domi-dusk",
+    "slug": "domidusk",
     "name": "DOMI DUSK",
     "battles": 5,
     "wins": 1,
@@ -659,7 +695,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "premeboi-j",
-    "slug": "premeboi-j",
+    "slug": "premeboij",
     "name": "PREMEBOI J",
     "battles": 1,
     "wins": 0,
@@ -725,7 +761,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "mr-benz",
-    "slug": "mr-benz",
+    "slug": "mrbenz",
     "name": "MR.BENZ",
     "battles": 3,
     "wins": 0,
@@ -846,7 +882,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "char-b",
-    "slug": "char-b",
+    "slug": "charb",
     "name": "CHAR.B",
     "battles": 1,
     "wins": 0,
@@ -857,7 +893,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "bonnie-godiva",
-    "slug": "bonnie-godiva",
+    "slug": "bonniegodiva",
     "name": "BONNIE GODIVA",
     "battles": 1,
     "wins": 0,
@@ -901,7 +937,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "star-co",
-    "slug": "star-co",
+    "slug": "starco",
     "name": "STAR CO",
     "battles": 2,
     "wins": 0,
@@ -1066,7 +1102,7 @@ export const mcs: MC[] = [
   },
   {
     "id": "black-t",
-    "slug": "black-t",
+    "slug": "blackt",
     "name": "BLACK T",
     "battles": 1,
     "wins": 0,
@@ -1102,7 +1138,7 @@ const academyMcProfiles = [
 mcs.push(
   ...academyMcProfiles.map(([id, name]) => ({
     id,
-    slug: id,
+    slug: getMcProfileSlug(id),
     name,
     battles: 0,
     wins: 0,
@@ -1124,7 +1160,7 @@ const season2025McProfiles = [
 mcs.push(
   ...season2025McProfiles.map(([id, name]) => ({
     id,
-    slug: id,
+    slug: getMcProfileSlug(id),
     name,
     battles: 0,
     wins: 0,
@@ -1156,7 +1192,7 @@ const gzoneMcProfiles = [
 mcs.push(
   ...gzoneMcProfiles.map(([id, name]) => ({
     id,
-    slug: id,
+    slug: getMcProfileSlug(id),
     name,
     battles: 0,
     wins: 0,
@@ -1264,7 +1300,7 @@ export const pengameMcs: MC[] = Array.from(pengameRecordsById.entries())
     if (!base) {
       return {
         id: mcId,
-        slug: mcId,
+        slug: getMcProfileSlug(mcId),
         name: mcId,
         battles: record.battles,
         wins: record.wins,
@@ -1299,7 +1335,7 @@ export const allMcs: MC[] = Array.from(allRecordsById.entries())
     if (!base) {
       return {
         id: mcId,
-        slug: mcId,
+        slug: getMcProfileSlug(mcId),
         name: mcId,
         battles: record.battles,
         wins: record.wins,

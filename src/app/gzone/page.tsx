@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Calendar, CircleDot, Eye, Play, Trophy } from "lucide-react";
 import { formatBattleDate } from "../../data/battleDates";
 import { gzoneBattles } from "../../data/gzone";
+import { getMcProfileHref } from "../../data/mcs";
 import { getBattleRouteHref } from "../../data/pengameBattles";
 
 export const metadata = {
@@ -77,7 +78,7 @@ export default function GzonePage() {
                       </td>
                       <td className="px-3 py-4 md:px-6">
                         <div className="flex flex-wrap items-center gap-2 text-sm font-semibold uppercase italic text-zinc-100 md:text-lg">
-                          <Link href={`/mc/${battle.mc1}`} className="transition-colors hover:text-gzone hover:underline">
+                          <Link href={getMcProfileHref(battle.mc1)} className="transition-colors hover:text-gzone hover:underline">
                             {battle.title.split(" vs ")[0]}
                           </Link>
                           {battle.winner === battle.mc1 && <Trophy size={14} className="text-gzone md:h-[18px] md:w-[18px]" />}
@@ -85,7 +86,7 @@ export default function GzonePage() {
                             VS
                           </Link>
                           {battle.winner === battle.mc2 && <Trophy size={14} className="text-gzone md:h-[18px] md:w-[18px]" />}
-                          <Link href={`/mc/${battle.mc2}`} className="transition-colors hover:text-gzone hover:underline">
+                          <Link href={getMcProfileHref(battle.mc2)} className="transition-colors hover:text-gzone hover:underline">
                             {battle.title.split(" vs ")[1]}
                           </Link>
                         </div>
