@@ -215,7 +215,8 @@ export const mcs: MC[] = [
     "losses": 2,
     "style": "Versatile",
     "image": "/rendmc.png",
-    "bio": "PenGame Season 4 and 2023 Tournament Champion. Ren DMC is widely regarded as one of the most technically skilled and versatile MCs in the league, with a high win rate to prove it."
+    "bio": "PenGame Season 4 and 2023 Tournament Champion. Ren DMC is widely regarded as one of the most technically skilled and versatile MCs in the league, with a high win rate to prove it.",
+    "instagram": "ren.dmc"
   },
   {
     "id": "lil-shakz",
