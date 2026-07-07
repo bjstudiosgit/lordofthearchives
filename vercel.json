@@ -1,0 +1,34 @@
+{
+  "redirects": [
+    {
+      "source": "/battle/:slug.html",
+      "destination": "/battle/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/mc/:slug.html",
+      "destination": "/mc/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/hosts-judges/:slug.html",
+      "destination": "/hosts-judges/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/pengame.html",
+      "destination": "/pengame",
+      "permanent": true
+    },
+    {
+      "source": "/mcs.html",
+      "destination": "/mcs",
+      "permanent": true
+    },
+    {
+      "source": "/hosts-judges.html",
+      "destination": "/hosts-judges",
+      "permanent": true
+    }
+  ]
+}
