@@ -5,8 +5,8 @@ import { gzoneBattles } from "../../data/gzone";
 import { getBattleRouteHref } from "../../data/pengameBattles";
 
 export const metadata = {
-  title: "Gzone League Lord of the Archives",
-  description: "Gzone Season 1 battles and league standings.",
+  title: "Gzone Archives Lord of the Archives",
+  description: "Gzone Season 1 battle archive and league standings.",
 };
 
 const parseViews = (views: string | number | null | undefined): number => {
@@ -33,11 +33,8 @@ export default function GzonePage() {
         <div className="mb-16 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
             <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
-              Gzone <span className="text-gzone">League</span>
+              Gzone <span className="text-gzone">Archives</span>
             </h1>
-            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-400 md:text-base">
-              Season 1 battle archive.
-            </p>
           </div>
 
           <div className="flex flex-wrap gap-4">
@@ -47,9 +44,16 @@ export default function GzonePage() {
         </div>
 
         <section>
-          <div className="mb-6 flex items-center gap-3">
-            <CircleDot className="text-gzone" size={20} />
-            <h2 className="text-2xl font-display italic uppercase">Season 1 Battles</h2>
+          <div className="mb-8">
+            <div className="mb-3 flex items-center gap-3">
+              <CircleDot className="text-gzone" size={20} />
+              <h2 className="text-xl font-semibold text-zinc-200 md:text-2xl">
+                Gzone Season 1 Most Wanted
+              </h2>
+            </div>
+            <p className="max-w-4xl text-sm leading-relaxed text-zinc-400">
+              Season 1 features DEENO, TAPPED24, PR1NC3, ROMAN, LDN MIKEZ, DELUXX, CJ ZINO, PROTY, RENZO, BTIZZ, RYNO, TYMELESS, AJNA, NATTYEBK, GRAMS, 1FLAYMR, BADEE HARZ and Z.K.
+            </p>
           </div>
           <div className="overflow-hidden rounded-3xl border border-white/5 bg-zinc-900/20">
             <div className="overflow-x-auto">

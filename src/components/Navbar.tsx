@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { Users, Trophy, Menu, X, Youtube, Play, Scale, Eye } from "lucide-react";
+import { Users, Trophy, Menu, X, Youtube, Play, Scale, Eye, Package } from "lucide-react";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 
@@ -52,6 +52,7 @@ export default function Navbar() {
         { name: "Hosts", href: "/hosts-judges", icon: Scale },
         { name: "League", href: "/lota-league", icon: Trophy },
         { name: "People", href: "/peoples-vote", icon: Eye },
+        { name: "Prop'erty", href: "/property", icon: Package },
       ],
     },
   ];

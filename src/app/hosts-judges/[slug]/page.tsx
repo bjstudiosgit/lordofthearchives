@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Scale } from "lucide-react";
@@ -9,17 +10,33 @@ type Props = {
 
 export const dynamicParams = false;
 
+const SITE_URL = "https://www.lordofthearchives.co.uk";
+
 export async function generateStaticParams() {
   return creditPeople.map((person) => ({ slug: person.slug }));
 }
 
-export async function generateMetadata({ params }: Props) {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await Promise.resolve(params);
   const person = creditPeople.find((candidate) => candidate.slug === resolvedParams.slug);
 
+  if (!person) {
+    return { title: "Host or Judge Lord of the Archives" };
+  }
+
+  const url = `${SITE_URL}/hosts-judges/${person.slug}`;
+
   return {
-    title: person ? `${person.name} Hosts & Judges` : "Host or Judge Lord of the Archives",
-    description: person?.bio,
+    title: `${person.name} Hosts & Judges`,
+    description: person.bio,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: `${person.name} Hosts & Judges`,
+      description: person.bio,
+      url,
+    },
   };
 }
 

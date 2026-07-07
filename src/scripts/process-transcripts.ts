@@ -657,7 +657,7 @@ export const getBattlePageSlug = (battle: Pick<Battle, "slug">): string =>
   \`\${getBattlePageStem(battle)}.html\`;
 
 export const getBattleHref = (battle: Pick<Battle, "slug">): string =>
-  \`/battle/\${getBattlePageSlug(battle)}\`;
+  \`/battle/\${getBattlePageStem(battle)}\`;
 
 export const getBattleRouteHref = (battle: Pick<Battle, "slug">): string =>
   \`/battle/\${getBattlePageStem(battle)}\`;

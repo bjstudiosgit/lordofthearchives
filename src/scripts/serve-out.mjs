@@ -80,6 +80,15 @@ const server = createServer(async (req, res) => {
     return;
   }
 
+  const url = new URL(req.url, `http://${req.headers.host ?? "localhost"}`);
+  if (url.pathname.endsWith(".html") && url.pathname !== "/index.html") {
+    url.pathname = url.pathname.slice(0, -5);
+    res.statusCode = 308;
+    res.setHeader("Location", `${url.pathname}${url.search}`);
+    res.end();
+    return;
+  }
+
   const resolvedPath = safeResolve(req.url);
   if (!resolvedPath) {
     res.statusCode = 400;

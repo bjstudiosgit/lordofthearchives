@@ -1212,6 +1212,51 @@ const computeMcRecords = (battles: Battle[]): Map<string, McRecord> => {
 const pengameRecordsById = computeMcRecords(pengameBattles);
 const allRecordsById = computeMcRecords([...pengameBattles, ...gzoneBattles]);
 
+const genericBioPattern = /^(PenGame|Gzone|Battle)(?: .*)? artist\.$/;
+
+const getBattleParticipants = (battle: Battle): string[] =>
+  [battle.mc1, battle.mc2, battle.mc3, battle.mc4].filter(Boolean) as string[];
+
+const getMcDisplayName = (mcId: string): string =>
+  mcs.find((mc) => mc.id === mcId)?.name ?? mcId.toUpperCase();
+
+const formatMcSeasonLabel = (season: string): string =>
+  /^\d/.test(season) ? `Season ${season}` : season;
+
+const summarizeMcFromBattles = (mc: MC, battles: Battle[], fallbackBio: string): Pick<MC, "bio" | "quote"> => {
+  if (!genericBioPattern.test(mc.bio)) return { bio: mc.bio, quote: mc.quote };
+
+  const mcBattles = battles.filter((battle) => getBattleParticipants(battle).includes(mc.id));
+  if (mcBattles.length === 0) return { bio: fallbackBio, quote: mc.quote };
+
+  const seasons = Array.from(new Set(mcBattles.map((battle) => String(battle.season)))).slice(0, 3);
+  const opponents = Array.from(
+    new Set(
+      mcBattles
+        .flatMap((battle) => getBattleParticipants(battle))
+        .filter((participant) => participant !== mc.id)
+        .map(getMcDisplayName),
+    ),
+  ).slice(0, 4);
+  const notableBar = mcBattles
+    .flatMap((battle) => battle.notableBars ?? [])
+    .find((bar) => !bar.performer || bar.performer.toLowerCase() === mc.name.toLowerCase());
+  const analysis = mcBattles
+    .flatMap((battle) => battle.performanceAnalysis ?? [])
+    .find((item) => item.performer.toLowerCase() === mc.name.toLowerCase());
+  const theme = analysis?.lyricalThemes.split(",")[0]?.trim().toLowerCase();
+  const record = mc.wins + mc.losses > 0 ? `${mc.wins}-${mc.losses}` : `${mcBattles.length} battle`;
+  const platform = mcBattles.some((battle) => battle.theme === "gzone") ? "Gzone" : "PenGame";
+  const seasonText = seasons.length > 0 ? ` across ${seasons.map(formatMcSeasonLabel).join(", ")}` : "";
+  const opponentText = opponents.length > 0 ? ` Notable clashes include ${opponents.join(", ")}.` : "";
+  const styleText = theme ? ` His archive notes point to ${theme} as a recurring angle.` : "";
+
+  return {
+    bio: `${platform} battler with a ${record} recorded archive profile${seasonText}.${opponentText}${styleText}`,
+    quote: mc.quote ?? notableBar?.bar,
+  };
+};
+
 export const pengameMcs: MC[] = Array.from(pengameRecordsById.entries())
   .map(([mcId, record]) => {
     const base = mcs.find((mc) => mc.id === mcId);
@@ -1231,12 +1276,18 @@ export const pengameMcs: MC[] = Array.from(pengameRecordsById.entries())
       };
     }
 
-    return {
+    const profile = {
       ...base,
       battles: record.battles,
       wins: record.wins,
       losses: record.losses,
       scoredBattles: record.scoredBattles,
+    };
+    const summary = summarizeMcFromBattles(profile, pengameBattles, "PenGame artist.");
+
+    return {
+      ...profile,
+      ...summary,
     };
   })
   .sort((a, b) => a.name.localeCompare(b.name));
@@ -1260,12 +1311,18 @@ export const allMcs: MC[] = Array.from(allRecordsById.entries())
       };
     }
 
-    return {
+    const profile = {
       ...base,
       battles: record.battles,
       wins: record.wins,
       losses: record.losses,
       scoredBattles: record.scoredBattles,
+    };
+    const summary = summarizeMcFromBattles(profile, [...pengameBattles, ...gzoneBattles], "Battle artist.");
+
+    return {
+      ...profile,
+      ...summary,
     };
   })
   .sort((a, b) => a.name.localeCompare(b.name));

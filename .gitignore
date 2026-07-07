@@ -6,13 +6,35 @@ node_modules/
 _next/
 out/
 
+# Static export artefacts generated at the repository root
+/battle/
+/mc/
+/hosts-judges/
+/league/
+/mcs/
+/pengame/
+/gzone/
+/lota-league/
+/peoples-vote/
+/property/
+/*.html
+/*.txt
+/sitemap.xml
+/robots.txt
+*.html
+*.txt
+!public/**/*.txt
+!transcribe/**/*.txt
+
 # Logs
 *.log
 .codex-dev*.log
+.codex-*.log
 
 # Build
 dist/
 *.tsbuildinfo
+tsconfig.tsbuildinfo
 
 # OS
 .DS_Store
