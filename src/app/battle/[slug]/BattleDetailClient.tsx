@@ -3,14 +3,16 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import { getRepeatClashNumber, hasBattleArchiveData, pengameBattles } from "../../../data/pengameBattles";
 import { gzoneBattles } from "../../../data/gzone";
+import { lordOfTheMicsBattles } from "../../../data/lordOfTheMics";
 import { getCreditPersonByName } from "../../../data/credits";
 import { formatBattleDate } from "../../../data/battleDates";
 import { hasOfficialBattleResult } from "../../../data/leagueStandings";
 import { allMcs } from "../../../data/mcs";
-import { ArrowLeft, Play, Share2, Trophy, Clock } from "lucide-react";
+import { propertyItems } from "../../../data/property";
+import { ArrowLeft, Play, Share2, Trophy, Clock, Scissors } from "lucide-react";
 
 export default function BattleDetailClient({ slug }: { slug: string }) {
-  const battle = [...pengameBattles, ...gzoneBattles].find(b => b.slug === slug);
+  const battle = [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles].find(b => b.slug === slug);
 
   if (!battle) {
     return (
@@ -32,12 +34,16 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
   const hostCredit = battle.host ? getCreditPersonByName(battle.host) : undefined;
   const hasArchiveData = hasBattleArchiveData(battle);
   const isNoOfficialDecision = battle.statusNote?.toLowerCase().includes("no official decision") ?? false;
-  const winnerLabel = isNoOfficialDecision ? "LOTA Result" : "Official Winner";
   const isGzone = battle.theme === "gzone";
   const themeTextClass = isGzone ? "text-gzone" : "text-brand";
   const themeHoverTextClass = isGzone ? "hover:text-gzone" : "hover:text-brand";
-  const backHref = isGzone ? "/gzone" : "/pengame";
-  const backLabel = isGzone ? "Back to Gzone" : "Back to PenGame";
+  const isLotm = battle.theme === "lotm";
+  const backHref = isGzone ? "/gzone" : isLotm ? "/lord-of-the-mics" : "/pengame";
+  const backLabel = isGzone ? "Back to Gzone" : isLotm ? "Back to LOTM" : "Back to PenGame";
+  const battleHref = `/battle/${slug}`;
+  const battlePropertyItems = propertyItems
+    .filter((item) => item.battleHref === battleHref)
+    .sort((a, b) => b.dateSort.localeCompare(a.dateSort));
 
   // Helper to extract YouTube ID from embed URL
   const getYouTubeId = (url: string | null | undefined) => {
@@ -67,7 +73,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
     "@context": "https://schema.org",
     "@type": "VideoObject",
     "name": `${battle.title} Rap Battle`,
-    "description": `${team1Name} faces ${team2Name} in this ${isGzone ? "Gzone" : "PenGame"} battle.`,
+    "description": `${team1Name} faces ${team2Name} in this ${isGzone ? "Gzone" : isLotm ? "Lord of the Mics" : "PenGame"} battle.`,
     "thumbnailUrl": `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
     "uploadDate": formatDateForSchema(battle.date),
     "contentUrl": `https://www.youtube.com/watch?v=${videoId}`,
@@ -158,6 +164,41 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               </section>
             )}
 
+            {battlePropertyItems.length > 0 && (
+              <section className="rounded-3xl border border-white/5 bg-zinc-900/40 p-6">
+                <h2 className="mb-5 flex items-center gap-3 text-xs font-black uppercase tracking-[0.4em] text-zinc-500">
+                  <div className="h-4 w-1 bg-brand" />
+                  Prop&apos;erty
+                </h2>
+                <div className="space-y-3">
+                  {battlePropertyItems.map((item) => (
+                    <article
+                      key={`${item.name}-${item.usedById}`}
+                      className="flex items-start gap-4 rounded-2xl border border-white/5 bg-zinc-950/50 p-4"
+                    >
+                      <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-zinc-800 text-brand">
+                        <Scissors size={22} strokeWidth={1.8} />
+                      </div>
+                      <div className="min-w-0">
+                        <div className="mb-1 flex flex-wrap items-center gap-2">
+                          <span className="font-mono text-[10px] text-zinc-500">{item.episode}</span>
+                          <span className="text-[10px] text-zinc-600">{item.date}</span>
+                        </div>
+                        <h3 className="font-display text-xl italic uppercase text-white">{item.name}</h3>
+                        <p className="mt-1 text-sm text-zinc-400">{item.note}</p>
+                        <p className="mt-2 text-sm text-zinc-300">
+                          Used by{" "}
+                          <Link href={item.usedByHref} className="font-bold text-white transition-colors hover:text-brand hover:underline">
+                            {item.usedBy}
+                          </Link>
+                        </p>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </section>
+            )}
+
             {/* Battle Result */}
             <section className="bg-zinc-900/50 p-8 rounded-3xl border border-white/5">
               <div className="text-center mb-8">
@@ -174,25 +215,35 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
 
                 {/* MC1 Result */}
                 <div className={`relative overflow-hidden rounded-2xl border p-8 text-center ${team1Won ? 'border-brand bg-brand/5 ring-2 ring-brand ring-offset-4 ring-offset-zinc-950' : 'border-white/5 bg-zinc-900/30'}`}>
-                  {team1Won && (
-                    <div className="absolute top-4 left-1/2 -translate-x-1/2 flex items-center gap-2 text-brand font-bold text-xs uppercase tracking-widest bg-brand/10 px-3 py-1 rounded-full">
-                      <Trophy size={14} /> {winnerLabel}
-                    </div>
-                  )}
-                  <div className={`relative z-10 ${team1Won ? 'mt-8' : ''}`}>
-                    <span className="text-3xl font-display italic uppercase">{team1Name}</span>
+                  <div className="relative z-10 flex items-center justify-center gap-3">
+                    {team1Won && <Trophy size={22} className="shrink-0 text-brand" />}
+                    {mc1 ? (
+                      <Link
+                        href={`/mc/${mc1.slug}`}
+                        className={`inline-block text-3xl font-display italic uppercase transition-colors ${themeHoverTextClass}`}
+                      >
+                        {team1Name}
+                      </Link>
+                    ) : (
+                      <span className="text-3xl font-display italic uppercase">{team1Name}</span>
+                    )}
                   </div>
                 </div>
 
                 {/* MC2 Result */}
                 <div className={`relative overflow-hidden rounded-2xl border p-8 text-center ${team2Won ? 'border-brand bg-brand/5 ring-2 ring-brand ring-offset-4 ring-offset-zinc-950' : 'border-white/5 bg-zinc-900/30'}`}>
-                  {team2Won && (
-                    <div className="absolute top-4 left-1/2 -translate-x-1/2 flex items-center gap-2 text-brand font-bold text-xs uppercase tracking-widest bg-brand/10 px-3 py-1 rounded-full">
-                      <Trophy size={14} /> {winnerLabel}
-                    </div>
-                  )}
-                  <div className={`relative z-10 ${team2Won ? 'mt-8' : ''}`}>
-                    <span className="text-3xl font-display italic uppercase">{team2Name}</span>
+                  <div className="relative z-10 flex items-center justify-center gap-3">
+                    {team2Won && <Trophy size={22} className="shrink-0 text-brand" />}
+                    {mc2 ? (
+                      <Link
+                        href={`/mc/${mc2.slug}`}
+                        className={`inline-block text-3xl font-display italic uppercase transition-colors ${themeHoverTextClass}`}
+                      >
+                        {team2Name}
+                      </Link>
+                    ) : (
+                      <span className="text-3xl font-display italic uppercase">{team2Name}</span>
+                    )}
                   </div>
                 </div>
               </div>

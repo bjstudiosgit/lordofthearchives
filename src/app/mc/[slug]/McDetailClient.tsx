@@ -9,6 +9,7 @@ import {
   getBattleRouteHref,
   pengameBattles,
 } from "../../../data/pengameBattles";
+import { propertyItems } from "../../../data/property";
 import type { Battle } from "../../../data/battleTypes";
 import {
   getBattleParticipants,
@@ -34,6 +35,7 @@ import {
   Star,
   Clock,
   Eye,
+  Scissors,
 } from "lucide-react";
 
 const parseViews = (views: Battle["views"]): number => {
@@ -94,6 +96,9 @@ export default function McDetailClient({ slug }: { slug: string }) {
   const battleCount = mc.battles;
   const totalPoints = mc.wins * 3;
   const totalBattleViews = mcBattles.reduce((total, battle) => total + parseViews(battle.views), 0);
+  const mcPropertyItems = propertyItems
+    .filter((item) => item.usedById === mc.id)
+    .sort((a, b) => b.dateSort.localeCompare(a.dateSort));
 
   const getMcName = (mcId: string) => allMcs.find((m) => m.id === mcId)?.name || mcId;
 
@@ -201,6 +206,40 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 })}
               </div>
             </div>
+
+            {mcPropertyItems.length > 0 && (
+              <div className="mt-8">
+                <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500 mb-3">
+                  Prop&apos;erty
+                </h2>
+                <div className="space-y-3">
+                  {mcPropertyItems.map((item) => (
+                    <Link
+                      key={`${item.name}-${item.battle}`}
+                      href={item.battleHref}
+                      className="flex items-start gap-4 rounded-2xl border border-white/5 bg-zinc-900/40 p-4 transition-colors hover:bg-white/5 group"
+                    >
+                      <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-zinc-800 text-brand transition-colors group-hover:bg-brand group-hover:text-black">
+                        <Scissors size={22} strokeWidth={1.8} />
+                      </div>
+                      <div className="min-w-0">
+                        <div className="mb-1 flex flex-wrap items-center gap-2">
+                          <span className="font-mono text-[10px] text-zinc-500">{item.episode}</span>
+                          <span className="text-[10px] text-zinc-600">{item.date}</span>
+                        </div>
+                        <h3 className="font-display text-lg italic uppercase text-white transition-colors group-hover:text-brand">
+                          {item.name}
+                        </h3>
+                        <p className="mt-1 text-sm text-zinc-400">{item.note}</p>
+                        <p className="mt-2 text-[10px] font-black uppercase tracking-widest text-zinc-500">
+                          {item.battle}
+                        </p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Right Column: Info */}

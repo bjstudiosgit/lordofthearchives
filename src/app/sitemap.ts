@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getBattleHref, pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
+import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
 import { creditPeople } from "../data/credits";
 import { allMcs } from "../data/mcs";
 
@@ -27,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/league`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/gzone`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/gzone/league`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${SITE_URL}/lord-of-the-mics`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE_URL}/lota-league`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/peoples-vote`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/property`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
@@ -34,7 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/hosts-judges`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
   ];
 
-  const battlePages: MetadataRoute.Sitemap = [...pengameBattles, ...gzoneBattles].map((battle) => ({
+  const battlePages: MetadataRoute.Sitemap = [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles].map((battle) => ({
     url: `${SITE_URL}${getBattleHref(battle)}`,
     lastModified: getLastModified(battle.date),
     changeFrequency: 'weekly',

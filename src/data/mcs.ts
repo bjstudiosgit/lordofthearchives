@@ -170,7 +170,8 @@ export const mcs: MC[] = [
     "losses": 10,
     "style": "Lyrical",
     "image": "/dandannah.png",
-    "bio": "PenGame Season 1 artist."
+    "bio": "PenGame Season 1 artist.",
+    "instagram": "dan_dannah"
   },
   {
     "id": "kmarh",
@@ -294,7 +295,8 @@ export const mcs: MC[] = [
     "losses": 7,
     "style": "Aggressive",
     "image": "/skamz.png",
-    "bio": "The most active battler in the league. Skamz brings unparalleled energy and aggression to every clash. A finalist in multiple seasons and a core pillar of the PenGame community."
+    "bio": "The most active battler in the league. Skamz brings unparalleled energy and aggression to every clash. A finalist in multiple seasons and a core pillar of the PenGame community.",
+    "instagram": "skamzsousa"
   },
   {
     "id": "junie",
@@ -360,7 +362,8 @@ export const mcs: MC[] = [
     "losses": 5,
     "style": "Lyrical",
     "image": "/whoisorion.png",
-    "bio": "PenGame Season 4 artist."
+    "bio": "PenGame Season 4 artist.",
+    "instagram": "whoisorion"
   },
   {
     "id": "dhani",
@@ -405,7 +408,8 @@ export const mcs: MC[] = [
     "losses": 2,
     "style": "Technical",
     "image": "/renaya.png",
-    "bio": "PenGame Season 4 artist."
+    "bio": "PenGame Season 4 artist.",
+    "instagram": "renayaofficial"
   },
   {
     "id": "drizzgb",
@@ -415,7 +419,7 @@ export const mcs: MC[] = [
     "wins": 6,
     "losses": 2,
     "style": "Aggressive",
-    "instagram": "popular/drizzgb",
+    "instagram": "drizzgb",
     "image": "/drizzgb.png",
     "bio": "PenGame Season 4 artist."
   },
@@ -483,7 +487,8 @@ export const mcs: MC[] = [
     "losses": 10,
     "style": "Lyrical",
     "image": "/kandi.png",
-    "bio": "PenGame Season 4 artist."
+    "bio": "PenGame Season 4 artist.",
+    "instagram": "kandiorkaddi"
   },
   {
     "id": "iiiberealz",
@@ -571,7 +576,8 @@ export const mcs: MC[] = [
     "losses": 5,
     "style": "Lyrical",
     "image": "/jm.png",
-    "bio": "PenGame Season 5 artist."
+    "bio": "PenGame Season 5 artist.",
+    "instagram": "jm.cdf"
   },
   {
     "id": "fendry",
@@ -615,7 +621,8 @@ export const mcs: MC[] = [
     "losses": 3,
     "style": "Aggressive",
     "image": "/passive.png",
-    "bio": "PenGame Season 5 artist."
+    "bio": "PenGame Season 5 artist.",
+    "instagram": "passive_mp3"
   },
   {
     "id": "hunce",
@@ -637,7 +644,8 @@ export const mcs: MC[] = [
     "losses": 1,
     "style": "Technical",
     "image": "/anbusensei.png",
-    "bio": "PenGame Season 5 artist."
+    "bio": "PenGame Season 5 artist.",
+    "instagram": "anbusenseii"
   },
   {
     "id": "domi-dusk",
@@ -670,7 +678,8 @@ export const mcs: MC[] = [
     "losses": 1,
     "style": "Aggressive",
     "image": "/trappy.png",
-    "bio": "PenGame Season 5 artist."
+    "bio": "PenGame Season 5 artist.",
+    "instagram": "trappy_uk"
   },
   {
     "id": "ad",
@@ -714,7 +723,8 @@ export const mcs: MC[] = [
     "losses": 2,
     "style": "Technical",
     "image": "/zen.png",
-    "bio": "PenGame Season 5 artist."
+    "bio": "PenGame Season 5 artist.",
+    "instagram": "lhlmzen"
   },
   {
     "id": "caveman",
@@ -780,7 +790,8 @@ export const mcs: MC[] = [
     "losses": 3,
     "style": "Lyrical",
     "image": "/marcel.png",
-    "bio": "PenGame Season 5 artist."
+    "bio": "PenGame Season 5 artist.",
+    "instagram": "marcel_official_music"
   },
   {
     "id": "penno",
@@ -879,7 +890,8 @@ export const mcs: MC[] = [
     "losses": 0,
     "style": "Aggressive",
     "image": "/tapped24.png",
-    "bio": "PenGame Season 5 artist."
+    "bio": "PenGame Season 5 artist.",
+    "instagram": "tapped24_"
   },
   {
     "id": "char-b",
@@ -978,7 +990,8 @@ export const mcs: MC[] = [
     "losses": 1,
     "style": "Lyrical",
     "image": "/varntae.png",
-    "bio": "PenGame 2026 Champions League artist."
+    "bio": "PenGame 2026 Champions League artist.",
+    "instagram": "varntaeofficial"
   },
   {
     "id": "eddfirst",
@@ -1173,25 +1186,25 @@ mcs.push(
 );
 
 const gzoneMcProfiles = [
-  ["1flaymr", "1FLAYMR"],
+  ["1flaymr", "1FLAYMR", "1flaymah_music"],
   ["ajna", "AJNA"],
   ["badee-harz", "BADEE HARZ"],
-  ["btizz", "BTIZZ"],
-  ["cj-zino", "CJ ZINO"],
+  ["btizz", "BTIZZ", "bt1zz"],
+  ["cj-zino", "CJ ZINO", "cj.zino"],
   ["deluxx", "DELUXX"],
   ["ldn-mikez", "LDN MIKEZ"],
   ["nattyebk", "NATTYEBK"],
-  ["pr1nc3", "PR1NC3"],
+  ["pr1nc3", "PR1NC3", "itzyaboy_pr1nc3"],
   ["proty", "PROTY"],
   ["renzo", "RENZO"],
-  ["roman", "ROMAN"],
+  ["roman", "ROMAN", "roman_official94"],
   ["ryno", "RYNO"],
   ["tymeless", "TYMELESS"],
   ["z-k", "Z.K"],
 ] as const;
 
 mcs.push(
-  ...gzoneMcProfiles.map(([id, name]) => ({
+  ...gzoneMcProfiles.map(([id, name, instagram]) => ({
     id,
     slug: getMcProfileSlug(id),
     name,
@@ -1201,6 +1214,7 @@ mcs.push(
     style: "Versatile",
     image: `/${name.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
     bio: "Gzone Season 1 artist.",
+    ...(instagram ? { instagram } : {}),
   })),
 );
 

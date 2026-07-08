@@ -1,5 +1,5 @@
 "use client";
-import { Youtube } from "lucide-react";
+import { Eye, Package, Play, Scale, Trophy, Users, Youtube } from "lucide-react";
 import Link from "next/link";
 
 function TiktokIcon({ size = 24 }: { size?: number }) {
@@ -21,11 +21,44 @@ function TiktokIcon({ size = 24 }: { size?: number }) {
 }
 
 export default function Footer() {
+  const footerGroups = [
+    {
+      title: "PenGame",
+      links: [
+        { href: "/pengame", label: "Archive", icon: Play },
+        { href: "/league", label: "League Table", icon: Trophy },
+      ],
+    },
+    {
+      title: "Gzone",
+      links: [
+        { href: "/gzone", label: "Archive", icon: Play },
+        { href: "/gzone/league", label: "League Table", icon: Trophy },
+      ],
+    },
+    {
+      title: "Lord of the Mics",
+      links: [
+        { href: "/lord-of-the-mics", label: "Archive", icon: Play },
+      ],
+    },
+    {
+      title: "Stats",
+      links: [
+        { href: "/mcs", label: "MC Profiles", icon: Users },
+        { href: "/hosts-judges", label: "Hosts & Judges", icon: Scale },
+        { href: "/lota-league", label: "LOTA League", icon: Trophy },
+        { href: "/peoples-vote", label: "People's Vote", icon: Eye },
+        { href: "/property", label: "Prop'erty", icon: Package },
+      ],
+    },
+  ];
+
   return (
     <footer className="bg-zinc-950 border-t border-white/5 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-4 gap-8 mb-10">
-          <div className="col-span-2">
+        <div className="grid gap-10 lg:grid-cols-[1.4fr_2fr] mb-10">
+          <div>
             <div className="flex items-center gap-2 mb-4">
               <Link href="/" className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-brand rounded flex items-center justify-center font-display text-xl text-black italic">L</div>
@@ -46,12 +79,29 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
-          <div>
-            <h5 className="font-bold uppercase tracking-widest text-[10px] mb-4 text-zinc-500">Platform</h5>
-            <ul className="space-y-2 text-xs text-zinc-400">
-              <li><Link href="/league" className="hover:text-brand transition-colors">League Table</Link></li>
-            </ul>
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+            {footerGroups.map((group) => (
+              <nav key={group.title} aria-label={`${group.title} footer links`} className="rounded-2xl border border-white/5 bg-zinc-900/25 p-4">
+                <h5 className="mb-4 font-bold uppercase tracking-widest text-[10px] text-zinc-500">{group.title}</h5>
+                <ul className="space-y-1">
+                  {group.links.map((item) => {
+                    const Icon = item.icon;
+
+                    return (
+                      <li key={item.href}>
+                        <Link
+                          href={item.href}
+                          className="flex items-center gap-2 rounded-lg px-2 py-2 text-xs font-bold uppercase tracking-[0.12em] text-zinc-400 transition-colors hover:bg-white/5 hover:text-brand"
+                        >
+                          <Icon size={14} />
+                          <span>{item.label}</span>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </nav>
+            ))}
           </div>
         </div>
 

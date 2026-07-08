@@ -45,6 +45,13 @@ export default function Navbar() {
       ],
     },
     {
+      label: "LOTM",
+      tone: "brand",
+      links: [
+        { name: "Archive", href: "/lord-of-the-mics", icon: Play },
+      ],
+    },
+    {
       label: "Lord of the Archives Stats",
       tone: "neutral",
       links: [
