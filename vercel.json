@@ -333,6 +333,11 @@
       "permanent": true
     },
     {
+      "source": "/lord-of-the-mics.html",
+      "destination": "/lord-of-the-mics",
+      "permanent": true
+    },
+    {
       "source": "/hosts-judges.html",
       "destination": "/hosts-judges",
       "permanent": true

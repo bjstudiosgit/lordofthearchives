@@ -9,8 +9,6 @@ export const metadata = {
   description: "The ultimate rap battle archive.",
 };
 
-const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-2858435877591429";
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -28,15 +26,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-7YLK7S5HW2');
           `}
         </Script>
-        {ADSENSE_CLIENT && (
-          <Script
-            id="google-adsense"
-            async
-            strategy="afterInteractive"
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
-            crossOrigin="anonymous"
-          />
-        )}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2858435877591429"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className="min-h-screen bg-zinc-950 selection:bg-brand selection:text-black text-white">
         <Navbar />
