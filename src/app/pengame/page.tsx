@@ -10,6 +10,7 @@ import {
 import type { Battle } from "../../data/battleTypes";
 import { pengameMcs } from "../../data/mcs";
 import { formatBattleDate, parseBattleDate } from "../../data/battleDates";
+import { formatViewCount } from "../../data/viewCounts";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { CheckCircle2, Play, Eye, Calendar, Trophy } from "lucide-react";
@@ -263,14 +264,7 @@ export default function PengamePage() {
   };
 
   const formatBattleViews = (viewStr: string | number | null | undefined): string => {
-    if (!viewStr) return "0";
-    const raw = String(viewStr).trim();
-    if (/[km]$/i.test(raw)) return raw;
-
-    const views = parseViews(raw);
-    if (views >= 1000000) return `${Math.floor(views / 1000000)}M`;
-    if (views >= 1000) return `${Math.floor(views / 1000)}k`;
-    return String(views);
+    return formatViewCount(viewStr);
   };
 
   const seasons = pengameBattles.reduce((acc, battle) => {

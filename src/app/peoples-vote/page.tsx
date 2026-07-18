@@ -44,6 +44,15 @@ const formatViews = (views: number): string => {
 
 const formatFullViews = (views: number): string => views.toLocaleString("en-GB");
 
+const getMedianViews = (views: number[]): number => {
+  if (!views.length) return 0;
+  const sorted = [...views].sort((a, b) => a - b);
+  const middle = Math.floor(sorted.length / 2);
+  return sorted.length % 2 === 0
+    ? Math.floor((sorted[middle - 1] + sorted[middle]) / 2)
+    : sorted[middle];
+};
+
 const getBattleMcs = (battle: Battle): string[] =>
   [battle.mc1, battle.mc2, battle.mc3, battle.mc4].filter(Boolean) as string[];
 
@@ -53,6 +62,7 @@ export default function PeoplesVotePage() {
   const battles = [...pengameBattles, ...gzoneBattles].filter(isSoloBattle);
   const totals = new Map<string, {
     battleCount: number;
+    battleViews: number[];
     topBattle?: Battle;
     topBattleViews: number;
     totalViews: number;
@@ -65,12 +75,14 @@ export default function PeoplesVotePage() {
     for (const mcId of getBattleMcs(battle)) {
       const current = totals.get(mcId) || {
         battleCount: 0,
+        battleViews: [],
         topBattle: undefined,
         topBattleViews: 0,
         totalViews: 0,
       };
 
       current.battleCount += 1;
+      current.battleViews.push(views);
       current.totalViews += views;
       if (views > current.topBattleViews) {
         current.topBattle = battle;
@@ -84,6 +96,7 @@ export default function PeoplesVotePage() {
     .map((mc) => {
       const stat = totals.get(mc.id) || {
         battleCount: 0,
+        battleViews: [],
         topBattle: undefined,
         topBattleViews: 0,
         totalViews: 0,
@@ -93,6 +106,7 @@ export default function PeoplesVotePage() {
         ...mc,
         ...stat,
         averageViews: stat.battleCount ? Math.floor(stat.totalViews / stat.battleCount) : 0,
+        medianViews: getMedianViews(stat.battleViews),
       };
     })
     .filter((mc) => mc.totalViews > 0)
@@ -172,6 +186,7 @@ export default function PeoplesVotePage() {
                     <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Total Views</th>
                     <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Solo Battles</th>
                     <th className="hidden px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:table-cell md:px-8 md:py-6 md:text-xs">Average</th>
+                    <th className="hidden px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:table-cell md:px-8 md:py-6 md:text-xs">Median</th>
                     <th className="hidden px-2 py-3 text-[9px] font-bold uppercase tracking-widest text-zinc-300 lg:table-cell lg:px-8 lg:py-6 lg:text-xs">Top Battle</th>
                   </tr>
                 </thead>
@@ -196,6 +211,7 @@ export default function PeoplesVotePage() {
                       <td className="px-1 py-3 text-center font-mono text-[11px] text-zinc-100 md:px-8 md:py-6 md:text-base">{formatViews(mc.totalViews)}</td>
                       <td className="px-1 py-3 text-center font-mono text-[11px] text-zinc-300 md:px-8 md:py-6 md:text-base">{mc.battleCount}</td>
                       <td className="hidden px-1 py-3 text-center font-mono text-[11px] text-zinc-300 md:table-cell md:px-8 md:py-6 md:text-base">{formatViews(mc.averageViews)}</td>
+                      <td className="hidden px-1 py-3 text-center font-mono text-[11px] text-zinc-300 md:table-cell md:px-8 md:py-6 md:text-base">{formatViews(mc.medianViews)}</td>
                       <td className="hidden px-2 py-3 lg:table-cell lg:px-8 lg:py-6">
                         {mc.topBattle ? (
                           <Link href={getBattleRouteHref(mc.topBattle)} className="inline-flex items-center gap-2 text-xs font-bold uppercase text-zinc-300 transition-colors hover:text-brand">

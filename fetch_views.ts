@@ -1,7 +1,9 @@
 import fs from "fs";
 import { pengameBattles } from "./src/data/pengameBattles";
+import { gzoneBattles } from "./src/data/gzone";
 
-const battlesPath = "src/data/pengameBattles.ts";
+const pengameBattlesPath = "src/data/pengameBattles.ts";
+const gzoneBattlesPath = "src/data/gzone.ts";
 
 function getVideoId(videoUrl?: string | null): string | null {
   if (!videoUrl) return null;
@@ -13,6 +15,11 @@ function getVideoId(videoUrl?: string | null): string | null {
 
 function formatViews(views: number) {
   if (views >= 1000) return `${Math.round(views / 1000)}k`;
+  return views.toString();
+}
+
+function formatGzoneViews(views: number) {
+  if (views >= 1000) return `${(views / 1000).toFixed(1)}K`;
   return views.toString();
 }
 
@@ -35,8 +42,16 @@ function replaceBattleViews(source: string, battleId: string, views: string): st
   return source.slice(0, start) + updated + source.slice(end);
 }
 
+function replaceGzoneBattleViews(source: string, episode: string, views: string): string {
+  return source.replace(
+    new RegExp(`(makeBattle\\("${escapeRegExp(episode)}",\\s*"[^"]+",\\s*"[^"]+",\\s*)"[^"]+"`),
+    `$1"${views}"`,
+  );
+}
+
 async function fetchViews() {
-  let source = fs.readFileSync(battlesPath, "utf8");
+  let pengameSource = fs.readFileSync(pengameBattlesPath, "utf8");
+  let gzoneSource = fs.readFileSync(gzoneBattlesPath, "utf8");
   const today = new Date().toLocaleDateString("en-GB", {
     day: "numeric",
     month: "short",
@@ -64,7 +79,7 @@ async function fetchViews() {
         const json = await response.json();
         const views = formatViews(Number(json.viewCount));
 
-        source = replaceBattleViews(source, battle.id, views);
+        pengameSource = replaceBattleViews(pengameSource, battle.id, views);
         console.log(`${battle.customEp ?? battle.id}: ${battle.videoUrl} -> ${views}`);
       } catch {
         console.log(`${battle.customEp ?? battle.id}: ${battle.videoUrl} -> Error`);
@@ -72,8 +87,32 @@ async function fetchViews() {
     }
   }
 
-  source = source.replace(/export const lastUpdated = "[^"]+";/, `export const lastUpdated = "${today}";`);
-  fs.writeFileSync(battlesPath, source);
+  console.log("\nGzone Season 1");
+
+  for (const battle of gzoneBattles) {
+    const videoId = getVideoId(battle.videoUrl);
+    if (!videoId) continue;
+
+    const url = `https://returnyoutubedislikeapi.com/votes?videoId=${videoId}`;
+
+    try {
+      const response = await fetch(url);
+      const json = await response.json();
+      const views = formatGzoneViews(Number(json.viewCount));
+
+      gzoneSource = replaceGzoneBattleViews(gzoneSource, battle.customEp ?? battle.id, views);
+      console.log(`${battle.customEp ?? battle.id}: ${battle.videoUrl} -> ${views}`);
+    } catch {
+      console.log(`${battle.customEp ?? battle.id}: ${battle.videoUrl} -> Error`);
+    }
+  }
+
+  pengameSource = pengameSource.replace(
+    /export const lastUpdated = "[^"]+";/,
+    `export const lastUpdated = "${today}";`,
+  );
+  fs.writeFileSync(pengameBattlesPath, pengameSource);
+  fs.writeFileSync(gzoneBattlesPath, gzoneSource);
 }
 
 fetchViews();

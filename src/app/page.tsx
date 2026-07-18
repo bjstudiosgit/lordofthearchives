@@ -1,12 +1,14 @@
-"use client";
 import IntroVideo from "../components/IntroVideo";
+import LotaLeagueSpotlight from "../components/LotaLeagueSpotlight";
+import PeopleChampionSpotlight from "../components/PeopleChampionSpotlight";
 import RecentBattles from "../components/RecentBattles";
-// Assuming there was a RecentBattles or something on the homepage based on App.tsx imports I saw earlier
 
 export default function HomePage() {
   return (
     <main>
       <IntroVideo />
+      <PeopleChampionSpotlight />
+      <LotaLeagueSpotlight />
       <RecentBattles />
     </main>
   );

@@ -10,6 +10,7 @@ import {
   pengameBattles,
 } from "../../../data/pengameBattles";
 import { propertyItems } from "../../../data/property";
+import { formatViewCount } from "../../../data/viewCounts";
 import type { Battle } from "../../../data/battleTypes";
 import {
   getBattleParticipants,
@@ -371,7 +372,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                                 {getEventLabel(battle)}
                               </span>
                               <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
-                                {battle.views || "0"} views
+                                {formatViewCount(battle.views)} views
                               </span>
                               <span className="text-[10px] text-zinc-600 uppercase tracking-widest">
                                 {formatBattleDate(battle.date)}

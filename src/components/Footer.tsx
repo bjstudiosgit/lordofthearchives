@@ -1,5 +1,15 @@
-"use client";
-import { Eye, Package, Play, Scale, Trophy, Users, Youtube } from "lucide-react";
+import {
+  ArrowRight,
+  BookOpen,
+  Eye,
+  Package,
+  Play,
+  Scale,
+  Trophy,
+  Users,
+  Youtube,
+  type LucideIcon,
+} from "lucide-react";
 import Link from "next/link";
 
 function TiktokIcon({ size = 24 }: { size?: number }) {
@@ -14,76 +24,94 @@ function TiktokIcon({ size = 24 }: { size?: number }) {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      aria-hidden="true"
     >
       <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
     </svg>
   );
 }
 
-export default function Footer() {
-  const footerGroups = [
-    {
-      title: "PenGame",
-      links: [
-        { href: "/pengame", label: "Archive", icon: Play },
-        { href: "/league", label: "League Table", icon: Trophy },
-      ],
-    },
-    {
-      title: "Gzone",
-      links: [
-        { href: "/gzone", label: "Archive", icon: Play },
-        { href: "/gzone/league", label: "League Table", icon: Trophy },
-      ],
-    },
-    {
-      title: "Lord of the Mics",
-      links: [
-        { href: "/lord-of-the-mics", label: "Archive", icon: Play },
-      ],
-    },
-    {
-      title: "Stats",
-      links: [
-        { href: "/mcs", label: "MC Profiles", icon: Users },
-        { href: "/hosts-judges", label: "Hosts & Judges", icon: Scale },
-        { href: "/lota-league", label: "LOTA League", icon: Trophy },
-        { href: "/peoples-vote", label: "People's Vote", icon: Eye },
-        { href: "/property", label: "Prop'erty", icon: Package },
-      ],
-    },
-  ];
+const footerGroups: Array<{
+  title: string;
+  links: Array<{ href: string; label: string; icon: LucideIcon }>;
+}> = [
+  {
+    title: "Battle archives",
+    links: [
+      { href: "/pengame", label: "PenGame archive", icon: Play },
+      { href: "/gzone", label: "Gzone archive", icon: Play },
+      { href: "/lord-of-the-mics", label: "Lord of the Mics", icon: BookOpen },
+    ],
+  },
+  {
+    title: "Rankings",
+    links: [
+      { href: "/league", label: "PenGame league", icon: Trophy },
+      { href: "/gzone/league", label: "Gzone league", icon: Trophy },
+      { href: "/lota-league", label: "Combined LOTA league", icon: Trophy },
+      { href: "/peoples-vote", label: "People's League", icon: Eye },
+    ],
+  },
+  {
+    title: "People & culture",
+    links: [
+      { href: "/mcs", label: "MC profiles", icon: Users },
+      { href: "/hosts-judges", label: "Hosts & judges", icon: Scale },
+      { href: "/property", label: "Prop'erty", icon: Package },
+    ],
+  },
+];
 
+export default function Footer() {
   return (
-    <footer className="bg-zinc-950 border-t border-white/5 pt-16 pb-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-10 lg:grid-cols-[1.4fr_2fr] mb-10">
+    <footer className="relative overflow-hidden border-t border-brand/20 bg-[#070708]">
+      <div className="absolute -left-32 top-0 h-80 w-80 rounded-full bg-brand/5 blur-3xl" />
+
+      <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-16">
+        <div className="grid gap-12 border-b border-white/10 pb-12 lg:grid-cols-[1.05fr_1.95fr]">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Link href="/" className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-brand rounded flex items-center justify-center font-display text-xl text-black italic">L</div>
-                <div className="flex flex-col leading-none">
-                  <span className="font-display text-xl tracking-tighter uppercase italic leading-none text-brand">LORD OF THE ARCHIVES</span>
-                </div>
-              </Link>
-            </div>
-            <p className="text-zinc-400 text-sm max-w-sm mb-6">
-              The internet’s most comprehensive grime resource.
+            <Link href="/" className="inline-flex items-center gap-3" aria-label="Lord of the Archives home">
+              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand font-display text-2xl italic text-black">
+                L
+              </span>
+              <span>
+                <span className="block font-display text-xl italic uppercase leading-none text-brand">Lord of the Archives</span>
+                <span className="mt-1 block text-[8px] font-black uppercase tracking-[0.22em] text-zinc-500">We never forget</span>
+              </span>
+            </Link>
+            <p className="mt-5 max-w-sm text-sm leading-6 text-zinc-400">
+              An independent UK rap battle archive connecting battles, MC profiles, results, league tables and detailed
+              research.
             </p>
-            <div className="flex gap-3">
-              <a href="https://www.tiktok.com/@lordofthearchives" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-zinc-900 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all" aria-label="Follow us on TikTok">
-                <TiktokIcon size={16} />
+            <div className="mt-6 flex gap-3">
+              <a
+                href="https://www.tiktok.com/@lordofthearchives"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-zinc-400 transition hover:border-brand/50 hover:bg-brand hover:text-black"
+                aria-label="Follow Lord of the Archives on TikTok"
+              >
+                <TiktokIcon size={17} />
               </a>
-              <a href="https://www.youtube.com/@LordoftheArchives" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-zinc-900 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all" aria-label="Follow us on YouTube">
-                <Youtube size={16} />
+              <a
+                href="https://www.youtube.com/@LordoftheArchives"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-zinc-400 transition hover:border-brand/50 hover:bg-brand hover:text-black"
+                aria-label="Watch Lord of the Archives on YouTube"
+              >
+                <Youtube size={17} />
               </a>
             </div>
           </div>
-          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+
+          <div className="grid gap-10 sm:grid-cols-3">
             {footerGroups.map((group) => (
-              <nav key={group.title} aria-label={`${group.title} footer links`} className="rounded-2xl border border-white/5 bg-zinc-900/25 p-4">
-                <h5 className="mb-4 font-bold uppercase tracking-widest text-[10px] text-zinc-500">{group.title}</h5>
-                <ul className="space-y-1">
+              <nav key={group.title} aria-label={`${group.title} footer links`}>
+                <h3 className="border-b border-white/10 pb-3 text-[10px] font-black uppercase tracking-[0.2em] text-white">
+                  {group.title}
+                </h3>
+                <ul className="mt-3 space-y-1">
                   {group.links.map((item) => {
                     const Icon = item.icon;
 
@@ -91,10 +119,13 @@ export default function Footer() {
                       <li key={item.href}>
                         <Link
                           href={item.href}
-                          className="flex items-center gap-2 rounded-lg px-2 py-2 text-xs font-bold uppercase tracking-[0.12em] text-zinc-400 transition-colors hover:bg-white/5 hover:text-brand"
+                          className="group flex items-center justify-between gap-3 rounded-lg px-2 py-2.5 text-xs font-bold uppercase tracking-[0.1em] text-zinc-500 transition hover:bg-white/5 hover:text-brand"
                         >
-                          <Icon size={14} />
-                          <span>{item.label}</span>
+                          <span className="flex items-center gap-2.5">
+                            <Icon size={14} className="transition group-hover:text-brand" />
+                            {item.label}
+                          </span>
+                          <ArrowRight size={13} className="opacity-0 transition group-hover:translate-x-0.5 group-hover:opacity-100" />
                         </Link>
                       </li>
                     );
@@ -105,15 +136,32 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-6 border-t border-white/5 flex flex-col md:flex-row items-center gap-4">
-          <p className="text-zinc-500 text-[10px] uppercase tracking-widest">
-            © 2026 LORD OF THE ARCHIVES. All rights reserved.
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-3 text-[9px] text-zinc-600 grayscale opacity-60 transition-opacity hover:opacity-100">
-            <a href="https://openai.com" target="_blank" rel="noopener noreferrer">OpenAI</a>
-            <a href="https://notebooklm.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1"><img src="/notebooklm.svg" alt="" className="h-3 w-3" /> NotebookLM</a>
-            <a href="https://www.nvidia.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1"><img src="/nvidia.svg" alt="" className="h-3 w-4" /> NVIDIA</a>
-            <a href="https://www.bjstudios.co.uk" target="_blank" rel="noopener noreferrer">BJ Studios</a>
+        <div className="flex flex-col gap-4 pt-6 text-[9px] uppercase tracking-[0.14em] text-zinc-600 md:flex-row md:items-center md:justify-between">
+          <p>© 2026 Lord of the Archives. All rights reserved.</p>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+            <span className="text-zinc-700">Research tools</span>
+            <a href="https://openai.com" target="_blank" rel="noopener noreferrer" className="transition hover:text-zinc-300">
+              OpenAI
+            </a>
+            <a
+              href="https://notebooklm.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-zinc-300"
+            >
+              NotebookLM
+            </a>
+            <a href="https://www.nvidia.com" target="_blank" rel="noopener noreferrer" className="transition hover:text-zinc-300">
+              NVIDIA
+            </a>
+            <a
+              href="https://www.bjstudios.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-zinc-300"
+            >
+              BJ Studios
+            </a>
           </div>
         </div>
       </div>

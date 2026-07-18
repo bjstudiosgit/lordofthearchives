@@ -149,7 +149,7 @@ export default function MCIndex() {
                         <div className="text-[8px] text-zinc-500 font-bold uppercase tracking-widest">Battles</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-zinc-300 font-mono text-xs font-bold">{mc.battles + (mc.wins * 3)}</div>
+                        <div className="text-zinc-300 font-mono text-xs font-bold">{mc.wins * 3}</div>
                         <div className="text-[8px] text-zinc-500 font-bold uppercase tracking-widest">Points</div>
                       </div>
                     </div>

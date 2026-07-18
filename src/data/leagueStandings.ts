@@ -70,7 +70,7 @@ export const getLeagueStandings = (theme?: string): LeagueStanding[] => {
       const draws = mcBattles.filter(isDrawBattle).length;
       const unknown = mcBattles.filter(isUnknownResultBattle).length;
       const unresolved = mcBattles.filter(isUnresolvedBattle).length;
-      const points = wins * 3 + draws;
+      const points = wins * 3;
 
       return {
         id: mcId,

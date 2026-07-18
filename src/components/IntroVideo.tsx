@@ -21,35 +21,24 @@ export default function IntroVideo() {
 
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-30 pt-32 pb-16">
-        <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2, duration: 0.8 }}
-            className="relative rounded-2xl border border-white/10 bg-black/15 px-5 py-7 sm:px-8 sm:py-9 shadow-[0_20px_70px_rgba(0,0,0,0.35)] backdrop-blur-[2px] before:absolute before:left-0 before:top-8 before:h-16 before:w-1 before:rounded-r-full before:bg-brand before:shadow-[0_0_24px_rgba(255,215,0,0.65)]"
-          >
-            <div>
-              <p className="mb-4 text-xs font-semibold uppercase tracking-[0.32em] text-brand/80">
-                UK Grime History
-              </p>
-              <h1 className="text-3xl md:text-6xl font-display italic leading-[1.1] uppercase tracking-tight">
-                The <span className="text-brand">Lord of the Archives</span>.
-                <br />
-                Every MC. Every Clash. Every Era.
-              </h1>
-            </div>
-          </motion.div>
-          
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.4, duration: 1 }}
-            className="relative lg:pl-12"
-          >
-            <div className="relative" />
-          </motion.div>
-        </div>
+      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-20 pt-32 sm:px-6 lg:px-8 lg:pb-24">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+          className="relative max-w-4xl border-l-4 border-brand py-2 pl-6 sm:pl-10"
+        >
+          <p className="mb-5 text-[10px] font-black uppercase tracking-[0.34em] text-brand sm:text-xs">
+            The independent UK rap battle archive
+          </p>
+          <h1 className="max-w-4xl font-display text-5xl italic uppercase leading-[0.9] tracking-tight text-white sm:text-6xl lg:text-7xl xl:text-8xl">
+            Every battle leaves a record. <span className="text-brand">We keep it.</span>
+          </h1>
+          <p className="mt-6 max-w-2xl text-sm leading-7 text-zinc-300 sm:text-base">
+            Explore connected battle pages, MC records, confirmed results and league standings across PenGame and
+            Gzone—built to make the culture easier to find, follow and remember.
+          </p>
+        </motion.div>
       </div>
 
       {/* Cinematic Vignette */}

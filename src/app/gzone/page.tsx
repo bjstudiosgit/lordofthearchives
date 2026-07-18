@@ -1,9 +1,10 @@
 import Link from "next/link";
-import { Calendar, CircleDot, Eye, Play, Trophy } from "lucide-react";
+import { Calendar, CheckCircle2, CircleDot, Eye, Play, Trophy } from "lucide-react";
 import { formatBattleDate } from "../../data/battleDates";
 import { gzoneBattles } from "../../data/gzone";
 import { getMcProfileHref } from "../../data/mcs";
 import { getBattleRouteHref } from "../../data/pengameBattles";
+import { formatViewCount } from "../../data/viewCounts";
 
 export const metadata = {
   title: "Gzone Archives Lord of the Archives",
@@ -78,17 +79,17 @@ export default function GzonePage() {
                       </td>
                       <td className="px-3 py-4 md:px-6">
                         <div className="flex flex-wrap items-center gap-2 text-sm font-semibold uppercase italic text-zinc-100 md:text-lg">
+                          {battle.winner === battle.mc1 && <Trophy size={14} className="text-gzone md:h-[18px] md:w-[18px]" />}
                           <Link href={getMcProfileHref(battle.mc1)} className="transition-colors hover:text-gzone hover:underline">
                             {battle.title.split(" vs ")[0]}
                           </Link>
-                          {battle.winner === battle.mc1 && <Trophy size={14} className="text-gzone md:h-[18px] md:w-[18px]" />}
                           <Link href={getBattleRouteHref(battle)} className="text-xs text-zinc-500 transition-colors hover:text-gzone">
                             VS
                           </Link>
-                          {battle.winner === battle.mc2 && <Trophy size={14} className="text-gzone md:h-[18px] md:w-[18px]" />}
                           <Link href={getMcProfileHref(battle.mc2)} className="transition-colors hover:text-gzone hover:underline">
                             {battle.title.split(" vs ")[1]}
                           </Link>
+                          {battle.winner === battle.mc2 && <Trophy size={14} className="text-gzone md:h-[18px] md:w-[18px]" />}
                         </div>
                       </td>
                       <td className="hidden px-3 py-4 text-xs text-zinc-400 md:table-cell md:px-6">
@@ -98,10 +99,15 @@ export default function GzonePage() {
                         </span>
                       </td>
                       <td className="hidden px-3 py-4 font-mono text-xs text-zinc-100 md:table-cell md:px-6">
-                        {battle.views}
+                        {formatViewCount(battle.views)}
                       </td>
                       <td className="px-3 py-4 text-right md:px-6 md:text-left">
-                        <span className="inline-flex items-center rounded-full border border-gzone/30 bg-gzone/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-gzone">
+                        <span className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[10px] font-semibold uppercase tracking-wide ${
+                          battle.statusNote === "Archived"
+                            ? "border-emerald-300/40 bg-emerald-400/15 text-emerald-300 shadow-[0_0_18px_rgba(52,211,153,0.12)]"
+                            : "border-gzone/30 bg-gzone/10 text-gzone"
+                        }`}>
+                          {battle.statusNote === "Archived" && <CheckCircle2 size={12} />}
                           {battle.statusNote}
                         </span>
                       </td>

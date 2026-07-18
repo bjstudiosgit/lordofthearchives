@@ -9,6 +9,7 @@ import { formatBattleDate } from "../../../data/battleDates";
 import { hasOfficialBattleResult } from "../../../data/leagueStandings";
 import { allMcs } from "../../../data/mcs";
 import { propertyItems } from "../../../data/property";
+import { formatViewCount } from "../../../data/viewCounts";
 import { ArrowLeft, Play, Share2, Trophy, Clock, Scissors } from "lucide-react";
 
 export default function BattleDetailClient({ slug }: { slug: string }) {
@@ -164,13 +165,27 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               </section>
             )}
 
-            {battlePropertyItems.length > 0 && (
+            {(battlePropertyItems.length > 0 || (battle.props?.length ?? 0) > 0) && (
               <section className="rounded-3xl border border-white/5 bg-zinc-900/40 p-6">
                 <h2 className="mb-5 flex items-center gap-3 text-xs font-black uppercase tracking-[0.4em] text-zinc-500">
                   <div className="h-4 w-1 bg-brand" />
                   Prop&apos;erty
                 </h2>
                 <div className="space-y-3">
+                  {battle.props?.map((prop) => (
+                    <article
+                      key={`${prop.user}-${prop.name}`}
+                      className="flex items-start gap-4 rounded-2xl border border-white/5 bg-zinc-950/50 p-4"
+                    >
+                      <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-zinc-800 text-xl">
+                        {prop.icon}
+                      </div>
+                      <div className="min-w-0">
+                        <h3 className="font-display text-xl italic uppercase text-white">{prop.name}</h3>
+                        <p className="mt-2 text-sm text-zinc-300">Used by {prop.user}</p>
+                      </div>
+                    </article>
+                  ))}
                   {battlePropertyItems.map((item) => (
                     <article
                       key={`${item.name}-${item.usedById}`}
@@ -204,7 +219,17 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               <div className="text-center mb-8">
                 <h2 className="text-2xl font-display italic uppercase text-white">Battle Result</h2>
                 <p className="text-zinc-400 text-sm mt-2 uppercase tracking-widest">
-                  {isNoOfficialDecision ? battle.statusNote : hasOfficialBattleResult(battle) ? "Official Judges' Decision" : "Awaiting Decision"}
+                  {isNoOfficialDecision
+                    ? battle.statusNote
+                    : battle.resultSource === "lota"
+                      ? "LOTA Result"
+                      : battle.judgementSummary?.verdict.toLowerCase().includes("crowd")
+                        ? "Official Crowd Decision"
+                        : battle.judgementSummary?.verdict.toLowerCase().includes("judges")
+                          ? "Official Judges' Decision"
+                          : hasOfficialBattleResult(battle)
+                            ? "Official Battle Result"
+                            : "Awaiting Decision"}
                 </p>
               </div>
 
@@ -251,9 +276,13 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               {hasArchiveData && battle.clashSummary && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
                   <h3 className="text-xl font-display italic uppercase text-white mb-4">Clash Summary</h3>
-                  <p className="text-zinc-300 leading-relaxed font-light">
-                    {battle.clashSummary}
-                  </p>
+                  <div className="space-y-4">
+                    {battle.clashSummary.split(/\n\n+/).map((paragraph, index) => (
+                      <p key={index} className="text-zinc-300 leading-relaxed font-light">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
                 </div>
               )}
 
@@ -298,6 +327,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
 
               {hasArchiveData && notableBarsByPerformer && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
+                  <h3 className="text-xl font-display italic uppercase text-white mb-6">Indexed Bars &amp; Breakdown</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     {Object.entries(notableBarsByPerformer).map(([performer, bars]) => (
                       <article key={performer} className="bg-zinc-950/50 border border-white/5 rounded-2xl p-6">
@@ -305,6 +335,9 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                         <div className="space-y-5">
                           {bars.map((item, idx) => (
                             <div key={`${performer}-${idx}`} className="border-l-2 border-brand/60 pl-4">
+                              {item.theme && (
+                                <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.18em] text-brand/80">{item.theme}</p>
+                              )}
                               <p className="text-white italic leading-relaxed">"{item.bar}"</p>
                               {item.explanation && (
                                 <p className="mt-2 text-sm leading-relaxed text-zinc-400">{item.explanation}</p>
@@ -358,7 +391,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             </section>
 
             {/* Clash Summary for Deeno vs Tapped24 */}
-            {battle.slug === 'deeno-vs-tapped24' && (
+            {battle.slug === 'deeno-vs-tapped24' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -385,7 +418,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             )}
 
             {/* Clash Summary for 2MWAD vs Ryno */}
-            {battle.slug === '2mwad-vs-ryno' && (
+            {battle.slug === '2mwad-vs-ryno' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -412,7 +445,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             )}
 
             {/* Clash Summary for Tapped24 vs Roman */}
-            {battle.slug === 'tapped24-vs-roman' && (
+            {battle.slug === 'tapped24-vs-roman' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -439,7 +472,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             )}
 
             {/* Clash Summary for Tapped24 vs AJNA */}
-            {battle.slug === 'tapped24-vs-ajna' && (
+            {battle.slug === 'tapped24-vs-ajna' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -466,7 +499,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             )}
 
             {/* Clash Summary for PR1NC3 vs Roman */}
-            {battle.slug === 'pr1nc3-vs-roman' && (
+            {battle.slug === 'pr1nc3-vs-roman' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -493,7 +526,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             )}
 
             {/* Clash Summary for Deluxx vs Btizz */}
-            {battle.slug === 'deluxx-vs-btizz' && (
+            {battle.slug === 'deluxx-vs-btizz' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -520,7 +553,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             )}
 
             {/* Clash Summary for LDN Mikez vs Deluxx */}
-            {battle.slug === 'ldn-mikez-vs-deluxx' && (
+            {battle.slug === 'ldn-mikez-vs-deluxx' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -547,7 +580,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             )}
 
             {/* Clash Summary for LDN Mikez vs 2mwad */}
-            {battle.slug === 'ldn-mikez-vs-2mwad' && (
+            {battle.slug === 'ldn-mikez-vs-2mwad' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -574,7 +607,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             )}
 
             {/* Clash Summary for CJ Zino vs Proty */}
-            {battle.slug === 'cj-zino-vs-proty' && (
+            {battle.slug === 'cj-zino-vs-proty' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -601,7 +634,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
             )}
 
             {/* Clash Summary for Ryno vs Tymeless */}
-            {battle.slug === 'ryno-vs-tymeless' && (
+            {battle.slug === 'ryno-vs-tymeless' && !battle.clashSummary && (
               <section className="bg-zinc-900/30 p-8 md:p-10 rounded-3xl border border-white/10 relative overflow-hidden">
                 {/* Subtle accent line */}
                 <div className="absolute top-0 left-0 w-1 h-full bg-brand" />
@@ -639,7 +672,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-white/5">
                   <span className="text-zinc-400 text-xs uppercase tracking-widest">Views</span>
-                  <span className="text-zinc-100 font-bold">{battle.views || "0"}</span>
+                   <span className="text-zinc-100 font-bold">{formatViewCount(battle.views)}</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-white/5">
                   <span className="text-zinc-400 text-xs uppercase tracking-widest">League</span>

@@ -14,6 +14,7 @@ export interface Battle {
   views?: string | number | null;
   winner?: string;
   winner2?: string;
+  resultSource?: "official" | "lota";
   isUnreleased?: boolean;
   theme: string;
   season: number | string;
@@ -27,6 +28,11 @@ export interface Battle {
   statusNote?: string;
   host?: string;
   judges?: string[];
+  props?: {
+    name: string;
+    user: string;
+    icon: string;
+  }[];
   clashSummary?: string;
   performanceAnalysis?: {
     performer: string;

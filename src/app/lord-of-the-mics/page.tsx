@@ -3,6 +3,7 @@ import { Play, Search } from "lucide-react";
 import { lordOfTheMicsBattles } from "../../data/lordOfTheMics";
 import { formatBattleDate } from "../../data/battleDates";
 import { getBattleRouteHref } from "../../data/pengameBattles";
+import { formatViewCount } from "../../data/viewCounts";
 
 export const metadata = {
   title: "Lord of the Mics Archive Lord of the Archives",
@@ -24,7 +25,7 @@ export default function LordOfTheMicsPage() {
     if (!date) return "TBD";
     return date.endsWith("-01-01") ? date.slice(0, 4) : formatBattleDate(date);
   };
-  const formatLotmViews = (views: string | number | null | undefined) => views ?? "TBC";
+  const formatLotmViews = (views: string | number | null | undefined) => formatViewCount(views, "TBC");
 
   return (
     <main className="min-h-screen bg-zinc-950 pt-32 pb-24 text-white selection:bg-brand selection:text-black">

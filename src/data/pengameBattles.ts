@@ -1,6 +1,6 @@
 import type { Battle } from "./battleTypes";
 
-export const lastUpdated = "7 Jul 2026";
+export const lastUpdated = "18 Jul 2026";
 
 export const hasBattleArchiveData = (battle: Battle): boolean =>
   Boolean(battle.clashSummary?.trim());
@@ -1922,7 +1922,7 @@ export const pengameBattles: Battle[] = [
     "title": "F-DON vs DAN DANNAH",
     "theme": "pengame",
     "season": 3,
-    "views": "67k",
+    "views": "68k",
     "date": "2021-11-14",
     "videoUrl": "https://www.youtube.com/watch?v=yxqE3CHfxiY",
     "customEp": "3x11b",
@@ -3891,7 +3891,7 @@ export const pengameBattles: Battle[] = [
     "date": "2021-11-14",
     "theme": "pengame",
     "season": 3,
-    "views": "67k",
+    "views": "68k",
     "videoUrl": "https://www.youtube.com/watch?v=yxqE3CHfxiY",
     "customEp": "3x11a",
     "subGroup": "Mid Season Drops",
@@ -4586,7 +4586,7 @@ export const pengameBattles: Battle[] = [
     "videoUrl": "https://www.youtube.com/watch?v=yg8_6ezAX0s",
     "theme": "pengame",
     "season": 3.5,
-    "views": "121k",
+    "views": "122k",
     "customEp": "X.03",
     "stage": null,
     "group": null,
@@ -6382,7 +6382,7 @@ export const pengameBattles: Battle[] = [
     "date": "2023-09-30",
     "theme": "pengame",
     "season": 4,
-    "views": "636k",
+    "views": "637k",
     "customEp": "4x11",
     "seasonOrder": 11,
     "stage": null,
@@ -6904,7 +6904,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 15,
-    "views": "421k",
+    "views": "422k",
     "customEp": "4x15",
     "stage": null,
     "group": null,
@@ -7326,7 +7326,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 19,
-    "views": "1884k",
+    "views": "1895k",
     "customEp": "4x19",
     "stage": null,
     "group": null,
@@ -7427,7 +7427,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 21,
-    "views": "283k",
+    "views": "284k",
     "customEp": "4x21",
     "stage": null,
     "group": null,
@@ -7525,7 +7525,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 22,
-    "views": "87k",
+    "views": "88k",
     "date": "2024-04-07",
     "videoUrl": "https://www.youtube.com/watch?v=8amzmw6EDTY",
     "customEp": "4x22",
@@ -8397,7 +8397,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 3,
-    "views": "41k",
+    "views": "42k",
     "date": "2023-07-21",
     "videoUrl": "https://www.youtube.com/watch?v=MMSQ_RQbqUk",
     "customEp": "4x03",
@@ -8530,7 +8530,7 @@ export const pengameBattles: Battle[] = [
     "date": "2023-09-16",
     "theme": "pengame",
     "season": 4,
-    "views": "69k",
+    "views": "70k",
     "customEp": "4x09",
     "seasonOrder": 9,
     "stage": null,
@@ -9170,7 +9170,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 4,
     "seasonOrder": 8,
-    "views": "83k",
+    "views": "84k",
     "date": "2023-09-09",
     "videoUrl": "https://www.youtube.com/watch?v=6E_P4AZYCto",
     "customEp": "4x08",
@@ -9304,7 +9304,7 @@ export const pengameBattles: Battle[] = [
     "title": "SKAMZ & SEVZ vs F-DON & DAN DANNAH",
     "displayTitle": "SKAMZ & SEVZ vs F-DON & DAN DANNAH",
     "videoUrl": "https://www.youtube.com/watch?v=EVQECgB4H70",
-    "views": "210k",
+    "views": "211k",
     "date": "2024-11-16",
     "theme": "pengame",
     "season": 5,
@@ -9982,7 +9982,7 @@ export const pengameBattles: Battle[] = [
       "mc4": "passive",
       "date": "2023-09-02",
       "videoUrl": "https://www.youtube.com/watch?v=1MgsxzR9vJE",
-    "views": "681k",
+    "views": "683k",
       "title": "DRIZZGB & TRAPPY vs GRAMS & PASSIVE",
       "displayTitle": "DRIZZGB & TRAPPY vs GRAMS & PASSIVE",
       "theme": "pengame",
@@ -10988,7 +10988,7 @@ export const pengameBattles: Battle[] = [
     "title": "KANDI vs PRYNLEE",
     "date": "2024-09-21",
     "videoUrl": "https://www.youtube.com/watch?v=Z_SvZqwoiMY",
-    "views": "1977k",
+    "views": "1983k",
     "theme": "pengame",
     "season": 5,
     "subGroup": "Dungeon Battles",
@@ -13008,7 +13008,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 5,
     "subGroup": "Dungeon Battles",
-    "views": "135k",
+    "views": "136k",
     "winner": "whoisorion",
     "customEp": "5x05",
     "stage": null,
@@ -13686,7 +13686,7 @@ export const pengameBattles: Battle[] = [
     "title": "PASSIVE vs HUNCE",
     "date": "2024-10-12",
     "videoUrl": "https://www.youtube.com/watch?v=fYNgIGjJKqg",
-    "views": "1037k",
+    "views": "1041k",
     "theme": "pengame",
     "season": 5,
     "subGroup": "Dungeon Battles",
@@ -14232,7 +14232,7 @@ export const pengameBattles: Battle[] = [
       "displayTitle": "WHOISORION & CHEEZEE vs DRIZZGB & TRAPPY",
       "date": "2024-10-19",
       "videoUrl": "https://www.youtube.com/watch?v=Gs5oCCGUlX4",
-    "views": "541k",
+    "views": "543k",
       "theme": "pengame",
       "season": 5,
       "subGroup": "2v2 Tournament",
@@ -14536,7 +14536,7 @@ export const pengameBattles: Battle[] = [
       "mc4": "ad",
       "date": "2024-10-19",
       "videoUrl": "https://www.youtube.com/watch?v=OXbPIvnFCmU",
-    "views": "311k",
+    "views": "312k",
       "title": "GRAMS & PASSIVE vs STORM & AD",
       "displayTitle": "GRAMS & PASSIVE vs STORM & AD",
       "theme": "pengame",
@@ -14829,7 +14829,7 @@ export const pengameBattles: Battle[] = [
       "displayTitle": "SMIL3Z & iiiBEREALZ vs F-DON & DAN DANNAH",
       "date": "2024-10-23",
       "videoUrl": "https://www.youtube.com/watch?v=w3WElZsbdsk",
-    "views": "469k",
+    "views": "471k",
       "theme": "pengame",
       "season": 5,
       "subGroup": "2v2 Tournament",
@@ -15125,7 +15125,7 @@ export const pengameBattles: Battle[] = [
     "displayTitle": "SKAMZ & SEVZ vs KANDI & DEENO",
     "date": "2024-10-29",
     "videoUrl": "https://www.youtube.com/watch?v=TpDAx1ew7gg",
-    "views": "217k",
+    "views": "218k",
     "theme": "pengame",
     "season": 5,
     "subGroup": "2v2 Tournament",
@@ -20733,7 +20733,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 5,
     "subGroup": "2v2 Tournament",
-    "views": "543k",
+    "views": "545k",
     "customEp": "2v2x7",
     "stage": "Final",
     "group": null,
@@ -21612,7 +21612,7 @@ export const pengameBattles: Battle[] = [
     "mc2": "iiiberealz",
     "date": "2024-12-26",
     "videoUrl": "https://www.youtube.com/watch?v=kLL2HKMyWFs",
-    "views": "245k",
+    "views": "246k",
     "title": "DAN DANNAH vs iiiBEREALZ",
     "theme": "pengame",
     "season": 5,
@@ -22348,7 +22348,7 @@ export const pengameBattles: Battle[] = [
       "theme": "pengame",
       "season": 5,
       "subGroup": "North vs South Christmas Battles",
-      "views": "534k",
+      "views": "535k",
       "winner": "zen",
       "customEp": "NvSx1",
       "stage": null,
@@ -24604,7 +24604,7 @@ export const pengameBattles: Battle[] = [
     "customEp": "Shopx2",
     "date": "2025-01-22",
     "videoUrl": "https://www.youtube.com/watch?v=0WumtkpJnIE",
-    "views": "458k",
+    "views": "459k",
     "stage": null,
     "group": null,
     "tag": "2025 Chicken Shop Battles",
@@ -24952,7 +24952,7 @@ export const pengameBattles: Battle[] = [
     "season": 5,
     "subGroup": "2025 Chicken Shop Battles",
     "customEp": "Shopx3",
-    "views": "149k",
+    "views": "150k",
     "date": "2025-01-25",
     "videoUrl": "https://www.youtube.com/watch?v=bTFHmhIZhvQ",
     "stage": null,
@@ -26161,7 +26161,7 @@ export const pengameBattles: Battle[] = [
     "season": 5,
     "subGroup": "2025 Chicken Shop Battles",
     "customEp": "Shopx4",
-    "views": "195k",
+    "views": "196k",
     "date": "2025-02-01",
     "videoUrl": "https://www.youtube.com/watch?v=2SLu421-rjI",
     "stage": null,
@@ -28061,7 +28061,7 @@ export const pengameBattles: Battle[] = [
     "season": 5,
     "subGroup": "Manchester Battles",
     "customEp": "5xM2",
-    "views": "242k",
+    "views": "243k",
     "stage": null,
     "group": null,
     "tag": "Manchester Battles",
@@ -33002,7 +33002,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 5,
     "subGroup": "Dungeon Battles",
-    "views": "1147k",
+    "views": "1150k",
     "winner": "missink",
     "customEp": "5x04",
     "stage": null,
@@ -33691,7 +33691,7 @@ export const pengameBattles: Battle[] = [
     "customEp": "6x34",
     "seasonOrder": 34,
     "subGroup": "Semi Finals",
-    "views": "182k",
+    "views": "183k",
     "stage": "Semi Finals",
     "group": null,
     "tag": null,
@@ -35158,7 +35158,7 @@ export const pengameBattles: Battle[] = [
     "customEp": "6x37",
     "seasonOrder": 37,
     "subGroup": "Side battle",
-    "views": "486k",
+    "views": "489k",
     "stage": "Quarter Finals",
     "group": null,
     "tag": "Side battle",
@@ -35773,7 +35773,7 @@ export const pengameBattles: Battle[] = [
     "tag": "Side battle",
     "date": "2025-08-16",
     "videoUrl": "https://www.youtube.com/watch?v=zCUEw1FMEhM",
-    "views": "199k",
+    "views": "200k",
     "winner": "drizzgb",
     "clashSummary": "DRIZZGB vs F-DON took place in the PenGame Rap Battle 2025 Cold War Quarterfinals. The judging panel is Koji Radical, Progression, and Wiley. F-DON goes first. F-DON opens round one by immediately attacking DRIZZGB’s appearance, eye condition, posture, movement and relationship with TRAPPY. He uses “eye to eye” irony, Redman/Method Man, Sully, money, box/forklift imagery, Drizz/Trappy association and the previous battle context. The strongest early angle is the cross-eyed material, including the line about DRIZZGB never getting hit by a car because he can look both ways at the same time. DRIZZGB responds with a stronger and more direct first round. He attacks F-DON’s speech, relevance, veteran status, previous record, mother, girl, horse face, stability, cane/disabled wordplay, nose and previous battles. The glasses/slept-on sequence becomes one of the best moments of the first round. The room reacts strongly, and the judges later give round one to DRIZZGB. Round two is competitive. F-DON opens by saying DRIZZGB is not real and is just acting. He attacks him through Franklin, block chat, Biggie/Ready to Die, doctors/vitals, leader/disciple, rifles/Bible, “slept wrong,” the ape line, 100 Drizzles vs one F, son/Japan and Rascal/Dizzee imagery. It is a good round and has direct material. DRIZZGB’s second round is more memorable. He breaks down F-DON’s name, using F and D as insult initials, attacks his age, speech, mic drops, dementia/Alzheimer’s, face, scars, nose, writers, Asian/Afghanistan/Taliban material and “batty man” accusations. Some of the material is harsh and identity-based, but within the battle it lands strongly enough for the judges to give him round two. Round three is F-DON’s best round. He comes with cleaner writing and stronger punch structure: burger/fries, Jin-Woo/Solo Leveling, Mowgli, Great Barr/great bars, GBH, 7-Eleven, Dragon Ball Z and Spirit Bomb imagery. Koji specifically says this is one of F-DON’s best rounds he has heard from him, but says F-DON needed more rounds at that level earlier. DRIZZGB’s third is aggressive but less polished than his first two. He attacks F-DON’s nose, Lambo, belt, podcast/gifted angle, bar-for-bar claim, hardness, gender presentation and name. It has energy, but the judges all agree F-DON takes the third. The official decision is DRIZZGB wins 2-1. DRIZZGB takes rounds one and two. F-DON takes round three, but it comes too late to overturn the battle.",
     "performanceAnalysis": [
@@ -36421,7 +36421,7 @@ export const pengameBattles: Battle[] = [
     "tag": "Side battle",
     "date": "2025-09-10",
     "videoUrl": "https://www.youtube.com/watch?v=lj6QVgOBxL0",
-    "views": "218k",
+    "views": "219k",
     "winner": "zen",
     "clashSummary": "ZEN vs MARCEL 2 took place during the PenGame Rap Battle 2025 Cold War Semi-Finals. This was a rematch between two northern battlers, with ZEN representing Leeds and MARCEL representing Manchester. The host frames it as “battle of the up north,” with the pressure high because their previous clash had gone MARCEL’s way. ZEN goes first. ZEN opens with a big statement round. He brings back his “Grand Mastermind,” “Dog Block Champ,” and “Z to the N” identity, then attacks MARCEL through size, delivery, lisp, head shape, previous win, reload begging, and stage image. His Roberto Carlos/Argos counter line gets a big reaction early. He then goes into Lord Farquaad/Shrek, delivery, grandad shock material, wet dog imagery, dinner plate/defibrillator, Villa, Drake/Dracula, wet-floor signs, Harry Maguire, Heady 1000 and war imagery. It is a strong opener with crowd control and different pockets. MARCEL responds with a direct name-flip round. He flips “Z to the N again” into “Z to the M again,” says he is ending ZEN again, references beating him before along with JM, and uses D12/Eminem/Killshot imagery. He attacks ZEN for crying outside after their last battle, begging for reloads like Oliver Twist, looking like Mike Righteous on heroin, his mum, his girls, ego, and trying to get redemption. It is a strong response, but ZEN’s first has the bigger variety and command. Round two sees ZEN switch into a more personal and comedic attack. He calls MARCEL a Craig Mitch/crayfish hybrid, attacks his head size, height, face, race ambiguity, copied bars, baby Guinness, micromanaged job, inability to reach pedals, and flips MARCEL’s Michael Jackson/nose angle back by saying MARCEL is more like MJ because he was a Black guy who turned out white. Some material is identity-based and offensive, but within the clash it lands as a direct character attack. MARCEL’s second is aggressive and structured around physical dominance. He brings “Never Back Down,” ground-and-pound, Will Smith/Chris Rock, Rihanna/Chris Brown, WWE champion, Mortal Kombat, family incest shock material, onion bhaji, pelican face, speech impediment, soldier/regiment and “who’s ready then” call-and-response. The round has energy, but the judges later feel ZEN has more clarity and stronger bar work. ZEN’s third is the clearest closer. He switches again, brings bassline energy, North-vs-North status, Tesco/head-size bars, Top Boy, Esco, Google Maps, Family Feud, grandma material, reload/girlfriend angle, Tyrion Lannister, Excalibur, Pencil Game, Kim Kardashian/Cheeks, and then closes with a strong “again” scheme: he got robbed, came back, and is ending MARCEL again. This round reinforces the rematch narrative. MARCEL’s third brings football, England, Four Lions, shop/Yorkshire, family/ethnicity angles, sister/holiday material, Joker/Bane/Batman, Venom, Spider-Man, Mary Jane, Carnage, poker, Nishi, eBay guns, PK and a warning closer. It is solid, but the judges feel MARCEL leans too heavily on sound effects and does not match ZEN’s clarity. The official decision is ZEN wins by unanimous judges’ decision. PK calls it 3-0 ZEN, while Strands and Craig Mitch both give the battle to ZEN. Craig says it was a photo finish but ZEN brought more energy, clarity, straight bars and different flows. This result levels the rivalry: MARCEL won their previous clash, but ZEN wins the rematch.",
     "performanceAnalysis": [
@@ -37654,7 +37654,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": "2025 Christmas",
     "subGroup": "Christmas Battles",
-    "views": "160k",
+    "views": "162k",
     "customEp": "x25.04",
     "seasonOrder": 4,
     "stage": null,
@@ -38948,7 +38948,7 @@ export const pengameBattles: Battle[] = [
     "season": 2023,
     "customEp": "Tx01",
     "subGroup": "Group A",
-    "views": "447k",
+    "views": "448k",
     "stage": "Group Stage",
     "group": "A",
     "tag": null,
@@ -39688,7 +39688,7 @@ export const pengameBattles: Battle[] = [
     "customEp": "Tx04",
     "subGroup": "Group A",
     "winner": "ren-dmc",
-    "views": "404k",
+    "views": "405k",
     "stage": "Group Stage",
     "group": "A",
     "tag": null,
@@ -41071,7 +41071,7 @@ export const pengameBattles: Battle[] = [
     "season": 2023,
     "customEp": "Tx09",
     "subGroup": "Group B",
-    "views": "69k",
+    "views": "70k",
     "stage": "Group Stage",
     "group": "B",
     "tag": null,
@@ -43231,7 +43231,7 @@ export const pengameBattles: Battle[] = [
     "season": 2023,
     "customEp": "Tx15",
     "subGroup": "Group C",
-    "views": "117k",
+    "views": "118k",
     "stage": "Group Stage",
     "group": "C",
     "tag": null,
@@ -47291,7 +47291,7 @@ export const pengameBattles: Battle[] = [
     "title": "WHOISORION vs DRIZZGB #2",
     "date": "2024-06-01",
     "videoUrl": "https://www.youtube.com/watch?v=1YUdUfHwN6Y",
-    "views": "416k",
+    "views": "417k",
     "theme": "pengame",
     "season": 2023,
     "customEp": "Tx25",
@@ -48299,7 +48299,7 @@ export const pengameBattles: Battle[] = [
     "title": "REN DMC vs F-DON",
     "date": "2024-06-15",
     "videoUrl": "https://www.youtube.com/watch?v=h2xd9HbRANU",
-    "views": "892k",
+    "views": "895k",
     "theme": "pengame",
     "season": 2023,
     "customEp": "Tx27",
@@ -48942,7 +48942,7 @@ export const pengameBattles: Battle[] = [
     "displayTitle": "REN DMC vs DRIZZGB #2",
     "date": "2024-08-07",
     "videoUrl": "https://www.youtube.com/watch?v=PxqpG9UtEww",
-    "views": "618k",
+    "views": "620k",
     "theme": "pengame",
     "season": 2023,
     "subGroup": "Semi Finals",
@@ -49561,7 +49561,7 @@ export const pengameBattles: Battle[] = [
     "theme": "pengame",
     "season": 2023,
     "subGroup": "Final",
-    "views": "612k",
+    "views": "613k",
     "customEp": "Tx31",
     "stage": "Final",
     "group": null,
@@ -50159,7 +50159,7 @@ export const pengameBattles: Battle[] = [
     "season": "Cold War",
     "competition": "PenGame Cold War",
     "subGroup": "Group A",
-    "views": "230k",
+    "views": "231k",
     "customEp": "6x01",
     "seasonOrder": 1,
     "stage": "Group Stage",
@@ -51118,7 +51118,7 @@ export const pengameBattles: Battle[] = [
     "season": "Cold War",
     "competition": "PenGame Cold War",
     "subGroup": "Group A",
-    "views": "273k",
+    "views": "274k",
     "customEp": "6x03",
     "seasonOrder": 3,
     "stage": "Group Stage",
@@ -53595,7 +53595,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Group A",
     "customEp": "6x06",
     "seasonOrder": 6,
-    "views": "471k",
+    "views": "472k",
     "stage": "Group Stage",
     "group": "A",
     "tag": null,
@@ -54898,7 +54898,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Group B",
     "customEp": "6x13",
     "seasonOrder": 13,
-    "views": "134k",
+    "views": "135k",
     "stage": "Group Stage",
     "group": "B",
     "tag": null,
@@ -56266,7 +56266,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Group B",
     "customEp": "6x15",
     "seasonOrder": 15,
-    "views": "317k",
+    "views": "319k",
     "stage": "Group Stage",
     "group": "B",
     "tag": null,
@@ -57042,7 +57042,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Group B",
     "customEp": "6x17",
     "seasonOrder": 17,
-    "views": "182k",
+    "views": "183k",
     "stage": "Group Stage",
     "group": "B",
     "tag": null,
@@ -60011,7 +60011,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Group D",
     "customEp": "6x24",
     "seasonOrder": 24,
-    "views": "209k",
+    "views": "210k",
     "stage": "Group Stage",
     "group": "D",
     "tag": null,
@@ -60939,7 +60939,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Group D",
     "customEp": "6x26",
     "seasonOrder": 26,
-    "views": "109k",
+    "views": "110k",
     "stage": "Group Stage",
     "group": "D",
     "tag": null,
@@ -61879,7 +61879,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Group D",
     "customEp": "6x28",
     "seasonOrder": 28,
-    "views": "119k",
+    "views": "120k",
     "stage": "Group Stage",
     "group": "D",
     "tag": null,
@@ -62442,7 +62442,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Group D",
     "customEp": "6x29",
     "seasonOrder": 29,
-    "views": "178k",
+    "views": "181k",
     "stage": "Group Stage",
     "group": "D",
     "tag": null,
@@ -63518,7 +63518,7 @@ export const pengameBattles: Battle[] = [
     "competition": "PenGame Cold War",
     "seasonOrder": 35,
     "subGroup": "Semi Finals",
-    "views": "161k",
+    "views": "162k",
     "stage": "Semi Finals",
     "group": null,
     "tag": null,
@@ -64381,7 +64381,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Quarter Finals",
     "customEp": "6x30",
     "seasonOrder": 30,
-    "views": "356k",
+    "views": "358k",
     "stage": "Quarter Finals",
     "group": null,
     "tag": null,
@@ -64992,7 +64992,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Quarter Finals",
     "customEp": "6x32",
     "seasonOrder": 32,
-    "views": "151k",
+    "views": "152k",
     "stage": "Quarter Finals",
     "group": null,
     "tag": null,
@@ -66003,13 +66003,15 @@ export const pengameBattles: Battle[] = [
     "mc1": "skamz",
     "mc2": "dan-dannah",
     "winner": "dan-dannah",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
     "title": "SKAMZ vs DAN DANNAH #2",
     "date": "2026-02-18",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
     "subGroup": "Champions League",
-    "views": "140k",
+    "views": "141k",
     "customEp": "CLx01",
     "seasonOrder": 1,
     "stage": "Champions League",
@@ -66411,401 +66413,110 @@ export const pengameBattles: Battle[] = [
         "explanation": "300/Sparta closer."
       }
     ],
+    "postBattleContext": "DAN DANNAH wins the coin toss and begins, but no battle winner is announced. The host calls it a dope battle and asks viewers to comment with who they think won the trilogy. The upload then spills into the introduction of the next clash, so the archive records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: DAN DANNAH 2-1 SKAMZ. Suggested round split: Round 1: DAN DANNAH, Round 2: DAN DANNAH, Round 3: SKAMZ. Reason: DAN is more consistent and stronger across the first two rounds. SKAMZ finishes well and likely takes the third, but the restarts and earlier inconsistency leave DAN ahead overall. Archive Grades - DAN DANNAH: A-, SKAMZ: B+. Final Note: This is a strong trilogy battle. SKAMZ has a dangerous third, but DAN DANNAH’s first two rounds are cleaner, more consistent and more damaging. Archive result: DAN DANNAH 2-1, no official winner called."
+      "verdict": "DAN DANNAH wins 2-1 (LOTA Result)",
+      "summary": "DAN DANNAH takes round one through the more complete fake-scammer, Sosa, road-image, Attack on Titan, beef, blade, grenade and short-fuse pressure. He wins round two with the stronger 419-fraud, porky-pie, rasta, mud-fight and Mike Tyson material. SKAMZ earns round three through his Among Us, detention, Eddie Gordo, Evian / naive, Armin and Reiner, Mike Tyson / python, Red Rangers, silver-lining and Sparta construction, although the restarts prevent it overturning DAN’s lead."
     }
   },
   {
     "id": "pg-s06-2026-03-22-bmf-alz-vs-zion",
     "slug": "bmf-alz-vs-zion",
-    "mc1": "bmf-alz",
+    "mc1": "elz",
     "mc2": "zion",
-    "title": "BMF ALZ vs ZION",
+    "title": "ELZ vs ZION",
     "date": "2026-03-22",
     "theme": "pengame",
-    "season": "Champions League",
-    "competition": "Champions League",
-    "subGroup": "Champions League",
+    "season": "2026",
+    "competition": "PenGame",
+    "subGroup": "2026 Battles",
     "views": "26k",
-    "customEp": "CLx02",
+    "customEp": "26x02",
     "seasonOrder": 2,
-    "stage": "Champions League",
-    "group": null,
-    "tag": null,
+    "stage": null,
     "winner": "elz",
     "videoUrl": "https://www.youtube.com/watch?v=eOujt2rtrEQ",
-    "statusNote": "No Official Decision - LOTA Result",
-    "clashSummary": "ELZ vs ZION took place on **PenGame Rap Battle 2026** in the dungeon. host introduces it as an adult PenGame dungeon battle and later sends the result to the comments rather than giving a formal winner.\n\nELZ goes first.\n\nELZ opens with a heavy biblical concept round built around ZION’s name. He uses religious imagery throughout: Lord post-Christmas, Psalms, Satan in Zion, repentance, divine intervention, David and Goliath, Samuel, Lazarus, Moses, Noah, the Temple of David and Israel. It is a dense, highly themed round and one of the clearest concept rounds in the battle.\n\nZION replies with more aggression. He says he was told to be more aggressive, then attacks ELZ physically, lyrically and personally. He uses Garden of Eden, arson, Kung Fu Panda, American food, Star Wars/Mace, Undertaker, cane shots, tooth fairy and pie imagery. It is more direct and violent in tone, but less structured than ELZ’s opener.\n\nELZ’s second continues the pressure. He attacks ZION’s writing, numbers, intelligence, flow, voice, image and originality. He brings Sonic, Fantasia, Rizzle Kicks, Vecna, IQ/chromosome imagery, spelling schemes, TLC, Robin Hood, monarchy and Palestine references. This round is less unified than his first but still has stronger writing density than ZION’s second.\n\nZION’s second is aggressive and personal. He attacks ELZ’s Leicester background, age, followers, prison performance, EP title, weight, diet, family and consistency. He also uses George Floyd tribute imagery, Oompa Loompa and “big boy table” angles. There are moments, but the round feels more scattered than ELZ’s second.\n\nELZ’s third starts strong. He attacks ZION as a keyboard warrior, sweatshop worker, germ, appetizer, Black Bag/Jordan image, Goofy voice, Harry spare reference, Shenseea, dental care, elocution, Passive imitation and Ozempic Games. However, near the end he drops/stumbles and admits he dropped it. That gives ZION a clear opening.\n\nZION’s third is his best round. He attacks ELZ as a social-media ghost, hobby rapper, inconsistent battler, lonely kid, diabetic/takeaway image, CEX-style loser, and then directly references the idea of not choking in the third. That final point lands because ELZ has just dropped. ZION clearly wins the third round.\n\nThe transcript does not include an official judge decision. The host simply tells viewers to get in the comments and say who they think won.\n\nOfficial result: **No official winner called**.",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "clashSummary": "ELZ and ZION met in the PenGame dungeon before the Champions League launch. ELZ chose to go first after the coin toss. The upload ends with viewers being asked to comment with their winner, but no completed tally or declared result is preserved. The result below is therefore an independent LOTA review.\n\nELZ's first was a sustained biblical concept built around ZION's name. Bearing witness and the birth of a post-Christmas lord led into forgiveness, Psalms, palms and turning the other cheek while bringing an arm. A spiritual awakening, Satan entering Zion, repentance and divine intervention continued the religious language. The hill ZION would die on became an icon and bygone sequence. David and Goliath needed one rock; Second Samuel gave way to Lazarus, Eli and a camera-presence rhyme. Moses parted a wave and Noah rode it. The Temple of David, a right hook, the boy who cried wolf, Israel, shells and commandments completed the battle's most coherent round.\n\nZION's first answered with aggression. Garden of Eden and disobedience preceded beating ELZ lyrically and physically. Burning his family home and extinguishing it became arson. Appearance and weight attacks used Kung Fu Panda, American food and cheeseburgers. Dark horse turned into Dark Force before Mace, lighting the place and a saber created a Star Wars sequence. Undertaker, a cane and tooth-fairy pie closed a lively but less connected response. ELZ takes the first through structure and opponent-name focus.\n\nELZ's second widened the references. Sonic produced gems and rings; Fantasia, Rizzle Kicks and leaving Jordan asleep followed. ZION's voice crack, flawed writing and numerical claims led into one friend's brain being worth five of his. A spinning right round left him upside down like Vecna. Grease and fried food preceded climbing ZION's chromosome count and dropping to his IQ. A spelled-out bored line, TLC, Robin Hood, pedigree, kings, bending the knee, samurai and Palestine completed another dense round.\n\nZION's second attacked ELZ's history and status. Leicester became one good season, then PenGame became Endgame and Avengers. A name that should carry value was contrasted with weight in ELZ's neck and stomach. Six years and fewer than five hundred followers became taking TikTok literally through a two-syllable fan count. Performing in prisons made the audience feel imprisoned. A George Floyd tribute put ZION's knee on ELZ's neck. ELZ's EP title prompted a parents-should-have-done-other-stuff punch. Family, beds, kryptonite, the big-boy table, diet, inconsistency and an Oompa Loompa closer followed. ZION has direct moments, but ELZ's technical density takes the second.\n\nELZ's third opened through M. Bison, then attacked ZION as someone only dangerous behind a keyboard. Needles and a sweatshop led into sanitizer cleaning a germ and an opponent with no meat being an appetiser. Equalizer, Jordan trying to be like Mike, Goofy, Harry being spare, dental care, elocution and imitating PASSIVE built the middle. Ozempic Games and a body bag reached the intended close, but ELZ lost the final line, openly admitted the drop and stopped.\n\nZION's third was his strongest and most strategic round. ELZ moved like a ghost on social media and had vision without commitment or firing neurons. Treating rap as a hobby led into class, Dobby and being comfortable in second place. Murder on My Mind invoked YNW Melly. A takeaway became taking ELZ's life and then the number of takeaways he wanted, feeding a future-diabetic angle. Academy status, loneliness, council-estate imagery and prior public criticism followed. ZION closed by saying he had learned from earlier battles and, directly after ELZ's drop, explained that this was why you do not choke in the third.\n\nLOTA scores ELZ 2-1. ELZ takes round one with the battle's strongest sustained biblical construction and wins round two through the denser Sonic, Rizzle Kicks, Vecna, chromosome, spelling, Robin Hood and Palestine writing. ZION wins round three after ELZ drops, then lands the decisive social-ghost, hobby, Dobby, Melly, takeaway and no-choking closer.",
     "performanceAnalysis": [
       {
         "performer": "ELZ",
-        "overview": "ELZ has the better writing across the first two rounds. His first round is the most complete concept in the battle.\n\nThe biblical ZION scheme is strong because it does not just use one religious reference; it builds an entire round around the opponent’s name. The punches are layered, and the structure is clear.\n\nHis second round is also strong, with more varied references and technical punches. It is slightly less focused than the first, but still sharp.\n\nThe issue is the third. ELZ starts well, but dropping near the end damages the round heavily. In a battle that has no official decision, that stumble is the main reason the result cannot be marked as a clean ELZ win.\n\nELZ’s biggest strength is conceptual writing. His weakness here is closing cleanly.",
-        "lyricalThemes": "Biblical imagery, Zion name flips, Psalms, Satan, repentance, divine intervention, David and Goliath, Lazarus, Moses, Noah, Israel, Sonic, Rizzle Kicks, Vecna, IQ/chromosome punch, spelling schemes, Robin Hood, Palestine, M. Bison, sanitizer, Equalizer, Harry spare reference, Passive imitation, Ozempic Games.",
+        "overview": "ELZ wins the LOTA review 2-1. His first is the battle's clearest concept round, repeatedly turning ZION's name into scripture without losing the opponent. His second is less unified but technically denser than ZION's reply. A late drop costs him the third, yet the two completed opening rounds establish the decision.",
+        "lyricalThemes": "Birth, lords and Christmas; Zion, forgiveness, Psalms and palms; Satan, repentance and divine intervention; hills, icons and bygones; David, Goliath, Samuel, Lazarus and Eli; Moses, Noah, temples, Israel, shells and commandments; Sonic, gems and rings; Fantasia and Rizzle Kicks; voice cracks and numbers; Vecna; chromosomes and IQ; spelling, TLC, Robin Hood, kings, samurai and Palestine; M. Bison; keyboards, sweatshops, sanitizer, appetisers, Equalizer, Jordan, Goofy, Harry, elocution, PASSIVE and Ozempic.",
         "keyTechnicalHighlights": [
-          {
-            "title": "Best round",
-            "description": "Round one."
-          },
-          {
-            "title": "Strongest trait",
-            "description": "Concept writing."
-          },
-          {
-            "title": "Best angle",
-            "description": "Full biblical ZION name scheme."
-          },
-          {
-            "title": "Best technical section",
-            "description": "Satan / repentance / divine intervention / David and Goliath sequence."
-          },
-          {
-            "title": "Battle factor",
-            "description": "Wins the first two rounds on writing, but the third-round drop prevents a clean official-style win."
-          }
+          {"title":"Biblical ZION concept","description":"Psalms, Satan, repentance, David, Goliath, Samuel, Lazarus, Moses, Noah and Israel sustain an opponent-name round."},
+          {"title":"Vecna and IQ run","description":"A right-round spin, Vecna, grease, fried food, chromosomes and IQ create the second's sharpest sequence."},
+          {"title":"Active versus PASSIVE","description":"Elocution and imitation lead into accusing ZION of copying PASSIVE while ELZ remains active."}
         ]
       },
       {
         "performer": "ZION",
-        "overview": "ZION is more aggressive and has the best third round. His issue is that his first two rounds are less controlled than ELZ’s.\n\nHis first round has energy and violence, but it does not match ELZ’s biblical structure. The best parts are the Garden of Eden, Mace, Undertaker and tooth fairy sections.\n\nHis second has some good personal material, especially the Leicester/one good season angle and the follower-count section. However, it is still rough and jumps between angles quickly.\n\nHis third is the clear standout. He directly capitalises on ELZ dropping, then attacks ELZ’s social presence, career seriousness, loneliness and consistency. The “that’s why you don’t choke in the third round” idea is the strongest strategic moment from ZION because it lands in real time.\n\nZION’s biggest strength is aggression and late-round adjustment. His weakness is structure.",
-        "lyricalThemes": "Garden of Eden, arson, Kung Fu Panda, American food, cheeseburger imagery, Star Wars/Mace, Undertaker, cane shots, tooth fairy, Leicester football angle, followers, prison performance, EP/family angle, big boy table, Oompa Loompa, social ghost, hobby rapper, lonely kid, takeaway/death row, third-round choke rebuttal.",
+        "overview": "ZION loses the LOTA review 2-1 but closes strongest. His first has aggression and accessible references, while his second is more personal through Leicester, followers, prison performances and ELZ's EP. His third is the strategic high point: after ELZ drops, ZION completes a focused social-media, commitment, hobby and takeaway attack and finishes on not choking in the third.",
+        "lyricalThemes": "Garden of Eden and disobedience; arson; Kung Fu Panda and American food; dark horses and Dark Force; Mace, sabers and Star Wars; Undertaker, canes and tooth fairies; Leicester and one good season; Endgame and Avengers; followers, TikTok and syllables; prisons; George Floyd; EP titles and parents; kryptonite, big-boy tables, diets and Oompa Loompas; social-media ghosts, commitment and neurons; hobbies, class, Dobby and second place; YNW Melly; takeaways, diabetes, Academy status, loneliness and third-round choking.",
         "keyTechnicalHighlights": [
-          {
-            "title": "Best round",
-            "description": "Round three."
-          },
-          {
-            "title": "Strongest trait",
-            "description": "Aggression and rebuttal timing."
-          },
-          {
-            "title": "Best angle",
-            "description": "ELZ choking/dropping in the third."
-          },
-          {
-            "title": "Best technical section",
-            "description": "Social ghost / hobby rapper / don’t choke in the third sequence."
-          },
-          {
-            "title": "Battle factor",
-            "description": "Strong finish makes the battle debatable."
-          }
+          {"title":"Dark Force and Mace","description":"Dark horse becomes Dark Force before Mace and a saber turn the passage into Star Wars."},
+          {"title":"TikTok syllable count","description":"A low follower count becomes taking TikTok literally because the fan total matches two syllables."},
+          {"title":"No-choke closer","description":"ZION uses ELZ's immediately preceding drop as proof of why a battler must finish the third cleanly."}
         ]
       }
     ],
     "notableBars": [
-      {
-        "performer": "ELZ",
-        "theme": "Status",
-        "bar": "Bear witness, this the birth of the Lord post-Christmas.",
-        "explanation": "A strong opening that sets the biblical tone."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Wordplay",
-        "bar": "Only place gassing you up is Psalms.",
-        "explanation": "A clever religious/name flip."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Threat",
-        "bar": "God can’t save you from catching these palms.",
-        "explanation": "A faith/violence punch."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Wordplay",
-        "bar": "Can’t turn the other cheek when I’m bringing the arm.",
-        "explanation": "A biblical phrase flipped into violence."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Concept",
-        "bar": "You never should have ever let Satan in Zion.",
-        "explanation": "One of ELZ’s best name-based punches."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Concept",
-        "bar": "I’ll grant you repentance.",
-        "explanation": "Continues the religious judgement theme."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Status",
-        "bar": "How can he look up? I’m in ascendance.",
-        "explanation": "A spiritual elevation/status punch."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Concept",
-        "bar": "Smiting you down, it’s divine intervention.",
-        "explanation": "A clean religion/destruction line."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Imagery",
-        "bar": "This is really going to be the hill that you die on.",
-        "explanation": "A strong “Zion hill” style battle image."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Reference",
-        "bar": "David and Goliath, one rock to your jaw.",
-        "explanation": "Biblical underdog punch."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Reference",
-        "bar": "I’m Lazarus.",
-        "explanation": "A resurrection/reference line."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Reference",
-        "bar": "I’m parting your wave like Moses.",
-        "explanation": "A Moses/sea split flip."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Reference",
-        "bar": "Then I’m riding the wave like Noah.",
-        "explanation": "A flood/Noah continuation."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Wordplay",
-        "bar": "Don’t play with a pen, it ain’t got game.",
-        "explanation": "A PenGame name flip."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Concept",
-        "bar": "It’s scriptural that I spray on stage.",
-        "explanation": "Religious writing / battle writing fusion."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Reference",
-        "bar": "You ain’t get no gems or rings for your Sonic soul.",
-        "explanation": "A Sonic reference."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Reference",
-        "bar": "Last time I clashed Hudson or Dorian, this time it’s Jordan from Rizzle Kicks.",
-        "explanation": "A lookalike/reference punch."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Reference",
-        "bar": "Leave you upside down like your name was Vecna.",
-        "explanation": "A Stranger Things / Vecna punch."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Critique",
-        "bar": "If I wanted to kill myself, I’d climb your chromosome count and drop to your IQ.",
-        "explanation": "A harsh intelligence punch. Battle material."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Wordplay",
-        "bar": "A-G-L-O-O-K-S-O-B-O-R-E-D.",
-        "explanation": "A spelling scheme attacking ZION’s style/look."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Status",
-        "bar": "Real kings don’t bend the knee.",
-        "explanation": "A royalty/status line."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Wordplay",
-        "bar": "This ain’t your retribution, Zion, this is your extracution.",
-        "explanation": "A retribution/execution-style wordplay."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Critique",
-        "bar": "You imitate Passive, I’m really active.",
-        "explanation": "A style/identity critique."
-      },
-      {
-        "performer": "ELZ",
-        "theme": "Wordplay",
-        "bar": "Battle Ozempic Games, I snatched it.",
-        "explanation": "A weight-loss/Olympics-style punch."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Angle",
-        "bar": "Jaws said I need to be more aggressive.",
-        "explanation": "ZION opens by responding to prior critique."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Threat",
-        "bar": "I’ll get in his face and clip that jaw.",
-        "explanation": "A direct aggression line."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Reference",
-        "bar": "You’ll get banished at the Garden of Eden.",
-        "explanation": "A biblical rebuttal to ELZ’s religious theme."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Threat",
-        "bar": "I’ll beat you lyrically, then beat you down physically.",
-        "explanation": "A lyrical/physical threat line."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Imagery",
-        "bar": "Burn your family home to a crisp, put it out with my piss.",
-        "explanation": "Shock-value arson imagery. Battle material."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Appearance",
-        "bar": "Bare-bellied from Kung Fu Panda.",
-        "explanation": "A body/film punch."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Appearance",
-        "bar": "The embodiment of American food.",
-        "explanation": "A body/food insult."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Appearance",
-        "bar": "Mr Cheeseburger.",
-        "explanation": "A simple visual/body punch."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Reference",
-        "bar": "Call me Mace, I’ll light up the place with my saber.",
-        "explanation": "A Star Wars / Mace Windu punch."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Imagery",
-        "bar": "I go by Undertaker.",
-        "explanation": "A wrestling/death image."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Reference",
-        "bar": "I’ll beat him again with a cane.",
-        "explanation": "Continues the Undertaker/Kane wrestling reference."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Imagery",
-        "bar": "Your teeth will fly, and the tooth fairy would bring him a pie.",
-        "explanation": "A teeth/body punch."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Location",
-        "bar": "Leicester had about one good season.",
-        "explanation": "A football/location punch."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Reference",
-        "bar": "This your endgame — Avengers.",
-        "explanation": "A Marvel/endgame flip."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Critique",
-        "bar": "In six years, you got under 500 followers.",
-        "explanation": "A social-media status attack."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Critique",
-        "bar": "When you rap, I feel imprisoned.",
-        "explanation": "A performance/listening insult."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Status",
-        "bar": "If you wanna sit over here with the big boy table, please don’t just bring a big boy diet.",
-        "explanation": "A body/status punch."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Appearance",
-        "bar": "I’ll start with this Oompa Loompa that stood in my way.",
-        "explanation": "A Willy Wonka/body image."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Critique",
-        "bar": "This guy moves like a ghost on socials.",
-        "explanation": "A social-media presence attack."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Critique",
-        "bar": "My question: what is he hiding?",
-        "explanation": "Continues the ghost/social angle."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Critique",
-        "bar": "You treat this thing like a hobby.",
-        "explanation": "A seriousness/career critique."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Reference",
-        "bar": "Murder on my mind like Melly.",
-        "explanation": "A YNW Melly reference."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Critique",
-        "bar": "His music makes me suicidal.",
-        "explanation": "A harsh music-quality attack. Battle material."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Imagery",
-        "bar": "Death row, cold word.",
-        "explanation": "A death-row/takeaway-style punch."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Status",
-        "bar": "You’re not in the Academy trailer.",
-        "explanation": "A platform-status punch."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Angle",
-        "bar": "Don’t judge what I did before this.",
-        "explanation": "A self-correction / growth angle."
-      },
-      {
-        "performer": "ZION",
-        "theme": "Angle",
-        "bar": "That’s why you don’t choke in the third round.",
-        "explanation": "ZION’s strongest strategic closer because ELZ dropped in the third."
-      }
+      {"performer":"ELZ","theme":"Round 1 - Post-Christmas lord","bar":"Bear witness, this the birth of the Lord post-Christmas - all you ZION begging forgiveness.","explanation":"A new lord arriving after Christmas opens the biblical attack on ZION's name."},
+      {"performer":"ELZ","theme":"Round 1 - Psalms and palms","bar":"The only place gassing you up is Psalms; God won't save you from catching these palms.","explanation":"Biblical Psalms rhyme with physical palms."},
+      {"performer":"ELZ","theme":"Round 1 - Other cheek","bar":"Can't turn the other cheek when I'm bringing the arm.","explanation":"Christian non-violence is reversed by a physical arm attack."},
+      {"performer":"ELZ","theme":"Round 1 - Spiritual awakening","bar":"It's my name you'll be taking in - gift you that spiritual awakening.","explanation":"Religious awakening becomes accepting ELZ's name through defeat."},
+      {"performer":"ELZ","theme":"Round 1 - Satan in Zion","bar":"You never should have let Satan in ZION.","explanation":"ZION becomes a holy place corrupted by Satan."},
+      {"performer":"ELZ","theme":"Round 1 - Divine intervention","bar":"Confess to me now, I'll grant repentance - smiting you down, it's divine intervention.","explanation":"Confession, repentance and divine punishment form one religious chain."},
+      {"performer":"ELZ","theme":"Round 1 - Hill to die on","bar":"It's fitting for ZION - this really gonna be the hill that you die on.","explanation":"Zion's hill geography becomes the figurative position that causes defeat."},
+      {"performer":"ELZ","theme":"Round 1 - David and Goliath","bar":"Size check, David and Goliath - one rock to your jaw, all I require.","explanation":"The biblical underdog defeats a giant with one stone."},
+      {"performer":"ELZ","theme":"Round 1 - Lazarus","bar":"You're the son of Eli, I'm Lazarus - can't deny me Christ in front of the camera.","explanation":"Biblical names and resurrection continue the scripture-led round."},
+      {"performer":"ELZ","theme":"Round 1 - Moses and Noah","bar":"I'm parting your wave like Moses, then riding the wave like Noah.","explanation":"Two biblical water stories become controlling ZION's momentum."},
+      {"performer":"ELZ","theme":"Round 1 - Temple of David","bar":"Punchlines you can't clock - in the Temple of David with a right hook.","explanation":"The temple and a boxing right hook combine scripture with fighting."},
+      {"performer":"ELZ","theme":"Round 1 - Israel shells","bar":"You claim Israel, but I'm the one shelling indiscriminately.","explanation":"Shells move between history, weapons and attacking the claimed identity."},
+      {"performer":"ELZ","theme":"Round 2 - Sonic","bar":"You ain't getting gems or rings for your Sonic soul.","explanation":"Sonic's collectible gems and rings become rewards ZION will not receive."},
+      {"performer":"ELZ","theme":"Round 2 - Rizzle Kicks","bar":"Last time Hudson or Dorian, this time Jordan from Rizzle Kicks - I'll leave you slept.","explanation":"Lookalikes and Rizzle Kicks member Jordan Stephens form the appearance comparison."},
+      {"performer":"ELZ","theme":"Round 2 - Vecna","bar":"Right round, leave you upside down like your name was Vecna.","explanation":"Spinning and Stranger Things' Vecna produce an inverted supernatural image."},
+      {"performer":"ELZ","theme":"Round 2 - Chromosome IQ","bar":"If I wanted to kill myself, I'd climb your chromosome count and drop to your IQ.","explanation":"A high chromosome count and low intelligence become the height of a fatal fall."},
+      {"performer":"ZION","theme":"Round 1 - Garden of Eden","bar":"You'll get banished from the Garden of Eden for being disobedient.","explanation":"Biblical expulsion answers ELZ's scripture theme."},
+      {"performer":"ZION","theme":"Round 1 - Arson","bar":"Burn your family home to a crisp, put it out with my piss - I'm committing arson.","explanation":"Fire and extinguishing it form an intentionally extreme arson threat."},
+      {"performer":"ZION","theme":"Round 1 - Kung Fu Panda","bar":"Forget a midlife crisis - bare-bellied from Kung Fu Panda.","explanation":"ELZ's body is compared with Po from Kung Fu Panda."},
+      {"performer":"ZION","theme":"Round 1 - American food","bar":"You live in the UK but you're the embodiment of American food, Mr Cheeseburger.","explanation":"Body size becomes a stereotype of American fast food."},
+      {"performer":"ZION","theme":"Round 1 - Dark Force","bar":"They clashed me with the Dark Horse; I'll show what a win do and come back as the Dark Force.","explanation":"Dark horse shifts into the dark side of Star Wars."},
+      {"performer":"ZION","theme":"Round 1 - Mace and Undertaker","bar":"Call me Mace, light up the place with my saber - you're the dead man, I go by Undertaker.","explanation":"Mace Windu, a lightsaber and wrestling's Deadman combine two reference sets."},
+      {"performer":"ZION","theme":"Round 2 - Leicester season","bar":"You're from Leicester - like them, you've had about one good season.","explanation":"Leicester City's exceptional title season becomes a career criticism."},
+      {"performer":"ZION","theme":"Round 2 - Endgame","bar":"Still made it on PenGame, this your Endgame - Avengers, you're here for desperate reasons.","explanation":"PenGame becomes Avengers: Endgame and a final appearance."},
+      {"performer":"ZION","theme":"Round 2 - Name and weight","bar":"Your name should hold value; turns out your neck and belly got the weight.","explanation":"Carrying value becomes literal body weight."},
+      {"performer":"ZION","theme":"Round 2 - TikTok syllables","bar":"Six years, under five hundred followers - took TikTok literally, fans match the syllable count: two.","explanation":"A low audience becomes only two fans, matching Tik and Tok."},
+      {"performer":"ZION","theme":"Round 2 - Prison performance","bar":"You perform in prisons; when you rap I feel imprisoned - they got forced to listen.","explanation":"The venue becomes the listener's trapped experience."},
+      {"performer":"ZION","theme":"Round 2 - George Floyd tribute","bar":"Who writes for you? On my knees on your neck, call it a George Floyd tribute.","explanation":"Kneeling on a neck is framed through the killing of George Floyd."},
+      {"performer":"ZION","theme":"Round 3 - Ghost on socials","bar":"This guy moves like a ghost on socials - my question is, what is he hiding?","explanation":"Low online presence becomes ghosting and concealment."},
+      {"performer":"ZION","theme":"Round 3 - Hobby rapper","bar":"Why are you here? You look like you're treating this thing like a hobby.","explanation":"ZION attacks ELZ's commitment rather than only his ability."},
+      {"performer":"ZION","theme":"Round 3 - Murder on My Mind","bar":"No mercy when I write, got murder on my mind like Melly.","explanation":"YNW Melly's song title becomes battle intent."},
+      {"performer":"ZION","theme":"Round 3 - No choking","bar":"I understand it now - that's why you don't choke in the third round.","explanation":"The closer lands strategically because ELZ had just dropped his own third."}
     ],
+    "oddMoments": [
+      "ELZ chooses to go first immediately after the toss.",
+      "ZION's first spells his name into an unclear sequence before the closer.",
+      "The host comments on the unusually long instrumental intro before ELZ's third.",
+      "ELZ openly admits he dropped the ending of his third and calls time on himself.",
+      "ZION's final line directly punishes that stumble by warning against choking in round three.",
+      "The upload moves into the beginning of DOMI DUSK vs SEVZ after the outro."
+    ],
+    "coolMoments": [
+      "ELZ sustains the ZION scripture theme through almost his entire first.",
+      "The Moses and Noah wave sequence cleanly joins two biblical stories.",
+      "ELZ's Vecna and chromosome-IQ section gives the second its strongest technical pocket.",
+      "ZION's Leicester one-good-season line is a concise opponent-history punch.",
+      "ZION converts ELZ's live third-round drop into the battle's most timely closer."
+    ],
+    "postBattleContext": "The host asks viewers to comment with who they think won. No tally or official winner is announced, so the archive records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments decide. Recommended site status: No Official Decision / Fan Vote Pending. Archive lean: ELZ 2-1 ZION. Suggested round split: Round 1: ELZ, Round 2: ELZ, Round 3: ZION. Reason: ELZ has the stronger writing and structure in the first two rounds, but ZION clearly wins the third after ELZ drops/stumbles. Archive Grades - ELZ: B / B+, ZION: B. Final Note: ELZ’s pen is stronger early, but ZION makes the battle debatable by closing better and punishing the third-round drop. Officially, this should stay as Fan Vote Pending unless PenGame later confirms a winner."
+      "verdict": "ELZ wins 2-1 (LOTA Result)",
+      "summary": "ELZ wins round one through the sustained biblical ZION construction and takes round two with the denser Sonic, Rizzle Kicks, Vecna, chromosome, spelling and Palestine writing. ZION wins round three after ELZ drops, then closes with the stronger social-media, commitment, hobby, takeaway and no-choking material."
     }
   },
+
   {
     "id": "pg-s06-2026-04-05-iiiberealz-vs-dan-dannah",
     "slug": "iiiberealz-vs-dan-dannah-2",
@@ -66818,33 +66529,435 @@ export const pengameBattles: Battle[] = [
     "season": "Champions League",
     "competition": "Champions League",
     "subGroup": "Champions League",
-    "views": "104k",
+    "views": "105k",
     "customEp": "CLx03",
     "seasonOrder": 3,
     "stage": "Champions League",
     "group": null,
     "tag": null,
-    "winner": "iiiberealz"
+    "winner": "iiiberealz",
+    "resultSource": "lota",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "iiiBEREALZ and DAN DANNAH met for a three-round rematch at Boxpark Croydon in the PenGame Champions League. Margs introduced it as a heavyweight return to their earlier one-round clash, reminded the room that the audience vote was the only decision that counted, and put the battle straight into a coin toss. DAN won and chose to open.\n\nDAN DANNAH used round one to challenge iiiBEREALZ's claim that he had never lost. He brought up their previous meeting, the 2-on-2 with F-DON, iiiBEREALZ's habit of disputing results and the amount of studio work needed to make his delivery clear. The strongest section joined the three letters in iiiBEREALZ's name to a one-two-three combination, arguing that the three eyes should have seen the clean sweep coming. A forced restart interrupted the opening, but DAN repeated the material and recovered the round.\n\niiiBEREALZ answered with a more direct and consistently opponent-specific first. He attacked DAN's appearance, age, PenGame record and veteran status, then moved through Crystal Palace, cremation/coffin and level comparisons. His central argument was that DAN dressed like a threat without actually being one: a veteran in costume rather than a genuine problem. The round was less dependent on one scheme and built pressure through compact insults and steady cadence.\n\nDAN's second was his most structured round. He opened by stretching the name iiiBEREALZ through I.B., ICU, icy and all-eyes wordplay, then turned to losses, body-count claims, the Faith EP and cake-business material. The round mixed record-based angles with jokes about iiiBEREALZ's partner, clothes, breath and appearance. Its best passages linked several meanings without losing the opponent.\n\niiiBEREALZ responded by attacking DAN's reliance on F-DON, his music, pronunciation, age and writing. A polar/freeze sound pattern gave the round momentum, while the seizure/C's-up section turned DAN's pronunciation into a writing angle. After a restart, iiiBEREALZ returned to the same material, extended the face and age attacks and closed by questioning how DAN could criticise a lisp when both men share one.\n\nThe clearer transcript recovers the spine of DAN's third. He opens by flipping iiiBEREALZ's claim to be the realest, then moves through star/realignment, paper-aeroplane and dry-drip imagery before building a Spider-Man run through Carnage and Venom. Several individual words remain uncertain because the round is stopped and repeated, but the structure is now clear enough to index. iiiBEREALZ's final remains the cleaner close. He returned to DAN's battle history, named losses, challenged how DAN handled a family angle, referenced DAN's music videos and built a long pause sequence before finishing on hair, health, clothing and longevity. His opponent-specific pressure gives him the stronger finish.\n\nThe upload ends with Margs keeping the audience vote open until the following morning rather than announcing a count on camera. The archive retains iiiBEREALZ as the LOTA winner; the source transcript does not preserve a final audience tally.",
+    "performanceAnalysis": [
+      {
+        "performer": "iiiBEREALZ",
+        "overview": "iiiBEREALZ wins the rematch in the archive record by applying steadier direct pressure and finishing with the clearest complete third round. His first is a compact character attack, his second uses longer sound patterns, and his final turns DAN's history and image into a closing case.",
+        "lyricalThemes": "DAN's veteran status, appearance and age; earlier PenGame results; F-DON association; music and pronunciation; costume-versus-credibility framing; battle longevity.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Opponent-specific first round",
+            "description": "He keeps nearly every section attached to DAN's face, record, age, name or position in PenGame rather than relying on a generic verse."
+          },
+          {
+            "title": "Extended sound chains",
+            "description": "The polar, colder, shower, flower and sour sequence gives his second round a musical spine while the insults continue to move forward."
+          },
+          {
+            "title": "Clearer final-round construction",
+            "description": "His closing round moves from battle history into family, music-video and pause angles, then finishes with a compact run of appearance and longevity attacks."
+          }
+        ]
+      },
+      {
+        "performer": "DAN DANNAH",
+        "overview": "DAN DANNAH brings the sharper single schemes of the battle and makes the rematch history central from the opening line. The three-eyes combination and I.B./ICU/icy sequence turn iiiBEREALZ's name into repeatable punches, while the recovered third adds realignment, paper-aeroplane and Spider-Man imagery.",
+        "lyricalThemes": "The previous clash; disputed losses; clarity and studio mixing; the three eyes in iiiBEREALZ; body-count claims; the Faith EP; cake-business and appearance jokes; realignment, aeroplanes, Carnage and Venom.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Three-eyes combination",
+            "description": "DAN links a boxing one-two with the three letters at the start of iiiBEREALZ's name, then pays it off with foreseeing a clean sweep."
+          },
+          {
+            "title": "Name-flip sequence",
+            "description": "The I.B., ICU, icy and all-eyes chain is his cleanest sustained writing and opens round two with immediate structure."
+          },
+          {
+            "title": "Recovered third-round chain",
+            "description": "The clearer transcript reveals a connected run from realest and realignment into flight, then from arson into Spider-Man, Carnage and Venom."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Battle History",
+        "bar": "You keep saying that you ain't lost one battle, but why you lying still? You got smoked by me and F-DON in my bedroom, but you deny it still.",
+        "explanation": "DAN opens the rematch by disputing iiiBEREALZ's unbeaten claim and immediately anchors the clash in their shared PenGame history."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Audio Engineering",
+        "bar": "First Ish has to mix-clean it, get a de-esser, then tweak it — you ain't seasoned.",
+        "explanation": "A technical attack on delivery. A de-esser reduces harsh sibilance, so DAN says the engineer must repair iiiBEREALZ's voice before the audience can understand it."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Name Flip",
+        "bar": "I'll hit him with the one, two, three — eyes in your name should have foreseen it. A clean sweep.",
+        "explanation": "The count reaches three as the three opening i's become three eyes, while 'foreseen' turns sight into advance warning of the clean sweep."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Name Scheme",
+        "bar": "Your name's I.B. who? I'll send you to the ICU. Think you're cold from icy too? Your heart's not cold, there's no ice in you.",
+        "explanation": "DAN chains similar sounds across I.B., ICU, icy and ice-in-you, using the full sequence to challenge iiiBEREALZ's name and toughness."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Body Count",
+        "bar": "Season four, you got bodied. Two-v-two, came back, you got bodied. Season five, came back, you got bodied.",
+        "explanation": "The repetition turns iiiBEREALZ's appearance history into a running accusation: activity is not the same as winning."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Faith Flip",
+        "bar": "I heard you got a new EP called Faith and it's not going well — I got faith it's not gonna sell.",
+        "explanation": "DAN flips the EP title into a prediction about its reception, using faith in the opposite direction to iiiBEREALZ's intended branding."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 — Realignment",
+        "bar": "You ain't as real as I. You really think you're the realest? Then you need to realise that you ain't a star — get realigned up here.",
+        "explanation": "DAN repeats the real sound from iiiBEREALZ's name, then moves from being a star into astronomical realignment."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Cake Business",
+        "bar": "When I say I'm the shit, it's only because I bought one of your cakes — it gave me a stomach ache.",
+        "explanation": "DAN turns the boast 'I'm the shit' into a digestive punch about iiiBEREALZ's cake business."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 — Previous Clash",
+        "bar": "I smoked you before, same day that nerd got torched — another two-v-two with your props and both the chemistry and cadence poor.",
+        "explanation": "iiiBEREALZ rejects DAN's opening history lesson and reframes the earlier team battle as evidence that DAN and his partner lacked chemistry."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 — Pen Test",
+        "bar": "Each bar, I set the trend. You can't test the pen.",
+        "explanation": "A direct Champions League writing claim: DAN cannot measure or challenge the quality of iiiBEREALZ's pen."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 — Crystal Palace",
+        "bar": "It's Champions League, you're in a conference. In your Crystal Palace, you throw rocks in.",
+        "explanation": "He contrasts the Champions League with the lower Conference level, then uses Crystal Palace as both the football club and a fragile palace vulnerable to stones."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 — Costume Angle",
+        "bar": "You ain't no vet, you are not a problem. You ain't no gangster, you're in a costume — you're an act, man.",
+        "explanation": "The core character argument of his first: DAN performs the image of a veteran threat without possessing the substance behind it."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 — F-DON Association",
+        "bar": "You rap bars while F-DON rubs your shoulders. You're not bad, you're a poser.",
+        "explanation": "iiiBEREALZ attacks DAN's independence by presenting F-DON as the support behind his battle persona."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 — Sound Pattern",
+        "bar": "You're not bad, you're a poser. I'm the opposite — polar. Highly schooled, freeze your mind while firing off.",
+        "explanation": "The sound chain moves through poser and polar before 'freeze your mind' completes the cold imagery."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 — Pronunciation",
+        "bar": "You try say I can't say seizure — you little fool, pronounce seizure, turn and trip up with my C's up.",
+        "explanation": "He answers criticism of his speech by making DAN repeat the difficult word, then flips its opening sound into 'C's up'."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 — Shared Lisp",
+        "bar": "Brother, we both have a lisp. How can you try it? Answer this.",
+        "explanation": "A simple but effective rebuttal: DAN's pronunciation angle loses force if the same criticism applies to him."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 — Marvel Chain",
+        "bar": "When I light man, I'm on arson. I'm a Spider-Man, I'm on Carnage — back in my Venom talk, back in my weapon drawer.",
+        "explanation": "Arson carries the sound into Spider-Man before Carnage and Venom extend the connected Marvel-villain sequence."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 — Battle Record",
+        "bar": "He got smoked by SKAMZ, smoked by SMIL3Z and F-DON in his bedroom. He got smoked by ORION, smoked by Cheese, Mead and Zenquick.",
+        "explanation": "iiiBEREALZ closes by listing names from DAN's battle history, mirroring DAN's own body-count attack from round two."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 — Pause Sequence",
+        "bar": "He's finished, I ain't finished — no pause. Boss, put your life on pause.",
+        "explanation": "The repeated pause wording lets iiiBEREALZ move from a performance command into a threat while keeping the cadence connected."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 — Hair Flip",
+        "bar": "You little flame like a souffle — see, you die down quick. Your hair looks like a toupee; I'll take off your wig.",
+        "explanation": "The souffle image describes something that rises and quickly collapses, before the matching toupee sound carries the scheme into an appearance punch."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 — Longevity",
+        "bar": "I'm no veteran rookie — I'm better each time.",
+        "explanation": "The closer compresses his case into a paradox: he rejects both labels and argues that every appearance improves him."
+      }
+    ],
+    "oddMoments": [
+      "DAN DANNAH's first round is stopped almost immediately because the room cannot hear him. He restarts the verse from the top and completes it.",
+      "iiiBEREALZ also repeats a large portion of his second after an interruption about the bar closing, creating two visibly restarted passages in the same battle.",
+      "DAN DANNAH's third is stopped and repeated several times. The newer transcript recovers its main schemes, but some individual words remain too uncertain to quote.",
+      "Margs closes the upload with voting still open until the following morning, so no final count is announced in the footage transcript."
+    ],
+    "coolMoments": [
+      "DAN's one-two / three-eyes / foreseen combination is the cleanest compact name flip in the battle.",
+      "The I.B. / ICU / icy / ice-in-you sequence gives DAN's second an immediate and memorable structure.",
+      "DAN's recovered realignment and Spider-Man schemes show that his third had a deliberate structure despite the disrupted recording.",
+      "iiiBEREALZ's Crystal Palace and competition-level comparison fits the Champions League setting.",
+      "iiiBEREALZ mirrors DAN's record attack in the final, turning the opponent's own method back on him."
+    ],
+    "postBattleContext": "Margs asked attendees to submit their votes and said the ballot would remain open until the following morning. The archive records iiiBEREALZ as the winner; the transcript itself ends before the vote count is announced.",
+    "judgementSummary": {
+      "verdict": "iiiBEREALZ wins",
+      "summary": "LOTA result: iiiBEREALZ wins the rematch. The available transcript does not include a final on-camera vote count, so the page does not invent a numerical score. The clearer source recovers DAN DANNAH's third-round realignment and Marvel schemes, but iiiBEREALZ still applies steadier opponent-specific pressure and owns the cleaner complete final round."
+    }
   },
   {
     "id": "pg-s06-2026-04-11-whoisorion-vs-jaycee",
     "slug": "whoisorion-vs-jaycee",
-    "mc1": "whoisorion",
-    "mc2": "jaycee",
-    "title": "WHOISORION vs JAYCEE",
+    "mc1": "jaycee",
+    "mc2": "whoisorion",
+    "title": "JAYCEE vs WHOISORION",
     "date": "2026-04-11",
     "videoUrl": "https://www.youtube.com/watch?v=saDVRCNX7AE",
     "theme": "pengame",
     "season": "Champions League",
     "competition": "Champions League",
     "subGroup": "Champions League",
-    "views": "88k",
+    "views": "89k",
     "customEp": "CLx04",
     "seasonOrder": 4,
     "stage": "Champions League",
     "group": null,
     "tag": null,
-    "winner": "whoisorion"
+    "winner": "whoisorion",
+    "resultSource": "official",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "JAYCEE and WHOISORION met in Champions League Fixture 1 with the in-building audience deciding the result. JAYCEE won the coin toss and sent WHOISORION out first. The matchup also marked WHOISORION's return to PenGame after time away, which became part of both his performance and the host's framing.\n\nWHOISORION's first round opened by using JAYCEE's real name, Justin Curtis, then attacked his nerves, gang image and PenGame history. He built a draw-the-line/body/hangman sequence, referenced bringing BULLY to the platform, brought up JAYCEE's reaction to losing to SMIL3Z and dismissed the idea that JAYCEE could survive two or three rounds with him. The material had a clear revenge narrative—WHOISORION said he returned for TRAPPY and ZEN rather than JAYCEE—but the round was performed several times because of a reload and then the wrong beat. Once completed, it ended on PASSIVE flow comparisons, Michael Jackson's Man in the Mirror and the declaration that WHOISORION was back.\n\nJAYCEE answered with the more focused first. He challenged WHOISORION over an offensive comment about Black women and argued that WHOISORION had allowed somebody to disrespect his own race without responding. From there he attacked WHOISORION's lack of shows, body, borrowed flows and dependence on other writers. The round moved through Bruce/Sensei, gym and gravity imagery before closing on the idea that WHOISORION had no identity or material of his own.\n\nWHOISORION's second mixed direct insults with performance material. He attacked JAYCEE's size, father, appearance and an old Snapchat filter, then moved into Apple Watch wordplay and a long Black Efron section about JAYCEE's relationship with Black culture. The centrepiece was an X Factor reconstruction: WHOISORION replayed JAYCEE's television appearance, sang a One Direction line and used the audition to question why JAYCEE belonged in his league. He then freestyled a response to JAYCEE's first-round accusation and called for iiiBEREALZ next.\n\nJAYCEE's second was shorter and more conventional. He framed WHOISORION as a good-guy character rather than a genuine threat, using Ned Flanders, gym, food and size angles. The knife/shave section and Chips ambush line brought the stronger battle imagery, while the closing argument said WHOISORION's million views reflected audience preference rather than quality. JAYCEE landed clean ideas, but the round did not build a set piece comparable with the X Factor sequence.\n\nWHOISORION extended the X Factor angle through the third. He compared JAYCEE's singing to a failed buzzer audition, used One Direction as the single direction of a burial, brought in Simon Cowell and an LED-screen ex, then turned the next audition into a mortician/death image. The round was structured around television, music and rejection and closed by saying X Factor had already pushed JAYCEE's buttons. It was WHOISORION's cleanest complete concept.\n\nJAYCEE's final was densely written but disrupted when the beat disappeared from his monitor and the room disputed the time call. He restarted from the top and worked through a Trident/WHOISORION avoidance flip, John Wick, food and weight attacks, Just Eat, group-stage elimination, platform history and an ATM/grocery closer. The repeated performance preserved the material, but the interruption made the ending feel less decisive than WHOISORION's television scheme.\n\nMargs ended the upload by sending the room to vote and did not announce the count on camera. The archive retains WHOISORION as the recorded crowd-vote winner. This is a platform result, not a LOTA judgement.",
+    "performanceAnalysis": [
+      {
+        "performer": "WHOISORION",
+        "overview": "WHOISORION wins the recorded crowd decision with the battle's clearest sustained angle. His first establishes return and revenge, while the second and third turn JAYCEE's X Factor appearance into a connected argument about performance, authenticity and belonging.",
+        "lyricalThemes": "Return to PenGame; revenge against earlier opponents; JAYCEE's gang image and previous losses; PASSIVE flow comparisons; Snapchat and Black Efron; X Factor, One Direction, Simon Cowell and television rejection.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "X Factor reconstruction",
+            "description": "WHOISORION does more than mention the appearance: he reenacts the audition, sings, uses the judges and buzzer, then extends the television idea across two rounds."
+          },
+          {
+            "title": "Return narrative",
+            "description": "His first frames JAYCEE as an obstacle on a larger comeback, giving the battle a personal purpose beyond the Champions League fixture."
+          },
+          {
+            "title": "Recovery through disruption",
+            "description": "Despite multiple wrong-beat and reload problems, WHOISORION restarts cleanly and eventually delivers the intended structure."
+          }
+        ]
+      },
+      {
+        "performer": "JAYCEE",
+        "overview": "JAYCEE brings the denser conventional battle writing and has the more focused opening round. His best work challenges WHOISORION's character, borrowed identity and lack of activity. The final contains many linked punches, but the beat failure and full restart reduce its closing force.",
+        "lyricalThemes": "Character accountability; racial identity; shows and activity; borrowed flows; gym, food and weight; street credibility; John Wick/John Wayne; group-stage elimination and platform history.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Accountability opening",
+            "description": "JAYCEE starts with a specific public comment and turns WHOISORION's response to it into a wider attack on character and professionalism."
+          },
+          {
+            "title": "Identity argument",
+            "description": "Across the first two rounds he repeatedly argues that WHOISORION borrows flows, poses as a threat and lacks an artistic identity of his own."
+          },
+          {
+            "title": "Full final-round recovery",
+            "description": "When the beat disappears and time is disputed, JAYCEE restarts the entire third and completes the material rather than abandoning the round."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — Real Name",
+        "bar": "Ayo, Justin Curtis, why you look nervous? You're so worthless.",
+        "explanation": "WHOISORION opens with JAYCEE's real name to strip away the stage identity and make the attack immediately personal."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — Hangman",
+        "bar": "If I draw the line, it'll be a body. Give me the word and I'll hang man too.",
+        "explanation": "Draw, line, body, word and hangman all belong to the paper game while also forming a threat."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — Previous Loss",
+        "bar": "You was the one that cried when SMIL3Z smoked you. Who the hell provoked you?",
+        "explanation": "A direct PenGame-history angle that questions why JAYCEE would take another high-pressure matchup after reacting badly to a previous result."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — Comeback",
+        "bar": "I ain't here for you, I'm here for revenge. I didn't even want to be in a tourney — I want TRAPPY or ZEN.",
+        "explanation": "WHOISORION positions JAYCEE as a stop on a larger return campaign rather than the real target of his comeback."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — Mirror",
+        "bar": "I don't care if you're white or Black or Michael Jack — look at the man in the mirror and know you ain't a guy like that.",
+        "explanation": "Michael Jackson and Man in the Mirror connect race, self-examination and JAYCEE's claimed persona."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 — Apple Watch",
+        "bar": "You best hand me your Apple wristwear and watch what you say.",
+        "explanation": "Apple wristwear becomes Apple Watch, while 'watch what you say' turns the product name into a warning."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 — Black Efron",
+        "bar": "You think I'm Black? You're wrong — Zac Efron. Since you're Black, call him Black Efron.",
+        "explanation": "A name-sound flip on Zac Efron used to introduce the longer argument about JAYCEE's relationship with Black culture."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 — X Factor",
+        "bar": "You didn't even go through on X Factor, so why are you in my league?",
+        "explanation": "The television rejection becomes evidence that JAYCEE does not belong at WHOISORION's competitive level."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 — One Direction",
+        "bar": "He sang One Direction — the only one direction you're heading is in the dirt.",
+        "explanation": "The group name becomes a literal direction of travel, converting the singing reference into a burial punch."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 — Buzzer",
+        "bar": "You sang your heart out, they just laughed out loud — like, who is this nerd?",
+        "explanation": "WHOISORION reconstructs the audition response to make JAYCEE's public performance the evidence for the insult."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 — Television Ex",
+        "bar": "Only ex you got was on the LED screen.",
+        "explanation": "The letter X and an ex-partner collapse into the X displayed on a television talent-show screen."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 — Audition",
+        "bar": "The next audition you do won't be for television.",
+        "explanation": "He carries the audition motif into a death threat, implying that the next examination will be by a mortician rather than television judges."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 — Buttons",
+        "bar": "I'm sorry for pushing your buttons, but X Factor already did that.",
+        "explanation": "A double meaning between provoking JAYCEE and the judges physically pressing their decision buttons."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 — Accountability",
+        "bar": "A man came on my show and said Black women stink; meanwhile, all you did was laugh along with him. He dissed your whole race to your face and you still let it slide.",
+        "explanation": "JAYCEE turns a public comment into a character test, arguing that WHOISORION failed to defend the people he claims to represent."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 — Bruce Sensei",
+        "bar": "You only get fans when it comes to PenGame. Everybody knows: I'm Bruce Sensei, you don't do shows.",
+        "explanation": "The line contrasts platform visibility with real activity, using the Sensei reference as a claim of seniority."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 — Flow Theft",
+        "bar": "Black book, cheesing up everyone's flow. My guy, you ain't got a manner of your own.",
+        "explanation": "JAYCEE's central identity angle: WHOISORION collects and imitates styles without developing a recognisable one himself."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 — Gravity",
+        "bar": "Lost all your sanity, cracked soul looking back at me — you still touch ground with no gravity.",
+        "explanation": "A surreal closer that says WHOISORION remains low even when the force that should hold him down is removed."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Flanders",
+        "bar": "You ain't no bad man, you've got no dirt — you're a good guy, Ned Flanders.",
+        "explanation": "The famously wholesome Simpsons neighbour is used to dismiss WHOISORION's threatening persona."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Chips Ambush",
+        "bar": "Come outside, you're just gonna get ambushed — he hears chips and his brother gets jumpy.",
+        "explanation": "Ambush becomes 'a man, bush' in the rough delivery while chips flips a confrontation into a food reaction."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Preference",
+        "bar": "You got a million views? I guess everyone's entitled to preference.",
+        "explanation": "JAYCEE concedes the number but refuses its meaning, framing popularity as taste rather than proof of quality."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 — Orion",
+        "bar": "As a teen I was ducking from Trident, but I never ducked WHOISORION.",
+        "explanation": "Trident refers to the Metropolitan Police unit associated with gun crime; JAYCEE contrasts avoiding police as a teenager with refusing to avoid this opponent."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 — Action Cinema",
+        "bar": "JAYCEE's gone sick — John Wick, real shit. I'm equipped; nothing ain't nice round here, it's a long day.",
+        "explanation": "John Wick supplies the armed action-film image before equipped and long day extend JAYCEE's threat."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 — Just Eat",
+        "bar": "When you order Just Eat, that's the only time you're ever gonna lift up a meal.",
+        "explanation": "Meal becomes 'mill' in the status angle, saying WHOISORION only lifts food rather than earning or lifting serious money."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 — Group Stage",
+        "bar": "When I kick this don out of the group stage, we're gonna see a fat one go down the slide.",
+        "explanation": "Champions League elimination is visualised as somebody being pushed down a playground slide."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 — Groceries",
+        "bar": "I'll treat you like you owe me P's — find an ATM and throw me your bags like I'm helping you home with your groceries.",
+        "explanation": "Owed money and the ATM turn the closer into a robbery, while bags also become grocery shopping carried home."
+      }
+    ],
+    "oddMoments": [
+      "WHOISORION performs much of round one three times because of a reload request and then a wrong beat.",
+      "The host repeatedly welcomes WHOISORION home, making his return to the platform part of the room's response.",
+      "WHOISORION reenacts JAYCEE's X Factor appearance and sings One Direction during round two.",
+      "JAYCEE's third is stopped when the beat disappears from his monitor. A disputed time call follows before he restarts the round from the top.",
+      "The upload ends with voting instructions and no visible result tally."
+    ],
+    "coolMoments": [
+      "JAYCEE's opening accountability angle is unusually specific and gives his first a coherent argument.",
+      "WHOISORION's X Factor material develops from a second-round reenactment into the complete structure of his third.",
+      "The Man in the Mirror line cleanly joins Michael Jackson, identity and JAYCEE's claimed image.",
+      "Both MCs complete their material after serious beat and monitoring problems rather than abandoning their rounds."
+    ],
+    "postBattleContext": "Margs instructed the in-building audience to vote immediately after JAYCEE's final. The video does not display the count, but the platform result carried in the archive records WHOISORION as the winner.",
+    "judgementSummary": {
+      "verdict": "WHOISORION wins by crowd vote",
+      "summary": "Official archive record: WHOISORION wins the in-building crowd vote. The upload ends before the tally is shown, so the page does not state a numerical score. JAYCEE has a focused opening and dense final-round writing, but WHOISORION creates the battle's most memorable connected angle by extending JAYCEE's X Factor history across rounds two and three. This is an official platform result, not a LOTA judgement."
+    }
   },
   {
     "id": "pg-s06-2026-04-13-anbu-sensei-vs-drizzgb",
@@ -66858,13 +66971,207 @@ export const pengameBattles: Battle[] = [
     "competition": "Champions League",
     "subGroup": "Champions League",
     "videoUrl": "https://www.youtube.com/watch?v=2zs1dXkikYk",
-    "views": "116k",
+    "views": "117k",
     "customEp": "CLx05",
     "seasonOrder": 5,
     "stage": "Champions League",
     "group": null,
     "tag": null,
-    "winner": "unknown"
+    "winner": "anbu-sensei",
+    "resultSource": "lota",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "ANBU SENSEI and DRIZZGB met in Champions League Fixture 1 with the in-building audience responsible for the official vote. DRIZZGB won the coin toss and sent ANBU out first. Margs introduced both as MCs who had been firing in their recent appearances, but persistent sound and transcription problems made this one of the fixture's hardest battles to preserve.\n\nANBU's first was the clearest complete opening. He attacked DRIZZGB's image, music, relationships and public grief, then moved through Amazon, football, Tesco, social-media and wrestling references. The strongest passages were tailored: a Sesko/Tesco sequence built from DRIZZGB's appearance, an accusation that DRIZZGB only celebrated friends after they died, and a Steve Austin steel-chair closer responding to family material aimed at ANBU's mother. The round was direct, structured and delivered without needing a screen or gimmick.\n\nDRIZZGB's first challenged ANBU's recent record. He brought up TRAPPY, the judges, the SMIL3Z loss and ANBU's time preparing, then referenced the SEVZ battle, anime schemes, relationship rumours and ANBU's past talk of quitting. It was a sensible opponent-specific counter, but the available transcript becomes fragmented and cuts portions of the verse. Enough survives to identify the main angles, not enough to reconstruct every transition confidently.\n\nRound two is not reliably preserved. ANBU begins with a repeated 'how have they got man clashing?' setup and a wooden-sticks/face line, but the source then jumps into host announcements and technical-difficulty commentary. DRIZZGB's response is also missing as a coherent verse. Because neither second can be assessed from the supplied text, the archive leaves the round unscored and does not manufacture bars from broken fragments.\n\nANBU's third was presented as direct angles without a screen, voice notes or gimmicks. He opened with final shift/Margs-hours wordplay, then moved into a 9/11 tower image, Yuri Gagarin, Felipe Lobos and Power, church/sermon material, DRIZZGB's songs, jewellery, record and overhyped reputation. The round was restarted more than once because of sound problems, but the completed version preserved a clear argument: DRIZZGB had more battles without building a decisive gap in quality, while friends and fans inflated his standing.\n\nDRIZZGB closed with a freestyle demonstration. He asked the room for a word, rejected the first attempts, then flipped ANBU into 'Nan-bu' and moved through Ping, Call of Duty, hospital and Michael references, biro/pen writing, Clark Kent, Skyrim, Dungeons & Dragons and ANBU's anime/Sensei identity. The round showed confidence and quick adaptation, but it was looser than ANBU's prepared final and depended on several rough transcript passages.\n\nThe upload ends with Margs keeping the public vote open until the following morning and saying he cannot wait to see who won. No official result is announced, and the original battle data carried no winner. On LOTA review, ANBU SENSEI takes the two scorable preserved rounds through clearer structure, stronger opponent-specific writing and the more complete final. Round two remains unscored.",
+    "performanceAnalysis": [
+      {
+        "performer": "ANBU SENSEI",
+        "overview": "ANBU SENSEI wins the LOTA review on the two scorable preserved rounds. His first is more complete and opponent-specific, while his third turns DRIZZGB's work rate, reputation and past results into a connected closing argument. Round two cannot be assessed from this transcript.",
+        "lyricalThemes": "DRIZZGB's image and music; social-media grief; relationships and family; Sesko/Tesco appearance flips; final shifts and working hours; 9/11, Yuri Gagarin and Power; battle record and overhype.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Direct first-round writing",
+            "description": "ANBU moves through several DRIZZGB-specific subjects without losing the opponent or relying on a generic verse."
+          },
+          {
+            "title": "Final-shift framework",
+            "description": "The last round opens with working-hours language and keeps returning to status, labour and whether DRIZZGB has earned his position."
+          },
+          {
+            "title": "Controlled restarts",
+            "description": "ANBU repeats the third after technical interruptions and still reaches a complete, clearly structured ending."
+          }
+        ]
+      },
+      {
+        "performer": "DRIZZGB",
+        "overview": "DRIZZGB has a relevant first and the more spontaneous final. He attacks ANBU's losses and dependence on anime material, then closes by freestyling from room suggestions. The source does not preserve enough of round two to score it, and his final is entertaining but less controlled than ANBU's prepared closer.",
+        "lyricalThemes": "ANBU's record; TRAPPY, SMIL3Z and SEVZ; judges and preparation time; anime and Sensei identity; relationship rumours; crowd-word freestyle; Call of Duty, hospitals, writing tools and gaming.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Record-based opening",
+            "description": "DRIZZGB begins by testing ANBU's reputation against named battles, preparation time and the judges involved in earlier outcomes."
+          },
+          {
+            "title": "Crowd-word freestyle",
+            "description": "He turns the final into a live-writing demonstration and uses the room's suggestions to launch fresh ANBU name flips."
+          },
+          {
+            "title": "Identity reversal",
+            "description": "The final repeatedly argues that ANBU—not DRIZZGB—is the MC trapped in anime, gaming and invented power schemes."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — No Sequel",
+        "bar": "This the first and the last time I'm burning him. After I'm done with him, there ain't no sequel.",
+        "explanation": "ANBU frames the Champions League meeting as a one-off ending rather than the start of a repeat rivalry."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Amazon",
+        "bar": "One of us normal, man looking like DRIZZ working at Amazon.",
+        "explanation": "A visual uniform/delivery-worker joke aimed at DRIZZGB's appearance. The transcript is rough around the setup but preserves the Amazon punch."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Sesko and Tesco",
+        "bar": "I never bring DRIZZ to the pitch, plays like Sesko — eyes so bad he had a seizure trying to read the word Tesco.",
+        "explanation": "Benjamin Sesko provides the football link before the similar Tesco sound moves the scheme into an eyesight and reading insult."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Social Media Grief",
+        "bar": "You show more love to the guys at the time that they die — IG stories and so many posts, you're capturing them crying inside.",
+        "explanation": "ANBU accuses DRIZZGB of performing grief publicly after failing to show the same care while people were alive."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Attention",
+        "bar": "You told fans you were leaving the tourney — your need for attention's firing high.",
+        "explanation": "A character angle that treats DRIZZGB's talk of leaving as publicity rather than a genuine decision."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Steve Austin",
+        "bar": "You wishing that on me is like Steve Austin trying to cry, but steel chairs.",
+        "explanation": "The wrestling reference resolves on steel chairs, a signature part of the violent WWE imagery associated with Steve Austin's era."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Final Shift",
+        "bar": "Put in your final shift — I don't think Margs needs any more hours.",
+        "explanation": "Shift and hours turn the final round into employment language while also saying the host is ready to end DRIZZGB's time."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Tower",
+        "bar": "If you're at the top, then it's 9/11 — you don't want me to crash your tower.",
+        "explanation": "A deliberately dark status image: being at the top only makes DRIZZGB the tower ANBU intends to bring down."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Power",
+        "bar": "Right now you're Felipe Lobos — you've been waiting for a taste of the Power.",
+        "explanation": "Felipe Lobos is a character from Power, so the name becomes a route into the television title and a dominance claim."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Sermon",
+        "bar": "Can't even step to a church on Sunday, dreaming about you were smoked by sermon.",
+        "explanation": "Church and sermon keep the religious setting connected while 'smoked' turns the lesson into a defeat."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Overhype",
+        "bar": "I already know that I'm over the typing — you and your friends just overly hyping.",
+        "explanation": "Typing points to online comments; hyping describes the inflated reputation ANBU says those posts create."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Experience Gap",
+        "bar": "You had double the battles I did, but still had a close enough battle with BLAZING.",
+        "explanation": "ANBU uses the experience difference against DRIZZGB: more appearances should have produced a much clearer performance gap."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 — Record",
+        "bar": "Without TRAPPY you would've lost. Without judges you would've lost. How you have two years' prep for a clash, get swept by SMIL3Z and you lost?",
+        "explanation": "DRIZZGB opens by challenging ANBU's status through named results, outside assistance and the length of his preparation."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 — Anime Powers",
+        "bar": "Your sickle-cell tells and anime powers, they didn't feel.",
+        "explanation": "The transcript is imperfect, but the attack clearly says ANBU's recurring anime powers and personal motifs failed to connect."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 — Passive",
+        "bar": "Your girlfriend cheating on you like PASSIVE, but we don't want to see you quit as well.",
+        "explanation": "DRIZZGB links a relationship allegation to PASSIVE and ANBU's earlier talk of leaving the platform."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Nan-bu",
+        "bar": "Giving me a word, do I look like ANBU? References and your power schemes, that's old — we're spelling Nan-bu.",
+        "explanation": "The freestyle request becomes an ANBU name flip, adding 'nan' to make the Sensei image sound old and worn out."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Call of Duty",
+        "bar": "You don't step in the field, it's a war zone — Call of Duty, I might have to ping you.",
+        "explanation": "Field, war zone and Call of Duty create a gaming combat setting, while ping works as both a game signal and an attack."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Hospital",
+        "bar": "A&E checking for your vitals. You've been sitting with a doctor, support hospital ward getting charged, Michael.",
+        "explanation": "DRIZZGB builds a medical sequence around A&E, vital signs, doctors and wards before repeating the Michael name as a refrain."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Bar Rebuttal",
+        "bar": "I just made your bar my bar, and guess what? I made it even better, Michael.",
+        "explanation": "A direct live rebuttal claim: DRIZZGB says he has taken ANBU's idea and improved it within the freestyle."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Biro",
+        "bar": "I draw straight lines — he's in a biro.",
+        "explanation": "Drawing and straight lines connect to a biro pen, keeping the writing tool inside a threat."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Skyrim",
+        "bar": "You talk about guns and knives in your bars, but you're in your yard and you're playing Skyrim.",
+        "explanation": "The violent fantasy is reduced to a video game played safely at home, challenging ANBU's credibility."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Sensei Temple",
+        "bar": "This ain't a dojo, this an event for me. Sensei, right now this is my temple.",
+        "explanation": "DRIZZGB takes ANBU's martial-arts title and relocates authority from the dojo to his own battle stage."
+      }
+    ],
+    "oddMoments": [
+      "Round two is largely absent from the supplied transcript. Both MCs' verses are interrupted by host announcements and acknowledged technical difficulties.",
+      "ANBU's third is restarted multiple times before a complete version is captured.",
+      "DRIZZGB asks the room for freestyle words, rejects several suggestions and jokes that the audience has tricked him before beginning the final.",
+      "Margs leaves voting open until the following morning and ends by saying he cannot wait to see who won, confirming that no result was available on camera."
+    ],
+    "coolMoments": [
+      "ANBU's Sesko/Tesco sequence is the cleanest compact name-and-appearance scheme in the opening round.",
+      "ANBU's final-shift and Margs-hours opener gives the third a clear workplace framework immediately.",
+      "DRIZZGB turns the last round into a crowd-word freestyle and directly claims one of ANBU's bars as a live rebuttal.",
+      "The dojo/temple closer gives DRIZZGB a concise final flip on the ANBU SENSEI identity."
+    ],
+    "postBattleContext": "The in-building vote remained open until the following morning. No official tally or winner is announced in the upload, and the pre-existing archive entry listed the result as unknown.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: ANBU SENSEI wins",
+      "summary": "LOTA review: ANBU SENSEI wins on the two scorable preserved rounds. Round one goes to ANBU for the clearer opponent-specific writing and more complete structure. Round two is unscored because neither verse survives coherently in the supplied transcript. Round three goes to ANBU for the more controlled prepared material, although DRIZZGB's crowd-word freestyle has good spontaneous moments. No official vote count is available, so this is explicitly a LOTA result rather than an official PenGame decision."
+    }
   },
   {
     "id": "pg-scl-2026-04-15-jm-vs-kmarh",
@@ -66884,8 +67191,240 @@ export const pengameBattles: Battle[] = [
     "group": null,
     "tag": null,
     "views": "69k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "winner": "jm",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "JM and K.MAR met in a Champions League audio release recorded at Boxpark. K.MAR won the coin toss and chose to send JM first. Margs reminded the room that only in-building votes counted and that the result would remain open until 12, but the upload ends before any tally or winner is announced.\n\nJM's first was an aggressive statement round built around flow changes, rapid internal rhymes and the claim that the Champions League was now his house. He opened with K.MAR name sounds, then moved through military/manic/savage, luggage/baggage and collateral-damage patterns. The strongest tailored section referenced K.MAR's clash with JAYCEE, flipped both opponents' initials and turned smoking J into a letter-and-weed sequence. JM restarted the verse more than once as the levels were adjusted, but the completed version had the greater volume and momentum of the two openers.\n\nK.MAR answered with a connected dog, farm and food scheme. He called JM a farmer who would not bark or bite, then moved through target dog, casket, disaster, tsunami, barn and barking before switching into drum, guitar, strings and raising the bar. The verse stayed opponent-facing and finished on cleaning, bagging, OnlyFans and smoke imagery. It was coherent and well constructed, but JM's first had the stronger energy and more varied attack.\n\nJM's second was darker and more direct. He opened by turning K.MAR into an acronym and a receding-hairline attack, then used borrowed bars, scars, popcorn and gun-sound patterns. A large section relied on repeated zip, hip, bit, pat, cap and slap sounds before escalating into extreme family-loss material. He closed by calling the battle a 3-0 hat-trick and one-sided warm-up. The cadence carried the round, although some of the writing prioritised shock and repetition over a clean opponent-specific case.\n\nK.MAR's second was the turning point. He opened with race/bolt/Harlem Shake imagery, then built a card-and-payment scheme around J, change, decline, empty hands and charging the game. From there he attacked JM's Facebook Marketplace clothes and haircut before moving into farm, field, valley, sheep and lamb-patty wordplay. The Smith/Jerry-can closer kept the names and fire imagery connected. K.MAR's round was cleaner, more layered and easier to follow, giving him the second.\n\nJM's third returned to long sound chains. Monzo, John Doe, Alonzo, Toronto, head honcho, pronto and frontal created an extended opening rhyme, followed by reload/known-in-the-bits material, one-bag-of-tricks and one-bag-of-crisps, kangaroo imagery and a Joseph/Evans biblical section. The room reacted strongly enough to request the round again immediately, and JM repeated a slightly revised version. Not every passage is equally tailored, but the sustained cadence, volume of material and live response give JM the greater final-round impact.\n\nK.MAR closed with the shorter and more precise final. He used local/Pinto/lingo/window/limbo, then moved into J, souffle and bouquet before reaching Luke Cage, an X-Man/group-stage elimination flip and a New Age punch on Joseph. His metric/dentist/teeth section and pen/bars/sentence closer gave the round a clean ending. It is the more economical verse, but it does not overturn the momentum and room response generated by JM's third.\n\nThe official audience result is not present in the source. On revised LOTA review, JM wins 2-1: JM takes rounds one and three through greater performance impact, cadence variety and crowd response; K.MAR takes round two with the battle's cleanest connected schemes.",
+    "performanceAnalysis": [
+      {
+        "performer": "K.MAR",
+        "overview": "K.MAR takes the clearest single round of the battle but loses the revised LOTA review 2-1. His writing is at its best when several references belong to the same world: farm and dog language in the first, cards and payments in the second, then competition, comics and dentistry in the final. Round two is his strongest and most decisive work.",
+        "lyricalThemes": "JM's farm and Welsh identity; dogs, food and cleaning; cards, payment and Marketplace; field, sheep and lamb imagery; Champions League elimination; Luke Cage, X-Men, metrics and teeth.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Connected scheme writing",
+            "description": "K.MAR repeatedly stays inside one image set for several punches rather than abandoning the setup after a single line."
+          },
+          {
+            "title": "Card-payment sequence",
+            "description": "Change, decline, Mastercard, empty hands and charging the game give his second the clearest extended scheme in the battle."
+          },
+          {
+            "title": "Efficient final round",
+            "description": "His third is shorter than JM's and wastes less space, connecting tournament, comic-book, dental and writing language into a clean close, but it does not match JM's performance impact."
+          }
+        ]
+      },
+      {
+        "performer": "JM",
+        "overview": "JM wins the revised LOTA review 2-1 by taking the first and third. His strongest passages combine long internal-rhyme chains with direct K.MAR and JAYCEE references. K.MAR is cleaner in round two, but JM regains control in the final through sustained cadence, greater volume and the strongest live response of the battle.",
+        "lyricalThemes": "Champions League ambition; flow and throne claims; military and collateral damage; JAYCEE/K.MAR letter play; receding hairline; gun-sound repetition; Monzo/Revolut, kangaroo and biblical imagery.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Opening-round momentum",
+            "description": "JM uses multiple cadence changes and long rhyming runs to make the first feel like a tournament statement rather than a cautious opener."
+          },
+          {
+            "title": "Initial and smoke flips",
+            "description": "The JAYCEE/JM/K sequence is his most tailored material, joining previous battle history to initials and smoking language."
+          },
+          {
+            "title": "Long-form rhyme chains",
+            "description": "The Monzo-to-frontal opening keeps one sound moving across an extended passage, while the immediate crowd-requested reload confirms the final's performance impact."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "JM",
+        "theme": "Round 1 — Opening Statement",
+        "bar": "K.MAR, you can get murked in an eight-bar — I'm known to take off heads. Me versus you, that don't make no sense; I think K.MAR's spent.",
+        "explanation": "JM uses K.MAR's name inside the rhyme and presents the matchup as a competitive mismatch from the opening."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 — Throne",
+        "bar": "Check me though, you can't test the flow. Got bars like Wretch with a deadly tone — you ain't ever gonna take the throne.",
+        "explanation": "Wretch 32 supplies the elite-pen comparison while the throne turns skill into Champions League status."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 — Cadence Chain",
+        "bar": "I'm going on military, going on manic, going in different, going in savage — going from the biggest to luggage and baggage.",
+        "explanation": "The repeated 'going' launches a cadence run before the multi-syllable sounds move through manic, savage, luggage and baggage."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 — Collateral Damage",
+        "bar": "Come try to get hit if you think you can manage. This shot'll bring collateral damage.",
+        "explanation": "Manage/damage closes the military section with the consequence spreading beyond the direct target."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 — JAYCEE and JM",
+        "bar": "Got met by JAYCEE, now you're getting met by JM. This guy loves getting smoked by J, so I'ma bun K while I smoke my J then.",
+        "explanation": "J works as both the opening letter of the two opponents and a joint; K identifies K.MAR while bun/smoke maintain the weed language."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — Receding Hairline",
+        "bar": "Let me tell you what K.MAR stands for — blood, you have got an actively receding head.",
+        "explanation": "The acronym setup is rough in the transcript, but the intended payoff is a direct hairline attack on K.MAR."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — Borrowed Bars",
+        "bar": "Bars, you got borrowed ones. Scars, you can't swallow them.",
+        "explanation": "A compact accusation that K.MAR borrows writing but cannot absorb the damage caused by JM's own bars."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — Hat-trick",
+        "bar": "Three-nil, that's a hat-trick. I make the crowd do backflips, shuffle and step out.",
+        "explanation": "JM predicts a clean sweep using football scoring language and treats crowd movement as proof of the performance."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — Bank Rhyme Chain",
+        "bar": "I know that your primary bank is Monzo. You're blacklisted, so I'll go by John Doe. You look like an Alfred or Alonzo — you little raptor, go Toronto.",
+        "explanation": "The content is intentionally loose, but JM sustains the Monzo/John Doe/Alonzo/Toronto sound across several consecutive attacks."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — Reload",
+        "bar": "When I'm done, all the crowd's gonna know all my bits, 'cause they reloaded it — man, I'm really known in the bits.",
+        "explanation": "JM turns the room asking for a reload into evidence that the material is memorable and already known."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — One Bag",
+        "bar": "You got one bag of tricks. Your idea for dinner is one bag of crisps.",
+        "explanation": "The repeated one-bag structure moves from limited artistic ability to a cheap and minimal meal."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — Biblical Name",
+        "bar": "Send this one back to the Evans, name's Joseph — give a man biblical lessons.",
+        "explanation": "K.MAR's surname and first name are used to introduce Joseph as a biblical figure and convert identity into a lesson."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 1 — Dog and Farm",
+        "bar": "Listen up, farmer, you can't be starting — you ain't half as smooth, won't bark, no bite.",
+        "explanation": "K.MAR combines JM's rural/Welsh framing with the familiar bark-without-bite criticism."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 1 — Barn Scheme",
+        "bar": "Other half's for the dogs, you're food. Let me start a disaster — tsunami's gonna march to the barn for you.",
+        "explanation": "Dogs, food, disaster, tsunami and barn carry the threat from the farm setting into a larger destructive image."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 1 — Music Scheme",
+        "bar": "You won't cook, you're a bit underdone. You ought to pick up a drum, go play the guitar — pull my strings and you're done; I will lift up your mum, I'm raising the bar.",
+        "explanation": "Cooking shifts into instruments, then strings and raising the bar turn music language back into battle performance."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 1 — Clean-up",
+        "bar": "You'll have to get cleaned up off the map, then swept up in a bag — I'll hold the mop.",
+        "explanation": "Cleaned, swept and mop create a connected aftermath image rather than isolated threat words."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 2 — Harlem Shake",
+        "bar": "What made you think you could pass this race? One bolt to your chest will make man Harlem Shake.",
+        "explanation": "Race and Bolt point toward Usain Bolt before the impact is visualised as the Harlem Shake dance."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 2 — Space",
+        "bar": "Spark this J, I'm dragging the dog away. They'll find body parts in space — Martian safe, can't be the star today.",
+        "explanation": "J, body parts, space, Martian and star keep the sequence in a cosmic setting while targeting JM."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 2 — Card Payment",
+        "bar": "That's change. Decline the card if J wanna see that master's paid — send him back with an empty hand, tell him charge the game.",
+        "explanation": "Change, decline, card, payment, empty hand and charge make this the battle's most complete payment scheme."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 2 — Marketplace",
+        "bar": "Brother, you got your creps on Facebook Marketplace and you ticked your trim.",
+        "explanation": "An image and fashion attack saying JM's shoes are second-hand while his haircut looks badly selected."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 2 — Farm and Food",
+        "bar": "You and your girlfriend sleep on the field in the valley. I don't wanna hear you talk about yard — your girl's a sheep, that's why you love lamb patty.",
+        "explanation": "Field, valley, yard, sheep and lamb patty keep the rural image connected from setting to food."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 2 — Jerry Can",
+        "bar": "If Smith don't burn him, Jerry can.",
+        "explanation": "Smith and Jerry sound like people's names, while a jerry can is a fuel container that makes the burning threat literal."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 3 — Limbo",
+        "bar": "When I connect these bars, it'll really make bro do a limbo.",
+        "explanation": "Bars are both written lines and the horizontal bar a person bends beneath in limbo."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 3 — Souffle and Bouquet",
+        "bar": "To who, J? True say, you get souffle. Don't wanna give man flowers — they bouquet.",
+        "explanation": "The compressed delivery uses J, souffle and bouquet as a linked sound chain before flowers explain the final word."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 3 — Group Stage",
+        "bar": "New flame come against me, must've thought you was Luke Cage. I'm X-Man out of the group stage.",
+        "explanation": "Luke Cage and X-Man keep the superhero language connected while the Champions League group stage supplies the elimination punch."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 3 — New Age",
+        "bar": "When I cross off Joseph, it's a new age.",
+        "explanation": "Crossing off JM/Joseph means eliminating him, while New Age continues the comic-book and generational language."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 3 — Metrics and Dentist",
+        "bar": "I'm better in every metric. You ain't prepped for war — check the dentist, it's teeth your head's collecting.",
+        "explanation": "Metric measures superiority before dentist and collecting teeth turn the damage into a physical punch."
+      },
+      {
+        "performer": "K.MAR",
+        "theme": "Round 3 — Sentence",
+        "bar": "I got a pen — that's bars. Kick the sentence before I do.",
+        "explanation": "Pen, bars and sentence all describe writing, while bars and sentence also carry prison meanings."
+      }
+    ],
+    "oddMoments": [
+      "Margs briefly calls K.MAR 'J.M.A.' during the coin toss and immediately notices the mistake.",
+      "JM restarts round one several times while levels are adjusted, then declares Boxpark his house once the full verse lands.",
+      "K.MAR's second is reloaded after the room realises part of the scheme was missed.",
+      "JM's third receives an immediate reload even though he says he dislikes the final bars; he performs a revised ending on the second pass.",
+      "The battle was released as audio, so visual crowd and prop context cannot be independently assessed from the supplied source.",
+      "Voting stays open until 12 and no result is announced in the upload."
+    ],
+    "coolMoments": [
+      "JM's JAYCEE/JM/K smoking sequence is the strongest battle-history flip in the opener.",
+      "K.MAR keeps the dog/farm scheme connected across most of his first round rather than using it for a single punch.",
+      "The Mastercard/change/decline/charge passage is the cleanest extended scheme in the battle.",
+      "K.MAR closes with a compact run through Luke Cage, group-stage elimination, metrics, dentistry and writing terminology."
+    ],
+    "postBattleContext": "The in-building vote opened after K.MAR's third and remained available until 12. The audio release ends without a tally, and the original archive entry listed the winner as unknown.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: JM wins 2-1",
+      "summary": "Revised LOTA round split: JM takes round one with the stronger energy, cadence variety and tailored JAYCEE/JM/K material. K.MAR takes round two through the battle's cleanest card-payment and farm schemes. JM takes round three: K.MAR is more economical, but JM's extended rhyme chains, volume, room control and immediate crowd-requested reload create the stronger closing impact. No official vote is preserved in the audio, so this remains explicitly a LOTA result rather than an official PenGame decision."
+    }
   },
   {
     "id": "pg-scl-2026-04-18-lc-vs-relapse",
@@ -66905,8 +67444,246 @@ export const pengameBattles: Battle[] = [
     "group": null,
     "tag": null,
     "views": "30k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "winner": "lc",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "LC and RELAPSE opened a Champions League event at Croydon Boxpark as two newcomers to the platform. The format used only in-building voting, with the result due to close at midnight and be announced later on PenGame's socials. RELAPSE won the coin toss and chose to go first. The audio release ends before any official tally appears.\n\nRELAPSE's first attacked LC through hygiene, relationships, village life, drug use and instability. He used a frozen-pitch image to say LC would try to get the match called off, then moved through breath, trainers, living with strangers and club behaviour. The round established a clear picture of LC as dirty, isolated and unreliable, but much of the writing was broad character insult rather than battle-specific research.\n\nLC answered by making RELAPSE's name and history the centre of the round. He opened with former addict, crack and relapse wordplay, then moved into size, darkness and obstruction, four-wheel-drive imagery and comparisons with Butterbean. The strongest section challenged why LC had been given this matchup instead of a bigger icon, then used doctor/Doctor Dolittle, cocaine, chokehold and Gzone references. LC's directness, name flips and crowd control gave him the first.\n\nRELAPSE's second was more controlled. He attacked LC's alcohol and ketamine use, smell, age, mother, partner and mental health, while using points and money-in-a-pot language to connect the verse to the Champions League. A Jake Paul/Disney comparison and a long twist-and-flip cadence closed the round. It was a cleaner performance than his opener, but the angles still remained mostly generic.\n\nLC's second brought more opponent history and layered references. He questioned a past incident involving Sennifer Khan, attacked RELAPSE for spending ten years without progress, and built long cocaine, avalanche and police/cops sequences. He used RELAPSE's name backwards as 'three laps', moved into MRI and bench-press imagery, then finished with Power characters Tariq St Patrick and Angela Valdes. Some transcription is rough, but the round is consistently tailored and takes the second.\n\nRELAPSE's third was his strongest and most sustained round. He kept returning to LC's appearance, housing, relationships, drugs and weight while using Nottingham Forest, socks and sockets, Adam and Eve, rubbish removal, Manchester United, Sandhu's shop and cleaning imagery. The verse had better forward motion than his first two and gave him his closest round of the battle.\n\nLC closed by returning to the RELAPSE identity and drug theme. Bad habits, coke, crack, snow, a frozen brain and ghost imagery created a long substance sequence. He then moved through Midas, solo/no-backup claims, a coffin-size attack, tiger and Carole Baskin references and a final death/grave section. The round also contains offensive religious, ethnic and disability material that the archive contextualises without endorsing. On writing and opponent specificity, LC edges the third as well.\n\nNo official audience result is preserved in the upload. LOTA scores LC 3-0: LC is more direct, more tailored and more memorable across the battle. RELAPSE's third is competitive, but LC's sustained name-and-drug framing gives him the cleaner overall round.",
+    "performanceAnalysis": [
+      {
+        "performer": "LC",
+        "overview": "LC wins the LOTA review 3-0 through opponent-specific writing and strong crowd control. He repeatedly turns RELAPSE's name, reported history and substance imagery into structured attacks rather than relying only on generic insults. The third is closest, but LC still has the more memorable connected material.",
+        "lyricalThemes": "Relapse, addiction and cocaine; weight and physical obstruction; Doctor Dolittle and chokeholds; battle history and lack of progress; police/cops; MRI and bench press; Power, Midas, Carole Baskin and burial imagery.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Name-based framing",
+            "description": "LC establishes relapse and addiction as the battle's central language from his first line and returns to it in the final."
+          },
+          {
+            "title": "Opponent-specific second",
+            "description": "His middle round contains the deepest research, using past incidents, career length, RELAPSE's name and several personal references."
+          },
+          {
+            "title": "Crowd command",
+            "description": "LC repeatedly controls reloads and room participation, giving the audio a clear sense of where the largest reactions occur."
+          }
+        ]
+      },
+      {
+        "performer": "RELAPSE",
+        "overview": "RELAPSE improves across the battle and delivers his best work in the third. His rounds have consistent flow and a clear character picture of LC, but the material is less tailored and often returns to the same hygiene, sexuality, housing and drug insults without developing one decisive angle.",
+        "lyricalThemes": "Hygiene and smell; village and farm life; relationships; alcohol and ketamine; age and stepfather jokes; weight, homelessness and drug use; Nottingham Forest, Adam and Eve, Manchester United and cleaning.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Consistent cadence",
+            "description": "RELAPSE maintains a steady rhythmic delivery across all three rounds, even when individual punches are less specific."
+          },
+          {
+            "title": "Tournament language",
+            "description": "Points, money in a pot and climbing above connect parts of his writing to the Champions League setting."
+          },
+          {
+            "title": "Strongest final round",
+            "description": "His third increases the density of references and develops longer chains through football, creation, rubbish and cleaning imagery."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Relapse Name Flip",
+        "bar": "You're a former cat, come back for a crack — now I'm gassed that you've relapsed.",
+        "explanation": "LC opens by turning RELAPSE's stage name into a return to crack use, establishing the addiction theme immediately."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Blocking the View",
+        "bar": "Tell him it's still darkness, 'cause I like how you're blocking the view.",
+        "explanation": "A size attack that treats RELAPSE's body as the object preventing light or sight from reaching the room."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Four-wheel Drive",
+        "bar": "You can pick your death, what method you choose. I'll bury you alive — four-wheel drive, get five.",
+        "explanation": "The transcript is compressed, but four-wheel drive supplies the vehicle language before the count escalates beyond four."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Butterbean",
+        "bar": "Crowd, ain't this a mockery? I'm clashing Butterbean. I wanted to clash your icon, Socrates, but you gave me this monstrosity.",
+        "explanation": "Butterbean is a heavyweight boxer used for the visual comparison, while Socrates represents the higher-status opponent LC says he wanted."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Doctor Dolittle",
+        "bar": "Next time give me someone suitable. You ain't a doctor — you just do little.",
+        "explanation": "Doctor Dolittle becomes 'doctor, do little', dismissing RELAPSE as someone who contributes very little."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Chokehold",
+        "bar": "He's in love with the cocaine — I'm like Cain Velasquez when I put him in a chokehold.",
+        "explanation": "The drug angle moves into former UFC champion Cain Velasquez, making the chokehold a combat-sport image."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — Career Length",
+        "bar": "Ten years and he ain't done piss.",
+        "explanation": "LC uses RELAPSE's time in the scene as evidence that longevity has not produced meaningful progress."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — Avalanche",
+        "bar": "Don't know who you think you're better than. Snow-like avalanche.",
+        "explanation": "Snow continues the cocaine language while avalanche increases the scale and force of the image."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — Cops",
+        "bar": "You've got the same name as the cops — you'll see them when cops run down your block.",
+        "explanation": "LC flips RELAPSE's real name, Jake, toward 'jakes', UK slang for police."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — MRI",
+        "bar": "If he's getting me vexed, it's like an MRI scan — I've got to snap to his head.",
+        "explanation": "The medical scan supplies an image of the head while snap turns observation into physical damage."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — Bench Press",
+        "bar": "He's got weight both sides, but he doesn't bench.",
+        "explanation": "A body-weight insult framed through a barbell, where weight sits on both sides even though RELAPSE is not training."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — Power",
+        "bar": "When you die and come back as a ghost, put one in your chest like Tariq St Patrick.",
+        "explanation": "Ghost and Tariq St Patrick reference Power, where the family relationship makes the chest-shot image part of the show's story."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Bad Habits",
+        "bar": "RELAPSE, you've got some bad habits — little coke-line-sniffing crack addict.",
+        "explanation": "The final returns directly to the stage-name theme and states the addiction angle without disguise."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Snow and Ghost",
+        "bar": "Too much coke, too much snow coming up your nose. I'm surprised your brain hasn't froze — too much white, now you look like a ghost.",
+        "explanation": "Coke becomes snow, snow becomes freezing, and white becomes a ghost in a connected substance-and-temperature scheme."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Midas",
+        "bar": "Touch mine, now it's going gold like Midas.",
+        "explanation": "King Midas turned everything he touched to gold; LC uses the myth as a warning about touching what belongs to him."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Carole Baskin",
+        "bar": "You ain't match fit, been fed to the tigers — do him like Carole Baskin.",
+        "explanation": "A Tiger King reference that turns the opponent's size and lack of fitness into an imagined feeding."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Frozen Pitch",
+        "bar": "He's gonna try and get this match called off like it's a frozen pitch.",
+        "explanation": "The battle becomes a football match abandoned because the pitch is frozen, suggesting LC wants to escape the fixture."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Brush Past",
+        "bar": "Let me brush right past. In a club, you pull up and touch guys' backs.",
+        "explanation": "Brush and touch connect the transition, although the punch relies more on character insult than layered wordplay."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Laid Out",
+        "bar": "If he ever has a fight in his life, then he gets laid out flat just like slaps.",
+        "explanation": "Laid out flat describes both a defeated person and the open hand used for a slap."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Points",
+        "bar": "Watch how I put him in a box. I'm collecting points — that's money in a pot.",
+        "explanation": "Boxing, tournament points and the prize pot bring the attack directly into the Champions League format."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Stepdad",
+        "bar": "I'm old enough to be your stepdad — go to your mum's when I need a sex act.",
+        "explanation": "An age comparison that turns RELAPSE's seniority into a deliberately disrespectful family angle."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Jake Paul",
+        "bar": "I'm battling a guy that looks like Jake Paul did when doing up Disney.",
+        "explanation": "A visual comparison to Jake Paul's younger Disney era, presenting LC as immature and manufactured."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Twist and Flip",
+        "bar": "All of the mental-health courses are not fixing him. The way that he lives is skint — I'm ripping him apart with the way that I twist and flip.",
+        "explanation": "A cadence-focused closer that moves from failed intervention into poverty and physical damage."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 3 — Nottingham Forest",
+        "bar": "You'll get buried in Nottingham Forest.",
+        "explanation": "Forest works as both the football club and a literal wooded burial location."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 3 — Socket",
+        "bar": "You're not fitting in, like putting a sock in a socket.",
+        "explanation": "The near-sound of sock/socket produces an image of something clearly placed where it does not belong."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 3 — Adam and Eve",
+        "bar": "I don't know him from Adam and Eve — he got spawned by Axe on stream.",
+        "explanation": "Adam and Eve introduce creation, while spawned shifts the idea into livestream and gaming language."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 3 — Clean-up",
+        "bar": "Take out the trash like my flat got cleaned.",
+        "explanation": "LC becomes rubbish removed during a domestic clean, continuing RELAPSE's dirt and hygiene framing."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 3 — Sandhu's Shop",
+        "bar": "I'm a boss like Sandhu's shop.",
+        "explanation": "A local-shop ownership image used as a compact claim of authority."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 3 — Brand New Dog",
+        "bar": "Get put in your place like a brand new dog.",
+        "explanation": "A new dog being trained and assigned its place becomes an image of forcing LC into submission."
+      }
+    ],
+    "oddMoments": [
+      "LC's first is reloaded multiple times as the room reacts and the beat is reset.",
+      "LC turns the end of round one into a Gzone call-and-response, briefly shifting the room from individual battle to platform rivalry.",
+      "The supplied source is an audio release, so visual crowd and prop context cannot be independently assessed.",
+      "LC's final contains ethnic, religious, homophobic and disability-based material that is documented as part of the performance, not endorsed by the archive.",
+      "LC ends by sarcastically telling everybody to vote RELAPSE if they have time.",
+      "The host says the official result will be announced on social media after voting closes at midnight; that tally is absent from the upload."
+    ],
+    "coolMoments": [
+      "LC opens immediately on RELAPSE's name and sustains the addiction framework across all three rounds.",
+      "The Doctor Dolittle and Cain Velasquez lines give LC two clear, accessible first-round punches.",
+      "RELAPSE's points/money-pot bar is the cleanest direct use of the Champions League format.",
+      "The cocaine/snow/frozen/ghost chain is LC's strongest connected final-round sequence."
+    ],
+    "postBattleContext": "The in-building vote remained open until midnight, with PenGame promising to announce the winner later on social media. No official tally is preserved in the audio, and the original archive entry listed the winner as unknown.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: LC wins 3-0",
+      "summary": "LOTA round split: LC takes all three rounds. He wins the first through the immediate RELAPSE name flip, Doctor Dolittle and stronger room control; the second through deeper opponent history and the cops/MRI/Power writing; and the third through the sustained cocaine, snow, ghost and Carole Baskin material. RELAPSE improves and makes round three competitive, but his angles remain broader and less tailored. No official vote is preserved, so this is explicitly a LOTA result rather than an official PenGame decision."
+    }
   },
   {
     "id": "pg-scl-2026-04-20-varntae-vs-star-co",
@@ -66926,8 +67703,229 @@ export const pengameBattles: Battle[] = [
     "group": null,
     "tag": null,
     "views": "51k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "winner": "star-co",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "VARNTAE and STAR CO met in a Champions League audio release from Croydon Boxpark. STAR CO won the coin toss and sent VARNTAE first. The in-building vote remained open all night because of high traffic, and the upload ends without an official tally.\n\nVARNTAE's first was built almost entirely around STAR CO's gender identity, appearance and family. He moved through fire and acid imagery, a large family/stepfather section and a long attack on STAR CO's transition. The material was highly direct and clearly researched, but much of it relied on transphobia rather than a neutral competitive angle. Within that framework, VARNTAE showed strong room control and the greater volume of tailored material in the opening round. The archive gives him the first on directness while documenting the nature of the content rather than endorsing it.\n\nSTAR CO answered with a military concept that matched VARNTAE's Soldier branding. He used missions, mines, ambushes, enemy lines and cadets before moving into Deadpool regeneration, Tourette's, dreads and scene experience. The closing claim—that STAR CO had been active for less than a year but had already gone clear—gave the round a clear status argument. The scheme was more cohesive than VARNTAE's but had fewer opponent-specific moments, leaving the first narrowly with VARNTAE.\n\nVARNTAE's second continued the same gender and family attacks, adding E45 and Doublebase skin cream, absent-father material, Lisa Simpson, a Mexican wave and Family Guy references. The round produced strong crowd reaction and an interruption around a six-men-in-a-four-door story, but the core angle had not developed far beyond the first. Repetition made the writing feel less progressive despite several clean references.\n\nSTAR CO's second was the battle's turning point. He extended the military setting through fragmentation bombs, shrapnel, soldiers, Call of Duty, switching sides, code names and rank. He then shifted into allegations about VARNTAE's behaviour around women and supported the angle with a video clip shown to the room. The playback appeared to show VARNTAE calling a cousin attractive while holding the person's neck, giving STAR CO a piece of evidence rather than a purely asserted personal. The combination of connected writing, specificity and the visual receipt gave STAR CO the round clearly.\n\nVARNTAE used the clip as the basis of his third. He attacked STAR CO as a Sims 4 character with a red hygiene bar, then built an astronomy sequence around shooting star, Polaris, the North Star and white dwarf. Walking Dead/Whisperer imagery continued the skin attack before Moses and the Red Sea, OnlyFans and family history closed the verse. The star and biblical sections were among VARNTAE's cleanest technical writing, but the round again depended heavily on identity and family degradation.\n\nSTAR CO closed with his most layered round. He answered the star theme through Babylon's blade, Jar Jar, the Force and Yoda, then used Tommy Egan and Power before landing an odd/even sequence. Soldier, napalm and PTSD kept the military identity active. The final section moved into seamen/sea men, fishing, sardines, tsunami, island, thunder, trident, shore and anchor imagery. STAR CO ended by contrasting VARNTAE's five-plus years in battle rap with his own age of nineteen. The connected construction and status closer gave him the third.\n\nNo official result is preserved in the source. LOTA scores STAR CO 2-1: VARNTAE takes round one; STAR CO takes rounds two and three through stronger scheme development, the evidence-backed personal and the more complete final.",
+    "performanceAnalysis": [
+      {
+        "performer": "STAR CO",
+        "overview": "STAR CO wins the LOTA review 2-1 by improving across the battle. His military framework gives all three rounds a stable identity, the video evidence makes his second the decisive round, and the Star Wars/Power/odd-even/sea construction gives him the strongest close.",
+        "lyricalThemes": "Military missions, mines and enemy lines; Deadpool and Call of Duty; rank and soldiers; allegations supported by video; Star Wars and the Force; Tommy Egan and Power; odd/even; PTSD; sea, fishing, trident and age-versus-experience.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Sustained military identity",
+            "description": "STAR CO keeps mission, rank, soldiers, battlefield and weapon language active across the full clash instead of treating it as a one-round gimmick."
+          },
+          {
+            "title": "Evidence-backed second",
+            "description": "The personal angle is paired with an actual clip played in the room, giving the accusation more battle impact than an unsupported claim."
+          },
+          {
+            "title": "Layered final round",
+            "description": "Star Wars, Power, mathematics and sea imagery each form a connected passage before the nineteen-versus-five-years closer."
+          }
+        ]
+      },
+      {
+        "performer": "VARNTAE",
+        "overview": "VARNTAE takes round one through research, directness and crowd control. His strongest technical work comes later through astronomy, Walking Dead and Moses/Red Sea imagery. The weakness is angle repetition: all three rounds return to STAR CO's gender identity and family, often through explicitly transphobic material, so the attack stops developing after the opener.",
+        "lyricalThemes": "STAR CO's transition and gender identity; family and absent fathers; appearance and skin; fire and acid; E45 and Doublebase; Lisa Simpson and Family Guy; Sims 4; Polaris, white dwarf and shooting stars; Walking Dead; Moses and the Red Sea.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Direct opening research",
+            "description": "VARNTAE arrives with names, family references and identity-specific material that makes the first feel prepared for STAR CO rather than transferable."
+          },
+          {
+            "title": "Astronomy sequence",
+            "description": "Shooting star, cycle, Polaris, north and white dwarf give his third a technically connected name scheme."
+          },
+          {
+            "title": "Room control",
+            "description": "He handles interruptions, requests reloads and repeatedly gets the crowd involved, particularly during the first two rounds."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Fire Brigade",
+        "bar": "I'm sharing a stage with a burn victim — call out the fire brigade.",
+        "explanation": "A direct appearance attack that introduces the fire imagery used through the surrounding passage."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Genghis",
+        "bar": "Your mum chops more brothers than Genghis, and I know she don't use protection.",
+        "explanation": "Genghis Khan's enormous number of descendants becomes a deliberately disrespectful claim about STAR CO's mother."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Yeast",
+        "bar": "Your dad don't rise, no bread — your mum left him with a yeast infection.",
+        "explanation": "Rise, bread and yeast form a baking scheme while the absent-father attack remains underneath it."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 — Skin Treatment",
+        "bar": "You need to buy some E45 and Doublebase cream for your skin cracks.",
+        "explanation": "Two real emollient brands are used to make STAR CO's skin and appearance the setup."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 — Instagram Father",
+        "bar": "He wants a dad so much, whoever mum sleeps with, he follows on Insta.",
+        "explanation": "The absent-father angle is updated through social media: every new partner becomes a possible father figure to follow."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 — Set Men Straight",
+        "bar": "This uppercut can set men straight.",
+        "explanation": "The phrase means both correcting someone and, in the round's transphobic context, forcing a heterosexual identity."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 — Mexican Wave",
+        "bar": "Zero-one-two-one steps on the stage and we all lift arms — Mexican wave.",
+        "explanation": "The stage entrance and raised arms become the coordinated movement of a stadium Mexican wave."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 — Family Guy",
+        "bar": "Seth MacFarlane, I'll draw for the Smith. You look a fake cosplay, dressed just like Roger.",
+        "explanation": "Seth MacFarlane, Stan Smith and Roger connect through American Dad, turning the animation references into an appearance attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — Sims 4",
+        "bar": "You look like a Sims 4 character creation — I know your hygiene bar is red.",
+        "explanation": "The Sims displays needs as coloured bars; a red hygiene meter means the character urgently needs cleaning."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — Polaris",
+        "bar": "Star is the end of your cycle, of course, 'cause when I air it, it's like Polaris — I aim up north at this white dwarf.",
+        "explanation": "Star, Polaris, north and white dwarf create an astronomy scheme tied directly to STAR CO's name."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — Walking Dead",
+        "bar": "I'm in a war with this Walking Dead — this Whisperer stepped on stage with all this decay in his pores and flesh.",
+        "explanation": "The Whisperers wear decaying walker skin in The Walking Dead, making the reference an extended appearance attack."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — Red Sea",
+        "bar": "You can get attacked on the block like Moses — I'll turn your road to the Red Sea.",
+        "explanation": "Moses parting the Red Sea becomes a violent image of splitting the road and leaving it red."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — Mine and Ambush",
+        "bar": "Me, I control the map. You step, get splat — I planted a mine. An ambush attack leaves a chip on his back, soldiers behind enemy lines.",
+        "explanation": "Map, mine, ambush, soldiers and enemy lines establish STAR CO's military setting immediately."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — Deadpool",
+        "bar": "I can try and revive a million times until he becomes one with death — then I'll burn my hair, burn my flesh, peel my skin and do it again. Cue the Deadpool.",
+        "explanation": "Deadpool's regeneration explains repeated injury and recovery, while also answering VARNTAE's appearance attacks."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — Scene Experience",
+        "bar": "I've been in the scene for less than a year and man gone clear — the man is a puppy.",
+        "explanation": "STAR CO contrasts rapid progress with VARNTAE's longer career, reducing the veteran to a young dog."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 — Fragmentation",
+        "bar": "I'm explosive, I'm detonating. This fragmentation bomb can get man caught in that wave — shrapnel flying, soldiers dying.",
+        "explanation": "Detonation, fragmentation, shrapnel and soldiers keep the battlefield scheme internally consistent."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 — Call of Duty",
+        "bar": "If hell lets loose on this battlefield, his Call of Duty would flinch. A soldier switch sides, his mission denied — code name PASSIVE.",
+        "explanation": "Call of Duty, switching sides, mission denial and a code name turn PASSIVE into both an MC reference and military identity."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 — Rank",
+        "bar": "Sergeant in command — he can't be a general, he's not Napoleon.",
+        "explanation": "Military ranks rise from sergeant to general before Napoleon supplies the famous commander comparison."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 — Video Evidence",
+        "bar": "These allegations had your teammates slipping, so when I found this out — laugh out loud, STAR CO caught you tripping.",
+        "explanation": "The line introduces the clip shown to the room, moving the personal from an allegation into visible battle evidence."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Star Wars",
+        "bar": "He says he's a soldier, I'll take his soul with Babylon's blade. I make Jar Jar no star — I'm a force, that's Yoda.",
+        "explanation": "Jar Jar, star, the Force and Yoda create a Star Wars chain while Babylon's blade keeps the weapon image active."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Power",
+        "bar": "My power could warp a boss like Tommy Egan.",
+        "explanation": "Tommy Egan is a central Power character, so power works as both ability and the television title."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Odd and Even",
+        "bar": "This guy is odd, his mind is lost. We stepped outside, he's talking fine — that's odd in itself. Battling these odds, you can assume I'd make it even.",
+        "explanation": "Odd is repeated as behaviour and probability before even resolves the mathematical contrast."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — PTSD",
+        "bar": "I slap him to napalm, he's fleeing and screaming — PTSD catches man when he's sleeping.",
+        "explanation": "Napalm and fleeing preserve the war context, while PTSD carries the battlefield damage into sleep."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Sea Men",
+        "bar": "See these three men like taking trips to the sea where no one can see them — like seamen.",
+        "explanation": "Sea men/seamen turns a group disappearing to the coast into a nautical wordplay sequence."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Trident",
+        "bar": "A tsunami could sweep soldiers to an island. Go to the sea, I bring thunder and lightning — I reap my man with a trident.",
+        "explanation": "Tsunami, island, sea and trident keep the closing inside an ocean-and-mythology setting."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Age and Experience",
+        "bar": "Only a man can rap five years plus and I'm nineteen, showing my diamonds.",
+        "explanation": "The closer contrasts VARNTAE's long experience with STAR CO's young age and faster competitive rise."
+      }
+    ],
+    "oddMoments": [
+      "VARNTAE's first and second rounds rely heavily on attacks against STAR CO's gender identity. The archive records this as transphobic battle material rather than neutral factual description.",
+      "The room interrupts the six-men-in-a-four-door story so VARNTAE can explain that nobody was sitting on his lap.",
+      "Between rounds two and three, STAR CO plays a video clip to support allegations about VARNTAE calling a cousin attractive while holding the person by the neck.",
+      "The host explicitly says PenGame does not condone the behaviour shown in the clip.",
+      "This was released as audio, but the transcript preserves the room's reaction to a visual clip that listeners cannot independently inspect here.",
+      "The newer transcript stops at the introduction to STAR CO's third and resumes at the time call; the indexed third-round material is retained from the earlier preserved transcript rather than reconstructed from this incomplete copy.",
+      "Voting remains open all night because of high traffic, and no tally is announced in the upload."
+    ],
+    "coolMoments": [
+      "VARNTAE's Polaris/north/white-dwarf sequence is his cleanest name-based technical passage.",
+      "STAR CO sustains the Soldier identity through missions, mines, ranks, Call of Duty, napalm and PTSD across all three rounds.",
+      "The video playback gives STAR CO's second an evidence-backed angle rather than a purely asserted personal.",
+      "STAR CO closes with a long sea, fishing, tsunami, island, trident and anchor sequence before the nineteen-versus-five-years comparison."
+    ],
+    "postBattleContext": "The in-building ballot experienced high traffic and remained open all night. The upload ends without a tally, and the original archive entry listed the winner as unknown.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: STAR CO wins 2-1",
+      "summary": "LOTA round split: VARNTAE takes round one through direct research, room control and the greater volume of tailored material. STAR CO takes round two with the stronger military construction and the evidence-backed video personal. STAR CO takes round three through the cleaner Star Wars, Power, odd/even, PTSD and sea/trident schemes, plus the age-versus-experience closer. No official tally is preserved, so this is explicitly a LOTA result rather than an official PenGame decision."
+    }
   },
   {
     "id": "pg-scl-2026-04-22-monroe-vs-pocaa",
@@ -66946,9 +67944,234 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Audio Release",
     "group": null,
     "tag": null,
-    "views": "91k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "views": "92k",
+    "winner": "monroe",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "MONROE and POCAA met in Champions League Fixture 1 at Croydon Boxpark. POCAA won the coin toss and chose to send MONROE first. Margs reminded the room that only the in-building vote counted, but the upload ends with voting still open and no official tally or winner announced.\n\nMONROE's first established the battle's most direct approach. He attacked POCAA's hygiene, appearance, family references and earlier use of dead-person material, then moved through football, POCAA/Poker name sounds and video-game imagery. His one-HP punch gave the round a clear competitive frame, while the repeated 'I wouldn't poke her' sequence turned POCAA's name into a performance section. The beat initially played twice and forced a restart, but MONROE recovered and completed the fuller, more opponent-specific opening.\n\nPOCAA answered with a shorter and more fragmented first. She attacked MONROE's masculinity, height, music output and lack of recognition, using Aladdin and A Whole New World before arguing that a hundred releases had produced no hit. The round had energy and a clear career angle, but several transitions are difficult to preserve from the transcript and it did not match MONROE's volume or directness. MONROE takes the first.\n\nMONROE's second focused on POCAA's appearance, voice, sexuality and online appeal. A repeated OnlyFans structure moved from making nothing to having zero subscribers, then altar/alter ego, dust/debris and stick-insect imagery extended the attack. POCAA immediately corrected his claim that she had children; MONROE turned the interruption into a quick 'you're my son today' response. The verse was simple but consistently clear and crowd-facing.\n\nPOCAA's second was her strongest round. She used country and farm framing, gun imagery, banana clips, teeth and music-status attacks. The cleanest section linked thirty-two bars to thirty-two teeth and 'say cheese' to counting what remained, before closing by saying MONROE was absent from the playlist. Her cadence and aggression made the round competitive, but much of the middle is too garbled to reconstruct confidently and MONROE retains the edge through clarity and sustained targeting.\n\nMONROE's third was the most complete round of the battle. Presented alongside a PowerPoint-style visual, it attacked POCAA's claimed body count, credit score, drinking, sex-work pricing, body shape and teeth. The round connected Istanbul dental tourism, A Bug's Life, ironing-board and dinosaur imagery before moving through Ed, Edd n Eddy, unpaid electricity and a Tommy Vercetti/confetti close. It was long, structured and consistently audible.\n\nPOCAA's final was restarted after an early crowd response. The preserved version used chrome and John Wick, Stormzy, automatic weapons, boxing, a numerical run and a Welcome to the Party/Pop Smoke finish. Her delivery remained forceful, but the writing was broader and the transcript loses several connecting words. It did not overcome MONROE's detailed third.\n\nWith no official vote count preserved, LOTA scores MONROE 3-0. POCAA brings energy and makes the second competitive, but MONROE supplies the clearer opponent-specific writing, more recoverable schemes and stronger closing round.",
+    "performanceAnalysis": [
+      {
+        "performer": "MONROE",
+        "overview": "MONROE wins the LOTA review 3-0 through clearer construction and more consistent opponent-specific pressure. His first controls the matchup with POCAA/Poker and one-HP material, his second builds a memorable OnlyFans refrain, and his PowerPoint-assisted third is the battle's most complete round.",
+        "lyricalThemes": "POCAA/Poker name flips; hygiene and appearance; football and video games; OnlyFans and online appeal; altar/alter ego; body count and credit; dental tourism; A Bug's Life; Ed, Edd n Eddy; Tommy Vercetti and confetti.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Name-based performance",
+            "description": "The repeated POCAA/Poker and 'poke her' sounds turn the opponent's name into a section the room can follow immediately."
+          },
+          {
+            "title": "OnlyFans refrain",
+            "description": "MONROE repeats one setup through making nothing, owing money, zero subscribers and going unnoticed, creating the clearest structure of round two."
+          },
+          {
+            "title": "Complete final round",
+            "description": "The third moves through credit, pricing, appearance, dental work, cartoons and gaming without losing its direction, giving MONROE the decisive close."
+          }
+        ]
+      },
+      {
+        "performer": "POCAA",
+        "overview": "POCAA's aggression and cadence keep the battle competitive, particularly in round two. Her best material attacks MONROE's catalogue, rural image, teeth and lack of playlist presence. The supplied transcript loses too many transitions for her longer passages to land as cleanly as MONROE's rounds.",
+        "lyricalThemes": "MONROE's masculinity, height and music output; Aladdin and A Whole New World; country and farm imagery; guns and banana clips; teeth, bars and playlists; John Wick, Stormzy and Pop Smoke.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Career criticism",
+            "description": "POCAA repeatedly contrasts MONROE's large catalogue with the absence of a recognised hit or playlist placement."
+          },
+          {
+            "title": "Thirty-two construction",
+            "description": "Thirty-two bars and thirty-two teeth share the number before 'say cheese' converts the dental image into a photograph and count."
+          },
+          {
+            "title": "Numbered final-round close",
+            "description": "The final climbs from three rounds through five-plus-one and six shots, giving the disrupted verse a recoverable numerical structure."
+          },
+          {
+            "title": "Final-round restart",
+            "description": "After an interrupted opening, POCAA restarts the third and completes the preserved material rather than abandoning the round."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 — Hygiene",
+        "bar": "How can you ever tell a man about hygiene when you smile like you've never seen one sponge or flannel?",
+        "explanation": "MONROE reverses an expected hygiene attack by making POCAA's smile evidence that she lacks the same basic cleanliness."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 — Dead-person Angle",
+        "bar": "You broke the rules and mentioned the dead. Hate in your heart won't bring yours back home — that one will sink in when you get back home.",
+        "explanation": "A deliberately personal response to earlier dead-person material, arguing that battle disrespect cannot reverse POCAA's own loss."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 — POCAA Name Flip",
+        "bar": "Alright, POCAA: I wouldn't poke her, you wouldn't poke her, he wouldn't poke her — and I wouldn't let her stay on my sofa.",
+        "explanation": "POCAA is repeatedly converted into 'poke her', creating a simple name-sound refrain built for live performance."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 — One HP",
+        "bar": "It's round one and I got you on one HP — your punches are moving sluggish.",
+        "explanation": "HP is a video-game health meter; reducing POCAA to one point means she is nearly defeated while her own punches have lost effectiveness."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 — Aladdin",
+        "bar": "So high like Aladdin on a magic carpet — a whole new world.",
+        "explanation": "The flying carpet and A Whole New World both come from Aladdin, creating a compact Disney reference."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 — Catalogue",
+        "bar": "A hundred releases, not one banger.",
+        "explanation": "POCAA reduces MONROE's output to empty quantity, arguing that a large catalogue has not produced one recognised song."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 — Telford and Visibility",
+        "bar": "Drew from Telford, nobody knows ya. Rap-game extra, but you was never noticed.",
+        "explanation": "POCAA uses MONROE's Telford background to argue that he remains an unrecognised extra despite his activity."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 — Hormone Flip",
+        "bar": "High in estrogen, low in testosterone.",
+        "explanation": "A short masculinity attack that contrasts the two hormones and continues POCAA's character framing of MONROE."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — OnlyFans",
+        "bar": "If you were the only fan, you'd make nothing. If you were on OnlyFans, you'd make zero — probably owe them money. No one would subscribe.",
+        "explanation": "Only fan and OnlyFans become a repeated commercial rejection: POCAA supposedly has neither an audience nor paying subscribers."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Altar and Alter Ego",
+        "bar": "Nobody's gonna want to take you to the altar — alter ego, might just assault her.",
+        "explanation": "Altar and alter link marriage rejection to a change in persona before the sound chain resolves on assault her."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Stick Insect",
+        "bar": "Who's this chick on beat looking corny? You look like a stick insect.",
+        "explanation": "A direct appearance comparison that turns POCAA's thin frame into an insect image."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 — Banana Clip",
+        "bar": "This rifle comes with a banana clip.",
+        "explanation": "Banana clip is both a curved firearm magazine and the familiar hair accessory, fitting POCAA's weapon sequence."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 — Country Boy",
+        "bar": "Tell the local country boy: shoot him out his socks, make him flee when we start.",
+        "explanation": "POCAA targets MONROE's rural identity, then uses flee to turn the country framing into an escape from gunfire."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 — Blunt and Pipe",
+        "bar": "Roll him in the blunt, give him the pipe — two for fifteen.",
+        "explanation": "MONROE becomes the product inside a blunt while pipe and the quoted price extend the drug-sale language."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 — Thirty-two",
+        "bar": "Thirty-two bars by the thirty-two teeth. If you say cheese, we'll count fifteen.",
+        "explanation": "A full adult set of thirty-two teeth mirrors thirty-two written bars; saying cheese reveals that the attack has supposedly left only fifteen."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 — Playlist",
+        "bar": "Back to basics, let's keep it basic — I ain't heard you on the playlist.",
+        "explanation": "The repeated basic sound closes the round by returning to POCAA's central claim that MONROE's music lacks visibility."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 — Gutter and Gunners",
+        "bar": "I'm from the gutter with the gunners — no big-dick energy, just a sack with some nuts.",
+        "explanation": "Gutter and gunners establish aggression before sack and nuts turn the masculinity attack into anatomical wordplay."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 — Body Count and Credit",
+        "bar": "How's your body count one thousand but your credit score ain't nowhere near?",
+        "explanation": "Two numerical records are contrasted to argue that POCAA has accumulated partners rather than financial stability."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 — Ironing Board",
+        "bar": "Built like an ironing board — that's why you're crying for a dinosaur.",
+        "explanation": "The flat ironing-board comparison describes POCAA's frame before dinosaur continues the long, extinct-creature sound."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 — Istanbul",
+        "bar": "Battling me is a shit gamble. You brought all your gums to Istanbul.",
+        "explanation": "A dental-tourism reference: Istanbul is associated with cosmetic dental work, so the trip becomes evidence of POCAA's original teeth and gums."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 — A Bug's Life",
+        "bar": "From A Bug's Life, you'll get stamped.",
+        "explanation": "The animated insect film supplies the bug image, while being stamped describes how an insect and an opponent can both be crushed."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 — Ed, Edd n Eddy",
+        "bar": "When I was watching Ed, Edd n Eddy, you was probably with Ed, Edd and Eddy.",
+        "explanation": "The cartoon's three names become three different men, extending MONROE's body-count angle through a childhood comparison."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 — Tommy Vercetti",
+        "bar": "I feel like I'm Tommy Vercetti — at the end of my rounds I want them to pull up and shoot confetti.",
+        "explanation": "The Grand Theft Auto: Vice City protagonist provides the gaming reference before Vercetti and confetti complete the rhyme and victory image."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 — John Wick",
+        "bar": "Google me, I'm with the chrome — I came like John Wick.",
+        "explanation": "Chrome refers to a firearm while John Wick supplies the heavily armed action-film comparison."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 — Numbered Shots",
+        "bar": "Three rounds on the board... five clicks plus one — six shots, I'll hurt him.",
+        "explanation": "The transcript loses part of the four-count transition, but the surviving structure climbs from three rounds to five-plus-one and six shots."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 — Welcome to the Party",
+        "bar": "I really brought smoke — please welcome to the party.",
+        "explanation": "Smoke works as battle pressure and as a nod to Pop Smoke, whose breakout track was Welcome to the Party."
+      }
+    ],
+    "oddMoments": [
+      "The transcript and host repeatedly render POCAA's name as Parker or Poker. The archive uses the confirmed billing, POCAA, and treats Poker as deliberate name-flip material where the sound supports it.",
+      "MONROE restarts his first after the beat plays twice through his earphones.",
+      "POCAA corrects MONROE's claim that she has children; he immediately answers that she is his son for the day.",
+      "MONROE presents his third with a PowerPoint-style visual, prompting the host to ask whether the room is back at school.",
+      "POCAA's final is restarted after the room reacts to the opening passage.",
+      "The battle contains gender-based, sexual and homophobic attacks documented as performance material rather than endorsed by the archive.",
+      "Voting remains open all night because of reported traffic, and no official tally appears in the upload."
+    ],
+    "coolMoments": [
+      "MONROE's POCAA/Poker/poke-her sequence turns the opponent's name into the first round's clearest crowd section.",
+      "The OnlyFans refrain gives MONROE's second a simple structure that builds with each repetition.",
+      "POCAA's thirty-two bars/thirty-two teeth/say-cheese sequence is her cleanest technical punch.",
+      "MONROE's PowerPoint-assisted final moves through several distinct topics without losing the body-count and appearance case."
+    ],
+    "postBattleContext": "Margs kept the in-building vote open all night because the ballot was experiencing high traffic. The upload ends without a count or official winner, and the original archive entry listed the result as unknown.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: MONROE wins 3-0",
+      "summary": "LOTA round split: MONROE takes all three rounds. He wins the first through the clearer POCAA name flips, direct angles and one-HP close; the second through the sustained OnlyFans structure and cleaner delivery; and the third through the battle's most complete writing, including the body-count/credit, Istanbul, cartoon and Tommy Vercetti passages. POCAA is most competitive in round two, but too much of her material is broad or lost in the supplied transcript. No official tally is preserved, so this is explicitly a LOTA result rather than an official PenGame decision."
+    }
   },
   {
     "id": "pg-scl-2026-04-25-eddfirst-vs-domi-dusk",
@@ -66967,29 +68190,213 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Audio Release",
     "group": null,
     "tag": null,
-    "views": "44k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
-  },
-  {
-    "id": "pg-scl-2026-05-03-whoisorion-vs-lc",
-    "slug": "whoisorion-vs-lc",
-    "mc1": "whoisorion",
-    "mc2": "lc",
-    "title": "WHOISORION vs LC",
-    "date": "2026-05-03",
-    "theme": "pengame",
-    "season": "Champions League",
-    "competition": "Champions League",
-    "subGroup": "Fixture 2",
-    "customEp": "CLx11",
-    "seasonOrder": 11,
-    "stage": "Champions League Fixture 2",
-    "group": null,
-    "tag": null,
-    "views": "84k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "views": "45k",
+    "winner": "eddfirst",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "DOMI DUSK and EDDFIRST met in Champions League Fixture 1 at Croydon Boxpark. EDDFIRST won the coin toss and sent DOMI out first. Margs reminded the room that only attendees could vote and that the ballot would remain open, but the upload ends without an official count or winner.\n\nDOMI's first committed fully to a weight angle. He moved from pregnancy and rapid growth into iPad/iPhone sizing, Po from Kung Fu Panda, the Great Wall of China, galactic caskets, sandwiches and gymnastics. The material was direct and easy to follow, with the Thailand/Po and size/asterisk passages supplying the stronger wordplay. Its limitation was repetition: almost every route returned to the same physical attack.\n\nEDDFIRST answered with greater scheme variety. He opened by asking why DOMI was still present after being 'sunned' so often, then turned cord-cutting into a birth image. Dusk till dawn, light and dark, dust to dust and weight/maths language all targeted DOMI's name and record. ED also referenced previous boos and framed the battle as a Champions League mismatch. A reload interrupted the opening, but his completed round contained more technical movement and takes the first narrowly.\n\nDOMI's second used EDDFIRST's name as a repeated first/last structure. He argued that ED should finish last in the league, be last to leave a kitchen and had already eaten the last snack. From there he moved through spitting blood with chips, Pringles/dimples, bells that do not jingle and a closing claim that true observations about ED sound like insults. The refrain gave the round shape, but it remained another extended food-and-weight attack.\n\nEDDFIRST's second was his clearest round. He challenged the contradiction between gun talk and flared trousers, used a silencer to make the sound 'shh when I air it', then moved through guns at his side, homicide, speech and teeth. The standout section placed him 'in the cut' between a rock and a hard place, lifted Excalibur and returned slicing to the meaning of a cut. ED closed by predicting a clean three-round result. The wider range and cleaner technical links give him the second.\n\nDOMI's third was his best round. After repeated earpiece failures forced several restarts, he linked fasting, food for thought, digestion and mindset before comparing ED to fufu in soup. A fruit-and-vegetable call-and-response involved the room, and Greggs/greens/red, Clash of Clans wall-breaker and Obesity City references kept the food and size framing active. The final boots/booth/roof/truth sequence gave him a strong, complete close.\n\nEDDFIRST's final was densely delivered and less reliably preserved. Clear passages contrasted Dusk with turning up, used charge, masks, faces and raised arms, then moved through funeral costs, Nate Dogg, napalm, Neymar and a final take-life/take-part contrast. His performance remained confident, but the transcript loses too many internal connections for the round to beat DOMI's structured third.\n\nWith no official tally preserved, LOTA scores EDDFIRST 2-1. ED takes rounds one and two through greater scheme variety and the battle's cleanest technical writing; DOMI takes round three with the clearest sustained concept and strongest complete close.",
+    "performanceAnalysis": [
+      {
+        "performer": "EDDFIRST",
+        "overview": "EDDFIRST wins the LOTA review 2-1 by taking the first two rounds. His strongest advantage is range: he moves from DOMI's name and record into light/dark, silencers, speech, teeth and Excalibur rather than relying on one repeated angle. His third is energetic but less reliably preserved.",
+        "lyricalThemes": "DOMI's record and previous boos; Dusk, dawn, light and dark; birth cords and being sunned; guns and silencers; speech and teeth; rocks, hard places and Excalibur; masks, funeral costs, Nate Dogg, napalm and Neymar.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Dusk-to-dawn writing",
+            "description": "EDDFIRST repeatedly uses DOMI's stage name as part of light, dark, dawn and dust imagery rather than mentioning it only once."
+          },
+          {
+            "title": "Silencer performance",
+            "description": "The silencer setup resolves through a performed 'shh', turning the weapon reference into an audible crowd cue."
+          },
+          {
+            "title": "Excalibur sequence",
+            "description": "Rock, hard place, lifting Excalibur, slicing and being in the cut form the most connected technical passage in the battle."
+          }
+        ]
+      },
+      {
+        "performer": "DOMI DUSK",
+        "overview": "DOMI DUSK loses the LOTA review 2-1 but clearly takes the third. His material is direct, performable and consistently tailored to EDDFIRST's size. The weakness is repetition across the first two rounds; the strength is how fully the final develops food, digestion, fruit, Greggs and space-related size imagery.",
+        "lyricalThemes": "EDDFIRST's weight and appetite; pregnancy and rapid growth; Po and Kung Fu Panda; Great Wall and galactic size; first/last name flips; Pringles and dimples; fasting, food for thought, fufu, fruit and vegetables; Greggs, Clash of Clans and Obesity City.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "First-and-last refrain",
+            "description": "DOMI turns EDDFIRST's name into a repeated argument about finishing last, leaving last and eating the last item."
+          },
+          {
+            "title": "Audience call-and-response",
+            "description": "The fruit-and-vegetable questions make the crowd answer yes or no, converting the nutrition angle into a performance section."
+          },
+          {
+            "title": "Strongest final round",
+            "description": "Food for thought, digestion, fufu, Greggs, greens and the booth/roof/truth closer give DOMI the cleanest complete round of the battle."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 — Rapid Growth",
+        "bar": "After sex it will take nine months; in a week you'll reach this size on your own.",
+        "explanation": "DOMI compares EDDFIRST's rapid weight gain with the nine-month development of a pregnancy."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 — iPad and iPhone",
+        "bar": "Even your fingers are so fat that you're using an iPad as your iPhone.",
+        "explanation": "The larger tablet supposedly functions as ED's phone because an ordinary handset would be too small for his hands."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 — Thailand and Po",
+        "bar": "I bet they thought that I was Thailand, 'cause they got me out here battling Po.",
+        "explanation": "Thai and Po combine into a sound resembling typo, while Po is the large panda protagonist of Kung Fu Panda."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 — Great Wall",
+        "bar": "We're gonna need the Great Wall of China to put your face on a mural.",
+        "explanation": "The enormous wall becomes the only surface supposedly wide enough to hold a mural of EDDFIRST's face."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 — Galactic Size",
+        "bar": "Your size is galactic. We ain't even got your size in a casket; if I ever rise, this star like an asterisk.",
+        "explanation": "Galactic, rise, star and asterisk build a space-and-symbol chain around EDDFIRST's size."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Cord and Son",
+        "bar": "How come DOMI's still here? I swear they must be bored. He's been sunned so many times and nobody cut this cord.",
+        "explanation": "Sunned sounds like son; cutting the cord turns repeated battle defeats into an overdue birth separation."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Dusk Till Dawn",
+        "bar": "I come out the dark and we light him up — call that Dusk till dawn.",
+        "explanation": "DOMI DUSK's name is placed between darkness, light and dawn to create a direct name scheme."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Light and Dark",
+        "bar": "Light versus dark, flip that bar — you get caught if you wanna bring weight in.",
+        "explanation": "Light and dark continue the Dusk imagery, while weight brings the writing back to ED's opponent and the battle's dominant angle."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Equation",
+        "bar": "Do the maths: it's me versus you. I'm two times you — no more equations.",
+        "explanation": "The matchup becomes a simple equation in which ED claims double DOMI's ability before ending the calculation."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — First and Last",
+        "bar": "If you ask who I'd like to verse, it would be the last one. It's funny they call you EDDFIRST — when the league ends, you should be the last one.",
+        "explanation": "DOMI reverses EDDFIRST's name into a prediction that he will finish at the bottom of the Champions League."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — Kitchen",
+        "bar": "You're the first to enter the kitchen, but when it's time to leave you're the last one.",
+        "explanation": "First and last continue the name refrain while the kitchen keeps the weight-and-appetite angle active."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — Pringles and Dimples",
+        "bar": "What's that on your face? It's Pringles. If you would've slimmed down, then it could've been dimples.",
+        "explanation": "Pringles identify snack residue before slimming down converts the marks into normal facial dimples."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — Facts and Insults",
+        "bar": "Why is it when anyone tells you facts about you, they sound like insults?",
+        "explanation": "A compact closer arguing that EDDFIRST's real characteristics are already damaging enough to sound like attacks."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 — Silencer",
+        "bar": "Silencer, BULLY-type flow — I said 'shh' when I air it.",
+        "explanation": "A silenced weapon and the sound 'shh' become a performed punch, with BULLY supplying a flow reference."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 — Speech and Teeth",
+        "bar": "Slurry mess when you speak, it's weak. Heard him rap, instant leak. Simple bars, fix your speech — one right hook, lift your teeth.",
+        "explanation": "The repeated speech sounds attack DOMI's delivery before the right hook makes lifting teeth a physical consequence."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 — Excalibur",
+        "bar": "I was in the cut — that's a rock and a hard place. Never mind that: lift Excalibur, slicing it up; that's what I meant by living in the cut.",
+        "explanation": "The sword in the stone explains rock and hard place, while slicing and cut complete the connected Excalibur sequence."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — Food for Thought",
+        "bar": "When I give a heavy verse, you can digest some food for thought. Let me not digress — your big weight all starts in your mindset.",
+        "explanation": "Digest and food for thought connect eating with ideas before mindset reframes weight as a mental habit."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — Fufu",
+        "bar": "I'm not saying that you look like fufu, but if I put you in a bowl full of soup, then why do you look just like it?",
+        "explanation": "Fufu is commonly served with soup; placing ED in the bowl turns the food comparison into a visual punch."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — Greggs and Greens",
+        "bar": "He was killing himself by eating Greggs. If you were eating the greens instead, then you wouldn't be here trying to leave him red.",
+        "explanation": "Greggs and greens contrast unhealthy and healthy food before green and red turn nutrition into colour wordplay."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — Wall Breaker",
+        "bar": "Last time that I seen ED on my screen, he was chasing after a wall breaker.",
+        "explanation": "A Clash of Clans-style wall breaker supplies the game-screen image while ED's size makes chasing it another food joke."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — Too Big",
+        "bar": "You're getting way too big for your boots, way too big for the booth, way too big for the roof — but you're never too big for the truth.",
+        "explanation": "The repeated too-big structure moves through clothing, recording space and a building before truth resolves the round's argument."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 — Dusk and Absence",
+        "bar": "Never compare me to Dusk. I turn up; this guy's pretty much absent.",
+        "explanation": "Turning up means both arriving and raising intensity, while Dusk is characterised as absent or fading away."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 — Take Part",
+        "bar": "I'm here to take your life, and they just wanna take part.",
+        "explanation": "The repeated take contrasts EDDFIRST's claimed purpose with competitors who are satisfied merely to participate."
+      }
+    ],
+    "oddMoments": [
+      "Before round one, Margs asks whether DOMI will use juju; DOMI says he has been banned and is using prayers only.",
+      "EDDFIRST restarts his opening after the room reacts and asks for the section again.",
+      "DOMI's third is restarted several times because of an earpiece problem and interference from someone beside the setup.",
+      "DOMI turns fruit and vegetable choices into a yes-or-no call-and-response with the crowd.",
+      "EDDFIRST's final is densely delivered and the supplied transcript loses several connecting words; the archive quotes only the clearly recoverable sections.",
+      "The battle contains repeated body-shaming, sexual and homophobic material documented as performance rather than endorsed by the archive.",
+      "The upload sends the room to vote but does not preserve an official tally."
+    ],
+    "coolMoments": [
+      "DOMI's EDDFIRST/last-one refrain gives the second round an immediate and repeatable structure.",
+      "EDDFIRST's Dusk-till-dawn and light-versus-dark writing makes the opponent's stage name central to his first.",
+      "The silencer 'shh' punch uses performance and sound rather than relying only on the written line.",
+      "EDDFIRST's rock/hard-place/Excalibur/cut sequence is the battle's cleanest connected scheme.",
+      "DOMI's fruit-and-vegetable crowd section helps the disrupted third regain momentum before the strong too-big closer."
+    ],
+    "postBattleContext": "Margs directed the in-building audience to vote after EDDFIRST's final. The upload ends without a count or winner, and the original archive entry listed the result as unknown.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: EDDFIRST wins 2-1",
+      "summary": "LOTA round split: EDDFIRST takes round one through the stronger Dusk/dawn, light/dark and equation writing, then takes round two with the silencer, speech/teeth and Excalibur sequences. DOMI DUSK takes round three through the clearer food-for-thought, fufu, Greggs/greens and too-big construction. No official tally is preserved, so this is explicitly a LOTA result rather than an official PenGame decision."
+    }
   },
   {
     "id": "pg-scl-2026-05-03-monroe-vs-kmarh",
@@ -67002,14 +68409,561 @@ export const pengameBattles: Battle[] = [
     "season": "Champions League",
     "competition": "Champions League",
     "subGroup": "Fixture 2",
+    "customEp": "CLx11",
+    "seasonOrder": 11,
+    "stage": "Champions League Fixture 2",
+    "group": null,
+    "tag": null,
+    "views": "85k",
+    "videoUrl": "https://www.youtube.com/watch?v=nOpFG04uOCA",
+    "winner": "kmarh",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "MONROE and KMARH met in Champions League Fixture 2 for a rematch. KMARH chose to go first without a coin toss being shown. The upload preserves no official audience count or declared winner, so the result below is an independent LOTA review.\n\nKMARH opened with a dense appearance and poverty attack. Gollum, skeletons, a coffin, gothic imagery, hobbits and a dungeon formed a dark fantasy chain. He then said MONROE tried to take a flight to duck the battle, turning birds and the pen into the next connection. Chromosomes, abortion, an unaffordable root canal and exhausted trainers escalated the personal writing. After receiving a reload, KMARH completed the verse with a cap that did not fit MONROE's head, a face like somebody spat on an egg, a chest hit by a shotgun and a choice between God or a dentist. The sustained imagery takes the opener.\n\nMONROE answered with a shorter but focused first. He entered claiming three bodies in the morgue, passed Rax's body and flashed back to Academy. Distortion became outlining KMARH in chalk; a previous five-foot-four opponent led into size proportion; and shotgun, pepper and bread imagery maintained the violence. MONROE then argued that respect, rejection and envy explained KMARH's stalled career before using a sniper, headshot and exposed dome. He closed by imitating KMARH's flow and saying he could do it better. The directness lands, but KMARH's first is more developed.\n\nKMARH's second was another concept-heavy round, though sound problems caused repeated restarts. Horror show, Thriller and zombies introduced a supernatural scheme. Ketamine, chopped cheese, hot beef, green vegetables and butter mixed drug and food references before syndrome and scoliosis. Ghosts, silhouettes, souls, pits, spells and pagans returned to the supernatural frame. The Bible and Cain, final day, plains, grass, ink green and a grey side extended the religious and colour writing. KMARH closed that if MONROE won the rematch it must be staged, then attacked his talk of cheques by saying he was born from a rented box.\n\nMONROE's second was his best round. He immediately corrected the suggestion that he had moved the battle, explaining that he still had a flight home that day. After a reload, he ran through a morgue and pawned pram, Lethal Weapon and machine-gun kicks like Lee from Tekken. A beard made KMARH look eleven; screwed faces became eating lemons; serial killer became Special K; and paying too much for haze led into a girlfriend giving her head away. Boxing turned the soles of KMARH's boots into sponsored space before hitting the concrete, while Demolition Man brought in Wesley Snipes. Stardog, begging for twos, punchlines and a hook line completed the round. MONROE edges the second on range and direct rebuttal.\n\nKMARH's third was his cleanest performance. Dice, gambling, bookies and a jab opened the round; unseasoned, spice, cash, rice, a job and pies followed. He reversed MONROE's repeated flight angle by sending him to the sky and becoming the one catching the flight. Cold became freezing and then burning out; closing distance became motion sickness; and childhood drug use ran through Stella, Bert and Ernie, Kirk and Shirley, perks, nursery, lurgies and virginity. KMARH called time as he felt the verse slipping, which the host praised over stumbling.\n\nMONROE's third was heavily disrupted. He began with a stepfather angle, standing and clapping, then stopped around a prohibited word. After admitting the drinks were affecting him, he restarted, moved through frozen food, salt in an open wound, last-man-standing and seeing sunrise first, then received another reload. The final attempt added opening KMARH's chest with a pen and direct relationship material, but MONROE stumbled again, called time and apologised. The surviving writing could not match KMARH's controlled final.\n\nLOTA scores KMARH 2-1. KMARH takes round one through the fuller dark-fantasy and poverty construction; MONROE takes a close round two through the stronger rebuttal and broader Tekken, Special K, boxing and Wesley Snipes writing; KMARH clearly takes round three because MONROE's repeated restarts and incomplete finish overwhelm his best lines.",
+    "performanceAnalysis": [
+      {
+        "performer": "KMARH",
+        "overview": "KMARH wins the LOTA review 2-1 by taking rounds one and three. His writing repeatedly sustains a setting: dark fantasy in the first, horror and religion in the second, then gambling, food, flight, temperature and sickness in the third. Sound-related reloads affect the first two rounds, but his decision to call time before a third-round stumble preserves the clearest final performance.",
+        "lyricalThemes": "Gollum, skeletons, coffins, gothic imagery, hobbits and dungeons; flights and birds; poverty, family and appearance; caps and headwear; God, dentistry and breath; horror, Thriller and zombies; ketamine, food and drugs; syndrome and scoliosis; ghosts, souls, spells and pagans; the Bible and Cain; staging and rented boxes; dice, gambling and bookies; spice, rice and pies; flights; cold, freezing and burning; motion sickness; childhood drugs and illness; optics, nets and fish.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Dark-fantasy opener",
+            "description": "Gollum, a skeleton, coffin, gothic imagery, hobbits and a dungeon give round one a consistent visual world."
+          },
+          {
+            "title": "Horror and scripture",
+            "description": "Thriller, zombies, ghosts, souls, spells and pagans transition into the Bible, Cain and the final day."
+          },
+          {
+            "title": "Controlled final",
+            "description": "KMARH links gambling, food, flights, temperature and sickness, then calls time before losing control of the verse."
+          }
+        ]
+      },
+      {
+        "performer": "MONROE",
+        "overview": "MONROE loses the LOTA review 2-1 but takes round two. His strength is compact reference writing and direct rebuttal: he answers the flight accusation, then connects Lethal Weapon, Lee from Tekken, Special K, boxing and Demolition Man. His first is effective but shorter than KMARH's, while alcohol, repeated reloads and an unfinished third decisively hurt the final round.",
+        "lyricalThemes": "Bodies, morgues, Rax and Academy; distortion and chalk outlines; height and proportion; shotguns, pepper and bread; respect, rejection and envy; snipers and headshots; copying flows; mortgages and fetal position; flights and battle dates; prams and family; Lethal Weapon and Tekken; beards and age; lemons; Special K; haze and head; boxing, sponsored boots and concrete; Wesley Snipes; Stardog and twos; punchlines and hooks; stepfathers; last-man-standing and sunrise; pens and relationships.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Flight rebuttal",
+            "description": "MONROE stops the round to clarify that he kept the date and still had a flight home, directly answering KMARH's ducking claim."
+          },
+          {
+            "title": "Second-round reference run",
+            "description": "Lethal Weapon, Lee from Tekken, Special K and Wesley Snipes turn the middle round into MONROE's most varied writing."
+          },
+          {
+            "title": "Strong ideas, broken closer",
+            "description": "Last-man-standing, sunrise, church and opening a chest with a pen survive the third, but repeated restarts prevent a complete performance."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 — Gollum",
+        "bar": "It's the return of Gollum — skeleton rose from the dead zone. Now I've got to burn this coffin and turn it gothic.",
+        "explanation": "Gollum and a skeleton establish MONROE as corpse-like, while coffin and gothic continue the dark visual setting."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 — Hobbit and dungeon",
+        "bar": "Dirty hobbit tried swerving, but it didn't work... this pen murks you off in a dungeon.",
+        "explanation": "The hobbit comparison and dungeon keep the fantasy setting intact while the pen becomes the weapon."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 — Flight and birds",
+        "bar": "You tried taking a flight to duck this one — this weren't the birds you wanted.",
+        "explanation": "Flight and duck are both travel actions and bird references, turning MONROE's journey into an accusation of avoidance."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 — Root canal",
+        "bar": "You're just like your mum, should've aborted — root canal, couldn't afford it, and them trainers looking exhausted.",
+        "explanation": "Aborted, afforded and exhausted carry the rhyme while dentistry, poverty and appearance become one escalating insult."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 — Cap",
+        "bar": "It's ironic you spit all that cap — none of it fits on your head.",
+        "explanation": "Cap means lies and a hat, so KMARH says both that MONROE lies and that the physical cap does not fit him."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 — Egg and chest",
+        "bar": "Face looking like someone spat on an egg. How you gonna say you'll win with your chest when it looks like it got hit with a spesh?",
+        "explanation": "Two distorted body images connect MONROE's facial appearance and chest to an egg and shotgun damage."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 — God or dentist",
+        "bar": "Go find God or a dentist — I can't help but wince from your breath.",
+        "explanation": "Spiritual salvation and dental treatment are presented as MONROE's only choices, completed by the breath attack."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 — Thriller",
+        "bar": "It's a horror show, it ain't gonna be a Thriller, but you're really stepping with zombies.",
+        "explanation": "Michael Jackson's Thriller and its zombies make the horror-show claim into a recognisable music-video image."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 — Chopped cheese",
+        "bar": "Your mum's definitely not clean, she needs dough — she's selling that chopped cheese, roaming the streets smelling like hot beef.",
+        "explanation": "Dough, chopped cheese and hot beef sustain food language while dough also means money."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 — Ghost and soul",
+        "bar": "Somebody's summoning ghosts, but you leave a silhouette — don't think what you've written could deliver your soul from the pits.",
+        "explanation": "Ghosts, silhouettes, souls and pits continue the supernatural atmosphere and make writing a failed act of salvation."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 — Bible and Cain",
+        "bar": "Didn't you hear what the Bible says? If only you were what you sniffed, you would've been able to change how your life was Cain.",
+        "explanation": "Cain supplies the biblical name while also sounding like cane, connecting scripture to the drug-use accusation."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 — Final day colours",
+        "bar": "No one could run from the final day... plains of grass, ink green, your side is grey.",
+        "explanation": "Final judgement leads into plains and grass before ink green and grey turn landscape into opposing colours."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 3 — Gamble",
+        "bar": "I roll with the dots like, 'Hand me the dice.' Tell me why you really wanna gamble your life when I could catch you outside the bookies.",
+        "explanation": "Dots, dice, gambling and bookies construct a complete betting scene around the danger of taking the clash."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 3 — Spice, rice and pies",
+        "bar": "Unseasoned dog, don't have any spice; spent all his cash on the rice, no job so he ain't got his hands in the pies.",
+        "explanation": "Seasoning, spice, rice and pies sustain food imagery while having a hand in the pies also means involvement in business."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 3 — Catching the flight",
+        "bar": "Send man to the sky, then I'll be the one that's catching the flight.",
+        "explanation": "KMARH reverses MONROE's real travel and earlier ducking argument by making himself the person taking the flight after sending MONROE upward."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 3 — Fish and lines",
+        "bar": "The cameras see the effect... you're a fish when they catch these lines.",
+        "explanation": "Net and camera imagery becomes a fishing net, while lines are both written bars and fishing line."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 — Morgue and Academy",
+        "bar": "Still got three bodies in the morgue when I walked in. Walked past Rax's body, had a flashback to the Academy scorching.",
+        "explanation": "MONROE counts earlier opponents as bodies and names Rax and Academy to ground the threat in his battle history."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 — Outline and chalk",
+        "bar": "Bare distortion — Margs, don't make me outline and chalk him.",
+        "explanation": "Outline refers to explaining KMARH and to the chalk outline associated with a body at a crime scene."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 — Pepper and bread",
+        "bar": "Shotgun levelled up, get peppered up... after this one you ain't getting up, 'cause this T-shirt ain't bread enough.",
+        "explanation": "Peppering describes shotgun fire, while bread means money and shifts the threat into clothing and value."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 — Respect and envy",
+        "bar": "There's a reason them man respect me, a reason they can't reject me; reason you ain't got far in this game — envy.",
+        "explanation": "Respect, reject and envy make KMARH's career position the result of resentment toward MONROE."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 — Sniper flow",
+        "bar": "Sniper flow, headshot — leave the top of the dome exposed.",
+        "explanation": "The sniper image makes flow into precision shooting and dome means both head and a rounded top."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Flight rebuttal",
+        "bar": "I've got a flight back today to show my levels — I didn't change the date.",
+        "explanation": "The real travel detail directly rebuts KMARH's opening claim that MONROE tried to move or avoid the battle."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Lee from Tekken",
+        "bar": "I'll keep it stepping, Lethal Weapon — hitting with machine-gun kicks like Lee from Tekken.",
+        "explanation": "Lethal Weapon and Tekken supply combat references, while Lee's rapid kicks explain the machine-gun comparison."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Eating lemons",
+        "bar": "I've got decent presence — leave man's face all screwed like they're eating lemons.",
+        "explanation": "A screwed facial expression becomes the sour reaction created by biting a lemon."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Special K",
+        "bar": "I'm a serial killer, but you're not Special K.",
+        "explanation": "Serial killer sounds like cereal killer, leading to Special K while also using the K in KMARH's name."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Head away",
+        "bar": "You pay three bills on a zed of haze; your girl sucks willy for ganja — she's basically giving her head away.",
+        "explanation": "Head away means performing oral sex for cannabis and also carelessly giving away one's head or judgement."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Sponsored boots",
+        "bar": "If this was a boxing match, make sure the bottom of your boots are sponsored heavily — hit the concrete definitely.",
+        "explanation": "A knocked-out boxer displays the soles of his footwear to the camera, turning that visible space into sponsorship inventory."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Demolition Man",
+        "bar": "Offspring of a sceptic lies — I'm a Demolition Man like Wesley Snipes.",
+        "explanation": "Wesley Snipes starred in Demolition Man, so destroying KMARH becomes a film reference."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Stardog twos",
+        "bar": "You're a Stardog enthusiast but you ain't got a spliff — in the smoking area begging dudes to save twos on this.",
+        "explanation": "Stardog is a cannabis strain, while saving twos means leaving a portion of somebody else's joint."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 — Hook line",
+        "bar": "They rated me, but I need more punchlines... get sunk with a hook line.",
+        "explanation": "Punch and hook are boxing blows, while hook line also describes a memorable musical phrase and fishing equipment."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 — Sunrise first",
+        "bar": "If me and you battled till last man standing, I'd see the sunrise first.",
+        "explanation": "The last person standing survives through the night, making sunrise proof that MONROE outlasted KMARH."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 — Chest with a pen",
+        "bar": "We're stepping again — open his chest with a pen, don't need to invest in a skeng.",
+        "explanation": "The pen represents battle writing as a weapon strong enough to replace an actual gun."
+      }
+    ],
+    "oddMoments": [
+      "The transcript opens with a preview of lines from both battlers before the Champions League explainer.",
+      "KMARH announces that he will go first; no completed coin toss is shown in the source.",
+      "KMARH receives a crowd-demanded reload during round one.",
+      "Sound and vocal-level problems cause KMARH to restart his second multiple times.",
+      "MONROE stops early in round two to rebut the claim that he moved the battle, explaining that he still has a flight home that day.",
+      "MONROE receives multiple crowd-demanded reloads during his second.",
+      "KMARH calls time when his third begins to slip; Margs explicitly praises that choice over stumbling through the material.",
+      "MONROE admits that the drinks are affecting him during his third, restarts several times, stumbles at the end and apologises.",
+      "The battle contains violent, sexual, family, drug, disability, body-shaming and discriminatory material documented as performance rather than endorsed by the archive.",
+      "Voting is opened for 48 hours, but no official tally or declared winner appears in the source."
+    ],
+    "coolMoments": [
+      "KMARH's Gollum, skeleton, coffin, gothic, hobbit and dungeon sequence gives the battle an immediate visual identity.",
+      "MONROE's morgue and Academy opening efficiently connects his previous battles to the current matchup.",
+      "KMARH's Thriller, zombies, ghosts, souls and pagans passage sustains the strongest atmosphere in round two.",
+      "MONROE's flight correction is a live rebuttal to the central ducking accusation from KMARH's opener.",
+      "The Lethal Weapon, Lee from Tekken, Special K and Wesley Snipes run is MONROE's strongest technical stretch.",
+      "KMARH keeps his final controlled and calls time before a stumble, a decision the host immediately respects."
+    ],
+    "postBattleContext": "Margs breaks the event for 30 minutes and opens the public vote for 48 hours. The source ends without publishing the audience count or winner, so the original unknown result is replaced only by the clearly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: KMARH wins 2-1",
+      "summary": "LOTA round split: KMARH takes round one through the fuller Gollum, gothic, hobbit, flight, cap and God-or-dentist construction. MONROE edges a close round two with the stronger live flight rebuttal and the Lethal Weapon, Tekken, Special K, boxing and Wesley Snipes sequence. KMARH clearly takes round three through a controlled gambling, food, flight, temperature and sickness round; MONROE's alcohol-affected closer requires repeated restarts and ends incomplete. No official PenGame tally is preserved, so this is explicitly a LOTA result."
+    }
+  },
+  {
+    "id": "pg-scl-2026-05-03-whoisorion-vs-lc",
+    "slug": "whoisorion-vs-lc",
+    "mc1": "whoisorion",
+    "mc2": "lc",
+    "title": "WHOISORION vs LC",
+    "date": "2026-05-03",
+    "theme": "pengame",
+    "season": "Champions League",
+    "competition": "Champions League",
+    "subGroup": "Fixture 2",
     "customEp": "CLx12",
     "seasonOrder": 12,
     "stage": "Champions League Fixture 2",
     "group": null,
     "tag": null,
-    "views": "84k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "views": "85k",
+    "videoUrl": "https://www.youtube.com/watch?v=4ZjbLRM2pe4",
+    "winner": "whoisorion",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "WHOISORION and LC met in Champions League Fixture 2. WHOISORION lost the coin toss but chose to go first. He warned the room that he had lost his voice; the upload preserves no official audience count or declared winner, so the result below is an independent LOTA review.\n\nWHOISORION's first was heavily interrupted but ultimately substantial. His opening joke turned losing his voice into a JAYCEE reference before Greggs and pastry, an offensive KKK/slavery sequence, Anthony Joshua and AJ Tracey, and a Tim Westwood/YJ comparison. He framed LC as a disrespectful newcomer facing a veteran, used Mr X Factor to bring in Ant and getting decked, then referenced his earlier classic against INJURIES. Multiple crowd reactions and reloads caused him to repeat the verse several times. The completed version added an extended LC/CL initial sequence and established a clear experience gap.\n\nLC's first began badly. He stalled through repeated 'check it' lines before recovering into an Orion, ghost and stamina passage. Popping perks became Call of Duty perks, a quick rewrite, packed punches, SKAMZ's six bars, Madara, Juggernaut and a double shot. The gaming references formed a useful late pocket, but the opening breakdown left the round much shorter and less complete than Orion's.\n\nWHOISORION's second was the battle's most expansive round. Stepping to the line became stepping on a landmine; a kidnapped father’s wife was told to get in the van and die; and a year away led into disappeared performers, Ginger Jay, PASSIVE's man bun, Mrs Elastic and Mr Fantastic. Tables, ladders and chairs became living without furniture and a TLC wrestling reference. LC was recast as a fangirl receiving an autograph, selfie and email rather than a phone number. A Tottenham crowd chant called LC and his material rubbish before goldmine, gold time, signature and co-sign writing. Travis Scott, Snow White and nose size led into a roll call of earlier opponents who had been smoked.\n\nLC's second was short but punch-heavy. Anthony became an amputee, LC became casualties, and his return after time away was framed as heat. Gravity and travesty led into a crude family angle; a chopper made Orion look like Kobe Bryant; and a Blu-ray/CD comparison attacked his music. A crown and gunshot shook the crowd, Harvey Price and being one round down formed another connection, and a girlfriend called Tracy was sent to The Dumping Ground. Jumanji, a big-fish hit list and six chins closed the passage. The punches land, but there is not enough material to match Orion's round.\n\nWHOISORION's third focused almost entirely on LC's dead dog Xena. PenGame's rule against jokes about people who had died was separated from a pet, then barks, walks in parks and darkness led into Noah's Ark and sharks. Dog bars became an XL Bully reference; Will Smith grabbing a hound by the neck moved into being put down like a pet by a vet; and Triple H supplied the Pedigree. Orion claimed to bring Xena back from the dead and told LC to fetch, then closed with a road-crossing joke about the dog's grave. The angle was deliberately cruel and went overtime, but it was technically sustained.\n\nLC's third was his strongest. Chest became chess and breasts before stamina, burning and Hermes. A beaten partner led into Mason Greenwood, stolen flows named Zen, and a Ketamine Queen became Matthew Perry. LC reversed his own initials into CL as proof that he belonged in the Champions League. Hobo, Moto Moto, photo, slow-mo, solo and Bolo created his best sound chain; zooming became GoPro; Everest, a bomb landing like a terrorist, London to Connecticut and Mr Shellington completed the extended version after a crowd reload. The round is broad and competitive, but the initial stumble and full restart allow Orion's cleaner concept to edge it.\n\nLOTA scores WHOISORION 3-0. Orion takes round one because LC's opener collapses before a short recovery, clearly takes the far fuller second, and edges the competitive third through the sustained Xena, Noah's Ark, XL Bully, vet, Pedigree and fetch scheme.",
+    "performanceAnalysis": [
+      {
+        "performer": "WHOISORION",
+        "overview": "WHOISORION wins the LOTA review 3-0. His advantage is volume and sustained concepts: experience and initials organise the first, the second contains the battle's broadest reference range, and one dog theme controls the third from Xena through Noah's Ark, XL Bully, a vet, Pedigree and fetch. His lost voice, repeated reloads and overtime third are significant performance faults.",
+        "lyricalThemes": "Lost voices and JAYCEE; Greggs and pastry; Anthony Joshua and AJ Tracey; Tim Westwood and YJ; newcomer versus veteran; X Factor and Ant; INJURIES and flinching; LC and CL initials; landmines; kidnapping and vans; disappearances; Ginger Jay and PASSIVE; Mrs Elastic and Mr Fantastic; tables, ladders, chairs and TLC; fans, autographs, selfies and email; Tottenham chants; goldmines, signatures and co-signs; Travis Scott and Snow White; previous opponents; Xena; barks, parks and darkness; Noah's Ark and sharks; XL Bullies; Will Smith, pets and vets; Triple H and Pedigree; fetching.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Reference-heavy second",
+            "description": "Landmines, Fantastic Four, TLC, fan culture, football chants, goldmines and Travis Scott give the middle round exceptional range."
+          },
+          {
+            "title": "Initials sequence",
+            "description": "LC and CL are repeatedly expanded and reversed, turning the opponent's name into a set of compact phrases."
+          },
+          {
+            "title": "Sustained dog closer",
+            "description": "Xena, barking, parks, Noah's Ark, sharks, XL Bully, a hound, pet, vet, Pedigree and fetch remain on one theme for the entire third."
+          }
+        ]
+      },
+      {
+        "performer": "LC",
+        "overview": "LC loses the LOTA review 3-0, with round three his strongest and closest. He recovers from a severe first-round breakdown into a useful Call of Duty pocket, lands compact film and celebrity punches in the second, and delivers a broad final after a reload. His main weakness is round completion: the first is drastically shortened, the second is brief and the third requires a full restart.",
+        "lyricalThemes": "Orion and ghosts; absence and stamina; perks and Call of Duty; packed punches, SKAMZ, Madara and Juggernaut; Anthony and amputees; OC and casualties; gravity and travesty; choppers and Kobe Bryant; Blu-ray and CDs; crowns and crowds; Harvey Price; Tracy and The Dumping Ground; Jumanji, fish and hit lists; chest, chess and breasts; stamina and Hermes; Mason Greenwood; stolen flows and Zen; ketamine and Matthew Perry; LC and CL; hobo, Moto Moto, photo, slow-mo, solo and Bolo; GoPro; Everest; bombs and terrorists; London, Connecticut and Mr Shellington.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Gaming recovery",
+            "description": "Perks, stamina, Call of Duty, a double shot, Madara and Juggernaut give LC structure after his first-round breakdown."
+          },
+          {
+            "title": "Compact second-round punches",
+            "description": "Amputee, gravity, Kobe Bryant, Blu-ray, Harvey Price, The Dumping Ground and Jumanji arrive quickly in a short round."
+          },
+          {
+            "title": "Strongest final sound chain",
+            "description": "Hobo, Moto Moto, photo, slow-mo, solo and Bolo create LC's cleanest extended rhyme before GoPro and the travel close."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — Lost voice",
+        "bar": "Sorry, you man, I lost my voice — I'm joking, do I look like JAYCEE?",
+        "explanation": "Orion turns his real vocal problem into a joke about another Champions League MC's delivery."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — AJ",
+        "bar": "If you wanna fight, I'm Anthony Joshua; when I'm on the mic, I'm AJ Tracey.",
+        "explanation": "The initials AJ connect boxer Anthony Joshua with rapper AJ Tracey, covering fighting and music."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — Newcomer and vet",
+        "bar": "This newcomer is lacking respect — why do you think he can rap with a vet?",
+        "explanation": "The matchup is framed as an inexperienced newcomer challenging an established veteran."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — X Factor and Ant",
+        "bar": "You saw what I did to Mr X Factor — call me Ant, watch a man get decked.",
+        "explanation": "Ant references Ant McPartlin from the X Factor hosting world, while getting decked means being knocked down."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — Classic and LC",
+        "bar": "Man had a classic battle with INJURIES... I'm about to do the same with LC.",
+        "explanation": "Orion invokes a recognised previous clash as the standard he intends to repeat against LC."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 — LC initials",
+        "bar": "LC: loose cannon, little cut, low cost, loud clap... or flip it, CL: corny life.",
+        "explanation": "A rapid list repeatedly expands LC before reversing the initials to CL for a second set of insults."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 — Landmine",
+        "bar": "Step into me, you step to the landmine — bars go over your head, let me land mine.",
+        "explanation": "Landmine is the explosive, while land mine means making Orion's bars connect after going over LC's head."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 — Fantastic Four",
+        "bar": "I'll get a man bun like PASSIVE — you get stretched, son, like Mrs Elastic. Fuck Mr Fantastic.",
+        "explanation": "PASSIVE's hairstyle leads into the elastic powers of two Fantastic Four characters."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 — TLC",
+        "bar": "You lived in a trap, not a TLC — no sofas, just tables, ladders and chairs.",
+        "explanation": "TLC first suggests comfortable care, then becomes WWE's Tables, Ladders and Chairs match."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 — Fangirl",
+        "bar": "You're a fangirl with female energy — here's an autograph and a clean selfie. You can't have my number, just email me.",
+        "explanation": "Orion treats LC as an admirer who receives controlled fan access rather than personal contact."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 — Goldmine",
+        "bar": "You cannot flow like this — I'm a goldmine, better call time. You know it's gold time; take my signature, you can't have my co-sign.",
+        "explanation": "Goldmine, gold time, signature and co-sign turn value and endorsement into one status sequence."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 — Snow White",
+        "bar": "Send man up to the Most High like Travis — he lost, sniffing on Snow White; you can tell by his nose size.",
+        "explanation": "Travis Scott and the Most High precede Snow White as cocaine, with nose size completing the drug image."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 — Barks, parks and dark",
+        "bar": "I bet you miss the way it barks, taking it on long walks in parks — last thing it heard was, 'It's dark.'",
+        "explanation": "Barks, walks, parks and dark create the opening rhyme chain around LC's dead dog Xena."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 — Noah's Ark",
+        "bar": "If Xena was the last dog left, I still wouldn't put it in Noah's Ark — and if I did, I'd throw it overboard and let it get mauled by sharks.",
+        "explanation": "Noah's Ark should save the last animals, but Orion reverses the rescue and extends ark into sharks."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 — Pet and vet",
+        "bar": "Tonight you're going out like a pet, 'cause you're getting put down by a vet.",
+        "explanation": "A veterinary euthanasia phrase becomes Orion's prediction for the battle result."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 — Pedigree and fetch",
+        "bar": "You wanna wrestle me like Triple H? I'll dig his grave and give it a Pedigree... want your dog back? Go in there, pussy, I'll fetch.",
+        "explanation": "Triple H's finishing move is the Pedigree, which also means an animal bloodline; fetch closes the dog theme."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Ghost year",
+        "bar": "One whole year turned him to a ghost — none of them ever stepping short of this road.",
+        "explanation": "Orion's period away from battling is treated as a disappearance and loss of presence."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Perks and stamina",
+        "bar": "Orion, you been popping perks? Bro, you should've got your stamina up.",
+        "explanation": "Perks refers to drugs and game abilities, while stamina is the game statistic needed to last through the round."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Packed punch",
+        "bar": "This needs a quick rewrite, 'cause all my bars pack a punch — like SKAMZ with his six bars Madara.",
+        "explanation": "Packed punch describes dense writing before a named battle reference turns it into a specific comparison."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 — Juggernaut",
+        "bar": "Strength like I've been sipping on Juggernaut — get it, all the perks from COD, man.",
+        "explanation": "Juggernog grants greater health in Call of Duty Zombies, completing the perks and stamina gaming sequence."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — Anthony amputee",
+        "bar": "First off, you can't battle me — I'll turn Anthony to an amputee.",
+        "explanation": "Anthony and amputee carry the sound while using Orion's real name for the threat."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — Kobe chopper",
+        "bar": "Let me see you in the chopper, have the motherfucker looking Kobe Bryant.",
+        "explanation": "The deliberately dark reference connects a helicopter or chopper with Kobe Bryant's fatal crash."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — One round down",
+        "bar": "This Harvey Price, he was mixed with the Downs — what's that, Margs? He's one round down.",
+        "explanation": "The offensive celebrity comparison turns Down syndrome into being one round behind on the scorecard."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — Dumping Ground",
+        "bar": "I heard your girl's called Tracy — I'ma send that bitch to The Dumping Ground.",
+        "explanation": "Tracy Beaker and The Dumping Ground are linked children's programmes, making the name the setup for the location."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 — Big fish hit list",
+        "bar": "You are a big fish, hit list — seen your name on a tick list. You're not big-rich, you just got six chins.",
+        "explanation": "Fish, hit list, tick list and big-rich carry the internal sound before size replaces wealth in the final phrase."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Chest and chess",
+        "bar": "Think you're the best, bro? Say it with your chest — can't say it with chess, why's this pussy old boy got breasts?",
+        "explanation": "Best, chest, chess and breasts form the opening rhyme while confidence becomes a body joke."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Hermes",
+        "bar": "Death wish, bro, so you better learn this — you're fucking with a god, man, I feel like Hermes.",
+        "explanation": "Hermes is a Greek god, allowing LC to elevate himself from battler to deity."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Mason Greenwood",
+        "bar": "Your wifey's looking so beat up, 'cause her husband's like Mason Greenwood.",
+        "explanation": "The line invokes the footballer's highly publicised abuse allegations as a dark relationship comparison."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Ketamine Queen",
+        "bar": "Your girl was known as the Ketamine Queen — trying to see you, that might as well be Matthew Perry.",
+        "explanation": "Drug use connects the partner allegation with Matthew Perry's death and addiction history."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — LC to CL",
+        "bar": "What's LC backwards? CL — that's proof I'm winning this Champions League.",
+        "explanation": "Reversing LC's initials produces CL, the standard abbreviation for Champions League."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Hobo to Bolo",
+        "bar": "You look like a homeless hobo, plus-size looking like Moto Moto... don't fit in a photo, moving slow-mo; Margs knows I'm levelling solo, also knows you're fat, you ain't Bolo.",
+        "explanation": "Hobo, Moto Moto, photo, slow-mo, solo and Bolo sustain LC's strongest multi-syllable sound chain."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 — Connecticut",
+        "bar": "Bounce from London to Connecticut — you know me as LC, but right now know me as Mr Shellington.",
+        "explanation": "Connecticut supplies the travel rhyme before Shellington reshapes a location-style name around shells or gunfire."
+      }
+    ],
+    "oddMoments": [
+      "The transcript opens with a preview from WHOISORION's first before the Champions League explainer.",
+      "WHOISORION loses the coin toss but elects to go first, then warns the room that he has lost his voice.",
+      "WHOISORION's first is restarted and repeated several times after crowd reactions, sound checks and a visible flinch from LC.",
+      "LC's first breaks down into repeated 'check it' lines before he recovers with a short gaming passage.",
+      "Sound levels interrupt the start of WHOISORION's second and lead to a full reload.",
+      "Margs announces the third round after Orion's second, then is corrected because LC has not yet performed his second.",
+      "WHOISORION's third uses LC's dead dog throughout, receives a crowd-demanded reload and runs overtime.",
+      "Margs mistakenly ends the battle after Orion's third, then apologises and brings LC back for his actual third; he says it is the second time he has made that mistake on the show.",
+      "LC receives a crowd-demanded reload during his third and completes an extended version.",
+      "The battle contains racist, ableist, violent, sexual, family, drug, body-shaming, dead-relative and dead-pet material documented as performance rather than endorsed by the archive.",
+      "Voting is opened for 48 hours, but no official tally or declared winner appears in the source."
+    ],
+    "coolMoments": [
+      "WHOISORION turns his genuinely lost voice into an immediate JAYCEE joke rather than treating it only as an excuse.",
+      "LC recovers from a severe first-round breakdown with a connected perks, stamina, Call of Duty and Juggernaut pocket.",
+      "WHOISORION's landmine, Fantastic Four, TLC, fan-access, football and goldmine sections make round two the battle's broadest performance.",
+      "LC's Anthony/amputee and LC-to-CL punches are his cleanest direct name constructions.",
+      "WHOISORION sustains one dog angle through Xena, barking, parks, Noah's Ark, sharks, XL Bully, a hound, vet, Pedigree and fetch.",
+      "LC's hobo, Moto Moto, photo, slow-mo, solo and Bolo chain gives the final round a strong late response."
+    ],
+    "postBattleContext": "Margs directs the live audience to scan the QR code and opens online voting for 48 hours. He says all updates will appear on the PenGame website, but the source ends without publishing a count or winner, so the original unknown result is replaced only by the clearly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: WHOISORION wins 3-0",
+      "summary": "LOTA round split: WHOISORION takes round one because LC's opening collapses before a short Call of Duty recovery. Orion clearly takes round two with the much fuller landmine, Fantastic Four, TLC, fan, football, goldmine and opponent-roll-call writing. He edges a competitive third through the sustained Xena, barks, Noah's Ark, XL Bully, vet, Pedigree and fetch concept; LC's LC-to-CL and hobo/Moto Moto sound chain lands, but his round requires a full restart. No official PenGame tally is preserved, so this is explicitly a LOTA result."
+    }
   },
   {
     "id": "pg-scl-2026-05-03-drizzgb-vs-rp",
@@ -67028,8 +68982,269 @@ export const pengameBattles: Battle[] = [
     "group": null,
     "tag": null,
     "views": "67k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "videoUrl": "https://www.youtube.com/watch?v=ejRQMm2CgGI",
+    "winner": "drizzgb",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "DRIZZGB and RP met in Champions League Fixture 2, with RP winning the toss and sending DRIZZGB first. The upload preserves no official audience count or declared winner, so the result below is an independent LOTA review.\n\nDRIZZGB opened with the battle's most sustained concept: an Eminem sequence that moved through M&M, Stan, a side-road crash, typo, Forgot About Dre, Psycho, Toy Soldiers, Lose Yourself, Rap God, Not Afraid, Godzilla and Killshot. He then switched into direct material about RP's size, friends and crew before closing on the deliberately false claim that RP was cold only on April Fool's Day. The round included a full reload, but its connected writing and performance gave DRIZZGB the technical edge.\n\nRP's first was his strongest and made the opener competitive. He attacked DRIZZGB's family history, adoption and stature, referenced the EDDFIRST dispute, and argued that DRIZZGB had initiated their back-and-forth despite RP sending several times. His TikTok and response-time material was specific, and the closing claim that DRIZZGB had asked PenGame to change rules around jokes about the dead gave the round a researched angle. The writing was direct and personal, but less consistently constructed than DRIZZGB's opening scheme.\n\nDRIZZGB's second widened the gap. A girlfriend sequence linked grinding, an ollie, popping music and molly; present-day became a wrapped present; Sideman led into KSI and no expression; and a Netflix comparison set up 'bare men inside'. He then sustained Caribbean and pirate imagery through ice cream, eye patch, Johnny, depth and a white flag. The round closed with the Breakfast Club: DJ Envy, Charlamagne tha God, Birdman and 'put some respect on my name'. It was the cleanest and most layered round of the battle.\n\nRP answered with another direct character attack. He questioned DRIZZGB as a father, mocked his weed habits and physical size, revisited an incident at a video shoot, accused him of asking Trappy for money and used a toe tag to challenge the claim that DRIZZGB was cold. Academy and battery formed his best late connection, followed by a fake-family attack and a Talk Is Cheap reference. The specificity kept RP competitive, but DRIZZGB's round had clearer progression and denser linked writing.\n\nThe third was heavily disrupted. DRIZZGB's intro repeatedly looped an offensive anti-Muslim line, prompting objections in the room and several attempted restarts while he asked for the vocal to be removed. Once the verse moved forward, he expanded RP's initials into a chain of insults, added E and O to RP to create 'rope', and continued through tie, hang and strung-along imagery. Academy/child, Canaan/son/Power and light, sun, son, burn and tan sequences showed substantial prepared material, although the technical failures badly damaged the performance.\n\nRP acknowledged that his previous verse had gone wrong and chose to freestyle his final. The off-the-top response had energy but was short, generic and unfinished, and RP declined the offer of a reload. Even after accounting for DRIZZGB's restarts and the unacceptable intro, RP did not supply enough developed material to take the round.\n\nLOTA scores the battle 3-0 to DRIZZGB. Round one is the closest because RP's direct research lands, but DRIZZGB's connected Eminem writing edges it. DRIZZGB clearly takes round two, and his surviving prepared material takes a chaotic third over RP's very brief freestyle.",
+    "performanceAnalysis": [
+      {
+        "performer": "DRIZZGB",
+        "overview": "DRIZZGB wins the LOTA review 3-0. His advantage is connected scheme writing: the Eminem catalogue controls round one, music and pop-culture chains make round two the battle's clearest round, and enough of the rope, family and light writing survives the broken third to beat RP's short freestyle. Multiple restarts, especially in round three, are the major performance weakness.",
+        "lyricalThemes": "Eminem titles and characters; RP's size and friendships; drugs and music; presents and surprise; Sidemen and KSI; Netflix; Caribbean and pirate imagery; The Breakfast Club; RP initials; rope, hanging and being strung along; Academy and fatherhood; Canaan and Power; light, sun, burning and tanning.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Eminem catalogue scheme",
+            "description": "M&M, Stan, Forgot About Dre, Psycho, Toy Soldiers, Lose Yourself, Rap God, Not Afraid, Godzilla and Killshot form one recognisable opening run."
+          },
+          {
+            "title": "Second-round construction",
+            "description": "The ollie/molly, present/surprised, KSI/expression, Netflix, pirate and Breakfast Club passages give the second several connected sections rather than isolated punches."
+          },
+          {
+            "title": "Recovery under disruption",
+            "description": "After repeated third-round restarts, DRIZZGB still completes the RP-to-rope transformation and later Academy, Canaan and sun/son sequences."
+          }
+        ]
+      },
+      {
+        "performer": "RP",
+        "overview": "RP loses the LOTA review 3-0, with round one his best opportunity. His strength is opponent-specific research: TikTok, response times, EDDFIRST, PenGame rules, Trappy, Academy and Talk Is Cheap all make the writing clearly aimed at DRIZZGB. His material is less densely connected than DRIZZGB's, and the improvised third is too short to capitalise on DRIZZGB's technical collapse.",
+        "lyricalThemes": "DRIZZGB's family and adoption; stature; EDDFIRST; who sent first; TikTok and response times; jokes about the dead; fatherhood and Christmas; weed; the video shoot; money and Trappy; toe tags and being cold; Academy and battery; family authenticity; Talk Is Cheap; off-the-top freestyling.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Battle-history research",
+            "description": "RP grounds his first in the actual back-and-forth, naming TikTok, the original sends and the difference between a 24-hour and three-day response."
+          },
+          {
+            "title": "Direct personal pressure",
+            "description": "Family, fatherhood, money, crew relationships and earlier platform appearances keep RP's attacks specific to DRIZZGB."
+          },
+          {
+            "title": "Academy-to-battery close",
+            "description": "RP's cleanest late sequence moves from being fresh from Academy into a switch, a hit and arrest for battery."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 — M&M and Stan",
+        "bar": "I'm catching an M&M... this guy's my Stan. RP is a fan — go drive off the side road.",
+        "explanation": "M&M sounds like Eminem, while Stan names both the rapper's obsessive fan character and RP's position as a supposed admirer."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 — Crash and catalogue",
+        "bar": "I hope that we crash, that ain't a typo. Can't Forget About Dre, I'm a psycho.",
+        "explanation": "Crash follows the side-road setup before Forgot About Dre and Psycho extend the Eminem-associated title sequence."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 — Toy Soldiers",
+        "bar": "I'm knocking them down like Toy Soldiers... Don't Lose Yourself, I'm the Rap God, I'm Not Afraid.",
+        "explanation": "A row of Eminem song titles is made grammatical inside one threat: Toy Soldiers fall while Lose Yourself, Rap God and Not Afraid describe the clash."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 — Godzilla and Killshot",
+        "bar": "She looks like Godzilla — Killshot when I aim and burst.",
+        "explanation": "Godzilla and Killshot complete the Eminem run while turning the latter title into a literal aimed shot."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 — April Fool",
+        "bar": "I think RP's cold — on April the first.",
+        "explanation": "The compliment is withdrawn by dating it to April Fool's Day, making the claim that RP is cold an intentional lie."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 — Ollie and molly",
+        "bar": "Your girl just grind on man... looks like she's popping an ollie. He's pissed that I'm popping the music while you're popping a molly.",
+        "explanation": "Grinding and an ollie come from skateboarding, while repeated 'popping' moves from music success to the drug MDMA."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 — Present day",
+        "bar": "You may get wrapped in the present day, so don't be looking surprised.",
+        "explanation": "Present day means now, but a present is also wrapped and a surprise when opened."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 — Sideman",
+        "bar": "You're a Sideman — KSI, no expressions when you die.",
+        "explanation": "Sideman points to The Sidemen and KSI, then 'no expressions' turns a public personality reference into a lifeless face."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 — Netflix",
+        "bar": "Your girl is a Netflix show, 'cause she's had bare men inside.",
+        "explanation": "A streaming show has cast members inside it; the line makes 'bare men' both many actors and a sexual accusation."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 — Pirate chain",
+        "bar": "I'm not blind when I catch on... eye patch on, while using the Johnny. You're out of your depth — you're gonna have to white-flag this one.",
+        "explanation": "Blindness, an eye patch, being out at sea or out of depth and raising a white flag sustain the pirate setting; Johnny also means a condom."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 — Breakfast Club",
+        "bar": "I know the DJ envy when I drop bars... Charlamagne, I'm the God... I'm a Birdman, so please put some respect on my name.",
+        "explanation": "DJ Envy and Charlamagne tha God host The Breakfast Club, while Birdman's famous interview demand supplies the closing phrase."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — RP initials",
+        "bar": "RP is a racist person, real problem... racially profiled, really practise the recipe.",
+        "explanation": "DRIZZGB repeatedly expands the initials R and P into different two-word phrases, making RP's name the structural rule of the passage."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Rope transformation",
+        "bar": "I take an E, grab an O — now you've got rope to tie the facts... cross the line and think you passed; you got strung along.",
+        "explanation": "Adding the vowels O and E to RP creates ROPE, which then generates tie, hang, line and strung-along meanings."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Academy child",
+        "bar": "I'm the reason you've got an Academy — you're my child.",
+        "explanation": "DRIZZGB claims creative parenthood over RP's Academy status, turning institutional development into a father-and-child relationship."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Light and sun",
+        "bar": "The lights are bright and the brightest light will get you burnt... leave my son burnt when I tan this one.",
+        "explanation": "Bright stage lights lead to burning, sunlight and tanning, while sun becomes son to continue the parenthood angle."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 — Midlife crisis",
+        "bar": "You're looking like a midlife crisis — you're a man, not a bitch, don't cry, sis.",
+        "explanation": "Crisis is split into 'cry, sis', turning the phrase midlife crisis into a taunt about RP's age and composure."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 — EDDFIRST",
+        "bar": "Why are DRIZZ and EDDFIRST arguing about who's gonna give who head first?",
+        "explanation": "EDDFIRST's name is split into 'head first', turning a real dispute into a crude name flip."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 — Who sent first",
+        "bar": "I sent for DRIZZ three times, but don't pretend it weren't you that sent first.",
+        "explanation": "RP corrects the history of their exchanges, distinguishing the number of sends from who initiated the matchup."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 — TikTok receipts",
+        "bar": "You were talking shit on TikTok Live... three months later finally sent for me. In 24 hours I sent for you back — not three days.",
+        "explanation": "Dates and platforms make the attack verifiable battle-history research rather than a generic speed claim."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 — Rule change",
+        "bar": "DRIZZ can't handle jokes about the dead, so he begged PenGame to change the rules... what are you snitching for?",
+        "explanation": "RP turns a claimed rules complaint into an accusation that DRIZZGB sought institutional protection."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Christmas gifts",
+        "bar": "He's got a kid, but he don't buy no Christmas gifts.",
+        "explanation": "The simple personal attacks DRIZZGB's responsibilities as a father rather than his battle ability."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Borrowed spliff",
+        "bar": "I've seen DRIZZ smoke weed bare times, but never seen you with a spliff that's his.",
+        "explanation": "RP uses an observed habit to frame DRIZZGB as dependent on other people's supply."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Bent wrist",
+        "bar": "Sat him outside of the video shoot, stood in my fist for respect and it bent his wrist.",
+        "explanation": "The video-shoot reference presents the threat as an incident from their shared history rather than a hypothetical punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Premature",
+        "bar": "My hands are twice the size of this premature baby's.",
+        "explanation": "RP combines a size comparison with the repeated attack on DRIZZGB's height and build."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Trappy and dough",
+        "bar": "He's been asking Trappy for dough... you've been looking like a tramp on road.",
+        "explanation": "Dough means money, while naming Trappy makes the financial accusation opponent-specific."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Toe tag",
+        "bar": "I'll be putting that tag on your toe — that's the only way you'll be actually cold.",
+        "explanation": "Cold first means skilled, then literally dead in a morgue with an identification tag on the toe."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Academy battery",
+        "bar": "How you gonna get spun by the man that's fresh from Academy?... He'll get me arrested for battery.",
+        "explanation": "Academy establishes RP's level, while a physical hit leads to the legal offence of battery."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Fake family",
+        "bar": "Everything about this orphan is fake, especially your family.",
+        "explanation": "RP connects a broad accusation of inauthenticity to the adoption and family angle running through his material."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Talk Is Cheap",
+        "bar": "Avoided the clash on Talk Is Cheap, but I knew that I'd get to you gradually.",
+        "explanation": "The platform reference documents an earlier missed matchup and presents the Champions League battle as the delayed encounter."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 — Off the top",
+        "bar": "Freestyling off the top... everybody knows that I'm on top of this.",
+        "explanation": "RP openly identifies the closer as an improvised response; the repeated 'top' supports the claim but the section remains brief."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 — Dead in a minute",
+        "bar": "I'm putting him up and he'll be dead in a minute... coming effortless with it.",
+        "explanation": "The freestyle closes with a direct threat and a claim that the improvised delivery requires no effort."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 — Response speed",
+        "bar": "In 24 hours I sent for you back — not three days, that's definitely gas.",
+        "explanation": "RP turns the response timetable into a measurable contrast, arguing that his turnaround was substantially faster."
+      }
+    ],
+    "oddMoments": [
+      "The transcript begins with a preview taken from DRIZZGB's third before the Champions League explainer and formal introduction.",
+      "RP wins the coin toss and chooses to send DRIZZGB first.",
+      "Before round one, DRIZZGB refuses the water offered to him and repeatedly asks for liquor.",
+      "DRIZZGB receives a full reload in round one.",
+      "DRIZZGB's third-round intro repeatedly loops an offensive anti-Muslim line. People in the room object, and DRIZZGB asks for the vocal to be cut before making several restarts.",
+      "The technical failure causes substantial repetition of DRIZZGB's third, including the rope and Academy passages.",
+      "RP says he messed up his previous verse, delivers a short off-the-top third and declines the offer of a reload.",
+      "The battle contains racist, anti-Muslim, homophobic, sexual, family and dead-relative material documented as performance rather than endorsed by the archive.",
+      "No official public-vote tally or declared winner appears in the source."
+    ],
+    "coolMoments": [
+      "DRIZZGB's Eminem catalogue gives the opening round an immediately recognisable spine.",
+      "RP's TikTok and 24-hour response material supplies the most specific battle-history research in round one.",
+      "DRIZZGB's second moves cleanly from music and presents into KSI, Netflix, pirates and The Breakfast Club.",
+      "RP's toe-tag line is his cleanest single punch, turning 'cold' from praise into death.",
+      "Despite repeated technical failures, DRIZZGB eventually completes the RP-to-rope transformation and its tie, hang and strung-along extensions."
+    ],
+    "postBattleContext": "The upload ends after RP's short improvised third and the room's reaction. No official audience tally or winner is announced, so the original unknown result is replaced only by the clearly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: DRIZZGB wins 3-0",
+      "summary": "LOTA round split: DRIZZGB edges a competitive first through the sustained Eminem catalogue, while RP's direct battle-history research makes it the closest round. DRIZZGB clearly takes the second through the ollie/molly, present/surprised, KSI, Netflix, pirate and Breakfast Club constructions. The third is heavily disrupted by a looping offensive vocal and repeated restarts, but DRIZZGB still presents substantially more prepared material than RP's short, unfinished freestyle. No official PenGame tally is preserved, so this is explicitly a LOTA result."
+    }
   },
   {
     "id": "pg-scl-2026-05-03-kandi-vs-star-co",
@@ -67047,9 +69262,271 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 2",
     "group": null,
     "tag": null,
-    "views": "125k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "views": "127k",
+    "videoUrl": "https://www.youtube.com/watch?v=-SwTnxAiOPQ",
+    "winner": "kandi",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "KANDI and STAR CO met in Champions League Fixture 2. STAR CO called heads, lost the toss and was still sent first. The upload preserves no official audience count or declared winner, so the result below is an independent LOTA review.\n\nSTAR CO's first was built around KANDI's name and reputation. He opened with a candy-shop story using sweets, pick-and-mix and teeth, then moved into allegations about KANDI's PIMP identity, his sister and scamming. Croydon Boxpark, breath and cracked-out imagery followed before STAR CO used sobriety, RELAPSE and relapsing as a platform-specific sequence. He closed by accusing KANDI of grooming new recruits with weed, women and alcohol. The round was direct and personal, but repeated sound issues forced multiple restarts.\n\nKANDI answered with a longer shock-heavy round. After warning about the instrumental's long intro, he restarted his opening and developed a sexually explicit family angle. The verse then moved into guns, Wireless, a deliberately offensive Anne Frank comparison, circumcision and Digga D. Mixed race became a fish-swimming reference, and Mr Disrespect/Mr Lick the Rim led into skin and wings. The material was often extreme, but its range and volume edge the disrupted opener.\n\nSTAR CO's second continued the attack through music and KANDI's name. A G19 made KANDI turn quiet before harmonising, riffs and singing continued the performance angle. Candy Crush then became powder, dust and a line of her son, followed by advice to stop smoking spice. STAR CO finished by repeating a 'broke like dog' refrain over threats to dine or ban KANDI. It was energetic and easy for the room to follow, but the round leaned heavily on repetition and offered fewer developed connections.\n\nKANDI's second was more technically varied. Trippie Redd and jaw imagery opened the round, DoorDash supplied a back-door comparison, and Yardie, ASBO, Deadpool and an afro formed a chain of appearance references. Cold star moved into being spun like a rotor and a revolver; Breaking Bad led back to the lab; and Brokeback Mountain, AFCON and drowning extended the attack. He finished by turning talk of excrement into 'mad shit' in both STAR CO's microphone and bars. The sustained writing gives KANDI a clear second.\n\nSTAR CO's third was his strongest round. Wimbledon, 15-love, serve, slice, attack, racket and Murray formed the battle's cleanest opening scheme. He followed with accusations about benefits and KANDI's family, KKK imagery, the death of KANDI's friend, hair and a retwist, then mocked KANDI's living conditions through selling toe pictures to cover the central heating. The verse was shorter than KANDI's final but more controlled and coherent.\n\nKANDI's third had several strong pockets but another difficult performance. White Dragon and Yu-Gi-Oh introduced the round; investment moved through a blade, gun, safe and keeping the investment safe; and prison pocket became a pirate's socket. Central C became a house without central heat before a menstrual-bleed sequence. Laughter caused KANDI to stop and restart most of the verse, after which he closed by saying Margs still did not remember STAR CO's name. The wordplay is substantial, but the heavy repetition and restart cost him the round.\n\nLOTA scores KANDI 2-1. KANDI edges a chaotic first through greater range, clearly takes the second through the denser DoorDash, Deadpool, rotor/revolver and Breaking Bad writing, while STAR CO takes the third with the cleaner Wimbledon scheme and steadier execution.",
+    "performanceAnalysis": [
+      {
+        "performer": "KANDI",
+        "overview": "KANDI wins the LOTA review 2-1 by taking the first two rounds. His advantage is range: the first moves across family, music, celebrity and name material, while the second contains the battle's densest sequence of connected references. His repeated restarts, long instrumental intros and reliance on highly offensive shock material weaken the performance, particularly in round three.",
+        "lyricalThemes": "STAR CO's family and image; guns and Wireless; Anne Frank; circumcision and Digga D; race and swimming; disrespect; Trippie Redd; DoorDash; Yardie, ASBO and Deadpool; cold star, rotor and revolver; Breaking Bad and the lab; Brokeback Mountain; Yu-Gi-Oh and White Dragon; investments; prison pockets; pirates; Central C and central heating; menstruation; Margs forgetting STAR CO's name.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Second-round reference density",
+            "description": "DoorDash, Deadpool, cold star, rotor, revolver and Breaking Bad give KANDI several distinct but connected punch sections."
+          },
+          {
+            "title": "Investment chain",
+            "description": "Blade, gun, safe and investment repeat one word through spending, protection and danger."
+          },
+          {
+            "title": "Central sound sequence",
+            "description": "Central C, central heat and menstrual bleed carry related sounds across celebrity, housing and bodily imagery."
+          }
+        ]
+      },
+      {
+        "performer": "STAR CO",
+        "overview": "STAR CO loses the LOTA review 2-1 but takes round three. His strongest quality is direct opponent framing: candy-shop imagery, PIMP allegations, RELAPSE and recruitment claims all target KANDI specifically. The Wimbledon sequence is the battle's cleanest construction. Restarts damage his first, while the repeated 'broke like dog' refrain leaves his second underdeveloped.",
+        "lyricalThemes": "Candy shops, sweets, pick-and-mix and teeth; PIMP identity; family and scamming; Croydon Boxpark; breath and cracked-out imagery; sobriety, RELAPSE and relapsing; recruits, weed, women and alcohol; G19, harmonising and singing; Candy Crush, powder and spice; being broke; Wimbledon, love, serving, slicing, rackets and Murray; benefits and leverage; KKK imagery; family and friends; hair and retwists; toe pictures and central heating.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Candy-shop opener",
+            "description": "Sweets, pick-and-mix, a bag and teeth turn KANDI's name into a short narrative rather than a single name flip."
+          },
+          {
+            "title": "RELAPSE connection",
+            "description": "Sobriety, buying RELAPSE and relapsing combine addiction language with the name of another PenGame battler."
+          },
+          {
+            "title": "Wimbledon scheme",
+            "description": "15-love, serve, slice, attack, racket and Murray create STAR CO's most coherent and accessible passage."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Wireless",
+        "bar": "This guy gets bummed at home by migrants — this is the reason they cancelled Wireless.",
+        "explanation": "The intentionally offensive punch links 'wireless' as a festival name with the idea that an incident caused an event cancellation."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Silent music",
+        "bar": "He likes bomb sex — his music's like Anne Frank's drum set.",
+        "explanation": "The deliberately offensive comparison implies a drum kit that could never be heard, making silence the criticism of STAR CO's music."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Circumcised face",
+        "bar": "I don't wanna hurt this guy — his face looks like it's been circumcised.",
+        "explanation": "KANDI turns circumcision into surreal appearance imagery by transferring the procedure from body to face."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Digga D",
+        "bar": "He reminds me of Digga D — you know, the Digga D that twerked on guys.",
+        "explanation": "The celebrity comparison uses a viral image associated with Digga D to attack STAR CO's appearance and masculinity."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Mixed race",
+        "bar": "You're mixed race — I thought fish could swim.",
+        "explanation": "Race becomes a literal race, while the fish reference turns the comparison into an aquatic ability joke."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Wings and skin",
+        "bar": "Bars do more than split your skin; bars do more than clip your wings.",
+        "explanation": "The parallel wording escalates from bodily damage to preventing STAR CO from rising or escaping."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 — Prison pocket",
+        "bar": "In prison your name's Pocket — when you left in a mess, your behind was looking like a pirate's socket.",
+        "explanation": "Prison pocket is slang for hiding objects internally, while a pirate's empty eye socket extends the shape and absence imagery."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 — Remember your name",
+        "bar": "Margs still don't remember your name — wheel it, wheel it again.",
+        "explanation": "KANDI closes by reducing STAR CO's status to the host repeatedly forgetting him despite multiple performances and reloads."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 — DoorDash",
+        "bar": "More man in your back door than DoorDash.",
+        "explanation": "The delivery company is defined by frequent door arrivals, which KANDI redirects into a sexual accusation."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 — Deadpool afro",
+        "bar": "Looking like a mix between Yardie and ASBO, looking like Deadpool sat with an afro.",
+        "explanation": "Several visual references combine into an exaggerated composite portrait of STAR CO."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 — Cold star",
+        "bar": "He's a cold star — you could get spun like rotor, then spun like a revolver.",
+        "explanation": "STAR CO becomes a cold star before repeated spinning moves from a rotor to a gun cylinder."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 — Breaking Bad",
+        "bar": "You're Breaking Bad and I'm back in the lab.",
+        "explanation": "The television series supplies the laboratory setting and drug-production imagery for KANDI's return to writing."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 — Brokeback Mountain",
+        "bar": "Who let this clown in? Man's doing up Brokeback Mountain.",
+        "explanation": "The film title becomes another deliberately homophobic attack on STAR CO's sexuality."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 — Mad bars",
+        "bar": "That's why you talk mad shit in your mic — 'cause you've got mad shit in your bars, bro.",
+        "explanation": "Mad shit first means outrageous claims, then becomes literal waste inside the bars."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 — Safe investment",
+        "bar": "Invest in a blade, invest in a gun and invest in a safe — invest in investment so your investment is safe.",
+        "explanation": "Invest repeats as buying weapons, buying protection and preserving the money or objects already acquired."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 — Central heat",
+        "bar": "You look like Central C — house doesn't have no central heat... it's a menstrual bleed.",
+        "explanation": "Central C becomes central heating, then the repeated central sound bends toward menstrual bleeding."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — Candy shop",
+        "bar": "A man walked into a candy shop for a son some sweets — a pick-and-mix bag, five pounds for the pack, his son grinning and showing his teeth.",
+        "explanation": "STAR CO builds a miniature shop narrative from KANDI's name using sweets, pick-and-mix, a bag and teeth."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — PIMP in his palm",
+        "bar": "This guy claims he's a PIMP but can't rise for decent — in the palm of his hand he rents out his sister.",
+        "explanation": "PIMP identity and 'palm of his hand' frame the accusation that KANDI's public persona is false and exploitative."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — Scam information",
+        "bar": "She robbed him and ran, gave all the info needed to scam.",
+        "explanation": "The family allegation is extended into a claimed scam, keeping the narrative moving beyond the initial insult."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — Croydon Box",
+        "bar": "Tell that to the five black lads outside of the Croydon Box.",
+        "explanation": "The venue becomes evidence inside STAR CO's accusation that KANDI's supposedly racist talk would not survive outside the battle."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — Cracked-out refrain",
+        "bar": "Cracked-out face, cracked-out drip, cracked-out mouth — cracked-out PIMP with a cracked-out limp.",
+        "explanation": "The repeated modifier creates a rhythmic list attacking KANDI's appearance, clothes, speech, persona and walk."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — RELAPSE",
+        "bar": "PenGame know KANDI's been sober — why'd you think that he bought RELAPSE? He's relapsing.",
+        "explanation": "Addiction language is tied to RELAPSE, another Champions League MC, making the platform reference part of the punch."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 — New recruits",
+        "bar": "Caught KANDI trying to groom the new recruits, promising weed and women and booze.",
+        "explanation": "The allegation attacks KANDI's influence on newer performers through a list of supposed inducements."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 — Candy Crush",
+        "bar": "I get candy crushed with a powdery dust... then watch as she sniffs a line of her son.",
+        "explanation": "Candy Crush becomes pulverised KANDI, with the powder then presented as a drug to a family member."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 — Harmonise",
+        "bar": "If I pull up South West with a G19, he turns quiet — harmonise, hit riffs. I can't be friends with a man that sings.",
+        "explanation": "Singing, harmonising and riffs keep the music angle connected while the G19 supplies the threat."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 — Spice warning",
+        "bar": "A word of advice: stop smoking spice — it ain't too good for your lungs.",
+        "explanation": "STAR CO briefly changes from threats to mock concern, using drug use as a health and character attack."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 — Broke like dog",
+        "bar": "I could run in and dine him, or buck up and ban him, and leave him broke like dog.",
+        "explanation": "The repeated refrain makes financial ruin the round's simple closing outcome."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Fifteen-love",
+        "bar": "These brothers on Wimbledon... 15-love, that's dodgy.",
+        "explanation": "Wimbledon establishes tennis and 15-love supplies an authentic score while 'love' is redirected into suspicion."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Serve and slice",
+        "bar": "I can serve a slice, man on the attack — I'm known for a racket; I'll do him like Murray.",
+        "explanation": "Serve, slice, attack, racket and Andy Murray maintain the tennis setting across the threat."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — KKK",
+        "bar": "Run up and blick out the K clip for this KKK member.",
+        "explanation": "The repeated K sound connects the weapon image to STAR CO's accusation of racism."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Retwist",
+        "bar": "His hair come nappy — this cunt's in need of a retwist.",
+        "explanation": "STAR CO uses hair maintenance as a direct appearance attack and a change of pace from the heavier personals."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 — Central heating",
+        "bar": "They made him sell pics of his toes to cover the central heating.",
+        "explanation": "The punch combines online foot-content culture with a claim that KANDI cannot afford basic household heat."
+      }
+    ],
+    "oddMoments": [
+      "The transcript opens with a preview combining material from both battlers before the Champions League explainer.",
+      "STAR CO calls heads, loses the toss and is sent first.",
+      "STAR CO asks for the sound to be raised before he begins, then restarts his candy-shop opening and later repeats part of the round after further sound issues.",
+      "Both of KANDI's first two instrumentals have notably long intros, which he comments on before beginning.",
+      "After KANDI's second, the host explicitly says that he and PenGame do not condone the material but are allowing freedom of speech.",
+      "KANDI's third is interrupted by laughter and he restarts most of the verse from the beginning.",
+      "The battle contains racist, antisemitic, homophobic, sexual, family, disability, body-shaming and dead-relative material documented as performance rather than endorsed by the archive.",
+      "KANDI closes by calling STAR CO his friend and praising him despite the battle material.",
+      "Voting is opened for 48 hours, but no official tally or declared winner appears in the source."
+    ],
+    "coolMoments": [
+      "STAR CO's candy-shop story gives his opening a clear concept tied directly to KANDI's name.",
+      "The RELAPSE/relapsing connection is STAR CO's cleanest PenGame-specific punch.",
+      "KANDI's cold-star, rotor and revolver sequence gives his second a compact run of linked motion imagery.",
+      "STAR CO's Wimbledon, 15-love, serve, slice, racket and Murray sequence is the battle's cleanest sustained scheme.",
+      "KANDI's investment and Central C/central heat/menstrual passages show the strongest technical pockets in his disrupted third.",
+      "The battlers end on good terms, with KANDI publicly calling STAR CO a friend."
+    ],
+    "postBattleContext": "Margs directs the live audience to scan the QR code and opens online voting for 48 hours. The upload then moves to the next event segment without publishing a count or winner, so the original unknown result is replaced only by the clearly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: KANDI wins 2-1",
+      "summary": "LOTA round split: KANDI edges a heavily disrupted first through greater range and substantially more developed material. He clearly takes round two through the DoorDash, Deadpool, cold-star, rotor/revolver and Breaking Bad writing, while STAR CO's repeated 'broke like dog' refrain is comparatively thin. STAR CO takes round three with the cleaner Wimbledon scheme and steadier execution; KANDI's investment and Central sequences are strong, but laughter forces a near-full restart. No official PenGame tally is preserved, so this is explicitly a LOTA result."
+    }
   },
   {
     "id": "pg-scl-2026-05-03-skamz-vs-relapse",
@@ -67067,9 +69544,270 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 2",
     "group": null,
     "tag": null,
-    "views": "43k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "views": "44k",
+    "videoUrl": "https://www.youtube.com/watch?v=wlui6OoJ31k",
+    "winner": "skamz",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "SKAMZ and RELAPSE met in Champions League Fixture 2. SKAMZ called tails, lost the toss and was still sent first. The upload preserves no official audience count or declared winner, so the result below is an independent LOTA review.\n\nSKAMZ opened by making RELAPSE's name and lack of profile the central argument. He promised to run laps around RELAPSE, linked not wanting to relapse with a kneecap shot and taking a knee before a king, and compared Champions League opposition with Sunday League. Peace, violence, blood on the streets and blood on his teeth formed the next chain. After a crowd-demanded reload, SKAMZ extended the round through ketamine and adrenaline, Solo Leveling, a fridge full of snacks, an elephant trying to be relevant and a skeleton. He closed with more direct family, drug and firearm imagery. The round was long and varied, though some shock material was excessive.\n\nRELAPSE answered with a focused personal first. Ladbrokes slots introduced the spin, and leaving after the battle became leaving like SKAMZ's father. He flipped the script to scam SKAMZ, accused him of seeking attention, talking to police and getting his friends sentenced, then sustained toxic, infect, inject and except-yourself sounds. RELAPSE attacked SKAMZ's 2026 freestyle, drug claims, parenting, spending and living situation before framing the whole verse as a warning to women. It was direct and coherent, but SKAMZ's round contained more developed connections.\n\nSKAMZ's second began by acknowledging RELAPSE's improved crowd response, then immediately rebuilt momentum. Raising a right hand led into a kick from Thailand; Sunday League became a charity match; an XIX, walking step by step, back-to-back losses and death on death formed a videogame-like run. SOS, smoke with a G and spelling out a poor flow connected the middle. Ozone, Jacob on PG and Flowzone brought platform history into the verse, while RELAPSE became relapsing to a shooter. After another reload, SKAMZ added a red dot, target, body in the ground, carting, clip and farming sequence. The breadth and performance take the second.\n\nRELAPSE's second was shorter but sharply personal. Rain and bleeding became pouring; he contrasted SKAMZ talking behind his back with acting friendly face to face; and he rebutted the fat and ugly angle through SKAMZ's ex returning after sex with RELAPSE. PenGame protection became getting disconnected like SKAMZ's electricity, a rented car undermined his flexing, and crossing the road led to being mowed down like Getz's driving. RELAPSE closed by staying plugged in like electrical wiring and predicting SKAMZ's friends expiring. It was his cleanest round, but SKAMZ had more complete material.\n\nSKAMZ's third was the clearest round of the battle. He moved from Trish hating anime to putting RELAPSE in a grave, then made Jake and Jacob the repeated identity angle. Dino on crack cocaine, Jakes and custody led into a fatherhood and drug sequence. Cutting RELAPSE in half meant nobody would see where his Midland was, like Coventry; playing with keys became snorting rather than Beethoven; and bodies, bodies, bodies invoked Franklin. SKAMZ closed by remapping RELAPSE through relapse, relive, rethink, redefinition, reload, revisit and rewritten. The name-driven construction was sustained and decisive.\n\nRELAPSE opened his third with size, boxing bets and paradise, followed by deliberately harsh family material. Rice and peas paired with cottage pie, Westminster and the southeast led into an electric Underground. He referenced SKAMZ attending a date without money and blocking his third against Grams, then openly said he did not have a third round before continuing. Throat-cancer delivery, comedy scripts, Randy MC, firearm claims, knives, vans, a Chinese man and ID scams filled the remaining passage. The closing claim that SKAMZ had reached two finals and lost both was direct, but the admission and shorter construction could not answer SKAMZ's round.\n\nLOTA scores SKAMZ 3-0. SKAMZ takes a competitive first through greater range, takes the second through the stronger Sunday League, videogame, Ozone/Flowzone and target sequence, and clearly takes the third through the sustained Jake/Jacob, Coventry, Beethoven, Franklin and `re-` writing.",
+    "performanceAnalysis": [
+      {
+        "performer": "SKAMZ",
+        "overview": "SKAMZ wins the LOTA review 3-0. His advantage is layered name and platform writing: RELAPSE drives the opener, Ozone and Flowzone anchor the second, and Jake/Jacob plus the extended `re-` sequence dominate the third. He receives reloads in the first two rounds but uses them to extend complete performances. Some family and sexual material relies more on shock than construction.",
+        "lyricalThemes": "RELAPSE's name and profile; running laps; kneecaps, knees and kings; Champions League and Sunday League; peace, violence and blood; ketamine and adrenaline; Solo Leveling; food, size and skeletons; Thailand; charity matches; videogames and repeated losses; SOS and spelling; Ozone, PG and Flowzone; shooters and scuba; targets, carting and farming; Jake and Jacob; fatherhood and drugs; Midlands and Coventry; keys and Beethoven; Franklin and bodies; relapse, relive, rethink, redefine, reload, revisit and rewrite.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Relapse name writing",
+            "description": "Running laps, not wanting to relapse and returning to the prefix in round three make the opponent's name a repeated structural tool."
+          },
+          {
+            "title": "Platform-history second",
+            "description": "Ozone, Jacob on PG and Flowzone make the middle round specific to RELAPSE's route through the scene."
+          },
+          {
+            "title": "Decisive `re-` closer",
+            "description": "Remap, relapse, relive, rethink, redefinition, reload, revisit and rewritten give SKAMZ's third a clear technical finish."
+          }
+        ]
+      },
+      {
+        "performer": "RELAPSE",
+        "overview": "RELAPSE loses the LOTA review 3-0 but remains competitive in the first two rounds. His strength is direct research: SKAMZ's freestyle, children, spending, rented car, electricity, earlier battle with Grams and two final appearances all make the writing opponent-specific. The second is his cleanest round. His third loses force when he announces that he does not have a third round before continuing with a shorter passage.",
+        "lyricalThemes": "Ladbrokes and spinning; SKAMZ's father; scamming; police and friends being sentenced; toxicity, infection and injection; the 2026 freestyle; drugs, parenting, money and housing; women; rain, blood and pouring; behind-back talk and friendliness; SKAMZ's ex; PenGame protection and electricity; rented cars; road crossings and Getz; electrical wiring; boxing, paradise and family; rice and peas and cottage pie; Westminster and the Underground; dates, Grams and blocked rounds; throat-cancer delivery; comedy scripts; firearms, knives, vans and ID scams; losing finals.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Toxic sound chain",
+            "description": "Toxic, infect, wet, upset, inject and except yourself create the strongest sustained sound in RELAPSE's opener."
+          },
+          {
+            "title": "Electricity rebuttal",
+            "description": "Protection, disconnection, electricity, being plugged in and electrical wiring link separate personals across round two."
+          },
+          {
+            "title": "Battle-history close",
+            "description": "The Grams round-three failure and two lost finals give RELAPSE's closer concrete career references despite its short length."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Run laps",
+        "bar": "Who the fuck is RELAPSE? Nobody knows about RELAPSE — I'ma run laps round RELAPSE.",
+        "explanation": "Run laps contains the sound of RELAPSE while also claiming overwhelming movement around an unknown opponent."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Kneecap and king",
+        "bar": "I ain't trying to be dropping the mic again — Margs, I don't wanna relapse. Shoot at your kneecap; you're in front of a king, best take a knee.",
+        "explanation": "Relapse references SKAMZ's previous mistake, while kneecap, king and taking a knee create one submission image."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Sunday League",
+        "bar": "This the Champions League — look at the day though, I'm versing the Sunday League.",
+        "explanation": "The event's elite football framing is contrasted with recreational Sunday League competition."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Peace and blood",
+        "bar": "I don't want peace, I want violence — that's blood on the streets, so I'll remix this song and get his blood on my teeth.",
+        "explanation": "Peace and violence define the threat before repeated blood moves from the street to SKAMZ's mouth."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Ketamine",
+        "bar": "It's clear that I'm versing a guy that's on ketamine, off the adrenaline — I'm Solo Leveling.",
+        "explanation": "Ketamine and adrenaline create the drug contrast, while Solo Leveling names the anime and SKAMZ's lone climb through the table."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Elephant and skeleton",
+        "bar": "This elephant wanna be relevant till he gets bad — all that's left is your skeleton.",
+        "explanation": "The size insult escalates from a large elephant to nothing but bones after the fictional attack."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — K1 neutral",
+        "bar": "About clutch down K1? You better go back into neutral.",
+        "explanation": "Clutch and neutral are driving terms, while K1 also invokes combat and makes neutral mean withdrawing from confrontation."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 — Thailand",
+        "bar": "Raise up your right hand so I can give you a kick from Thailand.",
+        "explanation": "The raised hand resembles volunteering or voting, but the reward is a kick associated with Thai fighting."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 — Charity match",
+        "bar": "Told you I'm versing the Sunday League — I was wrong, this a charity match.",
+        "explanation": "SKAMZ revises his earlier football comparison to an even less competitive match played for charity."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 — Back-to-back losses",
+        "bar": "Crack man's head with an XIX, walk man down step by step — back-to-back Ls, that's death on death.",
+        "explanation": "The repeated progression resembles videogame movement, while back-to-back Ls turn league losses into consecutive deaths."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 — SOS and G",
+        "bar": "Somebody save him, SOS — you don't want smoke with a G. Your flow's S-H-I to the T.",
+        "explanation": "SOS supplies the rescue call, G completes the smoke warning and spelling SHIT makes the flow criticism explicit."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 — Ozone and Flowzone",
+        "bar": "Go back to Ozone, please — we don't need another Jacob on PG. I heard that you broke up with Flowzone; not even they want you on their team.",
+        "explanation": "Named platforms and teams turn RELAPSE's scene history into an argument that he is unwanted."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 — Target and farming",
+        "bar": "Red dot on your head, now you're a target; put man's body in the ground, I'm carting — wanted a clip, now you got me farming.",
+        "explanation": "Target and clip carry weapon imagery, while putting something in the ground and farming transform burial into agriculture."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 — Midland Coventry",
+        "bar": "If I sever this guy, I'll cut him in half — they won't see where your Midland, like Coventry.",
+        "explanation": "Midland becomes the middle of RELAPSE's body, while Coventry supplies the real Midlands location."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 — Keys and Beethoven",
+        "bar": "If RELAPSE says that he's playing with keys, I'll believe he's snorting — there's no way that he's Beethoven.",
+        "explanation": "Keys are piano keys and quantities of drugs; Beethoven supplies the famous musician side of the comparison."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 — Redefinition",
+        "bar": "Remap the system: relapse, take notes and relisten; relive, then rethink what you're drinking — you need redefinition.",
+        "explanation": "A sustained series of `re-` words grows naturally from RELAPSE's name and presents the battle as forced revision."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Ladbrokes slots",
+        "bar": "I'll spin a man like slots at Ladbrokes.",
+        "explanation": "Casino slot reels spin, making the betting-shop reference a compact physical threat."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Leave like dad",
+        "bar": "After the battle he's gonna wanna leave like his dad done.",
+        "explanation": "Leaving the venue is turned into a personal family comparison about abandonment."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Flip the scam",
+        "bar": "I'll flip the script and scam him in seconds — stop claiming you're carrying weapons.",
+        "explanation": "SKAMZ's name is treated as the scam, while flipping the script means reversing his own persona against him."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Toxic chain",
+        "bar": "You don't respect yourself, you toxic prick — infect yourself, wet yourself, upset yourself, go home and inject yourself.",
+        "explanation": "The repeated `-ect yourself` sound turns toxicity and drug use into a sustained rhythmic attack."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Except yourself",
+        "bar": "Nobody rates your 2026 freestyle except yourself.",
+        "explanation": "The line resolves the previous chain with except yourself and directly names a recent performance."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Ran out of sniff",
+        "bar": "SKAMZ said that he don't do drugs — why does he look like he ran out of sniff?",
+        "explanation": "RELAPSE contrasts SKAMZ's stated sobriety with the appearance of somebody experiencing drug withdrawal."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Slow-motion scam",
+        "bar": "He's broke as fuck and he won't own up, but I see the scam like a slow-mo stunt.",
+        "explanation": "SKAMZ's name is made visible as a scam that is supposedly obvious enough to watch in slow motion."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Bleed and pour",
+        "bar": "When it rains, it rains; when you bleed, it pours.",
+        "explanation": "The proverb about heavy rain is rewritten so blood rather than water pours."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Behind his back",
+        "bar": "How can a man talk shit behind my back, but to my face he's all blessed with me?",
+        "explanation": "RELAPSE contrasts private hostility with public friendliness as a credibility attack."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Ex and ecstasy",
+        "bar": "If you think I'm a fat ugly bastard, introduce me to your ex and see — she'll return next week and say sex with me's like ecstasy.",
+        "explanation": "The apparent agreement with SKAMZ's insult becomes a rebuttal through an ex-partner and the rhyme of ex, sex and ecstasy."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Disconnected",
+        "bar": "PenGame have protected him... if I mention the mess, I might get disconnected just like his electric did.",
+        "explanation": "Disconnection means removal from the platform and a household electricity supply being cut off."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Rented whip",
+        "bar": "He flexes pics of his rented whip — the sad thing is, he pretends it's his.",
+        "explanation": "The car photographs are used to argue that SKAMZ's public image relies on borrowed status."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Getz driving",
+        "bar": "The next time you cross the road, I hope you get mowed down like Getz's driving.",
+        "explanation": "A named person's driving becomes the reference point for a road-crossing threat."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Plugged in",
+        "bar": "I'll stay plugged in like electric wiring — I bet SKAMZ's friends expiring.",
+        "explanation": "Plugged in means connected to the scene and literally attached to an electrical circuit."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 3 — Underground leads",
+        "bar": "On Westminster from the southeast, the floor's electric like Underground leads.",
+        "explanation": "Westminster, southeast travel and the London Underground create an electric rail setting for the threat."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 3 — Final twice",
+        "bar": "This guy's got to a final twice — both times he got denied his plans.",
+        "explanation": "RELAPSE closes on SKAMZ's actual competitive record, turning two final appearances into two failed ambitions."
+      }
+    ],
+    "oddMoments": [
+      "The transcript opens with a preview of RELAPSE's second and third before the Champions League explainer.",
+      "Margs says he is ten drinks in and predicts the later battles will become a 'shit show' because it is a bank holiday.",
+      "SKAMZ calls tails, loses the toss and is still sent first.",
+      "SKAMZ receives a crowd-demanded reload in round one; Margs jokes about putting SKAMZ on the front of the episodes.",
+      "SKAMZ receives another reload during round two after the room reacts to his delivery.",
+      "The host mistakenly calls RELAPSE 'RP' before his second, then corrects himself.",
+      "RELAPSE says he does not have a third round, then continues with a shorter prepared passage.",
+      "The battle contains violent, sexual, family, drug, body-shaming, homophobic and dead-relative material documented as performance rather than endorsed by the archive.",
+      "Voting is opened for 48 hours, but no official tally or declared winner appears in the source."
+    ],
+    "coolMoments": [
+      "SKAMZ's run-laps/RELAPSE opening immediately turns the opponent's name into the battle's central device.",
+      "RELAPSE's toxic, infect, inject and except-yourself sequence gives his first a strong rhythmic pocket.",
+      "SKAMZ acknowledges RELAPSE's improved first-round reception before beginning his second, giving the battle a sporting moment.",
+      "RELAPSE's disconnection/electricity and plugged-in/wiring material makes his second the most connected round from him.",
+      "SKAMZ's Coventry and Beethoven punches lead into the battle's strongest closing construction: relapse, relisten, relive, rethink, redefinition, reload, revisit and rewritten."
+    ],
+    "postBattleContext": "RELAPSE finishes his third and Margs opens online voting for 48 hours, directing the live audience to the QR code. The source ends without publishing a count or winner, so the original unknown result is replaced only by the clearly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: SKAMZ wins 3-0",
+      "summary": "LOTA round split: SKAMZ takes a competitive first through the run-laps, kneecap/king, Champions-versus-Sunday League, ketamine and Solo Leveling writing. He takes the second through the stronger Thailand, charity-match, back-to-back-losses, Ozone/Flowzone and target/farming construction, although RELAPSE's electric sequence lands. SKAMZ clearly takes the third with Jake/Jacob, Coventry, Beethoven and the sustained `re-` close; RELAPSE openly says he does not have a third before delivering a shorter passage. No official PenGame tally is preserved, so this is explicitly a LOTA result."
+    }
   },
   {
     "id": "pg-scl-2026-05-03-char-b-vs-dan-dannah",
@@ -67087,9 +69825,287 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 2",
     "group": null,
     "tag": null,
-    "views": "74k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "views": "75k",
+    "videoUrl": "https://www.youtube.com/watch?v=DSBWy7-idf0",
+    "winner": "char-b",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "CHAR.B and DAN DANNAH met in Champions League Fixture 2. The upload begins with a short preview from DAN's opening before the league-format explanation and formal introduction. After a briefly confused coin-toss exchange, DAN chose to go first. The result was left to a public vote open for 48 hours, but no official tally appears in the source.\n\nDAN's first mixed CHAR.B name flips, singing criticism, cooking and gender angles. He moved from out-ball/out-class into Barbie, her earlier RP battle and a voice-flat/arse-flat comparison. Seasoned/season chicken, Chun-Li's kicking, breath, IB, baking and kitchen work kept the round connected. Equal rights/equal work and a delivery-needs-work sequence answered CHAR.B's public framing, while CHAR/charcoal closed the name writing. The round was technically varied but leaned heavily on familiar gender roles.\n\nCHAR.B answered with a focused career and relevance attack. She mocked DAN's braids, years on the platform and stagnant following, then spelled her own name and declared that she would take a man's world for ransom. The kitchen angle became fuel for anger rather than submission. A television/sofa reversal, Dark Knight/day sequence, down-to-the-grave refrain and mouth/brain/power/pay passage built momentum before she promised to keep rapping even if every man wanted her offstage. Her response was more coherent as a full argument and takes the first.\n\nDAN's second said he would not strike a woman but would involve CHAR.B's partner, brother, father and female friends. He then developed seashore/shells, birthday presence, queen/peasant, Peter Crouch/Beckham, Jamaica/shake and makeup/wake-up imagery. The writing was opponent-specific and more varied than his opener, but several long passages still returned to gender and appearance.\n\nCHAR.B's second was shorter and sharply responsive. She stepped off her pedestal because she did not play with food, then used stretch/Miss Incredible and artillery imagery before challenging the source of DAN's perception of women. Her closing passage turned 'take it with a pinch of salt' into bread, being fed up, making dough, kitchen work and putting everybody on the stove. That rebuttal and compact construction edge a close second for CHAR.B.\n\nDAN used his first-ever female opponent as the frame for round three. He argued that being raised by his mother and raising a daughter meant he did not hate women, then distinguished womanhood from etiquette. A name misunderstanding caused a restart when he called CHAR.B Charlotte and she clarified that her legal name was Charlie. DAN retained Charlotte for the scheme, moving through harlots and heartless before reaching dancing on a grave, streets, Princess Peach and Cinderella turned to cinders. It was his most complete round and takes the third.\n\nCHAR.B's final was much shorter. She used long day/Dark Knight, limelight, archives and a glass eye, then attacked DAN's speech, inconsistency, usefulness, music and ego. The round contained clean compact writing but ended quickly with a mic drop, which Margs immediately noted. It did not match the development of DAN's closer.\n\nWith no official vote count preserved, LOTA scores CHAR.B 2-1: CHAR.B takes rounds one and two; DAN DANNAH takes round three.",
+    "performanceAnalysis": [
+      {
+        "performer": "CHAR.B",
+        "overview": "CHAR.B wins the LOTA review 2-1 by taking the first two rounds. Her advantage is rebuttal and structure: she turns DAN's gender and kitchen framing back onto him, builds a complete relevance argument in the first and lands the battle's sharpest closing sequence in the second through salt, bread, fed up, dough, kitchen and stove.",
+        "lyricalThemes": "DAN's career length and stagnant following; braids and appearance; spelling CHAR.B; man's world; kitchen and gender roles; television and sofa; Dark Knight and decline; power without pay; pedestal, food and Miss Incredible; misogyny and motherhood; salt, bread, dough, kitchen and stove; archives, speech and music.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Career-case opener",
+            "description": "CHAR.B makes DAN's years, following, name recognition and artistic ceiling part of one sustained argument rather than isolated jokes."
+          },
+          {
+            "title": "Kitchen rebuttal",
+            "description": "She repeatedly reclaims DAN's kitchen framing, first as refusal and then through bread, dough and stove imagery."
+          },
+          {
+            "title": "Compact final writing",
+            "description": "Although short, the third links Dark Knight, limelight, archives and a glass eye before turning to speech, music and ego."
+          }
+        ]
+      },
+      {
+        "performer": "DAN DANNAH",
+        "overview": "DAN DANNAH loses the LOTA review 2-1 but clearly takes round three. His strongest quality is connected reference writing: Chun-Li, IB and kitchen in the first; shells, presence, football and makeup in the second; then Charlotte/harlot, Princess Peach and Cinderella in the final. The repeated gender-role attacks give CHAR.B effective rebuttal material.",
+        "lyricalThemes": "CHAR.B's name, class and singing; Barbie and RP; cooking and seasoning; Chun-Li and breath; equal rights and work; shells and seashores; birthdays and presence; Peter Crouch, Beckham and Jamaica; makeup; mothers, daughters and womanhood; Charlotte, harlots and heartless; streets, Princess Peach and Cinderella.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Name and sound flips",
+            "description": "CHAR.B becomes out-class, Barbie, charcoal and eventually Charlotte/harlot, giving DAN repeatable sounds across the battle."
+          },
+          {
+            "title": "Second-round range",
+            "description": "Seashore, shells, birthday presence, footballers, Jamaica and makeup give the middle round several distinct connected passages."
+          },
+          {
+            "title": "Strongest final round",
+            "description": "The third develops one argument across family, names, streets, Mario and Cinderella and is DAN's clearest complete round."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Outclass",
+        "bar": "C-H-A to the R-B — why do you think you can out-ball me? You ain't classy, think you can outclass me?",
+        "explanation": "DAN spells into CHAR.B's name before ball and class turn the matchup into status and skill comparisons."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Barbie and RP",
+        "bar": "Put an end to this Barbie. You really got smoked by an RP.",
+        "explanation": "Barbie supplies the gendered doll image while RP references CHAR.B's previous Champions League opponent."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Seasoned Chicken",
+        "bar": "No one on the stage believes you're winning. You ain't seasoned — you didn't even season your chicken.",
+        "explanation": "Seasoned first means experienced, then becomes literal seasoning inside the cooking angle."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Chun-Li",
+        "bar": "Still feel like I'm in Street Fighter with Chun-Li — why? 'Cause her breath is kicking, minging, stinking.",
+        "explanation": "Chun-Li is known for kicking; DAN transfers that action to CHAR.B's supposedly powerful breath."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Equal Work",
+        "bar": "I know you believe in equal rights — why don't you believe in equal work? Anyone can get heat or hurt.",
+        "explanation": "Equal rights is redirected into equal domestic work before heat and hurt make the kitchen image threatening."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Delivery",
+        "bar": "I can't tell if you had a boob job, but it's a delivery that needs some work. On top of that, your bars are weak.",
+        "explanation": "Delivery moves between cosmetic work, vocal performance and the quality of CHAR.B's bars."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 — Charcoal",
+        "bar": "You can try get burnt like charcoal — now Charlie looks dark like me.",
+        "explanation": "Char in CHAR.B leads to charcoal and burning before dark becomes both colour and damage."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Four Less",
+        "bar": "I hope you get half price on your braids, 'cause right now it's looking like you got about four less.",
+        "explanation": "Four less sounds like flawless, turning missing braids into an appearance punch."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Following",
+        "bar": "How you been out here for all of these years and your following ain't going nowhere near?",
+        "explanation": "CHAR.B makes DAN's longevity evidence of stagnation rather than status."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Man's World",
+        "bar": "It's C-H-A to the R and I'm rambling — it ain't a man's world, I'll take it for ransom.",
+        "explanation": "She answers DAN's spelling approach, then turns the familiar 'man's world' phrase into something she can seize."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Killer Man Syndrome",
+        "bar": "I'm suffering from killer-man syndrome, bag full of bars just to bounce off your big dome.",
+        "explanation": "Killer-man syndrome replaces a medical diagnosis with battle aggression, while the bag contains bars rather than treatment."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Television and Sofa",
+        "bar": "Your battles made me wanna sit on the TV and watch the sofa instead.",
+        "explanation": "Television and sofa swap their normal roles to show how badly DAN's battles distort the viewing experience."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Dark Knight",
+        "bar": "Every Dark Knight has its day, and it ain't been yours for ages.",
+        "explanation": "Dark Knight becomes dark night, allowing day to answer the Batman title while describing DAN's faded period."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Mouth, Brain and Pay",
+        "bar": "A whole bag of mouth and not enough brain — a whole bag of power, none of it pays.",
+        "explanation": "The repeated whole-bag structure contrasts DAN's volume and potential with intelligence and actual reward."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Female Friends",
+        "bar": "I would never put my hand to a girl, but my female bredrins will drag you up.",
+        "explanation": "DAN avoids claiming direct violence while outsourcing the threat to women around him."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Seashore",
+        "bar": "She lives all the way by the seashore, that's the reason people say she shells — but is she sure she won't end up washed to the seashore like seashells?",
+        "explanation": "Seashore, she shells, she sure, washed and seashells sustain one long tongue-twister sound."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Birthday Presence",
+        "bar": "You rap like your dad — on your birthday you don't turn up, you ain't got no presence.",
+        "explanation": "Presence sounds like presents, linking an absent father to a birthday and CHAR.B's stage presence."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Crouch and Beckham",
+        "bar": "You look like Peter Crouch, so why would I take a kick like Beckham?",
+        "explanation": "Two England footballers turn CHAR.B's height and a kicking threat into one sporting reference."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Jamaica",
+        "bar": "Try one up like you're from Jamaica, but you can't shake what your mama gave ya.",
+        "explanation": "Jamaica and shake what your mama gave ya connect accent, dance and physical movement."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 — Makeup",
+        "bar": "She's caked up with makeup, so I know you ain't a stranger — but you don't look the same when you wake up.",
+        "explanation": "Caked-up makeup is contrasted with wake-up appearance in a clean sound reversal."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Pedestal and Food",
+        "bar": "I'm straight off this pedestal. I don't play with my food, and to me this man is edible.",
+        "explanation": "Stepping off a pedestal means abandoning distance, while food and edible turn DAN into the meal."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Miss Incredible",
+        "bar": "I believe that I can dead them all. You think that's a stretch? Don't call me Miss Incredible.",
+        "explanation": "Elastigirl/Mrs Incredible is known for stretching, converting the phrase 'that's a stretch' into a superhero reference."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Reflection of His Mum",
+        "bar": "Where does your perception of women come from? What you say about me is a reflection of your mum.",
+        "explanation": "CHAR.B turns DAN's gender attacks into evidence about the woman who raised him."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Salt, Bread and Dough",
+        "bar": "I'll take it with a pinch of salt. Prepare any bread, 'cause I'm fed up with these stupid roles — make a man a sandwich when he learns to make some dough.",
+        "explanation": "Salt, bread, fed up, sandwich and dough reclaim DAN's kitchen angle while dough also means money."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Stove",
+        "bar": "You want me in the kitchen? Everyone is getting put on stove.",
+        "explanation": "The expected domestic role becomes a threat to cook everybody present."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 — Queen's Head",
+        "bar": "How can I hate women when I've got a mum who raised me? It was the Queen's head that paid me, and I'm a girl dad — I remember the first time I held my baby.",
+        "explanation": "Mother, the Queen's head on currency and his daughter form DAN's defence against the misogyny accusation."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 — Charlotte and Harlots",
+        "bar": "What does your name mean, Charlotte? What's that rhyme with? Harlots though. Break a heart, I'm heartless though.",
+        "explanation": "The disputed Charlotte name becomes a rhyme chain through harlots, heart and heartless."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 — Grave Dance",
+        "bar": "Notice how I'm killing you and look at everybody dancing — that's on your grave we're dancing.",
+        "explanation": "The crowd's movement becomes a victory dance taking place on CHAR.B's imagined grave."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 — Princess Peach",
+        "bar": "Pre-privilege ain't working here. I'm not Mario or the pipe — you're not even Princess Peach.",
+        "explanation": "Mario, pipes and Princess Peach turn gender privilege into a Nintendo rejection."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 — Cinderella",
+        "bar": "If they don't bow, I'll bring the heat — turn Cinderella into cinders.",
+        "explanation": "Cinderella becomes cinders through fire, while bowing preserves DAN's authority framing."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 — Dark Knight and Archives",
+        "bar": "It's a long day for a Dark Knight. Half of his life trying to fight for the limelight — your face should stay in the archives.",
+        "explanation": "Dark Knight and limelight contrast darkness with attention before archives frame DAN as outdated."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 — Glass Eye",
+        "bar": "Your smile brings tears to a glass eye.",
+        "explanation": "A glass eye cannot cry, exaggerating how unpleasant CHAR.B says DAN's smile is."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 — Speech",
+        "bar": "Check your own speech impediment — it's evidence that ain't right.",
+        "explanation": "Speech impediment and evidence use matching sounds to return criticism of delivery to DAN."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 — Useless DAN",
+        "bar": "Ugly, pathetic excuse of a man — no one I know is more useless than DAN.",
+        "explanation": "A direct name-ending punch that compresses CHAR.B's final character judgement into one rhyme."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 — Tunes and Ego",
+        "bar": "Bars and flows, but your tunes don't bang — tell your ego that you ain't the man.",
+        "explanation": "CHAR.B separates technical battle ability from music quality, then makes DAN's ego the final target."
+      }
+    ],
+    "oddMoments": [
+      "The transcript opens with a preview of DAN's first before the league explainer and formal introduction.",
+      "The coin-toss dialogue is briefly confused, but DAN ultimately chooses to go first.",
+      "CHAR.B performs her first over a beat she says she produced herself.",
+      "The host and MCs briefly lose track of the round count before CHAR.B's second.",
+      "DAN's third is restarted when CHAR.B corrects him: her legal name is Charlie, not Charlotte. DAN keeps Charlotte for the battle scheme.",
+      "CHAR.B drops the microphone at the end of her short third; Margs notes that the rules prohibit mic drops.",
+      "The battle contains repeated misogynistic, sexual and homophobic material documented as performance rather than endorsed by the archive.",
+      "The public vote is left open for 48 hours, but no official result appears in the upload."
+    ],
+    "coolMoments": [
+      "DAN's Chun-Li/breath-kicking sequence is the most accessible punch in his opener.",
+      "CHAR.B's television/sofa reversal and Dark Knight/day line give her first a strong mid-round run.",
+      "DAN's seashore/she-shells/she-sure passage sustains a difficult sound across several meanings.",
+      "CHAR.B's salt/bread/fed-up/dough/sandwich/stove sequence is the battle's strongest rebuttal construction.",
+      "DAN recovers from the Charlotte correction and completes his best round with Princess Peach and Cinderella imagery."
+    ],
+    "postBattleContext": "Margs opened the public vote after CHAR.B's final and said it would remain available for 48 hours. The upload ends without a count or winner, and the original archive entry listed the result as unknown.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: CHAR.B wins 2-1",
+      "summary": "LOTA round split: CHAR.B takes round one through the stronger career argument, television/sofa reversal and sustained closing momentum. She takes a close round two through direct rebuttal and the salt, bread, dough, sandwich and stove construction. DAN DANNAH takes round three with the fuller Charlotte/harlot, grave-dance, Princess Peach and Cinderella writing. No official tally is preserved, so this is explicitly a LOTA result rather than an official PenGame decision."
+    }
   },
   {
     "id": "pg-scl-2026-05-03-iiiberealz-vs-pocaa",
@@ -67108,8 +70124,266 @@ export const pengameBattles: Battle[] = [
     "group": null,
     "tag": null,
     "views": "41k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "videoUrl": "https://www.youtube.com/watch?v=AajQbYBqNZI",
+    "winner": "iiiberealz",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "POCAA and iiiBEREALZ closed Champions League Fixture 2. POCAA won the coin toss and sent iiiBEREALZ first. The host opens a 48-hour public vote after the battle, but the upload contains no final tally or declared winner. The result below is therefore an independent LOTA review.\n\niiiBEREALZ's first said he was conflicted about tearing down a woman who had not been on his hit list, before calling POCAA a one-time victim. Gibberish, random rhyming, a thin body, long face and Crimson Chin built the opening attack. Her image being about sex rather than a lived life led into a husky voice, a homeless Rugrat and asking where the hugs were. Champion status and pushing POCAA back became two leagues, a rookie with a moustache and whether to call her mister rather than sister. Sex appeal, a nun, self-respect and having no bars followed. iiiBEREALZ closed through resemblance to her father, bad lyrics, a backboard, caps, a damsel, class and decapitation.\n\nPOCAA's first began with smoking an opponent on set, Bluetooth and a baker known for bread before sending someone to bed. Money stretching like a stock on a gun and making a tough-faced opponent curl like a slug followed. She attacked iiiBEREALZ's heavy tongue and voice, then moved into war zones, an uncut foreskin, grime, dirt and worms in mud. A repeated 'that's not you' passage challenged his youth, identity, name and claims to being bad, before conceding that being a thirty-plus rapper was him. PenGame views became an endgame closer. The round has energy but the preserved wording is fragmented and less connected.\n\niiiBEREALZ's second was the most complete round. Acting, walking, talking, jawline and baritone voice all became masculine; the voice could have belonged to DAN DANNAH, F-DON, TRAPPY or DRIZZGB. A female dog and teaching new tricks moved into a bobble head, medication, a weak brain, sheep and copying. iiiBEREALZ referenced GMI, then POCAA being smoked by ZOELLA and MONROE and questioned why she was matched with him and CONVO. He argued a Black queen should not glorify weapons or expose herself for views, linked nips, hits and poor writing, then closed by saying research showed she was not ready.\n\nPOCAA's second called iiiBEREALZ soft like a bed of petals and said he lacked credentials or lived experience. Baking cookies and selling cakes on the Frontline attacked his work and image. A couple of battles had made him think he was a veteran even though POCAA ranked him above nobody. She moved through dumping a man from head to torso, weak bars and promotion, before a classroom, diaper and playing with her weight. The response is brief and ends without a fully developed closing scheme.\n\niiiBEREALZ's third called POCAA a sheep and cattle against a beast and baby with a rattle. He argued she liked him despite the battle, then attacked her makeup, songs and videos while rolling her up in a blunt. POCAA's name became poker: a poker face, playing cards, a rat and a straight flush. Makeup, making change and raising it led into a grenade, blushing and still being the bomb. He imagined her parents asking for an average, respectable daughter and receiving the opposite. A big-toe face, bimbo, borrowed flex, mismatched skin tone, low-cost appearance and a closing free-versus-clean rhyme completed the round.\n\nPOCAA's third accused iiiBEREALZ of moving like a bad man without living it and referenced a chef, Jesus piece and F-DON. She attacked his dreadlocks, age and continued work in a kitchen, sending him home with the dishes. eBay, cookies and Santa Claus extended the baking theme. A club, outside performance and a baker's apron followed before an iiiBEREALZ and Ronaldo-golden ending. Margs calls time shortly after a stumble, leaving the round notably shorter than iiiBEREALZ's final.\n\nLOTA scores iiiBEREALZ 3-0. He wins the first with clearer voice, rookie, gender and writing attacks; takes the second decisively through the researched opponent history and connected masculine-voice and Black-queen themes; and wins the third with the complete poker, cards, makeup and grenade construction against POCAA's abbreviated final.",
+    "performanceAnalysis": [
+      {
+        "performer": "iiiBEREALZ",
+        "overview": "iiiBEREALZ wins the LOTA review 3-0. Each round has a recognisable structure and is directed specifically at POCAA: gender presentation and writing in the first, voice plus researched battle history in the second, and poker, makeup and family expectations in the third. His second is the widest round, while the poker and grenade section gives him the cleanest finish.",
+        "lyricalThemes": "Sisterhood and hit lists; gibberish and random rhymes; thin bodies, long faces and the Crimson Chin; sex, life and husky voices; Rugrats, homelessness and hugs; champions, rookies, moustaches, mister and sister; nuns, self-respect and no bars; fathers, backboards, caps and damsels; acting and masculine presentation; baritone voices and other battlers; female dogs and tricks; bobble heads, medication, sheep and copying; GMI, ZOELLA, MONROE and CONVO; Black queens, weapons, exposure and views; sheep, cattle, beasts and rattles; makeup, blunts, poker faces, cards and flushes; grenades, blush and bombs; parents, daughters, toes, bimbos, skin tone and cost.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Mister or sister",
+            "description": "Two leagues, rookie status, a moustache, politeness and the choice between mister and sister combine competition and gender presentation."
+          },
+          {
+            "title": "Researched second",
+            "description": "ZOELLA, MONROE, CONVO, POCAA's presentation and her repeated subject matter make the round specific rather than interchangeable."
+          },
+          {
+            "title": "Poker and grenade sequence",
+            "description": "POCAA becomes poker face, cards and straight flush before makeup, change, raising, a grenade, blush and bomb form a second connected passage."
+          }
+        ]
+      },
+      {
+        "performer": "POCAA",
+        "overview": "POCAA loses the LOTA review 3-0. Her forceful cadence and recurring attacks on iiiBEREALZ's speech, age, baking and credibility give the rounds a consistent target. However, the transcript preserves many incomplete connections, her second is very short, and the third ends after a stumble before it can match iiiBEREALZ's fuller construction.",
+        "lyricalThemes": "Smoking on set and Bluetooth; bakers, bread and beds; stocks, guns and money; tough faces and slugs; tongues and speech; war zones; bodies, dirt and worms; youth, names, identity and PenGame views; petals and softness; credentials and lived experience; cookies, cakes and Frontline; veterans; heads and torsos; promotion; classrooms, diapers and weight; false bad-man images; chefs, Jesus pieces and F-DON; dreadlocks, age, kitchens and dishes; eBay, cookies and Santa Claus; clubs, outside performance, aprons, iiiBEREALZ and Ronaldo.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Bread opener",
+            "description": "Baker, bread, money and sending someone to bed give the opening a compact work, payment and threat sequence."
+          },
+          {
+            "title": "That's not you refrain",
+            "description": "The repeated phrase challenges several parts of iiiBEREALZ's persona before conceding his age as the one authentic detail."
+          },
+          {
+            "title": "Baking callback",
+            "description": "Cookies, cakes, kitchens, dishes, eBay, Santa Claus and an apron keep returning to iiiBEREALZ's baking identity."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Conflicted",
+        "bar": "Right now I'm conflicted - I don't want to tear down a sister; she wasn't on my hit list, but now she's a one-time victim.",
+        "explanation": "The opening acknowledges shared community before making POCAA the target for this single battle."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Crimson Chin",
+        "bar": "You talk gibberish, just rhyming shit - thick but a twig, long face, strong chin; Crimson Chin.",
+        "explanation": "The Fairly OddParents superhero supplies a visual comparison for POCAA's jaw and long face."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Red from lyrics",
+        "bar": "She got a Crimson Chin, but I'll leave her red from lyrics.",
+        "explanation": "Crimson already means red, allowing the cartoon reference to become the result of lyrical attack."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Rugrat and hugs",
+        "bar": "Voice husky, homeless Rugrat - outside asking where the hugs are at.",
+        "explanation": "Rugrat invokes the cartoon and a neglected child, while husky and hugs sustain the sound."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Mister or sister",
+        "bar": "In both leagues you're a rookie with a moustache - should I call you mister? I was polite calling you sister.",
+        "explanation": "League experience and facial appearance lead into a gendered title switch."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Nun and none",
+        "bar": "I'm not saying be a nun, but your self-respect is on none - and has she got bars? None.",
+        "explanation": "Nun and none connect sexual restraint, self-respect and the claim that POCAA has no writing."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Baritone roster",
+        "bar": "Baritone deep, deeper than SKAMZ - I heard your voice and thought it was DAN, F-DON, TRAPPY or DRIZZ.",
+        "explanation": "Several male battlers become possible owners of the voice iiiBEREALZ says does not sound like POCAA."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Female dog",
+        "bar": "I won't call you a bitch - you're a female dog, one feeble broad; I'll teach you new tricks.",
+        "explanation": "The insult is literalised into an animal that can be taught tricks."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Bobble head",
+        "bar": "Head too big for your body, bobble head - on meds and your brain's just shoddy.",
+        "explanation": "The toy's oversized moving head becomes an appearance and mental-state attack."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - ZOELLA and MONROE",
+        "bar": "She got smoked by ZOELLA, then MONROE - put her against me and CONVO.",
+        "explanation": "Specific previous opponents and another peer make POCAA's battle record the evidence for the mismatch."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Black queen",
+        "bar": "No Black queen should talk about sticks, show nips for hits - that's shit you should quit.",
+        "explanation": "Sticks, nips, hits, shit and quit compress iiiBEREALZ's criticism of POCAA's content and presentation."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Research",
+        "bar": "It was researched, be steady - from the research it shows you're not ready.",
+        "explanation": "The round's opponent history is presented as preparation proving POCAA cannot match him."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 - Sheep and rattle",
+        "bar": "You're sheep and cattle, I'm a beast and you're a baby with a rattle.",
+        "explanation": "Animals and an infant toy establish weakness before iiiBEREALZ claims the dominant beast role."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 - Poker face",
+        "bar": "POCAA, I killed you with a poker face - play my cards, this rat gets straight flushed away.",
+        "explanation": "POCAA sounds toward poker, enabling cards, a straight flush and flushing away the opponent."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 - Grenade and bomb",
+        "bar": "You're a grenade, so don't blush if I say you're still the bomb.",
+        "explanation": "Grenade and bomb are both explosives, while blush links the supposed compliment to facial colour."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 - Skin tone",
+        "bar": "Your face looks like man's big toe; in your girl group you're the bimbo - your makeup doesn't match your skin tone.",
+        "explanation": "Toe, bimbo and skin tone sustain the rhyme while attacking appearance and group role."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Bluetooth set",
+        "bar": "Get smoked on set, air man out like a Bluetooth set.",
+        "explanation": "A wireless Bluetooth set introduces air and transmission before airing someone out becomes violence."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Baker and bread",
+        "bar": "Baker boy, you're known for bread - I'm known for sending man straight to bed.",
+        "explanation": "Bread means baked food and money, while bed turns the baking setup into a knockout threat."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Stock and gun",
+        "bar": "Money long like the stock when it's pressed on the gun.",
+        "explanation": "Stock means financial holdings and the rear support of a firearm."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Slug",
+        "bar": "Make this tough-faced uncle curl up like a slug.",
+        "explanation": "The tough appearance is reduced to a small creature curling defensively."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Heavy tongue",
+        "bar": "Heavy tongue - this pussy sounds like he's sucking one.",
+        "explanation": "POCAA attacks iiiBEREALZ's speech by giving the tongue literal weight and a sexual cause."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - That's not you",
+        "bar": "Think you're a young boy? That's not you. Better than that? That's not you. Who's iiiBEREALZ? God, that's not you.",
+        "explanation": "The repeated refrain strips away age, ability, name and status claims."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Endgame",
+        "bar": "You only get views off PenGame - this is your endgame.",
+        "explanation": "PenGame is framed as the only source of attention and the place where iiiBEREALZ's run ends."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - Bed of petals",
+        "bar": "iiiBEREALZ, you ain't levels - this pussy soft like a bed full of petals.",
+        "explanation": "Levels and petals create the rhyme while a flower-covered bed symbolises softness."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - No credentials",
+        "bar": "Another bad-boy wave with no credentials - don't live what you rap and I think that is mental.",
+        "explanation": "POCAA challenges iiiBEREALZ's authenticity by separating performance from lived experience."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - Cookies and cakes",
+        "bar": "You're busy baking cookies, selling cakes on the Frontline.",
+        "explanation": "iiiBEREALZ's baking is contrasted with the military implication of Frontline."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - Veteran",
+        "bar": "A couple battles and now he thinks he's a veteran - iiiBEREALZ really better than no one.",
+        "explanation": "Limited experience is used to reject his veteran status and self-ranking."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - Classroom and diaper",
+        "bar": "Sat at the back of the classroom - I put a man in a diaper, go and play with my weight.",
+        "explanation": "School and childishness turn iiiBEREALZ into a pupil and then an infant."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 - Not really with it",
+        "bar": "You move like a bad man but you're not really with it.",
+        "explanation": "The opener again targets the gap between iiiBEREALZ's performance and claimed real life."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 - F-DON",
+        "bar": "Limbs got touched when F-DON murked you - I don't want to hear who you're going to murk.",
+        "explanation": "A previous battle is used as evidence against iiiBEREALZ's current threats."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 - Kitchen and dishes",
+        "bar": "Older than me and still in the kitchen - send man home, go with the dishes.",
+        "explanation": "Age and baking work become domestic dismissal and removal from the battle."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 - eBay and Santa",
+        "bar": "eBay cookies, Santa Claus - send this pussy back up north.",
+        "explanation": "Selling baked goods online moves into Santa's northern home and sending iiiBEREALZ away."
+      }
+    ],
+    "oddMoments": [
+      "The host introduces iiiBEREALZ as IB Rules and POCAA as Pockop because of transcription errors.",
+      "The preview repeats iiiBEREALZ's grenade and bomb line several times before the league explainer.",
+      "The crowd is visibly tired because this is announced as the final battle of the night.",
+      "Margs tells the room POCAA's second was cold and suggests the quiet reaction is fatigue.",
+      "iiiBEREALZ's third is partially reloaded after the crowd asks for more energy.",
+      "POCAA stumbles and the host calls time early in her final round."
+    ],
+    "coolMoments": [
+      "iiiBEREALZ's Crimson Chin opener connects POCAA's appearance with leaving her red from lyrics.",
+      "The mister-or-sister line packages league status, appearance and gender presentation into one punch.",
+      "iiiBEREALZ uses POCAA's ZOELLA and MONROE battles as direct second-round research.",
+      "POCAA's repeated 'that's not you' refrain gives her opening a clear performance section.",
+      "The poker face, cards, straight flush, grenade and bomb sequence gives iiiBEREALZ a decisive final."
+    ],
+    "postBattleContext": "The host tells everyone to vote before leaving and opens a 48-hour online window. No final count or official winner appears in the preserved upload, so the archive records only the explicitly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "iiiBEREALZ wins 3-0 (LOTA Result)",
+      "summary": "iiiBEREALZ wins round one through the clearer Crimson Chin, rookie, mister-or-sister and nun-or-none writing. He takes round two decisively through the connected masculine-voice scheme and researched ZOELLA, MONROE and Black-queen material. He wins round three with the complete poker, cards, makeup, grenade and skin-tone construction against POCAA's abbreviated final."
+    }
   },
   {
     "id": "pg-scl-2026-05-03-varntae-vs-domi-dusk",
@@ -67128,8 +70402,270 @@ export const pengameBattles: Battle[] = [
     "group": null,
     "tag": null,
     "views": "40k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "videoUrl": "https://www.youtube.com/watch?v=7N5vy5GRnqw",
+    "winner": "varntae",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "VARNTAE and DOMI DUSK met in Champions League Fixture 2. DOMI DUSK called tails, won the toss and sent VARNTAE first. The upload preserves no official audience count or declared winner, so the result below is an independent LOTA review.\n\nVARNTAE opened with church and spiritual imagery. Murder on stage became business as usual, a bat in DOMI's name led into holy water and juju, and a pastor sent him back to church as his casket closed. Academy, aiming, a goal and a hole in cartoon clothing continued the attack before cash in May, Mayfair and cashing in formed a money sequence. After receiving a reload, VARNTAE added SpongeBob and Squidward imagery, questioned DOMI's Ghanaian and Jamaican identity, and closed with a racing heart, palpitations, flatline and grave. The round was broad, connected and well received.\n\nDOMI's first attacked VARNTAE's appearance, Birmingham identity and status. Rastamouse led into locating and smashing a house, and talking smack became being smacked. A head shot at a black bean was distinguished from rice and peas; being broke became an impossible million pounds; and Tarzan's mother became a gorilla. DOMI then repeated that VARNTAE was 'not one of them', including his absence from the 2v2s. He closed with a stick aimed at a drum, singing over a beat and a right hook. The round had a strong refrain but less layered progression than VARNTAE's.\n\nVARNTAE's second began with breath, packets of Extra and an allegation involving PASSIVE's garage. Magic became cutting for an extra, abracadabra and a 50-pence-shaped head. He called DOMI a fraudulent Ghanaian Pelé and accused him of taking his flow from Morgan the Savage. A head shot avoided the leg like a meditator; MMA became a sticky one like Sellotape; and losing every PenGame clash meant failing to elevate. The writing was varied but several transitions were loose.\n\nDOMI used one clear subject throughout round two: VARNTAE singing to male opponents. Serenading and singing to MONROE led into songs, lullabies, tone and pitch. VARNTAE became Shanté, singing earned a six-week ban, and a Rastaman who did not eat pork was told DOMI would go ham before bringing a sacrificial lamb. A raised hand made VARNTAE disappear; a flinch became a dog becoming somebody's bitch; and Boxpark became a hotbox through smoke. The cohesion gives DOMI the second.\n\nVARNTAE's third was the battle's strongest round. Anime merchandise and rice opened a long Bush sequence: bush meat, Bush being knocked down, bush weed, bush tea, bush wrap and hair loss from bush cream. TikTok clips became getting clipped, while a snake claiming to be Big Boss led into drawing metal and stitching him up through Metal Gear imagery. Jimmy McNulty and Marlo brought in The Wire; blacksmith, hammer and steel formed the next connection. VARNTAE then moved through a fish in a box, shots in the dark, repeated losses, the Bible and messages to young girls, Bam-Bam, Mankind and Frank coming out of a closet. A reload repeated most of the round, but the completed material was extensive.\n\nDOMI's third began with a direct rebuttal. He explained his Ghana connection and support for PASSIVE, then denied being a snake by saying he had rejected PASSIVE's girlfriend. After a crowd-demanded reload, he spelled VARNTAE and ran him down like a relay team. An A-star and a nine became GCSE grades; Senegal supplied another star; a high horse became a merry-go-round; doing the dash became The Incredibles; and VARNTAE became a kite like Jericho. Luna was the only cat VARNTAE had hit, while Freddy Krueger and a bazooka closed the round. It was technically neat but substantially shorter than VARNTAE's final.\n\nLOTA scores VARNTAE 2-1. VARNTAE takes the first through the stronger church, juju, money and flatline construction; DOMI takes the second through the more focused singing, tone, pitch, pork, ham and sacrificial-lamb angle; VARNTAE clearly takes the third through the extended Bush, Metal Gear, The Wire, blacksmith and pop-culture writing.",
+    "performanceAnalysis": [
+      {
+        "performer": "VARNTAE",
+        "overview": "VARNTAE wins the LOTA review 2-1 by taking rounds one and three. His advantage is scheme depth: church, juju and money organise the opener, while the Bush, Metal Gear, The Wire and blacksmith passages make the third the battle's most developed round. His second is less cohesive, and reloads in the first and third repeat substantial material.",
+        "lyricalThemes": "Business and murder; bats, holy water and juju; pastors, church, caskets and hell; Academy, goals and holes; cash, Mayfair and money; SpongeBob and Squidward; Ghana, Jamaica and wahala; hearts, palpitations, flatlines and graves; Extra gum, PASSIVE and garages; magic, abracadabra and 50 pence; Pelé and Morgan the Savage; MMA and Sellotape; Dana White and Gaga; Bush imagery; TikTok clips; snakes, Big Boss and Metal Gear; Jimmy McNulty, Marlo and The Wire; blacksmiths, hammers and steel; fish and shots in the dark; the Bible; Bam-Bam, Mankind and Frank.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Church and juju opener",
+            "description": "Holy water, juju, a pastor, church, a closing casket, godliness and hell sustain the first round's spiritual frame."
+          },
+          {
+            "title": "Extended Bush sequence",
+            "description": "Bush meat, George Bush, bush weed, bush tea, bush wrap and bush cream repeat one word through six meanings."
+          },
+          {
+            "title": "Third-round reference range",
+            "description": "Metal Gear, The Wire, blacksmithing, scripture and wrestling references give the final several clearly separated technical sections."
+          }
+        ]
+      },
+      {
+        "performer": "DOMI DUSK",
+        "overview": "DOMI DUSK loses the LOTA review 2-1 but takes round two. His best quality is focused angle writing: singing and serenading drive the entire middle round through songs, lullabies, tone and pitch before the Rastaman, pork, ham and sacrificial-lamb section. His first has an effective 'not one of them' refrain, and his third contains clean grade, star, high-horse and kite references, but VARNTAE's winning rounds are fuller.",
+        "lyricalThemes": "Rastamouse; houses, smack and levels; dreadlocks, lice and fleas; black beans and rice and peas; poverty and a million pounds; Tarzan and gorillas; Birmingham and 2v2s; sticks, drums, beats and hooks; serenading MONROE; songs and lullabies; VARNTAE and Shanté; bans; Rastafarians, pork, ham and lamb; disappearing, dogs and flinching; tone and pitch; smoke and hotboxes; Ghana and PASSIVE; snakes and loyalty; spelling VARNTAE and relay races; A-stars and GCSEs; Senegal; high horses and merry-go-rounds; The Incredibles; Jericho; Luna, Freddy Krueger and bazookas.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Not-one-of-them refrain",
+            "description": "DOMI repeatedly excludes VARNTAE from elite Birmingham performers, the 2v2s and any claim to be better."
+          },
+          {
+            "title": "Singing angle",
+            "description": "Serenading, songs, lullabies, tone and pitch keep round two on one opponent-specific performance criticism."
+          },
+          {
+            "title": "Compact grade and star run",
+            "description": "A-star, nine and GCSEs lead into Senegal's star before the final moves through horses, dashes and kites."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Business as usual",
+        "bar": "Head Chef's cooking up — murder on stage, I call it business as usual.",
+        "explanation": "Cooking introduces preparation before the familiar business phrase makes battle defeat routine work."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Holy water",
+        "bar": "You got a bat in your name, don't be acting like that's something you're used to — this holy water I splash in your face, we don't do juju.",
+        "explanation": "DOMI Dusk evokes bats and darkness, which VARNTAE opposes with holy water and rejection of juju."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Church and casket",
+        "bar": "Look back on my past, I told him: it's back to church where your casket's closing.",
+        "explanation": "Past and pastor share the sound, while church and a closing casket keep the religious funeral image together."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Mayfair",
+        "bar": "You got me as a clash in May, it ain't fair — take this L, I brought smoke, Mayfair.",
+        "explanation": "May and fair combine into Mayfair, while the brand's cigarette association explains the smoke."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Clean up with Kel",
+        "bar": "That funny business I ain't keen on — I came for the clean-up, do it like Kel.",
+        "explanation": "Clean-up and Kel point to the actor and comedy association while returning to the business framing."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Squidward footsteps",
+        "bar": "No sponge, her head keeps bobbing — her pom-pom sounds like Squidward footsteps.",
+        "explanation": "Sponge and Squidward place the sexual punch inside SpongeBob SquarePants, with Squidward's distinctive walking sound completing it."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 — Flatline",
+        "bar": "Your heart don't beat like that, it's racing — palpitations, flatline, grave shit.",
+        "explanation": "A racing heart deteriorates through palpitations into a flatline and then the grave."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 — Extra",
+        "bar": "Your breath smells like KFC packets — somebody get him a packet of Extra. I heard you do packets with PASSIVE, in his garage asking for extra.",
+        "explanation": "Extra names chewing gum and additional drugs or material, while PASSIVE makes the allegation platform-specific."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 — Ghana's Pelé",
+        "bar": "You're a fraud like Ghana's Pelé — stole your flow from Morgan the Savage, so when he's rapping, what a headache.",
+        "explanation": "A disputed football identity introduces the fraud claim before a named flow source makes the criticism specific."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 — MMA Sellotape",
+        "bar": "MMA, it's a sticky one like Sellotape — I'm frontline renegade.",
+        "explanation": "A sticky situation becomes literal adhesive tape, carrying the rhyme into renegade."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — Bush sequence",
+        "bar": "He eats his bush meat, or knocks something down like Bush did. You don't want smoke like bush weed... bush tea, bush wrap, lose hair like bush cream.",
+        "explanation": "Bush moves through food, George Bush, cannabis, tea, wrapping and hair product in one extended word-association run."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — Clips",
+        "bar": "You can live for the clips till you get clipped up.",
+        "explanation": "Clips first means short social-media videos and then being struck or shot."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — Snake and Big Boss",
+        "bar": "How could a Snake think that he was Big Boss? Draw for the metal — I'll leave him stitched up.",
+        "explanation": "Snake, Big Boss and Metal are all drawn from Metal Gear, while stitched up describes the damage after drawing a weapon."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — McNulty and Marlo",
+        "bar": "You talk to police, Jimmy McNulty — me, I'm like Marlo, I stand in the field.",
+        "explanation": "Jimmy McNulty is police and Marlo Stanfield is a drug kingpin in The Wire; stand in the field also echoes Stanfield's name."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — Hammer and steel",
+        "bar": "I'm the blacksmith, no acting — I'ma slap this hammer and steel.",
+        "explanation": "A blacksmith uses a hammer on steel, while hammer and steel become weapon language."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 — Bible and messages",
+        "bar": "She said, 'Dominic, what is this nonsense? The Bible says you're going to hell.' Take a look at yourself and the age of the girls you're messaging.",
+        "explanation": "DOMI's real name and an allegation about messages are framed as a maternal and religious judgement."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 — Rastamouse",
+        "bar": "Listen up, Rastamouse — I'll find out where you live and smash your house. Talking smack, you will get smacked about.",
+        "explanation": "Rastamouse, house, smack and smacked create a simple opening rhyme tied to VARNTAE's dreadlocks."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 — Black bean",
+        "bar": "I'll take off your head top nice and clean — when I aim for your black bean, this ain't no rice and peas.",
+        "explanation": "Bean means head and also the food paired with rice, allowing DOMI to reject the literal dish."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 — Not one of them",
+        "bar": "Talking about one of the hottest in Brum — you are not one of them. Didn't see you in the 2v2s; you learned the hard truth, you are not one of them.",
+        "explanation": "The refrain excludes VARNTAE from Birmingham's elite and uses his absence from a real event as evidence."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 — Beat and right hook",
+        "bar": "I know that you like to sing — if I give you the beat, it will come with the right hook too.",
+        "explanation": "Beat and hook are musical terms and forms of physical attack."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — Serenading",
+        "bar": "Why are you always serenading mandem in the clash? Why were you singing to MONROE? He ain't gonna let you smash.",
+        "explanation": "The angle uses a specific earlier opponent to argue that VARNTAE's melodic performance resembles romantic singing."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — Lullabies",
+        "bar": "How you gonna sing one song in my ear? Those lullabies are for the other guys.",
+        "explanation": "Song and lullaby keep the singing criticism inside one musical frame."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — Shanté",
+        "bar": "VARNTAE's a bitch — his mum should've called him Shanté, then called me back.",
+        "explanation": "VARNTAE is reshaped into the feminine name Shanté while a telephone callback completes the phrase."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — Ham and lamb",
+        "bar": "Rasta man don't eat pork — unlucky for you, I'm gonna go ham. I'm bringing him the sacrificial lamb.",
+        "explanation": "Pork and ham are linked foods, while the sacrificial lamb shifts the meat imagery into religion and death."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — Tone and pitch",
+        "bar": "You like to sing, so watch it — you best watch your tone and change your pitch.",
+        "explanation": "Tone and pitch are musical qualities and warnings about how somebody speaks."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 — Boxpark hotbox",
+        "bar": "I'll turn Boxpark Croydon into a hotbox with all the smoke that I rise.",
+        "explanation": "Boxpark becomes a hotbox filled with cannabis smoke and the metaphorical smoke of confrontation."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — PASSIVE rebuttal",
+        "bar": "You said I was a snake to PASSIVE, but that cannot be true — I'm too real, I denied his girl when she wanted to fuck me too.",
+        "explanation": "DOMI directly answers VARNTAE's loyalty allegation with a claimed example of refusing to betray PASSIVE."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — Relay team",
+        "bar": "V-A-R-N-T-A-E — I'ma run man down like a relay team.",
+        "explanation": "Spelling the name introduces a running image that resolves with a relay team."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — A-star GCSE",
+        "bar": "It's A-star if I came with a nine — and I ain't even on about GCSEs.",
+        "explanation": "A-star is a top school grade, while nine is both the modern top GCSE grade and a firearm."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — High horse",
+        "bar": "You're on your high horse like you got a ride from a merry-go.",
+        "explanation": "The idiom for arrogance becomes a literal carousel horse."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — Dash and Incredible",
+        "bar": "I'll let them know who do the dash — but I'm Incredible.",
+        "explanation": "Dash is the fast child from The Incredibles and also the act of running away."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 — Kite like Jericho",
+        "bar": "I'll turn VARNTAE into a kite like Jericho.",
+        "explanation": "Chris Jericho's wrestling submission, the Liontamer, and the idea of flying a kite turn the opponent into something controlled and suspended."
+      },
+    ],
+    "oddMoments": [
+      "The transcript opens with previews from VARNTAE's first and third and DOMI's final before the Champions League explainer.",
+      "DOMI calls tails, wins the toss and sends VARNTAE first.",
+      "Margs asks the room to support sound engineer Ish, then jokes that he will cuss him out if anything goes wrong.",
+      "VARNTAE receives a crowd-demanded reload during round one.",
+      "DOMI repeats the 'not one of them' refrain between rounds before VARNTAE's second begins.",
+      "VARNTAE receives another reload in round three and repeats most of the verse.",
+      "DOMI receives a crowd-demanded reload after the PASSIVE rebuttal in his third.",
+      "The battle contains violent, sexual, family, drug, racist, homophobic and age-related material documented as performance rather than endorsed by the archive.",
+      "Voting is opened for 48 hours, but no official tally or declared winner appears in the source."
+    ],
+    "coolMoments": [
+      "VARNTAE's holy-water, juju, pastor, church, casket and hell material gives his opener a clear spiritual identity.",
+      "DOMI's 'not one of them' refrain turns VARNTAE's Birmingham standing and absence from the 2v2s into a memorable crowd section.",
+      "DOMI sustains the singing criticism across serenading, songs, lullabies, tone and pitch before switching into pork, ham and lamb.",
+      "VARNTAE's Bush run is the battle's longest single-word scheme, moving through food, politics, drugs, tea, wrapping and hair product.",
+      "The Metal Gear and The Wire references give VARNTAE's third two strong consecutive pop-culture sections.",
+      "DOMI answers the PASSIVE accusation directly before moving into a compact GCSE and star sequence."
+    ],
+    "postBattleContext": "Margs promotes Fixture 3 and the Champions League mixtape, then says the online vote will open for 48 hours when the battle drops. The source ends without publishing a count or winner, so the original unknown result is replaced only by the clearly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: VARNTAE wins 2-1",
+      "summary": "LOTA round split: VARNTAE takes round one through the fuller holy-water, juju, church, casket, Mayfair and flatline construction. DOMI DUSK takes round two with the more focused serenading, song, lullaby, tone, pitch, pork, ham and sacrificial-lamb angle. VARNTAE clearly takes round three through the extensive Bush, clips, Metal Gear, The Wire, blacksmith, scripture and wrestling writing, despite a reload. No official PenGame tally is preserved, so this is explicitly a LOTA result."
+    }
   },
   {
     "id": "pg-scl-2026-05-03-eddfirst-vs-jaycee",
@@ -67147,9 +70683,271 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 2",
     "group": null,
     "tag": null,
-    "views": "46k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "views": "47k",
+    "videoUrl": "https://www.youtube.com/watch?v=Ggm_PtyR1-w",
+    "winner": "eddfirst",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "EDDFIRST and JAYCEE met in Champions League Fixture 2. EDDFIRST won the coin toss and sent JAYCEE first. The upload preserves no official audience count or declared winner, so the result below is an independent LOTA review.\n\nJAYCEE opened with direct attacks on EDDFIRST's image, music and age. He began by turning the matchup order into 'I'll start with Ed first', then moved through weed, clothes, social media and street-credibility angles. His most sustained section repeatedly changed ED from first to last: last at the dinner table, last to the gym, last in the rankings and unprepared compared with his last battle. The delivery was forceful, but much of the round relied on direct insults and one repeated sound.\n\nEDDFIRST's first suffered several pauses and restarts while the sound was checked, but the completed verse had greater variety. He framed JAYCEE's music as rushed MP3s, connected envy, MVP and entry fee, and moved from mental to Central and residential. A picture-cleaner passage compared JAYCEE with Neil from The Inbetweeners before artillery, darkness and heat imagery. He closed by calling JAYCEE malnourished and noting that another larger opponent had outdone him within a month. Despite the disrupted start, the fuller technical range edges the first for EDDFIRST.\n\nJAYCEE's second was stronger than his opener. A beaver, underachiever, green grass and lemon-sativa sequence gave the beginning a clearer rhyme spine. He attacked EDDFIRST's Academy background, requests for battles, drinking and singing, and received what the room called the first AI reload on PenGame. After restarting, he criticised repeated bars and empty pockets, continued the size and food angles through a nightcap and digestion, and finished on clout, TikTok begging, pressure and unfolding like a letter. The round was direct and energetic but uneven.\n\nEDDFIRST answered with the battle's strongest round. Bang for bang, bar for bar and hand for hand led into Krav Maga and being clipped. He then built a sustained religious passage: death wish, praying to the Father, repenting, crossing him, clashing JC after Easter and not being redirected. Flight path, crash and hijack formed another connection; a headshot made JAYCEE die so quickly it looked like a time lapse; and redemption arc, crucifixion and getting a mention returned to the Christian frame. The coherence and layered callbacks give EDDFIRST a clear second.\n\nJAYCEE's third attacked EDDFIRST's status and relationships. He used opponent, rodent, dolphins, ocean and wave sounds, then turned toward the production team. The most specific section accused EDDFIRST of working with opponents through a session with Tapped24, told him to take his MacBook away because this was PenGame rather than Gzone, and challenged him to say any issue directly to JAYCEE's face. JAYCEE received a reload after the room reacted to his send for Ish, and he completed the verse on money, beats, amateurs and different calibres.\n\nEDDFIRST closed with Jay Walsh and talent-show writing. Cross, lining up, darkness and brightness led into X Factor, Simon Cowell, One Direction and one dimension. He revisited an earlier menstrual bar through time of day, time of month and tampons, attacked JAYCEE's background history and overlong schemes, then argued that making the room sleep did not mean the writing was slept on. A cut-riddim comparison became being stepped on, and an ACL injury put JAYCEE out for the season. EDDFIRST rebutted the fat angle before closing that JAYCEE had lost his last three and this made four.\n\nLOTA scores EDDFIRST 3-0. The first is competitive because of EDDFIRST's restarts, but his variety beats JAYCEE's repeated last-one structure. EDDFIRST clearly takes the second through the Easter and redemption construction, and takes the third through the more developed talent-show, menstrual-reference and ACL sequences.",
+    "performanceAnalysis": [
+      {
+        "performer": "EDDFIRST",
+        "overview": "EDDFIRST wins the LOTA review 3-0. His advantage is layered scheme construction: sound and status references carry the first, the Easter/redemption passage is the battle's strongest writing, and the One Direction, menstrual-reference and ACL sequences give his closer a clear structure. The repeated first-round restarts are his main performance weakness.",
+        "lyricalThemes": "Rushed music and MP3s; envy, MVP and entry fees; mental, Central and residential; The Inbetweeners; artillery and darkness; JAYCEE's build; Krav Maga; prayer, the Father, repentance, the cross and Easter; flight paths and hijacking; time lapse; redemption and crucifixion; Jay Walsh; X Factor, Simon Cowell and One Direction; menstruation; background checks; slept-on writing; ACL injuries and league losses.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Easter and redemption scheme",
+            "description": "Father, repenting, crossing, JC, Easter, redemption and crucifixion turn the second into one connected religious argument."
+          },
+          {
+            "title": "Talent-show closer",
+            "description": "X Factor, Simon Cowell, One Direction and one dimension give the third an accessible multi-reference opening."
+          },
+          {
+            "title": "Round-ending callbacks",
+            "description": "EDDFIRST closes by answering the fat angle, converting an ACL injury into being out for the season and adding the clash to JAYCEE's previous losses."
+          }
+        ]
+      },
+      {
+        "performer": "JAYCEE",
+        "overview": "JAYCEE loses the LOTA review 3-0 but applies consistent direct pressure. His best material is opponent-specific: Academy, drinking, music, TikTok, a Tapped24 session, the MacBook and PenGame-versus-Gzone distinction. The repeated last-one structure gives his first a clear refrain, while the second has his best sustained rhyme run. His writing is generally less layered than EDDFIRST's.",
+        "lyricalThemes": "EDDFIRST's name; age and size; weed and clothes; social media; being last; family and achievement; Academy; drinking; singing and music; repeated bars and empty pockets; food and digestion; TikTok and clout; opponent, rodent, ocean and wave sounds; Ish and the production team; Tapped24; PenGame and Gzone; money, beats and different calibres.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "First-to-last refrain",
+            "description": "JAYCEE repeatedly turns EDDFIRST's name against him by making him last at dinner, in the gym, in the rankings and in preparation."
+          },
+          {
+            "title": "Academy and music personals",
+            "description": "The second directly references EDDFIRST's development path, battle requests, drinking and singing rather than relying only on generic insults."
+          },
+          {
+            "title": "PenGame versus Gzone",
+            "description": "The Tapped24 session, MacBook and league distinction create JAYCEE's most specific third-round angle."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Rush greatness",
+        "bar": "You can't rush greatness like you did with your MP3s.",
+        "explanation": "EDDFIRST turns the familiar phrase about patient greatness into criticism that JAYCEE released unfinished or hurried music."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Envy and MVP",
+        "bar": "You can't trust fakers, so I don't care if he envies me. How can you rap like the MVP? You still pay the entry fee.",
+        "explanation": "Envy me and MVP share sounds before entry fee reduces JAYCEE from a leading player to someone still paying to participate."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Central",
+        "bar": "Mental, you're not respected in Central — you're residential, see.",
+        "explanation": "Mental, Central and residential sustain an internal sound while contrasting public status with an ordinary residential identity."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Picture cleaner",
+        "bar": "Wait, I can picture it cleaner: same IQ and demeanour — it's Neil from The Inbetweeners.",
+        "explanation": "The visual comparison resolves on Neil, whose awkward manner and limited intelligence become the basis of the character attack."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Malnourished",
+        "bar": "Who starved him tonight? He looks malnourished — somebody get a bowl for him.",
+        "explanation": "EDDFIRST turns JAYCEE's build into a starvation image, then follows it with the practical object the image suggests."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 — Round won",
+        "bar": "The second time in the space of a month a fat guy outdone him — and it was one-nil; this round won it.",
+        "explanation": "The personal references another recent opponent while one-nil and round won state EDDFIRST's own score after the opener."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 — Krav Maga",
+        "bar": "We can go bang for bang or bar for bar... hand for hand, like Krav Maga he gets clipped up.",
+        "explanation": "The repeated contest format moves from music and writing into hand-to-hand combat, where Krav Maga completes the escalation."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 — Easter",
+        "bar": "If you're gonna pray to the Father, might as well start repenting, 'cause if he cross me and I clash JC after Easter, he's not getting redirected.",
+        "explanation": "Father, repentance, the cross, JC and Easter form a Christian chain; JC also names JAYCEE inside the religious reference."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 — Flight path",
+        "bar": "You ain't got a flight path. I think I'm gonna crash out — this again hijacked.",
+        "explanation": "Flight path, crashing and hijacking remain inside aviation while describing JAYCEE as directionless and EDDFIRST taking control."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 — Time lapse",
+        "bar": "A headshot — he died so quick they thought it was a time lapse.",
+        "explanation": "A time lapse compresses a long event into seconds, exaggerating how quickly the fictional shot ends the contest."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 — Redemption arc",
+        "bar": "Don't force your redemption arc... if you're crucified, get a mention.",
+        "explanation": "Redemption arc describes a comeback narrative but also returns to the crucifixion and Christian framework established earlier."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 — X Factor",
+        "bar": "Get X as a factor for binding it up — Simon Cowell was lighting them up.",
+        "explanation": "X as a factor points to The X Factor, allowing Simon Cowell to enter the talent-show scheme."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 — One Direction",
+        "bar": "One Direction vibe... it's one dimension, one right.",
+        "explanation": "One Direction becomes physical direction and then one dimension, extending the group reference through spatial meanings."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 — Slept on",
+        "bar": "Two-minute runs of your boring schemes and they all went to sleep — don't mean it was slept on.",
+        "explanation": "Slept on usually means underrated; EDDFIRST literalises it by saying JAYCEE's long schemes made the audience sleep."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 — ACL",
+        "bar": "When it gets real... he's out for the season — ACL, stumbling bitch.",
+        "explanation": "An ACL injury can remove an athlete for a season, making the medical reference double as Champions League elimination."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 — Fourth loss",
+        "bar": "He lost his last three, and that's four.",
+        "explanation": "EDDFIRST treats the current battle as already decided and adds it to JAYCEE's claimed run of three losses."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 — Ed first",
+        "bar": "All right, cool — I'll start with Ed first.",
+        "explanation": "The ordinary phrase about beginning the round doubles as a direct use of EDDFIRST's name."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 — Dinner table",
+        "bar": "About EDDFIRST? Eddie's the last one. At the dinner table, he's the last one.",
+        "explanation": "EDDFIRST becomes Ed last, beginning a refrain that uses his name to place him behind everyone else."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 — Large one",
+        "bar": "He goes shopping for clothes, finds something he likes, asks the staff, 'Can you dig out a large one?'",
+        "explanation": "The size joke briefly breaks the last-one refrain but keeps its repeated 'one' ending."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 — Rankings",
+        "bar": "He ain't first to the gym, he's the last one. He ain't up in the ranks, he's the last one.",
+        "explanation": "The name flip moves from physical conditioning to the actual Champions League table."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Beaver and underachiever",
+        "bar": "You look like a cracked-out beaver. Your mum and dad raised an underachiever.",
+        "explanation": "Beaver and underachiever establish the opening rhyme while combining appearance and family disappointment."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Grass and sativa",
+        "bar": "Over this side the grass ain't green — I'm smoking this prick, lemon sativa.",
+        "explanation": "Grass moves from the proverb about better circumstances to cannabis, completed by the lemon-sativa strain reference."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Academy",
+        "bar": "Should've stayed in Academy, Ed, and stopped asking for battles.",
+        "explanation": "JAYCEE frames EDDFIRST's development route as evidence that he was not ready for Champions League opposition."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Outside the mic",
+        "bar": "Say what you like about singing on stage — I ain't never sung outside of the mic.",
+        "explanation": "JAYCEE answers criticism of melodic performance by separating stage singing from allegedly talking outside battle."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Empty pockets",
+        "bar": "You rap the same bars... them pockets are dead. Go do the shit that you talk in your music and actually go hold a pocket instead.",
+        "explanation": "Pocket means money, but in music a rapper also performs in the rhythmic pocket of a beat."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Hard to digest",
+        "bar": "This one here will be hard to digest — but not for Big Ed; this guy's a food vet.",
+        "explanation": "Digest first means understand a difficult point, then becomes literal eating inside the recurring size angle."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — TikTok beggar",
+        "bar": "First-time ever TikTok beggar — this guy's a nerd. Will he blow? No, never.",
+        "explanation": "JAYCEE connects EDDFIRST's pursuit of online attention with the question of whether his career will blow up."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 — Unfolded letter",
+        "bar": "Whole lot of pressure — I've unfolded like a letter, and he won't wanna get up.",
+        "explanation": "Unfolding a letter supplies the image for JAYCEE opening up his material under pressure."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 — Ocean and wave",
+        "bar": "How you give me him as my opponent? Rodent. I could never swim with the dolphins — ocean. You ain't got a wave or any motion.",
+        "explanation": "Opponent, rodent, dolphins, ocean, wave and motion form a sound chain built around water and movement."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 — Tapped24 session",
+        "bar": "Did you know he was working with opps? He did a session with Tapped24.",
+        "explanation": "JAYCEE uses a named collaboration to accuse EDDFIRST of working with people his side considers opposition."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 — PenGame not Gzone",
+        "bar": "Grab your MacBook and leave, bro — this is PenGame, not Gzone.",
+        "explanation": "The production equipment and rival platform reference turn EDDFIRST's outside work into a loyalty attack."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 — Different calibres",
+        "bar": "Pure embarrassment. I ain't got time for amateurs — me and you, different calibres.",
+        "explanation": "Calibre describes quality and weapon size, letting JAYCEE claim both professional and combative superiority."
+      }
+    ],
+    "oddMoments": [
+      "The transcript opens with a preview from EDDFIRST's first before the Champions League explainer and formal introduction.",
+      "Margs says he is already 'a bit wavy' before the coin toss.",
+      "EDDFIRST wins the toss and sends JAYCEE first.",
+      "EDDFIRST's first is interrupted by repeated sound checks and restarts before he completes the verse.",
+      "JAYCEE receives what the room calls the first AI reload on PenGame during round two.",
+      "The host briefly checks whether the next passage is the third and final round.",
+      "JAYCEE receives another reload in round three after sending directly for Ish; the room says nobody has sent for Ish like that before.",
+      "The battle contains violent, sexual, family, religious, body-shaming and discriminatory material documented as performance rather than endorsed by the archive.",
+      "No official public-vote tally or declared winner appears in the source."
+    ],
+    "coolMoments": [
+      "JAYCEE's first-to-last refrain gives his opening a clear opponent-name structure.",
+      "EDDFIRST's envy, MVP and entry-fee passage is his cleanest early status comparison.",
+      "JAYCEE's grass and lemon-sativa opening gives his second the battle's strongest start from him.",
+      "EDDFIRST's Father, repentance, cross, JC, Easter and redemption writing is the most complete scheme in the battle.",
+      "JAYCEE's Tapped24, MacBook and PenGame-not-Gzone sequence is his most specific personal angle.",
+      "EDDFIRST closes with connected X Factor, Simon Cowell, One Direction and one-dimension references before the ACL league metaphor."
+    ],
+    "postBattleContext": "The source ends immediately after EDDFIRST calls time on his third. No official audience result or vote count is announced, so the original unknown result is replaced only by the clearly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: EDDFIRST wins 3-0",
+      "summary": "LOTA round split: EDDFIRST edges round one because his MP3, MVP, Central, Inbetweeners and malnourished sections show more variety than JAYCEE's repeated last-one structure, despite EDDFIRST's sound-related restarts. EDDFIRST clearly takes round two through the connected Krav Maga, Father, cross, JC, Easter, flight-path and redemption writing. He takes round three with the more developed X Factor, Simon Cowell, One Direction, menstrual-reference, slept-on and ACL constructions. No official PenGame tally is preserved, so this is explicitly a LOTA result."
+    }
   },
   {
     "id": "pg-scl-2026-05-30-jm-vs-anbu-sensei",
@@ -67167,9 +70965,304 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Audio Release",
     "group": null,
     "tag": null,
-    "views": "73k",
-    "winner": "unknown",
-    "statusNote": "Audio released"
+    "views": "75k",
+    "videoUrl": "https://www.youtube.com/watch?v=b7oSSdHcIGU",
+    "winner": "anbu-sensei",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "ANBU SENSEI and JM met at Croydon Boxpark in Champions League Fixture 2. ANBU won the coin toss and sent JM first. Margs introduced it as a serious matchup and reminded the room that only attendees could vote. The upload ends after voting instructions without an official tally or winner.\n\nJM's first was the cleaner direct opener. He attacked ANBU's anime identity, Naruto fandom, facial marks, nose, dreadlocks and relationship history. Clark Kent and glasses gave him a superhero setup, Titus Bramble turned ANBU's nose into a football image, and a sustained One Piece sequence moved through teenage viewing, a relationship reference and being left in one piece. The round was aggressive, tailored and consistently understandable despite an early sound adjustment.\n\nANBU's first was darker and more intricate but less cleanly preserved. He opened by expanding JM into 'jobless moron', framed himself as a Sensei killing a learner and answered the facial-spots angle directly. From there he moved through neck/disconnect, eyes on a wall like a Renaissance painting, family trauma, cemeteries and hereditary/veterinary sounds. The material contained deeper personals, but several sections needed repeated starts and remain fragmented in the transcript. JM takes the first through clarity and control.\n\nJM's second was his most complete technical round. He mocked generic lyrical-miracle writing, then moved into Xzibit/Pimp My Ride, Mario Kart, mushrooms and Wario. He spelled ANBU and SENSEI into insult chains, questioned how a self-declared Sensei could be surpassed by a senpai and returned to Comic Con and anime. The closing nose section compared ANBU's nostrils with dual exhausts on a Vauxhall, gospel singing on an inhale and a coke dealer losing fish scale before it could be bagged. It drew a major room response and reload.\n\nANBU answered with the battle's deepest name scheme. Using JM's real name Joseph, he moved through an umbilical cord, Joseph Stalin, John Wick: Parabellum, Knives Out and Joseph Gordon-Levitt, Niko Bellic and Joseph's coat of many colours. Train, station, switch and PlayStation kept the connections moving before G.I. Jane, G.I. Joe and E-I-E-I-O. A long C-section/sea section/see section passage and Tekken closer made the round dense but still recoverable. ANBU takes the second narrowly on layered construction.\n\nJM's third returned to direct character attacks. A long crook/cooked/booked/look rhyme run opened the verse, followed by raw fish, Norbit and orbit, anime and age, a repeated 'never had one' family structure and a 4-4-2 formation. He also referenced E3, Red Nose Day and the reloads his nose jokes had received. The round had strong bursts but ended in a visible stumble, with Margs pausing the beat and asking the room to support JM.\n\nANBU's final was also rough in the transcript but preserved more connected writing. Church, nun and gun led into nunchuck, one-touch and rum-punch sounds. Marvel and Vision, Shogun and Putin, Monaco at the bottom of a Champions League table, Ramadan and Eid, Alistair Overeem and a magazine closer moved across several worlds without abandoning the rhyme patterns. The density and completed finish give ANBU the third.\n\nWith no official count preserved, LOTA scores ANBU SENSEI 2-1. JM takes round one; ANBU takes rounds two and three through the Joseph construction and the more complete final.",
+    "performanceAnalysis": [
+      {
+        "performer": "ANBU SENSEI",
+        "overview": "ANBU SENSEI wins the LOTA review 2-1. His first is dark but unevenly preserved; his second is the battle's technical peak, using Joseph across history, film, games, scripture and transport; and his final has the denser completed writing after JM's stumble.",
+        "lyricalThemes": "JM as jobless moron and learner; family and personal history; neck and disconnect; Renaissance paintings; Joseph Stalin, John Wick, Joseph Gordon-Levitt, Niko Bellic and Joseph's coat; trains, switches and PlayStation; G.I. Jane and G.I. Joe; C-sections; church, Marvel, Shogun, Putin, Monaco, Ramadan, Eid and Overeem.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Joseph name universe",
+            "description": "ANBU repeatedly reuses JM's real name across Stalin, Gordon-Levitt, the biblical coat, cemeteries and other references without reducing the passage to one punch."
+          },
+          {
+            "title": "Station and console chain",
+            "description": "Train, station, switch, Halo and PlayStation turn movement and games into one connected sequence."
+          },
+          {
+            "title": "Dense final-round range",
+            "description": "The final moves through religion, weapons, Marvel, world leaders, football, Islamic observance and combat sport while maintaining its internal sounds."
+          }
+        ]
+      },
+      {
+        "performer": "JM",
+        "overview": "JM takes round one and makes round two highly competitive. His best work is the direct anime and appearance material, the One Piece chain, Mario Kart/Wario writing and the ANBU/SENSEI spelling sequence. His third has strong cadence runs but loses closing force when he stumbles.",
+        "lyricalThemes": "Anime, Naruto and Comic Con; Clark Kent; facial marks, nose and dreadlocks; Titus Bramble; One Piece; generic lyrical-miracle writing; Xzibit and Pimp My Ride; Mario Kart, mushrooms and Wario; ANBU and SENSEI spelling; Vauxhall exhausts, gospel and fish scale; Norbit, orbit, family absence, football formations and E3.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "One Piece sequence",
+            "description": "JM repeats One Piece as an anime, a sexual reference and the state ANBU will not remain in after a swing."
+          },
+          {
+            "title": "Spelling constructions",
+            "description": "ANBU and SENSEI are broken into letters and rebuilt as claims that ANBU can never beat the real Sensei."
+          },
+          {
+            "title": "Nose-scheme performance",
+            "description": "Dual exhausts, visible tonsils, gospel on an inhale and disappearing fish scale create a long visual close to round two."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "JM",
+        "theme": "Round 1 — Naruto",
+        "bar": "Shut up, you anime dork. You got bullied in school for thinking Naruto is cool.",
+        "explanation": "JM immediately makes ANBU's anime identity the subject and presents it as the reason for childhood ridicule."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 — Clark Kent",
+        "bar": "If I slap on these glasses on a Clark Kent vibe, then you'll soon know who you're facing.",
+        "explanation": "Clark Kent's glasses conceal Superman; putting them on introduces a hidden-identity and power transformation."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 — Titus Bramble",
+        "bar": "If he hit the pitch head-first, that nose would move like Titus Bramble.",
+        "explanation": "Former footballer Titus Bramble places the nose punch on a pitch and uses his surname as the movement image."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 — Locks",
+        "bar": "You're a monk with some dreads — man, you better go clean out them locks.",
+        "explanation": "Dreadlocks become literal locks requiring cleaning while monk continues the spiritual appearance comparison."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 — Nine and Six Feet",
+        "bar": "I got nines, not three times three. Come try it if you wanna be six feet deep.",
+        "explanation": "Nine moves from multiplication into a firearm before six feet becomes burial depth."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 — One Piece",
+        "bar": "In your teens you watched too much One Piece. Then you wanna watch her one-piece. If I hit him with a swing, he wouldn't be stood in one piece.",
+        "explanation": "One Piece works as anime, clothing and physical wholeness across the three-line sequence."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Jobless Moron",
+        "bar": "For this jobless moron, it's just murder — JM is dead and I'm making it clear that I'm killing the learner.",
+        "explanation": "JM's initials become jobless moron, while learner positions him beneath the self-styled Sensei."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Neck and Disconnect",
+        "bar": "In this game, if I wanna get ahead, I'ma aim for his neck then disconnect.",
+        "explanation": "Get ahead and aim for the neck form a beheading image, while disconnect describes the separation."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Renaissance Painting",
+        "bar": "When you die, get eyes like a resident in Beijing — left on the wall like a Renaissance painting.",
+        "explanation": "The internal sound carries the threat into an image of JM displayed permanently on a wall as art."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Hereditary and Veterinary",
+        "bar": "Check your mum, 'cause the beef is hereditary. The smartest dog — leave him in the veterinary.",
+        "explanation": "Hereditary makes the conflict a family trait before dog and veterinary turn JM into an animal patient."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — Mario Kart",
+        "bar": "I put a mum pack to play as your mum — I'm Mario Kart and I'm having a blast. Couple mushrooms on you, now that's Wario passed.",
+        "explanation": "Mario Kart, mushrooms and Wario keep the gaming scheme connected while passed turns racing into defeat."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — Lyrical Miracle",
+        "bar": "I'm sick of these guys — all these lyrical, criminal, spiritual, miracle guys.",
+        "explanation": "JM parodies the familiar multi-syllable rhyme chain to accuse ANBU of sounding technically busy but generic."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — Pimp My Ride",
+        "bar": "When I win the five bags, I'ma shout your mum — Xzibit will pimp out her ride.",
+        "explanation": "Xzibit and Pimp My Ride turn the prize-money boast into a television makeover reference aimed at ANBU's mother."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — ANBU Spelling",
+        "bar": "A is for actually, N is for never, B is for beating me — you ain't that clever.",
+        "explanation": "JM rebuilds ANBU's first three letters into a declaration that ANBU will never defeat him."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — Sensei and Senpai",
+        "bar": "I'm the real S-E-N-S-E-I. Sit back and learn real quick, lad — you call yourself Sensei, but your own pupils kill your senpai.",
+        "explanation": "Sensei, learning, pupils and senpai all remain inside the Japanese teacher-and-student hierarchy."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — Dual Exhaust",
+        "bar": "Your face is eighty-two percent nostrils, coming like dual exhausts on a Vauxhall. Through them holes I can see your tonsils.",
+        "explanation": "Two nostrils become a car's dual exhaust system before their exaggerated size supposedly exposes the throat."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 — Gospel and Fish Scale",
+        "bar": "When he inhales, this brother sings gospel. You'll be the worst coke dealer on the planet — if he inhaled around fish scale, it'd be gone before we could bag it.",
+        "explanation": "The large inhale becomes both vocal power and the accidental disappearance of cocaine known as fish scale."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Umbilical Cord",
+        "bar": "When you was born, your mum should've had your throat torn with the cord — it's umbilical.",
+        "explanation": "The birth cord is turned into the weapon in a deliberately dark opening to the Joseph scheme."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Joseph Stalin",
+        "bar": "I was rushing to clash this guy, but he waited — time I seen Joseph, Stalin.",
+        "explanation": "JM's real name Joseph combines with stalling to form Soviet leader Joseph Stalin."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Parabellum",
+        "bar": "Parabellum — you better let John Wick.",
+        "explanation": "John Wick: Chapter 3 — Parabellum supplies the film title, while let John wick turns the name into an action."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Knives Out",
+        "bar": "Say your sins if I'm taking the walk; I bring Knives Out on Joseph Gordon-Levitt.",
+        "explanation": "Joseph Gordon-Levitt extends JM's real-name scheme while Knives Out provides the murder-mystery film reference."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Niko Bellic",
+        "bar": "Can't reign with a Roman — Niko Bellic.",
+        "explanation": "Roman and Niko Bellic are cousins in Grand Theft Auto IV, allowing reign/Roman to lead into the game character."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Coat of Colours",
+        "bar": "Your father gave you a coat of colours — we never seen Joseph sell it.",
+        "explanation": "The biblical Joseph received a coat of many colours; sell it sounds like celibate, extending the personal attack."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Station and PlayStation",
+        "bar": "Man ran train in your ex's box, but you didn't switch and played in the station. I gotta Switch — I will play in the station.",
+        "explanation": "Train and station move into Nintendo Switch and PlayStation, linking transport, relationships and games."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — G.I. Jane and G.I. Joe",
+        "bar": "Margs is looking like G.I. Jane. I got a gun like a G.I. Joe. When you was with them sheep on the farm, it sounded like E-I-E-I-O.",
+        "explanation": "G.I. Jane and G.I. Joe share the military initials before Old MacDonald's E-I-E-I-O supplies the farm rhyme."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — C-section",
+        "bar": "I'm doing up another C-section. Find your sister and choke her out, see blood like we're in a C-section. Take your kids to the zoo, hope they drown in the sea section. If I lose, there's fans that I've got a C-section.",
+        "explanation": "C-section shifts through childbirth, seeing blood, a zoo's sea section and a section of fans, sustaining one sound across four meanings."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — Orbit",
+        "bar": "You ain't no threat, blud — I'll lap around this prick like a planet does orbit.",
+        "explanation": "Lapping an opponent becomes the repeated path of a planet travelling in orbit."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — Raw Fish and Norbit",
+        "bar": "Why do your clothes smell like nothing but raw fish? Why do you look like you wanna be Norbit?",
+        "explanation": "Raw fish and Norbit continue the internal sound pattern while combining a hygiene attack with a film-character comparison."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — Cartoon Fantasy",
+        "bar": "He watches cartoons sat in his bed. His fantasies are young girls, old men — a catastrophe that ain't making sense.",
+        "explanation": "JM turns ANBU's anime interest into a deliberately disturbing character attack built around the contrast in ages."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — Never Had One",
+        "bar": "Talk about my girl, but you couldn't have one. Talk about my dad, but you never had one. Talk bad in this rap, but you never had one.",
+        "explanation": "The repeated never-had-one ending turns ANBU's family angles back onto his own relationships and credibility."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — 4-4-2",
+        "bar": "What's that tone that you're talking to? Switch formations, 4-4-2.",
+        "explanation": "Switching tone becomes switching a football formation, with 4-4-2 supplying the tactical reset."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 — E3",
+        "bar": "I've been trying to make threes like I was up in E3.",
+        "explanation": "Making threes becomes a competitive scoring claim while E3 supplies the gaming-event reference."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Nun with a Gun",
+        "bar": "Trying to beat me with all your flows is like going to church and a nun has a gun tucked.",
+        "explanation": "The unexpected armed nun makes JM's attempted victory as contradictory as violence inside a church."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Marvel and Vision",
+        "bar": "It's a marvel you got this far, and I wonder if you have a vision of losing.",
+        "explanation": "Marvel and Vision reference the comics character while wonder adds another superhero-associated word."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Shogun and Putin",
+        "bar": "They call me the Shogun. Know that you're flowing just for the moment — you're nothing like Putin.",
+        "explanation": "Shogun and Putin supply ruler imagery, contrasting ANBU's lasting command with JM's temporary flow."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Champions League Table",
+        "bar": "You're like Monaco on the table of the World Champions League.",
+        "explanation": "ANBU converts the tournament into a football table and places JM in a low or unfavoured position."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Ramadan and Eid",
+        "bar": "His mum couldn't eat — me and Ramadan — so she went away into Eid. We took a little picture; I told her, 'Say cheese.'",
+        "explanation": "Fasting during Ramadan resolves in Eid, before the celebration becomes a photograph and cheese cue."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Overeem",
+        "bar": "I step with the beam, mess with your team — I buck up like Overeem.",
+        "explanation": "Former combat-sports champion Alistair Overeem supplies the fighting comparison and completes the beam/team rhyme."
+      }
+    ],
+    "oddMoments": [
+      "The transcript opens with a cold excerpt from ANBU's later material before the host introduction and coin toss.",
+      "ANBU wins the toss and immediately sends JM first.",
+      "Both MCs request repeated reloads as sound levels and room reactions interrupt their rounds.",
+      "ANBU briefly apologises to RELAPSE before beginning his first, treating the matchup as part of a wider league conversation.",
+      "The battle contains extremely personal family, miscarriage, religious, antisemitic and homophobic material documented as performance rather than endorsed by the archive.",
+      "JM stumbles near the end of his third; Margs stops the beat, asks the room to support him and lets the performance reset.",
+      "The upload reminds attendees to vote but does not show an official tally or winner."
+    ],
+    "coolMoments": [
+      "JM's One Piece sequence uses the same phrase as an anime title, clothing and physical wholeness.",
+      "JM's Mario Kart/Wario passage and ANBU/SENSEI spelling give his second a strong technical centre.",
+      "ANBU's Joseph chain moves through history, film, games, scripture and transport without abandoning JM's real name.",
+      "The four-part C-section/see section/sea section/fan section passage is the battle's densest sustained sound scheme.",
+      "Both MCs receive major reload reactions, giving the matchup the feel of a high-level Champions League clash despite repeated technical disruption."
+    ],
+    "postBattleContext": "Margs instructed the in-building audience to vote and warned them not to forget between battles. The upload ends without a count or official winner; the original archive entry listed the result as unknown.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: ANBU SENSEI wins 2-1",
+      "summary": "LOTA round split: JM takes round one through clearer direct attacks, the Titus Bramble line and the sustained One Piece sequence. ANBU SENSEI takes round two with the battle's deepest Joseph, station, G.I. and C-section construction, then takes round three through denser connected writing and a completed finish after JM's stumble. No official tally is preserved, so this is explicitly a LOTA result rather than an official PenGame decision."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-skamz-vs-whoisorion",
@@ -67187,9 +71280,268 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "132k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "141k",
+    "videoUrl": "https://www.youtube.com/watch?v=fnYKxQ4rf9M",
+    "winner": "whoisorion",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "SKAMZ and WHOISORION met for a second time in Champions League Fixture 3. WHOISORION went first after the coin toss. The host closes by directing the room to the QR code and opening a 48-hour online vote, but the upload preserves no completed tally or declared winner. The result below is therefore an independent LOTA review.\n\nWHOISORION's first opened with a deliberately harsh family angle before comparing SKAMZ's mother to Whoopi Goldberg bought from Temu. He then claimed SKAMZ's best round, against REN and the green-suit child, had been supplied by WHOISORION through the photo, structure and punches. The round moved into SKAMZ's partner through anime, subtitles, The Walking Dead and a 'help me, master' voice. Switchblades, shaving and airing a piece led into refusing to co-sign SKAMZ and alleging other writers. WHOISORION closed with an ex-partner's message, drug imagery and a spelling sequence that removed the Z from SKAM before making him take Zs. Multiple microphone interruptions caused the round to be performed several times.\n\nSKAMZ's first centred on disputed online behaviour. Johnny Cage and a green kick opened the verse before a video-call allegation involving a younger woman. Dubai and copying an Arab style led into SKAMZ attacking WHOISORION's partner, fake diamonds and association with a manager. The strongest section quoted comments from a live stream, framed the interaction as an attempt to make someone a victim and stressed that the accusations were facts. SKAMZ then rejected music from WHOISORION's circle. The material is especially direct and consequential, giving SKAMZ the first despite WHOISORION's creative response.\n\nWHOISORION's second attacked SKAMZ's style. KANDI being called a bimbo led into teeth like The Simpsons intro, while a sexual comparison made the length resemble the PenGame intro. Forty ad-libs but none being hard, dancing for WHOISORION and PK, and a recurring hand gesture moved into an explicit mother punch. WHOISORION then accused SKAMZ of copying and pasting, plagiarism, stolen schemes and SETH writing scenes for him. Head, shoulders, knees and toes converted dance into gunfire. The round peaked with inhaling helium, sounding like all three Chipmunks and imitating the skibbidy-wibbidy flow. Chimney smoke, Toy Story, Woody and infinity completed a highly creative performance that received several reloads.\n\nSKAMZ's second responded to WHOISORION's online statements. Eating arse became a letter Y and a reason to question his circle; breath on the microphone became a charge from Margs. Calling out DRIZZGB and CHAPPIE was labelled unwise. Booty call, being angry in a cubicle, failing to rest in peace, an XL coffin and double smoke at a cremation formed the funeral sequence. A same-day PSG and Arsenal result became a topical punch. SKAMZ returned to WHOISORION's partner, makeup and gender presentation, then answered the plagiarism accusation by saying WHOISORION copied REN and ZEN. It is strong and personal, but WHOISORION's helium round is more inventive and cohesive.\n\nWHOISORION's third used a big-screen clip about SKAMZ being broke and going down on one knee after a woman paid at Burger King. WHOISORION cast himself as a disappointed father, advised SKAMZ to split the meal and said he nearly hit Margs for a deal. Relationship material followed: moving to someone with a boyfriend made WHOISORION karma, while KANDI allegedly slapping SKAMZ became evidence he did nothing. Cocaine, alcohol, smoke, roaches and incense attacked SKAMZ's image. WHOISORION answered a Harvey Price comparison through speed, ranked SKAMZ below REN, F-DON and DAN DANNAH, and closed the fast-food section with Whopper, vodka, spilled tea and Costa. Technical problems prevented one big-screen message from displaying correctly.\n\nSKAMZ's third built around the old 'Big Fatty Boom Boom' chant and WHOISORION's size. Boom boom, dumb dumb, conundrum and dungeon established the rhyme before SKAMZ said he could never be WHOISORION's son. His mother and father John led into the wet wipe and John the Baptist flip. An avalanche became no winner, only dinner for a fat man. SKAMZ said he had told WHOISORION to lose weight and literally got a vet to run, then sustained a bummy, mummy, funny, gully, scummy, chubby and buggy rhyme chain. Wrapping him like a mummy and a final birthday-party surprise involving his mother closed an energetic round. The crowd repeatedly called it back, but its narrower weight theme is edged by WHOISORION's broader research.\n\nLOTA scores WHOISORION 2-1. SKAMZ takes round one through the sharper and more consequential online allegations. WHOISORION wins round two with the battle's most creative plagiarism, dance, helium and Chipmunks construction, then edges round three through the wider Burger King, relationship, prior-opponent and fast-food research.",
+    "performanceAnalysis": [
+      {
+        "performer": "SKAMZ",
+        "overview": "SKAMZ loses the LOTA review 2-1 but takes a highly effective first round. His strength is direct personal pressure: online clips, disputed messages, WHOISORION's partner and statements made on streams give the material immediate stakes. The second is competitive, especially the funeral and topical football sections. His third performs strongly but relies more heavily on one extended weight angle than WHOISORION's broader final.",
+        "lyricalThemes": "Johnny Cage and green kicks; video calls and disputed interactions with a younger woman; Arab styles and Dubai; flames, lighters and Louis Vuitton; managers, fake diamonds and minors; live comments, victims and online evidence; eating arse and the letter Y; breath and charges; DRIZZGB and CHAPPIE; booty calls and cubicles; graves, coffins, cremation and double smoke; PSG and Arsenal; partners, makeup and gender presentation; REN and ZEN; Big Fatty Boom Boom; dumb, conundrum and dungeons; mothers, fathers, wet wipes and John the Baptist; avalanches, dinner, vets and weight loss; bummy, mummy, funny, gully, scummy, chubby and buggy; mummies and birthday surprises.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Evidence-led opener",
+            "description": "SKAMZ builds the first around a video call, live comments, direct quotations and named people rather than generic threats."
+          },
+          {
+            "title": "Funeral sequence",
+            "description": "Booty call, cubicle, rest in peace, a grave, an XL coffin, cremation and double smoke sustain the second-round death theme."
+          },
+          {
+            "title": "Fatty Boom Boom performance",
+            "description": "The recognisable chant launches an extended multisyllabic weight scheme that repeatedly earns crowd reloads."
+          }
+        ]
+      },
+      {
+        "performer": "WHOISORION",
+        "overview": "WHOISORION wins the LOTA review 2-1. His first contains specific ghostwriting and relationship angles but is disrupted by microphone trouble. The second is the battle's technical peak, turning SKAMZ's gestures, dancing, alleged plagiarism, high voice and cadence into one creative performance. The third combines a visual clip, fast food, relationships and opponent history to edge the deciding round.",
+        "lyricalThemes": "Family and Whoopi Goldberg from Temu; REN, the green suit and alleged ghostwriting; anime, subtitles, The Walking Dead and partners; switchblades, air pieces and co-signing; ex-partners, drugs, SKAM and Zs; KANDI, The Simpsons and PenGame intros; ad-libs, dancing and hand gestures; copying, pasting, plagiarism and SETH; head, shoulders, knees and toes; helium, Chipmunks and skibbidy-wibbidy flow; chimneys, Toy Story, Woody and infinity; Burger King, free food, going halves and fatherhood; KUSH, boyfriends, karma and KANDI; cocaine, alcohol, roaches and incense; Harvey Price and speed; REN, F-DON and DAN DANNAH; Whoppers, vodka, tea and Costa.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "SKAM and Z spelling",
+            "description": "Removing Z from SKAMZ, adding an SK weapon and making him take Zs turns the name into a compact closing sequence."
+          },
+          {
+            "title": "Helium and Chipmunks",
+            "description": "A high voice becomes inhaled helium, all three Chipmunks and a live imitation of SKAMZ's repeated cadence."
+          },
+          {
+            "title": "Burger King reveal",
+            "description": "The big-screen clip, a woman paying, one knee, splitting the meal, a Whopper and Costa give the final a researched fast-food spine."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 - Johnny Cage",
+        "bar": "If I see green, kick to the face - cold world, Johnny Cage.",
+        "explanation": "Mortal Kombat character Johnny Cage supplies the martial-arts kick and game reference."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 - Dubai",
+        "bar": "You took your style off an Arab because you were trying to take her to Dubai.",
+        "explanation": "Copying style and the Middle Eastern destination connect appearance, influence and the disputed interaction."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 - Lighter and LV",
+        "bar": "You went from flames to a lighter because we heard you like them lighter - taking an L, V me, and I'm not talking designer.",
+        "explanation": "Fire becomes a lighter, complexion becomes lighter, and L plus V invokes Louis Vuitton while predicting a loss."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 - Diamonds and minor",
+        "bar": "How are your diamonds fake and you've been speaking to a minor?",
+        "explanation": "Fake status is placed beside the round's most serious online allegation for a blunt direct punch."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 - Live comments",
+        "bar": "You were trying to turn her a victim, and the comments in the live asked what you were thinking.",
+        "explanation": "SKAMZ cites the audience reaction to a live stream as evidence within the accusation."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 - Facts versus songs",
+        "bar": "Everything I'm saying is facts - I don't want to hear one of them songs.",
+        "explanation": "The claim of factual evidence is contrasted with music as distraction or image-making."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 - Eating arse and Y",
+        "bar": "The things you say online make me question you and your guys - you said you were eating arse; nah, that's a Y.",
+        "explanation": "Why is reduced to the letter Y while SKAMZ questions the online statement."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 - Breath charge",
+        "bar": "Margs better run him a charge for that breath he put on the mic.",
+        "explanation": "A financial or disciplinary charge becomes punishment for WHOISORION's breath during performance."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 - Booty call",
+        "bar": "You gave a whole new meaning to booty call - better know you're pissed like a cubicle.",
+        "explanation": "Booty call is literalised through the online admission, while a toilet cubicle supplies the urine meaning."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 - Double smoke",
+        "bar": "If the XL coffin isn't suitable, I'll cremate this pussy - double the smoke for his funeral.",
+        "explanation": "WHOISORION's size requires a larger coffin before cremation doubles the earlier smoking threat."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 - PSG and Arsenal",
+        "bar": "PSG, you're losing today because this guy here is Arsenal.",
+        "explanation": "A same-day football result becomes a topical comparison between the clubs and battlers."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 - Fatty Boom Boom",
+        "bar": "Big Fatty Boom Boom - too hungry, you love eat; when you step on stage I hear boom boom.",
+        "explanation": "The old chant is repurposed around WHOISORION's weight, appetite and heavy movement."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 - John the Baptist",
+        "bar": "Your father's name is John; his son came out a wet wipe, now they're calling John the Baptist.",
+        "explanation": "Wet wipe and baptism use water and cleaning before naming the biblical John the Baptist."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 - Avalanche and dinner",
+        "bar": "Who do you think you're better than if you fall and cause an avalanche? You ain't no winner, just dinner for a fatty man.",
+        "explanation": "Body weight supposedly causes an avalanche before winner is replaced with dinner."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 - Vet to run",
+        "bar": "I told ORION to lose weight - I literally got me a vet to run.",
+        "explanation": "A veteran running becomes a veterinarian treating an overweight animal."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 - Mummy wrap",
+        "bar": "I said lose weight but still see tummy - that's why you're getting wrapped up like a mummy.",
+        "explanation": "Tummy rhymes with mummy, while wrapping changes from body covering to ancient burial."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - Whoopi from Temu",
+        "bar": "She looks like Goldberg gave her a beating - reverse, she looks like Whoopi Goldberg, but the one from Temu.",
+        "explanation": "Wrestler Goldberg becomes Whoopi Goldberg before Temu marks the comparison as a cheap imitation."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - Green-suit ghostwriting",
+        "bar": "Your best round was against REN with the green-suit kid - I gave the photo, structured the bars and threw in punches.",
+        "explanation": "WHOISORION claims direct authorship of SKAMZ's previous visual concept and writing."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - Subtitles",
+        "bar": "Have your anime girl groaning so much you'll be moaning in subtitles.",
+        "explanation": "The partner's Asian identity and anime reference lead into translated subtitles."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - Walking Dead",
+        "bar": "Just like The Walking Dead, that's how your girlfriend walks; 'I need your help, master,' that's how your girlfriend talks.",
+        "explanation": "A television title becomes physical movement before WHOISORION performs a caricatured voice."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - SKAM and Zs",
+        "bar": "His name is S-K-A-M and a Z - creep with an SK in the AM while he's taking Zs.",
+        "explanation": "SKAMZ is dismantled into SK, AM and Zs, with the letters becoming a weapon, time and sleep."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Simpsons and PenGame intros",
+        "bar": "His teeth look like The Simpsons intro - it's so long it comes like the PenGame intro.",
+        "explanation": "Yellow cartoon imagery attacks the teeth before length is compared with the league's extended introduction."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Ad-libs and dance",
+        "bar": "He has forty ad-libs but none are hard - he dances for me, dances for PK; all we know is this brother can dance.",
+        "explanation": "SKAMZ's performance habits are reframed as entertainment rather than effective battle writing."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Plagiarism",
+        "bar": "I hate your rhyme schemes - copying and pasting, plagiarising, taking lines; I don't take that lightly.",
+        "explanation": "The accusation is expanded through several forms of unoriginal writing."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Head, shoulders, knees and toes",
+        "bar": "Since you like to dance, get shot in your head, shoulders, knees and toes.",
+        "explanation": "The children's action song and dance becomes a sequence of bodily targets."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Helium and Chipmunks",
+        "bar": "This brother sounds like he inhales helium - when he raps I hear Chipmunk, not the rapper, all three of them.",
+        "explanation": "A high voice becomes helium and Alvin and the Chipmunks, while excluding the UK rapper Chipmunk."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Toy Story",
+        "bar": "Cold bird, Toy Story - she likes Woody; ooh, infinity.",
+        "explanation": "Woody and Buzz Lightyear's infinity catchphrase form a crude Toy Story closer."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 - Burger King",
+        "bar": "She paid for Burger King and you got down on one knee - I taught you better; at least go halves on the meal.",
+        "explanation": "A big-screen anecdote makes the fast-food payment and kneeling gesture evidence for the relationship attack."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 - Karma and KANDI",
+        "bar": "You moved to her knowing she had a boyfriend - karma is real and I'm your karma; KANDI slapped you in the mouth and you did nada.",
+        "explanation": "Relationship conduct becomes karmic punishment, reinforced by a claimed incident involving KANDI."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 - Harvey Price speed",
+        "bar": "You said I look like Harvey Price - he thought I was slow, so tell the speed pass to him.",
+        "explanation": "WHOISORION answers a prior disability-based comparison by turning assumed slowness into speed."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 - OG ranking",
+        "bar": "Out of the OGs - REN, F-DON, DAN DANNAH - you're the irrelevant one.",
+        "explanation": "Named veteran peers provide the scale on which WHOISORION ranks SKAMZ last."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 - Whopper and Costa",
+        "bar": "Hit him with a Whopper, pour him vodka - if you don't want us spilling tea, next time take it to Costa.",
+        "explanation": "Burger King, drinks, spilling tea as gossip and Costa continue the food-and-beverage scheme."
+      }
+    ],
+    "oddMoments": [
+      "WHOISORION elects to go first after a noisy and confusing coin-toss exchange.",
+      "Filming on phones is repeatedly prohibited during the battle.",
+      "WHOISORION's first is restarted several times because his microphone keeps dropping.",
+      "The helium and Chipmunks section is performed repeatedly and WHOISORION jokes about helium poisoning and his lungs.",
+      "SKAMZ and WHOISORION argue live about the online statements and when WHOISORION last ate arse.",
+      "WHOISORION's intended big-screen message in the third fails to display the correct image.",
+      "The crowd reloads SKAMZ's Big Fatty Boom Boom final multiple times before Margs ends the battle."
+    ],
+    "coolMoments": [
+      "SKAMZ's first turns an online controversy into a tightly focused evidence-led round.",
+      "WHOISORION's SK, AM and Zs spelling sequence gives his opener a clean technical close.",
+      "The helium and all-three-Chipmunks punch becomes the battle's defining performance moment.",
+      "SKAMZ's same-day PSG and Arsenal line gets an immediate reaction for its topicality.",
+      "The Burger King clip and Fatty Boom Boom chant give both final rounds memorable visual or musical anchors."
+    ],
+    "postBattleContext": "Margs calls a short break, directs the room to the QR vote and gives viewers at home 48 hours. No final tally or official winner appears in the source, so the archive records only the explicitly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "WHOISORION wins 2-1 (LOTA Result)",
+      "summary": "SKAMZ takes round one through the sharper online evidence and more consequential allegations. WHOISORION wins round two with the battle's standout plagiarism, dance, helium, Chipmunks and cadence-imitation construction. He edges round three because the Burger King, relationship, KANDI, Harvey Price, OG-ranking and Costa material is broader and more researched than SKAMZ's highly effective but narrower weight scheme."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-kandi-vs-iiiberealz",
@@ -67207,9 +71559,267 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "91k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "93k",
+    "videoUrl": "https://www.youtube.com/watch?v=IaAxYWmGerI",
+    "winner": "kandi",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "KANDI and iiiBEREALZ met in Champions League Fixture 3 at Boxpark Croydon. iiiBEREALZ won the coin toss and sent KANDI first. The upload closes with instructions to use the QR code and website, but no completed audience tally or declared winner is preserved. The result below is therefore an independent LOTA review.\n\nKANDI's first began with bar one and bar two, words in his mouth like a cartoon, teachers marking iiiBEREALZ and yard food not making him Jamaican. He openly addressed coming from a good home, his mixed-race family arriving in the 1950s and building with white and Black bricks, then contrasted his owned four-bedroom home with the council-charmer insult. A cracker cracking a back like a physio led into Central Station, Twisted Metal and racing. KANDI invoked an Irish relative, the Armagh Brigade and car bombs, then moved through football passes, Pelé, Billy, demons, left and right, fitting twelve into thirty-five and fishing for iiiBEREALZ. Sound trouble forced a restart, but the completed round was substantial.\n\niiiBEREALZ's first built almost entirely around KANDI's name and image. Roman Reigns and SmackDown opened the verse before candy became sweet boy, toxic waste, Twizzlers, candy cane and KitKat. Internet wars, Smarties and a Jawbreaker extended the confectionery scheme. A Milkybar compared KANDI's family to whiteness; Evergreen and supposed killers attacked his music; a round box and putting him in a box moved into accusations about children and knowing the real man when cameras were off. A stripper name and collateral damage closed the round. The long, coherent name scheme gives iiiBEREALZ the first.\n\nKANDI's second announced that he would perform like iiiBEREALZ. His damaged face became evidence of boxing experience, while his opponent's mouth was the only box he knew. Ducking, weaving and Custard Cream led into a cow's backside and mouth fart; armour, a controller and Tekken formed the central game sequence. Jonathan Ross and a speech-and-language therapist attacked iiiBEREALZ's delivery. Morgz at a PenGame event and bar, Stevie Wonder, evacuation, women and children, body-count ratios, a PC avatar and Avatar in his element followed. KANDI closed with Central, a gas pedal and heels, teams driving under the influence, Mayfair, beating a corpse like Claudia Winkleman and writing off more than a nan. It is his strongest and most varied round.\n\niiiBEREALZ's second accused KANDI of repeatedly calling men gay and projecting from the closet. Reaper, Midas touch, going viral, antivirus and stopping vitals drove the opening. He criticised KANDI for switching flow and cadence without connective tissue, then used Lion King and pride, being unrated by his mother and a childcare business that would not allow its own son around. Sunken eyes, dirty clothes and a heartbeat spelling a word in Morse code led into Haribo, Marlboro, ice and melting. The round is sharp, but KANDI's longer connected boxing and gaming passages take the second.\n\nKANDI's third attacked iiiBEREALZ's partner, age, work and future. A drunken partner, a 4K scam picture, a window and pregnancy formed the opening personal. iiiBEREALZ being around thirty and a baker led into getting a case and Big Zuu. His mouth, tongue and military claims followed; KANDI then contrasted being remembered in ten years with not knowing who iiiBEREALZ was. Minimum wage, loading a car, ageing, children, Morley's and chasing rap became the career attack. A Black Panther and West Croydon Forever reference closed before two sticks, a smothering woman and pufferfish speech.\n\niiiBEREALZ's third returned to the opponent's name: KANDI became a feminine name, the Cavity Kid, yellow teeth and a refusal to floss. A full-body cast and compact car developed the body-bar idea. He spelled P-I-M-P and T-R-I-C-K, challenged KANDI's stutter, and converted Arsenal, gunner and PTSD into a shuddering gun sound. Parkinson's linked shaking with stealing flow or dance. Being above opponents became an eagle over Storm, an X-Men character; A, B and Lime became a cider reference before Black queen and candy reign closed the verse. The construction is clever, but it is less personal and consequential than KANDI's sustained attack on iiiBEREALZ's relationship, age, work and future.\n\nLOTA scores KANDI 2-1. iiiBEREALZ takes round one through the sustained candy, confectionery and identity scheme. KANDI wins round two with the battle's best boxing, Tekken, Morgz, Stevie Wonder and Avatar sequence. KANDI takes round three through the more direct partner, pregnancy, age, career, ten-year-future and West Croydon writing.",
+    "performanceAnalysis": [
+      {
+        "performer": "KANDI",
+        "overview": "KANDI wins the LOTA review 2-1 and delivers the battle's strongest individual round in the second. His writing is autobiographical and confrontational in the first, then technically broader through boxing, gaming, television and film references in the second. Sound problems cost him the opener, but his third's partner, pregnancy, age, work and future angles are more direct and consequential than iiiBEREALZ's cleaner wordplay response.",
+        "lyricalThemes": "Bars, cartoons, teachers and marking; Jamaican identity and yard food; mixed-race family history; bricks, good homes and council housing; crackers and physiotherapy; Central Station, Twisted Metal and racing; Ireland, the Armagh Brigade and car bombs; football, Pelé and passing away; numbers and fishing; boxing, mouths, ducking and weaving; Custard Cream; cows and mouth farting; controllers and Tekken; Jonathan Ross and speech therapy; Morgz; Stevie Wonder; evacuation; body-count ratios; PCs and Avatar; Central, heels, driving under the influence and Mayfair; partners, pregnancy and 4K; baking and Big Zuu; age, memory, Morley's and Black Panther.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Autobiographical class answer",
+            "description": "KANDI answers assumptions about race and privilege through his family's 1950s arrival, mixed heritage, building work and owned home."
+          },
+          {
+            "title": "Boxing and Tekken sequence",
+            "description": "A damaged face, ducking, weaving, a box in the mouth, armour, controllers and Tekken sustain a physical and gaming theme."
+          },
+          {
+            "title": "Morgz and Stevie run",
+            "description": "Morgz at a PenGame event and bar leads into Stevie Wonder and evacuation, mixing names, actions and crowd-ready punchlines."
+          }
+        ]
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "overview": "iiiBEREALZ loses the LOTA review 2-1. His structural clarity wins the first through a long confectionery attack on KANDI's name. The third links dental imagery, spelling, Arsenal, Parkinson's and X-Men references, but KANDI's opponent-specific relationship and career material has greater impact. His second is also shorter and less varied than KANDI's response.",
+        "lyricalThemes": "Roman Reigns and SmackDown; sweet boys, Toxic Waste, Twizzlers, candy cane, KitKat, Smarties, Jawbreakers and Milkybar; Evergreen, killers and cameras; boxes, children and stripper names; sexuality, projection and closets; the Reaper and Midas; viral clips, antivirus and vitals; flow, cadence and connective writing; Lion King and pride; mothers, childcare and safeguarding; Morse code; Haribo, Marlboro, ice and melting; Cavity Kid, yellow teeth and flossing; full-body casts and compact cars; PIMP and TRICK; stutters, Arsenal, gunners and PTSD; Parkinson's; eagles, Storm and X-Men; cider, Black queens and candy reign.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Confectionery name scheme",
+            "description": "Sweet boy, Toxic Waste, Twizzlers, candy cane, KitKat, Smarties, Jawbreaker and Milkybar repeatedly turn KANDI's name against him."
+          },
+          {
+            "title": "Viral antivirus chain",
+            "description": "A viral rap, antivirus, being sick and stopping vitals link internet success, software and illness."
+          },
+          {
+            "title": "Parkinson and Storm finish",
+            "description": "Shaking, stealing flow or dance, an eagle above Storm and X-Men give the third a connected movement and superhero finish."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Cartoon and teachers",
+        "bar": "Bar one, bar two - trying to put words in my mouth like a cartoon; none of these men are teachers, explaining after they mark you.",
+        "explanation": "Words in a cartoon character's mouth become teaching, marking work and explaining the result."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Mixed bricks",
+        "bar": "Family came in the fifties, mixed race, they chopped bricks out of loads - had whites and Blacks.",
+        "explanation": "White and Black describe race and types or colours of building material inside KANDI's family-history answer."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Council charmer",
+        "bar": "We've got four beds that we own, so who's really the council charmer?",
+        "explanation": "KANDI answers a class assumption with home ownership and turns the council-housing insult back on iiiBEREALZ."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Physio",
+        "bar": "This cracker cracks backs like physio - are you dizzy, bro?",
+        "explanation": "Cracker describes race and the act of cracking a back, which leads naturally to physiotherapy."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Armagh Brigade",
+        "bar": "My cousin Tristan's in the Armagh Brigade - in Ireland it isn't fist fights, it's car bombs taking half your face.",
+        "explanation": "The personal Irish reference escalates ordinary fighting into the history and imagery of car bombing."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Twelve into thirty-five",
+        "bar": "Time for the maths - how do you fit twelve into thirty-five? iiiBEREALZ with four guys deep in his back.",
+        "explanation": "A numerical setup becomes a sexual accusation based on the opponent's age and a group count."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Boxing mouth",
+        "bar": "I've learned to duck and weave; you've never done boxing - the only box was in your mouth.",
+        "explanation": "KANDI contrasts real boxing movement with a sexual use of box and mouth."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Tekken",
+        "bar": "Armour won't save you when I connect like a controller and help you get Tekken.",
+        "explanation": "Connecting a controller leads into Tekken, a fighting game whose title sounds like taken."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Jonathan Ross",
+        "bar": "Even though I look like Jonathan Ross, he sounds like a speech-and-language therapist.",
+        "explanation": "KANDI acknowledges an appearance comparison while redirecting speech difficulty toward iiiBEREALZ."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Morgz",
+        "bar": "Pimp-slap man so bad, have you walking like Morgz at a PenGame event; juice man down like Morgz at a bar.",
+        "explanation": "The repeated Morgz reference uses a known person and bar attendance to support physical and drinking meanings."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Stevie Wonder",
+        "bar": "You look like Stevie Wonder - Stevie wonder why his mouth don't work.",
+        "explanation": "The singer's name changes into the action of wondering, aimed at iiiBEREALZ's speech."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Avatar",
+        "bar": "PC with a messed-up avatar - my Avatar's in his element for real.",
+        "explanation": "A computer profile image becomes Avatar: The Last Airbender and its elemental powers."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 - Baker and Big Zuu",
+        "bar": "You're about thirty and you're a baker - if you get a case, don't lie like Big Zuu.",
+        "explanation": "Baking, a legal case and chef-presenter Big Zuu combine work, crime and television."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 - Ten years",
+        "bar": "Difference between us in ten years: you'll tell your mates you know me, and I won't know who you are.",
+        "explanation": "KANDI frames their projected careers as opposite trajectories of fame and obscurity."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 - Morley's",
+        "bar": "You're pushing forty, your kids growing up, no dreams - Morley's.",
+        "explanation": "Age, stalled ambition and the familiar chicken-shop reference compress the career attack."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 - West Croydon Forever",
+        "bar": "You look like the lead in Black Panther 3 if he stood up and screamed, West Croydon forever.",
+        "explanation": "Wakanda Forever is relocated to West Croydon for an appearance and local-area punchline."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Roman Reigns",
+        "bar": "You're a crack-town Roman Reigns - this is your SmackDown.",
+        "explanation": "Roman Reigns and WWE SmackDown convert appearance and confrontation into wrestling imagery."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Sweet boy",
+        "bar": "Your name's KANDI, you're a sweet boy - Toxic Waste, Twizzlers and candy cane.",
+        "explanation": "Multiple sweets and brands are stacked to turn KANDI's name into an identity attack."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - KitKat",
+        "bar": "In this galaxy, a KitKat won't take a break.",
+        "explanation": "The KitKat slogan about taking a break becomes a refusal to pause the attack."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Smarties and Jawbreaker",
+        "bar": "We're moving Smarties - really just a loser, and I'd be a Jawbreaker if you tried to chew her.",
+        "explanation": "Smarties and Jawbreaker continue the confectionery scheme while chew makes the latter physical."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Milkybar",
+        "bar": "You aren't Black - your family's whiter than a Milkybar.",
+        "explanation": "White chocolate becomes a blunt challenge to KANDI's racial presentation."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 1 - Cameras off",
+        "bar": "I know where your nest lays, so you lie in bars - I know who you are when the cameras are off.",
+        "explanation": "Public battle performance is contrasted with the private person iiiBEREALZ claims to know."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Projection",
+        "bar": "So many men you call gay, so many times you claim you're bad - you're projecting from a closet.",
+        "explanation": "Repeated homophobic attacks are reframed as psychological projection and concealed sexuality."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Midas",
+        "bar": "I'm the Reaper - everything I touch is Midas.",
+        "explanation": "Death and the Midas touch combine destructive power with turning everything to gold."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Antivirus",
+        "bar": "This rap went viral, it's antivirus - I'm so sick I'll stop your vitals.",
+        "explanation": "Viral success, antivirus software, sickness and vital signs form one medical-computing chain."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Morse code",
+        "bar": "Eyes sunk, dirty clothes - your heartbeat spells bitch in Morse code.",
+        "explanation": "Heartbeats become dots and dashes capable of spelling an insult in Morse code."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 2 - Haribo and Marlboro",
+        "bar": "KANDI in a pack like Haribo, smoke like Marlboro.",
+        "explanation": "A bag of sweets and a cigarette pack combine KANDI's name with being packed and smoked."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 - Cavity Kid",
+        "bar": "Why are you losing to a boy called KANDI, the Cavity Kid? Yellow teeth and KANDI don't floss.",
+        "explanation": "Candy causing cavities becomes dental criticism through yellow teeth and flossing."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 - Compact",
+        "bar": "Put you in a full-body cast so the body's compact - you talk compact but you're waiting on arms.",
+        "explanation": "A compact body, compact car and waiting on weapons or limbs compress several meanings."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 - PIMP and TRICK",
+        "bar": "You ain't no P-I-M-P in your mum's fur coat - you're a T-R-I-C-K.",
+        "explanation": "Spelling slows the delivery to contrast the persona KANDI claims with the insult iiiBEREALZ assigns."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 - Parkinson's",
+        "bar": "Your rap ringing was nasty, now you want a handshake - look up Parkinson's; I bet you steal my flow or dance.",
+        "explanation": "Handshake becomes shaking hands, then Parkinson's movement supports the accusation of stealing flow or dance."
+      },
+      {
+        "performer": "iiiBEREALZ",
+        "theme": "Round 3 - Storm and X-Men",
+        "bar": "I'm above them all - you're below; I'm an eagle over Storm, an X-Man.",
+        "explanation": "Being above the storm becomes flying over Storm, the weather-controlling X-Men character."
+      }
+    ],
+    "oddMoments": [
+      "iiiBEREALZ wins the toss and sends KANDI first.",
+      "KANDI's first is interrupted by low microphone volume and restarted from the opening.",
+      "KANDI's second receives several crowd-demanded reloads, including a passage he admits had only a fifty-fifty chance of working.",
+      "The transcript repeatedly hears iiiBEREALZ as IB RULES and KANDI as Candy.",
+      "Relapse and ANBU are called toward the stage during the final rounds.",
+      "The battle closes with football discussion and criticism of a German referee after the voting reminder."
+    ],
+    "coolMoments": [
+      "KANDI answers class and racial assumptions with a direct account of his mixed-race family history.",
+      "iiiBEREALZ sustains the candy-name scheme across most of his opening round.",
+      "KANDI's controller and Tekken line earns an immediate reaction.",
+      "The crowd wheels KANDI's Morgz and Stevie Wonder sequence.",
+      "KANDI's ten-year career projection and West Croydon Forever closer give his third the more personal impact."
+    ],
+    "postBattleContext": "The host directs the room to the QR code and website after the battle. No vote count or official winner is announced in the preserved upload, so the archive records only the explicitly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "KANDI wins 2-1 (LOTA Result)",
+      "summary": "iiiBEREALZ wins round one through the sustained KANDI-name and confectionery construction. KANDI takes round two with the broader and more effective boxing, Tekken, Morgz, Stevie Wonder and Avatar sequence. KANDI wins round three because the partner, pregnancy, age, career, ten-year-future and West Croydon material is more direct and consequential than iiiBEREALZ's cleaner but less personal wordplay."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-dan-dannah-vs-monroe",
@@ -67227,9 +71837,266 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "67k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "72k",
+    "videoUrl": "https://www.youtube.com/watch?v=MGXoW4l4kgU",
+    "winner": "monroe",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "DAN DANNAH and MONROE met in Champions League Fixture 3. DAN lost the coin toss and was sent first. The upload ends with Margs directing the room to the QR vote and opening the 48-hour online window, but it preserves no final tally or declared winner. The result below is therefore an independent LOTA review.\n\nDAN's first worked almost entirely through combat. He moved from a Margs and academy opening into a tragedy, Amity and anarchy sound chain, then treated MONROE's name as a Marilyn Monroe and actress angle. Jabs, crosses, lefts, rights and uppercuts built a six-shot boxing sequence; Jon Jones supplied dirty fighting, and taekwondo led into goals and trophies. Monitor problems interrupted the opening and forced him to restart, but he eventually completed the round.\n\nMONROE's first was shorter but cleaner and more opponent-specific. He opened by calling DAN a wild one who had not read the manual, attacked his chin through Bow Selector and an old Vectra, then moved into chairs, curtains and being shot down. The strongest section turned DAN's name into nobody trusting DAN and not knowing DAN lies, before a Van Dijk sly-tackle reference, rapping at 60, dictionary packing and a barman pouring a pint. MONROE edges the first because his direct attacks land with fewer technical interruptions.\n\nDAN's second was his clearest round. A psycho with a barrel led into ice melting to snow and rain, before a sustained boxing scheme named Marvin Hagler, Joe Frazier, Mike Tyson, Lennox Lewis and Floyd Mayweather. DAN attacked MONROE's smaller frame, used One Piece's Gum-Gum Pistol, and brought in the real Drew Mitchell knockout. He then called MONROE a journeyman in both boxing and PenGame, referenced the KMARH loss, turned black and blue into a circle attack, and closed on curtains, Boxing Day and being born for the fight. A reload repeated most of the verse, but the material comfortably wins the second.\n\nMONROE's second began with DAN hardly walking and sounding like a car exhaust. Thor and Thanos framed the power claims; flowers, a casket and God bless the dead developed the funeral attack. He followed with DAN's father being Jammer, packing DAN and sending him back, a CAT scanner, double denim and a head so large it had land and ocean. Clubs, random potions, hand explosions and DAN imploding closed a lively response. It was competitive, though DAN's connected boxing writing was more layered.\n\nDAN's third returned to the ring. Spelling MONROE's name led into sparring and getting it popping like a party; army, Idi Amin, Muhammad Ali, floating and stinging established the central chain. Weight classes, matching strength and speed, backhands, rampages, smoke and ashtrays, drifting like a drag race, flights and featherweights followed. The room repeatedly asked for the material again and DAN restarted several times. The energy was high, but the repetition and loss of structure weakened the round.\n\nMONROE's third delivered the battle's most personal writing. Bulletproof vests and an RPG mocked DAN's image before the verse accused him of stolen valour at a war memorial and contrasted that with MONROE's uncle fighting in the Falklands. Marines and boxers opposed street impostors; Oscars extended the acting accusation. MONROE then returned to the journeyman angle, age and Napa, a care home, Jason Voorhees, getting axed on set, parking and squeezing, Athens, breaking a shield and leaving DAN on Saturn. After one restart he completed the round cleanly.\n\nLOTA scores MONROE 2-1. MONROE edges the first through cleaner direct writing, DAN decisively takes the second with the battle's best sustained boxing scheme, and MONROE wins the third through the sharper stolen-valour personal and stronger completed structure.",
+    "performanceAnalysis": [
+      {
+        "performer": "DAN DANNAH",
+        "overview": "DAN DANNAH loses the LOTA review 2-1 but owns the clearest single round. His second connects boxing history, MONROE's real ring record, size, PenGame losses and Boxing Day into one focused attack. The first and third contain strong performance passages, but monitor trouble, repeated reloads and multiple restarts reduce their competitive impact.",
+        "lyricalThemes": "Margs and the academy; tragedy, Amity and anarchy; Marilyn Monroe and acting; jabs, crosses and uppercuts; Jon Jones; taekwondo; Marvin Hagler, Joe Frazier, Mike Tyson, Lennox Lewis and Floyd Mayweather; One Piece and Gum-Gum Pistol; Drew Mitchell; journeymen; KMARH; black and blue; curtains and Boxing Day; armies, Idi Amin and Muhammad Ali; weight classes; smoke, ashtrays, drag racing, flights and featherweights.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Boxing-history sequence",
+            "description": "Hagler, Frazier, Tyson, Lewis and Mayweather are given separate punch or money meanings inside one extended round-two scheme."
+          },
+          {
+            "title": "Opponent-specific boxing angle",
+            "description": "Drew Mitchell's knockout and MONROE's record allow DAN to connect the real boxer with the PenGame journeyman attack."
+          },
+          {
+            "title": "Weight-class third",
+            "description": "Ali, strength, speed, featherweight, right hands and flight imagery keep the final round tied to the physical mismatch."
+          }
+        ]
+      },
+      {
+        "performer": "MONROE",
+        "overview": "MONROE wins the LOTA review 2-1. His first is the cleaner opening and his third contains the battle's most consequential personal, challenging DAN's military image through stolen valour and a Falklands family contrast. His second has lively insults and a strong size scheme, but DAN's more coherent boxing construction takes that round.",
+        "lyricalThemes": "Wild Daniel and manuals; chins, Bow Selector and Vectras; chairs and curtains; DAN lies; Van Dijk; dictionaries and barmen; car exhausts; Thor and Thanos; funerals, flowers and caskets; Jammer; packing DAN; CAT scanners; double denim; land and ocean; clubs and potions; bulletproof vests and RPGs; war memorials and stolen valour; the Falklands; marines and boxers; acting and Oscars; journeymen, age and care homes; Jason Voorhees; Athens, shields and Saturn.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "DAN lies name flip",
+            "description": "DAN's name becomes the phrase DAN lies, turning trust and dishonesty into a direct opponent-name attack."
+          },
+          {
+            "title": "Large-head sequence",
+            "description": "Melons, deconstruction, land, ocean, patrols and staff roaming enlarge one visual insult into a connected passage."
+          },
+          {
+            "title": "Stolen-valour personal",
+            "description": "The war memorial, Falklands, marines, street impostors and Oscars build the decisive third-round accusation in stages."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 - Marilyn Monroe",
+        "bar": "MONROE, named after Marilyn - you're an actress, and the hardest punch you throw still won't stagger me.",
+        "explanation": "DAN uses Marilyn Monroe to feminise and theatricalise his opponent before dismissing MONROE's boxing power."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 - Six shots",
+        "bar": "Jab, cross, left, right, uppercut - that's six shots before he can answer.",
+        "explanation": "A boxing combination is counted like gunfire, matching DAN's physical performance with the writing."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 - Jon Jones",
+        "bar": "I'll fight dirty like Jon Jones when the clean work isn't enough.",
+        "explanation": "UFC champion Jon Jones is associated with elite ability and repeated controversy, fitting the dirty-fighting threat."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 1 - Taekwondo goals",
+        "bar": "Taekwondo - I keep kicking goals while you watch the trophies rise.",
+        "explanation": "Kicking links the martial art to scoring goals, which then become competitive trophies."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 - Marvin Hagler",
+        "bar": "The jab and cross are marvellous - call the combination Marvin Hagler.",
+        "explanation": "Marvellous becomes Marvelous Marvin Hagler, the middleweight champion, inside the punch sequence."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 - Frazier and Tyson",
+        "bar": "Joe Frazier with the pressure, iron in the fist like Mike Tyson.",
+        "explanation": "DAN moves between famous heavyweight styles while iron invokes Tyson's Iron Mike nickname."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 - Lennox Lewis",
+        "bar": "Lennox Lewis - when the lion raises his arms, you had better guard.",
+        "explanation": "Lewis enters the boxing roll call while lion supplies strength and raised arms describe a boxing guard."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 - Mayweather",
+        "bar": "Every right lands on the money like Mayweather.",
+        "explanation": "On the money means accurate, while Floyd Mayweather's wealth makes the financial meaning equally relevant."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 - Gum-Gum Pistol",
+        "bar": "One Piece when the arm stretches - Gum-Gum Pistol from the big man.",
+        "explanation": "The elastic punch references Monkey D. Luffy's signature One Piece attack."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 - Drew Mitchell",
+        "bar": "Drew Mitchell put you down; I was rooting for you, but the root never held.",
+        "explanation": "DAN uses MONROE's real boxing knockout as direct battle research rather than a generic threat."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 - Journeyman",
+        "bar": "You're a journeyman in boxing and PenGame - L after L wherever you travel.",
+        "explanation": "Journeyman is both a professional boxing role and a description of MONROE repeatedly moving through clashes and losses."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 - Curtains",
+        "bar": "Another loss and the curtains draw - your show ends here.",
+        "explanation": "Curtains draw at the end of a performance, turning another defeat into the close of MONROE's act."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 2 - Boxing Day",
+        "bar": "I was born for this - even my birthday feels like Boxing Day.",
+        "explanation": "Being born for combat becomes literal through the British holiday named Boxing Day."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 - Muhammad Ali",
+        "bar": "I'm the greatest like Muhammad Ali - float through the round and sting like a bee.",
+        "explanation": "DAN adapts Ali's famous self-description and movement slogan to his own performance."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 - Ashtray and drag race",
+        "bar": "Smoke on MONROE till he's ashtrayed, then drift off through the night like a drag race.",
+        "explanation": "Smoke produces ash before drift changes from smoke movement to a racing manoeuvre."
+      },
+      {
+        "performer": "DAN DANNAH",
+        "theme": "Round 3 - Featherweight",
+        "bar": "You're a featherweight on the mic and in real life - there's no weight in your right.",
+        "explanation": "Weight class, lyrical substance and punching power converge in the repeated weight and right sounds."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 - Bow Selector",
+        "bar": "That chin takes me back to Bow Selector - old school like a Vectra.",
+        "explanation": "MONROE uses a recognisable comedy caricature and an older Vauxhall model to exaggerate DAN's appearance."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 - DAN lies",
+        "bar": "Nobody trusts DAN - he didn't know DAN lies.",
+        "explanation": "DAN DANNAH's name is split into DAN and the accusation that DAN lies."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 - Van Dijk",
+        "bar": "Van Dijk with the sly tackle - one step and the whole attack stops.",
+        "explanation": "Liverpool defender Virgil van Dijk supplies the defensive tackle for stopping DAN's advance."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Car exhaust",
+        "bar": "DAN says he can hardly walk and sounds like he's eating a car exhaust.",
+        "explanation": "Breathlessness and a rough voice become the image of swallowing vehicle fumes."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Thor and Thanos",
+        "bar": "This is the calm before I start the war - partly Thor, so you had better call Thanos.",
+        "explanation": "War, Thor and Thanos form a Marvel power sequence that escalates MONROE's threat."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Funeral flowers",
+        "bar": "After I murk DAN, his family pull up with flowers - God bless the dead.",
+        "explanation": "The clash result is presented as a funeral, with family flowers completing the scene."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Pack DAN",
+        "bar": "No Cali pack - I'll pack DAN and send this wasteman back.",
+        "explanation": "Packing cannabis becomes packing DAN away, using his name inside the action."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - CAT scanner",
+        "bar": "I can tell you're talking gas like I put hands on a CAT scanner.",
+        "explanation": "CAT suggests reading a scan, while hands and gas keep the threat and medical image together."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Land and ocean",
+        "bar": "Your head is so big it has land and ocean, gangs patrolling and staff just roaming.",
+        "explanation": "The large-head insult expands into an entire territory with geography, security and workers."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Stolen valour",
+        "bar": "Standing by a war memorial when you've never been to war - stolen valour, this fraud is awful.",
+        "explanation": "MONROE directly challenges the authenticity of DAN's military image and makes it the round's central personal."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Falklands",
+        "bar": "My uncle was the youngest soldier to fight in the Falklands - next time you talk war, remember DAN never done that.",
+        "explanation": "A claimed family fact is contrasted with DAN's image, adding personal evidence to the stolen-valour accusation."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Raised and Oscars",
+        "bar": "I was raised by marines and boxers; you were raised by street impostors, faking your own scene for Oscars.",
+        "explanation": "Real combat backgrounds oppose performance and acting, returning to the accusation that DAN's persona is fabricated."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Journeyman",
+        "bar": "You're the journeyman of clashing, so I feel bad when I have to toe-tag him.",
+        "explanation": "MONROE answers DAN's earlier journeyman attack and converts repeated appearances into a morgue identification."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Care home",
+        "bar": "I've got the care home standing before me - greatness hits even if you plan to ignore me.",
+        "explanation": "DAN's age becomes a care-home image before MONROE insists the performance cannot be ignored."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Voorhees",
+        "bar": "DAN can't stand with a Voorhees - get axed on set like you started beef with Jason.",
+        "explanation": "Jason Voorhees' axe and film-set identity turn the acting attack into a horror-movie threat."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Athens and Saturn",
+        "bar": "Turn the arena to Athens, break his shield and drag him from Earth to leave him on Saturn.",
+        "explanation": "Ancient warfare, shields, the arena and outer space scale the final attack from history to the planetary."
+      }
+    ],
+    "oddMoments": [
+      "DAN has monitor and beat-level problems before his opening settles, and the verse is restarted.",
+      "Several lines in DAN's first and second are repeated after reload requests.",
+      "DAN's third is restarted multiple times as the room asks him to perform the passage again.",
+      "MONROE also restarts his third after losing the beat, then completes the verse on the second run.",
+      "Margs closes by directing the room to QR voting and opening a 48-hour online vote, but the upload contains no final count."
+    ],
+    "coolMoments": [
+      "DAN's Hagler, Frazier, Tyson, Lewis and Mayweather sequence gives round two a sustained boxing identity.",
+      "The Drew Mitchell knockout reference makes DAN's second unusually specific to MONROE's real combat history.",
+      "MONROE's DAN lies name flip is one of the opener's cleanest direct punches.",
+      "The crowd repeatedly calls for DAN's third-round material to be run back.",
+      "MONROE's stolen-valour section shifts the final from jokes into a focused personal angle."
+    ],
+    "postBattleContext": "Margs asks the audience in the building to vote through the QR codes and gives viewers at home 48 hours to use the PenGame website. No vote count or official winner is preserved in the upload, so the archived decision remains explicitly LOTA-authored.",
+    "judgementSummary": {
+      "verdict": "MONROE wins 2-1 (LOTA Result)",
+      "summary": "MONROE takes round one with the cleaner and more direct response. DAN DANNAH wins round two decisively through the connected boxing-history scheme and specific Drew Mitchell and journeyman research. MONROE takes round three with the battle's strongest personal, the stolen-valour and Falklands section, and a more coherent completed structure after both performers experience restarts."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-jm-vs-varntae",
@@ -67247,9 +72114,267 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "67k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "71k",
+    "videoUrl": "https://www.youtube.com/watch?v=nD13RhCBzqc",
+    "winner": "varntae",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "JM and VARNTAE met in Champions League Fixture 3. JM won his first coin toss and sent VARNTAE first. The upload ends by opening the website and in-room QR voting for 48 hours, but it contains no completed tally or declared winner. The result below is therefore an independent LOTA review.\n\nVARNTAE's first attacked JM through his real name, Joseph, opening with the biblical Joseph, a non-virgin partner and an unstable life. Whips, interracial relationships and resources led into Jamaica, Cardiff, heroin and inherited racial anxiety. Peggy, Frank, Butcher, Grant and Ian Beale created a long EastEnders sequence before crossing arms, pamphlets, activists and tobacconists moved into smoking J, Rizla paper and white ash. The round was concise, layered and specific.\n\nJM's first used VARNTAE's Frontline Renegade Soldier melody as its entry point. A deliberately offensive primary-school punch triggered an instant reload, before JM claimed he had to make VARNTAE on his own because PenGame could not hold him up. Singing to men, rage, having to diss a friend, serenading blokes and pressure leading to choking drove the middle. JM referenced his own poor ANBU performance, then attacked VARNTAE's partner, stepson and appearance. He admitted the stepson allegation was cap during the crowd reaction, then returned with Shelley and inheritance imagery. It was energetic, but VARNTAE's first was cleaner and better connected.\n\nVARNTAE's second was the battle's strongest round. JM became Just Move and Justified Murder; J was burned, smoked, ashed and packed while getting gassed off packs. A skirt-off line became Sidemen's Zerkaa, one M became Eminem, a condom became a Johnny, and Joseph Merrick made the journeyman boxed for bread. VARNTAE attacked JM for acting Black despite vitiligo and being born in a white district, then flipped 'JM's not bad' backwards. The final passage used Michael Jackson movement, JM teaching his daughter Muay Thai, coronavirus jabs, Joseph being jacked, Smooth Criminal and minimal cash. Multiple reloads repeated it, but the construction was dense and opponent-specific.\n\nJM's second directly addressed a Birmingham controversy involving VARNTAE's older brother and domestic violence. A rough town on TV led into Rihanna and Chris Brown, while socks and feet, wine and lines, stoves and grime built the next rhyme run. JM remixed Remy's pork line, moved through bacon, a rasta mouse and turning Asian, then attacked VARNTAE's leather jacket and denim shorts. Digging out roots created new dreads; smoking KMARH and ANBU established recent form; and breadfruit closed the verse. It was a strong answer, but VARNTAE's second had more sustained wordplay.\n\nVARNTAE's third opened on JM's Welsh background through the Bridgend suicide cluster and being the black sheep of his village. Little Bo Peep, autism and walking differently moved into Hannibal Lecter and silencing the lambs. He referenced KANDI, SKAMZ, DOMI DUSK, DAN DANNAH and ANBU SENSEI before attacking JM's antisemitic material. Zionists, tyrants, Joseph Stalin and Joe Biden developed the political sequence. The Welsh red dragon and St George's cross led into sharpshooting, four fingers and Owen Hart's heart stopping. Several restarts and a geography dispute over Cardiff and Bridgend broke the momentum.\n\nJM's third was his cleanest round. Getting shelly like the Turtles became not wanting VARNTAE's input; washed like Persil and a poor sung hook followed. Infertility and Grimlock led into a mismatched fixture, putting a rapper out of the picture and being a bad-boy striker and clincher. A rapid Postman Patois passage used Raptor, Horizon, impulse, insult, insoles, signals, idols, cymbals and dimples. BBK became being a white man, before laundry, glory, story, ready, Shelley, smelly and deli formed the central rhyme. EPG, scheduled television and being gassed to battle a friend closed the performance. JM takes the third through structure and control.\n\nLOTA scores VARNTAE 2-1. VARNTAE wins the first with the stronger Joseph and EastEnders writing, and the second with the battle's densest opponent-name, Michael Jackson and father-daughter schemes. JM wins the third through the tighter Turtles, Persil, fixture, Postman Patois and EPG construction.",
+    "performanceAnalysis": [
+      {
+        "performer": "JM",
+        "overview": "JM loses the LOTA review 2-1 but finishes with his best round. His performance is animated and musically assured, and his second directly confronts material around VARNTAE's circle. The first contains a knowingly false stepson angle and the first two rounds are less tightly constructed than VARNTAE's. His Turtles, Persil, fixture, Postman Patois and EPG final earns a clear third-round win.",
+        "lyricalThemes": "Frontline Renegade Soldier; primary schools; PenGame holding VARNTAE up; singing, friendship and rage; serenading and choking; ANBU; partners, stepsons and frogs; Shelley and inheritance; domestic violence and television; Rihanna and Chris Brown; socks, feet, wine, lines and grime; pork and bacon; rasta imagery; roots and dreadlocks; KMARH and ANBU; breadfruit; Turtles and input; Persil and hooks; infertility and Grimlock; fixtures, pictures and strikers; Postman Patois; BBK; laundry, glory and stories; EPG and friendship.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Frontline melody flip",
+            "description": "JM borrows VARNTAE's recognisable Soldier melody and repeatedly turns it against its owner."
+          },
+          {
+            "title": "Conflict-specific second",
+            "description": "The brother, domestic-violence, Rihanna, Chris Brown, pork and bacon material is built from specific opponent context."
+          },
+          {
+            "title": "Controlled third-round rhyme",
+            "description": "Turtles, input, Persil, hook, Grimlock, fixture, picture and striker form a compact opening before a longer multisyllabic run."
+          }
+        ]
+      },
+      {
+        "performer": "VARNTAE",
+        "overview": "VARNTAE wins the LOTA review 2-1 through the stronger first two rounds. Joseph, biblical imagery, interracial relationships and EastEnders give the opener a connected identity. The second is the battle's technical peak, repeatedly reworking JM, J, Joseph and Jackson through opponent-specific material. His third remains ambitious but loses clarity through restarts and the Cardiff-Bridgend dispute.",
+        "lyricalThemes": "Joseph and the biblical nativity; virginity and stability; interracial relationships; Jamaica, Cardiff and inherited racism; EastEnders characters; pamphlets, activists, tobacconists, J and Rizla; Just Move and Justified Murder; burning, smoking, ash, packs and gas; Zerkaa; one M and Eminem; condoms and Johnny; Joseph Merrick; vitiligo, race and white districts; backwards meanings and Michael Jackson; Muay Thai, coronavirus and jabs; Smooth Criminal; Bridgend and Welsh identity; black sheep, Little Bo Peep and autism; Hannibal Lecter and lambs; previous opponents; antisemitism, Zionists, Stalin and Biden; Welsh and English flags; Owen Hart.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Joseph and EastEnders opener",
+            "description": "JM's real name moves from the biblical Joseph into stability, then Peggy, Frank, Butcher, Grant and Ian Beale sustain a television scheme."
+          },
+          {
+            "title": "JM name construction",
+            "description": "Just Move, Justified Murder, J burning, packs, gas, one M and Joseph Merrick repeatedly reshape JM's initials and name."
+          },
+          {
+            "title": "Jackson and jabs sequence",
+            "description": "Michael Jackson movement, a Muay Thai daughter, coronavirus returning, jabs and Smooth Criminal connect music, fighting and vaccination."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "JM",
+        "theme": "Round 1 - Soldier melody",
+        "bar": "Soldier, Frontline Renegade Soldier - you cannot be around primary schools because the young girls give you a boner.",
+        "explanation": "JM adopts VARNTAE's signature Soldier melody, then sharply changes its subject into an accusation."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 - PenGame hold-up",
+        "bar": "I had to make VARNTAE on my own because a PenGame man couldn't hold up.",
+        "explanation": "Make and hold up imply creating or supporting VARNTAE, while also referring to their scheduled clash."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 - Friend versus page",
+        "bar": "I don't hate VARNTAE, but I hate this page - got a verse to kill him, but this is my mate.",
+        "explanation": "JM separates personal friendship from the battle page and the obligation to attack his opponent."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 - ANBU pressure",
+        "bar": "Put pressure on VARNTAE, bet the guy chokes - and I bet that he flops like me versus ANBU.",
+        "explanation": "JM uses his own earlier poor performance as the standard for the collapse he predicts for VARNTAE."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 1 - Stepson and frog",
+        "bar": "If you've got so much game, why were you looking after her stepson? She didn't want to birth your king because you looked like a frog.",
+        "explanation": "Game, relationships, parenthood, king and frog combine romantic and fairy-tale meanings, though JM later admits the stepson claim is cap."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 - DV and TV",
+        "bar": "Old-town idols dishing out DV, so I got rough-town on the TV.",
+        "explanation": "Domestic violence is abbreviated to DV and paired with TV as JM introduces the opponent-specific controversy."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 - Rihanna and Chris Brown",
+        "bar": "Claim your man shuts down work like RiRi, but your gang beats up girls like Breezy.",
+        "explanation": "Rihanna and Chris Brown are invoked through music success and Brown's assault of Rihanna."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 - Pork and bacon",
+        "bar": "You made VARNTAE lie to his mum about eating pork - your home-cooked meals are full of bacon.",
+        "explanation": "JM remixes an earlier pork allegation and extends it with another prohibited meat."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 - Roots and dreads",
+        "bar": "I'll dig out your roots, make new dreads - watch him get lifted out the booth for his new friends.",
+        "explanation": "Roots are hair and origins, allowing removal of dreadlocks to become a wider identity attack."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 2 - League run",
+        "bar": "I smoked KMARH, smoked ANBU - now I have to deal with VARNTAE, who next?",
+        "explanation": "JM uses his claimed Champions League results to frame VARNTAE as the next opponent in a run."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 - Turtles and input",
+        "bar": "I get shelly like Turtles, so I don't ever want to hear your input.",
+        "explanation": "The Teenage Mutant Ninja Turtles' shells turn getting shelly into weapon talk before input dismisses VARNTAE's contribution."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 - Persil and hook",
+        "bar": "The ting's washed like Persil - I don't want to hear man singing on my hook.",
+        "explanation": "Persil detergent makes washed literal, while the hook returns to VARNTAE's melodic battle style."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 - Fixture and picture",
+        "bar": "They got us mismatched for the fixture - I'll rap man out of the picture, bad-boy striker and clincher.",
+        "explanation": "Fixture and striker use football, picture means removal from view, and clincher adds fighting language."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 - Postman Patois",
+        "bar": "Tell Postman Patois I'm in a Raptor, Horizon impulse - terrorise and insult, separate guys from insoles.",
+        "explanation": "A rapid multisyllabic run links a named associate, vehicles, aggression and footwear through sound."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 - BBK",
+        "bar": "You've got too many men on your sideline - BBK, you're a white man, simple.",
+        "explanation": "JM uses BBK and VARNTAE's circle to challenge the authenticity of his identity."
+      },
+      {
+        "performer": "JM",
+        "theme": "Round 3 - Laundry and deli",
+        "bar": "VARNTAE gets washed like laundry trying to locate glory - bars loaded, get shelly; dreadlocks smelly, mouthful of beef like a deli.",
+        "explanation": "Laundry, glory, story, ready, Shelley, smelly and deli create a long closing sound chain around washing, weapons and food."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 - Biblical Joseph",
+        "bar": "Your name's Joseph and you think you're the biblical version - your girl gave you a baby, but she was never no virgin.",
+        "explanation": "JM's real name becomes the biblical Joseph, with Mary and virgin birth inverted through his relationship."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 - Interracial whip",
+        "bar": "You think your girl being Black doesn't count because she's interracial - put a whip to her skin like resource.",
+        "explanation": "Race, skin and whipping create a deliberately provocative attack on JM's relationship and racial claims."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 - Jamaica and Cardiff",
+        "bar": "You rep Jamaica but you've never been there - my guys take over Cardiff strips and sell heroin there.",
+        "explanation": "VARNTAE contrasts JM's claimed heritage with his Welsh location and a threat of controlling that territory."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 - EastEnders",
+        "bar": "You and your girl get Peggy; keep it Frank, you should both get Butchered - Grant your wish, meet your brothers.",
+        "explanation": "Peggy Mitchell, Frank Butcher and Grant Mitchell are embedded as actions inside an EastEnders scheme."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 1 - J and Rizla",
+        "bar": "Smoke this J with peace when I pass the Riz - getting wrapped in Rizla, black turns white in the ash.",
+        "explanation": "J means JM and a joint, while Rizla paper, wrapping, smoke and ash complete the cannabis scheme."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 - Justified murder",
+        "bar": "JM - just move or it might be justified murder.",
+        "explanation": "JM's initials are expanded into a warning and legal phrase."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 - Pack and gas",
+        "bar": "This J gets burned, smoked, ashed and curb-stomped - pack J while J gets gassed off the packs that he works on.",
+        "explanation": "J is JM and a joint, linking burning, smoke, ash, packing and gas."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 - Zerkaa",
+        "bar": "Your girl shows ass with her skirt off - Sideman, so we call him Zerkaa.",
+        "explanation": "Skirt off supplies the sound for Zerkaa, a member of the Sidemen."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 - Joseph Merrick",
+        "bar": "I don't care about Joseph Merrick - this journeyman's getting boxed for the bread.",
+        "explanation": "Joseph Merrick attacks appearance, while journeyman and boxed move into fighting and bread means payment."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 - Vitiligo and backwards",
+        "bar": "On the mic you don't get jacked, so you try acting Black - born in the whitest district; JM's not bad, that's backwards.",
+        "explanation": "VARNTAE attacks JM's racial presentation and reverses the compliment 'not bad' into a negative judgement."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 2 - Muay Thai and jabs",
+        "bar": "You taught your daughter Muay Thai - you'd think Corona was back, this sheep has his daughter holding jabs.",
+        "explanation": "Fighting jabs become vaccination jabs, while sheep invokes anti-vaccine rhetoric and the father-daughter training footage."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 - Bridgend black sheep",
+        "bar": "Home of a suicide cluster, 26 lives in Bridgend - you split two bars because you want to be the black sheep of your village.",
+        "explanation": "VARNTAE uses a real Welsh tragedy and the black-sheep idiom to attack JM's relationship with his area."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 - Hannibal Lecter",
+        "bar": "How can you be Hannibal Lecter? I'm the one who silenced the lamb.",
+        "explanation": "Hannibal Lecter and The Silence of the Lambs become a claim that VARNTAE has already silenced JM."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 - Zionists",
+        "bar": "Have you been at PenGame all this time and you're still not as cold as Zionists?",
+        "explanation": "The line answers JM's antisemitic controversy with a deliberately provocative comparison about longevity and coldness."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 - Welsh flags",
+        "bar": "You brought up red flags - this red flag is King George's cross; catch that dragon and pour it up.",
+        "explanation": "Red flags become the English St George's Cross and the Welsh dragon, turning national symbols into the regional angle."
+      },
+      {
+        "performer": "VARNTAE",
+        "theme": "Round 3 - Owen Hart",
+        "bar": "I'm the sharpshooter with four fingers locked - today he can die in his teeth, like Owen your heart will stop.",
+        "explanation": "The Sharpshooter wrestling hold and Owen Hart's death create a wrestling-based closer."
+      }
+    ],
+    "oddMoments": [
+      "JM wins his first coin toss and immediately sends VARNTAE first.",
+      "JM's opening primary-school punch is reloaded before the verse properly continues.",
+      "JM openly admits during the first-round reaction that the stepson allegation is cap.",
+      "VARNTAE's second receives multiple reloads, including the Michael Jackson and Muay Thai section.",
+      "VARNTAE's third is restarted after the room disputes describing Bridgend as Cardiff.",
+      "The upload repeats part of JM's closing after the formal end of the battle."
+    ],
+    "coolMoments": [
+      "VARNTAE's Peggy, Frank, Butcher and Grant sequence gives the opener an extended EastEnders payoff.",
+      "JM's use of VARNTAE's Soldier melody earns the battle's first immediate reload.",
+      "VARNTAE's Just Move and Justified Murder opener establishes a dense second-round name scheme.",
+      "JM's Rihanna and Chris Brown answer directly addresses material from VARNTAE's circle.",
+      "JM's final Turtles, Persil and fixture sequence delivers his cleanest round."
+    ],
+    "postBattleContext": "Margs asks the live room to scan the voting code and tells viewers at home that website voting is open for 48 hours. No result count or official winner appears in the preserved source, so the winner is recorded only as an explicitly independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "VARNTAE wins 2-1 (LOTA Result)",
+      "summary": "VARNTAE takes round one with the more connected Joseph, stability, race, EastEnders and smoking-J construction. He wins round two through the battle's best JM-name, Joseph Merrick, Michael Jackson and father-daughter writing. JM takes round three with the cleaner Turtles, Persil, fixture, Postman Patois and EPG performance after VARNTAE's final is disrupted by restarts and a geography dispute."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-anbu-sensei-vs-relapse",
@@ -67267,16 +72392,277 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "40k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "44k",
+    "videoUrl": "https://www.youtube.com/watch?v=UOdZkGeJFnc",
+    "winner": "anbu-sensei",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "ANBU SENSEI and RELAPSE met in Champions League Fixture 3. ANBU won the coin toss and sent himself first. The upload preserves no official audience count or declared winner, so the result below is an independent LOTA review.\n\nANBU's first combined battle history, science-fiction references and punctuation. Kneecaps and the impossibility of coming back after death turned RELAPSE's name against him. Peppa and George, a failed abortion, Star Wars through raising hands solo and Jabba the Hutt, then Alien X created a long appearance section. A dot to the head became a sentence, period and time of the month. ANBU referenced RELAPSE's losses to LC and SKAMZ, Reform and fear of darkness, Anne Frank, Gervonta Davis as a tank and Seth Rollins cashing Money in the Bank. A restart repeated most of the verse, but the completed round was substantial.\n\nRELAPSE's first was compact and direct. Bursting heads led into ANBU's mother not having working legs, burning dreads became reheating work at Greggs, and Silver Surfer, swerving, flirting with death and a curb step formed the central rhyme. Squidward and appearance attacks led into the whole country being sanctioned, an ambulance and decapitating a man like Amberlynn. RELAPSE attacked ANBU's viral clip, KANDI making him look weak, and his performances in March, April and May before closing on Gohan activating and smashing him like a plate. The round lands, but is much shorter than ANBU's.\n\nANBU's second was the battle's longest round. He began by asking why he was clashing a random opponent, then moved through SKAMZ making RELAPSE cry, a miscarriage and a partner leaving for a darker man. Reform became fear of the dark, followed by dogs at night and an ex's OnlyFans. Jim Crow, Harvey Price and thinking Margs was white extended the deliberately offensive political material. A declined Tesco card led into Skyrim; Fortnite and Warzone created a gaming sequence; Taliban became a gulag; two packs became Tupac; and Hell's Kitchen became Wilson Fisk. ANBU closed with football-related misconduct references involving Adam Johnson, Benjamin Mendy and Mason Greenwood. A crowd reload caused almost the entire round to be repeated.\n\nRELAPSE's second was fuller than his first and attacked ANBU's lifestyle and appearance. The cost of living became a box of chicken on tick; clocks ticking led into a room full of pots of urine; acne and spots drove repeated skin material. Sensei injecting acid, being over the top like a Jetsons jacket, expensive habits, flaking skin and the dark web followed. RELAPSE then attacked ANBU's anime schemes, trainer fetish, breath, family, self-harm imagery and living conditions before turning Dr Evil into Austin Powers. It was his strongest round, but ANBU's broader construction edges it.\n\nANBU's third shifted into television, music, social media and football. Phil Mitchell and Croydon led to meeting an end in the East; Joe Jackson, getting beat, Human Nature, forgotten lines, Dangerous, the closet and PYT formed an extended Michael Jackson sequence. Instagram, MySpace, Facebook, Snapchat, Skype, Twitch, YouTube Live and TikTok became a platform-by-platform threat. ANBU then attacked RELAPSE's political claims and PenGame pay before closing through Saka, Toney, Bellingham and Trent under pressure, Air Max, shells and an Arsenal red shirt.\n\nThe source ends after ANBU calls time. Margs asks the room to vote and announces the 48-hour window, but no RELAPSE third round is present in the recording or transcript. This leaves the final round uncontested in the preserved battle.\n\nLOTA scores ANBU SENSEI 3-0. ANBU takes the first through the fuller Star Wars, Alien X, punctuation, Tank and Money in the Bank writing; edges the second through greater range despite RELAPSE's strongest response; and takes the third uncontested because no RELAPSE final appears in the source.",
+    "performanceAnalysis": [
+      {
+        "performer": "ANBU SENSEI",
+        "overview": "ANBU SENSEI wins the LOTA review 3-0. His advantage is depth and reference range: Star Wars, Alien X, punctuation, wrestling and boxing organise the first; politics, games and football misconduct fill the second; and Michael Jackson, social networks and football control the third. Reloads make the first two rounds repetitive, but he completes all three while RELAPSE has no preserved final.",
+        "lyricalThemes": "RELAPSE's name and kneecaps; Peppa and George; abortion; Star Wars, Han Solo and Jabba the Hutt; Alien X; dots, sentences, periods and menstruation; LC and SKAMZ; Reform and darkness; Anne Frank; Gervonta Davis and tanks; Seth Rollins and Money in the Bank; miscarriages and relationships; Jim Crow and Harvey Price; Tesco and Skyrim; Fortnite, Warzone and the gulag; Tupac; Hell's Kitchen and Wilson Fisk; Adam Johnson, Benjamin Mendy and Mason Greenwood; Phil Mitchell and EastEnders; Joe Jackson and Michael Jackson songs; social-media platforms; immigration and PenGame pay; Saka, Toney, Bellingham, Trent and Arsenal.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Punctuation scheme",
+            "description": "A dot to the head becomes a sentence, period and time of the month, turning grammar into a threat."
+          },
+          {
+            "title": "Michael Jackson closer",
+            "description": "Joe Jackson, beat, Human Nature, remembered lines, Dangerous, the closet and PYT sustain a recognisable music catalogue."
+          },
+          {
+            "title": "Social-network sequence",
+            "description": "Instagram, MySpace, Facebook, Snapchat, Skype, Twitch, YouTube Live and TikTok are each given a battle meaning."
+          }
+        ]
+      },
+      {
+        "performer": "RELAPSE",
+        "overview": "RELAPSE loses the LOTA review 3-0, with his second his strongest round. His writing is direct and specific: ANBU's viral clip, KANDI battle, anime image, acne, habits and living conditions all appear. The first is too short to match ANBU's opener, the second is competitive but less layered, and no third round appears in the preserved source.",
+        "lyricalThemes": "ANBU's mother and mobility; dreads and Greggs; Silver Surfer, swerving and flirting with death; Squidward; sanctions, ambulances and Amberlynn; viral clips and KANDI; Gohan and plates; cost of living and buying food on tick; clocks and urine; acne, spots and acid; Jetsons clothing; sniff and expensive habits; flaking skin; the dark web; anime schemes; trainers and breath; family, self-harm and housing; Dr Evil, Austin Powers and John Wick.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Compact first-round rhyme",
+            "description": "Heads, legs, dreads, Greggs, flex, event, ahead, death, plebs and step create a rapid opening sound chain."
+          },
+          {
+            "title": "Opponent-specific research",
+            "description": "The viral clip, KANDI, monthly battles, anime schemes and trainer material clearly target ANBU rather than a generic opponent."
+          },
+          {
+            "title": "Lifestyle second",
+            "description": "Food on tick, urine, expensive habits, dirty dishes and a garden shed build a coherent poverty and hygiene attack."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — No comeback",
+        "bar": "I'm out here for your kneecaps — if you die, you won't come back; I don't give one fuck if your name is RELAPSE.",
+        "explanation": "Relapse usually means returning to an earlier state, but ANBU says death makes that return impossible."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Star Wars",
+        "bar": "I'm a star in a war if I raise hands solo — definitely aim at Jabba the Hutt.",
+        "explanation": "Star, war, hands solo and Jabba the Hutt combine into a Star Wars scheme, with Han Solo hidden inside hands solo."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Dot and period",
+        "bar": "I'll put a dot to his head for a sentence — period, it's that time of the month.",
+        "explanation": "A dot ends a written sentence as a period, which also means menstruation."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — LC and SKAMZ",
+        "bar": "I would've never got smoked by LC and I would've never got bullied by SKAMZ.",
+        "explanation": "ANBU uses RELAPSE's previous Champions League losses as direct evidence for the mismatch."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Reform darkness",
+        "bar": "You and your people voted for Reform... you know how dark it gets in your dreams; you can't stand the drivers.",
+        "explanation": "The political reference becomes an accusation about race and fear of darkness."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Tank",
+        "bar": "Call me Gervonta Davis — it's like this, you can never try a Tank.",
+        "explanation": "Boxer Gervonta Davis is nicknamed Tank, making the bout and military meanings work together."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 — Money in the Bank",
+        "bar": "Think you're a heavyweight? I'm Seth Rollins — wait till I cash my Money in the Bank.",
+        "explanation": "Seth Rollins famously cashed in WWE's Money in the Bank contract during a heavyweight title match."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Darker guy",
+        "bar": "Why did your girl miscarry your baby and then leave you for a darker guy? Now I know why you voted for Reform — scared of the dark at night.",
+        "explanation": "Darker describes skin tone and nighttime, connecting the relationship allegation with the political attack."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Skyrim",
+        "bar": "Go Tesco and your card declines; you pay girls to lift them up and eat them up, and you call it Skyrim.",
+        "explanation": "The game title is split toward sky and rim, following the lifting action in the crude setup."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Fortnite and Warzone",
+        "bar": "Easily smoke this guy in a fortnight — in a Warzone, I could have man flying.",
+        "explanation": "Fortnight becomes Fortnite before Warzone names another battle-royale game."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Hell's Kitchen",
+        "bar": "Ramsey in Hell's Kitchen — this fat little bitch is Wilson Fisk.",
+        "explanation": "Gordon Ramsay and Hell's Kitchen establish the cooking show before Wilson Fisk supplies the large comic-book villain."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 — Football misconduct",
+        "bar": "Watch what you say, Adam Johnson... I don't care if it's true or false, your career is fucked like Benjamin Mendy.",
+        "explanation": "Two footballers associated with criminal cases turn the allegation into a career-ending comparison."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Michael Jackson",
+        "bar": "Right now I'm Joe Jackson — if you do well, you won't get beat. You being shit is just Human Nature, considering you can't remember your lines.",
+        "explanation": "Joe Jackson's abusive reputation, Beat It and Human Nature begin an extended Michael Jackson catalogue."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Dangerous and PYT",
+        "bar": "Dangerous trying to stay in the closet when you love touching a PYT.",
+        "explanation": "Dangerous and PYT are Michael Jackson titles, while the closet and touching angle make them part of the accusation."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Social platforms",
+        "bar": "Turn to her Instagram if you're in MySpace; now you've got a Facebook... if your body Twitch, I'll kick, then YouTube Live I'm streaming your death.",
+        "explanation": "Instagram, MySpace, Facebook, Twitch and YouTube Live are fitted into one threat about place, face and broadcasting."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 — Football pressure",
+        "bar": "Saka, Toney, Bellingham and Trent — pressure, what pressure? Tonight I'm deciding your life.",
+        "explanation": "The named England players invoke high-pressure football before ANBU dismisses pressure in the clash."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Greggs",
+        "bar": "I'll burn his dreads — don't talk about pasties, reheating your work at Greggs.",
+        "explanation": "Burning and reheating combine with Greggs and pasties to attack ANBU's reused material."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Silver Surfer",
+        "bar": "ANBU's on a Silver Surfer flex — it's the third event, I'm gonna swerve ahead. You wanna flirt with death, I'll murder plebs and place his face on a curb and step.",
+        "explanation": "Surfer, swerve, flirt, murder, curb and step sustain a dense internal rhyme while Silver Surfer supplies the comic reference."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Country sanctioned",
+        "bar": "The stuff that comes out of ANBU's spots is enough to get the whole country sanctioned.",
+        "explanation": "Spots are acne and locations, while sanctions exaggerate the supposed danger of what emerges from them."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Ambulance and Amberlynn",
+        "bar": "Get this geezer an ambulance — I'll decapitate man like Amberlynn.",
+        "explanation": "Ambulance and Amberlynn carry the sound, with Amberlynn Reid supplying the appearance reference."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Viral clip",
+        "bar": "You were part of a viral clip — nothing you did was a viral hit. Millions of views, but KANDI made the prick look like a right old bitch.",
+        "explanation": "RELAPSE distinguishes appearing in popular footage from creating the popularity, then names KANDI as the cause."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 1 — Gohan and plate",
+        "bar": "I'm Gohan when I wanna activate... I'll break him apart like I smashed a plate.",
+        "explanation": "Gohan supplies the anime power-up before physical breaking closes the attack."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Cost of living",
+        "bar": "You're a victim to the cost of living — bossman ticked him a box of chicken.",
+        "explanation": "Buying food on credit from a takeaway becomes evidence of the wider cost-of-living pressure."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Clocks and pots",
+        "bar": "He'll get spun like clocks that tick, and his room's got lots of pots of piss in.",
+        "explanation": "Spinning and ticking establish the clock before pots and urine continue the rhyme as a hygiene attack."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Sensei acid",
+        "bar": "How did he think he was ever gonna win? Sensei must've injected acid.",
+        "explanation": "ANBU's Sensei title becomes the subject whose judgement is supposedly distorted by drugs."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Jetsons jacket",
+        "bar": "My last performance left him panicked — I'm over the top like Jetsons jackets.",
+        "explanation": "The futuristic cartoon's clothing sits high and exaggerated, literalising being over the top."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Expensive habits",
+        "bar": "You can mention sniff — that just means I don't pay for expensive habits.",
+        "explanation": "RELAPSE reframes drug accusations as evidence that other people fund the habit."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Flake",
+        "bar": "I can't share bags with him — the only flake that ANBU's got are the flakes that fall off his manky skin.",
+        "explanation": "Flake means cocaine and dry skin, turning the drug setup back into the acne and hygiene angle."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Dark web",
+        "bar": "He's been on the dark web, nasty grim — somebody chucks £45 on stage for RELAPSE to pass to him.",
+        "explanation": "The dark web and cash on stage frame ANBU as seeking money or illicit material through RELAPSE."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Anime fame",
+        "bar": "Man does anime schemes and he thinks he's famous — he smells like he stepped in shit, got a fetish for sniffing trainers.",
+        "explanation": "ANBU's signature anime writing is dismissed as false fame before the line returns to smell and footwear."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Mint and breath",
+        "bar": "I'm fresh like minty flavours, and his breath's simply dangerous.",
+        "explanation": "Mint freshness is placed directly against ANBU's supposedly dangerous breath."
+      },
+      {
+        "performer": "RELAPSE",
+        "theme": "Round 2 — Dr Evil",
+        "bar": "ANBU's soggy like socks in showers — try say that I'm Dr Evil, but you get about like Austin Powers.",
+        "explanation": "Dr Evil and Austin Powers are opposing characters from the same film series."
+      },
+    ],
+    "oddMoments": [
+      "The transcript opens with previews from ANBU's second and RELAPSE's first before the Champions League explainer.",
+      "ANBU wins the toss and elects to go first.",
+      "ANBU's opening is restarted after only three lines, then much of the completed round is repeated again following a musical interruption.",
+      "Margs calls RELAPSE's first 'round two' even though it is his opening response.",
+      "ANBU's second receives a crowd-demanded reload and is performed almost completely twice.",
+      "The battle contains racist, ableist, violent, sexual, family, drug, body-shaming, self-harm, dead-relative and miscarriage material documented as performance rather than endorsed by the archive.",
+      "After ANBU's third, the host immediately closes the battle and opens voting; no RELAPSE third round appears in the source.",
+      "Voting is opened for 48 hours, but no official tally or declared winner appears in the source."
+    ],
+    "coolMoments": [
+      "ANBU's Han Solo/Jabba the Hutt and dot/sentence/period passages give his opener two clear technical peaks.",
+      "RELAPSE's Silver Surfer, swerve, death, plebs and curb sequence is the strongest compact rhyme in his first.",
+      "ANBU's Fortnite/Warzone, Hell's Kitchen/Wilson Fisk and football-misconduct references give his second exceptional range.",
+      "RELAPSE's cost-of-living and flake/skin lines make his second a focused lifestyle rebuttal.",
+      "ANBU closes with connected Michael Jackson, social-network and England-football sequences.",
+      "The preserved battle ends after ANBU's third, making the absent RELAPSE final an important archive note rather than silently treating the round as performed."
+    ],
+    "postBattleContext": "Margs closes the battle immediately after ANBU's third and directs the room to the QR code, with online voting open for 48 hours. No RELAPSE third round, public tally or declared winner appears in the source, so the original unknown result is replaced only by the clearly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: ANBU SENSEI wins 3-0",
+      "summary": "LOTA round split: ANBU takes round one through the fuller Star Wars, Alien X, punctuation, Tank and Money in the Bank writing. He edges round two through greater scheme range across politics, gaming, television and football, although RELAPSE delivers his strongest and most focused response. The preserved source contains ANBU's complete third but no RELAPSE final, so round three is uncontested. No official PenGame tally is preserved, making this explicitly a LOTA result."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-jaycee-vs-kmarh",
     "slug": "jaycee-vs-kmarh",
     "mc1": "jaycee",
     "mc2": "kmarh",
-    "title": "JAYCEE vs K.MARH",
+    "title": "JAYCEE vs KMARH",
     "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
@@ -67287,16 +72673,274 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "39k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "40k",
+    "videoUrl": "https://www.youtube.com/watch?v=ylC2D2gI-kk",
+    "winner": "kmarh",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "JAYCEE and KMARH met in Champions League Fixture 3 at Boxpark Croydon. JAYCEE won the coin toss and sent KMARH first. The upload closes with the normal 24-to-48-hour voting reminder but preserves no public count or declared winner, so the result below is an independent LOTA review.\n\nKMARH opened by calling another meeting with JAYCEE the definition of insanity. The rematch and poster setup led into sinking boats, liquid smoke and Christmas privilege. He attacked JAYCEE for having no arms to rep in training, moved from drawing to Disney characters and a knife against a .50 calibre, then used Bigfoot, bread to body JC, church bells, ash melting, a fake chain and Stardawg. Blunt and rolling to an L sustained the weed scheme before the verse turned to JAYCEE's emotions and a father who never showed him the belt. A restart meant most of the round was performed twice, but the completed material was focused and direct.\n\nJAYCEE's first began through burial at night and in broad day, spinning in 4K and packing an opponent gourmet. Cornrows, a durag and the gulag led into telling KMARH to lower his tone. ZK, leg day, a hot boy and police tape built the central run before a rapid rapper, capper and slapper chain. Sound problems caused two restarts. Once settled, JAYCEE added a big hammer, called KMARH's raps boring, compared the clash to Vendetta and Passive, referenced rushing his previous verses and said a lost voice against WHOISORION had hidden his real level. The performance was forceful, but KMARH's opener contained more complete opponent-specific writing.\n\nKMARH's second was the battle's strongest constructed round. Sending a box to JAYCEE's yard became being returned to the infant stage; receipts, Christmas J, an exchange, different K and gifted B extended the present scheme. Eighty steps ahead, rising and making bread led into a false prophet not making cents. Beef on the plate became being vegetarian, Chief Keef led to asking why half of JAYCEE's claims were lies, and begging RD for a reply became police talk. A battery, nine months and out comes J built a birth sequence; Twix, a pound and powder Flake then attacked JAYCEE's mother before the drowning closer. Reloads repeated the round, but the writing remained layered.\n\nJAYCEE's second claimed the stage and attacked KMARH's best friend being a constable, his height and his ability to provide for his family. Ghost mode and the trap led into facts, doctors and a reality check. An artist with a dead gallery became a Mostack and gallery-left flip; sitting on the fence led into left and right attacks. JAYCEE extended the performance with broken kneecaps, forgetting Jordan, tearing linen in prison and Batman and Robin. The round was energetic and physically performed, but its ideas were less connected than KMARH's second.\n\nKMARH's third accused JAYCEE of acting like something he was not. Police and thieves running blocks contrasted real road life with acting for the camera; being suddenly shot converted camera language into violence. Speaking phrases and selling lines became a fake-road critique, while school and running home made rap a safe space. Smoke, bread, toast and jam formed the central food chain. KMARH then attacked JAYCEE's privileged upbringing, imagined being his old man, claimed his father could not raise a man and used the mother angle as the payoff. X Factor, PenGame and Jihadi Jack closed the career sequence. The crowd demanded multiple reloads, making the round memorable but heavily repeated.\n\nJAYCEE's third answered with family and drug material. Pops, filling up KMARH and producing a wasteman led into his mother holding something and taking Banks. Popcorn and popping molly developed the drug sound; a dummy being lit and packed followed. A rope and jumping became blackjack, then lines, a beaten flat, Frank, a dealer and a changed demeanour built the personal. Colombian hay fever was the sharpest punch, followed by refusing a feature, preferring a collaboration with IceJJFish, and contrasting being outside on the pitch with KMARH focused on FIFA. JAYCEE's uninterrupted finish edges the repeated KMARH third.\n\nLOTA scores KMARH 2-1. KMARH takes round one through the more direct rematch and father material, and round two through the battle's best Christmas, exchange, birth and confectionery construction. JAYCEE takes round three with the tighter drug-personal sequence and cleaner completed performance.",
+    "performanceAnalysis": [
+      {
+        "performer": "JAYCEE",
+        "overview": "JAYCEE loses the LOTA review 2-1 but finishes strongly. His first two rounds contain forceful delivery and several dense rhyme runs, though sound problems and repeated starts disrupt the opener and KMARH's writing is more connected in the second. The final is his clearest round: the family, cocaine, dealer, Colombian hay-fever and FIFA material lands without a reload and earns him the third.",
+        "lyricalThemes": "Burials, night and broad day; 4K; packing and gourmet food; cornrows, durags and the gulag; ZK, leg day, hot boys and police tape; rapid rhyme chains; hammers; Vendetta and Passive; WHOISORION; constables, height and family provision; ghost mode, traps, doctors and reality checks; galleries, Mostack, left and right; kneecaps, Jordan, prison linen, Batman and Robin; parents and production; popcorn and molly; dummies, ropes and blackjack; cocaine, dealers and Colombian hay fever; IceJJFish; pitches and FIFA.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Opening internal-rhyme run",
+            "description": "Night time, broad day, doorway, 4K, gourmet, four ways and court case create a long percussive entry despite the restart."
+          },
+          {
+            "title": "Gallery sequence",
+            "description": "Artist, gallery, Mostack, left, fence and right turn art and direction into one extended second-round attack."
+          },
+          {
+            "title": "Cocaine personal",
+            "description": "Lines, a beaten flat, Frank, a dealer, changed demeanour and Colombian hay fever develop one specific third-round allegation."
+          }
+        ]
+      },
+      {
+        "performer": "KMARH",
+        "overview": "KMARH wins the LOTA review 2-1. He consistently writes toward JAYCEE: the rematch, prior clashes, father, RD, mother and public persona make the attacks specific. His Christmas and gift-exchange second is the battle's most layered round. Multiple crowd reloads add repetition, especially in the third, but he establishes enough of an advantage in the first two rounds to take the decision.",
+        "lyricalThemes": "Insanity and rematches; posters, sinking boats and liquid smoke; Christmas privilege; arms and training; drawing and Disney; .50 calibre weapons; Bigfoot and bodying JC; church bells, ash and melting; fake chains, Stardawg, blunts and Ls; fathers and belts; boxes, infants, receipts, Christmas J, exchanges and gifts; steps, bread and false prophets; beef and vegetarian food; Chief Keef and RD; batteries, pregnancy, Twix and Flake; fake road personas; cameras and shots; school and rap as a safe space; smoke, bread, toast and jam; parents, X Factor, PenGame and Jihadi Jack.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Rematch opener",
+            "description": "The definition of insanity, another rematch, being tapped and knowing the result from the poster establish immediate battle context."
+          },
+          {
+            "title": "Christmas exchange",
+            "description": "A box, opening up, receipts, Christmas J, an exchange, different K and gifted B sustain present and retail meanings."
+          },
+          {
+            "title": "Bread, toast and jam",
+            "description": "Being smoked and burnt for bread moves naturally into toast, jam and the claim that JAYCEE is nowhere near a roadman."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 - Night and broad day",
+        "bar": "I'll bury man night time, bury him broad day - catch this prick at the doorway.",
+        "explanation": "Night, day and doorway open a sustained sound pattern while claiming there is no safe time or place."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 - 4K and gourmet",
+        "bar": "Spin it in 4K, get a man packed and turn him gourmet.",
+        "explanation": "High-resolution footage leads into packaging and preparing the opponent like premium food."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 - Durag and gulag",
+        "bar": "Drag the cornrows out of your durag - I've taken numerous men to the gulag.",
+        "explanation": "Durag and gulag anchor the rhyme while hair and forced removal make the threat visual."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 - ZK and leg day",
+        "bar": "I got faith in my raps like ZK - little man, I hope you did leg day.",
+        "explanation": "JAYCEE invokes ZK as a reference point before turning KMARH's size into a gym and leg-strength attack."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 - Hot boy",
+        "bar": "If I catch me a hot boy, police tape on the block like replay.",
+        "explanation": "Hot boy suggests a target and danger, while police tape marks the aftermath and replay suggests seeing it again."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 - Rhyme barrage",
+        "bar": "Shit rapper, big capper, riff-raff, chit-chat - one-bang bitch slapper.",
+        "explanation": "The rapid internal rhyme prioritises cadence and performance before the final physical punch."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 1 - Previous battle",
+        "bar": "I had no voice when I battled WHOISORION - this time you're going to know I'm here.",
+        "explanation": "JAYCEE explains a previous performance weakness and presents this clash as the corrected version."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 - Constable",
+        "bar": "This is my stage, don't get comfortable - your best mate is a constable.",
+        "explanation": "Stage ownership and comfortable rhyme into a direct accusation about KMARH's association with police."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 - Family provision",
+        "bar": "Do you know who I am? You're a man and you can't provide for your family.",
+        "explanation": "The boast becomes a direct adult-responsibility attack rather than a generic battle threat."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 - Ghost mode",
+        "bar": "Quit the rap, go ghost mode and hit the trap.",
+        "explanation": "Disappearing from music is paired with returning to the drug trade implied by trap."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 - Gallery",
+        "bar": "If you're an artist, your gallery's dead - I'll do a Mostack on your gallery left.",
+        "explanation": "Artist and gallery establish the visual-art meaning before Mostack and direction turn it into a music and movement reference."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 - Jordan",
+        "bar": "Slap him disorientated, another man asking, who's Jordan again?",
+        "explanation": "The blow supposedly causes enough confusion to forget the globally recognisable Michael Jordan."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 2 - Batman and Robin",
+        "bar": "I'm really a villain - Batman and Robin, man, mess up his vision.",
+        "explanation": "Superhero and villain identities frame the threat while Robin and vision support the sound pattern."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 - Popcorn and molly",
+        "bar": "My dog's popcorn - you and yours pop molly.",
+        "explanation": "Repeated pop sounds connect a named associate or descriptor with the act of taking MDMA."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 - Colombian hay fever",
+        "bar": "You came back inside and switched your demeanour - you've got Colombian hay fever.",
+        "explanation": "A cocaine allegation is compressed into Colombian origin and nasal allergy symptoms."
+      },
+      {
+        "performer": "JAYCEE",
+        "theme": "Round 3 - Pitch and FIFA",
+        "bar": "I was outside on the pitch while you focused on FIFA.",
+        "explanation": "Real football experience is contrasted with playing its video-game simulation indoors."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 - Definition of insanity",
+        "bar": "The definition of insanity is doing the same thing over and over - another rematch, I must be tapped.",
+        "explanation": "The familiar definition frames meeting JAYCEE again as irrational repetition, while tapped means both selected and unstable."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 - Sinking boat",
+        "bar": "You'll get soaked over flows on a sinking boat - liquid smoke when I rinse this talk.",
+        "explanation": "Flows become water, rinsing and liquid smoke inside a connected drowning image."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 - Arms and rep",
+        "bar": "Show the hands you kept, I'm waiting - you ain't got arms, couldn't rep while training.",
+        "explanation": "Arms are weapons and limbs, while rep means both representation and a gym repetition."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 - Disney draw",
+        "bar": "Bring none of that draw - something on a Disney character; what's a knife to a .50 calibre?",
+        "explanation": "Draw changes from pulling a weapon to drawing a cartoon before the small knife is outscaled by a firearm."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 - Bigfoot",
+        "bar": "They'll find Bigfoot before they find man - ironic how I got bread to body JC.",
+        "explanation": "An impossible search exaggerates the disappearance, while bread suggests both payment and the body of Jesus Christ."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 - Stardawg and blunt",
+        "bar": "JAY can't be a Stardawg - I'll be blunt, you roll to an L.",
+        "explanation": "Stardawg, blunt and roll are cannabis terms, while an L is also a loss."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 1 - Father's belt",
+        "bar": "This is what happens when dad's around but doesn't pattern - I can tell he never showed you the belt.",
+        "explanation": "A present but ineffective father becomes the explanation for JAYCEE's behaviour, with the belt implying discipline."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 - Christmas exchange",
+        "bar": "I kept all the receipts, so this isn't the same Christmas J - this exchange has a different K, I'm gifted, B.",
+        "explanation": "Receipts, Christmas, exchange and gifted sustain retail and present meanings while J, K and B address names and letters."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 - False prophet",
+        "bar": "Focus, rise and make some bread - a false prophet ain't making cents.",
+        "explanation": "Bread and cents mean money, while prophet sounds like profit and making sense becomes making cents."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 - Beef and veg",
+        "bar": "They didn't realise there's beef on your plate - you're veg, too late to save what's left.",
+        "explanation": "Beef means conflict and meat, allowing vegetarianism to become supposed weakness."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 - Chief Keef",
+        "bar": "You sit at home playing Chief Keef and cry - half the stuff you speak is a lie.",
+        "explanation": "The rapper reference supports the portrayal of JAYCEE performing toughness privately rather than living it."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 - Battery and birth",
+        "bar": "Pick up the battery - nine months later, out comes J.",
+        "explanation": "Battery shifts from power to impregnation, with nine months and J completing the birth sequence."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 2 - Twix and Flake",
+        "bar": "She bought a Twix with the pound they paid, then did enough with a powder Flake.",
+        "explanation": "A pound buys confectionery, while Flake is both a chocolate bar and cocaine."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 3 - Camera shot",
+        "bar": "All you do is act for the cam - all of a sudden you're shot.",
+        "explanation": "Being shot on camera changes into being shot with a weapon, reinforcing the accusation of performance."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 3 - Safe space",
+        "bar": "You ran home clearly shook - what changed? Rap is a safe space.",
+        "explanation": "KMARH argues JAYCEE's toughness exists only inside performance, not in his earlier real life."
+      },
+      {
+        "performer": "KMARH",
+        "theme": "Round 3 - Bread, toast and jam",
+        "bar": "Get smoked and burnt for the bread, then I'll toast man - bro, jam, you're nowhere close to a roadman.",
+        "explanation": "Smoke, burnt, bread, toast and jam extend the food scheme before roadman delivers the identity attack."
+      }
+    ],
+    "oddMoments": [
+      "KMARH is sent first after JAYCEE wins the coin toss.",
+      "KMARH's opening is performed almost completely twice after the crowd responds late.",
+      "JAYCEE's first is stopped and restarted twice because of sound and engineer problems.",
+      "KMARH's second receives several reloads and its central Christmas passage is repeated.",
+      "The crowd asks for KMARH's third multiple times; he initially refuses another reload before performing it again.",
+      "The upload ends with a voting-window reminder but no public tally or declared result."
+    ],
+    "coolMoments": [
+      "KMARH's Christmas exchange and gifted-letter sequence receives an immediate reaction.",
+      "JAYCEE recovers from the first-round sound problems and finishes with a forceful respect-on-my-name passage.",
+      "The crowd calls JAYCEE's left-and-right second-round section back.",
+      "KMARH's bread, toast and jam sequence is reloaded several times.",
+      "JAYCEE's Colombian hay-fever punch gives the battle a clean final-round highlight."
+    ],
+    "postBattleContext": "The host closes by reminding viewers that votes are normally open for roughly 24 to 48 hours. No completed audience tally or official winner is present in the source, so the archive records only the explicitly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "KMARH wins 2-1 (LOTA Result)",
+      "summary": "KMARH takes round one with more direct rematch, Stardawg and father material despite the reload. He clearly wins round two through the connected Christmas exchange, false-prophet, birth and confectionery writing. JAYCEE edges round three because his cocaine, dealer, Colombian hay-fever and FIFA sequence is tighter and completed without the repeated restarts that fragment KMARH's final."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-eddfirst-vs-star-co",
     "slug": "eddfirst-vs-star-co",
     "mc1": "eddfirst",
     "mc2": "star-co",
-    "title": "EDDFIRST vs STAR.CO",
+    "title": "EDDFIRST vs STAR CO",
     "date": "2026-05-31",
     "theme": "pengame",
     "season": "Champions League",
@@ -67307,9 +72951,268 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "37k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "39k",
+    "videoUrl": "https://www.youtube.com/watch?v=7UvyputxltY",
+    "winner": "eddfirst",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "EDDFIRST and STAR CO met in Champions League Fixture 3 at Boxpark Croydon. STAR CO won the coin toss and chose to go first. Margs reacts to EDDFIRST's closer with 'that's three' and tells STAR CO he got killed, but the battle is still sent to the QR and website vote and no completed tally is preserved. The result below remains an independent LOTA review rather than an official PenGame decision.\n\nSTAR CO's first committed to an extended weight attack. EDDFIRST became Snorlax, too large for a Poké Ball and unable to finish a PenGame foot race. His name supposedly held weight only because his belly had become involved. Jelly Babies, sharing sweets and eating alone developed the food theme. A dog, sheets, meat and ringworm moved into cheeseburgers, fridges and cooking a three-course dinner at night. STAR CO closed with shops, drinks, double-o'clock stages, digging dirt, putting EDDFIRST in the earth and needing a forklift to lift him. The verse is energetic and receives an immediate wheel-up, but most of it stays on one familiar angle.\n\nEDDFIRST's first asked whether STAR CO was nineteen or thirty and blamed a difficult paper round. Paper became newspapers, money and doing free clips while waiting to get paid. A text telling him to kill STAR CO became listening to what Margs said. EDDFIRST called the clash the remains of what VARNTAE had left, then used cash playing hide-and-seek, a lost mind and feet nobody wanted to find. Spice, frequently dyed hair and a facial mark followed. He contrasted STAR CO's lack of stage reaction with the miracle and reactions his own writing could create, before saying throwing STAR CO into the crowd would be the only way anyone caught his wave. A cake-from-his-mother closer returned to weight while keeping the round broader and more opponent-specific.\n\nSTAR CO's second said EDDFIRST had once been slim before becoming fat. The central personal alleged that an uncle's kebab shop and sexual abuse had led to free doughnuts. A planned flight to Spain became eating cakes at customs and being removed when the aircraft could not lift. STAR CO questioned how EDDFIRST's legs supported him, then threatened his estate and family. Cheese injections, the fifth dimension, eating a sentence and stealing from Tesco's sweets section closed a short but coherent continuation of the weight theme.\n\nEDDFIRST's second attacked STAR CO for acting like a bad man in a dirty tracksuit. One glove became Michael Jackson and keeping a hand clean for a cousin, leading into an explicit incest allegation based on a previous video. Smoking food versus emptying a fridge and smoking shots versus emptying a clip formed the central parallel. KANDI checking an irrelevant opponent led into STAR CO wearing a fishnet shirt and using Plenty of Fish. Rasta, pasta, disaster, fish, master and pastor created a long name-and-image sequence. EDDFIRST closed by recalling STAR CO bottling an approach to models and by returning to the cousin angle. It is considerably more layered than STAR CO's response.\n\nSTAR CO's third opened by warning EDDFIRST not to discuss cousins or press buttons because he had put his hands around J-Walks. John Wick losing his dog became EDDFIRST as a new fluffy friend who took long walks. Cuddling, a bed attachment and John's name became a crude sexual sequence. STAR CO then used riding and a leaning vehicle before Piccolo's Special Beam Cannon, Kamehameha and Goku formed a brief Dragon Ball finish. The round ends quickly and supplies too little material to compete with EDDFIRST's final.\n\nEDDFIRST's third initially tries to play a controversial tune from a live broadcast before the host stops it. He then attacks STAR CO's attempt to market PenGame through an AG TikTok Live, turning marketing art into Stockholm and apologising on Margs's behalf. A mark on STAR CO's cheek, mirror imagery and spelled letters moved into asking why he rapped like he was casting a spell and charging it to hell. EDDFIRST revisited STAR CO saying 'mum's life' before mentioning TRAPPY and accused him of lying. Undertaker, Liverpool, Y2K, Chris Jericho, Venom, episodes, pterodactyl, velodrome, megaphone and echelon drove a long closing rhyme. A top turned red like fake Montclair preceded the final claim that nobody would care if STAR CO died.\n\nLOTA scores EDDFIRST 3-0. EDDFIRST takes the first through the more varied paper-round, money, VARNTAE, reaction and wave writing; wins the second decisively through the Michael Jackson, cousin, food-versus-shots and fishnet construction; and takes the third because STAR CO's brief Dragon Ball response cannot match the contextual TikTok Live, 'mum's life,' wrestling and Montclair closer.",
+    "performanceAnalysis": [
+      {
+        "performer": "EDDFIRST",
+        "overview": "EDDFIRST wins the LOTA review 3-0. His first answers STAR CO's weight material with paper, money, VARNTAE, stage reaction and crowd-wave angles. His second is the battle's strongest round, connecting the opponent's tracksuit and glove to Michael Jackson before moving through researched cousin and Plenty of Fish material. The final is far longer and more contextual than STAR CO's abbreviated response.",
+        "lyricalThemes": "Age and paper rounds; newspapers, free clips and payment; Margs and text messages; VARNTAE; cash, hide-and-seek, lost minds and feet; spice, hair dye and facial marks; miracles, reactions and waves; cake and mothers; bad men, tracksuits, gloves and Michael Jackson; cousins and alleged incest; food, fridges, shots and clips; KANDI; fishnet shirts and Plenty of Fish; rasta, pasta, disaster, fish, masters and pastors; models and bottling; AG, TikTok Live and PenGame marketing; Stockholm; mirrors, cheeks and spelling; casting spells and hell; TRAPPY and 'mum's life'; Undertaker, Liverpool, Y2K, Chris Jericho and Venom; pterodactyls, velodromes, megaphones, Montclair and death.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Paper-round scheme",
+            "description": "Age, newspaper delivery, papers, money and free clipping create a connected opening before EDDFIRST gets paid."
+          },
+          {
+            "title": "Food versus gunfire parallel",
+            "description": "STAR CO smoking food leads to an emptied fridge, while smoking shots leads to EDDFIRST emptying a clip."
+          },
+          {
+            "title": "Extended closing rhyme",
+            "description": "Undertaker, Liverpool, Y2K, Jericho, Venom, episodes, pterodactyl, velodrome, megaphone and echelon sustain the final performance."
+          }
+        ]
+      },
+      {
+        "performer": "STAR CO",
+        "overview": "STAR CO loses the LOTA review 3-0. His first performs well and holds a consistent Snorlax, food and weight theme, but EDDFIRST answers with more variety. The second continues the same angle through a plane and food personal, while the third is especially short. His best technical moment is the Pokémon opener; the Dragon Ball ending arrives cleanly but cannot compensate for the limited final-round volume.",
+        "lyricalThemes": "Snorlax and Poké Balls; foot races and running; names carrying weight and bellies; Jelly Babies and sharing sweets; dogs, sheets, meat and ringworm; cheeseburgers, fridges and three-course dinners; shops, drinks, earth, forklifts and lifting; former thinness; kebab shops, doughnuts and alleged abuse; Spain, customs, cakes and aircraft; legs and estates; cheese injections, fifth dimensions, eating sentences and Tesco sweets; cousins and J-Walks; John Wick, dogs, fluffy friends, cuddling and long walks; beds and John's name; vehicles leaning; Piccolo, Special Beam Cannon, Kamehameha and Goku.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Snorlax opener",
+            "description": "EDDFIRST's size becomes Snorlax, a Poké Ball, repeated blasts and being the last finisher in a race."
+          },
+          {
+            "title": "Airport sequence",
+            "description": "Spain, customs, cakes, boarding and an aircraft unable to lift build a connected travel and weight passage."
+          },
+          {
+            "title": "Dragon Ball closer",
+            "description": "Piccolo, Special Beam Cannon, Kamehameha and Goku give the brief third a recognisable anime finish."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 - Paper round",
+        "bar": "Are you nineteen or thirty? I'm mad at your paper round - hand-me-down rapper, never see STAR when paper's round.",
+        "explanation": "A childhood newspaper job explains apparent ageing before paper changes into money and STAR CO's lack of success."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 - Free clips and paper",
+        "bar": "Dedicated to clipping for free, told them, 'When I get paper round.'",
+        "explanation": "Clipping means making video clips, while paper round means both newspaper work and eventually being paid."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 - Margs said",
+        "bar": "Got a text saying go kill STAR CO, so I had to listen to what Margs said.",
+        "explanation": "A supposed message from the host becomes direct permission to attack the opponent."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 - VARNTAE left",
+        "bar": "I don't care what he's saying in this battle - I'm just killing what VARNTAE left.",
+        "explanation": "EDDFIRST uses STAR CO's previous battle as evidence that the opponent is already damaged."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 - Hide-and-seek",
+        "bar": "Show them all buying, leave your cash playing hide-and-seek - lost your mind, nobody wants to find your feet.",
+        "explanation": "Missing cash becomes a hiding player before lost mind and missing feet extend the search language."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 1 - Catching a wave",
+        "bar": "If I launch this neek into the crowd, that's the only time they're catching his wave.",
+        "explanation": "Catching an artist's musical wave becomes the crowd physically catching STAR CO."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 - Bad and glove",
+        "bar": "Act like a bad dude, clash in a dirty tracksuit - one glove, Michael Jackson, guess that's what he meant by Bad.",
+        "explanation": "Michael Jackson's single glove and album Bad turn STAR CO's outfit and persona into a music reference."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 - Cousin glove",
+        "bar": "Why did he need the glove? To keep his hand clean for his cousin.",
+        "explanation": "The Michael Jackson glove setup changes into a researched and deliberately offensive family allegation."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 - Fridge and clip",
+        "bar": "You smoke food, I empty the fridge; you smoke shots, I empty the clip.",
+        "explanation": "Smoking food and smoking gunfire create parallel responses through fridge and ammunition clip."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 - Plenty of Fish",
+        "bar": "He was on the net in that fishnet T-shirt - his favourite website's Plenty of Fish.",
+        "explanation": "Net, fishnet and the dating site's name form a connected clothing, fishing and online sequence."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 2 - Rasta and pasta",
+        "bar": "You're at the bottom of the rasta, your trim looking like pasta - this clash is disaster, nothing but fish to a rasta.",
+        "explanation": "Rasta, pasta, disaster and master sustain the rhyme while attacking hair and identity."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 - Marketing art",
+        "bar": "PenGame mixtape, AG TikTok Live - who let this fool try to market the art like Stockholm?",
+        "explanation": "Marketing art compresses into market art before Stockholm turns promotion into a city reference."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 - Mirror and cheek",
+        "bar": "Every time he looks in the mirror it's peak - why's that shit on your cheek?",
+        "explanation": "The facial mark becomes the reason STAR CO's reflection is supposedly difficult to face."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 - Casting a spell",
+        "bar": "Why does he rap like he's casting a spell? Bank test, man has charged you to hell.",
+        "explanation": "Spell-like cadence leads into charging as magical attack and financial payment."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 - Mum's life",
+        "bar": "You said 'mum's life,' weren't mentioning TRAPPY, then dropped his name and swore down, then lied.",
+        "explanation": "EDDFIRST uses a specific prior statement to challenge STAR CO's honesty and credibility."
+      },
+      {
+        "performer": "EDDFIRST",
+        "theme": "Round 3 - Montclair finish",
+        "bar": "Throw this boy off the top stairs, leave his top red like fake Montclair - if STAR CO died, they would not care.",
+        "explanation": "Top means head and clothing, while a red damaged coat leads into the final name-based death claim."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Snorlax and Poké Ball",
+        "bar": "A Snorlax too fat for his Poké Ball - I blast twice and leave him the last one.",
+        "explanation": "The large Pokémon and the ball used to contain it become the central comparison for EDDFIRST's size."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Foot race",
+        "bar": "If PenGame hosted a foot race, this guy would finish the last one.",
+        "explanation": "The weight angle becomes a simple prediction about EDDFIRST's speed and endurance."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Name held weight",
+        "bar": "Your name don't hold relevance - when it held weight, that's only because your big-man belly got involved.",
+        "explanation": "Holding weight means importance before becoming EDDFIRST's literal body weight."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Jelly Babies",
+        "bar": "I bought Jelly Babies to share with the gang - I share sweets, but this jelly man eats all on his own.",
+        "explanation": "The sweet brand and a jelly-like body build a food and selfishness attack."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Dog and ringworm",
+        "bar": "You said you're dog in the sheets - if that's true, you're a bully with ringworm, what a nasty disease.",
+        "explanation": "Dog becomes an actual animal before bully means a bully-breed dog and ringworm supplies the infection."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Fridge dinner",
+        "bar": "The type of man to raid my fridge at night and cook a three-course dinner.",
+        "explanation": "A late-night snack is exaggerated into a full meal to continue the appetite angle."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Forklift",
+        "bar": "I came with a forklift - get fat boy lifted away.",
+        "explanation": "The industrial vehicle is presented as necessary equipment for moving EDDFIRST."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Formerly slim",
+        "bar": "EDDFIRST wasn't always fat, he used to be slim - all my life, those ankles used to be shins.",
+        "explanation": "The preserved wording attacks body proportions by saying lower legs have lost their normal shape."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Kebab and doughnuts",
+        "bar": "Then his uncle opened a kebab shop - he said nothing because he was getting doughnuts.",
+        "explanation": "The deeply personal allegation is tied back to free food and doughnut-shaped or monetary dough."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Airport cakes",
+        "bar": "Packed his bags for Spain, got to customs and ate their cakes - the aircraft couldn't lift, so he got kicked off the plane.",
+        "explanation": "Travel, customs, food and aircraft lift sustain an extended weight-based airport scene."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Legs give way",
+        "bar": "How can you stand this? I'm surprised your legs don't give way.",
+        "explanation": "Standing the battle and standing physically merge into another claim that EDDFIRST is too heavy."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Cheese injections",
+        "bar": "He's so fat he takes cheese injections.",
+        "explanation": "A medical injection is absurdly replaced with cheese to continue the food caricature."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Eat a sentence",
+        "bar": "He's so fat he would eat a sentence - stealing from the Tesco sweetie section.",
+        "explanation": "Eating becomes so exaggerated that language itself is food before the line returns to sweets."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 - John Wick's dog",
+        "bar": "Since John Wick's dog died, he's been alone until he met ED, his new fluffy friend - now they're cuddling and taking long walks.",
+        "explanation": "EDDFIRST is recast as a replacement pet inside the John Wick dog reference."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 - John's attachment",
+        "bar": "I got news: get this bed attached - John's dick, they thought they were so slick.",
+        "explanation": "The preserved wording uses John Wick and John's name for a crude sexual sound flip."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 - Dragon Ball",
+        "bar": "Piccolo, Special Beam Cannon - Kamehameha, I'm Goku, make a man freeze.",
+        "explanation": "Piccolo and Goku's signature Dragon Ball attacks provide the round's anime closer."
+      }
+    ],
+    "oddMoments": [
+      "Margs jokes that STAR CO changes his name every month during the introduction.",
+      "STAR CO's opening receives an immediate wheel-up before the microphone levels are adjusted.",
+      "The no-filming instruction is repeated while one person is told they may film only after the battle.",
+      "EDDFIRST's second is restarted several times around the Michael Jackson and cousin callback.",
+      "EDDFIRST attempts to play a controversial live-broadcast tune in his third, but the host immediately stops it to avoid cancellation.",
+      "The rhythm disappears during EDDFIRST's closing rhyme and the crowd jokes that the DJ wheeled it.",
+      "Margs reacts with 'that's three' and tells STAR CO he got killed before still sending the battle to the public vote."
+    ],
+    "coolMoments": [
+      "STAR CO's Snorlax and Poké Ball opening earns the battle's first reload.",
+      "EDDFIRST's paper-round scheme gives his first a compact and coherent opening concept.",
+      "The food-fridge and shots-clip parallel is the clearest technical moment of the second round.",
+      "EDDFIRST's Plenty of Fish and long rasta-pasta rhyme receives several reactions.",
+      "The extended wrestling and velodrome closing sequence prompts the host's emphatic post-battle reaction."
+    ],
+    "postBattleContext": "Margs reacts to EDDFIRST's final by saying 'that's three' and telling STAR CO he got killed. He then directs the room to the QR code and gives viewers at home 48 hours to vote. Because no completed count or formal winner is preserved, the archive keeps the result explicitly labelled as an independent LOTA decision while noting the host reaction.",
+    "judgementSummary": {
+      "verdict": "EDDFIRST wins 3-0 (LOTA Result)",
+      "summary": "EDDFIRST takes round one through the broader paper-round, payment, VARNTAE, reaction and wave writing. He wins round two decisively with the Michael Jackson glove, cousin, fridge-versus-clip and Plenty of Fish construction. He takes round three because STAR CO's brief John Wick and Dragon Ball material cannot match the detailed TikTok Live, cheek, spell, 'mum's life,' wrestling and Montclair closing round."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-char-b-vs-pocaa",
@@ -67327,9 +73230,267 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "17k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "18k",
+    "videoUrl": "https://www.youtube.com/watch?v=14fKFfdVPoY",
+    "winner": "char-b",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "CHAR.B and POCAA met in Champions League Fixture 3. POCAA won the coin toss and sent CHAR.B first. The host closes by directing the room to the QR code and giving viewers roughly two days to vote, but the upload preserves no completed tally or declared winner. The result below is therefore an independent LOTA review.\n\nCHAR.B's first contrasted two women in the league. She questioned why POCAA claimed to represent women while acting like a man, attacked her voice and joked about replacing her voice box with SKAMZ's. Being in the same boat and sharing opinions became two different types of women. CHAR.B argued that sexual presentation had not made listeners care about POCAA's music, then attacked the gap between attitude and ability. Diva, lamp-post height, size-nine shoes and failing to take a joke built the appearance section. Seeing things from POCAA's point of view led into an anatomical punch, before dislike, a flat chest and a fake Montclair closed the round.\n\nPOCAA's first corrected the host that her name was Charlie rather than Charlotte, then positioned herself as CHAR.B's sensei taking her back to school. Dogs at the end became a panorama; drama, a long nose and barrel imagery followed. Rowing a boat, hanging a woman, a dolly with a chrome head, pulling a string and remote control built the puppet section. POCAA then used Diggity, hair and being basic before attacking women looking for money or sex. A runner-up, powder on a picture, motherhood, school and a PenGame puppet closed the verse. The delivery is energetic, but the writing is difficult to follow and less direct than CHAR.B's opener.\n\nCHAR.B's second used mock praise from beginning to end. She loved how POCAA used many words to say nothing and could reach twenty bars without a punchline. Being a voice for women led into sounding like Giggs. CHAR.B praised POCAA for attempting absolutely anything even when doing it badly, then compared the short skirt from the MONROE battle with the even shorter list of genuine bars. Rolling her eyes became searching for a bar that made sense. The phone-too-tight comparison attacked her energy before the round closed by defending POCAA's body as aerodynamic rather than flat. It is the battle's clearest and best-structured round.\n\nPOCAA's second attacked CHAR.B's hygiene and body. Charlie Brown opened the verse before trousers, skid marks, soap and discharge built a deliberately graphic sequence. Smell, a sink and washing followed. A ginger biscuit, vanishing from a scene, previews and reviews moved into denying that this was a meet-and-greet. POCAA then attacked CHAR.B and her friends through a melted-cookie body comparison, followed by banquet, average, pig, blanket and bacon imagery. There are individual punches, but the scheme is less controlled than CHAR.B's sustained sarcasm.\n\nCHAR.B's third framed honesty as part of friendship, then asked what would make POCAA realise battle rap was not for her. Throwing a dildo across the stage without a bar made the prop random rather than meaningful. CHAR.B repeated the gender-performance angle, saying POCAA had committed treason against the women by swinging male anatomy around the venue. A bag of drugs and random items in a purse led into homophobia as concealed truth. Clam and coming out of a shell became a sexuality flip; straps, a tall closet and skeletons developed it further. Insecurity and a jarring presence closed on the fat lady singing and a lanky opponent crying.\n\nPOCAA's third began through cup-game and body imagery, then attacked CHAR.B's face, nose, breasts and teeth. Turkey breast and being the same size led into touching and money. A Polly Pocket comparison made CHAR.B small before school, weekday, morning and scratching imagery. POCAA closed through a condom and hat trick, itching, clothing vouchers, couches and asking for ounces. The round is brief and the preserved transcription is especially unclear, leaving fewer complete constructions than CHAR.B's final.\n\nLOTA scores CHAR.B 3-0. CHAR.B wins the first through clearer direct writing, takes the second decisively with the sustained mock-praise structure, and wins the third through the better-connected prop, sexuality, clam, closet and skeleton sequence.",
+    "performanceAnalysis": [
+      {
+        "performer": "CHAR.B",
+        "overview": "CHAR.B wins the LOTA review 3-0. Her advantage is clarity and structure: the opener establishes voice, gender presentation, attitude and appearance; the second commits fully to sarcastic praise; and the third connects props, sexuality, closets and skeletons. The material is easy to follow and consistently directed at POCAA rather than interchangeable opposition.",
+        "lyricalThemes": "Women in battle rap; voice and SKAMZ; boats, shared opinions and representation; sex appeal versus musical quality; attitude and ability; divas, lamp posts and shoes; jokes, perspective and anatomy; dislike, chests and Montclair; mock praise; too many words and no punchlines; Giggs; MONROE and skirts; rolling eyes and searching for bars; phones and energy; body type and aerodynamics; friendship and honesty; random props and dildos; gender performance and treason; purses and drugs; homophobia, clams and shells; straps, closets and skeletons; insecurity, the fat lady and crying.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Sustained mock praise",
+            "description": "The entire second sounds supportive while every compliment becomes criticism of POCAA's writing, voice, clothes, reactions or body."
+          },
+          {
+            "title": "Point-of-view punch",
+            "description": "Trying to see from POCAA's point of view becomes physically impossible because CHAR.B's head cannot fit where that perspective supposedly sits."
+          },
+          {
+            "title": "Closet sequence",
+            "description": "Homophobia, clams, coming out of a shell, straps, a tall closet and skeletons create a connected final-round sexuality angle."
+          }
+        ]
+      },
+      {
+        "performer": "POCAA",
+        "overview": "POCAA loses the LOTA review 3-0. Her delivery has aggression and distinctive cadence, and the puppet material in the first plus the hygiene and food material in the second contain workable ideas. However, the preserved lyrics frequently lose grammatical or logical connection, and her short final offers too few complete punches to answer CHAR.B's more structured writing.",
+        "lyricalThemes": "Charlie rather than Charlotte; senseis and school; walls, dogs and panoramas; drama, noses and barrels; boats; dolls, chrome heads, strings, puppets and remote controls; Diggity, hair and being basic; money, sex, running and motherhood; Charlie Brown; trousers, skid marks, soap and discharge; smells, sinks and washing; ginger biscuits; scenes, previews and reviews; meet-and-greets and premium beef; melted cookies; banquets, pigs, blankets and bacon; cup games; faces, noses, breasts and teeth; turkey; Polly Pocket; school and weekdays; condoms and hat tricks; itching, vouchers, couches and ounces.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Doll and puppet sequence",
+            "description": "A dolly, chrome head, pulling a string, eyes rolling back, restarting and remote control give the opener a connected visual passage."
+          },
+          {
+            "title": "Preview and review chain",
+            "description": "A person leaving the scene becomes a preview and review before the line rejects a meet-and-greet."
+          },
+          {
+            "title": "Food imagery",
+            "description": "Ginger biscuits, melted cookies, banquets, pigs in blankets, bacon and turkey recur across the final two rounds."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Voice-box switch",
+        "bar": "That voice is tragic, but I've got a plan - take out your voice box and switch it with SKAMZ's.",
+        "explanation": "CHAR.B attacks POCAA's deep voice by proposing an exchange with another battler known for a contrasting sound."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Sex will not make them listen",
+        "bar": "I've been trying to change the game and do it different - your songs are proof that sex won't make them listen.",
+        "explanation": "CHAR.B contrasts artistic approach with the claim that POCAA relies on sexual presentation without gaining an audience."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Diva",
+        "bar": "It's no wonder either - you haven't got enough talent to be that much of a diva.",
+        "explanation": "The line measures POCAA's attitude against ability and argues the confidence is unearned."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Lamp post",
+        "bar": "You act like everyone's beneath you, probably true - you're built like a lamp post with size-nine shoes.",
+        "explanation": "Being beneath someone changes from social judgement to literal height."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Point of view",
+        "bar": "I'm trying to see things from your point of view, but my head doesn't fit that far up my cooch.",
+        "explanation": "The familiar idea of a self-important person having their head inside themselves becomes an anatomical perspective joke."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Fake Montclair",
+        "bar": "Don't rep your ends, they don't claim you there - got your hood torn up like a fake Montclair.",
+        "explanation": "Hood means neighbourhood and the hood of a coat, allowing local rejection to become damaged clothing."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Twenty bars",
+        "bar": "I love how you use so many words to say nothing - twenty bars later and we still haven't heard a punchline.",
+        "explanation": "Mock admiration becomes a precise criticism of POCAA's verbose but unclear writing."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Voice like Giggs",
+        "bar": "It's great you're a voice for the girls, even if that voice does sound like Giggs.",
+        "explanation": "Representing women is praised before rapper Giggs supplies the comparison for POCAA's low vocal tone."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Skirt and genuine bars",
+        "bar": "The only thing shorter than your skirt against MONROE was the list of your actual genuine bars.",
+        "explanation": "A specific prior outfit becomes the measurement for how little effective material CHAR.B says POCAA had."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Rolling eyes",
+        "bar": "Leave her alone, she's not rolling her eyes - she's searching for a bar that makes sense.",
+        "explanation": "An expression of annoyance becomes the physical act of looking around for coherent writing."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Aerodynamic",
+        "bar": "I like your body type; I don't know why they say it's manly - you're not flat, you're aerodynamic.",
+        "explanation": "A body insult is disguised as defence before aerodynamic turns flatness into supposed functional design."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Dildo prop",
+        "bar": "You throw a dildo across the stage without a bar to make it make sense.",
+        "explanation": "CHAR.B argues a visual prop has no value unless the writing supplies a meaningful payoff."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Treason",
+        "bar": "You're not with us girls because you committed treason when you swung your dick around the place for no reason.",
+        "explanation": "The gender-presentation attack makes the prop an act of betrayal against the group POCAA says she represents."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Clam and shell",
+        "bar": "If you want to get the clam, baby, come out of your shell.",
+        "explanation": "Clam and shell create a sexuality reference while coming out also means publicly revealing identity."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Closet skeletons",
+        "bar": "You talk about straps so much I'm wondering what you mean - you're living in the tallest closet I've seen, and with that many skeletons it can't be clean.",
+        "explanation": "Straps introduce hidden sexuality before closet and skeleton idioms combine secrecy and past wrongdoing."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Fat lady",
+        "bar": "They say it ain't over till the fat lady sings, but it's a wrap when this lanky bitch starts crying.",
+        "explanation": "The closing idiom is inverted through POCAA's thin build and predicted emotional response."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Sensei school",
+        "bar": "Charlie, baby, I'm your sensei - take you back to school so you can comprehend.",
+        "explanation": "Sensei establishes POCAA as teacher and CHAR.B as a student who needs the lesson explained."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Panorama",
+        "bar": "Posted on my wall, meet the dogs at the end - panorama; you don't want a bag of drama.",
+        "explanation": "A wide wall image becomes a panorama before the rhyme turns toward confrontation."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Barrel nose",
+        "bar": "Her nose long like a barrel, giving life on Pinocchio.",
+        "explanation": "A long gun barrel and Pinocchio's growing nose combine weapon and appearance imagery."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Row the boat",
+        "bar": "Said she wants to go - I'ma row the boat.",
+        "explanation": "Go and row create a simple action rhyme while continuing POCAA's movement imagery."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Dolly puppet",
+        "bar": "Built like a dolly, head full of chrome - pull the string and watch the puppet go.",
+        "explanation": "A doll, metallic head and pull-string mechanism turn CHAR.B into a controlled toy."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 1 - Remote control",
+        "bar": "Eyes roll back, I might press restart on a bitch - remote control.",
+        "explanation": "Restart and remote control continue the puppet and object-control theme."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - Charlie Brown",
+        "bar": "Charlie Brown wants war with me - you're giving ladies suffering.",
+        "explanation": "CHAR.B's first name becomes the Peanuts character before POCAA attacks her representation of women."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - Skid marks",
+        "bar": "Take your pants off, see skid marks - what kind of soap washes that discharge?",
+        "explanation": "Clothing, stains, soap and bodily discharge build a direct hygiene insult."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - Sink",
+        "bar": "Put this piece of shit in the big bag - she washes in that sink.",
+        "explanation": "Waste, bags and washing turn CHAR.B into something dirty being disposed of or cleaned."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - Preview and review",
+        "bar": "Vanish that scene - who really sees you? Got the scene like a preview; she's not the review.",
+        "explanation": "Scene, seen, preview and review form a film and criticism sound sequence."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 2 - Pig in a blanket",
+        "bar": "This little piggy was in a blanket - nobody wants your bacon back.",
+        "explanation": "The nursery rhyme and pigs in blankets become a body and food insult."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 - Cup game",
+        "bar": "It's in the sea, so we see - shows how you can't pump a game, telling tales with a foot at the breast.",
+        "explanation": "The preserved wording is unclear, but POCAA opens with repeated sea and see sounds before body imagery."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 - Turkey breast",
+        "bar": "Turkey for breast, no teeth - they gave you the same size as me.",
+        "explanation": "Food and body size are combined in an appearance comparison between the battlers."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 - Polly Pocket",
+        "bar": "Little Polly Pocket took it on some foolish shit.",
+        "explanation": "The tiny doll becomes a comparison for CHAR.B's size and behaviour."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 - School and weekday",
+        "bar": "You're not in my deep, not in a week or a weekday - pick up and shoot it, school in the morning.",
+        "explanation": "Week, weekday and school morning create a time and routine sequence, though the transcript is partially unclear."
+      },
+      {
+        "performer": "POCAA",
+        "theme": "Round 3 - Condom hat trick",
+        "bar": "Slap on the condom, I'm making a hat trick - seen you itching, giving frost; lift-off vouchers, couches begging for ounces.",
+        "explanation": "Condoms, repeated scoring and itching form a sexual-health attack before money and drug-weight imagery."
+      }
+    ],
+    "oddMoments": [
+      "The host introduces CHAR.B as Sharpie and POCAA as Polka because of transcription errors.",
+      "POCAA immediately stops to clarify that her name is Charlie rather than Charlotte.",
+      "CHAR.B performs the entire second round as deliberately supportive praise while every line is an insult.",
+      "Margs pauses before POCAA's third to say the battle feels like friendly fire and asks for a harder response.",
+      "The transcript of POCAA's final is unusually degraded and preserves several incomplete phrases.",
+      "The host gives the voting window as forty-eight or forty-two hours before simplifying it to two days."
+    ],
+    "coolMoments": [
+      "CHAR.B's voice-box and SKAMZ opener immediately establishes the battle's gender and voice angle.",
+      "The lamp-post and size-nine-shoes line gives the first a clean visual punch.",
+      "CHAR.B's entire sarcastic second is a cohesive concept rather than a collection of unrelated bars.",
+      "POCAA's doll, string, restart and remote-control passage provides her clearest connected scheme.",
+      "The clam, shell, closet and skeleton sequence gives CHAR.B a structured closing round."
+    ],
+    "postBattleContext": "The host directs the room to the QR code and tells viewers at home they have roughly two days to vote. No completed count or official result is preserved, so the archive records only the explicitly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "CHAR.B wins 3-0 (LOTA Result)",
+      "summary": "CHAR.B wins round one through clearer direct writing around voice, representation, attitude and appearance. She takes round two decisively with the sustained mock-praise concept and its twenty-bars, Giggs, skirt, eye-roll and aerodynamic punches. She wins round three through the better-connected prop, sexuality, clam, closet and skeleton sequence against POCAA's short and partially unclear final."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-domi-dusk-vs-rp",
@@ -67347,9 +73508,268 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "19k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "20k",
+    "videoUrl": "https://www.youtube.com/watch?v=YDTg_8f1fGs",
+    "winner": "rp",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "DOMI DUSK and RP closed Champions League Fixture 3 at Boxpark Croydon. RP won the coin toss and sent DOMI DUSK first. The host ends the upload by directing the room to the QR code and opening a 48-hour online vote, but no final tally or declared winner is preserved. The result below is therefore an independent LOTA review.\n\nDOMI DUSK's first opened by calling RP racist and turning the R in his name into the accusation. He then attacked RP's communication with women through a previous CHAR.B battle and a disputed explicit photo. Being tall while the image was small, blurring the picture and saying the picture was simply RP formed the central visual scheme. RP became 'really pissed,' while a red face and internal bleeding led into A&E. DOMI contrasted RP's six-foot-ten height with being unable to reach his level of pen. Tim Westwood, Waluigi without a moustache, a moth drawn to light, Lara Croft and a family tree of freaks closed the round. A factual interruption about the age of the person in the photo caused a restart, but DOMI's completed material is direct and varied.\n\nRP's first addressed the racism accusation. He began with an insult in what he presented as DOMI's native language, then threatened decapitation like a praying mantis and compared DOMI's chance of winning with TRAPPY making a sandwich. Average performances, a casket and hellfire moved into DOMI practising juju and rolling with Shaitan. Cold handshakes, Ray-Bans, clothing and Islamic prayers followed. RP said he could not hate Islam because he had an Islamic name, then ended with bleeding, breaking the beat, suffering a major defeat and DOMI creating enemies. It is a strong response, though DOMI's photo, height and appearance construction edges the first.\n\nDOMI's second asked whether he and RP were dating the same woman, then revealed the guest as RP's mother. Shared intimacy, cleaning the bedroom and leaving a mess drove the opening. 'You are what you eat' made RP a bum, then DOMI argued eating him would make DOMI RP's mother. A supposed list of RP's achievements taking no time led into bringing a knife to a gun and comparing the distance between them with Earth and the sun. RP had not hurt, worked or murdered anyone, while DOMI threatened to burst him like rum being served. One Spotify listener, dry music, juju, a maternal stick and putting RP in a box like a goalkeeper completed the round.\n\nRP's second was the battle's best sustained scheme. DOMI being close to metal led into coppers, grass and brass; mercury, lead, MDMA and gold followed. Zinc became washing in a sink or bath, while squeezing iron meant taking creases from clothes. Chrome was rejected in favour of tin foil used for drugs, producing ten named metals. RP then attacked DOMI's clothes as worse than homeless rags, said he had returned focused after an earlier failure and repeatedly called him hopeless. Clothes in DOMI's homeland became a tyre around his shoulders. A wrestler's body, Champions League collecting bodies and a closing mother punch rounded out a decisive second.\n\nDOMI's third opened with putting the pedal to the metal and refusing to stop during the season. Dust, coughing and wheezing led into treason, head tops, weather and a middle finger. A surprise meant arriving disguised as a ninja. Being knocked down like ginger, refusing to be a Sideman like Miniminter, burglary, turbulence and a KFC Zinger drove a rapid reference run. Hurdles, murder, Champions League drinks, heavyweights, lightweights, paper, relationships and anime followed. RP became a six-foot Peperami whose bean would be cooked like edamame, before DOMI closed by threatening to grant the final white person an N-word pass. The flow is polished but much of the round is less opponent-specific.\n\nRP's third answered through money and direct research. Charity being larger than DOMI's punches led into taking off a belt like Michael Jackson's father. Gamma, katana and landing with fourteen Gs escalated the violence. A promo lip-lick became a llama, while charging and a charger followed. Returning to Ghana meant facing a mad palaver; DOMI going from Dusk to Dawn turned his name into time. RP referenced DOMI slurring against EDDFIRST and remixing EDDFIRST's verse after denying it. Ghana, Chad, Cameroon, Djibouti, Guinea and Egypt formed an African-nations passage before denial became the Nile. RP closed by using Urban Dictionary to redefine 'dummy' and return to the sexuality angle. The research and connected writing win the third.\n\nLOTA scores RP 2-1. DOMI DUSK takes round one through the sharper photo, height, Tim Westwood, Waluigi and Lara Croft writing. RP wins round two decisively with the extended ten-metals construction and takes round three through the deeper Ghana, dusk-to-dawn, EDDFIRST, African-nations, Nile and dictionary material.",
+    "performanceAnalysis": [
+      {
+        "performer": "DOMI DUSK",
+        "overview": "DOMI DUSK loses the LOTA review 2-1 but takes the opener. His first is direct and visual, using the photo controversy, RP's height and distinctive appearance. The second has a coherent mother and family setup. His third delivers the smoother flow and broader reference range, but its generic battle threats give RP room to win through more specific research.",
+        "lyricalThemes": "Racism and the letter R; women and a prior CHAR.B battle; explicit photographs, height, size and blurring; really pissed, red faces and A&E; Bigfoot and pen levels; Tim Westwood, Waluigi, Mario, moths and Lara Croft; mothers, dating, bedrooms and mess; food, bums and parenthood; knives, guns, Earth and the sun; Spotify listeners, dry music and goalkeepers; pedals and metal; dust, coughing and wheezing; weather, treason and middle fingers; ninjas; ginger, Sidemen and Miniminter; burglars, turbulence and KFC Zingers; hurdles, Champions League, heavyweights and anime; Peperami, edamame and the N-word pass.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Photo construction",
+            "description": "Hard, hardest game, explicit pictures, height versus size, proof, blur and the picture being RP create a focused opening personal."
+          },
+          {
+            "title": "Bum and mum flip",
+            "description": "You are what you eat makes RP a bum, before DOMI says eating him would make DOMI RP's mother."
+          },
+          {
+            "title": "Fast third-round cadence",
+            "description": "Ninja, ginger, Miniminter, burglar, turbulent, Zinger, hurdle and murderer sustain a quick multisyllabic performance."
+          }
+        ]
+      },
+      {
+        "performer": "RP",
+        "overview": "RP wins the LOTA review 2-1. His first directly answers the racism claim through faith, language and Shaitan imagery but narrowly loses on clarity. The ten-metals second is the battle's strongest round. His final is also highly specific, connecting DOMI's Ghanaian identity, name, EDDFIRST battle and previous claims through African geography and word definitions.",
+        "lyricalThemes": "Native language, praying mantises and TRAPPY; average performances, caskets and hellfire; juju, Shaitan, Ray-Bans and Islamic prayer; racism, Islam and names; bleeding, beats, defeat and enemies; copper, grass and brass; mercury, lead, MDMA and gold; zinc, sinks, baths and iron; chrome and tin foil; broken backs, focus and homeless rags; clothes, homelands and tyres; wrestlers and Champions League bodies; charity and money; Michael Jackson's father and belts; gamma, katanas and fourteen Gs; llamas and chargers; Ghana and palaver; Dusk to Dawn; EDDFIRST and remixed verses; Chad, Cameroon, Djibouti, Guinea, Egypt and the Nile; Urban Dictionary and dummy.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Ten metals",
+            "description": "Copper, brass, mercury, lead, gold, zinc, iron, chrome, tin and foil are fitted into policing, sex, drugs, hygiene and clothing."
+          },
+          {
+            "title": "Dusk to Dawn name flip",
+            "description": "DOMI's surname becomes the overnight time span in which RP says his opponent changes identity."
+          },
+          {
+            "title": "African geography sequence",
+            "description": "Ghana, Chad, Cameroon, Djibouti, Guinea, ancient Egypt and denial or the Nile create a sustained regional scheme."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 - R in RP",
+        "bar": "I'm battling a racist - we worked out the R in your name, but it never worked out with the girls you chat to.",
+        "explanation": "RP's initial becomes racist before worked out changes from decoding a name to a failed relationship."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 - Height and picture",
+        "bar": "For somebody this tall, how are you sending a picture and the thing is small?",
+        "explanation": "RP's exceptional height is contrasted with the alleged image for a direct size reversal."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 - Blur",
+        "bar": "I'm sending proof, tell me I'm lying - blur the picture; wait, that isn't a dick pic, it's just you.",
+        "explanation": "Blurring explicit content changes into RP himself being visually indistinct or objectionable."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 - Really pissed",
+        "bar": "Someone asked what RP stands for - today it means really pissed.",
+        "explanation": "RP's initials are expanded into his predicted emotional state during the battle."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 - Height versus pen",
+        "bar": "The guy's six-foot-ten, could have been Bigfoot's friend - all that height and you still can't reach this level of pen.",
+        "explanation": "Physical reach is contrasted with the writing level DOMI says RP cannot attain."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 1 - Tim Westwood",
+        "bar": "RP, you look like Tim Westwood if Tim Westwood took wood from men.",
+        "explanation": "The broadcaster's surname is broken into West and wood for an appearance and sexuality punch."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 - Same woman",
+        "bar": "RP, are we dating the same girl? I brought her as my guest - that's right, I came with your mum.",
+        "explanation": "A shared romantic interest is revealed as RP's mother for the round's central family setup."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 - Bum and mum",
+        "bar": "They say you are what you eat, so it makes sense this guy's a bum - if I ate you, that would make me your mum.",
+        "explanation": "Bum means backside and worthless person, while eating RP changes into becoming his mother."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 - Earth and sun",
+        "bar": "Don't know why they bring a knife to a gun - distance between us, Earth and the sun.",
+        "explanation": "The weapon mismatch becomes an astronomical gap in ability."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 - Spotify listener",
+        "bar": "What are you earning a month for your only one Spotify listener? You know your music's shit.",
+        "explanation": "Monthly streaming statistics and money are used to attack RP's music audience."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 2 - Goalkeeper box",
+        "bar": "Did you know this is the Champions League? I'll put him in a box like a goalkeeper.",
+        "explanation": "The battle competition becomes football's Champions League, where the goalkeeper operates inside the penalty box."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 - Pedal to the metal",
+        "bar": "I'll put the pedal to the metal - I ain't dropping off or stopping this season.",
+        "explanation": "The driving phrase means accelerating through the remaining Champions League fixtures."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 - Ninja disguise",
+        "bar": "If you want a surprise, I'll come disguised like a ninja and put it straight in ya.",
+        "explanation": "Concealment and surprise attack create a simple but performance-ready ninja comparison."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 - Miniminter",
+        "bar": "They try to knock me down like ginger - I can't be a Sideman like Miniminter.",
+        "explanation": "Miniminter of the Sidemen supplies the named internet reference inside the ginger rhyme."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 - Peperami and edamame",
+        "bar": "You look like a six-foot Peperami - I'll cook your bean like edamame.",
+        "explanation": "RP's tall thin build becomes a meat stick before beans introduce the Japanese food rhyme."
+      },
+      {
+        "performer": "DOMI DUSK",
+        "theme": "Round 3 - N-word pass",
+        "bar": "You're the last white boy on Earth I'd be giving an N-word pass.",
+        "explanation": "DOMI closes by denying RP cultural permission, returning to the battle's race theme."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 - Native language",
+        "bar": "Think I can't spin him in his native language? Cut off his head like a praying mantis.",
+        "explanation": "RP performs a short non-English passage before claiming linguistic and physical dominance."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 - TRAPPY sandwich",
+        "bar": "You winning this clash has the same chance as TRAPPY making a sandwich.",
+        "explanation": "A named peer and an unlikely domestic act become the probability assigned to DOMI winning."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 - Shaitan handshake",
+        "bar": "He's rolling with Shaitan because he does juju - it's always cold when we shake hands.",
+        "explanation": "Shaitan and juju frame DOMI as spiritually dark, while a cold handshake suggests supernatural presence."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 - Islamic name",
+        "bar": "Racist, me? How can I hate Islam when I've got an Islamic name?",
+        "explanation": "RP answers the opening accusation by using his own name and claimed faith connection as rebuttal."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 - Copper, grass and brass",
+        "bar": "Close to the metal but not holding a mash - he talks to coppers, he's grass, and only has sex with brass.",
+        "explanation": "Copper means police and metal, grass means informant, and brass means a prostitute and alloy."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 - Mercury, lead and gold",
+        "bar": "It's mercury; I don't know what led him astray - bought MDMA, that's the only gold he has.",
+        "explanation": "Mercury, lead and gold are embedded as metals while lead and gold carry ordinary meanings."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 - Zinc and iron",
+        "bar": "You can't wash yourself in the zinc - the only time you squeeze an iron is taking creases out your clothes.",
+        "explanation": "Zinc sounds like sink, while iron changes from weapon to the appliance used on clothing."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 - Chrome and tin foil",
+        "bar": "There is metal he holds, but no chrome in his hands - it's tin foil because DOMI DUSK is known for smoking smack.",
+        "explanation": "Chrome suggests a gun, while tin foil completes the metal count and introduces drug paraphernalia."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 - Homeless rags",
+        "bar": "I've seen better clothes than the homeless rags - I messed up last time, now I'm back and focused.",
+        "explanation": "The clothing attack also acknowledges RP's earlier performance and frames this battle as correction."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 - Tyre necklace",
+        "bar": "Wear those clothes in your homeland and you'd get a tyre thrown over your shoulders - necklace, dummy.",
+        "explanation": "A tyre becomes a necklace while invoking violent punishment associated with necklacing."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 - Charity",
+        "bar": "You give away a few pounds in your punches, but I bet that my charity's larger.",
+        "explanation": "Pounds mean money and punching force, with charity measuring who gives away more."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 - Jackson's father",
+        "bar": "Then I take off my belt like Jackson's father.",
+        "explanation": "Joe Jackson's abusive reputation turns removing a belt into threatened punishment."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 - Ghana palaver",
+        "bar": "When DOMI DUSK goes back to Ghana, he's always faced with a mad palaver.",
+        "explanation": "The opponent's Ghanaian background supplies location while palaver means prolonged trouble or dispute."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 - Dusk to dawn",
+        "bar": "DOMI DUSK dresses at night and literally goes from dusk to dawn.",
+        "explanation": "DOMI's stage name becomes the full overnight period in a gender-presentation attack."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 - African nations and Nile",
+        "bar": "She's like Chad, Cameroon, I'm bending inside Djibouti - Guinea pig, ancient Egyptian villages, always facing the Nile.",
+        "explanation": "Chad, Cameroon, Djibouti, Guinea and Egypt are threaded through crude ordinary meanings before denial becomes the Nile."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 - Urban Dictionary",
+        "bar": "The word dummy is fictional, but what does it actually mean? According to Urban Dictionary, a word for an absolute queen.",
+        "explanation": "RP pretends to consult a definition to turn DOMI's nickname into the closing sexuality insult."
+      }
+    ],
+    "oddMoments": [
+      "This battle was supplied only as an MP4, so a local Whisper transcript was generated before indexing.",
+      "RP wins the coin toss and sends DOMI DUSK first.",
+      "A person interrupts DOMI's first to challenge the age connected to the photograph allegation, causing a full restart.",
+      "RP explicitly uses his first to address earlier accusations of racism and anti-Islamic comments.",
+      "A sound effect or joke involving lotion interrupts the end of DOMI's second.",
+      "RP begins his third with a short beat fake-out before the actual instrumental starts.",
+      "The host closes the last battle of the night by opening a 48-hour vote."
+    ],
+    "coolMoments": [
+      "DOMI's photo, blur and 'it's just you' sequence gives the opening an immediate visual concept.",
+      "The six-foot-ten height versus pen-level punch cleanly uses RP's distinctive build.",
+      "RP's second successfully fits ten different metals into a single connected scheme.",
+      "DOMI's Peperami and edamame line gives his fast third a strong opponent-specific image.",
+      "RP's Ghana, dusk-to-dawn and African-nations writing creates the decisive final-round stretch."
+    ],
+    "postBattleContext": "The host asks the room to vote through the QR code and gives viewers at home 48 hours. No completed count or official winner appears in the upload, so the archive records only the explicitly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "RP wins 2-1 (LOTA Result)",
+      "summary": "DOMI DUSK takes round one through the sharper photo, height, Tim Westwood, Waluigi and Lara Croft material. RP wins round two decisively through the battle's best sustained ten-metals scheme. RP takes round three through the more opponent-specific Ghana, dusk-to-dawn, EDDFIRST, African-nations, Nile and Urban Dictionary construction."
+    }
   },
   {
     "id": "pg-scl-2026-05-31-drizzgb-vs-lc",
@@ -67367,16 +73787,1100 @@ export const pengameBattles: Battle[] = [
     "stage": "Champions League Fixture 3",
     "group": null,
     "tag": null,
-    "views": "39k",
-    "winner": "unknown",
-    "statusNote": "Fixture listed"
+    "views": "40k",
+    "videoUrl": "https://www.youtube.com/watch?v=pDpR1N4Qj_s",
+    "winner": "drizzgb",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "DRIZZGB and LC met in Champions League Fixture 3 at Boxpark Croydon. DRIZZGB won the coin toss and sent LC first. The host ends the upload by opening a roughly 40-something-hour public vote and directing the room to the QR code, but no completed tally or declared winner is preserved. The result below is therefore an independent LOTA review.\n\nLC's first spelled out DRIZZGB's name and asked whether he wanted war, then attacked his ability to run and promised to take and switch his flow. He called DRIZZGB a PenGame pensioner and focused on his repeated losses in public voting, telling the crowd nothing was wrong with their judgement. A smoking sequence put opponents in LC's spliff and attacked DRIZZGB's thin build. The verse then turned to DRIZZGB's partner through body-part and breathing imagery before LC brought his flow back. New Day, Big E, Drizzy and Xavier Woods closed the round. LC's direct focus on the matchup and voting record gives him the first.\n\nDRIZZGB's first called LC a hyperactive teenager with ADHD, then turned the energy flat like a television screen. Control, being sent to the skies, broadband and BT formed the opening communications scheme. A carried two-on-two performance became spinning LC with no dial; nobody phoning, a dead line, lost connection and the O2 extended it. DRIZZGB then moved from bars not landing to planes floating, trains and coaching, cruises and sinking, before attacking LC's volume, skin and red face. It was a technically connected response, though LC's heavier direct punches edge the round.\n\nLC's second presented himself as a lyrical mastermind and DRIZZGB as a sacrifice. Capturing, blinding and slashing the spine led into rejecting an underdog story because DRIZZGB was half his size. Seeing grey, realignment, purging, matches, lights, curtains and pages turning built the middle. DRIZZGB being Asian became wrapping him like a turban; a Dwayne Johnson and Rock Bottom reference followed. LC closed with smoking, Fanta, Santa, friendship and Juicy. The round was energetic but suffered restarts and contained less opponent-specific detail.\n\nDRIZZGB's second was more targeted. LC looked like a Jonathan; streets and Tottenham led into wise King Solomon. DRIZZGB attacked LC's confidence before turning his name into seeing Ls and C-shore shells. Spinning and flipping like a coin led into editing and skipping details. A jab, a disputed accent and TikTok references followed, before an oxymoron about WHOISORION throwing cigarettes at a gay man. DRIZZGB then attacked LC's self-ranking, orange prison jumpsuit, reaction to blue lights and family before closing on sepsis and a death wish. He takes the second through stronger name work and research.\n\nLC's third listed SEV, SKAMZ and REN as previous opponents who had smoked DRIZZGB, then promised to do the same. DRIZZGB saying LC's name started with L became being told to hold this; fighting LC became a flying knee. Fire, burning and crossed eyes led into a serious drink-spiking allegation, using drizzle as the payoff. LC attacked DRIZZGB's basic flow at age twenty-eight and moved through Range Rovers, bailiffs and David. A recent PSG-AFC reference, jerseys and getting straight to the point like a knife preceded a switch into grime. Leicester City promotion, surgery, organs, kidneys and matchstick legs extended a long final. Multiple restarts and reloads made it less controlled.\n\nDRIZZGB's third revealed that he and LC had agreed not to use the big screen, then claimed new information justified bringing someone on stage. LC allegedly insulting GZone became a route to a Margs bonus; rocks in a shed and pebbles became a different meaning of stoners. DRIZZGB attacked LC for gaining reloads by insulting the platform, then referenced Tyrone and Sam, Bandcamp, tramp stamps, Anne Frank and the can-can. David but not Santan, letters in a line and Hangman formed a name scheme. A paid Instagram blue tick led into Miss Finster, winter, sprinting, AC and being cool. Judge Rinder, pictures, Kurdish identity, Avatar and bar-bending, Shaolin, wind, earth, clay and fire completed the round. It is the battle's most layered performance.\n\nLOTA scores DRIZZGB 2-1. LC takes round one through the sharper voting-history and direct battle material. DRIZZGB wins round two with the stronger LC name flips, WHOISORION reference and opponent research, then takes round three through the deeper GZone, platform, Bandcamp, name, television and elemental construction.",
+    "performanceAnalysis": [
+      {
+        "performer": "DRIZZGB",
+        "overview": "DRIZZGB wins the LOTA review 2-1. His first contains the battle's cleanest single extended scheme through broadband, phones, dead lines, lost connections, O2, planes, trains and cruises, but LC's direct attacks edge it. DRIZZGB then improves: the second is more opponent-specific, and the third combines real battle context with platform, Bandcamp, television, name and Avatar material to secure the decision.",
+        "lyricalThemes": "ADHD, energy and flat-screen television; control, broadband and BT; two-on-twos, dials, phones, dead lines, lost connections and the O2; planes, trains, coaching, cruises and sinking; LC's volume, skin and red face; Jonathan, Tottenham and Solomon; confidence, Ls, C-shore and shells; coins, editing and details; jabs, accents, TikTok and WHOISORION; cigarettes and slurs; prison jumpsuits, blue lights, family and sepsis; big screens and betrayal; GZone and Margs; rocks, pebbles and stoners; reloads and platforms; Tyrone and Sam; Bandcamp, tramp stamps, Anne Frank and can-can; David and Santan Dave; letters and Hangman; Instagram blue ticks, Miss Finster, winter, AC, Judge Rinder; Kurdish identity, Avatar, bar-bending, Shaolin and elements.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Communication and transport scheme",
+            "description": "Broadband, BT, dials, phones, dead lines, lost connections, O2, planes, trains, coaches and cruises sustain the opener."
+          },
+          {
+            "title": "LC letter flips",
+            "description": "Seeing Ls, C-shore shells, flipping like a coin, editing and skipping details repeatedly reshape LC's name and initials."
+          },
+          {
+            "title": "Context-heavy third",
+            "description": "The big-screen agreement, GZone comment, reload-for-platform angle and Bandcamp attack are grounded in specific battle history."
+          }
+        ]
+      },
+      {
+        "performer": "LC",
+        "overview": "LC loses the LOTA review 2-1 but wins the opening round. His aggressive delivery and direct use of DRIZZGB's voting history, build and relationship material establish an early advantage. The second is more generic and repeatedly restarted. His third is lengthy and contains strong recent football and opponent-history references, but repeated reloads loosen its structure against DRIZZGB's denser final.",
+        "lyricalThemes": "Spelling DRIZZGB; war and running; flow theft; PenGame pensioners and public votes; spliffs, sticks and thin builds; partners, breathing and body parts; New Day, Big E, Drizzy and Xavier Woods; lyrical mastery and sacrifice; underdogs and size; grey, purging, matches, lights, curtains and books; turbans; Dwayne Johnson and Rock Bottom; Fanta, Santa and Juicy; previous losses to SEV, SKAMZ and REN; L and holding weapons; flying knees; fire and burning; crossed eyes, clubs, cups and drizzle; ageing and basic flows; Range Rovers and bailiffs; PSG, AFC and jerseys; grime; Leicester City; surgery, organs, kidneys and matchsticks.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Vote-history attack",
+            "description": "LC makes DRIZZGB's previous public losses the core of his opener and directly recruits the live audience into the punch."
+          },
+          {
+            "title": "Page-turning sequence",
+            "description": "Matches, burning, shutting lights, closing curtains and turning a page build a connected ending and transition scheme."
+          },
+          {
+            "title": "Current football reference",
+            "description": "PSG, AFC, a recent result, jerseys and getting to the point like a knife give the third a topical sports passage."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 - ADHD and TV",
+        "bar": "LC, you're some hyperactive teen - why's he shouting at me? Clearly ADHD; I channel this energy and it sounds flat, TV screen.",
+        "explanation": "Hyperactivity becomes electrical energy before flat describes both the performance and a television screen."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 - Broadband and BT",
+        "bar": "There's no way you're controlling me - send this virgin to the skies; broadband, you don't get it, BT.",
+        "explanation": "Control, connection and broadband establish the telecommunications scheme, with BT naming the provider."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 - Lost connection",
+        "bar": "No one phones you, the line's dead, no one to go to - LC, lost connection, you never see him at the O2.",
+        "explanation": "LC becomes lost connection, while phones, dead lines and O2 continue the network-provider scheme."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 - Coach and cruise",
+        "bar": "Your bars don't land, I float through - run the train, then I can coach you; take her for a cruise and sink the ship.",
+        "explanation": "Landing and floating lead through trains, coaches, cruises and sinking as transport meanings change."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 1 - Red face",
+        "bar": "Your skin's worse than STAR CO's - have your family been sleeping with tomatoes? Why's your face all red when you shout?",
+        "explanation": "A previous opponent and tomatoes exaggerate LC's flushed appearance during loud delivery."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 - Ls and shells",
+        "bar": "LC, you're going to see Ls - and on the C-shore you're going to see shells.",
+        "explanation": "LC is split into L and C, with losses and seashore shells supplying separate meanings."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 - Coin and edit",
+        "bar": "I spin man when I flip like a coin - planning the edit, skip the details.",
+        "explanation": "Spinning and flipping use coin motion before edit and skip describe controlling the recorded story."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 - WHOISORION",
+        "bar": "Oxymoron - why? Because WHOISORION threw cigarettes at a fag.",
+        "explanation": "The line calls smoking-related language contradictory while referencing LC's earlier battle with WHOISORION."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 - Prison jumpsuit",
+        "bar": "He dressed in an orange prison jumpsuit for a man - that's kind of gay.",
+        "explanation": "DRIZZGB turns LC's visual battle presentation into a direct image and sexuality attack."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 2 - Sepsis",
+        "bar": "Your dad should have kept you protected - I hope your whole family gets sepsis; clashing DRIZZ is a death wish.",
+        "explanation": "Protection, infection and death turn the closing family insult into a medical threat."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 - Big-screen agreement",
+        "bar": "I said I wouldn't snake him, told him he was my mate - then found information I couldn't let get away; couldn't use the big screen, so I brought it on stage.",
+        "explanation": "DRIZZGB makes a private pre-battle agreement and its betrayal the dramatic setup for his final round."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 - Stoners",
+        "bar": "He's most rocked in a shed with pebbles - that's a different meaning to stoners.",
+        "explanation": "Rocks and pebbles literalise stones before stoners changes the phrase toward cannabis users."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 - Platform reload",
+        "bar": "You get a wheel for saying fuck a platform - why do you cap for?",
+        "explanation": "A wheel means a reload, while platform names PenGame itself and cap challenges LC's truthfulness."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 - Bandcamp",
+        "bar": "You'd do anything for fame - sell your own soul on Bandcamp.",
+        "explanation": "The music-sales platform becomes the imagined marketplace for LC sacrificing integrity."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 - Anne Frank and can-can",
+        "bar": "This ink is deadly, your time is due - Anne Frank, LC's a little challenge; give you a dance like can-can.",
+        "explanation": "Ink, Frank and can-can sustain the sound while writing, history and dance meanings shift."
+      },
+      {
+        "performer": "DRIZZGB",
+        "theme": "Round 3 - David and Hangman",
+        "bar": "You look like David, but not Santan - put these letters in a line, take one and get hanged, man.",
+        "explanation": "Santan Dave is separated from an appearance comparison before letters in a line become the Hangman word game."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 - Name and war",
+        "bar": "D-R-I-double-Z-G-B wants war with me? I can't let that run - you can't even run.",
+        "explanation": "Spelling the name creates a direct opening before run changes from allowing something to physical movement."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 - Voting record",
+        "bar": "Every clash DRIZZ has lost on votes and says the system's dead - crowd, nothing's wrong with your head, because today he's losing on votes again.",
+        "explanation": "LC uses DRIZZGB's public-vote history and directly asks the live voters to repeat it."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 - Spliff and stick",
+        "bar": "You all get put in my spliff - every hit takes arms; DRIZZ, you're built like a stick.",
+        "explanation": "Spliffs, hits and sticks mix smoking with weapons and DRIZZGB's thin frame."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 - Eyes, ears, mouth and nose",
+        "bar": "She's sweet - calm on her eyes, ears, mouth and nose, then I put bars on her cheeks.",
+        "explanation": "The face is listed feature by feature before bars and cheeks turn the partner angle into physical imagery."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 1 - New Day",
+        "bar": "Let's look at your hood: the old champ's Big E, both of you Drizzy, and the one nobody knows is Xavier Woods.",
+        "explanation": "Big E and Xavier Woods place DRIZZGB's group inside WWE's New Day while attacking relative fame."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 - Sacrifice",
+        "bar": "I'm a lyrical mastermind and they sent me DRIZZ for a sacrifice - run and get captured, blind his sight then slash his spine.",
+        "explanation": "Mastermind and sacrifice frame LC as controlling a hunt through capture and physical punishment."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 - Underdog",
+        "bar": "Don't tell me this is an underdog story when this man is half my size.",
+        "explanation": "Underdog status and physical size are collapsed into one dismissal of DRIZZGB's chances."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 - Page and turban",
+        "bar": "Shut off your light, don't close curtains - this isn't a book but a page is turning; you're getting wrapped like a turban.",
+        "explanation": "Lights, curtains and pages move between stage and book endings before wrapped becomes clothing."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 - Rock Bottom",
+        "bar": "I do it like Dwayne Johnson - hit him with a Rock Bottom.",
+        "explanation": "The wrestler and actor's real name sets up his signature finishing move."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 2 - Fanta and Santa",
+        "bar": "This fruit gets twisted like Fanta - you all want this? No Santa.",
+        "explanation": "Fruit-flavoured Fanta and wanting presents from Santa create a compact brand and holiday rhyme."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 - No motion",
+        "bar": "DRIZZ, how are you coping with no motion? SEV smoked him, SKAMZ smoked him, REN smoked him - I'll smoke him.",
+        "explanation": "LC lists previous opponents to present DRIZZGB's league record as proof of stalled momentum."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 - L and hold this",
+        "bar": "She says my name starts with an L - remove that now; G, you can hold this.",
+        "explanation": "LC removes the losing L from his name and turns hold this into presenting a weapon or attack."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 - Club and cups",
+        "bar": "Only scores when he goes to the club, and after he slips something in the cups he drizzles - you're a dirty fuck.",
+        "explanation": "A drink-spiking allegation ends by turning DRIZZGB's name into liquid entering cups."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 - Age and flow",
+        "bar": "Your flow is basic - twenty-eight years old and your flow should change.",
+        "explanation": "LC treats DRIZZGB's age as evidence that an undeveloped cadence is no longer excusable."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 - PSG and AFC",
+        "bar": "Champions League, can't war with me - PSG in your AFC; jersey bringing the vibe, straight to the point like a knife.",
+        "explanation": "The competition becomes football's Champions League, with clubs, jerseys and a pointed blade extending the sports passage."
+      },
+      {
+        "performer": "LC",
+        "theme": "Round 3 - Leicester promotion",
+        "bar": "LC might be Leicester City - just got promotion and I'm winning the lot.",
+        "explanation": "LC's initials become Leicester City, with promotion converted into LC's claimed upward league movement."
+      }
+    ],
+    "oddMoments": [
+      "DRIZZGB wins the coin toss and sends LC first.",
+      "LC's second is repeatedly restarted before the beat and vocal levels settle.",
+      "The room interrupts LC's third to praise a PSG-AFC reference as being based on a result from the previous day.",
+      "LC's third receives several full or partial reloads and becomes much longer than the other rounds.",
+      "DRIZZGB says he and LC agreed not to use the big screen, then brings the relevant person onto the stage instead.",
+      "Margs first says forty-two hours, questions why it is not forty-eight, then calls it forty-something hours."
+    ],
+    "coolMoments": [
+      "LC recruits the audience into his first-round attack on DRIZZGB's voting record.",
+      "DRIZZGB sustains the broadband, telephone and transport scheme through most of his opener.",
+      "The crowd recognises LC's PSG and AFC reference as extremely current.",
+      "DRIZZGB's third uses a real pre-battle agreement as its dramatic reveal.",
+      "The David, Santan and Hangman line leads into an extended name and television scheme."
+    ],
+    "postBattleContext": "The host directs viewers to vote for roughly forty-something hours and asks the room to refresh and use the QR code. No completed count or official winner is present in the source, so the archive records only the clearly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "DRIZZGB wins 2-1 (LOTA Result)",
+      "summary": "LC takes round one through the stronger direct attacks on DRIZZGB's public-vote record, build and group. DRIZZGB wins round two with the clearer LC letter flips, WHOISORION reference and opponent research. He takes round three through the battle's deepest contextual writing around GZone, reloads, platforms and Bandcamp, followed by the David, Hangman, Miss Finster, Judge Rinder and Avatar schemes."
+    }
   },
   { "id": "pg-scl-2026-06-28-skamz-vs-jaycee", "slug": "skamz-vs-jaycee", "mc1": "skamz", "mc2": "jaycee", "title": "SKAMZ vs JAYCEE", "date": "2026-06-28", "theme": "pengame", "season": "Champions League", "competition": "Champions League", "subGroup": "Fixture 4", "customEp": "CLx31", "seasonOrder": 31, "stage": "Champions League Fixture 4", "views": null, "winner": "unknown", "statusNote": "Fixture listed" },
-  { "id": "pg-scl-2026-06-28-kandi-vs-monroe", "slug": "kandi-vs-monroe", "mc1": "kandi", "mc2": "monroe", "title": "KANDI vs MONROE", "date": "2026-06-28", "theme": "pengame", "season": "Champions League", "competition": "Champions League", "subGroup": "Fixture 4", "customEp": "CLx32", "seasonOrder": 32, "stage": "Champions League Fixture 4", "views": null, "winner": "unknown", "statusNote": "Fixture listed" },
+  {
+    "id": "pg-scl-2026-06-28-kandi-vs-monroe",
+    "slug": "kandi-vs-monroe",
+    "mc1": "kandi",
+    "mc2": "monroe",
+    "title": "KANDI vs MONROE",
+    "date": "2026-06-28",
+    "theme": "pengame",
+    "season": "Champions League",
+    "competition": "Champions League",
+    "subGroup": "Fixture 4",
+    "customEp": "CLx32",
+    "seasonOrder": 32,
+    "stage": "Champions League Fixture 4",
+    "views": "92k",
+    "videoUrl": "https://www.youtube.com/watch?v=E3Gi4lryHPI&t=267s",
+    "winner": "kandi",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "KANDI and MONROE met in Champions League Fixture 4 at Ministry of Sound. MONROE called the coin toss and lost, then was sent first. The host closes by directing the room and viewers at home to a 48-hour vote, but no completed tally or declared winner is preserved. The result below is therefore an independent LOTA review.\n\nMONROE's first opened on being bad from birth, Total 90 astroturfs, caskets and deciding who between him and KANDI could get cancelled first. Family and sexuality attacks led into different rosters, crystal meth, bed-wetting, skipping leg day and a father rejecting his son's sexuality. Gripping lead, being ripped like performance-enhancing drugs and being into bread rather than money developed the middle. Walking sticks, awkward corporate clothes and a young-looking partner led into Lamine Yamal and needing a cell. MONROE closed through KANDI's mother's haircut, a dead-father angle, another chance at life, Kick streaming and cancer. Numerous full reloads made the round long but highly performed.\n\nKANDI's first attacked MONROE's grandmother through dementia, crawling to work, poor hygiene and turning 180 degrees. Kneeling for George Floyd became mistaking him for a Chelsea left-back. LC, L3, LV and Kelpie formed a short game-and-fashion sequence. MONROE's daughter and alleged drug use became a family angle, followed by his mother smoking in the kitchen like Jeffrey Dahmer. Alcoholism and a father's Parkinson's created shaky hands and no bars. Medication, makeup and hygiene led into a funeral, pirate imagery, boarding a boat and taking off a chest. The direct family research and cleaner development edge the first.\n\nMONROE's second attacked KANDI for drug use and a broken family, comparing him with Jesus smoking cannabis. Ice and fire became a frozen weapon before spelling M-O-N-R-O-E and eating Weetabix in the Champions League. A rash, a circle of friends named Steve and Norman, a girlfriend calling, and a confusing Scouse and ballet-song comparison followed. KANDI's mother, breath, gun fingers and Sarge built the next section. MONROE then added a mirror rehearsal, a sixty-mile-per-hour crash, Rolex risk, a pale Predator, drugs and a group of Discord moderators without a sharp person among them. The round has variety but several phrases remain loose.\n\nKANDI's second focused on MONROE's history of racist statements. Beenie Man's 'zim zimma' opened the verse before breaking into mosques to search for a genie lamp. MONROE looked like Dobby if Harry gave him a pipe, and KANDI joked that writing the line the day before somehow placed him outside the fight. Racism and only choosing white partners led into lights, calling Ish one of the nice ones and Facebook comments under KANDI's Jamaican post. KANDI argued MONROE wanted England as it had been in childhood, then listed derogatory things allegedly said to Ish, Margs, John and Tommy while refusing to repeat the worst slur. A flatlined partner, Psycho, rent and PenGame money closed a clearly researched round.\n\nMONROE's third accused KANDI of buying Pokémon products and reselling them to poor children at double price. Weapons, his father's drinking, a fur coat and poor hygiene followed. KANDI's name became nothing sweet and no friendly hour. MONROE said KANDI sold staffies and stolen nappies, owed TRAPPY, and moved through Gaddafi, taxis, dogs, burning a strip and childhood food. Chips, nuggets and defecating in buckets became a public-lips rhyme. An 'autistic war' and both battlers acknowledging neurodivergence produced the round's defining crowd moment. MONROE extended it through partners, swords, extension cords, PASSIVE turning KANDI to a hologram and a spineless-clown closer.\n\nKANDI's third opened with a violent lock twist and a weight attack on MONROE's mother, asking why she carried a rape whistle. Cocaine in underwear, headshots and a misfit arm followed. MONROE allegedly preferring dead women became an explanation for silence, while dogs defecating in his house and his mother lifting him from the bath attacked hygiene and dependence. KANDI then cited MONROE's former friendship with RP before allegedly rejecting him for being Arab. Gollum and the EDL, a neglected elf, benefits, a BBL and family violence continued the section. KANDI closed by citing MONROE calling him fake white or albino and saying he hated 'ninjas,' which KANDI framed as a typo for a slur. The specificity gives him the third.\n\nLOTA scores KANDI 3-0. KANDI edges the first through the better-targeted dementia, George Floyd, Parkinson's and family writing; wins the second with the stronger mosque, Dobby, Facebook, Jamaica and documented-language construction; and takes the third through the direct RP, EDL, albino and alleged-slur material despite MONROE's entertaining autism-flow performance.",
+    "performanceAnalysis": [
+      {
+        "performer": "KANDI",
+        "overview": "KANDI wins the LOTA review 3-0. The first is close, but his family research and cleaner connected passages edge it. His second and third stay tightly fixed on MONROE's alleged racist remarks, relationships and public history. The writing is deliberately abrasive, yet the opponent specificity and coherent setups give KANDI the competitive advantage in every round.",
+        "lyricalThemes": "Grandmothers, dementia and 180-degree turns; George Floyd and Chelsea; LC, L3, LV and Kelpie; children and drugs; mothers, kitchens and Jeffrey Dahmer; alcoholism and Parkinson's; medication, makeup, hygiene and funerals; pirates, boats and chests; Beenie Man; mosques, genies and lamps; Dobby, Harry Potter and pipes; racism, partners and white preference; lights, Ish and Facebook; Jamaica and England; slurs and named PenGame figures; flatlines, Psycho and rent; mothers, weight and rape whistles; cocaine and headshots; dead women; dogs, baths and dependence; RP, Arab identity and exclusion; Gollum, EDL and elves; benefits, BBLs and violence; fake white, albino, ninjas and alleged slurs.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Dementia and 180 opening",
+            "description": "Crawling, infancy, daily hygiene, going nowhere and a straight 180 build a sustained attack on MONROE's grandmother."
+          },
+          {
+            "title": "Mosque and Dobby round",
+            "description": "Mosques, genie lamps, Dobby, Harry Potter, pipes, white partners, lights and Facebook sustain the researched racism theme."
+          },
+          {
+            "title": "RP and EDL closer",
+            "description": "MONROE's relationship with RP, Arab identity, Gollum, the EDL, albino comments and the supposed typo create a specific final."
+          }
+        ]
+      },
+      {
+        "performer": "MONROE",
+        "overview": "MONROE loses the LOTA review 3-0 but remains highly competitive, especially in the first and third. His delivery and reload control create the battle's biggest performance moments. The first offers broad personal attacks, and the third's Pokémon, staffies, childhood and autism-flow material is memorable. KANDI's more specific research edges those rounds, while MONROE's second is less coherent than KANDI's response.",
+        "lyricalThemes": "Birth, Total 90 astroturfs and caskets; cancellation; family, sexuality and rosters; crystal meth, bed-wetting and leg day; fathers and sexuality; lead, shredding and PEDs; bread and money; walking sticks and corporate clothes; Lamine Yamal and young partners; mothers, dead fathers, reincarnation, Kick and cancer; broken families and Jesus; ice, fire and frozen weapons; name spelling, Weetabix and Champions League; rashes, Steve and Norman; partners, breath, gun fingers and Sarge; mirrors, crashes, Rolex, Predator and Discord; Pokémon resale; weapons, fathers drinking, fur coats and hygiene; KANDI's name and sweets; staffies, nappies, TRAPPY and Gaddafi; dogs, fire, chips and nuggets; autism and neurodivergence; swords, extension cords, PASSIVE and holograms.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Cancelled-platform opener",
+            "description": "Platform, KANDI, cancellation and MONROE deciding he is the best establish the battle's deliberately offensive tone."
+          },
+          {
+            "title": "Name-spelling section",
+            "description": "M-O-N-R-O-E, Weetabix, Champions League scoring, rashes, friends and calls create a rhythmic second-round run."
+          },
+          {
+            "title": "Autism-flow performance",
+            "description": "Both battlers acknowledge neurodivergence, the crowd joins the chant and MONROE turns it into the final round's main performance hook."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Dementia and 180",
+        "bar": "MONROE's grandma crawls to work, her dementia thinks she's a baby - goes nowhere but a straight 180.",
+        "explanation": "Age regression, crawling and turning around create a connected dementia caricature."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - George Floyd and Chelsea",
+        "bar": "MONROE knelt for George Floyd, thought he was the left-back for Chelsea.",
+        "explanation": "Taking a knee is misread as football positioning, with Chelsea supplying the team."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - LV and Kelpie",
+        "bar": "You don't get women, that's my design - move like LV; that ain't a myth like Kelpie.",
+        "explanation": "Designer Louis Vuitton and mythological Kelpie create fashion and folklore references."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Daughter and crack",
+        "bar": "I'll give your kid a chance - you won't stop doing crack with your daughter.",
+        "explanation": "A deliberately harsh family allegation places addiction against parental responsibility."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Parkinson's",
+        "bar": "Your family full of alcoholics - that's why they never noticed your dad had Parkinson's; shaky hands, no bars in this.",
+        "explanation": "Alcohol-related shaking and Parkinson's symptoms become the setup for saying MONROE has no bars."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 - Pirate chest",
+        "bar": "Move like a pirate, board the boat and take off his chest.",
+        "explanation": "Boarding a ship and treasure chests become a threat to remove MONROE's chest."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Genie lamp",
+        "bar": "MONROE broke into three mosques looking for a genie lamp.",
+        "explanation": "Religious buildings and a Middle Eastern folk-tale object are used to caricature MONROE's racism and ignorance."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Dobby",
+        "bar": "You look like Dobby if Harry gave Dobby a pipe.",
+        "explanation": "The Harry Potter house-elf becomes an appearance and drug-use comparison."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - White ones",
+        "bar": "MONROE's so racist, when he sleeps with women it's only the white ones.",
+        "explanation": "The round's racism theme is applied directly to MONROE's intimate preferences."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Facebook and Jamaica",
+        "bar": "He gets on Facebook under my post saying, 'Jamaica's your country, stay in it.'",
+        "explanation": "KANDI cites an alleged public comment as direct evidence for the round's accusation."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 - Black in the loft",
+        "bar": "He's so racist, anything Black he owns is sat in the loft.",
+        "explanation": "Black objects and Black people are collapsed into an exclusion and storage joke."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 - Rape whistle",
+        "bar": "Your mum's twenty-one stone - what's her rape whistle for, is she optimistic?",
+        "explanation": "A weight attack is paired with a deliberately cruel question about perceived desirability and safety."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 - Dead women",
+        "bar": "MONROE likes girls who are dead so they have an excuse for not moaning.",
+        "explanation": "Silence during sex becomes the basis for an extreme necrophilia accusation."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 - Dogs and bath",
+        "bar": "I can't lose to a man who lets dogs foul in his house - when he has a bath, his mum still lifts him out.",
+        "explanation": "Animal hygiene and adult dependence form a connected household attack."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 - RP and EDL",
+        "bar": "MONROE was friends with RP till he learned he's Arab and told him to go home - you look like Gollum during the EDL.",
+        "explanation": "A named relationship and far-right group make the racism accusation specific before Gollum adds appearance."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 - Albino and typo",
+        "bar": "You called me fake white, albino; said you hate ninjas - pretty sure that was a typo.",
+        "explanation": "KANDI frames ninja as a near-written substitute for a racial slur, following the albino comment."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 - Cancelled first",
+        "bar": "I'm having fun on this platform - me versus KANDI, who can get cancelled first?",
+        "explanation": "Both battlers' deliberately offensive styles turn the platform into a race toward cancellation."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 - Rosters and legs",
+        "bar": "Put us on different rosters - smoking crystal meth, still wets his bed, goes gym but skips his legs.",
+        "explanation": "The roster comparison moves through drug use, immaturity and an incomplete gym routine."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 - Into bread",
+        "bar": "You're not into money, you're just into bread.",
+        "explanation": "Bread means money and literal food, allowing MONROE to deny financial ambition through appetite."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 - Lamine Yamal",
+        "bar": "I've seen his girl, looks like Lamine Yamal - and she's a teen as well, you need a cell.",
+        "explanation": "The young footballer supplies an appearance and age comparison before cell means prison."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 - Another chance",
+        "bar": "What can he say that hasn't been said? You can't win if my dad isn't dead - come back in another life with a fly in your head.",
+        "explanation": "MONROE acknowledges familiar material and argues KANDI needs different circumstances and reincarnation."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 1 - Kick stream",
+        "bar": "I'll drop-kick you on your Kick stream, spin back and stamp on your head.",
+        "explanation": "KANDI's streaming platform becomes the location and verb for a physical kick."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Jesus smoking",
+        "bar": "Your family's full of broken men - you look like Jesus if he was smoking blem.",
+        "explanation": "Long hair and drug use turn KANDI into a damaged religious caricature."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Ice and fire",
+        "bar": "This verse is a mixture of ice and fire - hit him with a frozen weapon, turn him ghost again.",
+        "explanation": "Opposing elements combine into a supernatural killing image."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Name and Weetabix",
+        "bar": "M-O-N-R-O-E, had my Weetabix this morning - in the Champions League I'm scoring.",
+        "explanation": "Spelling the name leads into breakfast energy and football scoring within the competition."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Breath",
+        "bar": "Don't rap toward me when your breath smells like your nan's hair in a fanny.",
+        "explanation": "A deliberately grotesque family image exaggerates KANDI's breath."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 2 - Discord mods",
+        "bar": "Your whole gang's full of Discord mods - not one sharp mind between ten of ya.",
+        "explanation": "Online moderators become evidence that KANDI's circle is socially awkward and unintelligent."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Pokémon resale",
+        "bar": "You buy Pokémon and resell it for double the price to kids that are poor.",
+        "explanation": "KANDI's alleged resale business becomes an accusation of exploiting young fans."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Nothing sweet",
+        "bar": "I'm battling KANDI but nothing is sweet - this isn't the friendly hour.",
+        "explanation": "KANDI's name becomes the expected sweetness that MONROE rejects."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Staffies and nappies",
+        "bar": "You don't sell music, you sell staffies and stolen nappies - got a tick bill with TRAPPY, Down syndrome Gaddafi.",
+        "explanation": "Music business is replaced with dogs and stolen goods before named debts and insults extend the rhyme."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - Autistic war",
+        "bar": "This is an autistic war - my autism is a superpower, yours makes you soil your drawers.",
+        "explanation": "Both battlers' acknowledged neurodivergence becomes a competitive comparison and crowd chant."
+      },
+      {
+        "performer": "MONROE",
+        "theme": "Round 3 - PASSIVE hologram",
+        "bar": "Turn man to a ghost like when he clashed PASSIVE and turned to a hologram.",
+        "explanation": "A previous battle and visual disappearance are used as evidence KANDI can vanish under pressure."
+      }
+    ],
+    "oddMoments": [
+      "Margs introduces the matchup as white-on-white crime before immediately apologising.",
+      "MONROE loses the toss but is still sent first, which he says he wanted.",
+      "MONROE performs most of his opening four times as the crowd repeatedly joins in.",
+      "Both performers and Margs repeatedly stop to debate whether individual lines are racist or platform-safe.",
+      "MONROE's autism-flow third becomes a crowd singalong, and both battlers openly acknowledge being neurodivergent.",
+      "KANDI ends by advertising his livestream and inviting sponsorship immediately after his final."
+    ],
+    "coolMoments": [
+      "MONROE's cancellation opener immediately captures the deliberate tone of the matchup.",
+      "KANDI's George Floyd and Chelsea-left-back flip gives his first a concise visual punch.",
+      "The Dobby and genie-lamp sequence anchors KANDI's researched second round.",
+      "MONROE's autism flow becomes the battle's biggest interactive performance moment.",
+      "KANDI's RP, EDL, albino and typo section gives the final a strongly opponent-specific close."
+    ],
+    "postBattleContext": "The host directs the room and viewers at home to the website and gives them 48 hours to vote. No completed count or official winner appears in the source, so the archive records only the explicitly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "KANDI wins 3-0 (LOTA Result)",
+      "summary": "KANDI edges round one through the more specific grandmother, George Floyd, Parkinson's and family material. He wins round two through the stronger mosque, Dobby, Facebook, Jamaica and alleged-racist-language construction. He takes round three because the RP, EDL, albino and supposed-slur material is more opponent-specific than MONROE's highly entertaining but broader autism-flow performance."
+    }
+  },
   { "id": "pg-scl-2026-06-28-iiiberealz-vs-domi-dusk", "slug": "iiiberealz-vs-domi-dusk", "mc1": "iiiberealz", "mc2": "domi-dusk", "title": "iiiBEREALZ vs DOMI DUSK", "date": "2026-06-28", "theme": "pengame", "season": "Champions League", "competition": "Champions League", "subGroup": "Fixture 4", "customEp": "CLx33", "seasonOrder": 33, "stage": "Champions League Fixture 4", "views": null, "winner": "unknown", "statusNote": "Fixture listed" },
   { "id": "pg-scl-2026-06-28-dan-dannah-vs-jm", "slug": "dan-dannah-vs-jm", "mc1": "dan-dannah", "mc2": "jm", "title": "DAN DANNAH vs JM", "date": "2026-06-28", "theme": "pengame", "season": "Champions League", "competition": "Champions League", "subGroup": "Fixture 4", "customEp": "CLx34", "seasonOrder": 34, "stage": "Champions League Fixture 4", "views": null, "winner": "unknown", "statusNote": "Fixture listed" },
-  { "id": "pg-scl-2026-06-28-whoisorion-vs-star-co", "slug": "whoisorion-vs-star-co", "mc1": "whoisorion", "mc2": "star-co", "title": "WHOISORION vs STAR CO", "date": "2026-06-28", "theme": "pengame", "season": "Champions League", "competition": "Champions League", "subGroup": "Fixture 4", "customEp": "CLx35", "seasonOrder": 35, "stage": "Champions League Fixture 4", "views": null, "winner": "unknown", "statusNote": "Fixture listed" },
-  { "id": "pg-scl-2026-06-28-anbu-sensei-vs-char-b", "slug": "anbu-sensei-vs-char-b", "mc1": "anbu-sensei", "mc2": "char-b", "title": "ANBU SENSEI vs CHAR B", "date": "2026-06-28", "theme": "pengame", "season": "Champions League", "competition": "Champions League", "subGroup": "Fixture 4", "customEp": "CLx36", "seasonOrder": 36, "stage": "Champions League Fixture 4", "views": null, "winner": "unknown", "statusNote": "Fixture listed" },
+  {
+    "id": "pg-scl-2026-06-28-whoisorion-vs-star-co",
+    "slug": "whoisorion-vs-star-co",
+    "mc1": "whoisorion",
+    "mc2": "star-co",
+    "title": "WHOISORION vs STAR CO",
+    "date": "2026-06-28",
+    "theme": "pengame",
+    "season": "Champions League",
+    "competition": "Champions League",
+    "subGroup": "Fixture 4",
+    "customEp": "CLx35",
+    "seasonOrder": 35,
+    "stage": "Champions League Fixture 4",
+    "views": "52k",
+    "videoUrl": "https://www.youtube.com/watch?v=q2x6cytukj0&t=1309s",
+    "winner": "whoisorion",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "WHOISORION and STAR CO closed Champions League Fixture 4 at Ministry of Sound. WHOISORION won the coin toss and chose to go first. Margs repeatedly stopped the opening while the sound was adjusted, and both battlers had to restart passages throughout the battle. The host asked the live room and viewers at home to vote, but no completed tally or declared winner is preserved in the source. The result below is therefore an independent LOTA review.\n\nWHOISORION's first began by praising STAR CO's style, tone, rhyme schemes and beat choices before revealing that he was describing STAR CO's father, SMILES. He argued that STAR CO copied his father's walk, talk, flow, bars, clothes and pauses, then changed SMILES into Grin. Foot rubs and looking up to a short man continued the father angle. STAR CO's face became baptism in cooking oil; alleged trouble with DRIZZGB turned the star in his name into wanting to be WHOISORION. A rapid list of appearance attacks led into calling him a BTEC CHEEKS. WHOISORION restarted the full passage twice because he could not hear the beat, but eventually completed it.\n\nSTAR CO's first opened with jumping from a car, kicking out WHOISORION's teeth and combining jabs, crosses, hooks and kicks. He asked who Orion was, then said WHOISORION had hidden behind others when CHAPPIE tried to confront him. A reported four-loss record, a KANDI shop and paying KANDI for sex built the middle. STAR CO said WHOISORION left PenGame built like a meatball and returned looking the same, then moved through pavement, turf and direct threats. He restarted once after losing his place but delivered a shorter, more controlled completed pass. That cleaner execution narrowly earns STAR CO the first.\n\nWHOISORION's second attacked STAR CO's clothes and gender presentation before asking why a drunk Margs had booked him. John Wick became John WALK ON and a threat to kill his dog. STAR CO sitting on another man's lap became needing him as a booster seat because of his height. WHOISORION compared his neck with Carlos Tevez, his face with Meghan Markle, and his appearance with Deadpool without the mask. Domino and supernatural luck led into crusty lips and baby powder. Wesley Snipes, Freddy Krueger, E45 and dry skin followed before WHOISORION closed by asking what one star was to a whole constellation. Despite multiple audience-commanded reloads, the sequence contains the round's clearest punchlines.\n\nSTAR CO's second prioritised rhythm and physical threats. Lucky seven and being unable to fit all his friends in a car introduced the verse. Men eating fries outside the venue, brown teeth and sexual insults led into a left jab, right hand, kick to the jaw and knife attack. STAR CO warned that the stage would break under WHOISORION, then used smiles, cheese and white teeth. He said he could not take chat from someone like him, described evading blockers and returning with a weapon, and moved through roti, colours, a crash course and confetti. The passage was restarted several times and its transcription is often unclear. The flow is effective, but the writing is broader than WHOISORION's targeted response.\n\nWHOISORION's third was built around crowd participation. STAR CO being burned like lava made WHOISORION Darth Vader and STAR CO Luke, but the audience refused the expected father response. Voice notes, helium and copying SKAMZ became another deliberately denied fill-in. WHOISORION then argued that lyrical writing works in the dungeon but does not automatically translate to the stage. The Undertaker, drug use, a priest and Star Wars led into family attacks. Twinkle Twinkle Little Star became STAR CO's mother bringing men home and leaving him unsure of his father. Serious, delirious and curious formed a rhyme run before angles became a pyramid and speed became Paul Walker. The playful failed call-and-response produced a complete and varied final.\n\nSTAR CO's third opened with Cartier, flair on a wristwatch, taking time off a wrist and switching WHOISORION off. Criss-cross and diamonds coming off TikTok continued the compact scheme. STAR CO then stopped, said the battle was done and did not resume. The incomplete round makes the deciding point unavoidable.\n\nLOTA scores WHOISORION 2-1. STAR CO edges the first through the cleaner completed delivery after both battlers encounter sound and memory problems. WHOISORION wins the second with the more direct John Wick, booster-seat, Deadpool, baby-powder and constellation writing. He takes the third decisively with a complete crowd-participation round after STAR CO abandons his response four lines into the verse.",
+    "performanceAnalysis": [
+      {
+        "performer": "WHOISORION",
+        "overview": "WHOISORION wins the LOTA review 2-1. His opening has substantial opponent-specific writing but loses its competitive shape through two full restarts and continuing beat problems. He recovers with the battle's strongest collection of direct punchlines in the second, then completes a confident crowd-participation final while STAR CO is unable to finish.",
+        "lyricalThemes": "SMILES, fathers and imitation; walks, speech, flows, clothes and pauses; grins, foot rubs and height; cooking oil and skin; DRIZZGB, stars and Orion; CHEEKS; gender presentation and clothes; Margs and alcohol; John Wick and dogs; laps and booster seats; Carlos Tevez, Meghan Markle, Marvel and Deadpool; Domino, luck, lips and baby powder; Wesley Snipes and Freddy Krueger; E45 and dry skin; stars and constellations; lava, Darth Vader, Luke and Star Wars; voice notes, helium and SKAMZ; the dungeon and stage performance; Undertaker, priests and prayer; nursery rhymes, absent fathers, pyramids and Paul Walker.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "SMILES reveal",
+            "description": "A passage that appears to praise STAR CO is revealed as praise for his father before WHOISORION lists everything the son allegedly copied."
+          },
+          {
+            "title": "Marvel and constellation run",
+            "description": "John Wick, Carlos Tevez, Meghan Markle, Deadpool, Domino, baby powder and a star-versus-constellation closer give the second layered references."
+          },
+          {
+            "title": "Failed crowd fill-ins",
+            "description": "WHOISORION repeatedly sets up obvious audience responses, rejects what the room supplies and uses the failure as part of the performance."
+          }
+        ]
+      },
+      {
+        "performer": "STAR CO",
+        "overview": "STAR CO loses the LOTA review 2-1. His first is short but forceful and, after one restart, cleaner than WHOISORION's heavily interrupted opener. His second demonstrates the more distinctive flow but relies on general threats and is repeated several times. The battle turns when his third ends after its opening wristwatch sequence.",
+        "lyricalThemes": "Cars, kicks, teeth and boxing combinations; CHAPPIE and protection; battle records; KANDI and sex; leaving and returning to PenGame; meatballs, pavements and turf; lucky seven; cars and friends; fries, brown teeth and sexual insults; jabs, kicks, knives and physical attacks; stages breaking; smiles, cheese and white teeth; blockers and weapons; roti and colours; crash courses and confetti; Cartier, flair, wristwatches, time, switching off, criss-cross and TikTok diamonds.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Physical opening cadence",
+            "description": "Kicks, flying teeth, jabs, crosses and hooks give STAR CO's first an immediate rhythmic shape."
+          },
+          {
+            "title": "Sustained second-round flow",
+            "description": "The car, fries, teeth, striking and knife passages are written primarily to maintain momentum across the beat."
+          },
+          {
+            "title": "Cartier opening",
+            "description": "Flair, wristwatch, taking time off a wrist and switching off form a promising linked scheme before the round ends."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - SMILES reveal",
+        "bar": "I rate your style, your flow's unique, your tone gets deep - you thought I meant this neek, I was talking about his father, SMILES.",
+        "explanation": "An apparent compliment to STAR CO is redirected to his father, beginning the imitation angle."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - Call him Grin",
+        "bar": "You walk like him, talk like him, flows, bars, drip and pause - this child wants to be SMILES, call him Grin.",
+        "explanation": "WHOISORION lists copied traits and turns the father's name SMILES into the lesser version Grin."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - Looks up",
+        "bar": "We all know you look up to him, but STAR CO's short - of course he looks up.",
+        "explanation": "Admiration for a father becomes the literal act of looking upward despite STAR CO's height."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - Cooking-oil baptism",
+        "bar": "Why is your face looking cooked up? As a kid you got baptised in cooking oil.",
+        "explanation": "Religious baptism is replaced with cooking oil to extend the burnt-skin insult."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - Star and Orion",
+        "bar": "You got star in your name and your beef's with DRIZZ - you want to be WHOISORION.",
+        "explanation": "STAR CO's name and another opponent are pulled into WHOISORION's celestial identity."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 1 - BTEC CHEEKS",
+        "bar": "You're just a BTEC CHEEKS - instead of cheeks, let's call him arsehole.",
+        "explanation": "A lower-grade imitation of CHEEKS becomes a body-part escalation and direct insult."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - John Wick",
+        "bar": "John WALK ON, I know he's your boy - John Wick might put a hit on me because tonight I'm about to kill his dog.",
+        "explanation": "A named associate becomes John Wick, whose defining revenge motive is the killing of his dog."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Booster seat",
+        "bar": "You had two men sitting on your lap - you're so short you should have sat in his lap and used him as a booster seat.",
+        "explanation": "A lap allegation reverses direction and becomes a height joke about a child's car seat."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Tevez and Markle",
+        "bar": "You look like the neck of Carlos Tevez, prince of this face like Meghan Markle.",
+        "explanation": "Carlos Tevez's well-known neck scar and Meghan Markle's royal connection combine in an appearance attack."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Deadpool",
+        "bar": "You could have been in Marvel - you look like Deadpool when he takes his mask off.",
+        "explanation": "Deadpool's scarred face provides the visual comparison."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Baby powder",
+        "bar": "Your lips are so crusty, if you blow it would look like baby powder.",
+        "explanation": "Dry skin becomes airborne white powder when STAR CO blows from his lips."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Freddy Krueger",
+        "bar": "You look like Freddy Krueger's testicle.",
+        "explanation": "Freddy Krueger's burned appearance is intensified into an extreme skin-texture comparison."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 2 - Constellation",
+        "bar": "WHOISORION - what the fuck is a star to a whole constellation?",
+        "explanation": "STAR CO represents one star while Orion is an entire constellation, framing the matchup as a difference in scale."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 - Vader and Luke",
+        "bar": "You get burned like lava, I feel like Darth Vader - you must be Luke because I am your... say nada.",
+        "explanation": "The obvious Star Wars father quote is withheld when the crowd tries to complete it."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 - Twinkle star",
+        "bar": "Twinkle, twinkle, little star - your mum brought bare man to the yard, you don't know who your real dad is.",
+        "explanation": "The nursery rhyme connects STAR CO's name with an absent-father family angle."
+      },
+      {
+        "performer": "WHOISORION",
+        "theme": "Round 3 - Pyramid angles",
+        "bar": "I'm creative, I try angles - just like a pyramid.",
+        "explanation": "Writing from different angles becomes the multiple geometric angles of a pyramid."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Teeth fly",
+        "bar": "Jump out the ride, kick out his mouth full tight, make his teeth fly high.",
+        "explanation": "The opening uses a driving cadence and a kick to create immediate physical imagery."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Boxing sequence",
+        "bar": "Jab, jab, cross, hook, left, right - it's on sight, he can't fight.",
+        "explanation": "A full striking combination supplies both rhythm and the claim that WHOISORION cannot fight back."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Hid behind",
+        "bar": "Who's Orion? Orion's the man they hid behind when CHAPPIE tried to mash up the guy.",
+        "explanation": "A past confrontation is used to portray WHOISORION as protected by others."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - KANDI shop",
+        "bar": "This guy walked into a KANDI shop - this guy paid KANDI for sex.",
+        "explanation": "A candy shop is converted into a named-MC wordplay and personal allegation."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Meatball again",
+        "bar": "You left PenGame built like a meatball, came out looking like a meatball again.",
+        "explanation": "Leaving and returning without physical change becomes a simple circular body joke."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 1 - Pavement and turf",
+        "bar": "Bounce this thing on the pavement, fling up the turf for the man.",
+        "explanation": "A weapon impact is exaggerated until it disturbs both pavement and ground."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Lucky seven",
+        "bar": "Lucky seven - I'm confident he don't lean out rides; I bet he can't fit all his Gs inside.",
+        "explanation": "A group of friends and limited car space introduce the round's ride imagery."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Left and right",
+        "bar": "Get a jab from the left, bang from the right, kick to the jaw, shank to the eye.",
+        "explanation": "Alternating directions and attacks maintain the verse's fast percussive rhythm."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - No ramping",
+        "bar": "Slap over there, then back to the side - there's no way man, I ramp with the knife.",
+        "explanation": "The movement pattern resolves into the claim that STAR CO does not play with a weapon."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Stage break",
+        "bar": "Call Margs, I've been concerned for the guys - stage breaks, we're all gonna die.",
+        "explanation": "WHOISORION's weight becomes a mock structural warning to the host and crowd."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Roti",
+        "bar": "You don't want to pop it, I'll pop in the roti.",
+        "explanation": "The repeated pop sound bridges a confrontation with food imagery."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Flying colours",
+        "bar": "Wearing a ready, I fly colours on my back.",
+        "explanation": "Clothing and colour imagery are carried through the fast delivery."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 2 - Crash course",
+        "bar": "Crash course to confetti, stuff it out the semi.",
+        "explanation": "A crash course, celebratory confetti and a semi-automatic weapon compress into a violent closer."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 - Cartier time",
+        "bar": "Cartier, he said he's got flair with a wristwatch - I take time off his wrist, get switched off.",
+        "explanation": "The luxury watch holds literal time, which STAR CO removes while switching WHOISORION off."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 - Criss-cross",
+        "bar": "I can't lie, he's a bitch, get criss-crossed.",
+        "explanation": "Crossing paths and a crossed-out opponent extend the compact wrist scheme's internal rhyme."
+      },
+      {
+        "performer": "STAR CO",
+        "theme": "Round 3 - TikTok diamonds",
+        "bar": "When his diamonds came off on TikTok.",
+        "explanation": "Jewellery falling away on social media completes the opening watch-and-diamonds sequence before STAR CO stops."
+      }
+    ],
+    "oddMoments": [
+      "Margs repeatedly stops the opening to ask whether anyone in the room can replace the sound engineer, then immediately tells Ish his job is safe.",
+      "WHOISORION performs most of his first three times because he cannot hear the beat clearly.",
+      "STAR CO pretends he has not lost his place in the first, admits that he has, then restarts.",
+      "Margs calls time on WHOISORION's second, but WHOISORION turns repeated calls of time into an extended E45 dry-skin sequence.",
+      "WHOISORION's third asks the crowd for obvious fill-ins and then deliberately rejects their answers.",
+      "STAR CO delivers only the opening of his third before saying the battle is done."
+    ],
+    "coolMoments": [
+      "WHOISORION's opening compliment being revealed as a description of STAR CO's father gives the first an effective angle.",
+      "STAR CO's jab, cross, hook and kick cadence provides the cleanest stretch of his first.",
+      "The Deadpool and baby-powder sequence gives WHOISORION's second strong visual punches.",
+      "STAR CO's second maintains a distinctive rapid flow even through several full reloads.",
+      "The audience refusing WHOISORION's expected Darth Vader response becomes the final round's best interactive moment."
+    ],
+    "postBattleContext": "Margs says the battle could go either way before STAR CO's final, then closes by asking the live room and home audience to vote. The outro explains the Champions League points system and states that audience votes count. No completed poll or official result is present in the source, so the archive uses the explicitly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "WHOISORION wins 2-1 (LOTA Result)",
+      "summary": "STAR CO edges round one because his completed pass is shorter and cleaner after both battlers restart. WHOISORION wins round two with the more specific John Wick, booster-seat, Deadpool, baby-powder and constellation material. WHOISORION takes round three decisively by completing a varied crowd-participation verse after STAR CO abandons his response following its opening wristwatch scheme."
+    }
+  },
+  {
+    "id": "pg-scl-2026-06-28-anbu-sensei-vs-char-b",
+    "slug": "anbu-sensei-vs-char-b",
+    "mc1": "anbu-sensei",
+    "mc2": "char-b",
+    "title": "ANBU SENSEI vs CHAR.B",
+    "date": "2026-06-28",
+    "theme": "pengame",
+    "season": "Champions League",
+    "competition": "Champions League",
+    "subGroup": "Fixture 4",
+    "customEp": "CLx36",
+    "seasonOrder": 36,
+    "stage": "Champions League Fixture 4",
+    "views": "52k",
+    "videoUrl": "https://www.youtube.com/watch?v=ah11GojDSuE",
+    "winner": "anbu-sensei",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "ANBU SENSEI and CHAR.B opened Champions League Fixture 4 at Ministry of Sound. ANBU won the coin toss and chose to go first, but CHAR.B was still sent out before him. The host closes by directing the room and viewers at home to a 48-hour vote, with no completed tally or declared winner preserved. The result below is therefore an independent LOTA review.\n\nCHAR.B's first called ANBU the definition of a loser and used grooming, stale noodles and urinating beside a computer to attack his online image and hygiene. A million-pound bet became preferring a noose, kneeling became praying for his death, and family death left him alone. ANBU criticising women became beggars trying to choose despite having no options. CHAR.B praised his mother for the exhausting work of raising him, then called his birth the result of being unable to have an abortion. The beat broke during the round. She restarted but lost her place, accepted the L herself and ended before completing the intended material.\n\nANBU's first began with CHAR.B's clothes and the expectation that she make a sandwich, then attacked her bars and beats. Chris Brown in 2009 turned the gendered aggression into a music reference; Musical Youth and passing left-hand side followed. Sam and Dean from Supernatural supplied her demise. ANBU addressed CHAR.B's online complaints about women being excluded from battle rap, compared them with CHEEKS going viral and argued that the real problem was CHAR.B being ineffective. Addams, Wednesday, food, kitchens, ERICA KIRK and choking developed the later passages. Multiple reloads and interruptions stretched the round, but ANBU completed substantially more material and takes the first.\n\nCHAR.B's second targeted ANBU's anime identity. She called sexualised young female characters creepy and asked what his search history would uncover. Acne and an uncle became a deliberately offensive origin question. Acting like a penguin and carrying the show led into only carrying an extra chromosome. Anime powers became autism, specifically the kind that made ANBU awkward and unable to make eye contact. CHAR.B said Margs should worry because ANBU thought about his head more than breasts, extending it into Y, X, Y and Z. She closed by attacking ANBU for claiming everyone stole his culture while trying to be anything except Black. The concise round stays on one researched theme and earns CHAR.B the second.\n\nANBU's second opened on birthday messages and 'more life,' then called CHAR.B unsuitable as a wife because she was always drunk. Foresight, seeing the future, statements, Margs, bacon and her conversion to Islam drove the opening. Ali expectations became a Salem witch comparison. Clerical jokes, stage behaviour, LV and forcing it in general followed. ANBU invoked women who killed for a living, chemicals, Alexander the Great and prior opponents. Insurance, trunks, pH levels, takeaway food and CHAR.B's body became the closing sequence. It is broader than CHAR.B's round but less focused, so CHAR.B edges the second.\n\nCHAR.B's third returned to ANBU's appearance and sexuality. His face and school-shooter vibe made the Super Sensei introduction dry the room. A large nose and small penis became a question about which would break first if he ran into a wall. A woman who nearly took ANBU's virginity supposedly changed her mind and asked him to use a finger. CHAR.B said attacks on her did not work because she had self-worth, dismissed his language as nerd speech and blamed the Sensei and anime persona for his virginity. A body bag carried like a Birkin, failing to blow a back out even with dynamite, and having no car, club, job, home or plan led into multiplying ANBU repeatedly while still producing half a man.\n\nANBU's third asked the crowd to join the Super Sensei chant. Falling out and making up became foundation, bronzer, blush, powder and contour. CHAR.B's alleged scams and work with children led into Hellraiser and Constantine. RELAPSE and practice matches, blood, baskets and sheen followed. No Behaviour, Loon and impressing poets preceded a Horcrux and seven men holding a soul. ANBU repeated CHAR.B's name in a crying and dying refrain, invoked BONNY BLUE, criticised her slow delivery and choking, then turned natural hair and not wigging out into a ginger reference. A Trojan, Jason on Friday, Deadpool, a microphone cable and Gravity Falls characters completed the most layered round of the battle.\n\nLOTA scores ANBU SENSEI 2-1. ANBU takes round one because CHAR.B's technical break and lost restart leave her round incomplete. CHAR.B wins round two through the tighter anime, search-history, chromosome, autism and cultural-identity attack. ANBU wins round three with the more extensive makeup, Constantine, Horcrux, natural-hair, Jason, Deadpool and Gravity Falls construction.",
+    "performanceAnalysis": [
+      {
+        "performer": "ANBU SENSEI",
+        "overview": "ANBU SENSEI wins the LOTA review 2-1. His rounds are long and reload-heavy, but he completes all three and offers the wider reference range. The opening comfortably beats CHAR.B's technically shortened first. He loses the focused second, then responds with the battle's deepest final through makeup, supernatural characters, hair, wrestling, horror and animation.",
+        "lyricalThemes": "Clothing, sandwiches, bars and beats; Chris Brown; Musical Youth; Supernatural, Sam and Dean; women in battle rap, CHEEKS and viral success; Addams and Wednesday; food, kitchens and choking; birthdays, more life and foresight; drinking and marriage; Islam, Ali and Salem; clerical jokes, LV and force; killers, chemicals and Alexander the Great; insurance, trunks, pH and takeaway; makeup, foundation, bronzer, blush, powder and contour; scams and children; Hellraiser and Constantine; RELAPSE and practice matches; No Behaviour, Loon and poets; Horcruxes and souls; BONNY BLUE; reading, natural hair, wigs and ginger; Trojans, Jason, Deadpool, cables and Gravity Falls.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Women-in-battle rebuttal",
+            "description": "ANBU answers CHAR.B's public exclusion argument with CHEEKS's viral success and reframes the problem as individual performance."
+          },
+          {
+            "title": "Makeup scheme",
+            "description": "Making up, foundation, bronzer, blush, powder and contour turn a disagreement into an extended cosmetics sequence."
+          },
+          {
+            "title": "Pop-culture final",
+            "description": "Constantine, Horcruxes, BONNY BLUE, Jason, Deadpool and Gravity Falls give the third multiple connected reference clusters."
+          }
+        ]
+      },
+      {
+        "performer": "CHAR.B",
+        "overview": "CHAR.B loses the LOTA review 2-1 but owns the clearest single round. Her second remains tightly aimed at ANBU's anime identity, online presentation, search history and cultural claims. The first is cut short by a beat break and failed restart. Her final is strong and direct, but ANBU's response has more layered construction and a fuller finish.",
+        "lyricalThemes": "Losers, grooming, noodles, computers and hygiene; money, nooses, prayer and death; women, options, beggars and choosers; mothers, exhaustion and abortion; anime, sexualised characters and search histories; acne and abuse; penguins, carrying shows and chromosomes; autism, genius, awkwardness and eye contact; Margs, heads, breasts and X, Y, Z; culture and Black identity; school-shooter imagery; Super Sensei and dryness; noses, anatomy and walls; virginity and fingers; self-worth and nerd speech; body bags and Birkin; dynamite; cars, clubs, jobs, homes and being half a man.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Beggars and choosers",
+            "description": "ANBU's criticism of women is answered by saying he has no options and therefore no standing to approve or reject anyone."
+          },
+          {
+            "title": "Anime and search-history round",
+            "description": "Sexualised characters, online searches, awkwardness, eye contact and cultural identity create one sustained attack."
+          },
+          {
+            "title": "Half-a-man closer",
+            "description": "No car, friends, club, job, home or plan lead into repeatedly multiplying ANBU yet still producing only half a man."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 - Chris Brown",
+        "bar": "I don't have to call you a slag - I'll turn to Chris Brown in 2009.",
+        "explanation": "The reference invokes Chris Brown's 2009 assault of Rihanna as a deliberately violent gendered threat."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 - Musical Youth",
+        "bar": "Everyone thinks that I'm Musical Youth till I pass this to the left-hand side.",
+        "explanation": "Musical Youth's Pass the Dutchie is invoked through passing something to the left."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 - Supernatural",
+        "bar": "Trying to clash me? Supernatural - I'm Sam and Dean, how you meet your demise.",
+        "explanation": "The Winchester brothers from Supernatural become ANBU's supernatural threat."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 - CHEEKS viral",
+        "bar": "CHAR.B cries online that women feel excluded - CHEEKS is a woman and went viral with millions of views.",
+        "explanation": "A successful female peer is used as counter-evidence to CHAR.B's wider argument about exclusion."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 - Wednesday",
+        "bar": "All the girls in your family got Addams - lift my hand, you won't make it to Wednesday.",
+        "explanation": "The Addams Family and Wednesday Addams turn a family reference and day of the week into a threat."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 1 - Kitchen",
+        "bar": "Why are you always mad about food? It's rude - the kitchen is somewhere to cook at.",
+        "explanation": "ANBU answers CHAR.B's gender and cooking material by redirecting it to battle preparation."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 - More life and foresight",
+        "bar": "When you post your birthday, why are people wishing more life? You can't be a wife when you're hammered - I've got foresight.",
+        "explanation": "More life, wife and foresight connect birthday wishes, relationships and seeing CHAR.B's future."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 - Ali and Salem",
+        "bar": "When you were young you became Muslim, so at least have Ali expectations - strange when you look like a witch burning in Salem.",
+        "explanation": "Muslim identity and the name Ali lead into historical witch-burning imagery."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 - LV",
+        "bar": "If CHAR.B wants LV, she has to force it in general.",
+        "explanation": "LV suggests Louis Vuitton while force and general evoke military rank and compelled access."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 - Alexander",
+        "bar": "I got women that kill for a living, your body dissolved in chemicals - I'm great like Alexander.",
+        "explanation": "Alexander the Great supplies the greatness title after professional killers and chemical disposal."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 2 - pH and breakout",
+        "bar": "CHAR.B's pH levels are off, she doesn't cook, always ordering takeout - don't mention spots when your body looks like Masking over a breakout.",
+        "explanation": "Chemistry, food and skin breakout combine hygiene, lifestyle and appearance attacks."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 - Makeup scheme",
+        "bar": "If we fall out, don't know if we'll make up - foundation unsure; leave your dad bronzed, see you blush, turn you to powder and handle the contour.",
+        "explanation": "Making up, foundation, bronzer, blush, powder and contour sustain an extended cosmetics scheme."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 - Constantine",
+        "bar": "Don't let CHAR.B play with you - what's a Hellraiser with a Constantine?",
+        "explanation": "Hellraiser and Constantine supply supernatural horror and demon-fighting references."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 - Horcrux",
+        "bar": "She's on stage looking like one Horcrux - dumber than asking if you've got seven men to put your soul into.",
+        "explanation": "Harry Potter's seven Horcruxes become seven men carrying pieces of a soul."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 - Natural hair",
+        "bar": "CHAR.B has natural hair - she didn't wig out when they kicked off ginger.",
+        "explanation": "Natural hair, wigs and ginger hair colours turn a reaction into a hairstyle scheme."
+      },
+      {
+        "performer": "ANBU SENSEI",
+        "theme": "Round 3 - Jason and cable",
+        "bar": "Sent to the morgue, no time to respawn - I'm Jason on Friday; it could've been Deadpool 2 if the mic had wires, I'd kill her with a Cable.",
+        "explanation": "Friday the 13th's Jason and Deadpool 2 character Cable connect horror, film and microphone equipment."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Grooming and computer",
+        "bar": "The only thing you groom is underage users - smell like stale noodles because you piss in a bin beside your computer.",
+        "explanation": "Online misconduct and neglected computer-side hygiene create a harsh opening portrait."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Million-pound bet",
+        "bar": "I wouldn't sleep with you for a million-pound bet - I'd rather tie a noose around my neck.",
+        "explanation": "A large financial incentive is rejected in favour of an extreme death comparison."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Beggars and choosers",
+        "bar": "Acting like you've got options is amusing - beggars can't be choosers; no woman wants your approval.",
+        "explanation": "The familiar proverb rejects ANBU's claimed standards by saying he has no romantic options."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Exhausting mother",
+        "bar": "Your mum needs applauding, because raising a wasteman must be exhausting.",
+        "explanation": "Praise for ANBU's mother becomes an insult about the effort needed to raise him."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 - Abortion and ground",
+        "bar": "You're only here because she wasn't fit for abortion - worship the ground that woman can't walk on.",
+        "explanation": "Birth, physical ability and the phrase about worshipping the ground form the closing family attack."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Anime search history",
+        "bar": "Half the anime characters you fantasise about are sexualised little girls - what does your search history uncover?",
+        "explanation": "ANBU's anime identity is turned into a direct allegation about private online interests."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Acne or uncle",
+        "bar": "I'm not surprised your life is a struggle - what came on your face first, acne or your uncle?",
+        "explanation": "Acne and an abusive relative are connected through came on your face for a deliberately shocking personal."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Carrying the show",
+        "bar": "You think you're carrying the show, but the only thing you carry is an extra chromosome.",
+        "explanation": "Carrying a performance becomes carrying a genetic difference."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Anime powers and autism",
+        "bar": "They're not anime powers, that's autism - not the type that makes you a genius, yours makes you awkward.",
+        "explanation": "Anime abilities are rejected and replaced with a disability-based explanation for ANBU's behaviour."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - X, Y, Z",
+        "bar": "He thinks about Margs's head more than breasts - that's more than a Y, that's an X, Y, Z.",
+        "explanation": "The letter sequence extends a sexuality punch through chromosomes and the alphabet."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 - Culture",
+        "bar": "Screaming everyone is stealing my culture and you want it back, while trying to be literally anything but Black.",
+        "explanation": "CHAR.B challenges the consistency between ANBU's cultural complaints and his self-presentation."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Nose and wall",
+        "bar": "Imagine a nose that big with a dick that small - if you ran into a wall, I know what would break first.",
+        "explanation": "Two body parts are contrasted by size before collision determines which protrudes further."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Virginity",
+        "bar": "She nearly took your virginity, saw what you had and said, never mind, just finger me.",
+        "explanation": "A supposed private encounter becomes evidence for the anatomy and virginity attack."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Self-worth and nerd speech",
+        "bar": "Telling me about myself doesn't work - I have self-worth, and I don't speak nerd.",
+        "explanation": "CHAR.B rejects ANBU's criticism and frames his reference-heavy language as unintelligible nerd speech."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Birkin and dynamite",
+        "bar": "Put him in a body bag and carry it like a Birkin - couldn't blow her back out if your dick was dynamite.",
+        "explanation": "A luxury handbag becomes a body bag before blow changes from sex to explosive force."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 3 - Half a man",
+        "bar": "No car, club, job, yard - what's the plan? If there were two of you, then two more and two more, you'd still be half a man.",
+        "explanation": "A list of missing adult markers leads into multiplication that still cannot produce a complete man."
+      }
+    ],
+    "oddMoments": [
+      "ANBU wins the coin toss and chooses to go first, but CHAR.B is still introduced as the opening performer.",
+      "Margs repeatedly warns the room not to film during battles.",
+      "CHAR.B's first beat breaks; she restarts, loses her place and openly accepts the round as an L.",
+      "ANBU's first is restarted several times around crowd reactions and beat interruptions.",
+      "CHAR.B drops the microphone after her second despite the league's coin penalty for doing so.",
+      "ANBU asks the crowd to join the Super Sensei chant before his third.",
+      "ANBU's final receives multiple full reloads and includes an aside to a dancing audience member named April."
+    ],
+    "coolMoments": [
+      "CHAR.B's beggars-can't-be-choosers sequence gives her interrupted opener a clear early punch.",
+      "ANBU's CHEEKS viral comparison directly answers CHAR.B's public argument about women in battle rap.",
+      "CHAR.B's entire second stays locked onto ANBU's anime identity and online presentation.",
+      "ANBU's makeup scheme gives the final a clean and connected opening.",
+      "The Horcrux, natural-hair, Jason, Deadpool and Gravity Falls references create a reference-heavy closing run."
+    ],
+    "postBattleContext": "The host directs the audience and viewers at home to the website and gives them 48 hours to vote. No completed count or official winner appears in the source, so the archive records only the explicitly labelled independent LOTA decision.",
+    "judgementSummary": {
+      "verdict": "ANBU SENSEI wins 2-1 (LOTA Result)",
+      "summary": "ANBU takes round one because CHAR.B's technical break and failed restart leave her opener incomplete. CHAR.B wins round two through the tighter anime, search-history, chromosome, autism and cultural-identity construction. ANBU wins round three with the deeper makeup, Constantine, Horcrux, natural-hair, Jason, Deadpool and Gravity Falls writing."
+    }
+  },
   { "id": "pg-scl-2026-06-28-relapse-vs-pocaa", "slug": "relapse-vs-pocaa", "mc1": "relapse", "mc2": "pocaa", "title": "RELAPSE vs POCAA", "date": "2026-06-28", "theme": "pengame", "season": "Champions League", "competition": "Champions League", "subGroup": "Fixture 4", "customEp": "CLx37", "seasonOrder": 37, "stage": "Champions League Fixture 4", "views": null, "winner": "unknown", "statusNote": "Fixture listed" },
   { "id": "pg-scl-2026-06-28-varntae-vs-rp", "slug": "varntae-vs-rp", "mc1": "varntae", "mc2": "rp", "title": "VARNTAE vs RP", "date": "2026-06-28", "theme": "pengame", "season": "Champions League", "competition": "Champions League", "subGroup": "Fixture 4", "customEp": "CLx38", "seasonOrder": 38, "stage": "Champions League Fixture 4", "views": null, "winner": "unknown", "statusNote": "Fixture listed" },
   { "id": "pg-scl-2026-06-28-kmarh-vs-drizzgb", "slug": "kmarh-vs-drizzgb", "mc1": "kmarh", "mc2": "drizzgb", "title": "K MARH vs DRIZZGB", "date": "2026-06-28", "theme": "pengame", "season": "Champions League", "competition": "Champions League", "subGroup": "Fixture 4", "customEp": "CLx39", "seasonOrder": 39, "stage": "Champions League Fixture 4", "views": null, "winner": "unknown", "statusNote": "Fixture listed" },
@@ -70426,6 +77930,8 @@ export const pengameBattles: Battle[] = [
     "group": null,
     "tag": null,
     "winner": "eddfirst",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
     "clashSummary": "RP vs EDDFIRST took place on **PenGame Rap Battle 2026** in the dungeon. The host frames both MCs as newer members of the platform and says this is main-stage settings. This is a main PenGame battle, not an Academy clash.\n\nEDDFIRST wins the coin toss and puts RP first.\n\nRP opens with a very aggressive body-shaming round. He attacks EDDFIRST’s weight, appearance, sexuality, relationship, wife, driving, health, hygiene and general image. He uses double-D name flips, bra-size jokes, bacon sandwich imagery, no-neck jokes, IBS/tablets, and a repeated fat/body angle. The round gets reactions, but it stays on one main lane.\n\nEDDFIRST replies with a stronger and more varied first. He says RP is the last person he would choose to clash if he wanted to get his name on the map, attacks RP’s crack-pipe/drug image, Relapse association, one-flow style, face, shingles/Pringles imagery, Ambu-style spots, Arthur/Thanos references, and says RP only does well in certain spaces, not the wider grime scene. It is a better-structured response.\n\nRP’s second keeps the same pressure. He plays on “Ed First” by saying ED clearly is not winning any races, then attacks his drinking, money, body, age, veteran status, girlfriend, American/body image, heart health, nose and Beach Gang status. He has some funny lines, but the content still circles the same fat/appearance angle.\n\nEDDFIRST’s second is sharper. He flips RP into RIP, attacks RP’s single flow, breath work, depth, cadence, “one bar, one flow” style and ability. He also brings Frank Gallagher, Zuma, funeral imagery, and says RP is out of his depth. This round is cleaner and more technical than RP’s second.\n\nRP’s third again focuses on EDDFIRST’s weight, balance, appetite, fitness, penis/body jokes, catfishing, gastric band, gym, elastic trousers and mattress smell. It has a few effective jokes, but by this point the angle is repetitive.\n\nEDDFIRST’s third closes the battle better. He attacks RP as dead weight, calls him RP Sketchface, references VarnTae template-style appearance, age, breath, Flow Zone, Arsenal/Wenger, defender/Bendtner wordplay, eyes being far apart, seeing both sides, placement, Jaywalk/Cheeze, fades/no tapers and basement imagery. The round has more variety and confirms EDDFIRST’s archive win.\n\nNo official winner is announced on camera.\n\nOfficial result: **No official winner called**.",
     "performanceAnalysis": [
       {
@@ -70797,9 +78303,10 @@ export const pengameBattles: Battle[] = [
         "explanation": "Dismissal closer."
       }
     ],
+    "postBattleContext": "EDDFIRST wins the coin toss and elects for RP to begin, but no battle winner is announced. The upload ends after EDDFIRST’s third with a brief thank-you message. Because the introduction says the audience are the judges, the archive records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: EDDFIRST 3-0 RP. Suggested round split: Round 1: EDDFIRST, Round 2: EDDFIRST, Round 3: EDDFIRST. Reason: RP has aggression and a few funny body-image punches, but EDDFIRST has more range, cleaner rebuttal value and stronger MC-based criticism. RP repeats the fat angle too heavily, while EDDFIRST attacks RP’s style, scene position, delivery and credibility. Archive Grades - EDDFIRST: B+, RP: C+. Final Note: EDDFIRST controls the battle through variety and structure. RP brings energy, but the repeated body-shaming angle becomes predictable. Archive result: EDDFIRST 3-0, no official winner called."
+      "verdict": "EDDFIRST wins 3-0 (LOTA Result)",
+      "summary": "EDDFIRST wins round one through the wider map, crack-pipe, Relapse, one-flow, shingles, Pringles, Ambu-spots and scene-position writing. He takes round two with the cleaner RP / RIP, breath-work, cadence, Frank Gallagher, Zuma and out-of-depth criticism. He completes the sweep in round three through the more varied Sketchface, VarnTae-template, Flow Zone, Arsenal and Wenger, Bendtner, both-sides, placement and no-tapers construction."
     }
   },
 {
@@ -70810,7 +78317,7 @@ export const pengameBattles: Battle[] = [
     "title": "WHOISORION vs KANDI",
     "date": "2024-04-02",
     "videoUrl": "https://www.youtube.com/watch?v=9QZqDi5vl08",
-    "views": "271k",
+    "views": "272k",
     "theme": "pengame",
     "season": "2025",
     "seasonOrder": 2,
@@ -72661,7 +80168,7 @@ export const pengameBattles: Battle[] = [
     "seasonOrder": 12,
     "customEp": "25x12",
     "subGroup": "Regular Season",
-    "views": "235k",
+    "views": "237k",
     "stage": "Regular Season",
     "group": null,
     "tag": null,
@@ -73809,7 +81316,7 @@ export const pengameBattles: Battle[] = [
     "seasonOrder": 17,
     "customEp": "25x17",
     "subGroup": "Return Special",
-    "views": "57k",
+    "views": "58k",
     "stage": null,
     "group": null,
     "tag": "Return Special",
@@ -74528,7 +82035,7 @@ export const pengameBattles: Battle[] = [
     "subGroup": "Christmas Battles",
     "winner": "iiiberealz",
     "videoUrl": "https://www.youtube.com/watch?v=dnE5-VZkpbY",
-    "views": "208k",
+    "views": "210k",
     "customEp": "x25.03",
     "stage": null,
     "group": null,
@@ -75301,7 +82808,7 @@ export const pengameBattles: Battle[] = [
     "title": "GRAMS vs MISSINK",
     "date": "2025-03-24",
     "videoUrl": "https://www.youtube.com/watch?v=2iD1-amdMRA",
-    "views": "175k",
+    "views": "176k",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -75780,7 +83287,7 @@ export const pengameBattles: Battle[] = [
     "title": "KANDI vs BONNIE GODIVA",
     "date": "2025-03-28",
     "videoUrl": "https://www.youtube.com/watch?v=6QyxFkVFfgE",
-    "views": "219k",
+    "views": "220k",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -76779,7 +84286,7 @@ export const pengameBattles: Battle[] = [
     "season": "2025",
     "competition": "PenGame",
     "subGroup": null,
-    "views": "188k",
+    "views": "189k",
     "customEp": "6x10",
     "seasonOrder": 10,
     "stage": "Regular Season",
@@ -77785,7 +85292,7 @@ export const pengameBattles: Battle[] = [
     "mc2": "f-don",
     "title": "ZEN vs F-DON",
     "videoUrl": "https://www.youtube.com/watch?v=U6nVkx81bxc",
-    "views": "122k",
+    "views": "123k",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -78004,7 +85511,7 @@ export const pengameBattles: Battle[] = [
     "mc2": "dan-dannah",
     "title": "ANBU SENSEI vs DAN DANNAH",
     "videoUrl": "https://www.youtube.com/watch?v=TRRMNGB61js",
-    "views": "231k",
+    "views": "232k",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -79342,7 +86849,7 @@ export const pengameBattles: Battle[] = [
     "mc2": "anbu-sensei",
     "title": "KANDI vs ANBU SENSEI",
     "videoUrl": "https://www.youtube.com/watch?v=6kB4K91R_fM",
-    "views": "951k",
+    "views": "959k",
     "theme": "pengame",
     "season": "2025",
     "competition": "PenGame",
@@ -83935,7 +91442,7 @@ export const pengameBattles: Battle[] = [
     "customEp": "x25.01",
     "seasonOrder": 1,
     "videoUrl": "https://www.youtube.com/watch?v=IA7nUrmRfpY",
-    "views": "123k",
+    "views": "124k",
     "winner": "smil3z",
     "clashSummary": "DRIZZGB vs SMIL3Z took place in the **PenGame dungeon for the Christmas Special**, billed as the **last battle of the year**. The host introduces SMIL3Z and DRIZZGB, with SMIL3Z being referenced as the reigning champion, adding pressure to the clash.\n\nSMIL3Z goes first.\n\nSMIL3Z opens with a long, aggressive first round aimed at DRIZZGB’s looks, nationality, credibility, family, adoption angle, teeth, grammar, girlfriend and body. He says DRIZZGB is not bad alone, only bad around friends, and attacks his PenGame status by saying he is not rated outside his own circle. He also uses Asian Mario / Luigi / Princess Peach / Bowser / Nintendo imagery near the end of the round. It is a strong opener with lots of direct disrespect, though it is slightly stretched.\n\nDRIZZGB answers with a cleaner and more controlled first. He attacks SMIL3Z as a “fish,” references SMIL3Z’s battle with JM and his close win against Marcel, and says this battle is the real final. He also attacks SMIL3Z’s eyes, breath, friendship with Zen, top-five status and PenGame ranking. DRIZZGB’s round is shorter but more surgical. This makes the first round close.\n\nSMIL3Z’s second round is one of the clearest rounds of the battle. He attacks DRIZZGB’s family, Chappie connection, tournament credibility, cross-eyed appearance, eyes, pupils, Drizz’s reaction to WHOISORION bringing up personal family material, and says DRIZZGB does not back himself. He frames himself as the upgrade and DRIZZGB as old news. This round is direct, personal and easy to follow.\n\nDRIZZGB’s second is solid but not enough to take the round. He attacks SMIL3Z’s breath, appearance, daughter/fatherhood, weed, holidays, 2v2 tournament win, being carried by Trappy, his mother and girl. He also says he is the best man while his friends got married, flipping the carried-by-team angle. The round is good, but SMIL3Z’s second has the stronger battle argument.\n\nSMIL3Z’s third is dark and personal. He talks about surviving being shot, learning from losses, his disabled leg still working better than DRIZZGB’s, Chappie fainting, DRIZZGB’s eyes, race/identity, Poet/security, Passive, scars and being bullied on-screen. He also attacks DRIZZGB for not responding properly when others disrespected him. This is his strongest closer and likely wins him the battle.\n\nDRIZZGB’s third is his best round. He opens with a rebuttal to SMIL3Z mentioning his birth mum, saying she passed away and had no choice, then flips it into DRIZZGB attacking SMIL3Z for allegedly not seeing his daughter enough. He attacks SMIL3Z’s baby mother, being shot and not spinning back, being a victim, bringing backup dancers, and ends with “SMIL3Z good riddance.” It is a strong response, but the room reaction after the round suggests many felt DRIZZGB still lost.\n\nThere is no official judging section. The host says the crowd/comments will decide.\n\nBased on the transcript, SMIL3Z wins by Archive Judgement.",
     "performanceAnalysis": [
@@ -87149,15 +94656,457 @@ export const pengameBattles: Battle[] = [
       "summary": "Archive result: SEVZ wins. Suggested archive score: SEVZ 2-0 FOREVER TAPPED on visible rounds. Alternative site note: If forcing a three-round display, list this as SEVZ win by archive judgement, with a note that the transcript does not contain a clean third round. Reason: FT has the funniest single angle, but SEVZ has the better battle. His material is clearer, more complete and easier to score. Performance Grades - SEVZ: B+, FOREVER TAPPED: C+. Final Note: FT’s return was entertaining, but SEVZ won the battle on structure. FT had the viral prop angle; SEVZ had the cleaner rounds."
     }
   },
-  { id: "pg-scl-2026-fixture1-skamz-vs-kandi", slug: "skamz-vs-kandi-3", mc1: "skamz", mc2: "kandi", title: "SKAMZ vs KANDI #3", date: "2026-04-08", videoUrl: "https://www.youtube.com/watch?v=xipzqVn6-W0", views: "275841", theme: "pengame", season: "Champions League", competition: "Champions League", subGroup: "Fixture 1", stage: "Champions League Fixture 1", customEp: "CLx02", seasonOrder: 2, winner: "kandi" },
-  { id: "pg-scl-2026-fixture1-rp-vs-char-b", slug: "rp-vs-char-b", mc1: "rp", mc2: "char-b", title: "RP vs CHAR B", videoUrl: "https://www.youtube.com/watch?v=_y617eXW5ME", views: "58k", theme: "pengame", season: "Champions League", competition: "Champions League", subGroup: "Fixture 1", stage: "Champions League Fixture 1", customEp: "CLx10", seasonOrder: 10, winner: "unknown" },
+  {
+    "id": "pg-scl-2026-fixture1-skamz-vs-kandi",
+    "slug": "skamz-vs-kandi-3",
+    "mc1": "skamz",
+    "mc2": "kandi",
+    "title": "SKAMZ vs KANDI #3",
+    "date": "2026-04-08",
+    "videoUrl": "https://www.youtube.com/watch?v=xipzqVn6-W0",
+    "views": "281k",
+    "theme": "pengame",
+    "season": "Champions League",
+    "competition": "Champions League",
+    "subGroup": "Fixture 1",
+    "stage": "Champions League Fixture 1",
+    "customEp": "CLx02",
+    "seasonOrder": 2,
+    "winner": "kandi",
+    "resultSource": "official",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "SKAMZ and KANDI returned to PenGame for another rematch in Champions League Fixture 1. Margs called it their fourth time facing one another, while the archive title identifies it as SKAMZ vs KANDI #3. The difference appears to be between all encounters and the numbered solo series. With the in-building audience acting as judges, KANDI gave SKAMZ the first round.\n\nSKAMZ opened around deja vu: they had been here before, KANDI had already taken smoke and still wanted more. His first moved through previous-battle and family angles, a one-two-three-four gun count, KANDI name spelling, a deliberately provocative KKK/three-strikes sequence, appearance insults and gaming references. The round had strong energy but was restarted twice—first for a requested reload, then again after the screen and sound setup interrupted him. The repeated opening made the material easy to follow but damaged the momentum.\n\nKANDI answered with an intentionally absurd Chinese-food and language motif. He introduced a woman named Ping, turned her into an Alexa-style call-and-response device and mixed food, phone, family and relationship jokes into a loose sound-driven verse. The room repeatedly reacted to how far the stereotypes went, and Margs publicly separated PenGame from the views in the material. Under the provocation, KANDI still had a clear attack on SKAMZ's absent father, unheard songs and lack of tangible progress.\n\nSKAMZ's second was a sustained and extremely explicit incest angle aimed at KANDI and his sister. He connected KANDI's Chinese-food opener to sweet-and-sour wordplay, then extended the angle through family, disability and cartoon references. It was the most direct opponent-specific concept of the battle, but it was also repeatedly interrupted and restarted. Much of the round depends on shock value rather than layered writing, so the archive records its structure without reproducing its most graphic passages.\n\nKANDI's second continued the strange, percussive style of his first. He used translation jokes, Japanese-flag imagery, COVID-shot wordplay, smell and clothing attacks, then closed by arguing that SKAMZ had spent five years on the platform without accomplishing anything. The round was less focused than SKAMZ's but had cleaner forward motion once KANDI settled into the rhythm.\n\nSKAMZ used the third to escalate the family attacks again before swerving into anime/animal/Dragon Ball wordplay, KSI and Prime, a Michael Jordan shooting comparison and a repeated 'I'm joking' fake-out. That device briefly convinced the room he was backing away from the material before he revealed that the reaction itself was the setup. It was his most performative round and his cleanest closing idea.\n\nKANDI's final was almost derailed by the equipment. He began, stopped when nobody could hear him, and the room eventually discovered that the microphone was not plugged in. After the restart he delivered a long final built from food, Asian-name and smell jokes, then a repeated 'you do' list attacking SKAMZ's family embarrassment, housing, sexuality and public image. The repetition gave the final a recognisable shape and allowed KANDI to finish despite the technical collapse around the opening.\n\nThe upload cuts away after Margs sends the room to vote and does not show the tally. The archive retains KANDI as the recorded audience-vote winner. Because this is a recorded platform result rather than a LOTA round judgement, the page keeps an official result label.",
+    "performanceAnalysis": [
+      {
+        "performer": "KANDI",
+        "overview": "KANDI wins the recorded audience decision by leaning into an unpredictable performance style and surviving a badly disrupted final round. His writing is deliberately absurd and frequently offensive, but each round contains a recognisable spine: Ping and language in the first, sound and achievement attacks in the second, then the repeated 'you do' structure in the third.",
+        "lyricalThemes": "Chinese-food and language stereotypes; Ping/Alexa wordplay; SKAMZ's father and family; unheard music; lack of progress; smell, clothing and housing attacks; repetition as performance structure.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Call-and-response character",
+            "description": "The Ping/Alexa device gives the first round an immediate voice and lets KANDI turn a relationship angle into a recurring audience cue."
+          },
+          {
+            "title": "Achievement argument",
+            "description": "His clearest serious angle strips away the surreal jokes and asks what SKAMZ has achieved after five years on PenGame."
+          },
+          {
+            "title": "Final-round repetition",
+            "description": "The repeated 'I don't know what it's like, but you do' construction gives his restarted third a stable rhythm and a definite ending."
+          }
+        ]
+      },
+      {
+        "performer": "SKAMZ",
+        "overview": "SKAMZ brings the more conventional battle structure and the more directly tailored material. His deja-vu opener understands the history of the matchup, his second commits fully to one family angle, and his third has the battle's clearest performance fake-out. Repeated reloads and interruptions stop the rounds from feeling as controlled as the writing intends.",
+        "lyricalThemes": "Rematch history; KANDI name spelling; gun-count patterns; family and sister attacks; Nintendo and cartoon references; anime/animal/Dragon Ball wordplay; KSI/Prime and basketball imagery.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Rematch framing",
+            "description": "SKAMZ opens by making the repeated matchup the subject, turning the fourth encounter into proof that KANDI keeps returning for the same outcome."
+          },
+          {
+            "title": "Name-spelling setup",
+            "description": "He removes letters from KANDI and uses the remaining K to launch a deliberately provocative three-strikes sequence."
+          },
+          {
+            "title": "I'm-joking fake-out",
+            "description": "The third-round pause makes the room think SKAMZ is withdrawing the line; he then reveals their relief and anger as part of the performance."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Rematch",
+        "bar": "I'm pretty sure that you don't want war — deja vu, 'cause we've been here before. Smoke on smoke, but he still wants more.",
+        "explanation": "SKAMZ makes the repeated matchup his opening argument: KANDI already knows the danger but has returned for another round of it."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Count Scheme",
+        "bar": "If I grab this hammer like four, what do you think I'ma use it for? One shot, two shot, three shot, four. All of these shots I'ma aim for the core — get 50 Cent when it rains, it pours.",
+        "explanation": "The count climbs through four shots before 'core' sets up the 50 Cent reference and the title of his song 'When It Rains It Pours'."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Name Spelling",
+        "bar": "Push K-A-N-D-I to the side — whole lot of bang shells gonna fly. Spelling your name with a K is not right.",
+        "explanation": "He spells out KANDI, pushes the name aside and isolates its opening K as the setup for the deliberately provocative three-strikes sequence that follows."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 1 — Gaming",
+        "bar": "You better mind, you know — otherwise I'ma be in your princess seat. It's me, Mario.",
+        "explanation": "The princess and Mario references turn a family/relationship threat into a recognisable Nintendo image."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 — Food Flip",
+        "bar": "You eat her cat and then order Chinese, but can't tell the difference — and your sister's eating sweet and sour too.",
+        "explanation": "SKAMZ flips KANDI's Chinese-food opening into the central family angle of his second. The wording is intentionally explicit and built for shock."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 2 — Cartoon Scheme",
+        "bar": "Play clubhouse with your sister; her name's Minnie. Don't wear gloves like Mickey — tell her to bounce.",
+        "explanation": "Minnie, Mickey, gloves and clubhouse form a connected Disney scheme inside the wider sister angle."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 — Anime Wordplay",
+        "bar": "I go from anime to animal — one spark just means that you're flammable.",
+        "explanation": "The near-rhyme moves from anime into animal aggression before resolving on fire and flammability."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 — Prime",
+        "bar": "I don't get how KSI finds him amazing — now all of that cred got you moving like Randy, pouring out Prime.",
+        "explanation": "KSI and Prime connect through the drinks brand, while 'Randy' turns the product reference into a sexualised performance joke."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 — Basketball",
+        "bar": "When I'm in the zone, I don't miss — I'm Michael Jordan if I shoot from far.",
+        "explanation": "A direct basketball comparison: being in the zone means both peak concentration and shooting successfully from distance."
+      },
+      {
+        "performer": "SKAMZ",
+        "theme": "Round 3 — Performance Fake-out",
+        "bar": "I'm joking. Calm down, I'm joking. How many of you did I catch though?",
+        "explanation": "SKAMZ lets the room react to the idea that he has backed away, then reveals that their response was the real target of the sequence."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Opening Character",
+        "bar": "Welcome, SKAMZ, it's the end of the road. Said a Chinese girl, stop texting my phone.",
+        "explanation": "KANDI abruptly turns a standard battle welcome into the Ping character and food/language motif that controls the first round."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Alexa Flip",
+        "bar": "When I say Ping, she says, 'Yes, Mr KANDI.' Your girlfriend's my Alexa, bro.",
+        "explanation": "A call-and-response gag: the name Ping becomes both a person and a device command, while Alexa supplies the obedient voice-assistant comparison."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Family and Music",
+        "bar": "You got Dad as a contact, nobody rings it. Songs out, nobody sings it. If you was my son, I'd be ashamed — wait for your death, then go to your grave with a hammer and chisel and chip out the part that connects up our names.",
+        "explanation": "The compact contact/song rhyme becomes an extended fatherhood rejection: KANDI imagines erasing the family-name connection from SKAMZ's grave."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 1 — Refrain",
+        "bar": "Look at the plastics you find — all of them plastic inside.",
+        "explanation": "A short refrain accusing SKAMZ and the people around him of being artificial in both appearance and character."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 — Japanese Flag",
+        "bar": "When I turn white tees into Japanese flags.",
+        "explanation": "The threat imagines blood creating the Japanese flag's red-circle-on-white design across a white T-shirt."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 — Vaccine Wordplay",
+        "bar": "Turn up the show, put a bat in each hand — no COVID shots, start slapping a man.",
+        "explanation": "Shots shifts from vaccination to attack imagery, while a bat in each hand makes the threat physical."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 2 — Achievement Angle",
+        "bar": "You don't do nothing. Push five years and you still done nothing. KENNY in the booth and you still done nothing.",
+        "explanation": "The repetition strips the round back to KANDI's clearest argument: SKAMZ's time on the platform has not produced visible achievements."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 — Star Wars",
+        "bar": "They smoke in the room like DAN, bro. They smell like a shoot on Bang Bros. Lower the chatter, you're talking to Mando — pilot's dead, so the bar's on Lando.",
+        "explanation": "The closing rhyme run pivots into Star Wars, linking the Mandalorian nickname Mando to Lando, one of the franchise's best-known pilots."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 — Voodoo",
+        "bar": "I'm trying to poke up his body from a distance — I use nails on Barbie, voodoo.",
+        "explanation": "KANDI turns a doll into a voodoo proxy, allowing a stabbing image to work from a distance rather than face to face."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 — Repetition",
+        "bar": "I don't know what it's like to be an embarrassment to my family, but you do. I never slept on a bench, but you do. I never paid rent to sleep on a bench, but you do.",
+        "explanation": "The repeated 'but you do' ending becomes the organising device for a long list of character and lifestyle attacks."
+      },
+      {
+        "performer": "KANDI",
+        "theme": "Round 3 — Time Call",
+        "bar": "I don't want Margs to call time, but you do. I really like this flow and I don't give a flying one if you do.",
+        "explanation": "KANDI folds the host and the possibility of the round ending into the same repeated structure, then uses it to close on confidence."
+      }
+    ],
+    "oddMoments": [
+      "Margs calls this the pair's fourth meeting, while the archive title calls it #3. The likely distinction is between all encounters and the numbered solo series.",
+      "SKAMZ performs the start of round one three times because of a reload request and further sound/screen disruption.",
+      "PenGame twice distances the platform from KANDI's material after his first and second rounds lean heavily on racial stereotypes.",
+      "SKAMZ's second is repeatedly stopped and restarted as reactions and technical interruptions prevent a clean run-through.",
+      "KANDI's microphone is eventually found to be unplugged during his third. The discovery comes after several attempts to raise a signal that was never connected.",
+      "The upload ends after the room is told to vote, before the final audience count is shown."
+    ],
+    "coolMoments": [
+      "SKAMZ's deja-vu opening immediately gives the rematch a story instead of treating it like a first meeting.",
+      "KANDI's Dad-contact / nobody-rings-it and songs / nobody-sings-it couplet is his cleanest compact attack.",
+      "SKAMZ's 'I'm joking' sequence turns the room's reaction into part of the bar rather than merely pausing for it.",
+      "KANDI's Mando/Lando sequence gives the disrupted final a clean pop-culture run before the repeated closer.",
+      "KANDI rebuilds his final after the unplugged-microphone failure and finishes with a sustained repeated structure."
+    ],
+    "postBattleContext": "Margs sent the in-building audience directly to the PenGame vote after the final round. The upload does not show the count, but the platform record carried into the archive lists KANDI as the winner.",
+    "judgementSummary": {
+      "verdict": "KANDI wins by crowd vote",
+      "summary": "Official archive record: KANDI wins the in-building audience vote. The upload ends before the tally is displayed, so no numerical score is stated here. SKAMZ has the more conventional battle construction and several clearer opponent-specific ideas, but KANDI's unpredictable performance, repeated refrains and recovery from the unplugged-microphone failure carried the recorded decision. This is an official platform result, not a LOTA judgement."
+    }
+  },
+  {
+    "id": "pg-scl-2026-fixture1-rp-vs-char-b",
+    "slug": "rp-vs-char-b",
+    "mc1": "rp",
+    "mc2": "char-b",
+    "title": "RP vs CHAR.B",
+    "date": "2026-04-27",
+    "videoUrl": "https://www.youtube.com/watch?v=_y617eXW5ME",
+    "views": "59k",
+    "theme": "pengame",
+    "season": "Champions League",
+    "competition": "Champions League",
+    "subGroup": "Fixture 1",
+    "stage": "Champions League Fixture 1",
+    "customEp": "CLx10",
+    "seasonOrder": 10,
+    "winner": "char-b",
+    "resultSource": "lota",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "RP and CHAR.B met in Champions League Fixture 1 with only the in-building audience eligible to vote. A brief dispute over using a 2p coin preceded the toss. RP lost, and CHAR.B chose to open with Margs joking that it was 'ladies first'. The upload later sends the room to vote but does not preserve a tally or official winner.\n\nCHAR.B's first was a focused rejection and masculinity angle. She opened by turning Tinder into exposure therapy, then used repeated left swipes to reach One Direction. From there she presented herself as a queen demanding everybody's head, told RP he was not man enough to put her in her place and returned to rejection through an exit line. The round closed with a Bad Bhabie/Catch Me Outside reference. It was concise, structured and tailored to RP.\n\nRP's first attacked CHAR.B almost entirely through sexual history, hygiene and gender roles. Catfish, pets and a dirty carpet opened the verse before he told her to return to the kitchen and make a sandwich. A sound problem forced a full restart. The completed round continued through mattress, taxi, bag-of-sniff and cannabis imagery before bringing in CHAR.B's family. RP delivered more material, but the angle was repetitive and much less technically varied than CHAR.B's opener. CHAR.B takes the first.\n\nCHAR.B used RP's misogyny as the central subject of her second. She called PenGame her house, threatened to turn a loss into a domestic, then built an audio-engineering sequence through the microphone, reverb, echo, recording and turning RP's cries into the hardest song his voice had appeared on. She compared misogyny with a spreading disease, attacked RP's relationship and closed by saying he would never be half the man his mother was. The round directly answered RP rather than ignoring his first.\n\nRP's second returned to sexual and hygiene attacks. He opened with Turkey, teeth and abortion wordplay, then moved through a glory hole, yeast, body-count and food imagery. Charlie Brown introduced cocaine and smack, while a Bunny Blue comparison framed CHAR.B as the MC version of an online sex personality. There are compact punches inside the round, but its argument is essentially a longer version of his first. CHAR.B's rebuttal, structure and room control take the second clearly.\n\nThe supplied transcript does not preserve CHAR.B's third. It moves from the host introducing her final and a brief 'honey trap' cue into event promotion, then introduces RP's third. The archive does not invent or reconstruct a missing verse, so the final round remains unscored.\n\nRP's preserved final continues the Charlie Brown, hygiene and sexual-history framing. Fourteen grams/half-ounce, fish/foul, Magikarp/magic carpet and dentist-chair passages provide the clearest writing. RP briefly tells the room that the misogyny is battle material rather than his personal view, then completes the verse. Without CHAR.B's corresponding final, it cannot responsibly decide the round.\n\nWith no official tally and only two complete paired rounds, LOTA records CHAR.B winning 2-0 on the scorable preserved material. Round three is explicitly unscored.",
+    "performanceAnalysis": [
+      {
+        "performer": "CHAR.B",
+        "overview": "CHAR.B wins the LOTA review 2-0 on the two scorable preserved rounds. Her writing is more structured and responsive: the first develops rejection through Tinder and One Direction, while the second turns RP's misogyny into a connected domestic, reverb, disease and masculinity rebuttal. Her third is absent from the supplied transcript and is not reconstructed.",
+        "lyricalThemes": "Tinder and rejection; left swipes and One Direction; queen and heads; masculinity; Bad Bhabie and Catch Me Outside; domestic conflict; microphones, reverb, echo and recording; misogyny and disease; RP's relationship and mother.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Tinder construction",
+            "description": "Exposure therapy, rejection, swiping left and One Direction keep the opening inside one dating-app idea before widening into RP's character."
+          },
+          {
+            "title": "Audio-engineering sequence",
+            "description": "Mic, reverb, echo, recording, line and song create the battle's cleanest multi-line technical passage."
+          },
+          {
+            "title": "Direct rebuttal",
+            "description": "Rather than repeating a prepared character attack, CHAR.B makes RP's first-round misogyny the organising argument of her second."
+          }
+        ]
+      },
+      {
+        "performer": "RP",
+        "overview": "RP brings greater volume but loses both scorable preserved rounds. His clearest material comes through compact sound flips—catfish, bagging, Turkey, Charlie Brown, fish/foul and Magikarp/magic carpet. Across the battle, however, the writing repeatedly returns to the same sexual and hygiene attacks without developing a decisive new argument.",
+        "lyricalThemes": "Hygiene and catfish; kitchen and sandwich; sexual history; mattresses, taxis and bags of sniff; Turkey and abortion; yeast and food; Charlie Brown and cocaine; Bunny Blue; fourteen grams; fish and foul; Magikarp, magic carpet and dentist chairs.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Compact sound flips",
+            "description": "RP's strongest moments pair closely related sounds—bagging and bag of sniff, fish and foul, then Magikarp and magic carpet."
+          },
+          {
+            "title": "Charlie Brown framing",
+            "description": "CHAR.B's name is repeatedly converted into Charlie Brown before cocaine and colour imagery extend the reference."
+          },
+          {
+            "title": "Full first-round recovery",
+            "description": "After the levels fail early in his opener, RP restarts from the top and completes the intended verse."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Exposure Therapy",
+        "bar": "You downloaded Tinder and it's like exposure therapy for rejection.",
+        "explanation": "Exposure therapy repeatedly confronts a fear; CHAR.B says Tinder forces RP to experience rejection over and over."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — One Direction",
+        "bar": "He got swiped left so many times, the poor guy got girls calling One Direction.",
+        "explanation": "Repeated left swipes create one consistent direction, turning Tinder rejection into the pop-group name."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Queen and Heads",
+        "bar": "I'm the queen and I want everybody's heads up — click like bang, everybody getting deaded off.",
+        "explanation": "A monarch demanding heads becomes a weapon cue, joining royal authority to the firing sound."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Put Me in My Place",
+        "bar": "Look me in my eyes when I say that you ain't man enough to put me in my place.",
+        "explanation": "CHAR.B directly challenges the gender hierarchy RP later leans on, making control and masculinity the issue."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Exit",
+        "bar": "I know that you're used to rejection — sit over there while I show you the exit.",
+        "explanation": "Rejection carries the Tinder framing into a literal removal from the battle space."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 1 — Catch Me Outside",
+        "bar": "He said he's gonna spin me, but now we know he lied — 'cause I'm bad, baby, catch me outside.",
+        "explanation": "Bad baby points to Bad Bhabie, whose Catch Me Outside phrase turns the challenge into a recognisable pop-culture closer."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 — Catfish",
+        "bar": "Her yard is raw on the carpet, stinking like catfish — the way she carries herself got me thinking, like, that fish.",
+        "explanation": "Catfish begins as a smell and online-deception reference before the repeated fish sound becomes a crude hygiene attack."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 — Kitchen",
+        "bar": "You belong in the kitchen and that's it — put down the mic and fix me a sandwich.",
+        "explanation": "A direct gender-role attack used as RP's central dismissal of CHAR.B as a battler."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 — Mattress",
+        "bar": "She's got bare stains on her bed from gang-banging, then flipping the mattress.",
+        "explanation": "Flipping the mattress means hiding the stains while also suggesting repeated use of both sides."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 1 — Bagging It",
+        "bar": "Brings a new meaning to bagging it when she does it for a bag of sniff — that's how she burns down calories; I'll stick to my cannabis.",
+        "explanation": "Bagging it shifts from securing something to receiving a bag of drugs, before calories and cannabis complete the substance sequence."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Domestic",
+        "bar": "This is my house and you better respect it. If I lose this battle, I'll turn this shit to a domestic.",
+        "explanation": "House and domestic move from ownership of the room into a threat of domestic conflict."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Reverb and Echo",
+        "bar": "If I slap you with this mic, then I hope the reverb's on. I'll make this bitch cry until it echoes on and on.",
+        "explanation": "The microphone, reverb and echo convert a physical threat into audio-production language."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Record the Line",
+        "bar": "Tell Ish record the line and we can make it to a song — it'll be the hardest shit that your voice was ever on.",
+        "explanation": "The engineer records RP's reaction and turns it into a song, while hardest means both severe treatment and musical quality."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Bigger One",
+        "bar": "Life is a bitch, but I am a bigger one.",
+        "explanation": "The familiar phrase is personalised into a concise claim that CHAR.B is the greater threat."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — Disease",
+        "bar": "Misogyny is a disease, it spreads like chlamydia — that's why you look ill and no girls are feeling ya.",
+        "explanation": "Disease, spreading, chlamydia and feeling ill turn RP's misogyny into a contagious condition that repels women."
+      },
+      {
+        "performer": "CHAR.B",
+        "theme": "Round 2 — His Mother",
+        "bar": "I can see the shame that you're covering, 'cause you will never be half of the man that your mother is.",
+        "explanation": "The closer reverses RP's gender attacks by making his mother the stronger model of masculinity."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Turkey",
+        "bar": "Most people go Turkey for their teeth to sort them. Not CHAR.B — she needs reporting; she goes there to receive abortions.",
+        "explanation": "Turkey's dental-tourism reputation supplies the expected setup before RP redirects the trip into an abortion punch."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Yeast",
+        "bar": "You best heed this warning — in between her lips, guaranteed that yeast is forming.",
+        "explanation": "Heed and yeast share the sound pattern while yeast turns the hygiene attack into an infection image."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Charlie Brown",
+        "bar": "Charlie Brown lives up to her name — she's always on cocaine and smack.",
+        "explanation": "CHAR.B becomes Charlie Brown, while brown and white drug imagery extend the name reference into substance use."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 2 — Bunny Blue",
+        "bar": "Get the MC version of Bunny Blue — a battle-rap prostitute.",
+        "explanation": "RP compares CHAR.B with the online adult performer Bonnie Blue, translating that public persona into battle rap."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 — Fourteen Grams",
+        "bar": "When you roll up with fourteen Gs, you'd think I bought a half-ounce down.",
+        "explanation": "Fourteen grams is half an ounce, so arriving with fourteen people becomes a drug-weight calculation."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 — Fish and Foul",
+        "bar": "I smell fish whenever this one's around. I don't fight birds, I don't wanna start a row — but know that my bars are foul.",
+        "explanation": "Fish, birds and foul/fowl keep the animal sounds connected while row turns the confrontation into an argument."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 — Magikarp",
+        "bar": "Always wet like a Magikarp — don't get air like a magic carpet.",
+        "explanation": "The Water-type Pokémon Magikarp supplies wetness before magic carpet extends the matching sound into flight and air."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 — Dentist Chair",
+        "bar": "She leans back, opens her mouth and says 'ah' like she's on a dentist chair.",
+        "explanation": "The familiar dental examination pose becomes another sexual-history attack."
+      },
+      {
+        "performer": "RP",
+        "theme": "Round 3 — Far from Nice",
+        "bar": "You look nice from far, but you're far from nice.",
+        "explanation": "Reversing nice, far and far from produces a concise appearance closer."
+      }
+    ],
+    "oddMoments": [
+      "The coin toss briefly stalls because the available coin is a 2p piece, prompting Margs to joke about self-respect before continuing.",
+      "CHAR.B wins the toss and chooses to go first, with Margs announcing 'ladies first'.",
+      "RP restarts his first from the top after the sound levels fail during the opening lines.",
+      "Margs asks for more women in the room and acknowledges that CHAR.B objects to the misogyny in RP's material.",
+      "The supplied transcript introduces CHAR.B's third but does not preserve the verse; it resumes with promotion and then RP's final. Round three is therefore unscored.",
+      "Before his third, RP tells the room that his misogynistic material is part of battle rap and not his personal attitude.",
+      "The archive documents repeated misogynistic, sexual and homophobic attacks as performance material rather than endorsing them.",
+      "The upload opens the audience vote but does not show a tally or winner."
+    ],
+    "coolMoments": [
+      "CHAR.B's Tinder/exposure-therapy/left-swipe/One-Direction opening is the battle's clearest sustained concept.",
+      "The microphone/reverb/echo/record/song sequence turns the battle's live sound setup into a complete rebuttal passage.",
+      "CHAR.B responds directly to RP's first rather than letting the misogyny remain an unanswered framing device.",
+      "RP's Magikarp/magic-carpet line is his cleanest compact sound flip.",
+      "Both MCs finish their preserved material despite sound interruption and a hostile gendered atmosphere."
+    ],
+    "postBattleContext": "Margs opened the in-building ballot after RP's final and asked attendees to scan the QR code and vote. The upload moves directly into the next battle without announcing a count, and the original archive entry listed the winner as unknown.",
+    "judgementSummary": {
+      "verdict": "LOTA Result: CHAR.B wins 2-0 on preserved rounds",
+      "summary": "LOTA scores the two complete paired rounds for CHAR.B. She takes round one through the structured Tinder, rejection and One Direction writing, then takes round two through the direct misogyny rebuttal and the connected mic/reverb/echo/song sequence. CHAR.B's third is absent from the supplied transcript, so the archive does not score the final round from RP's verse alone. No official tally is preserved; this is explicitly a LOTA result."
+    }
+  },
   {
     "id": "pg-s2026-jm-vs-f-don",
     "slug": "jm-vs-f-don",
     "mc1": "jm",
     "mc2": "f-don",
     "title": "JM vs F-DON",
-    "videoUrl": "https://www.youtube.com/watch?v=E77fN2IetiM",
+    "videoUrl": "https://www.youtube.com/watch?v=9CVQPmpv3ow",
     "views": "88k",
     "theme": "pengame",
     "season": "2026",
@@ -87165,347 +95114,89 @@ export const pengameBattles: Battle[] = [
     "stage": "2026 Battles",
     "customEp": "26x03",
     "seasonOrder": 3,
-    "winner": "jm",
-    "clashSummary": "JM vs F-DON took place on **PenGame Rap Battle 2026**. This is a main PenGame/dungeon battle, not an Academy battle. The host promotes the upcoming PenGame Champions League at Box Park and explains that the platform is moving towards viewer judging.\n\nJM goes first.\n\nJM opens by saying he asked PenGame for the heavyweight one, but meant skill rather than size. He attacks F-DON’s height, physical size, wife, family, femdom angle, “Deebo” image and reputation. He uses “smiles on stilts,” bed/quilt imagery, Jill/hill wordplay, and says F-DON is not on his level. The round is confident, personal and technically clean.\n\nF-DON replies with a strong first. He frames himself as Ice Cube / Friday energy, says JM looks like a shrimp/crustacean, attacks him as living in his mum’s basement, says he is on “homicide” timing, and brings fast-food box, Wales/harpoon, Ip Man, Daft Punk, dojo/sensei and MJ material. F-DON’s first has more presence and performance weight, making the opener debatable.\n\nJM’s second keeps the pressure on. He admits F-DON is physically bigger than him, then attacks him as a non-unique Welsh F-DON, a juiced-up big man, a grubby opponent, a man with oversized ankles, and someone who looks like he does not really want the battle. He brings Wallace and Gromit, boxing, Muay Thai, tools and Kallaloo imagery. The writing is good, but the round feels less damaging than F-DON’s reply.\n\nF-DON’s second is sharper. He uses Walter White / Breaking Bad imagery, cigarette/fag wordplay, Zen and ANBU references, destiny/child survival lines, dead-man-walking material, sheep/Wales/Joseph material, and then flips his own known stumble reputation by saying people should tell him something he does not already know. It is a strong self-aware round and likely edges the second.\n\nJM’s third switches into a more playful, performance-heavy style. He says “who’s the truth, I’m the don,” calls F-DON the BFG, talks about money, fake energy, Joseph Myrick, cheese, not dropping the mic, lighter/blimp imagery and performs a looser, more vibey round. It is enjoyable and shows confidence, but it is not as impactful as F-DON’s closer.\n\nF-DON’s third is the standout round of the battle. He structures it like a funeral service for JM, repeatedly thanking everyone for attending and “celebrating the life of JM.” He attacks JM as broke, yellow-toothed, average Joe, multiversal credit, fiend, sheep/goat angle, Professor Oak, Jobless Moron and Joke Man. The crowd reacts heavily, especially to the “multiversal credit” line. This round gives F-DON the clearest separation.\n\nAt the end, the host does not call a winner. He says to get in the comments and let him know who won. No official result or grading is given on camera.\n\nOfficial result: **No official winner called**.",
+    "winner": "f-don",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "JM and F-DON met in the PenGame dungeon before the Champions League launch. JM went first. The upload closes with viewers being asked to comment with their winner, but no tally or declared result is preserved. The result below is therefore an independent LOTA review.\n\nJM's first answered the heavyweight booking by saying he meant skill rather than size. He promised to cross opponents from a list, moved into allegations about F-DON and femdom, then called him PenGame's Deebo while comparing his height with a free-throw rim. A home invasion, carpet and family-witnessing-carnage attack followed. JM closed through struggling artists, SMILES on stilts, beds that do not fit quilts, pills, hills and Jill. The round is confident and clean, but several phrases remain difficult to resolve.\n\nF-DON's first had the stronger presence and clearer construction. Ice Cube and Friday led into getting smoky. JM's claimed PASSIVE robbery became being robbed outside; rolling with another side became F-DON choosing homicide. JM was a shrimp, crustacean and someone living in his mother's basement. Passing through F-DON's house became ending in a fast-food box. Wales produced a harpoon, then punches became Ip Man. Daft Punk, a dojo, sensei, Wednesday, Nestlé, MJ and Muay Thai extended a full response. F-DON edges the first.\n\nJM's second openly acknowledged F-DON's size. Wales having no unique DON, being sent out of the blue and Wally imagery preceded allegations of juicing. Rugby socks and ankles too large for Nike socks built the body attack. JM said F-DON looked unwilling to battle, then used Wallace and Gromit, boxing, Muay Thai and Kallaloo. He finished by arguing that size and gym work do not matter against tools. The round has variety but fewer connected opponent-specific passages.\n\nF-DON's second opened with Walter White and leaving JM Breaking Bad. A cigarette setup used ZEN and ANBU, then family, Destiny's Child and survival developed the middle. Precautions and vital organs led into orphaning JM. DRIZZGB, TRAPPY and a dead-man-walking section followed. Wales and a crowd of sheep became the biblical Joseph as shepherd. F-DON then pre-empted the familiar stumble angle by thanking every mention for promotion and asking for something he did not know. Sensei, dojo and Gojo's domain closed a sharper round.\n\nJM's third deliberately shifted into a looser performance. A repeated who's-the-truth refrain named himself the don, then F-DON became the BFG. Money, acting and earning more in a month than F-DON would in a life formed the career attack. JM announced that he was styling rather than prioritising bars, then moved through sheep, dancing, Joseph Myrick, cheese, fake energy and warnings not to drop the microphone. The vibe is confident, but the writing creates less damage than his earlier rounds.\n\nF-DON's third was the battle's decisive round. He framed the entire verse as a funeral service celebrating JM's life after a murder JM caused by challenging him. Meadow, a smile lighting the room and yellow teeth preceded calling JM an average Joe. Joe was so broke that a burgled home would be left empty-handed; being broke in every plane of existence became claiming multiversal credit. Weed, cocaine and lean made Joe a fiend. A GOAT and sheep sequence, Professor Oak, Jobless Moron and Joke Man extended the concept. Multiple crowd-demanded reloads repeated the funeral, but each completed pass reinforced the structure.\n\nLOTA scores F-DON 3-0. He edges the first through the clearer Ice Cube, homicide, crustacean, fast-food, harpoon, Ip Man and dojo writing; takes the second with the stronger Walter White, Destiny's Child, dead-man-walking, sheep, self-aware stumble and Gojo construction; and wins the third decisively through the funeral-service, average-Joe, multiversal-credit, fiend, GOAT, Professor Oak and JM-initials concept.",
     "performanceAnalysis": [
       {
-        "performer": "F-DON",
-        "overview": "F-DON has the strongest performance of the battle because he builds momentum each round and clearly takes the third.\n\nHis first round is strong because it immediately establishes presence. He sounds comfortable and aggressive, and the Ice Cube / Friday / homicide / Ip Man / dojo references give him control.\n\nHis second is his most complete written round. He mixes direct attack, humour, self-awareness and PenGame references. The line about people mentioning his stumbles is effective because he owns the angle before JM can fully weaponise it.\n\nHis third is the round of the battle. The funeral-service concept is clear, funny, crowd-friendly and damaging. The “multiversal credit” line is one of the biggest moments in the clash.\n\nF-DON’s biggest strength is room control. Even when JM has strong writing, F-DON feels more comfortable owning the battle.",
-        "lyricalThemes": "Ice Cube, Friday, homicide, shrimp/crustacean, mum’s basement, Wales/harpoon, fast-food box, Ip Man, Daft Punk, dojo/sensei, Walter White, Breaking Bad, cigarette/fag wordplay, Zen, ANBU, dead man walking, sheep/Wales/Joseph, Gojo, funeral service, average Joe, multiversal credit, Professor Oak, Jobless Moron, Joke Man.",
+        "performer": "JM",
+        "overview": "JM loses the LOTA review 3-0 but remains competitive in the first. His opening uses the size mismatch, F-DON's image and family attacks effectively. The second has useful Wallace and Gromit, boxing and Kallaloo pockets but less structural pressure. His playful third prioritises performance and identity over a decisive closing case.",
+        "lyricalThemes": "Heavyweights, skill and size; lists and crossing opponents off; femdom; Deebo and free throws; homes, carpets and family; SMILES, stilts, beds and quilts; Wales and unique DONs; Wally, juicing, rugby socks and ankles; Wallace and Gromit; boxing, Muay Thai, tools and Kallaloo; truth and dons; BFG; money, acting, sheep, Joseph Myrick, cheese, fake energy, microphones and lighters.",
         "keyTechnicalHighlights": [
-          {
-            "title": "Best round",
-            "description": "Round three."
-          },
-          {
-            "title": "Strongest trait",
-            "description": "Performance and concept execution."
-          },
-          {
-            "title": "Best angle",
-            "description": "Funeral service for JM."
-          },
-          {
-            "title": "Best technical section",
-            "description": "Average Joe / broke / multiversal credit sequence."
-          },
-          {
-            "title": "Battle factor",
-            "description": "The third round creates the biggest moment and gives F-DON the archive edge."
-          }
+          {"title":"Heavyweight clarification","description":"JM reframes a heavyweight request as skill rather than F-DON's physical size."},
+          {"title":"Rugby socks and ankles","description":"Oversized rugby socks lead into ankles too large for standard Nike socks."},
+          {"title":"Joseph Myrick identity","description":"JM pauses the performance to insist that his full name be said correctly."}
         ]
       },
       {
-        "performer": "JM",
-        "overview": "JM performs well and makes this competitive. His writing is clean and his angles are direct, especially in the first round.\n\nHis first round is his strongest. He attacks F-DON’s size, image, relationship, femdom angle, height and platform position. The “heavyweight” opener is effective because it flips expectations around F-DON’s size.\n\nHis second has good material, especially the Wallace and Gromit, boxing and Muay Thai sections, but F-DON’s second feels more decisive.\n\nHis third is enjoyable, but it is more vibe-based and less damaging. Against F-DON’s funeral-service closer, JM’s third does not hit as hard.\n\nJM’s biggest strength is writing. His weakness here is that F-DON creates the bigger moment.",
-        "lyricalThemes": "Heavyweight skill vs size, F-DON’s height, femdom angle, Deebo, smiles on stilts, bed/quilt imagery, Jill/hill wordplay, Welsh F-DONs, juicing, Nike socks/ankles, Wallace and Gromit, boxing, Muay Thai, BFG, money/status, fake energy, Joseph Myrick, cheese, lighter/blimp imagery.",
+        "performer": "F-DON",
+        "overview": "F-DON wins the LOTA review 3-0. His first has the clearer performance and pop-culture chains, his second combines direct attacks with a smart prebuttal to his stumble reputation, and his funeral-service third creates decisive separation. Room control and concept execution give him the battle.",
+        "lyricalThemes": "Ice Cube, Friday and smoke; PASSIVE and robbery; sides and homicide; shrimp, crustaceans and basements; fast food, Wales and harpoons; Ip Man; Daft Punk, dojos, senseis, Wednesday, Nestlé and MJ; Walter White and Breaking Bad; cigarettes, ZEN and ANBU; Destiny's Child and survival; dead men walking; Wales, sheep and Joseph; stumbles, promotion and Gojo; funerals, meadows, yellow teeth, average Joe, poverty, multiversal credit, drugs, GOATs, Professor Oak, Jobless Moron and Joke Man.",
         "keyTechnicalHighlights": [
-          {
-            "title": "Best round",
-            "description": "Round one."
-          },
-          {
-            "title": "Strongest trait",
-            "description": "Direct writing and setup."
-          },
-          {
-            "title": "Best angle",
-            "description": "Heavyweight skill vs F-DON’s physical size."
-          },
-          {
-            "title": "Best technical section",
-            "description": "Heavyweight / Deebo / smiles-on-stilts sequence."
-          },
-          {
-            "title": "Battle factor",
-            "description": "Strong opener, but F-DON’s later momentum overtakes him."
-          }
+          {"title":"Friday to homicide","description":"Ice Cube and Friday establish the persona before sides turn into F-DON choosing homicide."},
+          {"title":"Stumble prebuttal","description":"F-DON neutralises a familiar criticism by treating every mention of his stumbles as free promotion."},
+          {"title":"Funeral-service concept","description":"The entire third presents JM's death notice before average Joe, poverty and multiversal credit develop the eulogy."}
         ]
       }
     ],
     "notableBars": [
-      {
-        "performer": "JM",
-        "theme": "Status",
-        "bar": "I told PenGame I wanted the heavyweight one — I meant skill, not size and stature.",
-        "explanation": "A strong opener that flips F-DON’s physical presence."
-      },
-      {
-        "performer": "JM",
-        "theme": "Status",
-        "bar": "I got a list and I’m crossing it off.",
-        "explanation": "JM frames F-DON as another name on his target list."
-      },
-      {
-        "performer": "JM",
-        "theme": "Personal",
-        "bar": "F-DON paid for a femdom.",
-        "explanation": "A personal/sexual angle. Battle material."
-      },
-      {
-        "performer": "JM",
-        "theme": "Reference",
-        "bar": "PenGame’s Deebo.",
-        "explanation": "A Friday/Deebo comparison based on F-DON’s size and intimidation."
-      },
-      {
-        "performer": "JM",
-        "theme": "Appearance",
-        "bar": "His height is the same as the rim of a free throw.",
-        "explanation": "A height/basketball punch."
-      },
-      {
-        "performer": "JM",
-        "theme": "Appearance",
-        "bar": "Smiles on stilts.",
-        "explanation": "A funny visual line."
-      },
-      {
-        "performer": "JM",
-        "theme": "Appearance",
-        "bar": "Your bed don’t fit quilts.",
-        "explanation": "A size/height punch."
-      },
-      {
-        "performer": "JM",
-        "theme": "Wordplay",
-        "bar": "Run up big hills like Jill.",
-        "explanation": "A nursery-rhyme/Jill wordplay."
-      },
-      {
-        "performer": "JM",
-        "theme": "Status",
-        "bar": "EFTON’s bigger than both of us, man.",
-        "explanation": "JM acknowledges the physical mismatch."
-      },
-      {
-        "performer": "JM",
-        "theme": "Angle",
-        "bar": "If I try punch him, pray he don’t swing.",
-        "explanation": "A funny self-aware line."
-      },
-      {
-        "performer": "JM",
-        "theme": "Status",
-        "bar": "There ain’t no unique Donnie.",
-        "explanation": "A name/status angle about F-DON."
-      },
-      {
-        "performer": "JM",
-        "theme": "Appearance",
-        "bar": "You look like you’ve been juicing.",
-        "explanation": "A steroid/size punch."
-      },
-      {
-        "performer": "JM",
-        "theme": "Critique",
-        "bar": "I can tell that you don’t want it.",
-        "explanation": "A battle-heart critique."
-      },
-      {
-        "performer": "JM",
-        "theme": "Reference",
-        "bar": "Can’t eat this cracker like Wallace and Gromit.",
-        "explanation": "A Wallace and Gromit/cracker punch."
-      },
-      {
-        "performer": "JM",
-        "theme": "Personal",
-        "bar": "F-DON, you’re a problem for women.",
-        "explanation": "A serious allegation-style line. Battle material."
-      },
-      {
-        "performer": "JM",
-        "theme": "Imagery",
-        "bar": "I taught my bredrin Muay Thai just so he can batter you.",
-        "explanation": "A fight/martial-arts punch."
-      },
-      {
-        "performer": "JM",
-        "theme": "Branding",
-        "bar": "Who’s the truth? I’m the don.",
-        "explanation": "A third-round self-branding hook."
-      },
-      {
-        "performer": "JM",
-        "theme": "Reference",
-        "bar": "Who let the BFG ride?",
-        "explanation": "A Roald Dahl / size punch."
-      },
-      {
-        "performer": "JM",
-        "theme": "Status",
-        "bar": "Joseph Myrick — say that right when you’re speaking to me.",
-        "explanation": "JM’s real-name/status correction."
-      },
-      {
-        "performer": "JM",
-        "theme": "Angle",
-        "bar": "I beg you don’t drop the mic again.",
-        "explanation": "A direct F-DON stumble angle."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Status",
-        "bar": "Who is this guy?",
-        "explanation": "A simple status-dismissal opener."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Reference",
-        "bar": "I’m like Ice Cube, that’s what they told me.",
-        "explanation": "A persona/reference line."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Reference",
-        "bar": "I don’t have to be a Friday to get smoky.",
-        "explanation": "A Friday / smoke punch."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Appearance",
-        "bar": "This brother is a shrimp, he’s a crustacean.",
-        "explanation": "A body-size insult."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Threat",
-        "bar": "Today I am letting off my frustrations.",
-        "explanation": "A strong statement of intent."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Imagery",
-        "bar": "Put this prat in a box like some fast food.",
-        "explanation": "A box/fast-food death punch."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Location",
-        "bar": "You’re from Wales, best watch who you talk to.",
-        "explanation": "A location/status jab."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Wordplay",
-        "bar": "Big strap to kill a whale, that’s a harpoon.",
-        "explanation": "A whale/harpoon size punch."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Reference",
-        "bar": "Punch after punch like I’m Ip Man.",
-        "explanation": "A martial-arts punch."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Status",
-        "bar": "This is my dojo, I’m the sensei.",
-        "explanation": "A battle-control line."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Status",
-        "bar": "I looked them in the face like, of course I did.",
-        "explanation": "A cold closer to the first round."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Reference",
-        "bar": "Call me Walter White in a fight, I’ll leave man Breaking Bad.",
-        "explanation": "A Breaking Bad reference."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Reference",
-        "bar": "Bring me Zen or ANBU — that’s the only time you’ll see F-DON smoking.",
-        "explanation": "A PenGame/name reference."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Angle",
-        "bar": "F-DON stumbles? Tell them something they don’t know.",
-        "explanation": "Self-aware angle control."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Reference",
-        "bar": "This is my domain, I’m Gojo.",
-        "explanation": "A Jujutsu Kaisen reference."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Concept",
-        "bar": "I wanna thank everyone in attendance for making the time for this funeral service.",
-        "explanation": "The start of the third-round concept."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Concept",
-        "bar": "To celebrate the life of JM.",
-        "explanation": "A clean funeral-service setup."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Concept",
-        "bar": "He was brutally murdered.",
-        "explanation": "The central concept of the round."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Wordplay",
-        "bar": "Outside he’s just an average Joe.",
-        "explanation": "A name/status punch."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Status",
-        "bar": "Joe was broke.",
-        "explanation": "The start of the poverty angle."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Imagery",
-        "bar": "Broke in every plane of existence, claiming multiversal credit.",
-        "explanation": "One of the biggest lines of the battle."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Personal",
-        "bar": "Did anybody know that Joe’s a fiend?",
-        "explanation": "A drug/character punch. Battle material."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Status",
-        "bar": "No wonder he thought he could fuck with a goat.",
-        "explanation": "A goat/status punch."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Reference",
-        "bar": "I didn’t think that I would poke a man like Professor Oak.",
-        "explanation": "A Pokémon / Professor Oak punch."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Wordplay",
-        "bar": "JM stands for Jobless Moron.",
-        "explanation": "A name flip."
-      },
-      {
-        "performer": "F-DON",
-        "theme": "Wordplay",
-        "bar": "JM is a Joke Man.",
-        "explanation": "Another name flip."
-      }
+      {"performer":"JM","theme":"Round 1 - Heavyweight","bar":"I told PenGame I wanted the heavyweight one - they thought size and stature, I meant skill.","explanation":"JM reframes the booking away from F-DON's body and toward ability."},
+      {"performer":"JM","theme":"Round 1 - Ladder","bar":"You thought I wouldn't chat bad to you - I'll send for you and move to your sister using a ladder.","explanation":"F-DON's height turns reaching his family into needing a ladder."},
+      {"performer":"JM","theme":"Round 1 - Cross the list","bar":"I got a list and I'm crossing it off - not one of you pricks gonna stop me.","explanation":"Opponents become completed items on JM's progression list."},
+      {"performer":"JM","theme":"Round 1 - Femdom","bar":"I had F-DON pay for a femdom - my girl likes to get stepped on.","explanation":"F-DON's name and a domination fetish form the personal angle."},
+      {"performer":"JM","theme":"Round 1 - Deebo rim","bar":"Why battle PenGame's Deebo? His height is the same as the rim of a free throw.","explanation":"The Friday bully and basketball rim exaggerate F-DON's size."},
+      {"performer":"JM","theme":"Round 1 - Carpet carnage","bar":"Come to your gaff, take a shit on the carpet - your wife and her dad witness the carnage.","explanation":"A home invasion becomes deliberately disrespectful domestic imagery."},
+      {"performer":"JM","theme":"Round 1 - SMILES on stilts","bar":"You're just SMILES on stilts; your bed don't fit quilts.","explanation":"A named resemblance and extreme height create the bed-size follow-up."},
+      {"performer":"JM","theme":"Round 1 - Jill and hills","bar":"Make a man fetch pills, run up big hills like Jill.","explanation":"Pills, hills and Jill sustain the closing sound pattern."},
+      {"performer":"JM","theme":"Round 2 - No unique DON","bar":"We got F-DONs down in Wales - there ain't no unique DON.","explanation":"The stage name becomes a claim that F-DON is interchangeable."},
+      {"performer":"JM","theme":"Round 2 - Juicing","bar":"Who's this Wally moving dodgy? You look like you've been juicing, Bobby.","explanation":"Wally and steroid-style juicing attack F-DON's size."},
+      {"performer":"JM","theme":"Round 2 - Rugby socks","bar":"This guy gotta wear rugby socks - Nike socks won't go over your ankles.","explanation":"Large sports socks become necessary because of F-DON's ankles."},
+      {"performer":"JM","theme":"Round 2 - Wallace and Gromit","bar":"Can't eat this cracker like Wallace and Gromit.","explanation":"The cheese-loving characters and cracker imagery form a pop-culture threat."},
+      {"performer":"JM","theme":"Round 2 - Boxing","bar":"I'm slim, but I'll get a run of boxing - body-shot ting locked in.","explanation":"JM rejects the size disadvantage through boxing technique."},
+      {"performer":"JM","theme":"Round 2 - Muay Thai","bar":"I taught my bredrin Muay Thai just so he can batter you.","explanation":"The mismatch is outsourced to a trained friend."},
+      {"performer":"JM","theme":"Round 2 - Kallaloo","bar":"Weak-bin pump like Kallaloo.","explanation":"The Caribbean dish anchors the compact food-and-weakness sound flip."},
+      {"performer":"JM","theme":"Round 3 - BFG","bar":"This guy's a giant, no kidding - who let the BFG ride?","explanation":"Roald Dahl's Big Friendly Giant becomes F-DON's appearance comparison."},
+      {"performer":"F-DON","theme":"Round 1 - Ice Cube Friday","bar":"I'm like Ice Cube - I don't have to be Friday to get smoky.","explanation":"Ice Cube's Friday role and smoke create the opening film-and-violence reference."},
+      {"performer":"F-DON","theme":"Round 1 - Homicide","bar":"You're rolling with the other side, so the only side I'm on is homicide.","explanation":"Competing sides resolve into the word homicide."},
+      {"performer":"F-DON","theme":"Round 1 - Crustacean","bar":"This brother is a shrimp, a crustacean, living in his mum's basement.","explanation":"Size and dependency are linked through the shrimp comparison."},
+      {"performer":"F-DON","theme":"Round 1 - Fast-food box","bar":"This is my house, you just pass through - this prat ends up in a box like fast food.","explanation":"A visitor is packaged like a takeaway meal."},
+      {"performer":"F-DON","theme":"Round 1 - Wales harpoon","bar":"You're from Wales, watch who you talk to - big strap to kill a whale, that's a harpoon.","explanation":"Wales is heard as whales, requiring a harpoon."},
+      {"performer":"F-DON","theme":"Round 1 - Ip Man","bar":"Hit man with punch after punch like I'm Ip Man.","explanation":"The martial-arts film character supplies repeated striking imagery."},
+      {"performer":"F-DON","theme":"Round 2 - Breaking Bad","bar":"Call me Walter White in a fight - I'ma leave man Breaking Bad.","explanation":"Walter White and the series title become physical damage."},
+      {"performer":"F-DON","theme":"Round 2 - Destiny's Child","bar":"Maybe he thinks he's a child of destiny, but this bitch ain't gonna survive.","explanation":"Destiny's Child and Survivor are joined through the group's song title."},
+      {"performer":"F-DON","theme":"Round 2 - Dead man walking","bar":"Not once have I heard man pausing - JM, that's a dead man walking.","explanation":"A direct death sentence closes the pacing criticism."},
+      {"performer":"F-DON","theme":"Round 2 - Joseph shepherd","bar":"These guys from Wales are sheep - Joseph in the Bible was a shepherd, but this Joseph's been with sheep.","explanation":"Wales, sheep and JM's real first name create a biblical personal."},
+      {"performer":"F-DON","theme":"Round 2 - Stumble promotion","bar":"Every time my name gets mentioned, I thank everyone for the promo - F-DON stumbles? Tell me something I don't know.","explanation":"He pre-empts a known weakness and reframes it as publicity."},
+      {"performer":"F-DON","theme":"Round 3 - Funeral service","bar":"Thank everyone in attendance for this funeral service, to celebrate the life of JM.","explanation":"The full final is framed as JM's eulogy after losing the battle."},
+      {"performer":"F-DON","theme":"Round 3 - Average Joe","bar":"We called him JM; outside he's just an average Joe.","explanation":"JM's real name Joseph becomes the phrase average Joe."},
+      {"performer":"F-DON","theme":"Round 3 - Multiversal credit","bar":"Broke in every plane of existence - he was claiming multiversal credit.","explanation":"Universal Credit expands across every universe into multiversal poverty."},
+      {"performer":"F-DON","theme":"Round 3 - Professor Oak","bar":"He thought he could mess with a GOAT - didn't think I wanted a Pokémon, that Professor Oak.","explanation":"GOAT status moves into Pokémon and its professor."},
+      {"performer":"F-DON","theme":"Round 3 - JM initials","bar":"What does JM stand for? Jobless Moron - JM is a Joke Man.","explanation":"JM's initials are reassigned two damaging meanings."}
     ],
+    "oddMoments": [
+      "JM's first receives an immediate crowd-requested repeat of the SMILES-on-stilts section.",
+      "JM admits the size mismatch in his second before arguing that tools make it irrelevant.",
+      "F-DON directly pre-empts the familiar angle about his stumbles.",
+      "JM announces that he is styling and vibing rather than prioritising bars in the third.",
+      "F-DON performs the funeral-service third three times after successive crowd reloads.",
+      "The upload moves into the introduction of the next battle after the outro."
+    ],
+    "coolMoments": [
+      "JM's heavyweight clarification frames the matchup immediately.",
+      "F-DON's Ice Cube and Friday opening establishes his room presence.",
+      "The Walter White and Breaking Bad flip gives F-DON's second a clean start.",
+      "F-DON's stumble prebuttal takes away an expected attack before it can be used.",
+      "The multiversal-credit line creates the final's biggest reaction."
+    ],
+    "postBattleContext": "The host asks viewers to comment with who they think won. No completed tally or official winner is announced, so the archive records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments decide. Recommended site status: No Official Decision / Fan Vote Pending. Archive lean: F-DON 2-1 JM. Suggested round split: Round 1: JM / debatable, Round 2: F-DON, Round 3: F-DON. Reason: JM starts strongly and has a very good first round, but F-DON gains momentum in the second and clearly has the biggest round of the battle with the funeral-service third. Archive Grades - F-DON: A-, JM: B+. Final Note: This is a strong main PenGame battle. JM writes well and makes it competitive, but F-DON’s third round is the standout moment and gives him the archive edge."
+      "verdict": "F-DON wins 3-0 (LOTA Result)",
+      "summary": "F-DON edges round one through the clearer Ice Cube, homicide, crustacean, fast-food, harpoon, Ip Man and dojo writing; takes round two with the stronger Walter White, Destiny's Child, dead-man-walking, sheep, self-aware stumble and Gojo construction; and wins round three decisively through the funeral-service, average-Joe, multiversal-credit, Professor Oak and JM-initials concept."
     }
   },
+
   {
     "id": "pg-s2026-kmarh-vs-monroe",
     "slug": "kmarh-vs-monroe",
@@ -87521,12 +95212,13 @@ export const pengameBattles: Battle[] = [
     "customEp": "26x04",
     "seasonOrder": 4,
     "winner": "monroe",
-    "statusNote": "No Official Decision - LOTA Result",
-    "clashSummary": "K.MARH vs MONROE took place on **PenGame Rap Battle 2026**. This is a main PenGame battle, not an Academy clash. The host promotes the upcoming PenGame Champions League at Box Park and says the platform is moving into a viewer-judged format.\n\nK.MARH wins the coin toss and chooses for MONROE to go first.\n\nMONROE opens with a sharp first round. He attacks K.MARH as an “action figure,” says PenGame has put him against a natural killer, and then builds around K.MARH’s size, image, Toy Story references, small jokes, past PenGame status and “OG” reputation. He says PenGame OG just means K.MARH is overly gassed, and finishes the round with a strong mix of humour and direct disrespect. The small-man angle is obvious, but MONROE finds several different ways to make it work.\n\nK.MARH responds with a darker, more aggressive first. He attacks MONROE’s appearance, teeth, family, drugs, poverty, hygiene and lifestyle. The round has intensity and violent imagery, with soul/spirit separation, grave imagery, metal, pesticide and extra-fries references. K.MARH sounds aggressive, but MONROE’s opener is cleaner and more memorable.\n\nMONROE’s second is even more direct. He attacks K.MARH’s body proportions, says his head and body look like they are growing at different ages, references K.MARH choking in past battles, questions why PenGame keeps giving him chances, and compares MONROE’s C+ grade to K.MARH being a Y. He also anticipates predictable angles about his mum’s cooking and dad being EDL, then flips it into seasoning and beef wordplay. This is probably MONROE’s best round.\n\nK.MARH’s second has a rough moment because of noise/interruption, then he restarts and delivers the round properly. He attacks MONROE’s hygiene, drug use, trauma, fake statements, poverty, Brexit gang, and says MONROE should get a job or find a hobby. The restarted section is better, but the round loses momentum because of the interruption and repeated opening.\n\nMONROE’s third continues the same direct pressure. He attacks K.MARH’s lack of style, height, speech, pen, conviction, grade, punchline stealing, arrogance and small size. He also brings Christmas/home imagery and ends by saying he cannot stop with the small jokes because K.MARH is pocket-sized. It is consistent and keeps MONROE’s angle alive.\n\nK.MARH’s third is his strongest round. He frames the battle around class, maths, history, science and stars, then attacks MONROE’s food/drug habits, lack of danger, speech, teeth, keys, grave mistake and pagan darkness. It is his cleanest and most structured round, and it gives him a strong finish.\n\nThe transcript does not include a winner being announced. The host closes the battle, tells viewers to like, share, comment and subscribe, then moves on to the next clash.\n\nOfficial result: **No official winner called**.",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "clashSummary": "K.MARH vs MONROE took place on **PenGame Rap Battle 2026**. This is a main PenGame battle, not an Academy clash. The host promotes the upcoming PenGame Champions League at Box Park and says the platform is moving into a viewer-judged format.\n\nK.MARH wins the coin toss and chooses for MONROE to go first.\n\nMONROE opens with a sharp first round. He attacks K.MARH as an “action figure,” says PenGame has put him against a natural killer, and then builds around K.MARH’s size, image, Toy Story references, small jokes, past PenGame status and “OG” reputation. He says PenGame OG just means K.MARH is overly gassed, and finishes the round with a strong mix of humour and direct disrespect. The small-man angle is obvious, but MONROE finds several different ways to make it work. MONROE takes the first through clearer construction and more memorable opponent-specific writing.\n\nK.MARH responds with a darker, more aggressive first. He attacks MONROE’s appearance, teeth, family, drugs, poverty, hygiene and lifestyle. The round has intensity and violent imagery, with soul/spirit separation, grave imagery, metal, pesticide and extra-fries references, but the material is broader than MONROE’s tailored opener.\n\nMONROE’s second is even more direct. He attacks K.MARH’s body proportions, says his head and body look like they are growing at different ages, references K.MARH choking in past battles, questions why PenGame keeps giving him chances, and compares MONROE’s C+ grade to K.MARH being a Y. He also anticipates predictable angles about his mum’s cooking and dad being EDL, then flips it into seasoning and beef wordplay. This is MONROE’s strongest round.\n\nK.MARH’s second is disrupted by noise in the room. He stops, explains that the interruption is affecting him and restarts the material. He attacks MONROE’s hygiene, drug use, trauma, false statements, poverty and Brexit gang, then tells him to get a job or find a hobby. K.MARH recovers, but the repeated opening costs momentum while MONROE’s second remains cleaner.\n\nMONROE’s third continues the same direct pressure. He attacks K.MARH’s lack of style, height, speech, pen, conviction, grade, punchline stealing, arrogance and small size. Christmas and gnome imagery leads into the pocket-sized closer. It is consistent, though less varied than his first two rounds.\n\nK.MARH’s third is his strongest round. He frames the battle around class, maths, history, science and stars, then attacks MONROE’s food and drug habits, lack of danger, speech, teeth, keys, grave mistake and pagan darkness. The subject scheme gives the verse the structure missing from parts of his first two, and K.MARH takes the third.\n\nThe upload preserves no official winner. The host closes the battle, asks viewers to like, share, comment and subscribe, then moves to the next clash. The result below is therefore an independent archive judgement.\n\nLOTA scores **MONROE 2-1**: MONROE wins rounds one and two through clearer opponent-specific angles and cleaner execution; K.MARH takes round three with the battle’s strongest sustained scheme and his most structured performance.",
     "performanceAnalysis": [
       {
         "performer": "MONROE",
-        "overview": "MONROE has the better overall battle because his angles are clearer, more direct and easier to follow.\n\nHis first round works because he turns K.MARH’s size into a full character attack rather than just repeating one joke. The Toy Story, North Pole, St Nicholas, OG/overly gassed and tripping-hazard lines make the round varied.\n\nHis second is the strongest round of the battle. He attacks K.MARH’s previous choking, Academy/grade history, small stature and predictable angles. The “C+ / Y” section is especially strong because it uses PenGame’s own grading system against K.MARH.\n\nHis third is consistent. It does not change the battle dramatically, but it keeps the pressure on and lands enough small-man and style critiques to stay competitive.\n\nMONROE’s biggest strength is direct angle writing. He sounds like he prepared for K.MARH specifically.",
+        "overview": "MONROE wins the LOTA review 2-1 because his angles are clearer, more direct and easier to follow.\n\nHis first round works because he turns K.MARH’s size into a full character attack rather than repeating one joke. The Toy Story, North Pole, St Nicholas, OG/overly gassed and tripping-hazard lines keep the angle varied.\n\nHis second is the strongest round of the battle. He attacks K.MARH’s previous choking, Academy and grade history, small stature and predictable angles. The C+ / Y section is especially effective because it uses PenGame’s own grading system against K.MARH.\n\nHis third remains consistent, but K.MARH’s subject-based structure gives the opponent the round. MONROE’s first-two-round lead still decides the battle. His biggest strength is direct, opponent-specific angle writing.",
         "lyricalThemes": "Action figure, natural killer, Toy Story, Andy and Buzz, small jokes, sparring session, St Nicholas, North Pole, PenGame OG / overly gassed, tripping hazard, lamppost/wind balance, body proportions, past choking, C+ vs Y, seasoning/beef, EDL rebuttal, B-Tech Youngin, pocket-sized closer.",
         "keyTechnicalHighlights": [
           {
@@ -87553,7 +95245,7 @@ export const pengameBattles: Battle[] = [
       },
       {
         "performer": "K.MARH",
-        "overview": "K.MARH loses the archive lean but has a strong third and brings aggression throughout.\n\nHis first round is intense but less clean. He attacks MONROE’s drugs, poverty, family, hygiene and appearance, but some sections feel broad rather than surgically focused.\n\nHis second has better material, but the interruption/restart hurts momentum. He recovers and gets the bars out, but MONROE’s second is more memorable.\n\nHis third is K.MARH’s best round. The class/maths/history/science framing gives the verse more structure. The Michelin star, under-sea/sponge, speech/teeth, keys, grave mistake and pagan-darkness sections land better than his earlier material.\n\nK.MARH’s biggest strength is aggression. His weakness is that the first two rounds are not as cleanly tailored as MONROE’s.",
+        "overview": "K.MARH loses the LOTA review 2-1 but finishes with the battle’s strongest sustained scheme and brings aggression throughout.\n\nHis first round attacks MONROE’s drugs, poverty, family, hygiene and appearance with intensity, although several sections are broader than MONROE’s tailored opener.\n\nHis second contains better direct material, but the room interruption forces a restart and damages its momentum. He recovers and completes the verse, yet MONROE’s second remains more memorable.\n\nHis third is K.MARH’s best round. The class, maths, history, science and stars framing gives the verse a clear spine. Michelin star, under-the-sea, speech and teeth, keys, grave mistake and pagan-darkness sections build a coherent finish and earn him the round. His biggest strength is aggression; greater tailoring in the first two would have made the battle closer.",
         "lyricalThemes": "Chuckle brother, outcast, teeth, drugs, broke/addict angle, soul/spirit separation, grave imagery, pesticide, extra fries, gunpowder/sniff line, Casper the Gremlin, trauma, Brexit gang, class/maths/history/science, Michelin star, under-sea/sponge, losing teeth, keys, grave mistake, pagan darkness.",
         "keyTechnicalHighlights": [
           {
@@ -87875,9 +95567,10 @@ export const pengameBattles: Battle[] = [
         "explanation": "A religious/darkness closer."
       }
     ],
+    "postBattleContext": "The host does not announce a winner. He asks viewers to like, share, comment and subscribe before promoting the March 29 Boxpark event, so the archive records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: MONROE 2-1 K.MARH. Suggested round split: Round 1: MONROE, Round 2: MONROE, Round 3: K.MARH / debatable. Reason: MONROE has the clearer and more tailored first two rounds. K.MARH finishes strongly with his best round in the third, but it is not enough to overturn the early lead. Archive Grades - MONROE: B+, K.MARH: B. Final Note: MONROE wins the archive lean through directness and cleaner angle writing. K.MARH brings aggression and a strong third, but MONROE’s first two are more memorable and better structured."
+      "verdict": "MONROE wins 2-1 (LOTA Result)",
+      "summary": "MONROE takes round one through the clearer action-figure, Toy Story, St Nicholas, overly-gassed and tripping-hazard writing, then wins round two with the stronger body-proportion, choking-history, C+ / Y and seasoning-beef material. K.MARH earns round three through the class, maths, history, science, Michelin-star, under-the-sea, grave-mistake and pagan-darkness scheme."
     }
   },
   {
@@ -87887,7 +95580,7 @@ export const pengameBattles: Battle[] = [
     "mc2": "anbu-sensei",
     "title": "LC vs ANBU SENSEI",
     "videoUrl": "https://www.youtube.com/watch?v=04BHiF6ZiCs",
-    "views": "109k",
+    "views": "110k",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -87895,7 +95588,8 @@ export const pengameBattles: Battle[] = [
     "customEp": "26x05",
     "seasonOrder": 5,
     "winner": "anbu-sensei",
-    "statusNote": "No Official Decision - LOTA Result",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
     "clashSummary": "LC vs ANBU SENSEI took place on **PenGame Rap Battle 2026** in the dungeon. This is a main PenGame battle, not an Academy clash. The host promotes the upcoming PenGame Champions League at Box Park and frames the event as part of the adult PenGame run.\n\nThe coin toss section is slightly chaotic, with LC initially appearing to want to go first before the order changes. ANBU SENSEI ends up opening the battle.\n\nANBU opens with a heavy first round aimed at LC’s background, family, previous angles used against him, Academy history and credibility. He starts with “Marks, background check your artist,” then attacks LC for repeated angles, false claims, relying on the same material, and not being ready for main-roster pressure. He brings GTA, family trauma, Tim Westwood, Avatar, Exodia, Dragon Ball Z, iCarly and several personal shock angles. The room reacts heavily, forcing reloads and restarts.\n\nLC responds with aggression. He attacks ANBU’s appearance, name, girl, family, cocaine/drug angles, celebrity death references, Hunter x Hunter, Makachev, Lacazette and grind-flow material. LC’s first is direct and violent in tone, with a lot of disrespect, but it is less structured than ANBU’s opener.\n\nANBU’s second is a themed round with Greek mythology, gaming, football, Vikings and film references. He uses Zeus, Kratos, Hermes, the gods, charity match, Ragnar Lothbrok, Ivar Boneless, Matt Damon and Spack Nation references. The round gets interrupted multiple times because the room reacts and the host comments on the references, but ANBU keeps returning to the material. It is ambitious and layered, though slightly disrupted by the room.\n\nLC’s second keeps the battle close. He brings Kennedy, Tekken, Bambi, nose/skin jokes, Sensei/dance crew, Kung Fu, walking-dead material, Madara, Shinji Kagawa, delusion and anti-ANBU status angles. It is more straightforward than ANBU’s second, but it is aggressive and easier to follow.\n\nThe host says before the third round that the battle is closer than expected.\n\nANBU’s third is another layered scheme round. He uses Sword of Damocles, fantasy, morality, alphabet-letter schemes, Jesus/Muhammad/Malala/Shamima Begum, KC Undercover, Anakin, Netanyahu, Stranger Things and William Byers references. It is dense and shows ANBU’s biggest strength: concept-driven writing.\n\nLC’s third is also strong. He switches into Mortal Kombat-style imagery with Shang Tsung and Liu Kang, extra lives, Plan B, online apology, academy severing heads, BTEC lines, Epstein-style accusation material, Solo Leveling and tournament imagery. It is a good closer and keeps the battle debatable, but ANBU’s third has more writing depth.\n\nThe transcript ends without an official winner. The host says it was a cold battle, promotes PenGame/Box Park, and moves on to the next clash.\n\nOfficial result: **No official winner called**.",
     "performanceAnalysis": [
       {
@@ -88315,9 +96009,10 @@ export const pengameBattles: Battle[] = [
         "explanation": "A final victory claim."
       }
     ],
+    "postBattleContext": "The host calls it a cold dungeon battle but does not announce a winner. The introduction says the audience are the judges, and the outro promotes the March 29 Champions League event before moving to the next clash. The archive therefore records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: ANBU SENSEI 2-1 LC. Suggested round split: Round 1: ANBU SENSEI, Round 2: LC / debatable, Round 3: ANBU SENSEI. Reason: LC brings strong aggression and makes the second debatable, but ANBU’s first and third are more layered, better themed and more technically ambitious. Archive Grades - ANBU SENSEI: A-, LC: B+. Final Note: This is a strong dungeon battle. LC’s pressure makes it close, but ANBU’s writing density and themed rounds give him the archive edge."
+      "verdict": "ANBU SENSEI wins 2-1 (LOTA Result)",
+      "summary": "ANBU SENSEI takes round one through the stronger background-check framing, prebuttals and layered GTA, Avatar, Exodia and Dragon Ball writing. LC edges the close second with more direct Kennedy, Tekken, Bambi, Kung Fu, Madara and Shinji Kagawa pressure while ANBU's mythology and Vikings material is repeatedly interrupted. ANBU wins the third through the denser Sword of Damocles, alphabet, religious, political and Stranger Things construction, giving him the battle 2-1."
     }
   },
   {
@@ -88335,7 +96030,8 @@ export const pengameBattles: Battle[] = [
     "customEp": "26x06",
     "seasonOrder": 6,
     "winner": "marcel",
-    "statusNote": "No Official Decision - LOTA Result",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
     "clashSummary": "MARCEL vs KHAOS took place on **PenGame Rap Battle 2026** in the dungeon. This is a main PenGame battle, not an Academy clash. The host promotes the upcoming PenGame Champions League at Box Park and reminds viewers that comments/viewers are now central to deciding who wins.\n\nMARCEL goes first.\n\nMARCEL opens by saying KHAOS is washed and that getting him straight after ZEN feels like an instant loss. He attacks KHAOS for having no views, followers or traction, then contrasts that with his own videos being posted by Sidemen. He works through “all talk, no action,” height, chain reaction, face wash, Nigeria/Lagos, monthly listeners and speech-impediment angles. It is a strong opener because it is direct, varied and tailored.\n\nKHAOS responds with aggression. He attacks MARCEL as a dancing monkey, says he is King Kong, brings Wingstop, wristwatch, metal/melanin, baptism, severance package, Anakin, Hocus Pocus, short-man syndrome, lisp and cereal references. It is a solid first, but MARCEL’s opener feels more controlled and better aimed.\n\nMARCEL’s second is built around KHAOS’s real-name angle and combat-sports references. He calls him Jake/Jade Davis, then works through Andrew Tate, Mike Tyson, Logan Paul, KSI, Cassius Clay, David Haye, Jon Jones, Stone Cold, UFC and WWE imagery. It is his most structured round and likely the clearest round of the battle.\n\nKHAOS’s second is more direct but less clean. He calls MARCEL “Marshall,” attacks his size, height, music, sexuality, girls and status. He uses barbell, nutshell, child-ticket and elf-on-the-shelf material. It has aggression, but it relies more on crude insult than layered writing.\n\nMARCEL’s third keeps the battle strong. He brings hammer/Thor imagery, West/football shooting references, Plan B and Ill Manors, 13 Reasons Why/Hannah, Bruce Manor, Dan Dannah, Edward Scissorhands, Tupac, gulag, D-Block, Ed Matthews, detergent, washing-machine/dryer imagery, Formula One and GZone references. The round has a lot of schemes and shows variety.\n\nKHAOS’s third is his best round. He attacks MARCEL’s height, threat level, music, performance, lisp and image. He uses Attack on Titan, kingpin/linchpin, Quidditch, violent midget, cricket/wicket, magician, Mickey/Minnie and Seven Dwarfs references. It is cleaner than his second and makes the battle closer.\n\nThe host does not announce a winner. He tells viewers to like, share, comment, subscribe and say who they think won.\n\nOfficial result: **No official winner called**.",
     "performanceAnalysis": [
       {
@@ -88779,9 +96475,10 @@ export const pengameBattles: Battle[] = [
         "explanation": "Height/fairy-tale punch."
       }
     ],
+    "postBattleContext": "The host does not announce a winner. He asks viewers to comment with who they think won, then promotes the upcoming Boxpark event and moves to the next clash. The archive therefore records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: MARCEL 2-1 KHAOS. Suggested round split: Round 1: MARCEL, Round 2: MARCEL, Round 3: KHAOS / debatable. Reason: MARCEL has the cleaner first two rounds and more tailored angles. KHAOS finishes stronger in the third, but not enough to overturn MARCEL’s lead. Archive Grades - MARCEL: B+, KHAOS: B. Final Note: MARCEL wins the archive lean through cleaner structure and better opponent-specific writing. KHAOS has presence and a strong third, but MARCEL’s first two rounds are more complete."
+      "verdict": "MARCEL wins 2-1 (LOTA Result)",
+      "summary": "MARCEL takes round one through the clearer washed-up, traction, Sidemen, chain-reaction, Lagos and monthly-listener writing, then wins round two with the focused Jake Davis and combat-sports scheme spanning Andrew Tate, Mike Tyson, Logan Paul, KSI, Cassius Clay, David Haye, Jon Jones and WWE. KHAOS earns round three through his cleaner Attack on Titan, kingpin, Quidditch, short-man, cricket, magician, Mickey and Seven Dwarfs run."
     }
   },
   {
@@ -88799,7 +96496,8 @@ export const pengameBattles: Battle[] = [
     "customEp": "26x07",
     "seasonOrder": 7,
     "winner": "storm",
-    "statusNote": "No Official Decision - LOTA Result",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
     "clashSummary": "RELAPSE vs STORM took place on **PenGame Rap Battle 2026** in the dungeon. This is a main PenGame adult battle, not an Academy clash. The host promotes the upcoming PenGame Champions League at Box Park and reminds viewers that the new format is built around audience judging.\n\nRELAPSE goes first.\n\nRELAPSE opens with a disrespect-heavy first round. He attacks STORM’s nose, weed references, look, living situation, family, women, previous losses and platform credibility. He uses Master Splinter, jet lag, step-dad, Thailand, Torquay, Grindr, rainbow and drug angles. The round has energy and several personal attacks, but some of the writing is broad and crude.\n\nSTORM responds with a harder first. He attacks RELAPSE’s weight, hygiene, drug image, family, father, addiction, food, mother, and previous issues. He brings This Is England, whip-crash, JFK, Chandler Bing, Samwise/Lord of the Rings and military/guillotine imagery. The round is messy in transcription, but the aggression and density make it competitive.\n\nRELAPSE’s second is a clearer round. He starts with the “Wetherspoons pub fight” energy, then attacks STORM’s nose, Cheezy battle, alleged flopping, Ambu Sensei, weather-service wordplay, neglect, body, hygiene and girlfriend angles. The weather-service angle is one of his better sections because it plays directly on STORM’s name.\n\nSTORM’s second is the strongest round of the battle. He builds around RELAPSE’s real name, village background, family, Quidditch, Red Dead 2, Puss in Boots, incest/family angle, Hills Have Eyes, Chucky, Jay Slater, OnlyFans, GZone and Predator references. It is more direct, more personal and more memorable than RELAPSE’s second.\n\nRELAPSE’s third keeps the disrespect going. He attacks STORM’s ear piercing, sexuality, nose, women, family, hygiene, disease, family-attraction angle, wife, Pinocchio and pantomime imagery. It is nasty and consistent, but it does not change the battle dramatically.\n\nSTORM’s third closes stronger. He starts with a rebuttal about RELAPSE’s previous lines and contradictions, then attacks his weight, drug image, money, food, mother, race/postcode angle, father/family situation, body, spinach/Popeye, optician and gym/weight-loss material. It is aggressive and has more rebuttal value than RELAPSE’s third.\n\nNo official winner is announced. The outro appears to mislabel the battle as “Chaos and Marcel,” so the archive should treat this as **No Official Decision** unless PenGame later confirms a result.\n\nOfficial result: **No official winner called**.",
     "performanceAnalysis": [
       {
@@ -89147,9 +96845,10 @@ export const pengameBattles: Battle[] = [
         "explanation": "A final body/fitness angle."
       }
     ],
+    "postBattleContext": "No winner is announced. The event introduction says the audience are the judges, while the closing audio incorrectly names KHAOS and MARCEL before spilling into repeated material from another battle. The archive therefore relies on the preserved three rounds and records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: STORM 2-1 RELAPSE. Suggested round split: Round 1: RELAPSE / debatable, Round 2: STORM, Round 3: STORM. Reason: RELAPSE starts well and has strong weather/name flips, but STORM’s second and third are more personal, more aggressive and more memorable. Archive Grades - STORM: B+, RELAPSE: B. Final Note: RELAPSE has clean name flips and good insult pressure, but STORM takes the archive edge by landing heavier in the second and closing stronger in the third."
+      "verdict": "STORM wins 2-1 (LOTA Result)",
+      "summary": "RELAPSE edges round one through the clearer Master Splinter, jet-lag, step-dad, Thailand, Torquay and Grindr pressure. STORM takes round two with the stronger village, Quidditch, Red Dead 2, Puss in Boots, Hills Have Eyes, Chucky, Jay Slater and GZone construction. STORM wins round three through his rebuttal opening and the heavier weight, money, postcode, family, Popeye, optician and gym sequence."
     }
   },
   {
@@ -89158,8 +96857,8 @@ export const pengameBattles: Battle[] = [
     "mc1": "sevz",
     "mc2": "domi-dusk",
     "title": "SEVZ vs DOMI DUSK",
-    "videoUrl": "https://www.youtube.com/watch?v=BqsyGeHdZlE",
-    "views": "61k",
+    "videoUrl": "https://www.youtube.com/watch?v=gxVlAMBofgs",
+    "views": "62k",
     "theme": "pengame",
     "season": "2026",
     "competition": "PenGame",
@@ -89167,7 +96866,8 @@ export const pengameBattles: Battle[] = [
     "customEp": "26x08",
     "seasonOrder": 8,
     "winner": "sevz",
-    "statusNote": "No Official Decision - LOTA Result",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
     "clashSummary": "SEVZ vs DOMI DUSK took place on **PenGame Rap Battle 2026** in the dungeon. This is a main PenGame adult battle, not Academy. The host promotes the upcoming PenGame Champions League at Box Park and reminds viewers that the comments are part of deciding results.\n\nSEVZ wins the coin toss and chooses for DOMI DUSK to go first.\n\nDOMI opens by attacking SEVZ’s age, image, maturity and status. He says he does not feel good clashing someone young, says SEVZ still has his umbilical cord attached, and brings Anakin’s son, red line/parking ticket, movie-star/Ariana Grande material, fruit shoot/melanin, Ghana, Klarna, shawarma and Congolese rainforest imagery. It is a creative first round, but some of the writing feels scattered.\n\nSEVZ replies with a much sharper opener. He asks what the difference is between Domi and guns, then explains they can both be dismantled and both involve looking down the barrel. He attacks DOMI as a low-level MC, says he is stuck in place like superglue, calls him 0.5 and says nobody would team with him in a 2v2. He also uses Jumanji, Humpty Dumpty, “most whack” repetition, and says Dusk has never dawned on him. The host reacts strongly and calls the verse clean.\n\nDOMI’s second has more aggression. He attacks SEVZ’s badman image, says he is from Teemu, uses beef stew/beetroot, fake-dick slap angle, Lomachenko, bento, extendo, Red Bull, Dark Knight and mental-health/meningitis imagery. There are some good punches, but the round still lacks the clean structure of SEVZ’s reply.\n\nSEVZ’s second is one of the strongest rounds in the battle. He attacks DOMI’s delivery, appearance, ability and music using Caesar, Avatar, Nesquik, Lukaku from Wish, and then runs a keyboard scheme: delete, escape, mouse, clicking and waste of space. He then lands the Domi Dusk / charcoal / yin-yang / barcode angle, which gets a big reaction even though he has to restart the section. It is the clearest angle of the battle.\n\nDOMI’s third starts with “you made a mistake battling me,” then brings grave/YouTube imagery, the 5K/Smiles line, Glock 19/gunfight, dead by dusk/sunrise, Pinky, resurrection, lecture, inspector, nectar, Vecna and Skepta references. However, he stumbles during the “one, two, three, four, five…” sequence and has to restart. The round has ideas but loses momentum.\n\nSEVZ closes with a controlled third. He references losing the last tournament, says he was going through hell, then attacks DOMI’s gym image, lack of bar impact, Peter Pan/lost boy, flat-earth logic, plastic toy/black banana, Steamrolled, and says DOMI’s direct sponsor attempt is poor. It is a composed closer and confirms the archive edge.\n\nThe host does not announce a winner. He tells viewers to get in the comments and say who they think won.\n\nOfficial result: **No official winner called**.",
     "performanceAnalysis": [
       {
@@ -89635,9 +97335,10 @@ export const pengameBattles: Battle[] = [
         "explanation": "A sponsor/status punch."
       }
     ],
+    "postBattleContext": "SEVZ wins the coin toss and elects for DOMI DUSK to begin, but no battle winner is announced. The host closes by asking viewers to comment with who they think won. The archive therefore records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: SEVZ 3-0 DOMI DUSK. Suggested round split: Round 1: SEVZ, Round 2: SEVZ, Round 3: SEVZ. Reason: DOMI has moments in each round, but SEVZ is cleaner, more structured and more direct throughout. The keyboard scheme and the charcoal/yin-yang/barcode section are the strongest parts of the battle. Archive Grades - SEVZ: A-, DOMI DUSK: B-. Final Note: DOMI DUSK brings creativity and aggression, but SEVZ controls the clash with cleaner writing, stronger concepts and better round structure. Archive result: SEVZ 3-0."
+      "verdict": "SEVZ wins 3-0 (LOTA Result)",
+      "summary": "SEVZ wins round one through the clearer guns comparison, dismantling and barrel construction, superglue, 0.5, Jumanji, Humpty Dumpty and Dusk / dawn writing. He takes round two with the battle’s standout Caesar, Avatar, Nesquik, Lukaku, keyboard and charcoal / yin-yang / barcode material. He completes the sweep in round three through the more controlled tournament, Stranger Things, alarm, Peter Pan, flat-earth, black-banana and steamrolled sequence while DOMI’s third loses momentum during its restart."
     }
   },
   {
@@ -89655,7 +97356,8 @@ export const pengameBattles: Battle[] = [
     "customEp": "26x09",
     "seasonOrder": 9,
     "winner": "zoellz",
-    "statusNote": "No Official Decision - LOTA Result",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
     "clashSummary": "ZOELLZ vs POCAA took place on **PenGame Rap Battle 2026** in the dungeon. This is a main PenGame battle, not an Academy clash. The host promotes the upcoming PenGame Champions League at Box Park and explains the new viewer-judged format.\n\nPOCAA wins the coin toss and chooses to go first.\n\nPOCAA opens with a heavy gender/masculinity angle against ZOELLZ. She uses sexual shock material, questions ZOELLZ’s femininity, brings Adam’s apple, Robert/Rob name flips, and tries to frame ZOELLZ as masculine. The material is aggressive, but the round is short and relies heavily on one angle.\n\nZOELLZ responds with a much more complete first round. She attacks POCAA’s image, voice, outfit, music videos, sex appeal, Carnival appearance, Instagram presentation, fake friends and body image. She also uses “yardie aunty” and lace-front material to make POCAA look less polished. ZOELLZ’s first is more structured and clearly wins the opener.\n\nPOCAA’s second is looser. She talks about charging a higher fee, one-on-one fighting, Daniel Son, Redrum, Pinky and the Brain, being from the gutter, and being outside now she is single. There are moments of attitude, but the verse feels scattered and does not build a clear case.\n\nZOELLZ’s second is the clearest round of the battle. She asks why PenGame has her clashing with POCAA, attacks POCAA’s deep voice, memory, simple bars, Rap Game history, BBC appearance, and says POCAA only made the finals because producers lost half the cast. She also flips POCAA’s sexualised image by saying sex sells, but not for everyone. It is direct, personal and crowd-effective.\n\nPOCAA’s third again leans into gender and sexuality shock lines. The room reacts and the verse gets repeatedly reloaded, but the performance becomes stop-start and messy. There are NDA references and more gender/femme/masculine attacks, but the round never fully locks in.\n\nZOELLZ closes more calmly and cleanly. She says she is too blessed to be stressed, says there is no comparison between them, calls out POCAA’s attitude and body image, says she is up next, and finishes by telling the DJ to cut the mic. It is not her hardest round, but it is controlled and stronger than POCAA’s third.\n\nThe host does not call a winner. He says the masculine/femme talk is dead and moves on to the next battle.\n\nOfficial result: **No official winner called**.",
     "performanceAnalysis": [
       {
@@ -89961,9 +97663,10 @@ export const pengameBattles: Battle[] = [
         "explanation": "POCAA hints that there is more information she cannot discuss because of an NDA. This is battle material and should not be treated as proven fact."
       }
     ],
+    "postBattleContext": "POCAA wins the coin toss and chooses to begin, but no battle winner is announced. After the final, the host asks the battlers to shake hands, shuts down the masculine-versus-feminine argument and moves directly to ANBU SENSEI vs LC. The archive therefore records an explicitly labelled independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: ZOELLZ 3-0 POCAA. Suggested round split: Round 1: ZOELLZ, Round 2: ZOELLZ, Round 3: ZOELLZ. Reason: POCAA gets reactions with shock-value gender/sexuality material, but ZOELLZ has cleaner rounds, stronger structure and better battle control. Archive Grades - ZOELLZ: B+, POCAA: C. Final Note: ZOELLZ wins the archive lean clearly. POCAA brings energy and controversy, but the writing is too narrow and the third round becomes too stop-start. ZOELLZ stays composed and controls the battle."
+      "verdict": "ZOELLZ wins 3-0 (LOTA Result)",
+      "summary": "ZOELLZ takes round one through the more complete voice, outfit, Carnival, Instagram, friend-group, yardie-aunty and lace-front pressure. She wins round two decisively with the stronger deep-voice, memory, simple-bars, Rap Game, BBC, missing-cast and sex-sells construction. She completes the sweep in round three through greater composure and the cleaner blessed, up-next, attitude, body-image and cut-the-mic close while POCAA’s repeated gender angle becomes stop-start."
     }
   },
   {
@@ -89981,419 +97684,88 @@ export const pengameBattles: Battle[] = [
     "customEp": "26x10",
     "seasonOrder": 10,
     "winner": "star-co",
-    "statusNote": "No Official Decision - LOTA Result",
-    "clashSummary": "ALIAANO vs STAR CO took place on **PenGame Rap Battle 2026** in the dungeon. This is a main PenGame adult battle, not an Academy clash. The host promotes the upcoming PenGame Champions League at Box Park and reminds viewers that comments/viewers are part of judging the new format.\n\nSTAR CO wins the coin toss and puts ALIAANO first.\n\nALIAANO opens with a high-energy first round. He attacks STAR CO’s name, saying he is not really a star and just wears a glitz hat. He uses Double A / AK / AR imagery, graveyard and cemetery imagery, a pandemic/funeral setup, shark/bark/talk wordplay, Teemu/Emu insults, and then brings a cousin/family angle. He also positions himself as the more dangerous and more versatile performer.\n\nSTAR CO replies with a much more direct and structured opener. He attacks ALIAANO’s appearance, breath, body, family, style and originality. The strongest part of STAR CO’s opener is the plagiarism/style-copying angle. He says ALIAANO copied his whole style, used other people’s flows without homage, and even borrowed from SKAMZ. He then attacks ALIAANO as a PenGame puppet, Pinocchio, Bikini Bottom/starfish, and says STAR CO is the sun while ALIAANO cannot shine. This is the strongest round in the battle.\n\nThe transcript then becomes messy around round two. The next clear full verse appears to be STAR CO continuing with another round attacking ALIAANO’s weight, skinny frame, Rango appearance, cousin/family angle, hygiene and credibility. Because ALIAANO’s second is not clearly preserved as a separate clean round in the transcript, the archive result should carry a caveat.\n\nALIAANO’s third is his best visible round. He says that in his previous third he did something for his culture, and this time he is doing something for STAR CO’s culture. He brings soca/culture energy, COVID/cold/frozen wordplay, co-star/Morgan references, New Year/prosperity, crossbar/Kings Cross, Godfather, Lesnar, boxer, doctor and fake-star material. This round gives ALIAANO his strongest case.\n\nSTAR CO closes with a strong third. He uses underworld/Hades imagery, soul-snatch material, Spartan Chief, Drizzy/Reezy, soca flips, bread/yeast effect, Babybel, Tesco cheese section, Wallace/crackhead imagery, Liam Payne/One Direction, Idris Elba/Smith & Wesson and heavy shock-value material. The cheese/Babybel section gets strong reaction and gives him a memorable close.\n\nNo official winner is announced. The host tells viewers to get in the comments and say who they think won.\n\nOfficial result: **No official winner called**.",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "host": "Margs (Andre Wright)",
+    "clashSummary": "ALIAANO and STAR CO met in the PenGame dungeon before the Champions League launch. STAR CO won the toss and sent ALIAANO first. Margs ends the upload by asking viewers to comment with their winner, but no tally or declared result is preserved. The result below is therefore an independent LOTA review.\n\nALIAANO's first was restarted after sound trouble. He denied STAR CO's star status, then turned Double A into AK and AR weapon imagery, a graveyard, an opened cemetery and a pandemic funeral. Attacking from any angle explained his name. A shark reduced STAR CO's bite to bark and his bark to talk. Temu, Emu, copycat and duppy sounds followed before family allegations, directional threats and H-STAR material. The energy is strong, but several connections are loose.\n\nSTAR CO's first attacked ALIAANO's frame, breath and family before calling him a PenGame puppet controlled by strings and extending that into Pinocchio. After initially calling time, he asked to present evidence and delivered the battle's decisive angle: ALIAANO copied his style word for word, borrowed SKAMZ's flow and paid no homage. Nuclear power, the sun outshining a star and sonning his opponent developed the response. A football edge-of-the-box and crowd-shouting-shoot sequence led into Bikini Bottom and starfish. STAR CO clearly takes the first.\n\nNo ALIAANO second appears in the preserved upload. Margs announces round two and immediately gives STAR CO the floor. The archive records the second as uncontested within the available source rather than inventing missing material.\n\nSTAR CO's second used a spinning bus and its wheels for a drive-by that left ALIAANO face-down in mud. Malnourishment and crumbs preceded a partner allegation. Bag of bones, Rango, a narrow waist and arrow-like legs sustained the appearance angle. Heat became Tabasco, then ALIAANO was so skinny he could be used as a lasso. The games section resolved into Crash Bandicoot. STAR CO restarted most of the verse once but completed the full uncontested round.\n\nALIAANO's third was his strongest visible round. He said his previous final represented his culture and this one would address STAR CO's. STAR CO thought he was sick until ALIAANO brought a potion; the cold in COVID became colder and a Frozen flow. ALIAANO called himself a real soldier and star while STAR CO was a poser and impostor. Star, co-star and Morgan developed the name angle. New Year prosperity became a year that would not prosper. An open goal, crossbar, getting cross and King's Cross created the central sequence. Godfather, Brock Lesnar, boxing and writing like a doctor closed the verse.\n\nSTAR CO's third answered with the underworld, Hades, a three-headed dog, soul-snatching, titans and Spartan imagery. He accused ALIAANO of begging DRIZZGB and REEZY before switching flow for relevance. Soca became soaking a chest and packing a soul. The round's biggest reaction came when bread became money, rising through yeast, infections became cheese, Babybel led into Tesco's cheese section and Wallace continued the reference. Liam Payne and One Direction, then Idris Elba and Smith & Wesson, extended the close.\n\nLOTA scores STAR CO 3-0. He wins the first through the copied-style, SKAMZ-flow, puppet, Pinocchio, sun and Bikini Bottom writing; takes the second uncontested because no ALIAANO response is preserved; and wins the third through the fuller Hades, soul-snatch, bread, yeast, Babybel, Tesco, Wallace, One Direction and Idris Elba construction.",
     "performanceAnalysis": [
       {
-        "performer": "STAR CO",
-        "overview": "STAR CO has the stronger visible battle because his material is more direct and more damaging.\n\nHis first round is the clearest round of the battle. The style-copying angle gives him a real case against ALIAANO. He does not just insult; he gives a reason why ALIAANO should not be rated. The “copied my whole style” section is the most important angle of the clash.\n\nHis visible second continues the pressure. The Rango, lasso, Crash Bandicoot, family and skinny-body angles are aggressive and easy to follow.\n\nHis third is more reference-heavy and chaotic, but it still lands. The Babybel/Tesco cheese section is one of the biggest crowd moments.\n\nSTAR CO’s biggest strength is opponent-specific angle writing. He attacks ALIAANO’s style, originality and credibility.",
-        "lyricalThemes": "Style-copying, SKAMZ flow, no homage, PenGame puppet, Pinocchio, sun/star flips, Bikini Bottom, starfish, breath, family/cousin angle, Rango, lasso, Crash Bandicoot, Hades, underworld, soul-snatch, Spartan Chief, soca flip, yeast effect, Babybel, Tesco cheese, One Direction, Idris Elba, fake-star angle.",
+        "performer": "ALIAANO",
+        "overview": "ALIAANO loses the LOTA review 3-0. His energetic first has clear star, Double A and shark pockets but is less structured than STAR CO's reply. No second is preserved. His third is his strongest round through culture, COVID, Frozen, co-star, prosperity, King's Cross, Godfather and Lesnar references, but STAR CO's response is fuller.",
+        "lyricalThemes": "Stars and glitz hats; Double A, AK and AR; graveyards, pandemics and funerals; angles; sharks, bites, barks and talk; Temu and Emu; ninjas and duppies; culture and soca; sickness, potions, COVID and Frozen; soldiers, posers and impostors; co-stars and Morgan; prosperity; crossbars and King's Cross; Godfather, Lesnar, boxing and doctors.",
         "keyTechnicalHighlights": [
-          {
-            "title": "Best round",
-            "description": "Round one."
-          },
-          {
-            "title": "Strongest trait",
-            "description": "Direct angle writing."
-          },
-          {
-            "title": "Best angle",
-            "description": "ALIAANO copied styles/flows and did not pay homage."
-          },
-          {
-            "title": "Best technical section",
-            "description": "Copying style / SKAMZ flow / PenGame puppet / Pinocchio sequence."
-          },
-          {
-            "title": "Battle factor",
-            "description": "Stronger visible case and more damaging material."
-          }
+          {"title": "Double A angles", "description": "Double A becomes AK and AR weapon imagery before explaining that ALIAANO can attack from any angle."},
+          {"title": "COVID and Frozen", "description": "Sickness, a potion, cold inside COVID and a Frozen flow sustain the final's opening."},
+          {"title": "King's Cross run", "description": "An open goal, crossbar, getting cross and King's Cross connect football, emotion and place."}
         ]
       },
       {
-        "performer": "ALIAANO",
-        "overview": "ALIAANO has strong energy and a better third than opener, but the transcript does not clearly preserve all of his material.\n\nHis first round has moments. The Double A / AK / AR angle, cemetery/pandemic/funeral scheme and shark/bark/talk section are strong ideas. However, the round feels slightly scattered.\n\nHis third is his strongest visible round. The culture/soca framing gives it a clear purpose, and the co-star/Morgan, crossbar/Kings Cross, Godfather, Lesnar and fake-star angles work well.\n\nALIAANO’s biggest strength is performance energy and rhythm. His weakness here is that STAR CO’s direct copying/originality angle is more damaging.",
-        "lyricalThemes": "Double A, AK/AR, cemetery, pandemic, funeral stage, shark/bark/talk, Teemu/Emu, copy ninja, H-Star/play-star, gallim jump/whine, culture round, soca, COVID/cold/frozen, co-star/Morgan, prosperity, crossbar/Kings Cross, Godfather, Lesnar, boxer/doctor, fake stars.",
+        "performer": "STAR CO",
+        "overview": "STAR CO wins the LOTA review 3-0. His copied-style and SKAMZ-flow case is the battle's strongest strategic angle. He completes the second without a preserved response, then closes with the deepest reference chain and biggest crowd reaction through bread, yeast and cheese. Reloads lengthen his rounds, but his directness and completed material control the battle.",
+        "lyricalThemes": "Thin frames, breath and families; PenGame puppets, strings and Pinocchio; copied styles, SKAMZ and homage; nuclear power; stars, the sun and sonning; football and rockets; Bikini Bottom and starfish; buses, drive-bys, Rango, arrows, Tabasco, lassos and Crash Bandicoot; the underworld, Hades, souls, titans and Spartans; DRIZZGB and REEZY; soca; bread, yeast, Babybel, Tesco and Wallace; Liam Payne, One Direction, Idris Elba and Smith & Wesson.",
         "keyTechnicalHighlights": [
-          {
-            "title": "Best round",
-            "description": "Round third."
-          },
-          {
-            "title": "Strongest trait",
-            "description": "Energy and cultural rhythm."
-          },
-          {
-            "title": "Best angle",
-            "description": "STAR CO is not really a star."
-          },
-          {
-            "title": "Best technical section",
-            "description": "Culture / soca / co-star / Kings Cross / Godfather run."
-          },
-          {
-            "title": "Battle factor",
-            "description": "Strong close, but not enough to overturn STAR CO’s earlier lead."
-          }
+          {"title": "Copied-style evidence", "description": "A credibility case is built around copied delivery, SKAMZ's flow and failure to pay homage."},
+          {"title": "Sun and star", "description": "New and nuclear lead into the sun outshining a star and STAR CO sonning his opponent."},
+          {"title": "Bread and cheese", "description": "Bread, yeast, infections, Babybel, Tesco, Wallace, Liam Payne and One Direction create the final's reaction chain."}
         ]
       }
     ],
     "notableBars": [
-      {
-        "performer": "ALIAANO",
-        "theme": "Status",
-        "bar": "He ain’t no star, he just wear a glitz hat.",
-        "explanation": "A direct name/status attack."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Imagery",
-        "bar": "Double A with the AK and the AR.",
-        "explanation": "ALIAANO uses his name as a weapon setup."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Imagery",
-        "bar": "Leave him in the graveyard.",
-        "explanation": "A death/funeral punch."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Imagery",
-        "bar": "Open up the whole cemetery and call that shit the pandemic.",
-        "explanation": "A cemetery/pandemic escalation."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Imagery",
-        "bar": "Everybody get a one-day pass.",
-        "explanation": "A funeral/audience image."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Wordplay",
-        "bar": "I can kill this pussy from any angle — why you think they call me Double A?",
-        "explanation": "A strong name/angle flip."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Imagery",
-        "bar": "You ain’t got wave, you’re fish, I’m a shark.",
-        "explanation": "Predator/prey punch."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Wordplay",
-        "bar": "Your bite’s not bite to me, it’s just bark.",
-        "explanation": "Bite/bark wordplay."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Insult",
-        "bar": "You sound like a nigga from Teemu.",
-        "explanation": "Budget-version insult."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Appearance",
-        "bar": "You look like a mix with Emu.",
-        "explanation": "Appearance/comparison punch."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Status",
-        "bar": "You can’t match me, ain’t got big tunes.",
-        "explanation": "Music/status attack."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Status",
-        "bar": "Someone choosing an artist line-up, trust me, they wouldn’t pick you.",
-        "explanation": "Line-up/status punch."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Reference",
-        "bar": "I’m a copy ninja.",
-        "explanation": "Naruto/copy-style reference."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Status",
-        "bar": "I made the gallim jump and whine, you make the gallim run and hide.",
-        "explanation": "Performance/social-status contrast."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Concept",
-        "bar": "This one straight for the culture.",
-        "explanation": "Third-round culture setup."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Wordplay",
-        "bar": "The cold that you put in COVID, I’m colder.",
-        "explanation": "Cold/COVID wordplay."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Reference",
-        "bar": "Flow like Frozen.",
-        "explanation": "Continues the cold/frozen scheme."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Status",
-        "bar": "I’m a real star, you’re a real imposter.",
-        "explanation": "Direct star/status contrast."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Wordplay",
-        "bar": "Fuck Star, cause he’s no star. I’m a co-star.",
-        "explanation": "Name/co-star wordplay."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Wordplay",
-        "bar": "Happy New Year, prosperities — but today ain’t your prosper.",
-        "explanation": "Prosperity/prosper wordplay."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Wordplay",
-        "bar": "You don’t wanna see me get cross.",
-        "explanation": "Cross/crossbar setup."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Wordplay",
-        "bar": "You don’t wanna see the King Cross.",
-        "explanation": "Kings Cross wordplay."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Status",
-        "bar": "Me bossy just like me godfather.",
-        "explanation": "Godfather/status line."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Reference",
-        "bar": "Rock man up like Lesnar.",
-        "explanation": "Brock Lesnar reference."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Wordplay",
-        "bar": "They don’t understand me, I write like a doctor.",
-        "explanation": "Doctor/handwriting punch."
-      },
-      {
-        "performer": "ALIAANO",
-        "theme": "Status",
-        "bar": "Rest in piss to all the fake stars.",
-        "explanation": "Final fake-star dismissal."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Insult",
-        "bar": "Wah wah Kermit.",
-        "explanation": "A mocking opener."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Reference",
-        "bar": "Morgz again with these deformed guys.",
-        "explanation": "A visual/platform insult."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Appearance",
-        "bar": "You’re so skinny.",
-        "explanation": "Central body-angle setup."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Insult",
-        "bar": "Your breath would have the whole crowd laid out.",
-        "explanation": "Hygiene/breath punch."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Status",
-        "bar": "You’re the PenGame puppet.",
-        "explanation": "A strong control/status attack."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Imagery",
-        "bar": "They pull out the strings.",
-        "explanation": "Continues the puppet angle."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Reference",
-        "bar": "Pinocchio popping on when it with me.",
-        "explanation": "Pinocchio/puppet continuation."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Angle",
-        "bar": "He copied my whole style, word for word, bar for bar.",
-        "explanation": "The main accusation angle."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Angle",
-        "bar": "He still flows from man like SKAMZ.",
-        "explanation": "A direct style-biting claim. Battle material."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Angle",
-        "bar": "Use the next man flow and ain’t pay no homage.",
-        "explanation": "A strong originality critique."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Critique",
-        "bar": "We don’t rate that in rap.",
-        "explanation": "The judgement on the style-copying angle."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Wordplay",
-        "bar": "You’re new here, I’m nuclear.",
-        "explanation": "New/nuclear wordplay."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Wordplay",
-        "bar": "You can’t shine when the motherfucking sun’s here.",
-        "explanation": "Sun/star name flip."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Wordplay",
-        "bar": "You want to be the star? I’m the sun, I’m a son him.",
-        "explanation": "Star/sun/son wordplay."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Imagery",
-        "bar": "I’m posted at the edge of the box, when the crowd says shoot they know it’s a rocket.",
-        "explanation": "Football/shooting/rocket punch."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Appearance",
-        "bar": "You look like a fish from Bikini Bottom.",
-        "explanation": "SpongeBob/appearance punch."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Wordplay",
-        "bar": "Star Collective is you when you starfish.",
-        "explanation": "Star/starfish wordplay."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Performance",
-        "bar": "I caught the mic and start bopping.",
-        "explanation": "Performance/status line."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Angle",
-        "bar": "You call next man sexy, grabbing their neck, then try to say it’s your cousin.",
-        "explanation": "Family/cousin angle. Battle material."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Angle",
-        "bar": "What made you wanna grip on next man’s neck while calling him sexy?",
-        "explanation": "A direct challenge to the cousin/family angle."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Appearance",
-        "bar": "Lizard face, you look like Rango.",
-        "explanation": "Film/appearance punch."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Appearance",
-        "bar": "This boy here so skinny I could use him as a lasso.",
-        "explanation": "Skinny/body punch."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Reference",
-        "bar": "Crash Bandicoot.",
-        "explanation": "Gaming reference."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Imagery",
-        "bar": "Aliano sent to the underworld.",
-        "explanation": "Underworld/Hades setup."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Reference",
-        "bar": "Hades on my fate and fume.",
-        "explanation": "Greek mythology reference."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Imagery",
-        "bar": "Soul-snatch separation doom.",
-        "explanation": "Spiritual/death image."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Wordplay",
-        "bar": "My bread keeps rising, that’s the yeast effect.",
-        "explanation": "Bread/yeast wordplay."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Concept",
-        "bar": "I shall call this nigga a Babybel.",
-        "explanation": "Cheese scheme opener."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Concept",
-        "bar": "Smell like a Tesco cheesy section.",
-        "explanation": "Continues the cheese scheme."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Reference",
-        "bar": "Wallace crackhead.",
-        "explanation": "Wallace and Gromit / cheese reference."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Wordplay",
-        "bar": "Like Liam Payne, I’m flinging One Direction.",
-        "explanation": "One Direction/Liam Payne wordplay."
-      },
-      {
-        "performer": "STAR CO",
-        "theme": "Reference",
-        "bar": "Idris Elba with a Smith & Wesson.",
-        "explanation": "Actor/weapon reference."
-      }
+      {"performer":"ALIAANO","theme":"Round 1 - Glitz hat","bar":"He ain't no star, he just wears a glitz hat.","explanation":"ALIAANO separates STAR CO's branding from genuine star status."},
+      {"performer":"ALIAANO","theme":"Round 1 - Double A weapons","bar":"Double A with the AK and the AR, leave him in the graveyard.","explanation":"His initials lead into weapon names and burial imagery."},
+      {"performer":"ALIAANO","theme":"Round 1 - Pandemic funeral","bar":"Open the whole cemetery and call that the pandemic - make a funeral from a stage show.","explanation":"A cemetery and funeral turn the battle into a pandemic-scale death event."},
+      {"performer":"ALIAANO","theme":"Round 1 - Any angle","bar":"I kill from any angle - why you think they call me Double A?","explanation":"Double A becomes the initials of any angle."},
+      {"performer":"ALIAANO","theme":"Round 1 - Bite, bark and talk","bar":"I'm a shark; your bite is bark, and your bark is just talk.","explanation":"STAR CO's threat is reduced from a bite to a bark and finally empty speech."},
+      {"performer":"ALIAANO","theme":"Round 1 - Temu and Emu","bar":"You're translucent, sound like a man from Temu and look mixed with Emu.","explanation":"See-through skin, a discount marketplace and the bird create appearance attacks."},
+      {"performer":"ALIAANO","theme":"Round 1 - Copy ninja","bar":"You're a copycat; I'm a copy ninja, a mecha-duppy and an upper ninja.","explanation":"Repeated sounds present ALIAANO as the more advanced threat."},
+      {"performer":"ALIAANO","theme":"Round 1 - Every direction","bar":"Any which way, left, down, right or up - you're dead.","explanation":"Four directions extend his any-angle claim."},
+      {"performer":"ALIAANO","theme":"Round 3 - COVID cold","bar":"You thought you were sick till I came with a potion - the cold in COVID, I'm colder, flow like Frozen.","explanation":"Illness, treatment, cold inside COVID and Frozen form one scheme."},
+      {"performer":"ALIAANO","theme":"Round 3 - Remember when older","bar":"I'm not trying to be your older, but you'll remember this when you're older.","explanation":"Older moves from mentor status to remembering the battle later."},
+      {"performer":"ALIAANO","theme":"Round 3 - Star and impostor","bar":"I'm a real soldier, you're a poser; I'm a real star, you're an impostor.","explanation":"Parallel opposites frame ALIAANO as authentic."},
+      {"performer":"ALIAANO","theme":"Round 3 - Co-star","bar":"STAR CO's no star - I'm a co-star; he's a Morgan, his mum is the co-star.","explanation":"STAR CO's name is split into star and co-star before Morgan extends it."},
+      {"performer":"ALIAANO","theme":"Round 3 - See stars","bar":"Punch him in his face, he's gonna see stars.","explanation":"STAR CO's name becomes the visual effect of being struck."},
+      {"performer":"ALIAANO","theme":"Round 3 - Prosperity","bar":"Happy New Year, prosperity - but this whole year ain't gonna prosper.","explanation":"A greeting becomes a prediction of failure."},
+      {"performer":"ALIAANO","theme":"Round 3 - King's Cross","bar":"Open goal, hit the crossbar - he don't want me to get cross or see the king cross.","explanation":"Crossbar, anger and King's Cross connect sport, emotion and place."},
+      {"performer":"ALIAANO","theme":"Round 3 - Lesnar and boxer","bar":"You're not a wrestler, rock man up like Lesnar; not a fighter, box man up like a boxer.","explanation":"Wrestling and boxing references close the physical argument."},
+      {"performer":"STAR CO","theme":"Round 1 - Waist away","bar":"You're so skinny, fifteen without your waist - I waist that weight out.","explanation":"Waist, waste and weight attack ALIAANO's frame."},
+      {"performer":"STAR CO","theme":"Round 1 - Breath","bar":"What's that in the air? Your breath would have the whole crowd laid out.","explanation":"Bad breath becomes powerful enough to incapacitate the room."},
+      {"performer":"STAR CO","theme":"Round 1 - PenGame puppet","bar":"Margs gave him this battle so he could feel that side of the screen - the PenGame puppet is blatant to see.","explanation":"The booking becomes evidence that ALIAANO is controlled by the platform."},
+      {"performer":"STAR CO","theme":"Round 1 - Pinocchio","bar":"They pull all the strings, you copy, repeat - this Pinocchio's popping out with me.","explanation":"Strings, copying and Pinocchio extend the puppet angle."},
+      {"performer":"STAR CO","theme":"Round 1 - Copied style","bar":"He copied my whole style, word for word, bar for bar.","explanation":"The central credibility accusation says ALIAANO reproduced STAR CO's approach."},
+      {"performer":"STAR CO","theme":"Round 1 - SKAMZ flow","bar":"You steal flow from SKAMZ, use the next man's flow and pay no homage - we don't rate that in rap.","explanation":"A named source and lack of credit make the plagiarism claim specific."},
+      {"performer":"STAR CO","theme":"Round 1 - Nuclear","bar":"You're new here, I'm nuclear; you're not a star here, you haven't gone clear.","explanation":"New expands into nuclear while STAR CO denies his opponent's status."},
+      {"performer":"STAR CO","theme":"Round 1 - Sun and son","bar":"You can't shine when the sun's here - you want to be the star, I'm the sun and I'ma son him.","explanation":"The sun outshines a star while son becomes domination."},
+      {"performer":"STAR CO","theme":"Round 1 - Edge of the box","bar":"Red dot to your head top, everyone's screaming shoot; edge of the box, they know it's a rocket.","explanation":"A weapon sight and rocket meet football fans calling for a shot."},
+      {"performer":"STAR CO","theme":"Round 1 - Bikini Bottom","bar":"PenGame saw you at the bottom - fish from Bikini Bottom, starfish stay at the bottom.","explanation":"League position and SpongeBob's setting keep ALIAANO beneath STAR CO."},
+      {"performer":"STAR CO","theme":"Round 2 - Wheels on the bus","bar":"Spin the bus, wheels go round and round - drive-by, leave your face in the mud.","explanation":"The children's song becomes the movement of a drive-by vehicle."},
+      {"performer":"STAR CO","theme":"Round 2 - Rango and lasso","bar":"Bag of bones, lizard face like Rango - so skinny I could use him as a lasso.","explanation":"The thin animated lizard and narrow rope extend the body comparison."},
+      {"performer":"STAR CO","theme":"Round 2 - Tabasco","bar":"Step with the heat, Tabasco - lift it by man's mango.","explanation":"Hot sauce supplies heat while fruit continues the rhyme."},
+      {"performer":"STAR CO","theme":"Round 2 - Crash Bandicoot","bar":"I bandit you, back the two, crash my lap - Bandicoot.","explanation":"Crash and bandit resolve into the game character."},
+      {"performer":"STAR CO","theme":"Round 3 - Hades","bar":"ALIAANO sent to the underworld - Hades on my face, soul-snatch separation, doom.","explanation":"The underworld and its ruler frame STAR CO taking ALIAANO's soul."},
+      {"performer":"STAR CO","theme":"Round 3 - Yeast and Babybel","bar":"He ain't seen no bread; my bread keeps rising, that's the yeast effect - call him Babybel, smell like Tesco's cheese section.","explanation":"Money, bread, yeast, Babybel and Tesco create the final's biggest reaction scheme."}
     ],
+    "oddMoments": [
+      "ALIAANO's first is stopped almost immediately so the sound can be raised.",
+      "STAR CO calls time, asks to present evidence and continues with the central copied-style angle.",
+      "The room repeatedly interrupts STAR CO to ask why he knows details about other battlers' toes.",
+      "Margs announces round two and sends STAR CO directly; no ALIAANO second appears.",
+      "STAR CO restarts most of his second.",
+      "The upload continues into the opening of STORM vs RELAPSE after the outro."
+    ],
+    "coolMoments": [
+      "ALIAANO's shark, bite, bark and talk reduction gives his first a clear pocket.",
+      "STAR CO's copied-style and SKAMZ-flow accusation turns the first into a credibility case.",
+      "The sun, star and son-him sequence extends STAR CO's name rebuttal.",
+      "ALIAANO's COVID, cold and Frozen section is his final's best writing.",
+      "STAR CO's bread, yeast, Babybel and Tesco sequence produces the biggest reaction."
+    ],
+    "postBattleContext": "Margs asks viewers to comment with who they think won. No count or official winner is announced. Because no ALIAANO second is present, the archive records that source limitation and labels the 3-0 score as an independent LOTA result.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: STAR CO 2-1 ALIAANO, provisional. Suggested visible round split: Round 1: STAR CO, Round 2: STAR CO / transcript caveat, Round 3: Debatable, slight STAR CO edge. Reason: STAR CO has the strongest angle of the battle with the style-copying accusation and lands the clearest crowd moments. ALIAANO’s third is strong and culturally sharper, but the visible material favours STAR CO. Archive Grades - STAR CO: B+, ALIAANO: B. Final Note: STAR CO gets the archive lean through stronger direct angles, especially the copy-style accusation. ALIAANO has a good cultural third, but the transcript is incomplete/unclear around round two, so this should remain a provisional archive judgement."
+      "verdict": "STAR CO wins 3-0 (LOTA Result)",
+      "summary": "STAR CO takes round one through the copied-style, SKAMZ-flow, puppet, Pinocchio, sun and Bikini Bottom writing. He wins round two uncontested because no ALIAANO response is preserved. He takes round three through the fuller Hades, soul-snatch, bread, yeast, Babybel, Tesco, Wallace, One Direction and Idris Elba construction."
     }
   },
+
   {
     "id": "pg-s2026-penno-vs-jmuni",
     "slug": "penno-vs-jmuni",
@@ -90408,13 +97780,14 @@ export const pengameBattles: Battle[] = [
     "stage": "2026 Battles",
     "customEp": "26x11",
     "seasonOrder": 11,
-    "winner": "penno",
-    "statusNote": "No Official Decision - LOTA Result",
-    "clashSummary": "PENNO vs J MUNI took place on **PenGame Rap Battle 2026** in the dungeon. This is a main PenGame adult battle, not an Academy clash. The host promotes the upcoming PenGame Champions League at Box Park and explains the new viewer-judged format.\n\nJ MUNI wins the coin toss and goes first.\n\nJ MUNI opens by saying the clash is not fair and that PenGame has given him another opponent beneath his level. He attacks PENNO’s relationship, girlfriend, past mentions of J MUNI’s name, Instagram behaviour, status, previous battles and credibility. He says PENNO mentioned him when battling Tricky but also shared his post, framing PENNO as confused and secretly a fan. He also references FENDRY, SKAMZ, LC, Manny, Scarlett and several serious allegation-style lines as battle material. The round is direct and personal.\n\nPENNO responds with a confident first. He attacks J MUNI’s delivery, image, age, face, street presence, Leeds background and ability. He uses boxers/pants, Simon Cowell/Britain’s Got Talent, Leeds/lead, P.E.N.N.O branding, smoke/J Money, green light, safety-off and “10-10” smoke imagery. It is more performance-led and less angle-specific than J MUNI’s opener, but it lands cleanly.\n\nJ MUNI’s second has strong material but is damaged by a stumble. He begins with references to Ish, Ace, Mags, 3-0, Scamz scheme, PENNO’s girl, family information, getting kicked out, weight/fridge angles and previous losses. He then loses the thread and has to restart multiple times. The recovered version has good writing, but the interruption and restart hurt the round heavily.\n\nPENNO’s next visible round is long and aggressive. He responds to the girl/family angles, attacks J MUNI’s living situation, Leeds, breath, music, same coat in videos, placement, Academy image, money, family, Scarlett, nerves and PenGame status. He also references GZone reloads, DCL, Leeds and says J MUNI’s bars are timid in person. This is PENNO’s strongest visible section.\n\nThe transcript then moves into what appears to be the final round, but the round order is unclear. The host says it is the third and final and says “Penno, it’s your last chance.” The following verse appears to continue attacking J MUNI and his family, meaning the transcript does not clearly show a separate clean J MUNI third. Because of that, the safest archive treatment is to mark the official result as unavailable and the archive judgement as provisional.\n\nNo official winner is announced on camera.\n\nOfficial result: **No official winner called**.",
+    "winner": "jmuni",
+    "resultSource": "lota",
+    "statusNote": "Audio released",
+    "clashSummary": "PENNO vs J MUNI took place on **PenGame Rap Battle 2026** in the dungeon. This is a main PenGame adult battle, not an Academy clash. The host promotes the upcoming PenGame Champions League at Boxpark and explains the viewer-judged format.\n\nJ MUNI wins the coin toss and goes first.\n\nJ MUNI opens by arguing that the matchup is beneath his level. He attacks PENNO’s relationship, girlfriend, previous mentions of J MUNI, Instagram behaviour, status and credibility. PENNO mentioning him against Tricky while also sharing his post becomes the round’s central confused-fan angle. FENDRY, SKAMZ, LC, Manny and Scarlett references extend a direct, opponent-specific opener.\n\nPENNO responds with confident performance. He attacks J MUNI’s delivery, image, age, face, street presence, Leeds background and ability, using boxers and pants, Simon Cowell and Britain’s Got Talent, Leeds and lead, P.E.N.N.O branding, J Money smoke, a green light and the safety-off sequence. The round lands cleanly, but J MUNI’s narrative is more tailored and takes the first.\n\nJ MUNI’s second starts with Ish, Ace, Mags, 3-0 and SKAMZ references before moving through PENNO’s girl, public family information, being kicked out, the fridge and previous losses. He then loses the thread, asks for water and restarts the verse more than once. The recovered material is substantial, but the visible execution break costs him the round.\n\nPENNO answers with his strongest section. He flips the girl and family pressure, then attacks J MUNI’s living situation, Leeds, breath, music, repeated coat, placement, Academy image, money and status. The P.E.N.N.O branding, Leeds and lead, same-coat, backslang and soul-taken material is delivered without the disruption that damaged J MUNI’s second, giving PENNO the round.\n\nJ MUNI’s third begins at the explicit “Round 3, now it’s time for the murkin’” transition. He attacks PENNO’s reaction level and says his bars are timid in person, tells him to seek GZone reloads, then develops Leeds, family genes and jeans, Christopher Reeve levelling, space, family ties, DCL and Premier League scoring material. The round is cleaner than his second and restores his direct pressure.\n\nThe host then announces the third and final and tells PENNO it is his last chance. PENNO responds with family attacks, Pot Noodle imagery, a print-on-cheek and print-on-arse sequence, money and broke material, rigor mortis, toys from a pram and a books-and-pen closer. He maintains aggression, but J MUNI’s third has the clearer structure and more varied construction.\n\nNo official winner is announced. The upload moves directly into the next battle after the host’s closing. The result below is therefore an independent archive judgement.\n\nLOTA scores **J MUNI 2-1**: J MUNI wins rounds one and three through the more tailored fan narrative and the cleaner Leeds, genes, Christopher Reeve and DCL closing; PENNO takes round two after J MUNI’s repeated restart.",
     "performanceAnalysis": [
       {
         "performer": "PENNO",
-        "overview": "PENNO has the stronger visible performance overall. He is more consistent after the first round and benefits from J MUNI’s stumble in the second.\n\nHis first round is solid. It is not as specific as J MUNI’s opener, but it has energy and good crowd-facing aggression.\n\nHis second visible round is the strongest part of his battle. He responds to J MUNI’s girl/family material and then builds into Leeds, music, placement, Academy, money and GZone angles. It is long but forceful.\n\nThe final visible PENNO material keeps attacking J MUNI’s family, image and battle credibility. It is not as cleanly structured as his second, but it maintains pressure.\n\nPENNO’s biggest strength here is recovery and stamina. He keeps going while J MUNI has a visible stumble/restart.",
+        "overview": "PENNO loses the LOTA review 2-1 but clearly wins the second round. His first has energy and clean crowd-facing aggression, although it is less opponent-specific than J MUNI’s confused-fan narrative. His second is his strongest section: he responds to the girl and family material before building through Leeds, breath, music, the repeated coat, placement, Academy status and money while J MUNI’s restart remains fresh. PENNO’s third sustains the family pressure and adds Pot Noodle, print, rigor-mortis and books-and-pen imagery, but it is less structured than J MUNI’s closing round. PENNO’s biggest strengths here are stamina and recovery.",
         "lyricalThemes": "P.E.N.N.O branding, Leeds/lead, boxers/pants, Simon Cowell, J Money smoke, green light, safety-off, Scarlett, girl/family angles, same coat in videos, backslang, Academy status, GZone reloads, DCL/Leeds, family genetics, nervousness, Pot Noodle, rigor mortis.",
         "keyTechnicalHighlights": [
           {
@@ -90441,7 +97814,7 @@ export const pengameBattles: Battle[] = [
       },
       {
         "performer": "J MUNI",
-        "overview": "J MUNI has a strong opener and good angles, but the second-round stumble damages his case.\n\nHis first round is direct and personal. The fan/confusion angle is strong because he says PENNO mentioned him while battling Tricky but also shared his post. That gives J MUNI a proper narrative.\n\nHis second has good content but loses momentum. He starts strongly with the camera/Ace/Ish/Mags section and then works through PENNO’s girl, family, past losses and status, but the stumble forces multiple restarts. In a close battle, that matters.\n\nBecause the transcript does not clearly preserve a clean J MUNI third, his case for the battle is difficult to judge from this file alone.\n\nJ MUNI’s biggest strength is direct personal angle writing. His weakness here is execution.",
+        "overview": "J MUNI wins the LOTA review 2-1. His first is direct and personal: PENNO mentioning him against Tricky while sharing his post creates a clear confused-fan narrative, supported by platform and previous-battle references. His second contains good camera, Ace, Ish, Mags, girlfriend, family and previous-loss material, but a visible loss of place and repeated restart hands the round to PENNO. His third is present after the explicit round-three transition and restores his case through reaction, GZone reload, Leeds, genes, Christopher Reeve, space, family-ties and DCL writing. J MUNI’s strongest trait is opponent-specific angle construction; his main weakness is the second-round execution break.",
         "lyricalThemes": "Not-fair clash framing, Tricky mention, Instagram/fan angle, FENDRY, SKAMZ, LC, Manny stumble, Scarlett angle, PenGame prospect status, Ish/Ace/camera, Mags 3-0, PENNO’s girl, family information, being kicked out, fridge/weight angle, past losses, Beerus/destruction.",
         "keyTechnicalHighlights": [
           {
@@ -90581,6 +97954,36 @@ export const pengameBattles: Battle[] = [
         "theme": "Reference",
         "bar": "One more round of destruction, nothing like Beerus.",
         "explanation": "A Dragon Ball Super reference."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Critique",
+        "bar": "Your bars are timid in person.",
+        "explanation": "J MUNI contrasts PENNO's recorded confidence with the reaction level in the room."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Platform",
+        "bar": "If you want a reload, fuck off to GZone.",
+        "explanation": "A platform-specific dismissal that says PENNO needs another league to manufacture a reaction."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Wordplay",
+        "bar": "Need a belt with jeans, because your family's genes.",
+        "explanation": "Jeans and inherited genes connect the clothing setup to PENNO's family."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Reference",
+        "bar": "Christopher Reeve, I'm levelling.",
+        "explanation": "The Superman actor supplies the levelling and physical-control reference."
+      },
+      {
+        "performer": "J MUNI",
+        "theme": "Wordplay",
+        "bar": "DCL in the Premier League with Leeds, I'm scoring tonight.",
+        "explanation": "Dominic Calvert-Lewin, league football and Leeds turn the clash into a scoring claim."
       },
       {
         "performer": "PENNO",
@@ -90727,9 +98130,10 @@ export const pengameBattles: Battle[] = [
         "explanation": "A credibility punch."
       }
     ],
+    "postBattleContext": "No winner is announced. The upload moves from PENNO’s third into the host’s live-show promotion and the introduction of the next battle. Because the event is explicitly viewer-judged, the archive records an independent LOTA result rather than presenting the decision as official.",
     "judgementSummary": {
-      "verdict": "unknown",
-      "summary": "Official result: No official winner called. Decision type: Comments / archive judgement. Recommended site status: No Official Decision. Archive lean: PENNO 2-1 J MUNI, provisional. Suggested visible round split: Round 1: J MUNI / debatable, Round 2: PENNO, Round 3: PENNO / transcript caveat. Reason: J MUNI starts strongly but has a major stumble/restart in the second. PENNO’s visible later material is stronger and more consistent. However, because the transcript does not clearly capture a clean J MUNI third, this should be marked with a caveat. Archive Grades - PENNO: B+, J MUNI: B. Final Note: PENNO gets the archive lean on visible material, but the file has enough transcript/round-order ambiguity that this should not be presented as an official result."
+      "verdict": "J MUNI wins 2-1 (LOTA Result)",
+      "summary": "J MUNI takes round one with the stronger Tricky, Instagram and confused-fan narrative. PENNO wins round two after J MUNI loses his place and restarts repeatedly, answering with the cleaner Leeds, same-coat, placement and Academy pressure. J MUNI takes round three through the more structured reaction, GZone reload, Leeds, family-genes, Christopher Reeve, space, family-ties and DCL material."
     }
   },
   {
@@ -92944,11 +100348,11 @@ const championsLeagueUrls: Record<string, string> = {
   "pg-scl-2026-05-31-domi-dusk-vs-rp": "https://www.youtube.com/watch?v=YDTg_8f1fGs",
   "pg-scl-2026-05-31-drizzgb-vs-lc": "https://www.youtube.com/watch?v=pDpR1N4Qj_s",
   "pg-scl-2026-06-28-skamz-vs-jaycee": "https://www.lordofthearchives.co.uk/battle/skamzvsjaycee.html",
-  "pg-scl-2026-06-28-kandi-vs-monroe": "https://www.lordofthearchives.co.uk/battle/kandivsmonroe.html",
+  "pg-scl-2026-06-28-kandi-vs-monroe": "https://www.youtube.com/watch?v=E3Gi4lryHPI&t=267s",
   "pg-scl-2026-06-28-iiiberealz-vs-domi-dusk": "https://www.lordofthearchives.co.uk/battle/iiiberealzvsdomidusk.html",
   "pg-scl-2026-06-28-dan-dannah-vs-jm": "https://www.lordofthearchives.co.uk/battle/dandannahvsjm.html",
-  "pg-scl-2026-06-28-whoisorion-vs-star-co": "https://www.lordofthearchives.co.uk/battle/whoisorionvsstarco.html",
-  "pg-scl-2026-06-28-anbu-sensei-vs-char-b": "https://www.lordofthearchives.co.uk/battle/anbusenseivscharb.html",
+  "pg-scl-2026-06-28-whoisorion-vs-star-co": "https://www.youtube.com/watch?v=q2x6cytukj0&t=1309s",
+  "pg-scl-2026-06-28-anbu-sensei-vs-char-b": "https://www.youtube.com/watch?v=ah11GojDSuE",
   "pg-scl-2026-06-28-relapse-vs-pocaa": "https://www.lordofthearchives.co.uk/battle/relapsevspocaa.html",
   "pg-scl-2026-06-28-varntae-vs-rp": "https://www.lordofthearchives.co.uk/battle/varntaevsrp.html",
   "pg-scl-2026-06-28-kmarh-vs-drizzgb": "https://www.lordofthearchives.co.uk/battle/kmarhvsdrizzgb.html",
@@ -93003,8 +100407,63 @@ const catalogOverrides: Record<string, Partial<Battle>> = {
   },
 };
 
+const archiveBarRoundSplits: Record<string, Record<string, readonly [number, number]>> = {
+  "pg-s2026-kmarh-vs-monroe": {
+    MONROE: [12, 20],
+    "K.MARH": [9, 15],
+  },
+  "pg-s2026-lc-vs-anbu-sensei": {
+    "ANBU SENSEI": [16, 23],
+    LC: [8, 18],
+  },
+  "pg-s2026-marcel-vs-khaos-kayy": {
+    MARCEL: [15, 27],
+    KHAOS: [12, 18],
+  },
+  "pg-s2026-relapse-vs-storm": {
+    RELAPSE: [8, 17],
+    STORM: [8, 18],
+  },
+  "pg-s2026-sevz-vs-domi-dusk": {
+    "DOMI DUSK": [12, 23],
+    SEVZ: [18, 33],
+  },
+  "pg-s2026-zoellz-vs-pocaa": {
+    ZOELLZ: [14, 23],
+    POCAA: [3, 10],
+  },
+  "pg-s2026-penno-vs-jmuni": {
+    "J MUNI": [10, 19],
+    PENNO: [11, 21],
+  },
+  "pg-s06-2026-02-21-rp-vs-eddfirst": {
+    RP: [13, 16],
+    EDDFIRST: [13, 20],
+  },
+  "pg-s06-2026-02-18-skamz-vs-dan-dannah": {
+    "DAN DANNAH": [7, 14],
+    SKAMZ: [9, 17],
+  },
+};
+
 for (const battle of pengameBattles) {
   Object.assign(battle, catalogOverrides[battle.id]);
+
+  const performerSplits = archiveBarRoundSplits[battle.id];
+  if (!performerSplits || !battle.notableBars) continue;
+
+  const performerIndexes: Record<string, number> = {};
+  for (const item of battle.notableBars) {
+    if (!item.performer || !item.theme || /^round\s+\d+/i.test(item.theme)) continue;
+
+    const split = performerSplits[item.performer];
+    if (!split) continue;
+
+    const itemIndex = performerIndexes[item.performer] ?? 0;
+    performerIndexes[item.performer] = itemIndex + 1;
+    const round = itemIndex < split[0] ? 1 : itemIndex < split[1] ? 2 : 3;
+    item.theme = `Round ${round} — ${item.theme}`;
+  }
 }
 
 export const getBattlePageStem = (battle: Pick<Battle, "slug">): string =>
