@@ -684,7 +684,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                   <div className="py-3 border-b border-white/5">
                     <span className="block text-zinc-400 text-xs uppercase tracking-widest mb-2">Host</span>
                     {hostCredit ? (
-                      <Link href={`/hosts-judges/${hostCredit.slug}`} className="text-zinc-100 font-bold hover:text-brand transition-colors">
+                      <Link href={`/hosts-judges#${hostCredit.slug}`} className="text-zinc-100 font-bold hover:text-brand transition-colors">
                         {battle.host}
                       </Link>
                     ) : (
@@ -702,7 +702,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                         return judgeCredit ? (
                           <Link
                             key={judge}
-                            href={`/hosts-judges/${judgeCredit.slug}`}
+                            href={`/hosts-judges#${judgeCredit.slug}`}
                             className="block text-zinc-100 font-bold hover:text-brand transition-colors"
                           >
                             {judge}

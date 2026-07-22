@@ -1,13 +1,11 @@
-import Link from "next/link";
 import { Play, Search } from "lucide-react";
 import { lordOfTheMicsBattles } from "../../data/lordOfTheMics";
 import { formatBattleDate } from "../../data/battleDates";
-import { getBattleRouteHref } from "../../data/pengameBattles";
 import { formatViewCount } from "../../data/viewCounts";
 
 export const metadata = {
-  title: "Lord of the Mics Archive Lord of the Archives",
-  description: "Lord of the Mics battle archive on Lord of the Archives.",
+  title: "Lord of the Mics Battle Catalog | Lord of the Archives",
+  description: "A season-by-season catalog of Lord of the Mics clashes, matchups, dates, series and surviving view-count records.",
 };
 
 export default function LordOfTheMicsPage() {
@@ -37,7 +35,9 @@ export default function LordOfTheMicsPage() {
               Lord of the <span className="text-brand">Mics</span>
             </h1>
             <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-400 md:text-lg">
-              Archive index for Lord of the Mics clashes. Each entry opens a battle page inside Lord of the Archives.
+              A season-by-season catalog of Lord of the Mics clashes, recording matchups, dates, series and surviving
+              view-count snapshots. Detailed analysis pages are published only after source review; catalogued entries
+              without a completed editorial analysis remain unlinked.
             </p>
           </div>
 
@@ -53,7 +53,7 @@ export default function LordOfTheMicsPage() {
               <div className="mb-5">
                 <h2 className="text-xl font-semibold text-zinc-200 md:text-2xl">{series}</h2>
                 <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
-                  {battles[0]?.date?.slice(0, 4)} Lord of the Mics clashes.
+                  Catalogued {battles[0]?.date?.slice(0, 4)} Lord of the Mics clashes from the surviving release record.
                 </p>
               </div>
 
@@ -74,14 +74,11 @@ export default function LordOfTheMicsPage() {
                         <tr key={battle.id} className="transition-colors hover:bg-white/5">
                           <td className="px-3 py-4 font-mono text-xs text-brand md:px-6">{battle.customEp}</td>
                           <td className="px-3 py-4 md:px-6">
-                            <Link
-                              href={getBattleRouteHref(battle)}
-                              className="flex flex-wrap items-center gap-2 text-sm font-semibold uppercase italic text-zinc-100 transition-colors hover:text-brand md:text-lg"
-                            >
+                            <div className="flex flex-wrap items-center gap-2 text-sm font-semibold uppercase italic text-zinc-300 md:text-lg">
                               <span>{battle.mc1}</span>
                               <span className="text-xs text-zinc-500">VS</span>
                               <span>{battle.mc2}</span>
-                            </Link>
+                            </div>
                           </td>
                           <td className="hidden px-3 py-4 text-xs text-zinc-400 md:table-cell md:px-6">
                             {formatLotmDate(battle.date)}
@@ -91,7 +88,7 @@ export default function LordOfTheMicsPage() {
                           </td>
                           <td className="px-3 py-4 text-right md:px-6 md:text-left">
                             <span className="inline-flex items-center rounded-full border border-brand/30 bg-brand/10 px-3 py-1.5 text-[10px] font-bold text-brand">
-                              {battle.statusNote || "Archive in progress"}
+                              Catalogued
                             </span>
                           </td>
                         </tr>

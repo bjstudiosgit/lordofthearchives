@@ -2,15 +2,20 @@ import {
   ArrowRight,
   BookOpen,
   Eye,
+  FileSearch,
+  Info,
+  Mail,
   Package,
   Play,
   Scale,
+  ShieldCheck,
   Trophy,
   Users,
   Youtube,
   type LucideIcon,
 } from "lucide-react";
 import Link from "next/link";
+import PrivacySettingsButton from "./PrivacySettingsButton";
 
 function TiktokIcon({ size = 24 }: { size?: number }) {
   return (
@@ -60,6 +65,18 @@ const footerGroups: Array<{
       { href: "/property", label: "Prop'erty", icon: Package },
     ],
   },
+  {
+    title: "Trust & policies",
+    links: [
+      { href: "/about", label: "About", icon: Info },
+      { href: "/methodology", label: "Editorial methodology", icon: Scale },
+      { href: "/sources", label: "Sources & transcripts", icon: FileSearch },
+      { href: "/corrections", label: "Corrections", icon: BookOpen },
+      { href: "/contact", label: "Contact", icon: Mail },
+      { href: "/privacy", label: "Privacy & cookies", icon: ShieldCheck },
+      { href: "/terms", label: "Terms", icon: BookOpen },
+    ],
+  },
 ];
 
 export default function Footer() {
@@ -105,7 +122,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="grid gap-10 sm:grid-cols-3">
+          <div className="grid gap-10 sm:grid-cols-2 xl:grid-cols-4">
             {footerGroups.map((group) => (
               <nav key={group.title} aria-label={`${group.title} footer links`}>
                 <h3 className="border-b border-white/10 pb-3 text-[10px] font-black uppercase tracking-[0.2em] text-white">
@@ -139,6 +156,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 pt-6 text-[9px] uppercase tracking-[0.14em] text-zinc-600 md:flex-row md:items-center md:justify-between">
           <p>© 2026 Lord of the Archives. All rights reserved.</p>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+            <PrivacySettingsButton className="transition hover:text-zinc-300" />
             <span className="text-zinc-700">Research tools</span>
             <a href="https://openai.com" target="_blank" rel="noopener noreferrer" className="transition hover:text-zinc-300">
               OpenAI

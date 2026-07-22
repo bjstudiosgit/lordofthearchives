@@ -1,9 +1,9 @@
-import type { Battle } from "./battleTypes";
+import { hasCompletedBattleAnalysis, type Battle } from "./battleTypes";
 
 export const lastUpdated = "18 Jul 2026";
 
 export const hasBattleArchiveData = (battle: Battle): boolean =>
-  Boolean(battle.clashSummary?.trim());
+  hasCompletedBattleAnalysis(battle);
 
 export const pengameBattles: Battle[] = [
   {

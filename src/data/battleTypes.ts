@@ -26,6 +26,7 @@ export interface Battle {
   customEp?: string;
   seasonOrder?: number;
   statusNote?: string;
+  archiveStatus?: "complete" | "in-progress";
   host?: string;
   judges?: string[];
   props?: {
@@ -57,3 +58,13 @@ export interface Battle {
     summary: string;
   };
 }
+
+export const hasCompletedBattleAnalysis = (battle: Battle): boolean =>
+  battle.archiveStatus !== "in-progress" &&
+  Boolean(battle.clashSummary?.trim()) &&
+  Boolean(
+    battle.performanceAnalysis?.length &&
+      battle.performanceAnalysis.every(
+        (analysis) => analysis.overview.trim() && analysis.lyricalThemes.trim(),
+      ),
+  );
