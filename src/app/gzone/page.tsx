@@ -5,6 +5,7 @@ import { gzoneBattles } from "../../data/gzone";
 import { getMcProfileHref } from "../../data/mcs";
 import { getBattleRouteHref } from "../../data/pengameBattles";
 import { formatViewCount } from "../../data/viewCounts";
+import { hasCompletedBattleAnalysis } from "../../data/battleTypes";
 
 export const metadata = {
   title: "Gzone Archives Lord of the Archives",
@@ -70,12 +71,15 @@ export default function GzonePage() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-white/5">
-                  {sortedBattles.map((battle) => (
+                  {sortedBattles.map((battle) => {
+                    const analysisComplete = hasCompletedBattleAnalysis(battle);
+
+                    return (
                     <tr key={battle.id} className="transition-colors hover:bg-white/5">
                       <td className="px-3 py-4 font-mono text-xs text-gzone md:px-6">
-                        <Link href={getBattleRouteHref(battle)} className="hover:underline">
-                          {battle.customEp}
-                        </Link>
+                        {analysisComplete ? (
+                          <Link href={getBattleRouteHref(battle)} className="hover:underline">{battle.customEp}</Link>
+                        ) : battle.customEp}
                       </td>
                       <td className="px-3 py-4 md:px-6">
                         <div className="flex flex-wrap items-center gap-2 text-sm font-semibold uppercase italic text-zinc-100 md:text-lg">
@@ -83,9 +87,11 @@ export default function GzonePage() {
                           <Link href={getMcProfileHref(battle.mc1)} className="transition-colors hover:text-gzone hover:underline">
                             {battle.title.split(" vs ")[0]}
                           </Link>
-                          <Link href={getBattleRouteHref(battle)} className="text-xs text-zinc-500 transition-colors hover:text-gzone">
-                            VS
-                          </Link>
+                          {analysisComplete ? (
+                            <Link href={getBattleRouteHref(battle)} className="text-xs text-zinc-500 transition-colors hover:text-gzone">VS</Link>
+                          ) : (
+                            <span className="text-xs text-zinc-600" title="Analysis pending editorial review">VS</span>
+                          )}
                           <Link href={getMcProfileHref(battle.mc2)} className="transition-colors hover:text-gzone hover:underline">
                             {battle.title.split(" vs ")[1]}
                           </Link>
@@ -107,12 +113,13 @@ export default function GzonePage() {
                             ? "border-emerald-300/40 bg-emerald-400/15 text-emerald-300 shadow-[0_0_18px_rgba(52,211,153,0.12)]"
                             : "border-gzone/30 bg-gzone/10 text-gzone"
                         }`}>
-                          {battle.statusNote === "Archived" && <CheckCircle2 size={12} />}
-                          {battle.statusNote}
+                          {analysisComplete && <CheckCircle2 size={12} />}
+                          {analysisComplete ? battle.statusNote : "Catalogued"}
                         </span>
                       </td>
                     </tr>
-                  ))}
+                    );
+                  })}
                 </tbody>
               </table>
             </div>

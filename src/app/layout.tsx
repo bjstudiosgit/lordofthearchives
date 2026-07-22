@@ -13,6 +13,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        <script
+          id="google-consent-default"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+              ad_storage: 'denied',
+              analytics_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied',
+              wait_for_update: 500
+            });
+          `,
+          }}
+        />
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-7YLK7S5HW2"
@@ -20,16 +36,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-7YLK7S5HW2');
           `}
         </Script>
-        <script
-          async
+        <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2858435877591429"
           crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
       </head>
       <body className="min-h-screen bg-zinc-950 selection:bg-brand selection:text-black text-white">

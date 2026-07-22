@@ -3,14 +3,13 @@ import { notFound } from 'next/navigation';
 import {
   findBattleByRouteSlug,
   getBattleHref,
-  getBattlePageSlug,
-  getBattleLegacyPageStem,
   getBattlePageStem,
   pengameBattles,
 } from "../../../data/pengameBattles";
 import { gzoneBattles } from "../../../data/gzone";
 import { lordOfTheMicsBattles } from "../../../data/lordOfTheMics";
 import { allMcs } from "../../../data/mcs";
+import { hasCompletedBattleAnalysis } from "../../../data/battleTypes";
 import BattleDetailClient from "./BattleDetailClient";
 
 type Props = {
@@ -23,13 +22,8 @@ export async function generateStaticParams() {
   const routeSlugs = new Set<string>();
 
   [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles].forEach((battle) => {
-    routeSlugs.add(getBattlePageStem(battle));
-    routeSlugs.add(getBattleLegacyPageStem(battle));
-    routeSlugs.add(battle.slug);
-
-    if (process.env.NODE_ENV !== "production") {
-      routeSlugs.add(getBattlePageSlug(battle));
-      routeSlugs.add(`${getBattleLegacyPageStem(battle)}.html`);
+    if (hasCompletedBattleAnalysis(battle)) {
+      routeSlugs.add(getBattlePageStem(battle));
     }
   });
 
@@ -40,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await Promise.resolve(params);
   const battle = findBattleByRouteSlug(resolvedParams.slug, [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles]);
   
-  if (!battle) {
+  if (!battle || !hasCompletedBattleAnalysis(battle)) {
     return { title: 'Battle Not Found' };
   }
   
@@ -98,7 +92,7 @@ export default async function BattlePage({ params }: Props) {
   const resolvedParams = await Promise.resolve(params);
   const battle = findBattleByRouteSlug(resolvedParams.slug, [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles]);
   
-  if (!battle) {
+  if (!battle || !hasCompletedBattleAnalysis(battle)) {
     notFound();
   }
 

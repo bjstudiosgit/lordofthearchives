@@ -450,6 +450,7 @@ export default function PengamePage() {
                             : season === "2025"
                               ? `25x${String(index + 1).padStart(2, "0")}`
                             : battle.customEp || getFallbackEpisodeLabel(season, index);
+                      const analysisComplete = hasBattleArchiveData(battle);
 
                       return (
                         <React.Fragment key={battle.id}>
@@ -468,9 +469,13 @@ export default function PengamePage() {
                             className="group hover:bg-white/5 transition-all duration-300"
                           >
                             <td className="px-2 py-3 md:px-6 md:py-6">
-                              <Link href={getBattleRouteHref(battle)} className="font-mono text-brand text-[10px] md:text-sm hover:underline" aria-label={`Episode ${episodeLabel} details`}>
-                                {episodeLabel}
-                              </Link>
+                              {analysisComplete ? (
+                                <Link href={getBattleRouteHref(battle)} className="font-mono text-brand text-[10px] md:text-sm hover:underline" aria-label={`Episode ${episodeLabel} details`}>
+                                  {episodeLabel}
+                                </Link>
+                              ) : (
+                                <span className="font-mono text-[10px] text-zinc-500 md:text-sm">{episodeLabel}</span>
+                              )}
                             </td>
                             <td className="px-2 py-3 md:px-6 md:py-6">
                               <div className="block group-hover:translate-x-1 transition-transform">
@@ -490,7 +495,11 @@ export default function PengamePage() {
                                       </>
                                     )}
                                   </span>
-                                  <Link href={getBattleRouteHref(battle)} className="text-zinc-400 text-[10px] md:text-sm hover:text-brand transition-colors" aria-label={`Watch ${mc1?.name || battle.mc1} vs ${mc2?.name || battle.mc2}`}>VS</Link>
+                                  {analysisComplete ? (
+                                    <Link href={getBattleRouteHref(battle)} className="text-zinc-400 text-[10px] md:text-sm hover:text-brand transition-colors" aria-label={`Read ${mc1?.name || battle.mc1} vs ${mc2?.name || battle.mc2} analysis`}>VS</Link>
+                                  ) : (
+                                    <span className="text-[10px] text-zinc-600 md:text-sm" title="Analysis pending editorial review">VS</span>
+                                  )}
                                   <span className="flex items-center gap-1 md:gap-2">
                                     {battle.mc3 && (battle.winner === battle.mc2 || battle.winner2 === battle.mc2) && <Trophy size={14} className="text-brand md:w-[18px] md:h-[18px]" />}
                                     <Link href={`/mc/${mc2?.slug}`} className="hover:text-brand hover:underline underline-offset-4 transition-colors">
@@ -535,8 +544,8 @@ export default function PengamePage() {
                                     ? "bg-brand/10 text-brand border border-brand/20"
                                     : "bg-zinc-800 text-zinc-400 border border-white/5"
                               }`}>
-                                {hasBattleArchiveData(battle) && <CheckCircle2 size={12} />}
-                                {hasBattleArchiveData(battle) ? "Archived" : battle.videoUrl ? "Archive in progress" : battle.statusNote || "Upcoming"}
+                                {analysisComplete && <CheckCircle2 size={12} />}
+                                {analysisComplete ? "Archived" : "Catalogued"}
                               </span>
                             </td>
                           </motion.tr>

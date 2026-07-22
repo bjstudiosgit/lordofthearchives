@@ -1,4 +1,6 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "out",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
@@ -314,7 +316,12 @@
     },
     {
       "source": "/hosts-judges/:slug.html",
-      "destination": "/hosts-judges/:slug",
+      "destination": "/hosts-judges",
+      "permanent": true
+    },
+    {
+      "source": "/hosts-judges/:slug",
+      "destination": "/hosts-judges",
       "permanent": true
     },
     {
