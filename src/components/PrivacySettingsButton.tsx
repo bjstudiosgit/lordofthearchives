@@ -1,7 +1,7 @@
 "use client";
 
 type GoogleFundingChoices = {
-  callbackQueue?: Array<() => void>;
+  callbackQueue?: Array<(() => void) | { CONSENT_API_READY: () => void }>;
   showRevocationMessage?: () => void;
 };
 
@@ -13,13 +13,17 @@ declare global {
 
 export default function PrivacySettingsButton({ className = "" }: { className?: string }) {
   const reopenPrivacyChoices = () => {
-    window.googlefc ??= { callbackQueue: [] };
-    window.googlefc.callbackQueue ??= [];
+    const googlefc = (window.googlefc ??= { callbackQueue: [] });
+    const callbackQueue = (googlefc.callbackQueue ??= []);
 
-    const showRevocationMessage = window.googlefc.showRevocationMessage;
-    window.googlefc.callbackQueue.push(
-      showRevocationMessage ?? (() => window.googlefc?.showRevocationMessage?.()),
-    );
+    if (googlefc.showRevocationMessage) {
+      callbackQueue.push(googlefc.showRevocationMessage);
+      return;
+    }
+
+    callbackQueue.push({
+      CONSENT_API_READY: () => window.googlefc?.showRevocationMessage?.(),
+    });
   };
 
   return (
