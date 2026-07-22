@@ -5,6 +5,10 @@
   "trailingSlash": false,
   "routes": [
     { "handle": "filesystem" },
+    { "src": "/battle/dyzzvsjynx", "status": 308, "headers": { "Location": "/pengame" } },
+    { "src": "/mc/([^/-]+)-([^/-]+)-([^/-]+)", "status": 308, "headers": { "Location": "/mc/$1$2$3" } },
+    { "src": "/mc/([^/-]+)-([^/-]+)", "status": 308, "headers": { "Location": "/mc/$1$2" } },
+    { "src": "/hosts-judges/(.*)", "status": 308, "headers": { "Location": "/hosts-judges" } },
     { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ],
   "redirects": [
