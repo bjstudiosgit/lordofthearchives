@@ -17,6 +17,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           id="google-consent-default"
           dangerouslySetInnerHTML={{
             __html: `
+            window.googlefc = window.googlefc || {};
+            window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('consent', 'default', {
