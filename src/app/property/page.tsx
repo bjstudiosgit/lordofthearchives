@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Scissors } from "lucide-react";
 import { propertyItems } from "../../data/property";
@@ -6,9 +7,11 @@ const sortedProps = [...propertyItems].sort((a, b) => b.dateSort.localeCompare(a
 const categories = new Set(propertyItems.map((prop) => prop.category));
 const battles = new Set(propertyItems.map((prop) => prop.battle));
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Prop'erty Lord of the Archives",
   description: "A Lord of the Archives catalogue of props used in battles.",
+  alternates: { canonical: "https://www.lordofthearchives.co.uk/property" },
+  robots: { index: false, follow: true },
 };
 
 export default function PropertyPage() {

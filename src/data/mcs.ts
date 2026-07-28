@@ -63,6 +63,13 @@ export const getMcProfileSlug = (mcId: string): string => mcProfileSlugOverrides
 
 export const getMcProfileHref = (mcId: string): string => `/mc/${getMcProfileSlug(mcId)}`;
 
+const MIN_INDEXABLE_PROFILE_BATTLES = 10;
+
+// Short records remain useful inside the archive, but they do not yet have
+// enough battle history to stand alone as substantive search results.
+export const hasIndexableMcProfile = (mc: MC): boolean =>
+  mc.battles >= MIN_INDEXABLE_PROFILE_BATTLES;
+
 export const mcs: MC[] = [
   {
     "id": "f-don",
