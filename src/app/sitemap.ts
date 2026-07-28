@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getBattleHref, pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
 import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
-import { allMcs } from "../data/mcs";
+import { allMcs, hasIndexableMcProfile } from "../data/mcs";
 import { hasCompletedBattleAnalysis } from "../data/battleTypes";
 
 const SITE_URL = "https://www.lordofthearchives.co.uk";
@@ -31,7 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/lord-of-the-mics`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE_URL}/lota-league`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/peoples-vote`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
-    { url: `${SITE_URL}/property`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE_URL}/mcs`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/hosts-judges`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
     ...['about', 'methodology', 'sources', 'corrections', 'contact', 'privacy', 'terms'].map((slug) => ({
@@ -51,12 +50,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     }));
 
-  const mcPages: MetadataRoute.Sitemap = allMcs.map((mc) => ({
-    url: `${SITE_URL}/mc/${mc.slug}`,
-    lastModified: currentDate,
-    changeFrequency: 'weekly',
-    priority: 0.7,
-  }));
+  const mcPages: MetadataRoute.Sitemap = allMcs
+    .filter(hasIndexableMcProfile)
+    .map((mc) => ({
+      url: `${SITE_URL}/mc/${mc.slug}`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    }));
 
   return [...new Map(
     [...staticPages, ...battlePages, ...mcPages].map((entry) => [entry.url, entry]),

@@ -2,6 +2,7 @@ import React from "react";
 import Script from "next/script";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AdSenseScript from "../components/AdSenseScript";
 import "../index.css"; // assuming global styles are here
 
 export const metadata = {
@@ -42,11 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-7YLK7S5HW2');
           `}
         </Script>
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2858435877591429"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        <AdSenseScript />
       </head>
       <body className="min-h-screen bg-zinc-950 selection:bg-brand selection:text-black text-white">
         <Navbar />

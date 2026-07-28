@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { allMcs } from "../../../data/mcs";
+import { allMcs, hasIndexableMcProfile } from "../../../data/mcs";
 import McDetailClient from "./McDetailClient";
 
 type Props = {
@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: url,
     },
+    robots: hasIndexableMcProfile(mc)
+      ? { index: true, follow: true }
+      : { index: false, follow: true },
     openGraph: {
       title,
       description: mc.bio,
