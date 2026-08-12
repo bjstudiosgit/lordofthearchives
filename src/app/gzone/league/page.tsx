@@ -38,10 +38,10 @@ export default function GzoneLeaguePage() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 grid items-center gap-12 lg:grid-cols-2">
           <div>
-            <h2 className="text-4xl font-display italic uppercase leading-tight md:text-6xl">
+            <h1 className="text-4xl font-display italic uppercase leading-tight md:text-6xl">
               Gzone <br />
               <span className="text-gzone">League</span>
-            </h2>
+            </h1>
             <p className="mt-4 max-w-xl text-sm leading-relaxed text-zinc-400 md:mt-6 md:text-lg">
               Current Gzone Season 1 leaderboard. Points are awarded once winners are added.
             </p>

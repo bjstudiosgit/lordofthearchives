@@ -10,6 +10,9 @@ import { hasCompletedBattleAnalysis } from "../../data/battleTypes";
 export const metadata = {
   title: "Gzone Archives Lord of the Archives",
   description: "Gzone Season 1 battle archive and league standings.",
+  alternates: {
+    canonical: "https://www.lordofthearchives.co.uk/gzone",
+  },
 };
 
 const parseViews = (views: string | number | null | undefined): number => {

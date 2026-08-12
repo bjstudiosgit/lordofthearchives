@@ -125,9 +125,9 @@ export default function PeoplesVotePage() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 grid items-center gap-12 lg:grid-cols-2">
           <div>
-            <h2 className="text-3xl font-display italic uppercase leading-tight md:text-5xl">
+            <h1 className="text-3xl font-display italic uppercase leading-tight md:text-5xl">
               <span className="text-brand">LOTA</span> <span className="text-white">People's Champion</span>
-            </h2>
+            </h1>
             <div className="mt-4 max-w-xl space-y-4 text-sm leading-relaxed text-zinc-400 md:mt-6 md:text-lg">
               <p>
                 Lord of the Archives People's Champion is decided by one brutal measure: the cumulative YouTube views.

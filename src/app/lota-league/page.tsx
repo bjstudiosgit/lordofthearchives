@@ -58,11 +58,11 @@ export default function LotaLeaguePage() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 grid items-center gap-12 lg:grid-cols-2">
           <div>
-            <h1 className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-brand">Combined Rankings</h1>
-            <h2 className="text-4xl font-display italic uppercase leading-tight md:text-6xl">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-brand">Combined Rankings</p>
+            <h1 className="text-4xl font-display italic uppercase leading-tight md:text-6xl">
               LOTA <br />
               <span className="text-brand">League</span>
-            </h2>
+            </h1>
             <p className="mt-4 max-w-xl text-sm leading-relaxed text-zinc-400 md:mt-6 md:text-lg">
               Combined leaderboard for PenGame and Gzone battlers. Scoring: 3 points for a win.
             </p>

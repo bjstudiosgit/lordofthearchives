@@ -1,6 +1,5 @@
 "use client";
 
-import Script from "next/script";
 import { usePathname } from "next/navigation";
 
 const NON_MONETIZED_ROUTES = new Set([
@@ -22,11 +21,10 @@ export default function AdSenseScript() {
   }
 
   return (
-    <Script
+    <script
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2858435877591429"
       crossOrigin="anonymous"
-      strategy="afterInteractive"
     />
   );
 }
