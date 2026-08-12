@@ -26,10 +26,10 @@ export default function League() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h2 className="text-4xl md:text-6xl font-display italic uppercase leading-tight">
+            <h1 className="text-4xl md:text-6xl font-display italic uppercase leading-tight">
               PenGame <br />
               <span className="text-brand">League</span>
-            </h2>
+            </h1>
             <p className="text-zinc-400 mt-4 md:mt-6 max-w-xl text-sm md:text-lg leading-relaxed">
               PenGame leaderboard across the archive. Points are awarded as follows: 3 points for a win.
             </p>

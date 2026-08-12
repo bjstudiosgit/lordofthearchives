@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { allMcs, hasIndexableMcProfile } from "../../../data/mcs";
 import McDetailClient from "./McDetailClient";
 
@@ -25,6 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const url = `${SITE_URL}/mc/${mc.slug}`;
   const title = `${mc.name} Lord of the Archives MC Profile`;
+  const hasProfileImage = existsSync(join(process.cwd(), "public", mc.image.replace(/^\//, "")));
 
   return {
     title,
@@ -39,12 +42,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description: mc.bio,
       url,
-      images: [
-        {
-          url: `${SITE_URL}${mc.image}`,
-          alt: `${mc.name} profile image`,
-        },
-      ],
+      ...(hasProfileImage
+        ? {
+            images: [
+              {
+                url: `${SITE_URL}${mc.image}`,
+                alt: `${mc.name} profile image`,
+              },
+            ],
+          }
+        : {}),
     },
   };
 }

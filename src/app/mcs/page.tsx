@@ -2,6 +2,7 @@
 import React, { useState, useMemo } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
+import McImage from "../../components/McImage";
 import { allMcs } from "../../data/mcs";
 import { 
   Search, 
@@ -56,9 +57,9 @@ export default function MCIndex() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12">
-          <h2 className="text-4xl md:text-6xl font-display italic uppercase leading-tight">
+          <h1 className="text-4xl md:text-6xl font-display italic uppercase leading-tight">
             Lord of the Archives <br /><span className="text-brand">Artists</span>
-          </h2>
+          </h1>
           <p className="text-zinc-400 mt-4 max-w-xl text-sm md:text-lg leading-relaxed">
             Every MC logged in The Archive. Tap any name to pull up their full profile — battle record, form, stats, and complete history.
           </p>
@@ -113,7 +114,7 @@ export default function MCIndex() {
                 className="group block bg-zinc-900/40 border border-white/5 rounded-3xl overflow-hidden hover:border-brand/30 transition-all hover:shadow-[0_0_30px_rgba(242,125,38,0.05)]"
               >
                 <div className="aspect-square relative overflow-hidden">
-                  <img 
+                  <McImage
                     src={mc.image} 
                     alt={mc.name}
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110"

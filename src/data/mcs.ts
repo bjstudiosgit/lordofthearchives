@@ -438,7 +438,7 @@ export const mcs: MC[] = [
     "wins": 0,
     "losses": 1,
     "style": "Versatile",
-    "image": "/apetrelli.png",
+    "image": "/APETRELLI.png",
     "bio": "PenGame Season 4 artist."
   },
   {

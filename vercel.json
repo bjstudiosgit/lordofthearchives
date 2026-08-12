@@ -6,6 +6,8 @@
   "routes": [
     { "handle": "filesystem" },
     { "src": "/battle/dyzzvsjynx", "status": 308, "headers": { "Location": "/pengame" } },
+    { "src": "/battle/skamzvsfdon2(?:\\.html)?", "status": 308, "headers": { "Location": "/battle/fdonvsskamz2" } },
+    { "src": "/battle/fdonvsskamz(?:\\.html)?", "status": 308, "headers": { "Location": "/battle/skamzvsfdon" } },
     { "src": "/mc/([^/-]+)-([^/-]+)-([^/-]+)", "status": 308, "headers": { "Location": "/mc/$1$2$3" } },
     { "src": "/mc/([^/-]+)-([^/-]+)", "status": 308, "headers": { "Location": "/mc/$1$2" } },
     { "src": "/hosts-judges/(.*)", "status": 308, "headers": { "Location": "/hosts-judges" } },
@@ -20,6 +22,26 @@
     {
       "source": "/battle/dyzzvsjynx.html",
       "destination": "/pengame",
+      "permanent": true
+    },
+    {
+      "source": "/battle/skamzvsfdon2",
+      "destination": "/battle/fdonvsskamz2",
+      "permanent": true
+    },
+    {
+      "source": "/battle/skamzvsfdon2.html",
+      "destination": "/battle/fdonvsskamz2",
+      "permanent": true
+    },
+    {
+      "source": "/battle/fdonvsskamz",
+      "destination": "/battle/skamzvsfdon",
+      "permanent": true
+    },
+    {
+      "source": "/battle/fdonvsskamz.html",
+      "destination": "/battle/skamzvsfdon",
       "permanent": true
     },
     {

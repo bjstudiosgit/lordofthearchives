@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import McImage from "../../../components/McImage";
 import { allMcs } from "../../../data/mcs";
 import { formatBattleDate, parseBattleDate } from "../../../data/battleDates";
 import { gzoneBattles } from "../../../data/gzone";
@@ -11,7 +12,7 @@ import {
 } from "../../../data/pengameBattles";
 import { propertyItems } from "../../../data/property";
 import { formatViewCount } from "../../../data/viewCounts";
-import type { Battle } from "../../../data/battleTypes";
+import { hasCompletedBattleAnalysis, type Battle } from "../../../data/battleTypes";
 import {
   getBattleParticipants,
   getBattleWinners,
@@ -128,6 +129,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
   const getThemeHoverBgClass = (battle: Battle) => battle.theme === "gzone" ? "group-hover:bg-gzone" : "group-hover:bg-brand";
 
   const getBattleHref = (battle: Battle) => getBattleRouteHref(battle);
+  const hasBattlePage = (battle: Battle) => hasCompletedBattleAnalysis(battle);
 
   return (
     <div className="min-h-screen pt-32 pb-24 bg-zinc-950 text-white selection:bg-brand selection:text-black">
@@ -149,7 +151,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
               animate={{ opacity: 1, y: 0 }}
               className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-2xl"
             >
-              <img
+              <McImage
                 src={mc.image}
                 alt={mc.name}
                 className="w-full h-full object-cover"
@@ -185,6 +187,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
               <div className="flex flex-wrap gap-2">
                 {mcBattles.map((battle) => {
                   const outcome = getOutcome(battle);
+                  const battlePageAvailable = hasBattlePage(battle);
                   const formLabel = outcome === "WIN" ? "W" : outcome === "LOSS" ? "L" : "-";
                   const formClass =
                     outcome === "WIN"
@@ -193,16 +196,28 @@ export default function McDetailClient({ slug }: { slug: string }) {
                         ? "border-rose-500/40 bg-rose-500/15 text-rose-400"
                         : "border-white/10 bg-zinc-900/60 text-zinc-500";
 
-                  return (
+                  const label = `${battle.displayTitle || battle.title}: ${outcome}`;
+                  const className = `w-9 h-9 rounded-lg border flex items-center justify-center text-xs font-black ${formClass}`;
+
+                  return battlePageAvailable ? (
                     <Link
                       key={battle.id}
                       href={getBattleHref(battle)}
-                      title={`${battle.displayTitle || battle.title}: ${outcome}`}
-                      aria-label={`${battle.displayTitle || battle.title}: ${outcome}`}
-                      className={`w-9 h-9 rounded-lg border flex items-center justify-center text-xs font-black transition-transform hover:-translate-y-0.5 ${formClass}`}
+                      title={label}
+                      aria-label={label}
+                      className={`${className} transition-transform hover:-translate-y-0.5`}
                     >
                       {formLabel}
                     </Link>
+                  ) : (
+                    <span
+                      key={battle.id}
+                      title={`${label}; editorial analysis pending`}
+                      aria-label={`${label}; editorial analysis pending`}
+                      className={className}
+                    >
+                      {formLabel}
+                    </span>
                   );
                 })}
               </div>
@@ -328,6 +343,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                     const opponent = allMcs.find((m) => m.id === opponentId);
                     const opponentLabel = opponentTeam.map(getMcName).join(" & ") || "TBD";
                     const outcome = getOutcome(battle);
+                    const battlePageAvailable = hasBattlePage(battle);
                     const outcomeClass =
                       outcome === "WIN"
                         ? "bg-emerald-500/20 text-emerald-500"
@@ -338,17 +354,13 @@ export default function McDetailClient({ slug }: { slug: string }) {
                     const themeHoverClass = getThemeHoverClass(battle);
                     const themeHoverBgClass = getThemeHoverBgClass(battle);
 
-                    return (
-                      <Link
-                        key={battle.id}
-                        href={getBattleHref(battle)}
-                        className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
-                      >
+                    const battleCard = (
+                      <>
                         <div className="flex items-center gap-4 min-w-0">
                           <div className="w-12 h-12 rounded-xl overflow-hidden border border-white/10">
-                            <img
+                            <McImage
                               src={opponent?.image || `https://picsum.photos/seed/${opponentId}/100/100`}
-                              alt={opponent?.name}
+                              alt={opponent?.name || opponentLabel}
                               className="w-full h-full object-cover"
                               referrerPolicy="no-referrer"
                             />
@@ -381,9 +393,27 @@ export default function McDetailClient({ slug }: { slug: string }) {
                           </div>
                         </div>
                         <div className={`w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center ${themeHoverBgClass} group-hover:text-black transition-all shrink-0`}>
-                          <Play size={16} fill="currentColor" />
+                          {battlePageAvailable ? <Play size={16} fill="currentColor" /> : <Clock size={16} />}
                         </div>
+                      </>
+                    );
+
+                    return battlePageAvailable ? (
+                      <Link
+                        key={battle.id}
+                        href={getBattleHref(battle)}
+                        className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
+                      >
+                        {battleCard}
                       </Link>
+                    ) : (
+                      <div
+                        key={battle.id}
+                        title="Editorial analysis pending"
+                        className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl"
+                      >
+                        {battleCard}
+                      </div>
                     );
                   })}
                 </div>

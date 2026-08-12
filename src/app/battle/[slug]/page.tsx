@@ -4,6 +4,7 @@ import {
   findBattleByRouteSlug,
   getBattleHref,
   getBattlePageStem,
+  getRepeatClashNumber,
   pengameBattles,
 } from "../../../data/pengameBattles";
 import { gzoneBattles } from "../../../data/gzone";
@@ -61,8 +62,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const team1Name = [mc1?.name ?? battle.mc1, mc3?.name].filter(Boolean).join(" & ");
   const team2Name = [mc2?.name ?? battle.mc2, mc4?.name].filter(Boolean).join(" & ");
   const leagueName = battle.theme === "gzone" ? "Gzone" : battle.theme === "lotm" ? "Lord of the Mics" : "PenGame";
-  const title = `${team1Name} vs ${team2Name} ${leagueName} Battle`;
-  const description = `${team1Name} faces ${team2Name} in this ${leagueName} battle.`;
+  const repeatClashNumber = getRepeatClashNumber(battle);
+  const repeatLabel = repeatClashNumber ? ` #${repeatClashNumber}` : "";
+  const title = `${team1Name} vs ${team2Name}${repeatLabel} | ${leagueName} Battle`;
+  const description = `${team1Name} faces ${team2Name}${repeatClashNumber ? ` in clash #${repeatClashNumber}` : ""} in this ${leagueName} battle.`;
   const battleUrl = `https://www.lordofthearchives.co.uk${getBattleHref(battle)}`;
 
   return {

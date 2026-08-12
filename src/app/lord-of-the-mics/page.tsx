@@ -6,6 +6,9 @@ import { formatViewCount } from "../../data/viewCounts";
 export const metadata = {
   title: "Lord of the Mics Battle Catalog | Lord of the Archives",
   description: "A season-by-season catalog of Lord of the Mics clashes, matchups, dates, series and surviving view-count records.",
+  alternates: {
+    canonical: "https://www.lordofthearchives.co.uk/lord-of-the-mics",
+  },
 };
 
 export default function LordOfTheMicsPage() {

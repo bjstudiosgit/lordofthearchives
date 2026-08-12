@@ -303,9 +303,9 @@ export default function PengamePage() {
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
           <div>
-            <h2 className="text-3xl md:text-5xl font-semibold leading-tight">
+            <h1 className="text-3xl md:text-5xl font-semibold leading-tight">
               PenGame <span className="text-brand">Archives</span>
-            </h2>
+            </h1>
           </div>
           
           {/* Summary Stats */}

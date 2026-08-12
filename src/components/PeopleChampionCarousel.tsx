@@ -1,5 +1,6 @@
 import { ChevronRight, Crown, Eye, Trophy } from "lucide-react";
 import Link from "next/link";
+import McImage from "./McImage";
 
 interface PeopleChampionLeader {
   id: string;
@@ -46,7 +47,7 @@ export default function PeopleChampionCarousel({ leaders }: { leaders: PeopleCha
                 <div className="absolute inset-0 flex items-center justify-center font-display text-8xl italic text-brand/20">
                   {mc.name[0]}
                 </div>
-                <img
+                <McImage
                   src={mc.image}
                   alt={mc.name}
                   className="absolute inset-0 h-full w-full object-cover object-top grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
