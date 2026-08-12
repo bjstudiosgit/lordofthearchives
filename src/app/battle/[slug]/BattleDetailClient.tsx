@@ -25,9 +25,9 @@ export default function BattleDetailClient({
 
   if (!battle) {
     return (
-      <div className="min-h-screen flex items-center justify-center text-white">
+      <main className="min-h-screen flex items-center justify-center text-white">
         Battle not found. <Link href="/" className="text-brand ml-2">Go back</Link>
-      </div>
+      </main>
     );
   }
 
@@ -75,7 +75,7 @@ export default function BattleDetailClient({
   }, {});
 
   return (
-    <div className="min-h-screen pt-32 pb-24 bg-zinc-950">
+    <main className="min-h-screen pt-32 pb-24 bg-zinc-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link 
           href={backHref}
@@ -702,6 +702,6 @@ export default function BattleDetailClient({
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
