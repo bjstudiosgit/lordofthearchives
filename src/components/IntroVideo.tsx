@@ -6,10 +6,24 @@ export default function IntroVideo() {
     <section className="relative w-full bg-black min-h-[70vh] overflow-hidden flex items-center z-30 border-b border-brand/30">
       {/* Cinematic Overlays */}
       <div className="absolute inset-0 z-0">
-        <div
-          className="absolute inset-0 bg-cover bg-[position:68%_center] sm:bg-center brightness-125 contrast-110"
-          style={{ backgroundImage: "url('/hero-archives-emblem.png')" }}
-        />
+        <picture className="absolute inset-0 block">
+          <source
+            type="image/webp"
+            srcSet="/hero-archives-emblem-768.webp 768w, /hero-archives-emblem-1280.webp 1280w, /hero-archives-emblem.webp 1600w"
+            sizes="100vw"
+          />
+          <img
+            src="/hero-archives-emblem.png"
+            alt=""
+            aria-hidden="true"
+            width={1659}
+            height={948}
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+            className="absolute inset-0 h-full w-full object-cover object-[68%_center] brightness-125 contrast-110 sm:object-center"
+          />
+        </picture>
         <div className="absolute inset-0 bg-black/10 z-10" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-transparent to-black/75 z-10" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/55 to-transparent z-10" />

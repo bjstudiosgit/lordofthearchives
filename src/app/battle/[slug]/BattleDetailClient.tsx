@@ -7,12 +7,20 @@ import { lordOfTheMicsBattles } from "../../../data/lordOfTheMics";
 import { getCreditPersonByName } from "../../../data/credits";
 import { formatBattleDate } from "../../../data/battleDates";
 import { hasOfficialBattleResult } from "../../../data/leagueStandings";
+import { getExpandedBarExplanation } from "../../../data/barExplanations";
 import { allMcs } from "../../../data/mcs";
 import { propertyItems } from "../../../data/property";
 import { formatViewCount } from "../../../data/viewCounts";
+import YouTubeFacade from "../../../components/YouTubeFacade";
 import { ArrowLeft, Play, Share2, Trophy, Clock, Scissors } from "lucide-react";
 
-export default function BattleDetailClient({ slug }: { slug: string }) {
+export default function BattleDetailClient({
+  slug,
+  videoIdOverride,
+}: {
+  slug: string;
+  videoIdOverride?: string;
+}) {
   const battle = [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles].find(b => b.slug === slug);
 
   if (!battle) {
@@ -57,29 +65,8 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
     return shortMatch ? shortMatch[1] : "";
   };
 
-  // Helper to format date for schema (YYYY-MM-DD)
-  const formatDateForSchema = (dateStr: string | undefined) => {
-    if (!dateStr) return "2025-12-25";
-    try {
-      const date = new Date(dateStr);
-      return date.toISOString().split('T')[0];
-    } catch (e) {
-      return "2025-12-25";
-    }
-  };
-
-  const videoId = getYouTubeId(battle.videoUrl);
+  const videoId = videoIdOverride ?? getYouTubeId(battle.videoUrl);
   const videoEmbedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : undefined;
-  const schemaData = videoId ? {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": `${battle.title} Rap Battle`,
-    "description": `${team1Name} faces ${team2Name} in this ${isGzone ? "Gzone" : isLotm ? "Lord of the Mics" : "PenGame"} battle.`,
-    "thumbnailUrl": `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
-    "uploadDate": formatDateForSchema(battle.date),
-    "contentUrl": `https://www.youtube.com/watch?v=${videoId}`,
-    "embedUrl": videoEmbedUrl
-  } : null;
   const notableBarsByPerformer = battle.notableBars?.reduce<Record<string, NonNullable<typeof battle.notableBars>>>((groups, item) => {
     const performer = item.performer || "Notable Bars";
     groups[performer] = groups[performer] || [];
@@ -89,11 +76,6 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
 
   return (
     <div className="min-h-screen pt-32 pb-24 bg-zinc-950">
-      {schemaData && (
-        <script type="application/ld+json">
-          {JSON.stringify(schemaData)}
-        </script>
-      )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link 
           href={backHref}
@@ -127,14 +109,7 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
               
               <div className="aspect-video bg-zinc-900 rounded-3xl border border-white/10 overflow-hidden relative group">
                 {videoEmbedUrl ? (
-                  <iframe
-                    src={videoEmbedUrl}
-                    title={battle.title}
-                    className="w-full h-full border-0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    loading="lazy"
-                  />
+                  <YouTubeFacade videoId={videoId} title={battle.title} />
                 ) : (
                   <div className="w-full h-full flex flex-col items-center justify-center bg-zinc-900 relative">
                     <img 
@@ -339,8 +314,10 @@ export default function BattleDetailClient({ slug }: { slug: string }) {
                                 <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.18em] text-brand/80">{item.theme}</p>
                               )}
                               <p className="text-white italic leading-relaxed">"{item.bar}"</p>
-                              {item.explanation && (
-                                <p className="mt-2 text-sm leading-relaxed text-zinc-400">{item.explanation}</p>
+                              {getExpandedBarExplanation(battle, item) && (
+                                <p className="mt-2 text-sm leading-relaxed text-zinc-400">
+                                  {getExpandedBarExplanation(battle, item)}
+                                </p>
                               )}
                             </div>
                           ))}

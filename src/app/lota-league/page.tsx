@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { motion } from "motion/react";
 import { Trophy } from "lucide-react";
-import { allMcs } from "../../data/mcs";
+import { getLotaLeagueStandings } from "../../data/leaderboards";
 
 type SortMode = "appearances" | "wins" | "losses" | "winRate" | "lossRate" | "points";
 
@@ -17,7 +17,7 @@ const getWinRate = (wins: number, losses: number) => {
 
 export default function LotaLeaguePage() {
   const [sortMode, setSortMode] = useState<SortMode>("points");
-  const standings = useMemo(() => [...allMcs]
+  const standings = useMemo(() => getLotaLeagueStandings()
     .sort((a, b) => {
       const comparisons: Record<SortMode, number> = {
         appearances: b.battles - a.battles,
@@ -41,17 +41,7 @@ export default function LotaLeaguePage() {
       points: getPoints(mc),
     })), [sortMode]);
 
-  const topThree = useMemo(() => [...allMcs]
-    .sort((a, b) => {
-      const pointDiff = getPoints(b) - getPoints(a);
-      if (pointDiff !== 0) return pointDiff;
-      if (b.wins !== a.wins) return b.wins - a.wins;
-      if (a.losses !== b.losses) return a.losses - b.losses;
-      if (b.battles !== a.battles) return b.battles - a.battles;
-      return a.name.localeCompare(b.name);
-    })
-    .slice(0, 3)
-    .map((mc, index) => ({ ...mc, rank: index + 1, points: getPoints(mc) })), []);
+  const topThree = useMemo(() => getLotaLeagueStandings().slice(0, 3), []);
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-screen pt-32">

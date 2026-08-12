@@ -1225,6 +1225,10 @@ mcs.push(
   })),
 );
 
+for (const mc of mcs) {
+  mc.image = mc.image.replace(/\.png$/i, ".webp");
+}
+
 type McRecord = {
   battles: number;
   wins: number;
@@ -1329,7 +1333,7 @@ export const pengameMcs: MC[] = Array.from(pengameRecordsById.entries())
         losses: record.losses,
         scoredBattles: record.scoredBattles,
         style: "Unknown",
-        image: `/${mcId.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
+        image: `/${mcId.toLowerCase().replace(/[^a-z0-9]/g, "")}.webp`,
         bio: "PenGame artist.",
       };
     }
@@ -1364,7 +1368,7 @@ export const allMcs: MC[] = Array.from(allRecordsById.entries())
         losses: record.losses,
         scoredBattles: record.scoredBattles,
         style: "Unknown",
-        image: `/${mcId.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
+        image: `/${mcId.toLowerCase().replace(/[^a-z0-9]/g, "")}.webp`,
         bio: "Battle artist.",
       };
     }

@@ -52,9 +52,9 @@ export const creditPeople: CreditPerson[] = [
   {
     id: "ginger-jay",
     slug: "ginger-jay",
-    name: "Ginger Jay",
+    name: "Ginga Jay",
     role: "Host",
-    bio: "Ginger Jay, also referenced as Ginga Jay or Ginge, is a recurring PenGame figure associated with hosting, reloads, room control, and the live event energy around the battles.",
+    bio: "Ginga Jay, also referenced as Ginge, is a recurring PenGame figure associated with hosting, reloads, room control, and the live event energy around the battles.",
   },
   {
     id: "christopher-savage",

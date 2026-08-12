@@ -3865,7 +3865,7 @@ export const gzoneClashData = {
       {
         "performer": "TYMELESS",
         "theme": "Round 2 — GTA cheat code",
-        "bar": "Both ginger men came to Gzone, played GTA, both the same—how is that not a cheat code? Ginger J giving himself a reload.",
+        "bar": "Both ginger men came to Gzone, played GTA, both the same—how is that not a cheat code? Ginga Jay giving himself a reload.",
         "explanation": "GTA, cheat code and reload form a gaming sequence. Reload also means a crowd-requested restart, turning the host's involvement into the punch."
       },
       {
@@ -4197,7 +4197,7 @@ export const gzoneClashData = {
       {
         "performer": "NATTYEBK",
         "theme": "Round 1 — Eliminate Z.K",
-        "bar": "Ginger J is irritating, gave me Z.K to eliminate him.",
+        "bar": "Ginga Jay is irritating, gave me Z.K to eliminate him.",
         "explanation": "Z.K is treated like a target designation. Irritating and eliminate give the opening a direct internal sound and immediate purpose."
       },
       {

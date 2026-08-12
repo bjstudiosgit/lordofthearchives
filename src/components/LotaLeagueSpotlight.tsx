@@ -2,25 +2,14 @@ import { ChevronRight, ShieldCheck, Trophy } from "lucide-react";
 import Link from "next/link";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
-import { allMcs } from "../data/mcs";
-
-const getPoints = (wins: number) => wins * 3;
+import { getLotaLeagueStandings } from "../data/leaderboards";
 
 export default function LotaLeagueSpotlight() {
-  const leaders = [...allMcs]
-    .sort((a, b) => {
-      const pointDiff = getPoints(b.wins) - getPoints(a.wins);
-      if (pointDiff !== 0) return pointDiff;
-      if (b.wins !== a.wins) return b.wins - a.wins;
-      if (a.losses !== b.losses) return a.losses - b.losses;
-      if (b.battles !== a.battles) return b.battles - a.battles;
-      return a.name.localeCompare(b.name);
-    })
+  const leaders = getLotaLeagueStandings()
     .slice(0, 4)
     .map((mc, index) => ({
       ...mc,
       rank: index + 1,
-      points: getPoints(mc.wins),
       hasImage: existsSync(join(process.cwd(), "public", mc.image.replace(/^\//, ""))),
     }));
 
@@ -58,7 +47,11 @@ export default function LotaLeagueSpotlight() {
                 {mc.hasImage && (
                   <img
                     src={mc.image}
+                    srcSet={`${mc.image.replace(/\.webp$/i, "-160.webp")} 160w, ${mc.image.replace(/\.webp$/i, "-400.webp")} 400w, ${mc.image} 800w`}
+                    sizes="(min-width: 1280px) 288px, (min-width: 640px) 50vw, 100vw"
                     alt={mc.name}
+                    loading="lazy"
+                    decoding="async"
                     className="absolute inset-0 h-full w-full object-cover object-top grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
                   />
                 )}

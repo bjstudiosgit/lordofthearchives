@@ -46,13 +46,13 @@ const makeBattle = ([series, mc1, mc2, date, publicStatus, videoId]: LordOfTheMi
 };
 
 const lordOfTheMicsBattleInputs: LordOfTheMicsBattleInput[] = [
+  ["LOTM1", "Younger Nasty & Kids in da Hood", "SLK & Blonic Beats", "2004", "public", "y6bzN6MDcHQ"],
   ["LOTM1", "Bruza", "Crazy Titch", "2004", "public", "FEGclkdHaTY"],
-  ["LOTM1", "Domino", "Slix", "2004", "public", "K_0s1CRgQYw"],
-  ["LOTM1", "Ghetts", "Napper", "2004", "public", "X8CvAB1nJPM"],
+  ["LOTM1", "Ghetto, now Ghetts", "Napper", "2004", "public", "X8CvAB1nJPM"],
   ["LOTM1", "Kal Serious", "Corey Johnson", "2004", "public", "K_0s1CRgQYw"],
-  ["LOTM1", "SLK", "Younger Nasty", "2004", "public", "y6bzN6MDcHQ"],
-  ["LOTM1", "Scratchy", "Footsie", "2004", "public", "jHYp8HmpZ-E"],
-  ["LOTM1", "Wiley", "Kano", "2004", "public", "nTF_T47CDnI"],
+  ["LOTM1", "Domino", "Slix", "2004", "public", "K_0s1CRgQYw"],
+  ["LOTM1", "Footsie", "Scratchy", "2004", "public", "jHYp8HmpZ-E"],
+  ["LOTM1", "Kano", "Wiley", "2004", "public", "nTF_T47CDnI"],
   ["LOTM2", "Bashy", "Demon", "2006", "public", "pS1WvYnspGw"],
   ["LOTM2", "Big Narstie", "Scorcher", "2006", "public", "cfgnvIChHbw"],
   ["LOTM2", "Craze 24", "Ill Millz", "2006", "public", "cfgnvIChHbw"],

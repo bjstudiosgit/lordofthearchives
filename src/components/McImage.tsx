@@ -15,7 +15,22 @@ const getInitials = (name: string) =>
     .join("")
     .toUpperCase() || "MC";
 
-export default function McImage({ alt, onError, src, ...props }: McImageProps) {
+const getResponsiveSrcSet = (src: ImgHTMLAttributes<HTMLImageElement>["src"]) => {
+  if (typeof src !== "string" || !/\.webp$/i.test(src)) return undefined;
+
+  return `${src.replace(/\.webp$/i, "-160.webp")} 160w, ${src.replace(/\.webp$/i, "-400.webp")} 400w, ${src} 800w`;
+};
+
+export default function McImage({
+  alt,
+  decoding,
+  loading,
+  onError,
+  sizes,
+  src,
+  srcSet,
+  ...props
+}: McImageProps) {
   const imageRef = useRef<HTMLImageElement>(null);
   const [failed, setFailed] = useState(false);
   const initials = getInitials(alt);
@@ -33,5 +48,19 @@ export default function McImage({ alt, onError, src, ...props }: McImageProps) {
     if (!failed) setFailed(true);
   };
 
-  return <img {...props} ref={imageRef} src={failed ? fallbackSrc : src} alt={alt} onError={handleError} />;
+  const responsiveSrcSet = failed ? undefined : srcSet ?? getResponsiveSrcSet(src);
+
+  return (
+    <img
+      {...props}
+      ref={imageRef}
+      src={failed ? fallbackSrc : src}
+      srcSet={responsiveSrcSet}
+      sizes={sizes ?? (responsiveSrcSet ? "(min-width: 1280px) 25vw, (min-width: 640px) 50vw, 100vw" : undefined)}
+      alt={alt}
+      loading={loading ?? "lazy"}
+      decoding={decoding ?? "async"}
+      onError={handleError}
+    />
+  );
 }

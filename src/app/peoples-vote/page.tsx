@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { Eye, Trophy } from "lucide-react";
-import { gzoneBattles } from "../../data/gzone";
-import { allMcs } from "../../data/mcs";
-import { getBattleRouteHref, pengameBattles } from "../../data/pengameBattles";
-import type { Battle } from "../../data/battleTypes";
+import { getPeopleChampionStandings } from "../../data/leaderboards";
+import { getBattleRouteHref } from "../../data/pengameBattles";
 
 export const metadata = {
   title: "LOTA People's Champion Lord of the Archives",
@@ -28,14 +26,6 @@ export const metadata = {
   },
 };
 
-const parseViews = (views: Battle["views"]): number => {
-  if (!views) return 0;
-  const clean = String(views).replace(/,/g, "").trim().toUpperCase();
-  if (clean.endsWith("K")) return Math.floor(Number(clean.replace("K", "")) * 1000);
-  if (clean.endsWith("M")) return Math.floor(Number(clean.replace("M", "")) * 1000000);
-  return Number(clean) || 0;
-};
-
 const formatViews = (views: number): string => {
   if (views >= 1000000) return `${(views / 1000000).toFixed(1)}M`;
   if (views >= 1000) return `${Math.floor(views / 1000)}k`;
@@ -44,79 +34,8 @@ const formatViews = (views: number): string => {
 
 const formatFullViews = (views: number): string => views.toLocaleString("en-GB");
 
-const getMedianViews = (views: number[]): number => {
-  if (!views.length) return 0;
-  const sorted = [...views].sort((a, b) => a - b);
-  const middle = Math.floor(sorted.length / 2);
-  return sorted.length % 2 === 0
-    ? Math.floor((sorted[middle - 1] + sorted[middle]) / 2)
-    : sorted[middle];
-};
-
-const getBattleMcs = (battle: Battle): string[] =>
-  [battle.mc1, battle.mc2, battle.mc3, battle.mc4].filter(Boolean) as string[];
-
-const isSoloBattle = (battle: Battle): boolean => !battle.mc3 && !battle.mc4;
-
 export default function PeoplesVotePage() {
-  const battles = [...pengameBattles, ...gzoneBattles].filter(isSoloBattle);
-  const totals = new Map<string, {
-    battleCount: number;
-    battleViews: number[];
-    topBattle?: Battle;
-    topBattleViews: number;
-    totalViews: number;
-  }>();
-
-  for (const battle of battles) {
-    const views = parseViews(battle.views);
-    if (views <= 0) continue;
-
-    for (const mcId of getBattleMcs(battle)) {
-      const current = totals.get(mcId) || {
-        battleCount: 0,
-        battleViews: [],
-        topBattle: undefined,
-        topBattleViews: 0,
-        totalViews: 0,
-      };
-
-      current.battleCount += 1;
-      current.battleViews.push(views);
-      current.totalViews += views;
-      if (views > current.topBattleViews) {
-        current.topBattle = battle;
-        current.topBattleViews = views;
-      }
-      totals.set(mcId, current);
-    }
-  }
-
-  const standings = allMcs
-    .map((mc) => {
-      const stat = totals.get(mc.id) || {
-        battleCount: 0,
-        battleViews: [],
-        topBattle: undefined,
-        topBattleViews: 0,
-        totalViews: 0,
-      };
-
-      return {
-        ...mc,
-        ...stat,
-        averageViews: stat.battleCount ? Math.floor(stat.totalViews / stat.battleCount) : 0,
-        medianViews: getMedianViews(stat.battleViews),
-      };
-    })
-    .filter((mc) => mc.totalViews > 0)
-    .sort((a, b) =>
-      b.totalViews - a.totalViews ||
-      b.averageViews - a.averageViews ||
-      b.battleCount - a.battleCount ||
-      a.name.localeCompare(b.name),
-    )
-    .map((mc, index) => ({ ...mc, rank: index + 1 }));
+  const standings = getPeopleChampionStandings();
 
   const topThree = standings.slice(0, 3);
 
@@ -162,13 +81,13 @@ export default function PeoplesVotePage() {
                       {mc.name}
                     </h4>
                     <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
-                      {formatFullViews(mc.totalViews)} views
+                      {formatFullViews(mc.totalViews)} solo views
                     </p>
                   </div>
                 </div>
                 <div className="text-right">
                   <div className="font-display text-2xl italic text-brand">{formatViews(mc.totalViews)}</div>
-                  <div className="text-[8px] font-bold uppercase tracking-widest text-zinc-400">Views</div>
+                  <div className="text-[8px] font-bold uppercase tracking-widest text-zinc-400">Solo views</div>
                 </div>
               </Link>
             ))}
@@ -183,7 +102,7 @@ export default function PeoplesVotePage() {
                   <tr className="border-b border-white/5 bg-zinc-900/80">
                     <th className="hidden px-2 py-3 text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:table-cell md:px-8 md:py-6 md:text-xs">Rank</th>
                     <th className="px-2 py-3 text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">MC Name</th>
-                    <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Total Views</th>
+                    <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Solo Views</th>
                     <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Solo Battles</th>
                     <th className="hidden px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:table-cell md:px-8 md:py-6 md:text-xs">Average</th>
                     <th className="hidden px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:table-cell md:px-8 md:py-6 md:text-xs">Median</th>

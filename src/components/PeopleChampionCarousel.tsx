@@ -50,6 +50,7 @@ export default function PeopleChampionCarousel({ leaders }: { leaders: PeopleCha
                 <McImage
                   src={mc.image}
                   alt={mc.name}
+                  sizes="(min-width: 1280px) 288px, (min-width: 640px) 50vw, 100vw"
                   className="absolute inset-0 h-full w-full object-cover object-top grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
@@ -72,7 +73,7 @@ export default function PeopleChampionCarousel({ leaders }: { leaders: PeopleCha
               <div className="grid grid-cols-2 divide-x divide-white/10 border-t border-white/10">
                 <div className="p-5">
                   <div className="mb-2 flex items-center gap-2 text-[9px] font-bold uppercase tracking-[0.18em] text-zinc-500">
-                    <Eye size={13} className="text-brand" /> Total views
+                    <Eye size={13} className="text-brand" /> Solo views
                   </div>
                   <p className="font-display text-2xl italic text-white">{formatViews(mc.totalViews)}</p>
                 </div>
