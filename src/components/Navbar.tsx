@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { Users, Trophy, Menu, X, Youtube, Play, Scale, Eye, Package } from "lucide-react";
+import { Users, Trophy, Menu, X, Youtube, Play, Scale, Eye, Package, Newspaper } from "lucide-react";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 
@@ -52,9 +52,10 @@ export default function Navbar() {
       ],
     },
     {
-      label: "Lord of the Archives Stats",
+      label: "Lord of the Archives",
       tone: "neutral",
       links: [
+        { name: "News", href: "/news", icon: Newspaper },
         { name: "MCs", href: "/mcs", icon: Users },
         { name: "Hosts", href: "/hosts-judges", icon: Scale },
         { name: "League", href: "/lota-league", icon: Trophy },
@@ -94,7 +95,7 @@ export default function Navbar() {
             </Link>
           </div>
           
-          <div className="hidden md:block">
+          <div className="hidden xl:block">
             <div className="ml-4 flex items-center gap-4">
               {navGroups.map((group) => (
                 <div key={group.label} className="flex flex-col gap-1">
@@ -159,7 +160,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <div className="md:hidden">
+          <div className="xl:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-brand border border-brand/30 bg-brand/10 hover:bg-brand hover:text-black rounded-xl p-2 transition-colors"
@@ -176,7 +177,7 @@ export default function Navbar() {
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="md:hidden border-t border-white/10 bg-black/95 rounded-b-2xl"
+          className="xl:hidden border-t border-white/10 bg-black/95 rounded-b-2xl"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navGroups.map((group) => (
