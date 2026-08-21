@@ -43,12 +43,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-7YLK7S5HW2');
           `}
         </Script>
-        <AdSenseScript />
       </head>
       <body className="min-h-screen bg-zinc-950 selection:bg-brand selection:text-black text-white">
         <Navbar />
         {children}
         <Footer />
+        <AdSenseScript />
       </body>
     </html>
   );
