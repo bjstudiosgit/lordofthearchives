@@ -5,6 +5,7 @@ import {
   FileSearch,
   Info,
   Mail,
+  Newspaper,
   Package,
   Play,
   Scale,
@@ -60,6 +61,7 @@ const footerGroups: Array<{
   {
     title: "People & culture",
     links: [
+      { href: "/news", label: "News", icon: Newspaper },
       { href: "/mcs", label: "MC profiles", icon: Users },
       { href: "/hosts-judges", label: "Hosts & judges", icon: Scale },
       { href: "/property", label: "Prop'erty", icon: Package },
