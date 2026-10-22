@@ -1,7 +1,17 @@
-import { Play, Search } from "lucide-react";
+import { ExternalLink, Play, Search } from "lucide-react";
 import { lordOfTheMicsBattles } from "../../data/lordOfTheMics";
 import { formatBattleDate } from "../../data/battleDates";
-import { formatViewCount } from "../../data/viewCounts";
+
+const dvdSources: Record<string, string> = {
+  LOTM1: "https://www.musicglue.com/lordofthemics/products/lotm-1-and-2-double-dvd",
+  LOTM2: "https://www.musicglue.com/lordofthemics/products/lotm-1-and-2-double-dvd",
+  LOTM3: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-3-cd-slash-dvd-2",
+  LOTM4: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-4-cd-slash-dvd",
+  LOTM5: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-5-cd-slash-dvd",
+  LOTM6: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-6-cd-slash-dvd",
+  LOTM7: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-7-cd-slash-dvd",
+  LOTM8: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-8-cd-slash-dvd",
+};
 
 export const metadata = {
   title: "Lord of the Mics Battle Catalog | Lord of the Archives",
@@ -13,7 +23,7 @@ export const metadata = {
 
 export default function LordOfTheMicsPage() {
   const sortedBattles = [...lordOfTheMicsBattles].sort(
-    (a, b) => Number(a.season) - Number(b.season) || (a.seasonOrder ?? 0) - (b.seasonOrder ?? 0),
+    (a, b) => Number(b.season) - Number(a.season) || (a.seasonOrder ?? 0) - (b.seasonOrder ?? 0),
   );
   const groupedBattles = sortedBattles.reduce<Record<string, typeof sortedBattles>>((groups, battle) => {
     const series = String(battle.customEp ?? battle.subGroup ?? "Archive");
@@ -26,7 +36,6 @@ export default function LordOfTheMicsPage() {
     if (!date) return "TBD";
     return date.endsWith("-01-01") ? date.slice(0, 4) : formatBattleDate(date);
   };
-  const formatLotmViews = (views: string | number | null | undefined) => formatViewCount(views, "TBC");
 
   return (
     <main className="min-h-screen bg-zinc-950 pt-32 pb-24 text-white selection:bg-brand selection:text-black">
@@ -38,9 +47,9 @@ export default function LordOfTheMicsPage() {
               Lord of the <span className="text-brand">Mics</span>
             </h1>
             <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-400 md:text-lg">
-              A season-by-season catalog of Lord of the Mics clashes, recording matchups, dates, series and surviving
-              view-count snapshots. Detailed analysis pages are published only after source review; catalogued entries
-              without a completed editorial analysis remain unlinked.
+              The 62 clashes listed on the official LOTM 1–8 DVD tracklists, plus one released clip from the unreleased
+              LOTM9 footage. Matchups are checked against the DVD listings; recording links are included where verified.
+              Detailed analysis will follow source review.
             </p>
           </div>
 
@@ -56,7 +65,17 @@ export default function LordOfTheMicsPage() {
               <div className="mb-5">
                 <h2 className="text-xl font-semibold text-zinc-200 md:text-2xl">{series}</h2>
                 <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
-                  Catalogued {battles[0]?.date?.slice(0, 4)} Lord of the Mics clashes from the surviving release record.
+                  {series === "LOTM9" ? "Released footage from an unreleased edition." : `Catalogued ${battles[0]?.date?.slice(0, 4)} clashes from the official DVD tracklist.`}{" "}
+                  {dvdSources[series] && (
+                    <a href={dvdSources[series]} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+                      Check tracklist <ExternalLink size={13} className="inline" />
+                    </a>
+                  )}
+                  {series === "LOTM9" && (
+                    <a href="https://grmdaily.com/lord-of-the-mics-9-exclusive-footage/" target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+                      Release context <ExternalLink size={13} className="inline" />
+                    </a>
+                  )}
                 </p>
               </div>
 
@@ -68,8 +87,8 @@ export default function LordOfTheMicsPage() {
                         <th className="px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:px-6">Series</th>
                         <th className="px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:px-6">Battle</th>
                         <th className="hidden px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:table-cell md:px-6">Date</th>
-                        <th className="hidden px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:table-cell md:px-6">Views</th>
-                        <th className="px-3 py-4 text-right text-xs font-semibold tracking-wide text-zinc-400 md:px-6 md:text-left">Status</th>
+                        <th className="hidden px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:table-cell md:px-6">Status</th>
+                        <th className="px-3 py-4 text-right text-xs font-semibold tracking-wide text-zinc-400 md:px-6 md:text-left">Recording</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-white/5">
@@ -86,13 +105,13 @@ export default function LordOfTheMicsPage() {
                           <td className="hidden px-3 py-4 text-xs text-zinc-400 md:table-cell md:px-6">
                             {formatLotmDate(battle.date)}
                           </td>
-                          <td className="hidden px-3 py-4 font-mono text-xs text-zinc-100 md:table-cell md:px-6">
-                            <span className="text-brand">•</span> {formatLotmViews(battle.views)}
-                          </td>
+                          <td className="hidden px-3 py-4 text-xs text-zinc-400 md:table-cell md:px-6">{battle.statusNote}</td>
                           <td className="px-3 py-4 text-right md:px-6 md:text-left">
-                            <span className="inline-flex items-center rounded-full border border-brand/30 bg-brand/10 px-3 py-1.5 text-[10px] font-bold text-brand">
-                              Catalogued
-                            </span>
+                            {battle.videoUrl ? (
+                              <a href={battle.videoUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand hover:text-white" aria-label={`Watch source for ${battle.title}`}>
+                                {battle.statusNote === "Full DVD upload" ? "Full DVD" : "Watch"} <ExternalLink size={14} />
+                              </a>
+                            ) : <span className="text-xs text-zinc-500">Not verified</span>}
                           </td>
                         </tr>
                       ))}
