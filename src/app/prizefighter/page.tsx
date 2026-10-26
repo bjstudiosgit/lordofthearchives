@@ -1,8 +1,9 @@
 import { formatBattleDate } from "../../data/battleDates";
 import Link from "next/link";
 import BattleRow from "../talk-is-cheap/BattleRow";
-import { getArchiveMcHref, getArchiveMcName } from "../../data/archiveMcProfiles";
-import { getPrizefighterBattleSlug, prizefighterEditions } from "../../data/prizefighter";
+import { getArchiveMcHref, getArchiveMcId, getArchiveMcName } from "../../data/archiveMcProfiles";
+import { Trophy } from "lucide-react";
+import { getPrizefighterBattleSlug, prizefighterEditions, prizefighterClashData } from "../../data/prizefighter";
 
 export const metadata = {
   title: "Ozone Prizefighter | Lord of the Archives",
@@ -11,7 +12,6 @@ export const metadata = {
 };
 
 export default function PrizefighterPage() {
-  const battleCount = prizefighterEditions.reduce((total, edition) => total + edition.battles.length, 0);
   return (
     <main className="min-h-screen bg-zinc-950 pb-24 pt-32 text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -23,15 +23,6 @@ export default function PrizefighterPage() {
           Classic radio clashes, DVD battles and the Ozone tournament seasons. Explore the matchups, rounds and recording availability below.
           {" "}Dates show YouTube publication dates where available; otherwise the event year is shown.
         </p>
-        <p className="mt-6 text-sm font-semibold text-brand">
-          {battleCount} battles catalogued
-        </p>
-        <nav aria-label="Prizefighter eras" className="mt-6 flex flex-wrap gap-3">
-          <Link href="/prizefighter/league" className="py-2 text-sm text-brand hover:underline">League table</Link>
-          {["Ozone", "Classic"].map((era) => (
-            <a key={era} href={`#${era.toLowerCase()}`} className="py-2 text-sm text-zinc-300 transition-colors hover:text-brand hover:underline">{era}</a>
-          ))}
-        </nav>
 
         {["Ozone", "Classic"].map((era) => (
           <section key={era} id={era.toLowerCase()} className="mt-14 scroll-mt-32">
@@ -55,7 +46,11 @@ export default function PrizefighterPage() {
                           </tr>
                         </thead>
                         <tbody className="divide-y divide-white/5">
-                          {edition.battles.map((battle, index) => (
+                          {edition.battles.map((battle, index) => {
+                            const clashData = prizefighterClashData[getPrizefighterBattleSlug(edition, battle)];
+                            const isArchived = Boolean(clashData?.clashSummary?.trim());
+                            const winnerId = clashData?.winner ? getArchiveMcId(clashData.winner) : undefined;
+                            return (
                             <BattleRow key={index} href={`/prizefighter/${getPrizefighterBattleSlug(edition, battle)}`}>
                               <td className="px-4 py-5 text-sm text-brand md:px-6">
                                 <Link href={`/prizefighter/${getPrizefighterBattleSlug(edition, battle)}`} className="hover:underline">{index + 1}</Link>
@@ -65,7 +60,7 @@ export default function PrizefighterPage() {
                                   {[battle.side1, battle.side2].map((side, index) => (
                                     <span key={index} className="contents">
                                       {index > 0 && <Link href={`/prizefighter/${getPrizefighterBattleSlug(edition, battle)}`} className="text-xs font-normal uppercase text-zinc-500 hover:text-brand">vs</Link>}
-                                      <span>{side.split(" / ").map((name, nameIndex) => <span key={name}>{nameIndex > 0 && " / "}<Link href={getArchiveMcHref(name)} className="hover:text-brand hover:underline">{getArchiveMcName(name)}</Link></span>)}</span>
+                                      <span>{side.split(" / ").map((name, nameIndex) => <span key={name}>{nameIndex > 0 && " / "}<Link href={getArchiveMcHref(name)} className="hover:text-brand hover:underline">{winnerId === getArchiveMcId(name) && <Trophy size={14} aria-label="Winner" className="mr-1 inline text-brand" />}{getArchiveMcName(name)}</Link></span>)}</span>
                                     </span>
                                   ))}
                                 </div>
@@ -73,10 +68,11 @@ export default function PrizefighterPage() {
                               <td className="whitespace-nowrap px-4 py-5 text-xs text-zinc-400 md:px-6" title={battle.releaseDate ? "YouTube publication date" : "Event year"}>{battle.releaseDate ? formatBattleDate(battle.releaseDate) : edition.year || "—"}</td>
                               <td className="px-4 py-5 font-mono text-xs text-zinc-400 md:px-6" aria-label="Views unavailable">—</td>
                               <td className="px-4 py-5 md:px-6">
-                                <span className="text-xs md:text-sm font-semibold text-brand">{battle.videoId ? "Watch now" : "Catalogued"}</span>
+                                <span className={`text-xs md:text-sm font-semibold ${isArchived ? "text-emerald-300" : "text-brand"}`}>{isArchived ? "Indexed" : "Added"}</span>
                               </td>
                             </BattleRow>
-                          ))}
+                            );
+                          })}
                         </tbody>
                       </table>
                     </div>

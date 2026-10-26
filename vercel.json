@@ -4,6 +4,8 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "routes": [
+    { "src": "/battle/footsievsscratchy(?:\\.html)?", "status": 308, "headers": { "Location": "/lord-of-the-mics/footsie-vs-scratchy" } },
+    { "src": "/battle/kanovswiley(?:\\.html)?", "status": 308, "headers": { "Location": "/lord-of-the-mics/kano-vs-wiley" } },
     { "handle": "filesystem" },
     { "src": "/battle/dyzzvsjynx", "status": 308, "headers": { "Location": "/pengame" } },
     { "src": "/battle/skamzvsfdon2(?:\\.html)?", "status": 308, "headers": { "Location": "/battle/fdonvsskamz2" } },

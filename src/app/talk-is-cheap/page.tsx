@@ -21,7 +21,7 @@ export const metadata = {
   title: "Talk Is Cheap Battle Catalog | Lord of the Archives",
   description: "A first catalog of Talk Is Cheap grime clashes with links to the league's original video uploads.",
   alternates: { canonical: "https://www.lordofthearchives.co.uk/talk-is-cheap" },
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 
 export default function TalkIsCheapPage() {

@@ -13,8 +13,10 @@ const aliases: Record<string, string> = {
   "Roman (Fergz)": "ROMAN",
   "Swiftzz": "Swiftz",
   "Flawzz": "Flawz",
-  "Trickyy": "TRICKY",
+  "Tricky": "Trickyy",
   "Z,K": "Z.K",
+  "RP": "TheRealRP",
+  "Korrupt": "Korrupt Citizen",
 };
 export const getArchiveMcName = (name: string) => {
   const alias = Object.entries(aliases).find(([variant]) => normalize(variant) === normalize(name));
@@ -76,6 +78,9 @@ const catalogueBattles: ArchiveBattle[] = [
   })),
   ...prizefighterBattles.map((battle): ArchiveBattle => {
     const sides = [battle.side1.split(" / "), battle.side2.split(" / ")];
+    const winner = battle.winner
+      ? sides.flat().find((name) => getArchiveMcId(name) === getArchiveMcId(battle.winner!))
+      : undefined;
     return {
       id: `pf-${battle.slug}`,
       names: [...new Set(sides.flat())],
@@ -87,7 +92,8 @@ const catalogueBattles: ArchiveBattle[] = [
       archiveHref: "/prizefighter",
       battleHref: `/prizefighter/${battle.slug}`,
       videoUrl: battle.videoId ? `https://www.youtube.com/watch?v=${battle.videoId}` : undefined,
-      note: "Result not recorded",
+      winner,
+      note: battle.judgementSummary?.verdict ?? (winner ? `${getArchiveMcName(winner)} wins` : "Result not recorded"),
     };
   }),
 ];

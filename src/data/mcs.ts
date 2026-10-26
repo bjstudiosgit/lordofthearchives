@@ -969,7 +969,7 @@ export const mcs: MC[] = [
   {
     "id": "rp",
     "slug": "rp",
-    "name": "RP",
+    "name": "TheRealRP",
     "battles": 2,
     "wins": 0,
     "losses": 0,
@@ -1144,7 +1144,7 @@ const academyMcProfiles = [
   ["wizdom", "WIZDOM"],
   ["jayceii", "JAYCEII"],
   ["elz", "ELZ"],
-  ["trickyy", "TRICKY"],
+  ["trickyy", "Trickyy"],
   ["ritchie-rich", "RITCHIE RICH"],
   ["jase", "JASE"],
   ["shelton", "SHELTON"],

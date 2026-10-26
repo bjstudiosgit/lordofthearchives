@@ -147,5 +147,106 @@ export const lordOfTheMicsClashData: Record<string, LordOfTheMicsClashRecord> = 
       "verdict": "DRAW (LOTA Result)",
       "summary": "Kano vs Wiley is scored as a historic, immortal draw. In the foundational clash of Grime culture, 19-year-old Kano proved he was ready for the throne by matching the genre's creator with breathtaking speed, technical precision, and timeless anthems like 'Not Kano!' and the 'omelette' punchline. Wiley proved his untouchable status as Grime's chief architect, flowing with effortless swagger across 'Beats without bass', 'Lamppost to lamppost', and his 'E-S-K-I-M-O' finale. Neither titan yielded an inch, leaving both cemented as legends of UK music."
     }
+  },
+  "footsie-vs-scratchy": {
+    winner: "draw",
+    resultSource: "lota",
+    battlePageEnabled: true,
+    views: "850k",
+    host: "Jammer (Lord of the Mics)",
+    clashSummary: "FOOTSIE and SCRATCHY squared off in one of the rawest, most personal, and culturally foundational clashes of Lord of the Mics 1 (2004). Set inside Jammer's infamous basement dungeon in Leytonstone, East London, the battle represented a heavyweight cross-borough clash of elite early Grime crews: Footsie representing the gritty, bass-heavy East London swagger of N.A.S.T.Y. Crew (and future Newham Generals alongside D Double E), against Scratchy Demus representing the frantic, lightning-fast cadences of Bow's Roll Deep Crew. Clashing on the cramped wooden staircase of Jammer's basement with the camera pushed inches from their faces, the two MCs delivered a relentless exhibition of underground warfare, trading iconic refrains and biting personal disses that became instant folklore.\n\nRound one exploded immediately with Scratchy unleashing what would become one of the most legendary battle hooks in UK urban music history: 'What's all this? I'm hearing all lies about me / Another body in a body bag you'll be / Killer man with my bare hands, you'll see / You can't fuck with Scratchy!' His hyperactive, high-pitched delivery caught the dungeon off guard, filling the room with manic urgency. Footsie stood his ground at the foot of the stairs, unfazed by the storm, and countered with crushing bass authority. Anchoring his feet and projecting his booming low-end voice, Footsie mocked Scratchy's untamed afro and eccentric energy, dropping his immortal spelling punchline: 'It's not D-A-T / I'll bang you in the head with the B-A-T!' that shook the room.\n\nRound two escalated into a hilariously cut-throat personal standoff. Perched up on the steps, Scratchy leaned into Footsie's physical features, firing off scathing 'big bait nose' bars and rapid war patterns, refusing to yield an inch of territory despite Footsie's intimidating physical frame. Footsie answered with unyielding Newham grit, reminding Scratchy that high-speed gibberish wouldn't save him from real street pressure, turning Scratchy's frantic flow against him and asserting that N.A.S.T.Y. Crew ruled the airwaves.\n\nRound three descended into an all-out close-quarters war of attrition. With Jammer hyping the boiling basement, Footsie pressed up onto the stairs, closing the physical distance until the two MCs were virtually nose-to-nose. Scratchy fired rapid-fire Roll Deep flows at point-blank range, relying on blistering stamina and sheer speed, while Footsie answered with thunderous, rhythmic blunt-force blows, using his signature cadence to command the room's energy.\n\nLord of the Archives scores the clash a historic DRAW. Scratchy provided the battle's most iconic hook with his immortal body-bag anthem and showcased sharper round-to-round consistency, while Footsie brought unmatched vocal presence, physical gravity, and devastating punchlines ('B-A-T'). Over two decades later, Footsie vs Scratchy remains the epitome of early Grime's raw, unfiltered, basement energy.",
+    performanceAnalysis: [
+      {
+        performer: "Footsie",
+        overview: "Footsie delivered a masterclass in vocal gravity, bass-heavy projection, and raw physical presence. Standing at the foot of the stairs, the future Newham General absorbed Scratchy's hyperactive barrage without flinching, using his deep, resonant tone to overpower his opponent's speed. His legendary 'B-A-T' spelling punchline and biting disses aimed at Scratchy's hair established the foundational template for Newham's menacing sound.",
+        lyricalThemes: "Physical intimidation; 'B-A-T' baseball bat threats; D-A-T rhyming structures; mocking Scratchy's messy hair and erratic demeanor; N.A.S.T.Y. Crew / Newham street dominance; low-frequency vocal power; close-quarters basement confrontation.",
+        keyTechnicalHighlights: [
+          {
+            title: "'B-A-T' Spelling Punchline",
+            description: "Footsie delivers the clash's most memorable punchline, contrasting 'D-A-T' with spelling out 'B-A-T' to deliver a blunt-force threat that resonated through the dungeon."
+          },
+          {
+            title: "Basement Staircase Intimidation",
+            description: "Using his imposing frame and deep vocal register, Footsie pressed into Scratchy's space on the stairs, proving that physical conviction can blunt rapid-fire technical speed."
+          },
+          {
+            title: "Bass-Heavy Low-End Cadence",
+            description: "Rather than attempting to match Scratchy's 140 BPM hyper-speed, Footsie slowed his pocket down to deliver rhythmic, heavy blows that cut cleanly over the instrumental."
+          }
+        ]
+      },
+      {
+        performer: "Scratchy",
+        overview: "Scratchy produced one of the most explosive, hyper-kinetic performances in early Grime history. Spitting from the wooden stairs with nervous, electric energy, he launched the battle with an immortal hook that echoed across UK playgrounds for a generation. His relentless tempo, sharp Roll Deep syncopation, and sharp-tongued personal jabs about Footsie's facial features kept the pressure at maximum intensity.",
+        lyricalThemes: "Immortal 'body in a body bag' hook; bare-hand combat; Roll Deep crew superiority; 'big bait nose' personal attacks; frantic high-cadence war dubs; refusing to back down from physical threats on the stairs.",
+        keyTechnicalHighlights: [
+          {
+            title: "Immortal 'Body Bag' Hook",
+            description: "Scratchy opens round one with his signature war refrain ('Another body in a body bag you'll be / Killer man with my bare hands, you'll see'), cementing one of the most famous hooks in Grime history."
+          },
+          {
+            title: "Personal Nose Jab Counter-Offense",
+            description: "After Footsie mocked his hair, Scratchy immediately pivoted in round two to mock Footsie's 'big bait nose', demonstrating quick-witted clash instinct under pressure."
+          },
+          {
+            title: "Relentless High-Cadence Delivery",
+            description: "Scratchy maintained an extraordinary words-per-minute rate throughout all three rounds, showcasing the rapid, skippy Bow E3 flow that defined Roll Deep's golden era."
+          }
+        ]
+      }
+    ],
+    notableBars: [
+      {
+        performer: "Scratchy",
+        theme: "Round 1 — Body Bag Anthem",
+        bar: "What's all this? I'm hearing all lies about me! Another body in a body bag you'll be! Killer man with my bare hands, you'll see! You can't fuck with Scratchy!",
+        explanation: "Scratchy's legendary opening salvo that instantly codified early Grime clashing, combining paranoia, lethal threats, and an infectious rhythmic bounce."
+      },
+      {
+        performer: "Footsie",
+        theme: "Round 1 — B-A-T Punchline",
+        bar: "It's not D-A-T! I'll bang you in the head with the B-A-T!",
+        explanation: "Footsie's iconic spelling rhyme, turning a simple acronym into a blunt physical weapon delivered with crushing East London vocal force."
+      },
+      {
+        performer: "Footsie",
+        theme: "Round 1 — Hair Diss",
+        bar: "Look at your hair, blud! You look like you just rolled out of bed trying to clash! Fix up your hair before you step to me!",
+        explanation: "Footsie immediately disarms Scratchy's aggressive pacing by roasting his wild, unkempt afro on camera."
+      },
+      {
+        performer: "Scratchy",
+        theme: "Round 2 — Big Bait Nose",
+        bar: "Talking about my hair? Look at your big bait nose! You're standing there breathing all the air out the basement with that big bait nose!",
+        explanation: "Scratchy fires back in round two with a hilarious personal attack on Footsie's facial appearance, igniting laughter and shock in the room."
+      },
+      {
+        performer: "Footsie",
+        theme: "Round 2 — Newham Pressure",
+        bar: "You're talking fast but you ain't saying nothing! We run East London, Newham Generals on the block, don't get flattened in this dungeon!",
+        explanation: "Footsie dismisses Scratchy's high-speed barrage as empty noise, asserting his borough authority and physical dominance."
+      },
+      {
+        performer: "Scratchy",
+        theme: "Round 3 — Roll Deep Warfare",
+        bar: "Step to the Scratchy get big air! Roll Deep in the building, we don't care! Bare hands or weapons, you won't survive round here!",
+        explanation: "Scratchy closes the clash by repping Roll Deep's undisputed dominance over the early 2000s pirate radio landscape."
+      }
+    ],
+    oddMoments: [
+      "The entire clash was staged awkwardly on Jammer's narrow basement staircase, with Scratchy clinging to the banister on the higher steps while Footsie towered up from the lower landing.",
+      "The battle devolved into an absurdly personal aesthetic roast in round two, as Footsie relentlessly mocked Scratchy's hair while Scratchy fired back with 'big bait nose' jabs.",
+      "Jammer had his handheld camcorder pressed within inches of both MCs' foreheads, capturing sweat dripping in the unventilated Leytonstone cellar."
+    ],
+    coolMoments: [
+      "Scratchy unleashing the immortal 'What's all this? I'm hearing all lies about me / Another body in a body bag you'll be' opening hook, which became one of Grime's most recited battle bars.",
+      "Footsie's thunderous delivery of 'It's not D-A-T / I'll bang you in the head with the B-A-T!', matching Scratchy's speed with raw physical intimidation.",
+      "The fierce, nose-to-nose 8-bar trading on the staircase in round three, encapsulating the purest essence of Lord of the Mics 1."
+    ],
+    postBattleContext: "Recorded in 2004 for the inaugural Lord of the Mics DVD, Footsie vs Scratchy became one of the most culturally revered clashes in UK Grime history. Footsie went on to form the iconic Newham Generals with D Double E, becoming one of Grime's premier producers and most respected MCs. Scratchy solidified his place as a core pillar of Roll Deep, continuing to release music and tour internationally. The clash is celebrated as a quintessential showcase of early Grime's raw energy, personal humour, and dungeon authenticity.",
+    judgementSummary: {
+      "verdict": "DRAW (LOTA Result)",
+      "summary": "Footsie vs Scratchy is ruled a historic draw. Scratchy delivered one of the most iconic hooks in Grime history with his immortal 'body bag' opening and maintained a relentless, rapid-fire cadence throughout the battle. Footsie countered with undeniable physical presence, booming bass-heavy projection, and lethal punchlines including his famous 'B-A-T' sequence. With both MCs showcasing opposing but equally potent styles of early Grime warfare, LOTA scores this classic dungeon clash as an enduring dead heat."
+    }
   }
 };

@@ -4,6 +4,8 @@ import { gzoneBattles } from "../data/gzone";
 import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
 import { allMcs, hasIndexableMcProfile } from "../data/mcs";
 import { hasCompletedBattleAnalysis } from "../data/battleTypes";
+import { getTalkIsCheapBattleSlug, getTalkIsCheapClashData, talkIsCheapSeries } from "../data/talkIsCheap";
+import { prizefighterBattles } from "../data/prizefighter";
 
 const SITE_URL = "https://www.lordofthearchives.co.uk";
 
@@ -29,6 +31,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/gzone`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/gzone/league`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/lord-of-the-mics`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/talk-is-cheap`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/prizefighter`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/prizefighter/league`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE_URL}/lota-league`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/peoples-vote`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/mcs`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.9 },
@@ -43,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  const battlePages: MetadataRoute.Sitemap = [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles]
+  const battlePages: MetadataRoute.Sitemap = [...pengameBattles, ...gzoneBattles]
     .filter(hasCompletedBattleAnalysis)
     .map((battle) => ({
       url: `${SITE_URL}${getBattleHref(battle)}`,
@@ -51,6 +56,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     }));
+
+  const archiveBattlePages: MetadataRoute.Sitemap = [
+    ...lordOfTheMicsBattles.filter(hasCompletedBattleAnalysis).map((battle) => ({
+      path: `/lord-of-the-mics/${battle.slug}`, date: battle.date,
+    })),
+    ...talkIsCheapSeries.flatMap((series) => series.battles.flatMap(([mc1, mc2]) => {
+      const slug = getTalkIsCheapBattleSlug(mc1, mc2);
+      return getTalkIsCheapClashData(slug)?.clashSummary?.trim()
+        ? [{ path: `/talk-is-cheap/${slug}`, date: series.date }]
+        : [];
+    })),
+    ...prizefighterBattles.filter((battle) => battle.clashSummary?.trim()).map((battle) => ({
+      path: `/prizefighter/${battle.slug}`, date: battle.releaseDate,
+    })),
+  ].map(({ path, date }) => ({
+    url: `${SITE_URL}${path}`,
+    lastModified: getLastModified(date),
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
 
   const mcPages: MetadataRoute.Sitemap = allMcs
     .filter(hasIndexableMcProfile)
@@ -62,6 +87,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
   return [...new Map(
-    [...staticPages, ...battlePages, ...mcPages].map((entry) => [entry.url, entry]),
+    [...staticPages, ...battlePages, ...archiveBattlePages, ...mcPages].map((entry) => [entry.url, entry]),
   ).values()];
 }

@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import {
   findBattleByRouteSlug,
   getBattleHref,
@@ -68,6 +68,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!battle || !hasBattlePage(battle)) {
     return { title: 'Battle Not Found' };
   }
+
+  if (battle.theme === "lotm") {
+    return {
+      title: `${battle.title} | Lord of the Mics`,
+      alternates: { canonical: `${SITE_URL}/lord-of-the-mics/${battle.slug}` },
+    };
+  }
   
   const mc1 = allMcs.find(m => m.id === battle.mc1);
   const mc2 = allMcs.find(m => m.id === battle.mc2);
@@ -119,6 +126,8 @@ export default async function BattlePage({ params }: Props) {
   if (!battle || !hasBattlePage(battle)) {
     notFound();
   }
+
+  if (battle.theme === "lotm") permanentRedirect(`/lord-of-the-mics/${battle.slug}`);
 
   const mc1 = allMcs.find(m => m.id === battle.mc1);
   const mc2 = allMcs.find(m => m.id === battle.mc2);

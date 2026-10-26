@@ -113,7 +113,7 @@ export default function LordOfTheMicsPage() {
                           </td>
                           <td className="px-2 py-3 md:px-6 md:py-6 text-right md:text-left">
                             <span className={`text-xs md:text-sm font-semibold tracking-wide ${battle.clashSummary?.trim() ? "text-emerald-300" : "text-brand"}`}>
-                              {battle.clashSummary?.trim() ? "Indexed" : "Catalogued"}
+                              {battle.clashSummary?.trim() ? "Archived" : "Catalogued"}
                             </span>
                           </td>
                         </BattleRow>

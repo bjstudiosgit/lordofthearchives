@@ -1,5 +1,8 @@
 import { prizefighterVideos } from "./prizefighterVideos";
 import releaseDates from "./prizefighterReleaseDates.json";
+import { prizefighterClashData, type PrizefighterClashRecord } from "./prizefighterClashData";
+
+export * from "./prizefighterClashData";
 
 const videoReleaseDates: Record<string, { releaseDate: string }> = releaseDates;
 
@@ -39,6 +42,15 @@ const edition = (
 
 // Matchups and availability supplied for the archive. No results or recording URLs supplied.
 export const prizefighterEditions: PrizefighterEdition[] = [
+  edition("Classic", "Prizefighter 5", "2014", "Silk City Radio recording", [
+    ["Big Hypes", "Nitro Clack", "Clash 1"],
+    ["Iamone", "Statick", "Clash 2"],
+    ["F.O.S", "Jakus", "Clash 3"],
+    ["Suspect", "Tragicz", "Clash 4"],
+    ["Nitro Clack", "Iamone", "Clash 5"],
+    ["F.O.S", "Iamone", "Final"],
+    ["Iamone / F.O.S / Nitro Clack", "Big Hypes / Jakus", "Royal Rumble", "Multi-MC"],
+  ]),
   edition("Classic", "Prizefighter 8", "2015", "Radio audio", [
     ["Firedon", "Jay3", "Semi-final"],
     ["Psolja", "RdoubleG", "Semi-final"],
@@ -46,6 +58,9 @@ export const prizefighterEditions: PrizefighterEdition[] = [
   ]),
   edition("Classic", "Elite", "2015", "Radio audio", [
     ["Chucky", "Syco", "Unspecified"],
+  ]),
+  edition("Classic", "Prizefighter 1 Season 2", "2015", "Radio audio", [
+    ["Origin", "Haughton", "Opening round"],
   ]),
   edition("Classic", "Prizefighter 2", "2016", "Radio audio", [
     ["YB", "ZK", "Group 1"],
@@ -75,7 +90,6 @@ export const prizefighterEditions: PrizefighterEdition[] = [
     ["Deanoh / Trickyy", "Big Smokez / RGG Tech", "Rumble", "Multi-MC"],
   ]),
   edition("Ozone", "Season 2", "2024", "Original video or playlist", [
-    ["Origin", "Haughton", "Opening round"],
     ["Blxtz", "7wxve", "Opening round"],
     ["Grhymz", "Shelton", "Opening round"],
     ["ZK", "Big Smokez", "Opening round"],
@@ -95,13 +109,16 @@ export const prizefighterEditions: PrizefighterEdition[] = [
   ]),
   edition("Ozone", "Season 4", "2025", "Original video or playlist", [
     ["Korrupt Citizen", "7wxve", "Opening round"],
-    ["Arkay", "7wxve", "Round unverified"],
-    ["TheRealRP", "Ritchie Rich", "Round unverified"],
+    ["Jynx", "Ricko", "Opening round"],
+    ["TheRealRP", "Ritchie Rich", "Opening round"],
+    ["Arkay", "7wxve", "Semi-final"],
     ["TheRealRP", "Arkay", "Final"],
     ["Arkay / TheRealRP / 7wxve", "Jynx / Korrupt", "Rumble", "Multi-MC"],
   ]),
   edition("Ozone", "Season 6", "2025–26", "Official playlist", [
     ["AJ.L", "Myrikal", "Opening round"],
+    ["Flowen", "Kaizen", "Opening round"],
+    ["7wxve", "JMC", "Opening round"],
     ["Akzzey", "LC", "Opening round"],
     ["Flowen", "Akzzey", "Semi-final"],
     ["7wxve", "AJ.L", "Semi-final"],
@@ -110,12 +127,23 @@ export const prizefighterEditions: PrizefighterEdition[] = [
   ]),
 ];
 
+export const prizefighterBattleRedirects: Record<string, string> = {
+  "ozone-season-2-2024-origin-vs-haughton-opening-round": "classic-prizefighter-1-season-2-2015-origin-vs-haughton-opening-round",
+  "ozone-season-4-2025-arkay-vs-7wxve-round-unverified": "ozone-season-4-2025-arkay-vs-7wxve-semi-final",
+  "ozone-season-4-2025-therealrp-vs-ritchie-rich-round-unverified": "ozone-season-4-2025-therealrp-vs-ritchie-rich-opening-round",
+};
+
 export const prizefighterBattles = prizefighterEditions.flatMap((edition) =>
-  edition.battles.map((battle) => ({
-    ...battle,
-    era: edition.era,
-    edition: edition.edition,
-    year: edition.year,
-    slug: getPrizefighterBattleSlug(edition, battle),
-  })),
+  edition.battles.map((battle) => {
+    const slug = getPrizefighterBattleSlug(edition, battle);
+    const clashRecord = prizefighterClashData[slug] ?? {};
+    return {
+      ...battle,
+      era: edition.era,
+      edition: edition.edition,
+      year: edition.year,
+      slug,
+      ...clashRecord,
+    };
+  }),
 );

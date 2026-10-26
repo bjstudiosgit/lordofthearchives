@@ -1,9 +1,23 @@
-"use client";
-import { motion } from "motion/react";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+import { pengameBattles } from "../data/pengameBattles";
+import { gzoneBattles } from "../data/gzone";
+import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
+import { prizefighterBattles } from "../data/prizefighter";
+import { talkIsCheapSeries } from "../data/talkIsCheap";
+
+const archives = [
+  { name: "PenGame", href: "/pengame", count: pengameBattles.length },
+  { name: "Gzone", href: "/gzone", count: gzoneBattles.length },
+  { name: "Lord of the Mics", href: "/lord-of-the-mics", count: lordOfTheMicsBattles.length },
+  { name: "Talk Is Cheap", href: "/talk-is-cheap", count: talkIsCheapSeries.reduce((total, series) => total + series.battles.length, 0) },
+  { name: "Prizefighter", href: "/prizefighter", count: prizefighterBattles.length },
+];
 
 export default function IntroVideo() {
+  const indexedBattleCount = archives.reduce((total, archive) => total + archive.count, 0);
   return (
-    <section className="relative w-full bg-black min-h-[70vh] overflow-hidden flex items-center z-30 border-b border-brand/30">
+    <section aria-labelledby="hero-heading" className="relative isolate w-full overflow-hidden border-b border-brand/20 bg-black">
       {/* Cinematic Overlays */}
       <div className="absolute inset-0 z-0">
         <picture className="absolute inset-0 block">
@@ -21,7 +35,7 @@ export default function IntroVideo() {
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            className="absolute inset-0 h-full w-full object-cover object-[68%_center] brightness-125 contrast-110 sm:object-center"
+            className="absolute inset-0 h-full w-full object-cover object-[68%_center] opacity-50 contrast-110 sm:object-center sm:opacity-80"
           />
         </picture>
         <div className="absolute inset-0 bg-black/10 z-10" />
@@ -35,28 +49,38 @@ export default function IntroVideo() {
 
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
-      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-20 pt-32 sm:px-6 lg:px-8 lg:pb-24">
-        <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.2, duration: 0.8 }}
-          className="relative max-w-4xl border-l-4 border-brand py-2 pl-6 sm:pl-10"
-        >
-          <p className="mb-5 text-[10px] font-black uppercase tracking-[0.34em] text-brand sm:text-xs">
-            The UK Best Battle Rap Platform
+      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-8 pt-36 sm:px-6 sm:pt-44 lg:px-8 lg:pt-48">
+        <div className="max-w-3xl">
+          <p className="mb-6 flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-brand sm:text-xs">
+            <span aria-hidden="true" className="h-px w-10 bg-brand" /> The UK rap battle archive
           </p>
-          <h1 className="max-w-4xl font-display text-5xl italic uppercase leading-[0.9] tracking-tight text-white sm:text-6xl lg:text-7xl xl:text-8xl">
-            Every battle leaves a record. <span className="text-brand">We keep it.</span>
+          <h1 id="hero-heading" className="font-display text-[clamp(3.5rem,6.5vw,6.5rem)] italic uppercase leading-[0.98] tracking-tight text-white">
+            <span className="block">The battles.</span>
+            <span className="block">The bars.</span>
+            <span className="block text-brand">The history.</span>
           </h1>
-          <p className="mt-6 max-w-2xl text-sm leading-7 text-zinc-300 sm:text-base">
-            Explore connected battle pages, MC records, confirmed results and league standings across PenGame and
-            Gzone—built to make the culture easier to find, follow and remember.
+          <p className="mt-7 max-w-lg text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
+            Watch the clashes. Follow the MCs. Explore the results, rivalries and bars that make UK battle rap worth remembering.
           </p>
-        </motion.div>
+          <p className="mt-5 text-sm text-zinc-400">
+            <span className="font-medium tabular-nums">{indexedBattleCount.toLocaleString("en-GB")}</span>{" "}battles indexed
+          </p>
+        </div>
+
+        <nav id="hero-archives" aria-label="Choose a battle archive" className="mt-14 grid scroll-mt-28 grid-cols-2 border-t border-white/15 sm:mt-16 sm:grid-cols-3 lg:mt-20 lg:grid-cols-5">
+          {archives.map((archive) => (
+            <Link key={archive.href} href={archive.href} className="group min-w-0 border-b border-white/10 py-5 pr-4 transition-colors hover:bg-white/[0.03] focus-visible:outline-2 focus-visible:outline-brand lg:border-b-0 lg:py-6">
+              <span className="mb-3 block font-mono text-xs text-brand">{archive.count.toLocaleString("en-GB")} battles</span>
+              <span className="flex items-center gap-2 font-display text-lg uppercase italic text-white transition-colors group-hover:text-brand sm:text-xl">
+                {archive.name} <ArrowUpRight size={16} aria-hidden="true" className="shrink-0 text-zinc-500 transition-colors group-hover:text-brand" />
+              </span>
+            </Link>
+          ))}
+        </nav>
       </div>
 
       {/* Cinematic Vignette */}
-      <div className="absolute inset-0 shadow-[inset_0_0_200px_rgba(0,0,0,0.8)] pointer-events-none z-40" />
+      <div className="absolute inset-0 shadow-[inset_0_0_160px_rgba(0,0,0,0.5)] pointer-events-none z-20" />
       <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand/60 to-transparent z-40" />
     </section>
   );

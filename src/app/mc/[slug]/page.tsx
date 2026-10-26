@@ -13,7 +13,7 @@ type Props = {
 export const dynamicParams = false;
 
 const SITE_URL = "https://www.lordofthearchives.co.uk";
-const mergedProfileSlugs: Record<string, string> = { tricky: "trickyy", swiftzz: "swiftz", flawzz: "flawz" };
+const mergedProfileSlugs: Record<string, string> = { tricky: "trickyy", swiftzz: "swiftz", flawzz: "flawz", therealrp: "rp", korrupt: "korrupt-citizen" };
 
 export async function generateStaticParams() {
   return [...allMcs.map((mc) => ({ slug: mc.slug })), ...Object.keys(mergedProfileSlugs).map((slug) => ({ slug }))];
