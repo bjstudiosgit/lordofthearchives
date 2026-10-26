@@ -50,6 +50,34 @@ function replaceGzoneBattleViews(source: string, episode: string, views: string)
 }
 
 async function fetchViews() {
+  const talkIsCheapIndex = process.argv.indexOf("--talk-is-cheap");
+  if (talkIsCheapIndex !== -1) {
+    const videoIds = process.argv.slice(talkIsCheapIndex + 1);
+    if (!videoIds.length || videoIds.some((id) => !/^[\w-]{11}$/.test(id))) {
+      throw new Error("Provide valid video IDs after --talk-is-cheap");
+    }
+    const viewsPath = "src/data/talkIsCheapViews.json";
+    const stored: Record<string, number> = JSON.parse(fs.readFileSync(viewsPath, "utf8"));
+    let failed = false;
+    for (const videoId of videoIds) {
+      try {
+        const response = await fetch(`https://returnyoutubedislikeapi.com/votes?videoId=${videoId}`, { signal: AbortSignal.timeout(20000) });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const json = await response.json();
+        if (typeof json.viewCount !== "number" || !Number.isFinite(json.viewCount) || json.viewCount < 0) {
+          throw new Error("Missing or invalid view count");
+        }
+        stored[videoId] = json.viewCount;
+        console.log(`${videoId}: ${json.viewCount.toLocaleString("en-GB")} views`);
+      } catch (error) {
+        failed = true;
+        console.error(`${videoId}: ${error instanceof Error ? error.message : "Fetch failed"}`);
+      }
+    }
+    fs.writeFileSync(viewsPath, JSON.stringify(stored, null, 2) + "\n");
+    if (failed) process.exitCode = 1;
+    return;
+  }
   let pengameSource = fs.readFileSync(pengameBattlesPath, "utf8");
   let gzoneSource = fs.readFileSync(gzoneBattlesPath, "utf8");
   const today = new Date().toLocaleDateString("en-GB", {

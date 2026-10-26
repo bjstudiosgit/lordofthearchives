@@ -1,4 +1,9 @@
 // Matchups and video IDs checked against the league's own YouTube uploads.
+export * from "./talkIsCheapClashData";
+
+export const getTalkIsCheapBattleSlug = (mc1: string, mc2: string) =>
+  `${mc1}-vs-${mc2}`.replace(/Roman \(Fergz\)/g, "Fergz").toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
 export const talkIsCheapSeries = [
   {
     name: "Proving Grounds Part 2",
@@ -57,7 +62,7 @@ export const talkIsCheapSeries = [
     venue: "HiFi Club, Leeds",
     note: "Research identifies this rescheduled date; an earlier listing advertised 22 June at Eiger Studios.",
     battles: [
-      ["Callum Marcel", "Rygwan", "bevW-qD3zmw"],
+      ["Marcel", "Rygwan", "bevW-qD3zmw"],
       ["T-Zer", "Hytz", "XJlcXSvUb7s"],
       ["Swiftz", "Blxtz", "4_vJ4PqcqP8"],
       ["Dialect", "Tali", "Xlsmr001_rU"],
@@ -68,11 +73,11 @@ export const talkIsCheapSeries = [
     name: "Verbal Warning",
     date: "2019-02-23",
     venue: "Belgrave Music Hall, Leeds",
-    sourceUrl: "https://versetracker.com/events/talk-is-cheap-entertainment-verbal-warning",
+    showResearchSource: false,
     battles: [
-      ["Icey", "Fergz", "M99-b0VfqSw"],
-      ["Lady Shocker", "Badee Harz", "PNNUinZ87RI"],
       ["Zen", "Tantskii", "it5m1bz8jQQ"],
+      ["Lady Shocker", "Badee Harz", "PNNUinZ87RI"],
+      ["Icey", "Roman (Fergz)", "M99-b0VfqSw"],
     ],
   },
-] satisfies { name: string; date: string; venue: string; sourceUrl?: string; note?: string; battles: [string, string, string][] }[];
+] satisfies { name: string; date: string; venue: string; sourceUrl?: string; showResearchSource?: boolean; note?: string; battles: [string, string, string][] }[];

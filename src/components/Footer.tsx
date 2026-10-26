@@ -99,8 +99,8 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-6 text-zinc-400">
-              An independent UK rap battle archive connecting battles, MC profiles, results, league tables and detailed
-              research.
+              UK battle rap lives here. Watch the clashes, discover the MCs and explore the bars, rivalries and moments
+              that shaped the scene.
             </p>
             <div className="mt-6 flex gap-3">
               <a
@@ -159,21 +159,6 @@ export default function Footer() {
           <p>© 2026 Lord of the Archives. All rights reserved.</p>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
             <PrivacySettingsButton className="transition hover:text-zinc-300" />
-            <span className="text-zinc-700">Research tools</span>
-            <a href="https://openai.com" target="_blank" rel="noopener noreferrer" className="transition hover:text-zinc-300">
-              OpenAI
-            </a>
-            <a
-              href="https://notebooklm.google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition hover:text-zinc-300"
-            >
-              NotebookLM
-            </a>
-            <a href="https://www.nvidia.com" target="_blank" rel="noopener noreferrer" className="transition hover:text-zinc-300">
-              NVIDIA
-            </a>
             <a
               href="https://www.bjstudios.co.uk"
               target="_blank"

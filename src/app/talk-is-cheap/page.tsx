@@ -1,6 +1,13 @@
-import { ExternalLink, Play } from "lucide-react";
-import { talkIsCheapSeries } from "../../data/talkIsCheap";
+import Link from "next/link";
+import { getArchiveMcHref } from "../../data/archiveMcProfiles";
+import { Calendar, ExternalLink, Play } from "lucide-react";
+import { getTalkIsCheapBattleSlug, getTalkIsCheapClashData, talkIsCheapSeries } from "../../data/talkIsCheap";
 import { formatBattleDate } from "../../data/battleDates";
+import BattleRow from "./BattleRow";
+import talkIsCheapViews from "../../data/talkIsCheapViews.json";
+import { formatViewCount } from "../../data/viewCounts";
+
+const videoViews: Record<string, number> = talkIsCheapViews;
 
 export const metadata = {
   title: "Talk Is Cheap Battle Catalog | Lord of the Archives",
@@ -37,7 +44,7 @@ export default function TalkIsCheapPage() {
                   <a href={series.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
                     Event source <ExternalLink size={13} className="inline" />
                   </a>
-                ) : <span className="text-zinc-500">Date from supplied research</span>}
+                ) : series.showResearchSource !== false && <span className="text-zinc-500">Date from supplied research</span>}
                 {"note" in series && series.note && <span className="mt-1 block text-zinc-500">{series.note}</span>}
               </p>
               <div className="overflow-hidden rounded-3xl border border-white/5 bg-zinc-900/20">
@@ -45,43 +52,54 @@ export default function TalkIsCheapPage() {
                   <table className="w-full border-collapse text-left">
                     <thead>
                       <tr className="border-b border-white/5 bg-zinc-900/40">
-                        <th className="px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:px-6">No.</th>
-                        <th className="px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:px-6">Battle</th>
-                        <th className="hidden px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:table-cell md:px-6">Event date</th>
-                        <th className="hidden px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:table-cell md:px-6">Status</th>
-                        <th className="px-3 py-4 text-right text-xs font-semibold tracking-wide text-zinc-400 md:px-6 md:text-left">Video</th>
+                        <th className="px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400">Ep</th>
+                        <th className="px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400">Battle</th>
+                        <th className="hidden md:table-cell px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400">Date</th>
+                        <th className="hidden md:table-cell px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400">Views</th>
+                        <th className="px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400 text-right md:text-left">Status</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-white/5">
-                      {series.battles.map(([mc1, mc2, videoId], index) => (
-                        <tr key={videoId} className="transition-colors hover:bg-white/5">
-                          <td className="px-3 py-4 font-mono text-xs text-brand md:px-6">{index + 1}</td>
-                          <td className="px-3 py-4 md:px-6">
-                            <div className="flex flex-wrap items-center gap-2 text-sm font-semibold uppercase italic text-zinc-300 md:text-lg">
-                              <span>{mc1}</span>
-                              <span className="text-xs text-zinc-500">VS</span>
-                              <span>{mc2}</span>
-                            </div>
-                          </td>
-                          <td className="hidden px-3 py-4 text-xs text-zinc-400 md:table-cell md:px-6">{formatBattleDate(series.date)}</td>
-                          <td className="hidden px-3 py-4 md:table-cell md:px-6">
-                            <span className="inline-flex items-center rounded-full border border-brand/30 bg-brand/10 px-3 py-1.5 text-[10px] font-bold text-brand">
-                              Catalogued
-                            </span>
-                          </td>
-                          <td className="px-3 py-4 text-right md:px-6 md:text-left">
-                            <a
-                              href={`https://www.youtube.com/watch?v=${videoId}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand hover:text-white"
-                              aria-label={`Watch ${mc1} vs ${mc2} on YouTube`}
-                            >
-                              Watch <ExternalLink size={14} />
-                            </a>
-                          </td>
-                        </tr>
-                      ))}
+                      {series.battles.map(([mc1, mc2, videoId], index) => {
+                        const slug = getTalkIsCheapBattleSlug(mc1, mc2);
+                        const clashData = getTalkIsCheapClashData(slug);
+                        const isArchived = clashData?.archiveStatus === "complete";
+
+                        return (
+                          <BattleRow key={videoId} href={`/talk-is-cheap/${slug}`}>
+                            <td className="px-2 py-3 md:px-6 md:py-6">
+                              <Link href={`/talk-is-cheap/${slug}`} className="font-mono text-brand text-[10px] md:text-sm hover:underline" aria-label={`Watch ${mc1} vs ${mc2}`}>
+                                {index + 1}
+                              </Link>
+                            </td>
+                            <td className="px-2 py-3 md:px-6 md:py-6">
+                              <div className="flex flex-wrap items-center gap-1.5 md:gap-3 text-sm font-semibold text-zinc-100 md:text-lg group-hover:text-brand transition-colors">
+                                <Link href={getArchiveMcHref(mc1)} className="hover:text-brand hover:underline">{mc1}</Link>
+                                <Link href={`/talk-is-cheap/${slug}`} className="text-[10px] md:text-sm text-zinc-400 hover:text-brand" aria-label={`Watch ${mc1} vs ${mc2}`}>VS</Link>
+                                <Link href={getArchiveMcHref(mc2)} className="hover:text-brand hover:underline">{mc2}</Link>
+                              </div>
+                            </td>
+                            <td className="hidden md:table-cell px-2 py-3 md:px-6 md:py-6">
+                              <div className="flex items-center gap-2 text-zinc-400 text-xs"><Calendar size={14} className="opacity-50" />{formatBattleDate(series.date)}</div>
+                            </td>
+                            <td className="hidden md:table-cell px-2 py-3 md:px-6 md:py-6">
+                              <div className="flex items-center gap-2 text-zinc-100 font-mono text-xs" aria-label={videoViews[videoId] === undefined ? "Views unavailable" : `${videoViews[videoId].toLocaleString("en-GB")} views`}><span className="w-1 h-1 rounded-full bg-brand/50" />{formatViewCount(videoViews[videoId], "—")}</div>
+                            </td>
+                            <td className="px-2 py-3 md:px-6 md:py-6 text-right md:text-left">
+                              {isArchived ? (
+                                <span className="inline-flex items-center gap-1.5 px-2 py-0.5 md:px-3 md:py-1 rounded-full text-[8px] md:text-[10px] font-semibold tracking-wide bg-brand/20 text-brand border border-brand/40 shadow-[0_0_12px_rgba(255,215,0,0.15)]">
+                                  <span className="w-1.5 h-1.5 rounded-full bg-brand animate-pulse" />
+                                  Archived
+                                </span>
+                              ) : (
+                                <span className="inline-flex items-center gap-1.5 px-2 py-0.5 md:px-3 md:py-1 rounded-full text-[8px] md:text-[10px] font-semibold tracking-wide bg-brand/10 text-brand border border-brand/20">
+                                  Catalogued
+                                </span>
+                              )}
+                            </td>
+                          </BattleRow>
+                        );
+                      })}
                     </tbody>
                   </table>
                 </div>

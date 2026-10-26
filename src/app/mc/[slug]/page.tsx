@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
-import { allMcs, hasIndexableMcProfile } from "../../../data/mcs";
+import { hasIndexableMcProfile } from "../../../data/mcs";
+import { allProfileMcs as allMcs, isCatalogueOnlyMc } from "../../../data/archiveMcProfiles";
 import McDetailClient from "./McDetailClient";
 
 type Props = {
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: url,
     },
-    robots: hasIndexableMcProfile(mc)
+    robots: !isCatalogueOnlyMc(mc.id) && hasIndexableMcProfile(mc)
       ? { index: true, follow: true }
       : { index: false, follow: true },
     openGraph: {

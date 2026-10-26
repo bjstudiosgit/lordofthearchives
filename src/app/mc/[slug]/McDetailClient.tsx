@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import McImage from "../../../components/McImage";
-import { allMcs } from "../../../data/mcs";
+import { allProfileMcs as allMcs, archiveMcBattles, isCatalogueOnlyMc } from "../../../data/archiveMcProfiles";
 import { formatBattleDate, parseBattleDate } from "../../../data/battleDates";
 import { gzoneBattles } from "../../../data/gzone";
 import {
@@ -84,6 +84,24 @@ export default function McDetailClient({ slug }: { slug: string }) {
     )
     .sort((a, b) => (parseBattleDate(b.date) ?? 0) - (parseBattleDate(a.date) ?? 0));
 
+  const catalogueEntries = archiveMcBattles.filter((battle) => battle.participants.includes(mc.id));
+  const catalogueById = new Map(catalogueEntries.map((battle) => [battle.id, battle]));
+  const battleHistory: Battle[] = [
+    ...mcBattles,
+    ...catalogueEntries.map((battle): Battle => ({
+      id: battle.id,
+      slug: battle.id,
+      mc1: battle.participants[0],
+      mc2: battle.participants[1],
+      title: battle.names.join(" vs "),
+      date: battle.date,
+      theme: battle.event,
+      season: "Archive",
+      videoUrl: battle.videoUrl,
+    })),
+  ].sort((a, b) => (parseBattleDate(b.date) ?? 0) - (parseBattleDate(a.date) ?? 0));
+
+  const catalogueOnly = isCatalogueOnlyMc(mc.id);
   const wins = mc.wins;
   const losses = mc.losses;
   const draws = mcBattles.filter(
@@ -113,6 +131,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
   };
 
   const getOutcome = (battle: Battle) => {
+    if (catalogueById.has(battle.id)) return "UNREVIEWED";
     if (!isLeagueEligibleBattle(battle)) return "UPCOMING";
     if (!hasOfficialBattleResult(battle)) return "NO RESULT";
     return getBattleWinners(battle).includes(mc.id) ? "WIN" : "LOSS";
@@ -161,8 +180,8 @@ export default function McDetailClient({ slug }: { slug: string }) {
 
               {/* Battle Record Badge */}
               <div className="absolute bottom-8 right-8 w-20 h-20 bg-brand rounded-full flex flex-col items-center justify-center text-black shadow-[0_0_30px_rgba(242,125,38,0.4)]">
-                <span className="text-[8px] font-black uppercase tracking-[0.25em] leading-none">W-L</span>
-                <span className="font-display text-2xl italic leading-none">{mc.wins}-{mc.losses}</span>
+                <span className="text-[8px] font-black uppercase tracking-[0.25em] leading-none">{catalogueOnly ? "ARCHIVE" : "W-L"}</span>
+                <span className="font-display text-2xl italic leading-none">{catalogueOnly ? mc.battles : `${mc.wins}-${mc.losses}`}</span>
               </div>
             </motion.div>
             <div className="mt-6 rounded-2xl border border-brand/20 bg-zinc-900/50 px-5 py-4 shadow-[0_0_24px_rgba(255,213,0,0.08)]">
@@ -172,7 +191,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 </div>
                 <div>
                   <p className="font-display italic text-3xl uppercase leading-none text-white">
-                    {formatViews(totalBattleViews)}
+                    {catalogueOnly ? "Not recorded" : formatViews(totalBattleViews)}
                   </p>
                   <p className="mt-1 text-[10px] font-black uppercase tracking-[0.25em] text-zinc-500">
                     Total battle views
@@ -272,11 +291,11 @@ export default function McDetailClient({ slug }: { slug: string }) {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
                 <StatBadge
                   icon={<Trophy size={14} />}
-                  label={`${wins}-${losses}-${draws} RECORD`}
+                  label={catalogueOnly ? "RESULTS UNREVIEWED" : `${wins}-${losses}-${draws} RECORD`}
                   highlight
                 />
                 <StatBadge icon={<Zap size={14} />} label={`${battleCount} BATTLES`} />
-                <StatBadge icon={<Star size={14} />} label={`${totalPoints} POINTS`} />
+                {!catalogueOnly && <StatBadge icon={<Star size={14} />} label={`${totalPoints} POINTS`} />}
                 {unknownResults > 0 && <StatBadge icon={<Clock size={14} />} label={`${unknownResults} UNKNOWN`} />}
                 {unresolved > 0 && <StatBadge icon={<Clock size={14} />} label={`${unresolved} UNRESOLVED`} />}
                 {mc.weightClass && <StatBadge icon={<Scale size={14} />} label={mc.weightClass} />}
@@ -325,7 +344,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
               <div className="mb-16">
                 <h2 className="text-xs font-black uppercase tracking-[0.4em] text-zinc-500 mb-6 flex items-center gap-3">
                   <div className="w-1 h-4 bg-brand" />
-                  Biography
+                  {catalogueOnly ? "Archive profile" : "Biography"}
                 </h2>
                 <p className="text-zinc-400 text-lg leading-relaxed font-medium">{mc.bio}</p>
               </div>
@@ -337,13 +356,15 @@ export default function McDetailClient({ slug }: { slug: string }) {
                   Battle History
                 </h2>
                 <div className="space-y-4">
-                  {mcBattles.map((battle) => {
+                  {battleHistory.map((battle) => {
                     const { opponentTeam } = getBattleSides(battle);
                     const opponentId = opponentTeam[0];
                     const opponent = allMcs.find((m) => m.id === opponentId);
                     const opponentLabel = opponentTeam.map(getMcName).join(" & ") || "TBD";
                     const outcome = getOutcome(battle);
                     const battlePageAvailable = hasBattlePage(battle);
+                    const catalogueEntry = catalogueById.get(battle.id);
+                    const recordingUrl = catalogueEntry?.videoUrl;
                     const outcomeClass =
                       outcome === "WIN"
                         ? "bg-emerald-500/20 text-emerald-500"
@@ -383,17 +404,17 @@ export default function McDetailClient({ slug }: { slug: string }) {
                               <span className={`text-[10px] ${themeTextClass} font-black uppercase tracking-widest`}>
                                 {getEventLabel(battle)}
                               </span>
-                              <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
+                              {battle.views != null && <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
                                 {formatViewCount(battle.views)} views
-                              </span>
+                              </span>}
                               <span className="text-[10px] text-zinc-600 uppercase tracking-widest">
-                                {formatBattleDate(battle.date)}
+                                {catalogueEntry?.yearOnly ? battle.date?.slice(0, 4) : formatBattleDate(battle.date)}
                               </span>
                             </div>
                           </div>
                         </div>
                         <div className={`w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center ${themeHoverBgClass} group-hover:text-black transition-all shrink-0`}>
-                          {battlePageAvailable ? <Play size={16} fill="currentColor" /> : <Clock size={16} />}
+                          {battlePageAvailable || recordingUrl ? <Play size={16} fill="currentColor" /> : <Clock size={16} />}
                         </div>
                       </>
                     );
@@ -406,6 +427,17 @@ export default function McDetailClient({ slug }: { slug: string }) {
                       >
                         {battleCard}
                       </Link>
+                    ) : recordingUrl ? (
+                      <a
+                        key={battle.id}
+                        href={recordingUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`Watch ${battle.title}`}
+                        className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
+                      >
+                        {battleCard}
+                      </a>
                     ) : (
                       <div
                         key={battle.id}
