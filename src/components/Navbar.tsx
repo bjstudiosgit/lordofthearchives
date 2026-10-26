@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { motion } from "motion/react";
 import { Users, Trophy, Menu, X, Youtube, Play, Scale, Eye, Package, Newspaper } from "lucide-react";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 
 function TiktokIcon({ size = 24 }: { size?: number }) {
@@ -25,6 +25,40 @@ function TiktokIcon({ size = 24 }: { size?: number }) {
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const menuRef = React.useRef<HTMLDivElement>(null);
+  const firstFocusableRef = React.useRef<HTMLButtonElement>(null);
+
+  React.useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isOpen) {
+        setIsOpen(false);
+      }
+    };
+
+    const handleClickOutside = (e: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('keydown', handleEscape);
+      document.addEventListener('mousedown', handleClickOutside);
+      document.body.style.overflow = 'hidden';
+      // Focus first focusable element when menu opens
+      setTimeout(() => {
+        firstFocusableRef.current?.focus();
+      }, 0);
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.body.style.overflow = 'unset';
+    };
+  }, [isOpen]);
   const pathname = usePathname();
 
   const navGroups = [
@@ -172,6 +206,8 @@ export default function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
               className="text-brand border border-brand/30 bg-brand/10 hover:bg-brand hover:text-black rounded-xl p-2 transition-colors"
               aria-label={isOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isOpen}
+              aria-controls="mobile-menu"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -181,7 +217,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <motion.div 
+        <motion.div ref={menuRef} id="mobile-menu" role="dialog" aria-modal="true" 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           className="min-[1400px]:hidden border-t border-white/10 bg-black/95 rounded-b-2xl"
@@ -241,3 +277,6 @@ export default function Navbar() {
     </nav>
   );
 }
+
+
+

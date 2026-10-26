@@ -5,6 +5,7 @@ import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
 import { allMcs, hasIndexableMcProfile } from "../data/mcs";
 import { hasCompletedBattleAnalysis } from "../data/battleTypes";
 
+
 const SITE_URL = "https://www.lordofthearchives.co.uk";
 
 export const dynamic = "force-static";
@@ -35,6 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/hosts-judges`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE_URL}/news`, lastModified: currentDate, changeFrequency: 'daily', priority: 0.8 },
     { url: `${SITE_URL}/news/did-pengame-fall-off`, lastModified: new Date('2026-08-21'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE_URL}/talk-is-cheap`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
     ...['about', 'methodology', 'sources', 'corrections', 'contact', 'privacy', 'terms'].map((slug) => ({
       url: `${SITE_URL}/${slug}`,
       lastModified: currentDate,
