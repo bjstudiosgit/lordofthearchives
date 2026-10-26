@@ -1134,11 +1134,17 @@ export const mcs: MC[] = [
   }
 ];
 
+mcs.push({
+  id: "brandz", slug: "brandz", name: "BRANDZ",
+  battles: 0, wins: 0, losses: 0, style: "Unknown", image: "/brandz.png",
+  bio: "PenGame battler appearing in the 2026 archive.",
+});
+
 const academyMcProfiles = [
   ["wizdom", "WIZDOM"],
   ["jayceii", "JAYCEII"],
   ["elz", "ELZ"],
-  ["trickyy", "TRICKYY"],
+  ["trickyy", "TRICKY"],
   ["ritchie-rich", "RITCHIE RICH"],
   ["jase", "JASE"],
   ["shelton", "SHELTON"],

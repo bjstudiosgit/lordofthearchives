@@ -14,6 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        <meta name="google-adsense-account" content="ca-pub-2858435877591429" />
         <script
           id="google-consent-default"
           dangerouslySetInnerHTML={{

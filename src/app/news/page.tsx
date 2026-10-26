@@ -90,9 +90,9 @@ export default function NewsPage() {
                 the lifetime view figures of its biggest seasons. Here is what the public data can—and cannot—show.
               </p>
               <div className="mt-6 flex flex-wrap gap-3 text-[9px] font-black uppercase tracking-[0.16em] text-zinc-500">
-                <span className="rounded-full border border-white/10 px-3 py-1.5">Updated 21 Aug 2026</span>
-                <span className="rounded-full border border-white/10 px-3 py-1.5">4 min read</span>
-                <span className="rounded-full border border-white/10 px-3 py-1.5">News analysis</span>
+                <span className="text-zinc-400">Updated 21 Aug 2026</span>
+                <span className="text-zinc-400">4 min read</span>
+                <span className="text-zinc-400">News analysis</span>
               </div>
             </div>
             <span className="inline-flex items-center justify-center gap-2 rounded-xl bg-brand px-5 py-3 text-xs font-black uppercase tracking-[0.16em] text-black transition group-hover:bg-yellow-300">
@@ -117,7 +117,7 @@ export default function NewsPage() {
             <div className="relative grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
               <div>
                 <div className="flex flex-wrap items-center gap-3 text-[10px] font-black uppercase tracking-[0.18em]">
-                  <span className="rounded-full border border-brand/30 bg-brand/10 px-3 py-1.5 text-brand">
+                  <span className="text-brand">
                     {getPlatform(leadBattle)}
                   </span>
                   {leadBattle.customEp && <span className="text-zinc-500">{leadBattle.customEp}</span>}

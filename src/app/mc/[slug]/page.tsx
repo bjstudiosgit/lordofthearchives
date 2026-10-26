@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
-import { allMcs, hasIndexableMcProfile } from "../../../data/mcs";
+import { hasIndexableMcProfile } from "../../../data/mcs";
+import { allProfileMcs as allMcs, isCatalogueOnlyMc } from "../../../data/archiveMcProfiles";
 import McDetailClient from "./McDetailClient";
 
 type Props = {
@@ -12,9 +13,10 @@ type Props = {
 export const dynamicParams = false;
 
 const SITE_URL = "https://www.lordofthearchives.co.uk";
+const mergedProfileSlugs: Record<string, string> = { tricky: "trickyy", swiftzz: "swiftz", flawzz: "flawz" };
 
 export async function generateStaticParams() {
-  return allMcs.map((mc) => ({ slug: mc.slug }));
+  return [...allMcs.map((mc) => ({ slug: mc.slug })), ...Object.keys(mergedProfileSlugs).map((slug) => ({ slug }))];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -35,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: url,
     },
-    robots: hasIndexableMcProfile(mc)
+    robots: !isCatalogueOnlyMc(mc.id) && hasIndexableMcProfile(mc)
       ? { index: true, follow: true }
       : { index: false, follow: true },
     openGraph: {
@@ -58,6 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function McPage({ params }: Props) {
   const resolvedParams = await Promise.resolve(params);
+  if (mergedProfileSlugs[resolvedParams.slug]) permanentRedirect(`/mc/${mergedProfileSlugs[resolvedParams.slug]}`);
   const mc = allMcs.find((candidate) => candidate.slug === resolvedParams.slug);
 
   if (!mc) {

@@ -1,4 +1,4 @@
-import { ChevronRight, Crown, Eye, Trophy } from "lucide-react";
+import { ChevronRight, Eye } from "lucide-react";
 import Link from "next/link";
 import McImage from "./McImage";
 
@@ -23,9 +23,6 @@ export default function PeopleChampionCarousel({ leaders }: { leaders: PeopleCha
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-10">
           <div>
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-3 py-1 text-[10px] font-black uppercase tracking-[0.24em] text-brand">
-              <Crown size={14} /> The public decides
-            </div>
             <h2 className="font-display text-4xl italic uppercase leading-none text-white sm:text-5xl lg:whitespace-nowrap lg:text-[3.25rem] xl:text-6xl">
               Lord of the Archives <span className="text-brand">People&apos;s Champion</span>
             </h2>
@@ -57,11 +54,6 @@ export default function PeopleChampionCarousel({ leaders }: { leaders: PeopleCha
                 <div className="absolute left-5 top-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-brand/40 bg-black/80 font-display text-3xl italic text-brand backdrop-blur">
                   {mc.rank}
                 </div>
-                {mc.rank === 1 && (
-                  <div className="absolute right-5 top-5 flex items-center gap-2 rounded-full bg-brand px-3 py-2 text-[9px] font-black uppercase tracking-[0.16em] text-black">
-                    <Trophy size={13} /> Champion
-                  </div>
-                )}
                 <div className="absolute inset-x-0 bottom-0 p-6">
                   <p className="mb-2 text-[10px] font-black uppercase tracking-[0.24em] text-brand">
                     {mc.rank === 1 ? "Current People's Champion" : `People's League No. ${mc.rank}`}

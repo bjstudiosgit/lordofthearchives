@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Calendar, CheckCircle2, CircleDot, Eye, Play, Trophy } from "lucide-react";
+import BattleRow from "../talk-is-cheap/BattleRow";
+import { Calendar, CircleDot, Eye, Play, Trophy } from "lucide-react";
 import { formatBattleDate } from "../../data/battleDates";
 import { gzoneBattles } from "../../data/gzone";
 import { getMcProfileHref } from "../../data/mcs";
@@ -58,7 +59,7 @@ export default function GzonePage() {
               </h2>
             </div>
             <p className="max-w-4xl text-sm leading-relaxed text-zinc-400">
-              Season 1 features DEENO, TAPPED24, PR1NC3, ROMAN, LDN MIKEZ, DELUXX, CJ ZINO, PROTY, RENZO, BTIZZ, RYNO, TYMELESS, AJNA, NATTYEBK, GRAMS, 1FLAYMR, BADEE HARZ and Z.K.
+              Season 1 features DEENO, TAPPED24, PR1NC3, ROMAN, LDN MIKEZ, DELUXX, CJ ZINO, PROTY, RENZO, BTIZZ, RYNO, TYMELESS, AJNA, NATTYEBK, GRAMS, 1FLAYMR, BADEE HARZ, Z.K, 7WXVE and K.I.M.E.
             </p>
           </div>
           <div className="overflow-hidden rounded-3xl border border-white/5 bg-zinc-900/20">
@@ -78,7 +79,7 @@ export default function GzonePage() {
                     const analysisComplete = hasCompletedBattleAnalysis(battle);
 
                     return (
-                    <tr key={battle.id} className="transition-colors hover:bg-white/5">
+                    <BattleRow key={battle.id} href={analysisComplete ? getBattleRouteHref(battle) : battle.videoUrl ?? undefined}>
                       <td className="px-3 py-4 font-mono text-xs text-gzone md:px-6">
                         {analysisComplete ? (
                           <Link href={getBattleRouteHref(battle)} className="hover:underline">{battle.customEp}</Link>
@@ -111,16 +112,15 @@ export default function GzonePage() {
                         {formatViewCount(battle.views)}
                       </td>
                       <td className="px-3 py-4 text-right md:px-6 md:text-left">
-                        <span className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[10px] font-semibold uppercase tracking-wide ${
+                        <span className={`text-xs md:text-sm font-semibold uppercase tracking-wide ${
                           battle.statusNote === "Archived"
-                            ? "border-emerald-300/40 bg-emerald-400/15 text-emerald-300 shadow-[0_0_18px_rgba(52,211,153,0.12)]"
-                            : "border-gzone/30 bg-gzone/10 text-gzone"
+                            ? "text-emerald-300"
+                            : "text-gzone"
                         }`}>
-                          {analysisComplete && <CheckCircle2 size={12} />}
                           {analysisComplete ? battle.statusNote : "Catalogued"}
                         </span>
                       </td>
-                    </tr>
+                    </BattleRow>
                     );
                   })}
                 </tbody>

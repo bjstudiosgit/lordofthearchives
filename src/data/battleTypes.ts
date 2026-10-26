@@ -10,7 +10,10 @@ export interface Battle {
   title: string;
   displayTitle?: NullableString;
   date?: string;
+  dateType?: "upload";
+  membersOnly?: boolean;
   videoUrl?: NullableString;
+  battlePageEnabled?: boolean;
   views?: string | number | null;
   winner?: string;
   winner2?: string;
@@ -65,6 +68,9 @@ export const hasCompletedBattleAnalysis = (battle: Battle): boolean =>
   Boolean(
     battle.performanceAnalysis?.length &&
       battle.performanceAnalysis.every(
-        (analysis) => analysis.overview.trim() && analysis.lyricalThemes.trim(),
+        (analysis) => analysis.overview.trim() && (battle.theme === "gzone" || analysis.lyricalThemes.trim()),
       ),
   );
+
+export const hasBattlePage = (battle: Battle): boolean =>
+  battle.battlePageEnabled === true || hasCompletedBattleAnalysis(battle);

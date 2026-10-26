@@ -52,6 +52,21 @@ export default function Navbar() {
       ],
     },
     {
+      label: "Talk Is Cheap",
+      tone: "brand",
+      links: [
+        { name: "Archive", href: "/talk-is-cheap", icon: Play },
+      ],
+    },
+    {
+      label: "Prizefighter",
+      tone: "brand",
+      links: [
+        { name: "Archive", href: "/prizefighter", icon: Play },
+        { name: "League", href: "/prizefighter/league", icon: Trophy },
+      ],
+    },
+    {
       label: "Lord of the Archives",
       tone: "neutral",
       links: [
@@ -81,8 +96,8 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-3 pt-3 sm:px-6">
-      <div className="max-w-7xl mx-auto rounded-2xl border border-white/10 bg-black/75 shadow-[0_12px_40px_rgba(0,0,0,0.45)] backdrop-blur-xl">
-        <div className="flex items-center justify-between h-16 px-4 sm:px-6">
+      <div className="max-w-[90rem] mx-auto rounded-2xl border border-white/10 bg-black/75 shadow-[0_12px_40px_rgba(0,0,0,0.45)] backdrop-blur-xl">
+        <div className="flex items-center justify-between h-16 px-4">
           <div className="flex items-center shrink-0">
             <Link href="/" className="group flex items-center gap-2.5">
               <div className="w-9 h-9 bg-brand rounded-xl border border-yellow-200/60 flex items-center justify-center font-display text-xl text-black shadow-[0_0_22px_rgba(255,215,0,0.22)] transition-transform group-hover:-rotate-3">L</div>
@@ -95,12 +110,12 @@ export default function Navbar() {
             </Link>
           </div>
           
-          <div className="hidden xl:block">
-            <div className="ml-4 flex items-center gap-4">
+          <div className="hidden min-[1400px]:block">
+            <div className="ml-4 flex items-center gap-1">
               {navGroups.map((group) => (
                 <div key={group.label} className="flex flex-col gap-1">
                   <div
-                    className={`px-2 text-[9px] font-black uppercase tracking-[0.22em] ${
+                    className={`whitespace-nowrap px-2 text-[9px] font-black uppercase tracking-[0.22em] ${
                       group.tone === "gzone" ? "text-gzone" : group.tone === "brand" ? "text-brand" : "text-zinc-500"
                     }`}
                   >
@@ -160,7 +175,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <div className="xl:hidden">
+          <div className="min-[1400px]:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-brand border border-brand/30 bg-brand/10 hover:bg-brand hover:text-black rounded-xl p-2 transition-colors"
@@ -177,7 +192,7 @@ export default function Navbar() {
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="xl:hidden border-t border-white/10 bg-black/95 rounded-b-2xl"
+          className="min-[1400px]:hidden border-t border-white/10 bg-black/95 rounded-b-2xl"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navGroups.map((group) => (

@@ -1,7 +1,21 @@
-import { Play, Search } from "lucide-react";
+import Link from "next/link";
+import BattleRow from "../talk-is-cheap/BattleRow";
+import { getArchiveMcHref } from "../../data/archiveMcProfiles";
+import { Calendar, ExternalLink, Play } from "lucide-react";
 import { lordOfTheMicsBattles } from "../../data/lordOfTheMics";
 import { formatBattleDate } from "../../data/battleDates";
 import { formatViewCount } from "../../data/viewCounts";
+
+const dvdSources: Record<string, string> = {
+  LOTM1: "https://www.musicglue.com/lordofthemics/products/lotm-1-and-2-double-dvd",
+  LOTM2: "https://www.musicglue.com/lordofthemics/products/lotm-1-and-2-double-dvd",
+  LOTM3: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-3-cd-slash-dvd-2",
+  LOTM4: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-4-cd-slash-dvd",
+  LOTM5: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-5-cd-slash-dvd",
+  LOTM6: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-6-cd-slash-dvd",
+  LOTM7: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-7-cd-slash-dvd",
+  LOTM8: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-8-cd-slash-dvd",
+};
 
 export const metadata = {
   title: "Lord of the Mics Battle Catalog | Lord of the Archives",
@@ -13,7 +27,7 @@ export const metadata = {
 
 export default function LordOfTheMicsPage() {
   const sortedBattles = [...lordOfTheMicsBattles].sort(
-    (a, b) => Number(a.season) - Number(b.season) || (a.seasonOrder ?? 0) - (b.seasonOrder ?? 0),
+    (a, b) => Number(b.season) - Number(a.season) || (a.seasonOrder ?? 0) - (b.seasonOrder ?? 0),
   );
   const groupedBattles = sortedBattles.reduce<Record<string, typeof sortedBattles>>((groups, battle) => {
     const series = String(battle.customEp ?? battle.subGroup ?? "Archive");
@@ -21,12 +35,10 @@ export default function LordOfTheMicsPage() {
     groups[series].push(battle);
     return groups;
   }, {});
-  const seasons = new Set(lordOfTheMicsBattles.map((battle) => battle.season));
   const formatLotmDate = (date: string | undefined) => {
     if (!date) return "TBD";
     return date.endsWith("-01-01") ? date.slice(0, 4) : formatBattleDate(date);
   };
-  const formatLotmViews = (views: string | number | null | undefined) => formatViewCount(views, "TBC");
 
   return (
     <main className="min-h-screen bg-zinc-950 pt-32 pb-24 text-white selection:bg-brand selection:text-black">
@@ -38,15 +50,13 @@ export default function LordOfTheMicsPage() {
               Lord of the <span className="text-brand">Mics</span>
             </h1>
             <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-400 md:text-lg">
-              A season-by-season catalog of Lord of the Mics clashes, recording matchups, dates, series and surviving
-              view-count snapshots. Detailed analysis pages are published only after source review; catalogued entries
-              without a completed editorial analysis remain unlinked.
+              Explore clashes from LOTM 1–8, including Skinner vs CY, with linked MC profiles and recording links where verified.
+              Detailed analysis will follow source review.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-4">
             <StatCard icon={<Play size={14} />} label="Battles" value={String(lordOfTheMicsBattles.length)} />
-            <StatCard icon={<Search size={14} />} label="Seasons" value={String(seasons.size)} />
           </div>
         </div>
 
@@ -56,7 +66,17 @@ export default function LordOfTheMicsPage() {
               <div className="mb-5">
                 <h2 className="text-xl font-semibold text-zinc-200 md:text-2xl">{series}</h2>
                 <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
-                  Catalogued {battles[0]?.date?.slice(0, 4)} Lord of the Mics clashes from the surviving release record.
+                  {series === "LOTM9" ? "Released footage from an unreleased edition." : `Catalogued ${battles[0]?.date?.slice(0, 4)} clashes from the official DVD tracklist.`}{" "}
+                  {dvdSources[series] && (
+                    <a href={dvdSources[series]} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+                      Check tracklist <ExternalLink size={13} className="inline" />
+                    </a>
+                  )}
+                  {series === "LOTM9" && (
+                    <a href="https://grmdaily.com/lord-of-the-mics-9-exclusive-footage/" target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+                      Release context <ExternalLink size={13} className="inline" />
+                    </a>
+                  )}
                 </p>
               </div>
 
@@ -65,36 +85,38 @@ export default function LordOfTheMicsPage() {
                   <table className="w-full border-collapse text-left">
                     <thead>
                       <tr className="border-b border-white/5 bg-zinc-900/40">
-                        <th className="px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:px-6">Series</th>
-                        <th className="px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:px-6">Battle</th>
-                        <th className="hidden px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:table-cell md:px-6">Date</th>
-                        <th className="hidden px-3 py-4 text-xs font-semibold tracking-wide text-zinc-400 md:table-cell md:px-6">Views</th>
-                        <th className="px-3 py-4 text-right text-xs font-semibold tracking-wide text-zinc-400 md:px-6 md:text-left">Status</th>
+                        <th className="px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400">Ep</th>
+                        <th className="px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400">Battle</th>
+                        <th className="hidden md:table-cell px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400">Date</th>
+                        <th className="hidden md:table-cell px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400">Views</th>
+                        <th className="px-2 py-3 md:px-6 md:py-5 text-[10px] md:text-xs font-semibold tracking-wide text-zinc-400 text-right md:text-left">Status</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-white/5">
-                      {battles.map((battle) => (
-                        <tr key={battle.id} className="transition-colors hover:bg-white/5">
-                          <td className="px-3 py-4 font-mono text-xs text-brand md:px-6">{battle.customEp}</td>
-                          <td className="px-3 py-4 md:px-6">
-                            <div className="flex flex-wrap items-center gap-2 text-sm font-semibold uppercase italic text-zinc-300 md:text-lg">
-                              <span>{battle.mc1}</span>
-                              <span className="text-xs text-zinc-500">VS</span>
-                              <span>{battle.mc2}</span>
+                      {battles.map((battle, index) => (
+                        <BattleRow key={battle.id} href={`/lord-of-the-mics/${battle.slug}`}>
+                          <td className="px-2 py-3 md:px-6 md:py-6">
+                            <Link href={`/lord-of-the-mics/${battle.slug}`} className="font-mono text-brand text-[10px] md:text-sm hover:underline" aria-label={`View ${battle.title}`}>{index + 1}</Link>
+                          </td>
+                          <td className="px-2 py-3 md:px-6 md:py-6">
+                            <div className="flex flex-wrap items-center gap-1.5 md:gap-3 text-sm font-semibold text-zinc-100 md:text-lg group-hover:text-brand transition-colors">
+                              <Link href={getArchiveMcHref(battle.mc1)} className="hover:text-brand hover:underline">{battle.mc1}</Link>
+                              <Link href={`/lord-of-the-mics/${battle.slug}`} aria-label={`View ${battle.title}`} className="text-[10px] md:text-sm text-zinc-400 hover:text-brand">VS</Link>
+                              <Link href={getArchiveMcHref(battle.mc2)} className="hover:text-brand hover:underline">{battle.mc2}</Link>
                             </div>
                           </td>
-                          <td className="hidden px-3 py-4 text-xs text-zinc-400 md:table-cell md:px-6">
-                            {formatLotmDate(battle.date)}
+                          <td className="hidden md:table-cell px-2 py-3 md:px-6 md:py-6">
+                            <div className="flex items-center gap-2 text-zinc-400 text-xs"><Calendar size={14} className="opacity-50" />{formatLotmDate(battle.date)}</div>
                           </td>
-                          <td className="hidden px-3 py-4 font-mono text-xs text-zinc-100 md:table-cell md:px-6">
-                            <span className="text-brand">•</span> {formatLotmViews(battle.views)}
+                          <td className="hidden md:table-cell px-2 py-3 md:px-6 md:py-6">
+                            <div className="flex items-center gap-2 text-zinc-100 font-mono text-xs"><span className="w-1 h-1 rounded-full bg-brand/50" />{formatViewCount(battle.views, "—")}</div>
                           </td>
-                          <td className="px-3 py-4 text-right md:px-6 md:text-left">
-                            <span className="inline-flex items-center rounded-full border border-brand/30 bg-brand/10 px-3 py-1.5 text-[10px] font-bold text-brand">
-                              Catalogued
+                          <td className="px-2 py-3 md:px-6 md:py-6 text-right md:text-left">
+                            <span className={`text-xs md:text-sm font-semibold tracking-wide ${battle.clashSummary?.trim() ? "text-emerald-300" : "text-brand"}`}>
+                              {battle.clashSummary?.trim() ? "Indexed" : "Catalogued"}
                             </span>
                           </td>
-                        </tr>
+                        </BattleRow>
                       ))}
                     </tbody>
                   </table>

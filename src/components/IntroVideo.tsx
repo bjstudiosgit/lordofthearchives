@@ -43,7 +43,7 @@ export default function IntroVideo() {
           className="relative max-w-4xl border-l-4 border-brand py-2 pl-6 sm:pl-10"
         >
           <p className="mb-5 text-[10px] font-black uppercase tracking-[0.34em] text-brand sm:text-xs">
-            The independent UK rap battle archive
+            The UK Best Battle Rap Platform
           </p>
           <h1 className="max-w-4xl font-display text-5xl italic uppercase leading-[0.9] tracking-tight text-white sm:text-6xl lg:text-7xl xl:text-8xl">
             Every battle leaves a record. <span className="text-brand">We keep it.</span>

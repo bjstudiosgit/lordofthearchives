@@ -73,10 +73,10 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
               key={option.value}
               type="button"
               onClick={() => setSortMode(option.value as SortMode)}
-              className={`rounded-full border px-3 py-1 text-[10px] font-black uppercase tracking-[0.2em] transition-colors ${
+              className={`py-1 text-xs font-black uppercase tracking-[0.2em] transition-colors ${
                 sortMode === option.value
-                  ? "border-brand bg-brand/10 text-brand"
-                  : "border-white/10 bg-zinc-900/60 text-zinc-400 hover:border-white/20 hover:text-white"
+                  ? "text-brand underline underline-offset-4"
+                  : "text-zinc-400 hover:text-white"
               }`}
             >
               {option.label}

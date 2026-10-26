@@ -15,7 +15,7 @@ type GzoneClashRecord = Partial<Pick<
 // Rebuilt from the Gzone app's battle records and battle-detail archive copy.
 export const gzoneClashData = {
   "deeno-vs-tapped24": {
-    "clashSummary": "Deeno vs Tapped24 was presented as the main event of Gzone Season 1, Episode 1 and quickly became a genuine grudge match. Their former friendship supplied the battle's central story: Tapped24 attacked Deeno through family, health, appearance and scene-credibility angles, while Deeno argued that Tapped had crossed a line by speaking about his children and used the rest of the clash as a personal rebuttal. The claims made by either MC are battle material and are not independently verified by the archive.\n\nTapped24's clearest writing came when several meanings were joined into one sequence. His California, smoke, reload and break-down chain connected cannabis language to beating an opponent and receiving a crowd reload. He also used Deeno's name, the number 24 and recognisable images such as Barney, Michael Jackson and Bruce Willis to make direct material easy for the room to follow. His rounds were aggressive and immediate, although repeated microphone checks and restarts interrupted their shape.\n\nDeeno built the more sustained three-round narrative. Round one established the broken friendship and introduced screenshots as a prop; round two developed the parenting and credibility case through the repeated Cap 24, Act 24 and Bad 24 pattern; round three turned Tapped's own name into the recurring question, 'Do you want to know what's tapped?', before escalating a list of pressures into the child-support and council-tax punchline. That repetition made separate allegations feel like parts of one argument rather than unrelated insults.\n\nThe room reacted most strongly when writing, personal history and live theatre met: the screenshots, the 24 sequence and the pressure scheme all triggered interruptions or reloads. The available transcript ends with a crowd call and the official Gzone record lists Deeno as the winner. Deeno's clearer narrative progression and stronger closing structure explain the decision, while Tapped24's best interconnected wordplay remains an important part of why the battle worked as a main event.",
+    "clashSummary": "Episode 1 opened the official Season 1 record with a main event between former friends. Tapped24 and Deeno did not treat the booking as a neutral introduction: shared homes, partners, children, private disputes, other scene names and messages were all used as battle material. That history gives the clash a narrative spine, but the serious allegations throughout remain claims made in performance rather than independently verified facts.\n\nTapped's first needed several starts because of microphone handling, a technical reset and a commentary reload. The repeated version established his method: medical and appearance shock, family attacks, “who ate all the pies,” racist-past and Skamz allegations, California cannabis language, boxing references and the name flip “No D—no, I'm your dad.” It was hostile and recognisable, but its strongest ideas competed with the length and disorder.\n\nDeeno answered by explaining why the friendship had ended: Tapped had allegedly spoken about his children and crossed a boundary. Paternity and parenting attacks, a claim that Tapped's son preferred Deeno, former visits to the flat and messages from Tapped's partner all supported that retaliation frame. When Deeno said “check the screenshots” and physically presented the messages, the argument changed from spoken accusation into alleged visual evidence and produced the round's defining reaction.\n\nTapped's second repeated “Deeno's friend is dead” and used the former friendship to attack family, health, partner and credibility. Deeno's reply returned to authorship, alleged bad-man behaviour, apologies to other figures and the fact that Tapped had slept on his sofa. “Cap 24,” “shit dad 24,” “act 24” and “bad 24” then converted the stage name into a reusable accusation structure. The room's “this is my house” reaction begins language Deeno later makes central to his GZone authority.\n\nTapped's third moved quickly through Crohn's and food, alleged debts, Pen Game, family, postcode and appearance references. Deeno closed by returning to the strongest case: alleged ghostwriting, time spent with other people's children, “do you know what's tapped?” repetitions, a list of people said to have pressured Tapped, child support, council tax and the claim that Deeno was the better father. GOAT and sheep, ship and plank, then Rob Van Dam gave the final a technical exit.\n\nThe video checks the blue corner for Tapped24 and then the red corner, but transcript text cannot encode the comparative volume and the red battler's name is not spoken in the surviving close. The official GZone archive awards Deeno the win. His clearer betrayal narrative, screenshot prop and returning fatherhood case created the larger complete story; Tapped established the relentless pressure style that remains active across his later season.\n\nScreenshots of text messages\n\nUsed by Deeno to expose Tapped24",
     "props": [
       {
         "name": "Screenshots of text messages",
@@ -31,45 +31,15 @@ export const gzoneClashData = {
     "performanceAnalysis": [
       {
         "performer": "Tapped24",
-        "overview": "Tapped24 approached the clash as an attack-first performance. He opened with blunt shock material, then moved through physical, family, platform and scene-history angles at a quick pace. His most effective sections were the ones with an internal mechanism rather than a standalone insult: the California smoke sequence, the Deeno name break and the closing transformation references. Multiple microphone checks, reloads and restarts made the round structure harder to sustain, but his direct delivery kept the hostility of the main event visible throughout.",
-        "lyricalThemes": "Family and health attacks; body and appearance imagery; scene credibility; former friendship; threats; cannabis wordplay; name flips; pop-culture comparisons.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Cannabis and crowd-reaction chain",
-            "description": "The California sequence links smoking an opponent, cannabis associated with California, breaking down weed and earning a reload from the room. Each phrase advances the same semantic field, making it Tapped24's most complete multi-layered scheme."
-          },
-          {
-            "title": "Deeno name break",
-            "description": "By repeating 'no D' before 'I'm your dad', Tapped24 separates the sound of Deeno's name and turns it into a quick status claim. The simplicity helps it register immediately in a noisy live setting."
-          },
-          {
-            "title": "Visual transformation close",
-            "description": "Barney, Michael Jackson and Bruce Willis provide three instantly recognisable visual references. The sequence is less about a single complex punch than rapid image changes that keep the closing attack easy to picture."
-          }
-        ]
+        "overview": "Tapped24 establishes the character later battles call Mr Disrespectful. Health, appearance, family, partner, children, racism and private-history allegations arrive without a neutral warm-up. The bluntness is strategic: the room understands immediately that former friendship offers Deeno no protection.\n\nHis first has useful recurring anchors despite the disruption. “Who ate all the pies” gives body material a crowd hook; California and breaking down create a cannabis pocket; “No D, I'm your dad” turns the opponent's name into hierarchy. Mic handling, technical stops and a commentary reload force him through the opening several times.\n\nThe second has stronger emotional continuity than technical organisation. “Deeno's friend is dead” makes the relationship itself the refrain, while having stayed in Deeno's home supports claims of insider knowledge. The final is fast and reference-heavy—Crohn's, food, Pen Game, postcode, Barney, Michael Jackson and Bruce Willis—but the density buries several setups.\n\nTapped's lasting achievement is pressure and an archive of surfaces other battlers can revisit. His weaknesses are clarity and selection: serious allegations and stacked shock can overwhelm the cleaner California, father-name and friendship writing. The loss does not erase the identity; he later adopts Deeno's screenshot method, explicitly names the callback and carries the same intensity through Roman, AJNA and Grams.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
         "performer": "Deeno",
-        "overview": "Deeno treated the battle as a case he was building across all three rounds. He established motive through the former friendship, introduced screenshots as supposed supporting evidence, expanded the parenting angle through repeated name flips and finished with a structured catalogue of pressures. His best material used repetition as organisation: '24' became a suffix for different accusations, while 'Do you want to know what's tapped?' became the setup for a sequence of examples. This gave his performance a clearer beginning, escalation and conclusion.",
-        "lyricalThemes": "Broken friendship; retaliation; parenting and responsibility; screenshots and claimed evidence; authenticity; the Tapped24 name; pressure; financial responsibility; scene relationships.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Three-round narrative progression",
-            "description": "The material moves from why the friendship ended, to a wider credibility argument, to a final summary of responsibility and pressure. That progression makes the battle feel authored as one story rather than three disconnected rounds."
-          },
-          {
-            "title": "The 24 matrix",
-            "description": "Cap 24, Act 24, Bad 24 and related variations repeatedly replace the first half of Tapped24's name. The pattern is modular, memorable and flexible enough to carry several accusations without abandoning the central angle."
-          },
-          {
-            "title": "Pressure escalation",
-            "description": "Deeno begins with named people who allegedly pressured Tapped, widens the idea to money, then lands on child support and council tax. Moving from battle-scene pressure to ordinary financial obligations creates the punchline through contrast."
-          },
-          {
-            "title": "Prop-led room control",
-            "description": "The screenshot reveal temporarily changes the clash from spoken accusation to live evidence theatre. Whether or not the claims can be verified, the prop gives the room something visible to react to and becomes one of the battle's defining moments."
-          }
-        ]
+        "overview": "Deeno answers pressure with motive. Former friendship, comments about his children and the crossed boundary explain why he is revealing private material. That narrative does not make the content less extreme, but it makes the rounds feel like one retaliation case rather than three unrelated attack lists.\n\nThe screenshot is the decisive performance invention. Deeno claims Tapped's partner messaged him, tells the room to check, then gives people something physical to examine. Its importance is not independent proof—the messages and interpretation are not authenticated here—but the conversion of words into a visible stage event.\n\nRound two shows his repeatable structural skill. Authorship and credibility claims lead into sofa and hospitality history, then cap 24, shit dad 24, act 24 and bad 24 make the opponent's name carry each accusation. The third returns to parenthood through other people's children, pressure names, child support and council tax before declaring Deeno the better father.\n\nThe performance also creates future vulnerabilities. Illness, disability, self-harm, children and partners are used with little restraint, and later opponents answer those same private surfaces. Yet Deeno's strongest tools—visual props, fatherhood authority, repeated name structures and ownership of the room—become the through-line of his Season 1 character. The official opening win gives that identity its first result.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -218,53 +188,19 @@ export const gzoneClashData = {
     }
   },
   "pr1nc3-vs-roman": {
-    "clashSummary": "PR1NC3 vs Roman was Gzone Season 1, Episode 2: a three-round meeting between youthful pace and veteran-style construction. PR1NC3 attacked with compressed insult chains, physical threat imagery, boxing language and an energetic grime-influenced flow. Roman worked more deliberately, building longer patterns around PR1NC3's age, height and stage name while using cultural references, homophones and connected imagery. The personal claims made in either performance are recorded as battle material and are not independently verified by the archive.\n\nPR1NC3's strongest passages relied on momentum. His round-one pen and boxing sequence moves from a precise pen to letting it fly, killing with bars, lefts and rights, and finally one GOAT becoming a sacrifice to another. In round two, the fish-tank and ocean comparison gives the size difference a clear visual before a fake memory lapse becomes a performance feint. His final round contains his most sustained sound pattern, linking cold rhymes, roadside, Dark Knight, part-time, shine and night-night before returning to punchline and hook as both writing and boxing terms.\n\nRoman's writing was more scheme-led. Round one turns PR1NC3 into the subject of a royal and political sequence—upper class, Buckingham Palace, dungeons, left and right hands, Big John Prescott, party and head rocked. Round two produces the battle's most recognisable name flip with 'written in the stars, the Times New Roman', then follows it with height jokes, electric language and a rolling car-and-weapon chain. His third round shifts to shorter attacks, using 'seen in the scene', ink and toner, learner plates and repeated Ls to keep the wordplay direct.\n\nThe battle was interrupted by microphone adjustments, a crowd-requested reload and several host exchanges, but both MCs recovered without losing the room. PR1NC3 supplied the sharper bursts of speed and aggression; Roman supplied the wider range of structured concepts and the cleaner accumulation of memorable flips. The final transcript records separate crowd calls for the red and blue corners, and the official Gzone result lists Roman as the winner. Roman's layered construction and steadier variety provide the clearest explanation for that decision.",
+    "clashSummary": "Episode 2 gave PR1NC3 and Roman their first official Season 1 result and established a contrast that remains useful across the archive: PR1NC3 attacked through direct grime energy, youth and physical consequence; Roman used the opponent's name, age, height and music identity to build stranger, more layered passages. The room repeatedly intervened through mic changes, requests for energy and an audience-demanded reload.\n\nPR1NC3's first introduced the crown claim through a clipped appearance list—size, clothes, trim and bars—before using Roman's personal name, a 99-percent body image, bacon, pen precision, left and right punches, GOAT sacrifice and veteran-versus-young-battler pressure. Roman answered by reducing Prince to “Princess,” calling himself a real don and claiming experience since 2006, then moved through family allegations, royal bars, upper class, Buckingham Palace and the distinctly British Big John Prescott right-hand punch.\n\nThe post-round panel repeatedly called the first close and then said “one nil,” but the transcript does not identify reliably which battler received that score. PR1NC3's second made his case easier to follow: Roman became an old voice, cat, clown and finally a goldfish trapped in a tank while Prince occupied the ocean. A fake forgotten-bars moment, free throw, weighted angles and Kevin and Perry gave the round short, visible payoffs.\n\nRoman's second produced the battle's strongest technical identity. A mic-level restart led into walking and talking sounds, team and let-down language, “written in the stars” and Times New Roman, then a height scheme in which removing PR1NC3's knees still would not make him fall in half. Electricity, extended objects, gel pens, school-age framing, doughnuts and a melted candle widened the round. When time was called, the audience demanded a reload and Roman performed it again.\n\nPR1NC3's third used cold roads, Dark Knight, ring training, crown language, punchline and hook, a GRM-flow switch and a slowed explanation of “PR1NC3 to the three” to reassert his name. Roman answered by revealing Mason, converting birth year 2001 into an exaggerated loss count, dismissing Prince's songs as dance music, then using ink and toner before declaring himself top dog and the battle space his wing and cell.\n\nThe final video checks the red corner for PR1NC3 and the blue corner for Roman, but transcript text alone cannot measure which response is louder and the host does not preserve a clear spoken winner's name. The official GZone record awards Roman the win. That decision sends Roman into later victories over Tapped24 and Ryno, while PR1NC3 returns against NattyEBK explicitly needing redemption from this opening loss.",
     "performanceAnalysis": [
       {
         "performer": "PR1NC3",
-        "overview": "PR1NC3 performs in short, high-energy bursts. He compresses insults into rhythmic lists, uses violent and boxing imagery to keep his material confrontational, and frequently treats speed itself as part of the attack. His best writing appears when the aggression is organised by one metaphor—the pen as a loaded weapon, a GOAT sacrifice, a goldfish trapped below an ocean, or punchlines and hooks functioning as both rap and fighting terms. A staged 'forgot all my bars' moment also shows an awareness of live performance beyond the written text.",
-        "lyricalThemes": "Youth versus experience; physical dominance; boxing and ring imagery; pens, bars and weapons; speed; size comparisons; crown and GOAT status; grime performance identity.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Pen, weapon and boxing progression",
-            "description": "PR1NC3 moves from a precise pen to loading it, letting it fly, killing with bars and sending Roman to sleep with a left and right. The sequence keeps writing, firearms and boxing inside one connected attack."
-          },
-          {
-            "title": "Scale through the fish-tank image",
-            "description": "Calling Roman a goldfish in a tank while placing himself in the ocean turns a simple status claim into an immediate visual hierarchy: Roman is confined and small; PR1NC3 occupies the larger arena."
-          },
-          {
-            "title": "The fake choke",
-            "description": "PR1NC3 says he has forgotten his bars, allows the room to register a possible stumble, then reveals the pause as deliberate. The writing is simple, but the timing turns audience expectation into the punch."
-          },
-          {
-            "title": "Cold-rhyme momentum",
-            "description": "His final round links cold rhymes, no life, roadside, Dark Knight, part-time, shine and night-night. The repeated long-I sound gives the opening a strong rhythmic spine before the scheme returns to boxing language."
-          }
-        ]
+        "overview": "PR1NC3's debut is built for immediate comprehension. The opening list, Roman and Ferg naming, 99-percent body, bacon, left and right punches, GOAT sacrifice and veteran language create short destinations rather than one complicated narrative. Youth, directness and the crown supply the identity.\n\nThe second is his strongest complete turn. The old voice, cat and clown route leads logically into goldfish, tank and ocean, his cleanest status comparison. The fake forgotten-bars moment briefly converts the possibility of a choke into confidence theatre, then free throw, kilos and Kevin and Perry keep the punches visible.\n\nRound three shows why his music identity is both strength and vulnerability. Cold roadside, Dark Knight, ring, book, punchline and hook move into a rapid GRM pocket before he slows down to explain PR1NC3 to the three. The flow generates energy, but it also lets Roman argue that songs and dancing are where Prince belongs.\n\nThe main limitation is opponent specificity across the full battle. Roman is old, large and allegedly fake, but many threats could face any veteran. PR1NC3's clearer moments keep the contest live; Roman's name flips and cross-round schemes create the more distinctive archive. The loss becomes the reason Prince enters Episode 12 in redemption mode.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
         "performer": "Roman",
-        "overview": "Roman relies on longer setups, reference density and thematic chaining. His material repeatedly takes one feature—PR1NC3's name, height, youth or claimed status—and develops it across several connected images. The delivery is less rapid than PR1NC3's, but that extra space allows the Times New Roman flip, the political sequence, the electric language and the learner-plate L pattern to register. Roman also adapts after technical interruptions, restarting his second round and rebuilding enough momentum to earn a crowd-requested reload.",
-        "lyricalThemes": "Age and experience; height; royalty and politics; typography and newspapers; electricity; cars and weapons; school and youth; losses and learner plates; veteran status.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Royal and political chain",
-            "description": "Roman connects royal bars, upper class, Buckingham Palace and dungeons before moving through left and right hands, Big John Prescott, politics and party language. The punch imagery remains active while the references change domains."
-          },
-          {
-            "title": "Times New Roman name flip",
-            "description": "'Written in the stars' begins as a fate expression, 'Times' evokes the newspaper and Times New Roman completes the typography reference while landing directly on Roman's own name. It is the battle's cleanest compact identity flip."
-          },
-          {
-            "title": "Electric continuation",
-            "description": "After describing himself as shocked, Roman answers with 'electric' and says PR1NC3 still cannot take his spark. Shock, electricity and spark turn a reaction phrase into a connected mini-scheme."
-          },
-          {
-            "title": "Learner-plate L sequence",
-            "description": "The final-round L pattern combines a 1.6-litre car, learner plates and taking losses. Repeating the letter lets Roman move between driving status, the written symbol and battle-rap defeat without changing the central sound."
-          }
-        ]
+        "overview": "Roman's first turns the opponent's royal identity against him. Princess removes authority, real don replaces it, and upper class, royal bars and Buckingham Palace let Roman occupy Prince's vocabulary. Experience since 2006 answers the youth-versus-veteran criticism without denying his age.\n\nThe second is the technical centre of the battle. Times New Roman converts the stage name into typography; huge shins and knees create a consistent height cartoon; gel pens and school frame Prince as young. Finger pointing, engine sounds, pauses and the audience-demanded reload make the writing theatrical rather than only textual.\n\nHis third pays off information introduced across the battle. Mason removes the crown, 2001 becomes both birth year and exaggerated loss count, songs become evidence that Prince belongs outside battle rap, and toner revives the printing surface from Times New Roman. Top dog, wing and cell close on territorial authority.\n\nThe performance is not perfectly clean: the mic restart, extended family passages and long reload expose their own excess. Roman nevertheless connects more of his material to this opponent and lets the room recognise recurring ideas. The official victory starts the unbeaten run he later extends against Tapped24 and Ryno.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -407,53 +343,19 @@ export const gzoneClashData = {
     }
   },
   "ldn-mikez-vs-deluxx": {
-    "clashSummary": "LDN MIKEZ vs DELUXX was Gzone Season 1, Episode 3, presented as a Christmas Day battle and built around a sharp contrast in method. LDN MIKEZ treated each round as written combat, stacking references, extended rhyme chains and direct personal attacks. DELUXX leaned more heavily on beat-led cadence, repeated refrains and freestyle recovery, using the sound of his delivery to compete even when the transcripted wording was less tightly structured. Personal claims made by either MC are recorded as battle material and are not independently verified by the archive.\n\nLDN MIKEZ established his approach in round one with the battle's clearest concept: PowerPoint, Excel, Words, nerds and controlling a herd. He followed that with a long smoke, cope, hope, dope, rope, afloat and boat sequence before turning ordinary financial language—Universal Credit, rent and a landlord—into insults. Round two brought shorter pop-culture chains around Supercell, Superman, Tinkerbell, Peter Pan, Captain Hook, Crocs, locks and rocks. His final round returned to longer construction through fire imagery and a sustained learn, germ, worm, perm, concern, judge, adjourned, term and firm pattern.\n\nDELUXX's best moments were musical and performative. His repeated 'London Mikes / king of the mic' refrain gave the first round a hook, while spin, bars and drop language treated the battle like a track being controlled in real time. In round two he pushed repeated end sounds and a flow-first veteran claim, despite restarts and reduced clarity. His final round was the cleanest expression of his style: a compact no gas, rap, crap, chat, tan, track and trim sequence, a reference to his former DFN/Nicole identity, an aquatic pop-culture passage around Aquaman and Atlantis, and an openly improvised closing section.\n\nTechnical interruptions shaped the clash. LDN MIKEZ's opening was restarted after an early time call, both MCs asked for audio adjustments, and several passages appear multiple times in the transcript. Even so, MIKEZ retained the clearer written structure and stronger progression across all three rounds. The host finally asked the audience who won, described the answer as obvious, and called for noise for London Mikes. The official Gzone record therefore lists LDN MIKEZ as the crowd-decision winner.",
+    "clashSummary": "Episode 3 gave both LDN Mikez and Deluxx their first official Season 1 result. The broadcast introduced the clash as a Christmas present, but the performance quickly became a contrast between Mikez's written, confrontational pressure and Deluxx's faster cadence, repeated hook and Birmingham identity. Technical stops affected both, so the battle is as much about rebuilding momentum as delivering uninterrupted rounds.\n\nMikez's first was stopped early because of a timing misunderstanding, then restarted around water and microphone disruption. Its cleaner writing moved through PowerPoint, Excel and words; GOATs and a shepherd; Roman and Fergs; a Universal Credit sanction; gig and landlord money; Beckham; grass and decking; then Wi-Fi and “connecting.” Extreme family and identity attacks created hostility, but the everyday financial and technology references supplied the sharper craft.\n\nDeluxx answered with the repeated contrast “you're from London, I'm king of the mic” and an 0121 Birmingham marker. The refrain gave his first a recognisable identity even when the faster internal writing became difficult to follow. The on-camera breakdown explicitly awarded the round to Mikez, crediting his aggression while saying Deluxx's clarity disappeared when he accelerated.\n\nRound two made Mikez's approach more opponent-specific. Deluxx became Devonte, a thumb-shaped double of his mother and a battler Mikez claimed to have inspired. Supercell, Superman, Tinkerbell, locks, rocks, Christmas, a shark and a barking dog gave the verse visible reference points, although repeated beat and microphone resets made Mikez perform much of it several times. Deluxx replied through trap posture, music and album criticism, DVD, barber language and Renzo flow comparisons, but the host again challenged the energy level.\n\nMikez's third was interrupted by an attempted wheel-up before he restarted. A Bar Mitzvah and German sequence, shoes and laces, fire and smoke, turn, earn and learn, G, germ, snake, worm and perm, then judge, case, adjourned, academy and term created the round's connected pockets. Deluxx closed through Mikez's appearance, his own DFN-to-Deluxx rebrand, A1J1, rent, Aquaman, Atlantis, Lockjaw, language switching and freestyle rhythm.\n\nThe host asked the audience to be honest, asked who had won, then treated the answer as obvious before calling for noise for London Mikez. The official GZone record agrees. Mikez's greater projection and clearer written destinations survived the restarts; Deluxx's flow had flashes but lost too much language at speed. The result immediately becomes Mikez's first W in his Episode 4 “two W's” prediction and Deluxx's acknowledged loss when he returns against BTizz.",
     "performanceAnalysis": [
       {
-        "performer": "LDN MIKEZ",
-        "overview": "LDN MIKEZ combines dense writing with confrontational delivery. Rather than relying only on isolated punches, he repeatedly chooses a vocabulary field—Microsoft Office, smoke and drowning, Peter Pan, fire, or legal and educational language—and keeps returning to it until the section resolves. His delivery remains forceful through multiple restarts, and his strongest round endings convert ordinary subjects such as benefits, rent, Wi-Fi and council-style administration into personal attacks. The result is a performance with clearer authored sections and more identifiable punchline destinations.",
-        "lyricalThemes": "Writing and software; GOAT status and control; smoke and drowning; money, benefits and rent; pop culture; fairy tales; fire; education and court language; battle hierarchy.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Microsoft Office opening",
-            "description": "PowerPoint, Excel, Words and nerds all belong to the same office-computing field. MIKEZ uses the product names as ordinary verbs and nouns, allowing the software references to function as a claim that his writing is organised and superior."
-          },
-          {
-            "title": "Smoke-to-water rhyme chain",
-            "description": "Smoke, cope, hope, dope and rope establish the repeated sound before weights, afloat, water and boat turn the chain into a drowning image. The rhyme is sustained long enough to feel like a complete passage rather than a pair of matching words."
-          },
-          {
-            "title": "Peter Pan reference network",
-            "description": "Peter Pan, hooks, Crocs and locks draw from the same story world while shops, opps and rocks keep the rhyme moving. The writing works because Captain Hook and the crocodile are implied without needing to stop and explain them."
-          },
-          {
-            "title": "Legal and education closing chain",
-            "description": "MIKEZ moves from taking an L and learning, through germ, worm and perm, to concern, judge, case adjourned, academy, term and standing firm. School and courtroom meanings overlap around learning, judgement and consequences."
-          }
-        ]
+        "performer": "LDN Mikez",
+        "overview": "Mikez debuts by treating force as a delivery system for connected writing. The first moves from PowerPoint and Excel to words, GOATs to a shepherd, Roman to Fergs, then benefits, rent, Beckham, grass, decking and Wi-Fi. The ordinary references are more precise than the surrounding shock material because each gives the room a concrete consequence or double meaning.\n\nThe second becomes more opponent-specific by replacing Deluxx with Devonte. Thumb, mum, Power Punch, Supercell, Superman, Tinkerbell, Christmas locks and rocks, debut and “made you” status language create visible landmarks. Several attempts are needed because of beat, mic and room interruptions, but Mikez keeps recovering without surrendering the verse.\n\nHis third contains the strongest extended rhyme organisation. Fire, smoke, turn, earn and learn lead into G and germ, snake and worm, then judge, case, adjourned, academy and term. Some passages use disability, sexuality, family and other severe subjects primarily for shock; the analysis records those choices without validating the allegations behind them.\n\nThe winning advantage is intelligibility under disruption. Mikez projects the setups, lets recognisable references punctuate long rounds and ends with a complete hierarchy claim. The host's commentary gives him the first, the final room decision names him clearly, and the result becomes the foundation of his Episode 4 two-W boast.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "DELUXX",
-        "overview": "DELUXX performs as though the beat is another participant. He repeats phrases until they become hooks, prioritises cadence and end rhyme, and is willing to acknowledge when he is freestyling. That gives his material musical momentum but also makes the written attacks harder to isolate, particularly when audio clarity drops or a passage is restarted. His strongest sections are the compact first-round mic refrain, the round-two flow and veteran passage, and a final round that uses shorter rhyme runs and pop-culture names to remain readable.",
-        "lyricalThemes": "Mic ownership; London identity; spinning and dropping bars; music and rhythm; veteran status; hair and appearance; former names; trends; aquatic pop culture; freestyle recovery.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Hook-based battle structure",
-            "description": "The repeated 'London Mikes / king of the mic' sequence behaves like a song chorus. Repetition sacrifices new information but gives DELUXX a recognisable phrase and helps the crowd follow his beat-led approach."
-          },
-          {
-            "title": "Music-control vocabulary",
-            "description": "Spin bars, come back and drop this uses DJ and song-arrangement language as battle commands. DELUXX presents himself as the person controlling when the performance returns and where the impact lands."
-          },
-          {
-            "title": "Identity reset",
-            "description": "Referencing DFN and Nicole before saying 'now I'm DELUXX' places an earlier identity beside the current stage name. The bar works as a concise reintroduction and a claim that the version standing in the ring has moved on."
-          },
-          {
-            "title": "Freestyle transparency",
-            "description": "DELUXX openly signals that he is freestyling in the final round and then continues through fighting, spinning and timing language. The moment documents adaptability, even though it also highlights the contrast with MIKEZ's more visibly pre-structured writing."
-          }
-        ]
+        "performer": "Deluxx",
+        "overview": "Deluxx's first has a strong performance identity even where the transcript is difficult to recover. “You're from London, I'm king of the mic” is a simple opponent-name reversal, and 0121 gives the refrain a Birmingham base. Returning to it repeatedly provides a hook when the faster internal passages become less audible.\n\nThe second attacks Mikez as an artist and public figure. Trap credibility, DVD, the album-scamming accusation, money, barber sounds and repeated Renzo comparisons all argue that Mikez's music and flow are not authentic. The route is relevant, but accelerated phrasing makes several setups disappear before their payoffs can register.\n\nHis final supplies the clearest self-definition. Deluxx names DFN as the earlier identity and presents Deluxx as the development, then uses A1J1, rent, Aquaman, Atlantis, Lockjaw, Spanish and freestyle motion. That gives him more character than the family insults, but the verse finishes without a decisive closing punch.\n\nThe loss is not the end of Deluxx's season story. When he returns against BTizz, he acknowledges losing to a veteran and uses survival as status. BTizz then attacks the very issue raised here—who created Deluxx—by alleging Mikez wrote his material, turning Episode 3's winner and “made you” claim into later battle evidence.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -608,53 +510,19 @@ export const gzoneClashData = {
     }
   },
   "ldn-mikez-vs-2mwad": {
-    "clashSummary": "LDN MIKEZ vs 2MWAD was Gzone Season 1, Episode 4, a three-round clash defined by extended reference systems. 2MWAD opened by treating MIKEZ's family situation like a video game: parenting became missions and XP, a child became a side quest, MIKEZ became downloadable content or an NPC, and two controllers did not make him player one. MIKEZ answered by turning 2MWAD's name into 'two W's' before moving through Warzone, the Gulag, smoking, rolling and an Apollo Creed boxing chain. Personal claims made by either MC are preserved as battle material and are not independently verified by the archive.\n\n2MWAD's first round was his clearest piece of authored writing because the gaming terms all served one argument. Rather than dropping unrelated game names, he used the logic of player status, optional content and inherited progress to question MIKEZ's role in another family. Round two was shorter in the available transcript but contained a strong MIKEZ/microphone name flip and the football reference of sending him right back like Bellerín. His final round changed style, using a long ugly, fugly, bummy, scummy, crusty, musty, dusty and rusty chain before building family insults through McFlurry, curry, bacteria and Wikipedia rhymes.\n\nMIKEZ answered with broader cultural range and denser rhyme construction. His opening links 2MWAD to two wins, then Warzone and its Gulag mechanic. The Apollo Creed passage keeps ropes, cope, smoke, league, throat, boat, defeat, coke, nose and sleep inside one continuous sound field. In round two, he moves from being the plug to being in sync, waves and a sinking ship, then sustains extinct, stinks, Miss Inks, instincts, drinks and NSYNC before closing on Undertaker, shock, WrestleMania, The Rock, save her and Australia. His third-round EastEnders sequence is the battle's most reference-dense passage, connecting East End, Frank Butcher, Dirty Den, Heather, a new era, Tracey, Shirley and Bianca.\n\nAudio levels and repeated restarts affected both momentum and transcript clarity. MIKEZ delivered his first and second-round openings several times, while 2MWAD's final round was interrupted by crowd reaction to the McDonald's sandwich line. At the end, the host called for both corners, initially described the response as level apart from whistles, then repeated the call and concluded 'that's all Mikes'. The official Gzone record lists LDN MIKEZ as the winner; his wider scheme variety and stronger closing round explain the crowd decision.",
+    "clashSummary": "Episode 4 returned LDN Mikez immediately after his official win over Deluxx and introduced 2MWAD to the Season 1 record. Before the first round settled, 2MWAD said the pair had clashed before and accused Mikez of reusing old bars. The supplied season archive does not list that earlier encounter, so it operates here as an on-stage history claim rather than a previous official result.\n\n2MWAD's opening had the clash's clearest extended concept. He turned an attack on Mikez's role as a stepfather into gaming language: the biological father earns XP, lives rent-free in Mikez's head, and controls the main mission while Mikez becomes DLC, an NPC, a side quest and the second controller. The route is personal, but its strength is structural—every gaming term advances the same argument about who is “player one” in the household.\n\nMikez answered in the next turn through his own game vocabulary—Warzone and the Gulag—before using 2MWAD's alleged real name, Lance Pennant, Apollo Creed, ropes, smoke and league status to make the response more directly opponent-specific. “Two W's like 2MWAD” also carried two meanings: a flip of the stage name and a prediction that the Deluxx victory would be followed by another official win. Sound checks and repeated starts interrupted the passage, but they also let its central phrases land several times.\n\nThe middle exchange compressed the same contrast. 2MWAD used Mike and mic, a mother comparison, Héctor Bellerín being “sent right back” and the time Mikez had to prepare. Mikez built the longer sequence: plug and sync, wave and ship, set five and extinct, then a run through stinks, instincts, Miss Inks and NSYNC before ringtone, Undertaker, WrestleMania and The Rock. Repetition caused by the audio made his construction less seamless, but the linked sounds and recognisable references gave the room clear destinations.\n\n2MWAD's final began with an extended ugly-to-rusty insult chain and moved into online banking, McFlurry money and council-housing allegations. A McDonald's sandwich exchange drew live interruption and reaction, but the round became less organised than his opening. Mikez closed with the EastEnders scheme: East End, Frank and Butcher opened a chain through Ben, Heather, New Era, Tracy, Shirley and Bianca, before a Tapped24 information reference and the melody, cemetery and entity rhyme gave him a defined finish.\n\nThe first audience comparison was close enough for the host to call it the same and repeat the vote. On the second check, the room response was described clearly as “all Mikez,” and the official GZone record also awards LDN Mikez the win. It completed the two-W prediction after Episode 3; 2MWAD later developed a fuller three-round performance against Ryno in Episode 8 but took a second official loss.",
     "performanceAnalysis": [
       {
-        "performer": "LDN MIKEZ",
-        "overview": "LDN MIKEZ responds to 2MWAD's focused gaming concept with range. Each round introduces a different reference system—Warzone and boxing in round one, music and professional wrestling in round two, and EastEnders in round three—while long end-rhyme sequences keep the delivery connected. Repeated restarts could have broken his momentum, but the clearer repeated versions show that the schemes were structured rather than improvised fragments. His final round is especially effective because familiar character names allow a long cultural scheme to remain understandable in the room.",
-        "lyricalThemes": "Winning and the 2MWAD name; Warzone and the Gulag; smoking and rolling; boxing; music and NSYNC; school and extinction; professional wrestling; EastEnders; melody and performance identity.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Two W's and Warzone transition",
-            "description": "MIKEZ begins by hearing 2MWAD as 'two W's', meaning two wins, then uses 'different kind of war zone' to enter the Call of Duty world. The name flip is therefore not isolated; it acts as the doorway into the next scheme."
-          },
-          {
-            "title": "Apollo Creed rhyme run",
-            "description": "Ropes and Apollo Creed establish boxing, while cope, smoke, throat, boat, defeat, coke, nose and sleep sustain the sound. The passage keeps changing images without abandoning its rhythmic spine."
-          },
-          {
-            "title": "Sync and extinction construction",
-            "description": "Plug, in sync, wave and ship sink form the opening idea. MIKEZ then extends the repeated sound through extinct, stinks, Miss Inks, instincts, drinks and Justin/NSYNC, creating one of the battle's longest controlled chains."
-          },
-          {
-            "title": "EastEnders reference network",
-            "description": "East End, Frank Butcher, Dirty Den, Heather, a new era, Tracey, Shirley and Bianca are woven into a single attack. Each name also works as ordinary sentence language, so the scheme remains functional even before every reference is recognised."
-          }
-        ]
+        "performer": "2MWAD",
+        "overview": "2MWAD begins with the strongest single angle in the battle. Missions, XP, rent-free headspace, a side quest, DLC, NPCs, DNA and two controllers all translate the same step-parenting attack into a consistent game system. The concepts do not merely share a topic: each one changes Mikez's alleged household position into a different kind of secondary player.\n\nThe second is shorter and more economical. Mike and mic, the mother comparison and Bellerín being sent right back are simple enough to survive a noisy room, while the preparation-time criticism keeps the earlier old-bars challenge active. It has fewer layers than the first but clearer isolated punches.\n\nHis final is driven by cadence and grounded humiliation. The ugly-to-rusty chain, online banking, McFlurry and council-housing images make financial pressure visible, and the McDonald's sandwich interruption briefly becomes a live crowd moment. The structure then fragments, leaving less of a closing argument than the gaming round promised.\n\nThe debut shows a battler already capable of building a researched character case, but not yet sustaining that organisation across every turn. The official loss becomes useful context for Episode 8: against Ryno, housing, money and public-image routes expand into a more complete three-round narrative, but Ryno takes the official win.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "2MWAD",
-        "overview": "2MWAD's best approach is conceptual concentration. His first round commits to the language of games and uses every term to support the same step-parenting angle: MIKEZ completes missions for somebody else's progress, occupies side-content status and is not player one. That focus makes the round easier to follow than a list of unrelated personal attacks. Later rounds use shorter name, football and alliterative devices, with the final round leaning into sound and crowd interaction more than technical reference layering.",
-        "lyricalThemes": "Parenting and legacy; gaming roles; missions and XP; side quests; DLC and NPCs; player status; microphones and the MIKEZ name; football; money and housing; family insults; food imagery.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Gaming as a complete argument",
-            "description": "Missions, XP, side quests, DLC, NPCs, legacy, controllers and player one are not merely references. They describe a hierarchy in which 2MWAD claims MIKEZ performs work inside another man's story without controlling the game."
-          },
-          {
-            "title": "MIKEZ and microphone flip",
-            "description": "Saying MIKEZ and his mother both picked up mics when they should not have one turns the stage name back into the physical object. The same verb—picked up—covers birth and taking a microphone."
-          },
-          {
-            "title": "Bellerín right-back reference",
-            "description": "Sending MIKEZ 'right back like Bellerín' combines rejection with the football position associated with Héctor Bellerín. The sporting reference supplies a concise destination for the threat."
-          },
-          {
-            "title": "Alliterative final-round opening",
-            "description": "Ugly, fugly, bummy, scummy, crusty, musty, dusty and rusty prioritise sound and acceleration. The stacked adjectives create momentum before 2MWAD moves into money and family material."
-          }
-        ]
+        "performer": "LDN Mikez",
+        "overview": "Mikez arrives with a result to convert into status. “Two W's like 2MWAD” ties the opponent's name to the possibility of consecutive victories, while Warzone and Gulag meet the gaming vocabulary already active in the clash. Naming Lance Pennant then strips away the stage identity and makes the remaining attacks feel more targeted.\n\nHis second has the most sustained sound writing. Plug and sync lead into wave and ship, set five and extinct, then extinct, stinks, instincts, Miss Inks and NSYNC. Not every connection is equally clean, but the chain gives Mikez a route through a long passage before ringtone and the wrestling references provide recognisable payoffs.\n\nThe final corrects the earlier page's main attribution error: Mikez, not 2MWAD, performs the EastEnders scheme. East End, Frank, Butcher, Ben, Heather, New Era, Tracy, Shirley and Bianca let him organise harsh family material around a single cultural frame, and the Tapped24-to-Tiny-Dancer turn links alleged information sharing to wordplay.\n\nMikez's advantage is force and finishing shape rather than flawless execution. Sound problems and restarts repeatedly disturb the rounds, and serious unverified allegations often replace cleaner craft. Even so, he rebuilds momentum, ends on melody, cemetery and entity, then receives the clearer repeated audience call and the official win—his second after Deluxx.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -797,53 +665,19 @@ export const gzoneClashData = {
     }
   },
   "cj-zino-vs-proty": {
-    "clashSummary": "CJ ZINO vs PROTY was Gzone Season 1, Episode 5: CJ's first appearance on the platform and PROTY's return after controversy around an earlier battle. CJ approached the clash through grime cadence, direct aggression and repeated sound patterns. PROTY answered with animated-character comparisons, visual humour and longer technical chains. The matchup therefore became a contest between forceful room presence and cleaner reference-led writing. Personal claims made by either MC are documented as battle material and are not independently verified by the archive.\n\nCJ's first round establishes his style through a counted warning sequence—one verbal warning, two bad-man warnings and three ending the online talk—before moving into grime references and a Piccadilly, Diddy, Philly and giddy rhyme run. His second round is more direct, using doctor and germs, sickness and flu, predator and prey, and repeated claims that PROTY is not welcome on the platform. Round three contains his most complete concept: Google Chromecast, Roku, Fire Stick and Chrome are turned into attacks, letting streaming hardware and web-browser language operate inside the same section.\n\nPROTY's writing is more visual and reference-dense. He begins by asking why CJ looks designed by Pixar, then develops lion, mane, king and end-of-game imagery. Face expired, wired, misfired, tired and required gives the round a clear sound spine, while the chef and Remy material draws on Ratatouille. Round two contains his strongest sustained writing: Logic and Windows lead to 'lyrically micro, lyrically soft', then bars not live, bacteria spreading, grime and rhyme, white lines, Heinz beans, signs, vision, prison, listen, mission, ignition, ambition and decision all accumulate without losing the attack. His final round returns to Ratatouille through Linguini and closes with a Dizzee Rascal and 'Fix Up, Look Sharp' sequence.\n\nMicrophone adjustments and repeated starts affected both performers, and the host repeatedly demanded more room energy during PROTY's second round. CJ supplied stronger aggression and a memorable device scheme; PROTY supplied the battle's clearest visual jokes and most sustained rhyme construction. The closing crowd call was repeated, but the transcript cannot preserve comparative volume. The official Gzone record awards the win to PROTY, whose reference clarity and technical consistency provide the strongest explanation for the result.",
+    "clashSummary": "Episode 5 was CJ-Zino's first GZone appearance and Proty's return after the host described an earlier disputed showing. CJ entered through direct grime pressure; Proty answered with visual roast writing. From the opening, the battle therefore asked whether force and platform energy could outweigh cleaner, more cartoon-led punch construction.\n\nCJ's first used a numbered warning, “dead man walking,” overseas-family material, Muhammad Ali, percentages and the repeated instruction to “get grimy again.” Proty converted CJ's appearance into animation: Pixar design, a lion's mane, a fired designer, Remy from Ratatouille and a Tic Tac head joined alleged drinking and drug use into an instantly readable character.\n\nIn the second, CJ made grime a territorial standard. Doctor and germs, clothing, the previous dispute, adoption, “you ain't welcome here,” bars versus flu and predator versus prey all argued that Proty did not belong at CJ's level. Proty answered with his most repeatable section: Flushed Away, MDMA, a quick replay and 3–0, polluted breath, bacteria, prison bars and the prediction that a CJ win would be the wrong decision.\n\nCJ's third moved from online talk and big-dog status into the clash's best connected technical scheme. Chromecast and Roku became Fire Stick and broken Chrome, letting streaming devices, fire, metal and physical impact share one sequence. Family, champion status and a claim involving Renzo widened the close, although restarts and mic requests again interrupted momentum.\n\nProty closed by returning to the visual method rather than matching CJ's aggression. Linguini and Ratatouille, peddling and two wheels, a contaminated wristband, money spent on drugs, dead bars needing a rewrite, Dizzee Rascal and “Fix Up, Look Sharp” turned CJ into a character who looked vivid but lacked control of his pen and life.\n\nThe crowd checks were repeated and the transcript is not reliable enough to compare their volume from text alone, but the closing announcement appears to name Proty and the official GZone record awards him the win. That result sends Proty into Episode 6 with momentum and gives BTizz an official loss to use against CJ in Episode 13, where CJ's grime identity becomes the basis of his recovery.",
     "performanceAnalysis": [
       {
-        "performer": "CJ ZINO",
-        "overview": "CJ ZINO performs with a grime-first mentality: compressed phrases, repeated calls, direct threats and a cadence designed to push through crowd noise. His writing is strongest when repetition is given a structure, as in the numbered warning sequence, or when a complete vocabulary field is chosen, as in the third-round streaming-device scheme. At other points his aggression outruns clarity, especially when audio levels fall or a passage is restarted. Even then, his commanding presence keeps the clash confrontational and gives PROTY a clear level of intensity to answer.",
-        "lyricalThemes": "Grime identity; warnings and counting; platform status; family and appearance attacks; illness and germs; predator and prey; online talk; streaming devices; browsers and technology; champion status.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Numbered-warning structure",
-            "description": "One, two and three organise CJ's opening threats into an escalating list. The device is simple but effective: the crowd knows another step is coming and the final number resolves on ending the online talk."
-          },
-          {
-            "title": "Piccadilly rhyme run",
-            "description": "Piccadilly, Diddy, Philly and giddy provide a stable multi-syllable ending. CJ uses a Manchester location as the first anchor, then moves through names and reactions without dropping the sound."
-          },
-          {
-            "title": "Sickness vocabulary reversal",
-            "description": "Doctor, germs, sick reactions and flu let CJ answer PROTY's appearance and hygiene material inside one medical field. 'I've got the bars and you've got the flu' separates lyrical bars from physical symptoms."
-          },
-          {
-            "title": "Streaming-device ecosystem",
-            "description": "Chromecast, Roku, Fire Stick and Chrome all belong to the same consumer-technology world. CJ turns cast, fire, stick, chrome and bust into active verbs, making the product names function as attacks rather than a list of brands."
-          }
-        ]
+        "performer": "CJ-Zino",
+        "overview": "CJ-Zino uses his first GZone appearance to establish grime as both sound and status. The numbered warning, dead-man-walking frame and repeated “get grimy again” make the debut feel confrontational before the more personal routes fully develop.\n\nThe second has the clearest opponent case. Doctor and germs, clothing, disputed history, adoption, flu and predator/prey language all argue that Proty is contaminated and does not belong on the platform. Force sometimes substitutes for structure, but the destinations are unmistakable.\n\nHis third supplies the strongest connected writing. Chromecast and Roku move into Fire Stick and Chrome, so streaming, heat, metal and impact all occupy the same technology scheme. It is the first passage where CJ's aggression and technical organisation fully align.\n\nMic resets and crowded family attacks reduce control, while Proty's repeated hooks are easier to remember. CJ loses the official decision, but the grime identity and stronger closing construction become the tools he later uses to beat BTizz and challenge 1FLAYMAH.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "PROTY",
-        "overview": "PROTY writes through recognisable visual comparisons and long rhyme accumulation. Pixar, lions, Ratatouille and cartoon imagery make his jokes easy to picture, while his second round demonstrates greater technical endurance through extended end-rhyme sequences. He also uses grime history—D Double E, Logic, Dizzee Rascal and 'Fix Up, Look Sharp'—to challenge CJ on the very genre identity CJ claims. His delivery occasionally requires host encouragement, but the underlying structures remain readable after restarts.",
-        "lyricalThemes": "Pixar and animation; lions and kings; cooking and Ratatouille; grime history; Microsoft and Logic; illness and bacteria; drugs and appearance; prisons and bars; bicycles and level; Dizzee Rascal and bassline.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Animation-based visual writing",
-            "description": "Pixar, Ratatouille, Linguini, Remy and the exaggerated character-design language turn CJ's appearance into a series of visual jokes. The references are familiar enough to land without lengthy setups."
-          },
-          {
-            "title": "Microsoft micro-soft flip",
-            "description": "Saying CJ has no Logic like Windows introduces software, then 'lyrically micro, lyrically soft' splits Microsoft into two insults. The company name is reconstructed from the exact criticism being made."
-          },
-          {
-            "title": "Prison-bar rhyme escalation",
-            "description": "Lines, Heinz, signs, vision, prison, listen, mission, ignition, ambition and decision form a long linked sound pattern. 'More bars than prison' works at the centre because bars are both lyrics and physical prison barriers."
-          },
-          {
-            "title": "Dizzee Rascal close",
-            "description": "PROTY describes himself as a junkie for bassline like Dizzee, repeats dizzy as a physical effect, then lands on 'Fix Up, Look Sharp', the title of a well-known Dizzee Rascal track. Artist, sound and song title all support the same grime claim."
-          }
-        ]
+        "performer": "Proty",
+        "overview": "Proty's return is organised around visual translation. CJ becomes a Pixar design, lion, Ratatouille character, Tic Tac, Flushed Away rat, Yanko variant and buffering screen. Those comparisons make a dense, aggressive opponent feel cartoonish and controllable.\n\nThe second is his strongest performance section because repetition supplies structure. Quick replay and 3-0 return around breath, bacteria, Windows, prison bars and intoxication, while the “wrong decision” forecast turns the eventual verdict into part of the writing.\n\nHygiene changes from a reciprocal insult into a full visual ecosystem: polluted breath, competing bacteria and a contaminated wristband. Alleged drinking and drug use similarly connect Remy, the previous event, MDMA, lines and weekly finances.\n\nSome long passages depend more on roasting than layered argument, but Proty's images and hooks remain easier to isolate through the live disorder. The closing announcement and official archive award him the win, which immediately becomes his status entering Episode 6.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -986,53 +820,19 @@ export const gzoneClashData = {
     }
   },
   "renzo-vs-proty": {
-    "clashSummary": "RENZO vs PROTY was Gzone Season 1, Episode 6, promoted as a meeting between two of the platform's youngest battlers. The complete raw transcript confirms three rounds each. RENZO approached the clash through grime cadence, movement, self-branding and quick visual comparisons; PROTY used longer rhyme chains, more continuous written passages and sharp live reactions. Personal claims remain unverified performance material.\n\nRENZO's recovered first round changes the archive picture. He turns PROTY into a four-eyed gremlin, spins him like a Rubik's Cube and changes him red and blue; uses Make-A-Wish and statistics to challenge status; moves veteran into HMP language; and closes through Hershey and hearse imagery. His expanded second-round index now covers the car-key/B&B and Brexit-border passages alongside BTEC, two-step, Tyson, Trident and clothing attacks. Round three remains his strongest performance stretch through Stephen Hawking, controller cheat codes and the RENZO/friend-zone/Kenzo chain.\n\nPROTY's first round sustains haze, UK Cali/Muhammad Ali and jail-to-braille rhyme families. The corrected Round 2 breakdown now preserves eight distinct moments: the live microphone rebuttal, Rizla/checklist, Pennywise, fried-rice/type sequence, OT profit loss, AA cell flip, white-versus-grey ash and the clapped/nap/tapped/cracked pocket. His final round uses Birmingham's 0121 code before closing with JD/Lorenzo, Benzo, Sacramento and brand comparisons.\n\nMicrophone changes, reloads and host intervention repeatedly interrupted both battlers. Mid-battle commentators disagreed between 2-0 and 1-1, showing how competitive the room considered it. At the end the host announced 'It's on Renz' and called for noise for RENZO; the official Gzone record agrees. The archive therefore records a RENZO crowd decision without inventing a numerical margin or round score.",
+    "clashSummary": "Episode 6 matched debuting Renzo with Proty, who arrived from an official win over CJ-Zino in Episode 5. The host presented them as two of the league's youngest battlers, and the contrast formed quickly: Renzo used fast grime pressure, movement and repeated self-branding, while Proty used slower visual jokes and a more consistent money-and-drug portrait.\n\nRenzo's first moved through Proty's appearance, status, family and ability before short images such as four-eyed gremlin and Rubik's Cube gave the speed something visible. Proty answered by attacking low-quality cannabis, exposing “UK Cali” as contradictory branding, then building through Muhammad Ali, Tails, sleep and nap language, phones, television and social image. A requested repeat made the first longer without changing its central routes.\n\nRound two sharpened both styles. Renzo's 0121, 3–0 Trident, TikTok credibility, vape-and-Croc humiliation and quick cadence made the performance feel like a live grime set aimed at one opponent. Proty answered with likes and followers, wasted out-of-town profit, Rizla, checklist, Pennywise, prison-cell and ash comparisons. Commentary split between a Renzo 2–0 and a 1–1 score, showing that performance and cleaner punches were being judged differently.\n\nRenzo's third produced the material that travelled furthest: controller-button inputs became a cheat code, 0121 became town identity, and “Renzo / friend zone” turned the name into a repeatable self-brand. Proty opened his answer with the battle's clearest live rebuttal. After Renzo made a sexual boast concerning Proty's sister, Proty immediately revealed that she was one year old, collapsing the boast and forcing the room to reconsider the preceding line.\n\nProty then built his own cheat-code and 0121 material before moving through Lorenzo clothing, Benzos, Cali, Sacramento, prepaid clothes and a claimed TKO. The mirroring matters: Renzo's local and gaming language was not merely endured but reused in the reply. Renzo had the louder identity; Proty often supplied the cleaner single images.\n\nThe final room call and host announcement awarded the battle to Renzo, matching the official GZone record. Proty's individual jokes and sister rebuttal kept the clash close, but Renzo's energy, recurring 0121 identity and friend-zone closer produced the stronger live memory. Badee Harz later repurposes that Renzo/friend-zone sound against Deeno in Episode 17.",
     "performanceAnalysis": [
       {
-        "performer": "RENZO",
-        "overview": "RENZO's three rounds depend on cadence, physical movement and grime-style repetition. His recovered opening adds the four-eyed gremlin, Rubik's Cube, red-and-blue, Make-A-Wish and Hershey/hearse writing that the earlier partial transcript omitted. Round two develops longer left-right grime patterns, car-key and B&B imagery, two-step movement, MC hierarchy, Tyson and blade language, the 3-0/Trident prediction and clothing-detail attacks. Round three remains his strongest performance through Stephen Hawking, controller cheat codes and the RENZO/friend-zone/Kenzo sequence.",
-        "lyricalThemes": "Grime performance; Rubik's Cube and colours; Make-A-Wish; veteran and prison imagery; Hershey and hearse; left-right movement; MC status; regional identity; 0121 Birmingham; fighting and Tyson; 3-0 predictions; gaming cheat codes; the RENZO name; appearance and clothing.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Three and Trident compression",
-            "description": "RENZO predicts a 3-0, then calls it straight like a Trident. The three-pronged object makes the score visual and gives a familiar product or symbol a direct battle function."
-          },
-          {
-            "title": "Stephen Hawking sound chain",
-            "description": "Hawking, walking, talking, boring and flooring share the core sound. RENZO uses the repeated name ending to move from appearance into speech, writing quality and finally physical dominance."
-          },
-          {
-            "title": "Controller cheat code",
-            "description": "Up, down, left, right, square and triangle reproduce controller inputs. Calling the sequence a cheat code suggests RENZO has access to an advantage unavailable through ordinary performance."
-          },
-          {
-            "title": "RENZO identity chain",
-            "description": "RENZO, friend-zone and Kenzo keep his stage name audible across a run of status and fashion references. The sequence functions as self-branding while still attacking PROTY."
-          }
-        ]
+        "performer": "Renzo",
+        "overview": "Renzo performs the debut through speed, movement and grime pressure. He rarely waits for a single punch to settle; instead, repeated flow cues, direct crowd address and constant forward motion make the round feel like a live set being converted into a clash.\n\nThe opponent-specific material is strongest when a compact image survives that pace. Four-eyed gremlin and Rubik's Cube, BTEC, Trident, TikTok, the stolen vape and Croc and controller buttons let listeners locate the attack inside the faster pockets.\n\nSelf-branding gives the third its enduring value. 0121 fixes Renzo in Birmingham, the cheat code turns performance movement into a sequence, and Renzo/friend zone makes the name repeatable enough for Badee Harz to repurpose eleven episodes later.\n\nClarity remains the main weakness, and Proty's sister reveal turns one boast decisively against him. Renzo nevertheless sustains more live momentum, receives the final room call and is the official winner.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "PROTY",
-        "overview": "PROTY's writing is driven by long rhyme runs and rapid changes of image. He frequently begins with one clear subject—cannabis, television cables, prison bars, Pennywise, food or clothing—and uses sound to move into the next. His live awareness is equally important: he converts a microphone failure into an immediate rebuttal, asks for reloads and adjusts repeated passages after crowd reaction. Some chains prioritise rhyme over semantic precision, but the best ones remain both audible and conceptually linked.",
-        "lyricalThemes": "Cannabis and UK Cali; Muhammad Ali; television and HDMI; sleep and delivery; jail and bars; microphones; social media; Rizla and smoke; Pennywise; food and drugs; clothing credit; Birmingham and 0121.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "UK Cali rejection",
-            "description": "PROTY challenges the phrase UK Cali by insisting cannabis grown in Britain is not Californian. Cali, alley, Ali, valley, dilly-dally and rally then turn the argument into a sustained sound chain."
-          },
-          {
-            "title": "Jail-to-braille sequence",
-            "description": "Bars like jail establishes the central double meaning. Tails, rail, braille, whale and frail extend the rhyme, while braille and wavelength add touch and signal imagery to the flow claim."
-          },
-          {
-            "title": "Microphone rebuttal",
-            "description": "When RENZO's audio cuts, PROTY asks whether the mic and beat dislike him too. The interruption becomes evidence for the insult, creating a genuine live rebuttal unavailable in pre-written material."
-          },
-          {
-            "title": "Credit and replay closing chain",
-            "description": "Shoes on credit and prepaid clothes establish payment language before old school, replay, Red Bull, VK and BK create a compact brand-heavy ending. The writing uses consumer names as quick status comparisons."
-          }
-        ]
+        "performer": "Proty",
+        "overview": "Proty arrives from the CJ-Zino win with the clearer single-punch method. UK Cali, Muhammad Ali, Tails, Pennywise, Rizla and prepaid clothes turn intoxication, money, appearance and credibility into images that remain legible after the beat moves on.\n\nThe case develops rather than resets each round. Cannabis quality expands into sniff, ash and fried language; money expands from likes and followers into lost profit, pennies, credit and cheap brands. The repeated details make Renzo's public image the object of the battle.\n\nHis best live moment occurs before the written third. Revealing that the sister in Renzo's sexual boast is one year old instantly reverses the preceding attack. Proty then mirrors the cheat-code and 0121 language, showing active listening rather than returning untouched to preparation.\n\nSome long rhyme chains become repetitive, and the cleaner concepts do not consistently equal Renzo's room control. Proty keeps the battle close and may win individual exchanges, but the final call and official record favour Renzo.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -1241,53 +1041,19 @@ export const gzoneClashData = {
     }
   },
   "deluxx-vs-btizz": {
-    "clashSummary": "DELUXX vs BTIZZ was Gzone Season 1, Episode 7 and part of the platform's early direct-to-YouTube live-stream presentation. The battle contrasted DELUXX's concept-led jokes and shock material with BTIZZ's grime cadence, denser rhyme runs and more consistent round control. Both performers were repeatedly affected by microphone and beat levels, but the surviving transcript preserves all three rounds and a clear panel result. Personal allegations remain unverified battle material.\n\nDELUXX's strongest writing uses compact double meanings. Bill and Ben emerge from a flowerpot setup; Barbie and Ken turn an alleged relationship into a toy pairing; lemon and STD resolve as lemonade; and post, crossbar, pole and ghost produce a football sequence. His first round is more personal and scattered, while round two has the clearest authored concepts. The final round leans into a cash it, match it, tragic and hack it pattern before the writing becomes more freestyle and less precise.\n\nBTIZZ establishes control through grime references and longer connected sounds. His first round begins with calm, shutdown, Skepta, dark, palm, Jamaican, faking and Imran Khan, then moves through acting, Jamaican, Asian, station and taken. Round two maintains the pressure with left, right, night, bite and goodnight; follows with Clash Not Slaughter, mother, daughter and water; and closes by flipping 0121, king of the mic and the claim that DELUXX's bars were written by London Mikes. His third round is rougher in the transcript but still contains a clear Los Santos, GTA, different lane and paving-the-way scheme.\n\nTechnical interruptions were part of the contest: both MCs restarted material, DELUXX spent much of round two requesting louder vocals, and the hosts briefly confused the round cards before round three. After the final call, the commentary table explicitly reported a 2–1 decision, awarding the first two rounds to BTIZZ and the last to DELUXX. The official Gzone record also lists BTIZZ as the winner. His stronger consistency across the opening two rounds explains the result.",
+    "clashSummary": "Episode 7 introduced BTizz against Deluxx, who was returning from an official loss to LDN Mikez in Episode 3. The event also foregrounded GZone's direct YouTube livestream, so the battle's repeated references to cameras, performance and public identity belonged to a room conscious that the clash was being watched beyond the venue.\n\nDeluxx opened with battle-scar, Lion King, family and school material, trying to make experience and aggression outweigh the previous defeat. BTizz answered with the first complete version of his performance identity: Skepta's “Shutdown,” Jamaican and Asian authenticity questions, Imran Khan, crowd-facing repetition and the clipped “B” branding made the debut easy to recognise immediately.\n\nDeluxx's second contained his clearest writing argument. Bill and Ben, flowerpot, Barbie and Ken, the admitted loss to a veteran, pen killing, crosses, posts and ghosts all positioned him as a writer who could survive one defeat. BTizz replied through physical-presence jokes, stamina, the 0121 area code and an attack on authorship: saying Deluxx's bars were written by London Mikez turned Deluxx's former opponent into alleged evidence against his pen.\n\nThe originality dispute works in both directions. Deluxx says BTizz is trying to “tap” into Tapped24's style without matching it; BTizz says Deluxx is using London Mikez's writing. Neither accusation is independently proved by the clash, but both establish pen ownership and borrowed performance as recurring questions around BTizz's season.\n\nThe third was the least controlled section. Deluxx returned to family, poverty, drugs, Dragon Ball Z and the Tapped24 comparison, while BTizz answered through trauma, GTA, Renzo, rhythm, name spelling and repeated performance phrases. Mic levels, reloads, hosting confusion and interruptions made the final round harder to follow than the first two.\n\nThe commentary table awarded BTizz the first two rounds and Deluxx the third, producing a 2–1 decision. The official GZone record also gives BTizz the win. That debut result becomes important in Episode 13, where BTizz uses the Deluxx victory as status against CJ-Zino before CJ directly revives the copied-Tapped24-flow allegation.",
     "performanceAnalysis": [
       {
-        "performer": "DELUXX",
-        "overview": "DELUXX writes through self-contained concepts and direct shock angles. His best bars are easy to isolate because they have a defined setup and destination: Flower Pot Men become Bill and Ben, Barbie leads to Ken, an STD produces lemonade, and football vocabulary links post, crossbar, pole and ghost. Audio problems repeatedly force him to restart and weaken his momentum, particularly in round two. The final round shows more urgency but less technical clarity, which aligns with the panel awarding him only the closing round.",
-        "lyricalThemes": "Personal and family attacks; death and burial; Flower Pot Men; Barbie and Ken; illness and lemonade; football; television and scripts; drugs; cash and matching; anime imagery.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Flower Pot Men construction",
-            "description": "A flowerpot introduces Bill and Ben, the central characters from The Flower Pot Men. DELUXX turns the children's television reference into a threat before returning to killing with a pen."
-          },
-          {
-            "title": "Barbie and Ken pairing",
-            "description": "After alleging DELUXX's opponent follows another man, 'you're his Barbie, he's your Ken' gives that relationship a recognisable toy-couple image. The pairing is immediate and needs no extended explanation in the room."
-          },
-          {
-            "title": "Lemonade compression",
-            "description": "Lemon and STD are joined into 'lemon-AIDS', sounded as lemonade. The device is deliberately crude but technically compact, using the drink name as the phonetic resolution of two previous ideas."
-          },
-          {
-            "title": "Football vocabulary chain",
-            "description": "Missing, hitting the post, crossbars, the spot, ghost and pole keep the passage inside football and goal-frame language. DELUXX uses sporting accuracy to describe the precision of his attacks."
-          }
-        ]
+        "performer": "Deluxx",
+        "overview": "Deluxx makes the previous Mikez loss part of the performance instead of avoiding it. Saying that a defeat to a veteran cannot remove him gives the return a recovery frame, while battle scar and Lion King attempt to restore status from the opening.\n\nHis second is the clearest technical round. Bill and Ben, flowerpot, Barbie and Ken, killing with a pen, crosses, posts and ghosts join writing language to accessible references. The material sounds more deliberate when it stays on craft rather than stacking unrelated shock attacks.\n\nThe Tapped24 comparison is the most important future-facing line. By saying BTizz is trying to tap into a style he cannot match, Deluxx establishes the borrowed-flow question that CJ-Zino later turns into a live confrontation with Tapped in Episode 13.\n\nMic problems, repeated starts and compressed delivery limit control, especially in the third. The commentary table credits Deluxx with that final round, but the recovery arrives after BTizz has already built the two-round lead that decides the battle.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "BTIZZ",
-        "overview": "BTIZZ delivers with greater structural consistency in the first two rounds. He uses grime references as status markers, then extends them through rhyme rather than abandoning them after one name. His strongest sections combine performance and content: Skepta's 'Shutdown' introduces a control claim, loose lips and sinking ships become a personal rebuttal, and the round-two left-right sequence makes his cadence feel like repeated physical strikes. The final round is less controlled, but the earlier advantage is enough for the recorded 2–1 decision.",
-        "lyricalThemes": "Grime history; Skepta and Shutdown; Jamaican and Asian identity; appearance; acting and authenticity; ships and loose lips; left-right fighting; Clash Not Slaughter; Birmingham 0121; ghostwriting; Los Santos and GTA.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Skepta Shutdown opening",
-            "description": "Calm and shutdown establish control before Skepta supplies the grime reference. Dark, palm, Jamaican, faking and Imran Khan then extend the sound while BTIZZ questions DELUXX's claimed identity."
-          },
-          {
-            "title": "Loose-lips proverb flip",
-            "description": "BTIZZ quotes 'loose lips sink ships' and then turns loose lips into a sexual personal attack involving RENZO. The known proverb provides the setup; changing the reason for the loose lips supplies the punch."
-          },
-          {
-            "title": "Left-right impact sequence",
-            "description": "Left, right, night, bite and goodnight make the passage feel like a combination of strikes. The rhyme and the physical directions reinforce each other, producing one of BTIZZ's clearest round-two performance runs."
-          },
-          {
-            "title": "Los Santos lane scheme",
-            "description": "Los Santos identifies the fictional GTA city. 'Different lane' and 'paving the way' retain the road vocabulary, allowing the game reference to become a status claim about BTIZZ's route through battle rap."
-          }
-        ]
+        "performer": "BTizz",
+        "overview": "BTizz debuts with a recognisable room-control system already in place. Skepta's “Shutdown,” clipped B sounds, name spelling, crowd repetition and willingness to restart around reactions make the performance easy to identify even when the transcript becomes noisy.\n\nAuthenticity is the main opponent-specific route. Jamaican and Asian identity, yard language, appearance and public presentation are tested repeatedly, while 0121 supplies BTizz with a clear Birmingham identity against which Deluxx's image can be measured.\n\nThe London Mikez line is the sharpest counter to Deluxx's originality attack. Deluxx says BTizz copies Tapped24; BTizz says Deluxx's former opponent writes his bars. Turning Mikez's Episode 3 victory into an authorship allegation lets BTizz attack both record and pen at once.\n\nThe third is disrupted and less coherent, but BTizz's first two rounds have the clearer destinations and stronger live control. The commentary table awards him those two rounds, and the official archive records his debut as a 2–1 win.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -1430,7 +1196,7 @@ export const gzoneClashData = {
     }
   },
   "2mwad-vs-ryno": {
-    "clashSummary": "2MWAD vs RYNO was a hostile three-round clash built around homelessness, political identity, personal history and the question of what could be proved in the room. RYNO opened by acknowledging the expected homeless angle before attacking 2MWAD's stage persona and family. 2MWAD answered with the same lifestyle angle, then made it the spine of a much more direct character attack. Every personal claim in the battle is treated here as unverified performance material, not established fact.\n\nRYNO's strongest writing came through extended sound patterns. His first round moved from needy, geeky, creepy, freaky and squeaky into shorter direct insults; his second used the Pen Zeppelin, lead, rock and roll and Stairway to Heaven sequence to join weapon imagery to a Led Zeppelin reference. He also attacked 2MWAD's music and image with the matching-tracksuit, roadman wedding and Jackson 5 comparison. The writing was dense, although beat and microphone problems forced several restarts.\n\n2MWAD took a more angle-led route. Round one repeatedly returned to RYNO's living situation so the audience could follow the central attack. Round two shifted into politics and an allegation about RYNO, creating the battle's most serious exchange. RYNO anticipated it and began round three with a document he said showed that no charge had been brought. That live response became the clash's defining piece of theatre, while 2MWAD closed with animal wordplay, fruit references and a fingerprint/DNA sequence.\n\nThe hosts finished with a red- and blue-corner crowd call, but the surviving transcript does not clearly announce the count or margin. The official Gzone battle record lists 2MWAD as the winner, so the archive follows that result without inventing a round score. RYNO supplied the battle's most visible rebuttal and some of its densest rhyme chains; 2MWAD's clearer angles, more direct room communication and stronger close provide the best performance-based explanation for the recorded outcome.",
+    "clashSummary": "Episode 8 placed Ryno's GZone debut against 2MWAD, who was returning from an official loss to LDN Mikez in Episode 4. Ryno opened beyond the immediate booking by warning every MC in the room, then turned 2MWAD's social-media clips, dancing, camera performance and sound effects into a credibility attack. 2MWAD answered by refusing that wider status claim and making Ryno's alleged living conditions the battle's main story.\n\nThe first round establishes both identities clearly. Ryno predicts homelessness jokes, denies living with his mother and recasts himself as 2MWAD's stepfather, while Jigglypuff and mortar imagery add more recognisable punches. 2MWAD uses a sleeping bag by a pond, change outside a bank, stained clothes, substance use and employment to make the housing claim visual rather than abstract. A mic failure forces him to restart much of the round.\n\nRyno's second is the technical centre but also the most disrupted passage. “Main objective: break down you” keeps restarting around sound trouble before Pen Zeppelin, lead, rock and roll and Stairway to Heaven produce the cleanest connected scheme. Banking, bedding, music, clothing and the “roadman Jackson 5” image extend the attack from 2MWAD alone to his presentation and crew.\n\n2MWAD's second turns from housing into politics, alleged racism, bailiffs and a serious allegation concerning sexual conduct. Ryno begins the third off the dome, directly answering the Britain and pond language before saying he expected the allegation and producing an NFA document. The document is used as his defence inside the clash; the page records that exchange without treating either battler's legal claim as independently verified fact.\n\nAfter the document sequence, Ryno returns to prepared writing through fathers, pawn and checkmate, Katt Williams, performance criticism and a request for Deeno next. 2MWAD closes through snake, sheep, insect and fruit language, then returns to money, KFC, housing, professional status and alleged conduct. His “GZone traveller, 3-0 massacre” line turns the visitor role into a claim of a complete win.\n\nThe official GZone record awards Ryno the victory. Ryno produced the sharper isolated technical sequence and the battle's most consequential live defence, while 2MWAD sustained one opponent-specific portrait across all three rounds and repeatedly restored it after Ryno's rebuttals. The same housing, racism and NFA routes continue against Ryno in Episodes 11 and 18, showing that his official win did not close the angles used inside the clash.\n\nNFA Document from Police\n\nShown by Ryno in defense",
     "props": [
       {
         "name": "NFA Document from Police",
@@ -1440,50 +1206,16 @@ export const gzoneClashData = {
     ],
     "performanceAnalysis": [
       {
-        "performer": "RYNO",
-        "overview": "RYNO was the more rhyme-dense MC, using rolling end sounds, grime cadence and long sequences that often prioritised momentum over isolated punches. His second-round Led Zeppelin construction was his cleanest technical passage, while his third-round document reveal was the battle's clearest live rebuttal. Repeated beat, microphone and restart problems disrupted the shape of his rounds, but he repeatedly recovered and addressed 2MWAD directly.",
-        "lyricalThemes": "Homelessness; stage persona; family attacks; grime credibility; music and image; political identity; rebuttal; legal-document prop; absent-father angle; board-game wordplay.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Rolling adjective chain",
-            "description": "Needy, geeky, creepy, freaky and squeaky creates an immediately recognisable sound pattern. The accumulation gives RYNO's opening attack pace and performance clarity."
-          },
-          {
-            "title": "Pen Zeppelin sequence",
-            "description": "Pen, lead, rock and roll and Stairway to Heaven connect writing or weapon imagery to Led Zeppelin. The references operate as one linked scheme rather than separate name-drops."
-          },
-          {
-            "title": "Document-led rebuttal",
-            "description": "RYNO predicts the allegation, produces an NFA document and stops his written round to address it. Whatever the document's wider context, the timing makes it a genuine live answer to 2MWAD's preceding material."
-          },
-          {
-            "title": "Chess compression",
-            "description": "Calling 2MWAD a pawn before threatening checkmate and removal from the board compresses hierarchy, defeat and disposal into one familiar game system."
-          }
-        ]
+        "performer": "Ryno",
+        "overview": "Ryno performs his debut as a platform-wide challenge. Addressing the whole room before 2MWAD makes the booking sound like the first step in a larger run, while the online clips, dancing, comedy and sound-effects attack gives him a clear argument against the opponent's public character.\n\nHis strongest prepared writing joins multiple meanings without losing readability. Pen becomes the writing tool, lead becomes ammunition, Led Zeppelin supplies the sound, and rock and roll leads naturally to Stairway to Heaven. The pawn and checkmate pair repeats that technical clarity in the third.\n\nRyno also demonstrates live defensive thinking. He predicts homelessness in the first, freestyles on Britain and the pond in the third, anticipates the serious allegation and produces an NFA document. The document is a major room moment, although it does not prevent later battlers reusing the underlying legal language.\n\nAudio restarts repeatedly damage rhythm, especially in the second, and the attack sometimes becomes a list of hostility rather than one sustained portrait. Ryno leaves with sharper isolated peaks and takes the official decision over 2MWAD.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "2MWAD",
-        "overview": "2MWAD built his performance around direct, repeatable angles. He used RYNO's living situation as a first-round refrain, changed focus to politics and personal allegations in round two, then closed with shorter wordplay clusters that were easier for the room to catch. Some passages were extremely personal and should not be read as factual reporting, but his clearer structures and audience-facing delivery helped him maintain the stronger overall impression recorded by Gzone.",
-        "lyricalThemes": "Homelessness; public image; right-wing politics; personal allegations; appearance; animal and fruit wordplay; money; police cooperation; DNA and fingerprints; Gzone status.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Round-one refrain",
-            "description": "The sleeping-bag, pond, change and stained-clothes passage is restarted and repeated after audio trouble. Repetition makes the homelessness angle the round's unmistakable organising idea."
-          },
-          {
-            "title": "Political angle control",
-            "description": "Take Back Britain, racist, playlist, places and bailiff form a direct sequence in which political accusation, music criticism and housing pressure target the same public image."
-          },
-          {
-            "title": "Animal and fruit clusters",
-            "description": "Snake, sheep, leader, lion, goat and ladybug create one compact field before bananas and pear-shaped begin another. The schemes make the third round more technically varied."
-          },
-          {
-            "title": "DNA and fingerprints close",
-            "description": "DNA and fingerprints both belong to identification and forensic evidence. Placing them beside a snitch accusation gives the closing wordplay a coherent subject."
-          }
-        ]
+        "performer": "2Mad",
+        "overview": "2MWAD builds the more complete three-round case. Housing, money, hygiene, work, bailiffs, sleeping arrangements and public image all support the same claim that Ryno's dominant persona is unstable away from the microphone.\n\nThe strength is concrete imagery. A sleeping bag by a pond, asking for change beside a bank, stained clothing, missing furniture and KFC spare change give the room scenes it can picture and repeat. Returning to those details after rebuttals makes the narrative persistent.\n\nRound two broadens the case through politics, alleged racism and an allegation concerning sexual conduct. These are claims made during a clash, not independently verified findings. Their battle function is to force Ryno out of prepared writing and into the live document defence that opens his third.\n\nThe long rounds and repeated passages can sacrifice precision, but the best lines remain opponent-specific and the final GZone-traveller declaration summarises his position cleanly. The official record awards Ryno the win, leaving 2MWAD 0-2 after the Episode 4 loss to LDN Mikez.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -1627,7 +1359,7 @@ export const gzoneClashData = {
     }
   },
   "tapped24-vs-roman": {
-    "clashSummary": "TAPPED24 vs ROMAN was billed as the main event and became a three-round personal battle shaped as much by live evidence and room control as by written punches. ROMAN opened with camera, music and crew attacks before confronting expected material about a bereavement. TAPPED24 answered with repeated flips of ROMAN's name and relationship-themed writing. Personal and family claims made by either MC are archived as unverified battle material, not factual reporting.\n\nROMAN's best work joined a direct angle to a clear reference. Wolves, wool and dairy gave his opening a compact animal-and-texture scheme; Kate Bush's Running Up That Hill became a threat about making TAPPED run; and his third round moved through water language with out of depth, paddle and sink or swim. In round two he produced printed messages, asked the host to read them and used the prop to support a cheating angle. The reveal created the battle's biggest change in atmosphere.\n\nTAPPED24 relied on longer rhyme chains and name flips. His opening Roman, roll man, Roman Reigns and Roman script sequence established the opponent's name as a recurring sound. Round two contrasted hero and villain, pounds and shillings, Prada and Guinness, then turned Gzone into G-string. His final round contained his strongest reference writing: an Art Attack painting scheme, a nitrogen-ammonia-hydrogen science chain and an X-Men run through Wolverine, Cyclops and Jean Grey.\n\nAudio levels caused repeated restarts, and crowd or host interruptions repeatedly broke both performances. Even so, the battle reached a clear live conclusion: the hosts called for both corners more than once, then brought ROMAN forward and asked the room to make noise for him. The official Gzone record also lists ROMAN as the winner. The archive therefore records a ROMAN crowd decision without adding an unsupported vote margin or round score.",
+    "clashSummary": "Episode 9 joined two early-season records. Roman arrived from an official win over PR1NC3 in Episode 2, while Tapped24 was trying to recover from his opening defeat to Deeno. Roman went first in every round and made that advantage part of the pressure: Tapped was presented as a loud personality whose confidence, family image and league status could be tested under direct confrontation.\n\nRoman's first moved from pack and softness imagery into bloodline, parenting and bereavement. Crucially, he predicted that Tapped would mention his deceased former partner and acknowledged the death before the angle could be presented as a reveal. Tapped answered with the clash's densest entertainment writing: Roman Reigns, Roman script, romance, Fergie time, Dobby, football and roster references turned Roman's name and appearance into a chain of accessible punches.\n\nRound two became an evidence exchange. Roman addressed allegations concerning Tapped's former partner and Georgie, then produced printed message screenshots as receipts. Tapped opened with an intentionally brutal contrast between Roman's bereavement and his own relationship, before producing his own screenshot about Roman allegedly rating AJ. His announcement that he had “done a Deeno” made the prop a direct callback to the screenshot tactic Deeno had used against him in Episode 1.\n\nRoman's third challenged originality around PR1NC3, attacked Tapped's partner, mother, tattoos, stage name and depth, and kept the performance physically close. Tapped disputed most of Roman's claims but continued the deceased-partner route at length, then widened the round through chemistry, Jack the Ripper, X-Men and fairy-tale imagery. Sound interruptions and restarts disrupted both sides, but neither abandoned the three-round structure.\n\nThe screenshot symmetry is more important than either allegation in isolation. Roman used a document to make a serious character case look verifiable; Tapped mirrored the method to defend status and attack Roman's private opinion. These remain claims made inside a battle, not independently verified facts, but the objects changed how the room received the writing.\n\nThe closing crowd check was close enough to be repeated, before Roman received the stronger final reaction and was announced as the winner. The official GZone record also awards Roman the win. Tapped supplied more reference-heavy comedy and several of the clash's most quotable name flips; Roman's steadier pressure, prebuttal and more controlled final round secured the recorded decision.\n\nScreenshots of text messages\n\nUsed by Roman to expose Tapped24\n\nScreenshots of text messages\n\nUsed by Tapped24 to expose Roman",
     "props": [
       {
         "name": "Screenshots of text messages",
@@ -1642,50 +1374,16 @@ export const gzoneClashData = {
     ],
     "performanceAnalysis": [
       {
-        "performer": "ROMAN",
-        "overview": "ROMAN combined direct personal angles with compact reference schemes and strong room-facing performance. His clearest writing used familiar images — wolves, Kate Bush, frozen food, open arms and water — so the audience could follow each attack immediately. The printed-message reveal gave his second round a piece of live theatre that TAPPED24 had to answer. Several restarts damaged continuity, but ROMAN recovered more cleanly and maintained the stronger narrative presence reflected in the crowd result.",
-        "lyricalThemes": "Crew credibility; music and camera imagery; bereavement; confidence in defeat; relationship allegations; printed messages; Gzone roster status; appearance; family attacks; water and depth; performance hierarchy.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Wolves, wool and dairy",
-            "description": "ROMAN starts with a threatening pack of wolves, then weakens them through soft wool and dairy. The near-homophones let one comparison change from danger to softness."
-          },
-          {
-            "title": "Kate Bush reference",
-            "description": "Making TAPPED run to the hills invokes Kate Bush's Running Up That Hill, while asking whether she has legs keeps the threat and the song title in the same image."
-          },
-          {
-            "title": "Printed-message reveal",
-            "description": "ROMAN hands a printed message to the host, asks for it to be read and says he printed the information twice. It turns a written relationship angle into a physical event in the room."
-          },
-          {
-            "title": "Water-system close",
-            "description": "Paddle, out of your depth and sink or swim all belong to one water field. ROMAN uses the sequence to describe TAPPED as unable to survive at his competitive level."
-          }
-        ]
+        "performer": "Roman",
+        "overview": "Roman approached the battle through pressure, proximity and certainty. The pack, bloodline and parenting material is often plainer than Tapped's reference writing, but his physical conviction makes direct threats function as performance moments rather than filler.\n\nHis most important strategic move comes before the screenshots: Roman predicts the deceased-partner angle and acknowledges the death himself. That prebuttal does not stop Tapped using it, but it removes the shock of disclosure and lets Roman appear prepared when the subject returns.\n\nRound two supplies the clearest staging. Roman moves from allegation to a printed screenshot, reads the messages and uses the object to organise the room's attention. In the third, out-of-depth and sink-or-swim language gives a sprawling personal attack a consistent frame.\n\nRestarts affect his continuity, and some extreme family attacks substitute hostility for layered writing. Even so, Roman is steadier at the close, receives the stronger final crowd response and is announced as the winner; the official record agrees.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "TAPPED24",
-        "overview": "TAPPED24 took the more rhyme-led route, stacking names, references and repeated endings into long passages. His first-round ROMAN sequence was the clearest name-flip writing in the clash; his second round built momentum from paired opposites; and his third added science, television-art and comic-book references. Beat levels repeatedly forced him to stop and restart, making some dense passages harder to hear, while his most personal material sometimes obscured the underlying technique.",
-        "lyricalThemes": "ROMAN name flips; relationships and family; football and popular culture; hero-villain contrasts; age and status; Gzone identity; screenshots; science; Art Attack; X-Men; fairy tales; self-positioning.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "ROMAN name network",
-            "description": "Roman, roll man, Roman Reigns, Roman script and romantic repeatedly reshape the opponent's name. The variations create a coherent opening rather than a collection of unrelated insults."
-          },
-          {
-            "title": "Paired-opposite momentum",
-            "description": "Hero and villain, talking and killing, pounds and shillings, started and finished, question and meaning all present TAPPED as the stronger half of a contrast."
-          },
-          {
-            "title": "Science sound chain",
-            "description": "Nitrogen, ammonia and hydrogen share scientific language and repeated endings. TAPPED uses the chemical names as rhythmic destinations inside an otherwise personal passage."
-          },
-          {
-            "title": "X-Men reference run",
-            "description": "Going rogue becomes the character Rogue; storm becomes Storm; ex-men becomes X-Men; Wolverine, Cyclops and Jean Grey then extend the comic-book field."
-          }
-        ]
+        "performer": "Tapped24",
+        "overview": "Tapped24 supplies the higher reference density. Roman Reigns, Roman script, Fergie time, Dobby, chemistry, X-Men and fairy tales let him move quickly between name flips, appearance jokes and personal attacks without abandoning his comic voice.\n\nHis best live adjustment is structural rather than improvised: after Roman produces messages, Tapped reveals his own screenshot and announces that he has “done a Deeno.” The phrase acknowledges the Episode 1 tactic while showing that he can absorb a method previously used against him.\n\nThe performance is strongest when a reference compresses the point into one crowd-readable contrast, especially GZone versus G-string and rock versus pebble. The longer bereavement sequence is more contentious: Roman had already prebutted it, and continued repetition creates shock without always advancing the argument.\n\nTapped remains competitive through humour, room interaction and memorable phrasing, but repeated sound interruptions and the looser third round weaken his finish. He earns substantial crowd support without overturning Roman's official decision.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -1829,7 +1527,7 @@ export const gzoneClashData = {
     }
   },
   "tapped24-vs-ajna": {
-    "clashSummary": "TAPPED24 vs AJNA matched an experienced Gzone battler against the platform's self-declared First Lady in a clash driven by direct insults, performance energy and repeated attempts to control a noisy room. TAPPED24 opened with family, appearance and singing angles, while AJNA answered with an extended sequence built around ick, slick, stiff and other short internal sounds. All personal allegations and family claims are preserved only as unverified battle material.\n\nTAPPED24's clearest writing used familiar names and objects. Dumbledore and Juggernaut turned an appearance angle into two fantasy/comic visuals; James and the Giant Peach became AJ and the giant plum; Goldmember and Fat Bastard linked one section through Austin Powers; and High School Musical supplied head in the game and East High in round three. His baby-wipes prop gave the eyebrow angle a physical punch, although repeated beat complaints made several rounds restart.\n\nAJNA relied on forceful cadence, repetition and direct confrontation. Her first round chained ick, slick, stiff, whipped and prick before using started and darkness as a recurring reset. Round two moved from one, two and three lines into left/right and wrong/right contrasts, then closed by criticising violence toward women. Her third round used level, rebel, meddle and medal, expanded showers into champagne and hygiene imagery, and turned TAPPED24's name into a rack-up-a-score question.\n\nThe result required more than one stage call. The room was initially too close for the hosts to settle; some presenters personally leaned TAPPED24, while they acknowledged that the crowd leaned AJNA. The live comments were then consulted and repeatedly returned AJ, after which AJNA was explicitly announced as the winner. The official Gzone record agrees. This archive records an AJNA crowd-and-live-chat decision without inventing a vote total or round score.",
+    "clashSummary": "Episode 10 introduced AJNA as the First Lady of GZone against Tapped24, who already carried official losses to Deeno and Roman. Tapped entered as the experienced “Mr Disrespectful” figure and treated the debut as a test of whether a new woman on the platform could survive exactly the same hostile room he gave every opponent. AJ answered by matching the hostility rather than seeking a protected debut.\n\nTapped's first attacked parenting, children, appearance, weight, music, relationships, money and race before sound trouble forced a long restart. Dumbledore and Juggernaut made the forehead route visual; the larger purpose was to deny AJ the queen and artist status announced around her entrance. AJ's response changed the room immediately through alleged drug use, sexuality, masculinity, 2MWAD and repeated “bad man / mad man / sad man” phrasing.\n\nRound two widened both arsenals. Tapped used AJ's sister, children, hygiene, James and the Giant Peach, Austin Powers, TARDIS, eyebrows and an extended audience “run train” section. AJ made Georgie central, turning Tapped's relationship into the round's live pressure point, then developed sniffing and line-counting language before challenging alleged violence toward women and telling him to fight men instead.\n\nTapped's third moved through High School Musical, appearance, age, children, bereavement, Wiley, periods and housing. AJ closed with a repeated “set some levels” structure, boxing-ring violence, masculinity, drugs, police, the playground and serious alleged conduct. Both rounds needed reloads and mic corrections, but AJ's delivery kept turning interruptions into renewed energy rather than lost momentum.\n\nThe initial room calls were close enough to create open disagreement. Some commentators personally preferred Tapped, but they acknowledged that the room had leaned AJ; the live comments then repeatedly selected AJ. The host announced AJNA as the winner, and the official record agrees. The page should preserve that distinction: a disputed technical opinion is not the same as the recorded verdict.\n\nThe result becomes active material in Episode 15. Grams uses AJ as proof that Tapped was already beaten; Tapped answers that GZone made him lose and argues that he did not really lose. Georgie also develops from AJ's targeted second-round pressure into one of Grams' main parenting and home angles, so Episode 10 supplies both the disputed record and the personal route for Tapped's eventual first win.",
     "props": [
       {
         "name": "Pack of baby wipes",
@@ -1839,50 +1537,16 @@ export const gzoneClashData = {
     ],
     "performanceAnalysis": [
       {
-        "performer": "TAPPED24",
-        "overview": "TAPPED24 approached AJNA through direct family and appearance angles, but his most effective passages were structured around recognisable references. Dumbledore, Juggernaut, James and the Giant Peach, Austin Powers and High School Musical gave the audience clear images inside dense material. The baby-wipes prop created an easy visual punch. Frequent complaints about beat volume forced long sections to restart, and the disruption reduced the momentum of writing that often depended on extended rhyme chains.",
-        "lyricalThemes": "Parenting; appearance; singing; Gzone experience; family and relationship attacks; fantasy and comic characters; Austin Powers; baby-wipes prop; High School Musical; age and status; period wordplay.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Fantasy forehead sequence",
-            "description": "Dumbledore supplies a big-headed visual and Juggernaut supplies the ability to break through walls. Two separate character references reinforce the same appearance angle."
-          },
-          {
-            "title": "Austin Powers network",
-            "description": "Goldmember, Fat Bastard and Austin Powers all belong to the same film series. Gold also connects back to the preceding shower phrase, making the reference chain more than a list of characters."
-          },
-          {
-            "title": "Baby-wipes prop punch",
-            "description": "TAPPED24 asks where AJNA's eyebrows are, produces baby wipes and contrasts a unibrow with half eyebrows. The object makes a simple appearance joke immediately visible."
-          },
-          {
-            "title": "High School Musical chain",
-            "description": "Head in the game, East High and free time/meantime connect a relationship angle to High School Musical. The title reference also announces a switch in flow."
-          }
-        ]
+        "performer": "Tapped24",
+        "overview": "Tapped24 arrived as the known GZone battler but not a proven winner. The official losses to Deeno and Roman make his veteran posture double-edged: he has more room experience than AJNA, yet that same history gives the newcomer a record to attack.\n\nHis writing uses immediate visual access. Dumbledore, Juggernaut, Giant Peach, Austin Powers, TARDIS, High School Musical, Wiley, eyebrows, weight and clothing keep the punches readable, while parenting, relationships and money attempt a deeper character case.\n\nThe performance repeatedly loses clean shape to sound resets, reloads and crowd involvement. The extended run-train passage creates participation but also spreads the second round across too many targets. The third grows darker without producing a single closing structure as memorable as AJ's repeated levels opening.\n\nTapped's minority technical case is preserved in the aftermath—some commentators say they preferred him—but the room and live comments select AJNA. His later claim that GZone made him lose is therefore a rebuttal to the verdict, not the official outcome of this battle.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "AJNA",
-        "overview": "AJNA performed with the more forceful crowd-facing style, using repetition and compact rhyme families to make her attacks land through the noisy room. Her first-round ick and slick chain established her cadence; the second built around numbered lines and directional opposites; and the third used a sustained level-to-medal pattern before expanding shower imagery. Her directness generated repeated reloads and ultimately connected strongly enough with the room and live chat to secure the official result.",
-        "lyricalThemes": "Credibility; sexuality and relationships; drug imagery; darkness; stage-name attacks; directional contrasts; violence toward women; performance level; champagne and shower imagery; police cooperation; scorekeeping; outsider expectations.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Ick and slick cadence",
-            "description": "Stick, ick, slick, stiff, whipped and prick build a compact sound family that AJNA can repeat after interruptions without losing the central rhythm."
-          },
-          {
-            "title": "Numbered-line escalation",
-            "description": "One more line, two more lines and three more lines count upward while line changes meaning from a drug reference into the next part of the verse."
-          },
-          {
-            "title": "Wrong, right, left and right",
-            "description": "AJNA says TAPPED is so wrong he will never be right, then bends him left and right. Moral judgement and physical direction share the same words."
-          },
-          {
-            "title": "Level-to-medal chain",
-            "description": "Level, Breville or rebel, meddle and medal sustain the ending before champagne showers opens a second linked image system around liquid, celebration and hygiene."
-          }
-        ]
+        "performer": "AJ / AJNA",
+        "overview": "AJNA converts the First Lady introduction into competitive authority. Matching Tapped's sexual, family and appearance pressure removes any novelty framing and makes the room judge her through the same hostile standard as the established battler.\n\nHer most effective sequences have simple repeatable spines: bad man, mad man and sad man; one, two and three lines; Georgie Porgie; and “set some levels.” The patterns keep aggressive material intelligible even when the performance is loud and chaotic.\n\nGeorgie is the sharpest opponent-specific route because it involves someone present and produces live reloads. Drug use, masculinity, alleged violence toward women and the boxing-ring challenge then combine into the claim that Tapped's public toughness is misdirected.\n\nThe writing can be raw and the most serious allegations remain unverified battle material, but AJ controls recovery after interruptions and owns the final reaction. The room and live comments lead to the announced and official AJNA win, making the debut a recorded upset rather than only a strong showing.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -2026,7 +1690,7 @@ export const gzoneClashData = {
     }
   },
   "ryno-vs-tymeless": {
-    "clashSummary": "RYNO vs TYMELESS was a volatile three-round battle built around the word time, homelessness, family history and competing claims about credibility. RYNO treated TYMELESS's name as a writing system, repeatedly moving through time travel, clock faces, timelines, past, future and present. TYMELESS answered with direct lifestyle angles and a much more theatrical prop strategy. All personal allegations are indexed as unverified battle material rather than factual claims.\n\nRYNO's strongest passages linked name flips to performance. A right hand made TYMELESS fly and created time travel; left and right hands became clock hands; and his second round expanded timing into rhyming, timelines, dimensions and a recorded timestamp. His best live moment came in round three when he asked for the actual clock, read the time and converted it into a time-of-death freestyle. It drew immediate recognition from the hosts because it could not have been fully pre-written.\n\nTYMELESS's opening used homeless, hopeless, domeless, toneless and soulless to establish a rolling sound before turning RYNO's first-round racism angle back on him. Round two escalated through props: an alleged photograph, ashes and a series of personal attacks. Round three became a care-package concept, with socks, briefs, a toothbrush, Pot Noodle and soap each introduced as part of the homelessness angle. The gifts made his writing visible and gave the room a sequence of escalating reveals.\n\nThe battle was repeatedly disrupted by beat changes, crowd movement, requests for water and confusion about whether RYNO's second round had ended. Despite that disorder, the final call is explicit. Both corners received strong reactions; the host said TYMELESS had 'just scraped it' and announced that the battle went to him. The official Gzone record agrees, so the archive records a narrow TYMELESS crowd decision without inventing a score or vote count.",
+    "clashSummary": "Episode 11 placed Ryno, returning from an official win over 2MWAD, against debuting TymeLess. The earlier victory did not remove the material attached to Ryno: housing instability, alleged conduct and racism accusations all travelled from Episode 8 into this clash. TymeLess arrived without a GZone record but with a prepared case built from that shared history.\n\nRyno's first round used TymeLess' real name William, ADHD, family, children, sunglasses, women, racism and an extended time vocabulary. Time travel, clock faces, stopwatch, cremation, life check and expiry language made the attack visibly opponent-specific. TymeLess answered by questioning who Ryno was challenging, then returned to homelessness, allegations, the 2MWAD racism dispute and family trauma.\n\nThe second exposed the difference between technical organisation and room control. Ryno built past, present, future, timelines, stopwatch and recorded-timestamp writing, but the host mistook a timestamp line for the end of the round and the resulting argument fractured his momentum. TymeLess used that space for a longer character case involving alleged racism, Ryno's friends, sexuality, family bereavement and claimed inside information.\n\nRyno's third recovered with marination, William, “fire at Will,” homelessness denial, keys and a live clock check that became “recording time of death.” TymeLess then turned the housing angle into theatre: a photograph, ashes, socks, toothbrush, Pot Noodle, soap, packing tape and other everyday items made alleged hardship visible. Ryno's keys supplied the direct counter-prop, but TymeLess' sequence controlled the closing image.\n\nThe room vote and official record award TymeLess the win. Ryno produced the denser name-flip writing and the sharper improvised clock payoff; TymeLess connected previous battle history, live rebuttal energy, extreme personals and physical evidence into the larger three-round performance.\n\nBoth arsenals continue later. Roman inherits Leicester, housing and NFA pressure against Ryno in Episode 18. Deeno inherits William, time travel, parenting and racism routes against TymeLess in Episode 21, while TymeLess explicitly brings the Ryno clash back into that room and evolves this battle's household-prop method into the plunger, fruit and three-lemon structure.\n\nAlleged photo of Ryno kissing a man\n\nUsed by Tymeless to expose Ryno\n\nA bag of ashes\n\nUsed by Tymeless as a shock reveal to expose Ryno\n\nA pair of socks\n\nUsed by Tymeless to reinforce a homelessness angle\n\nA toothbrush\n\nUsed by Tymeless to mock hygiene and living conditions\n\nChicken & Mushroom Pot Noodle\n\nUsed by Tymeless to suggest Ryno might be hungry\n\nA bar of soap\n\nUsed by Tymeless to attack personal hygiene\n\nA roll of packing tape\n\nUsed by Tymeless to suggest patching up worn-out clothes\n\nKeys to a property\n\nUsed by Ryno to reject claims of being homeless",
     "props": [
       {
         "name": "Alleged photo of Ryno kissing a man",
@@ -2071,50 +1735,16 @@ export const gzoneClashData = {
     ],
     "performanceAnalysis": [
       {
-        "performer": "RYNO",
-        "overview": "RYNO used TYMELESS's name as the technical centre of his performance. Time travel, clock hands, timing, timelines, past, future, present, timestamps and time of death recur across all three rounds, giving his writing unusual thematic consistency. He also responded aggressively to personal angles and recovered from a prematurely stopped second round. The spontaneous clock reading was his clearest proof of live adaptability, although audio trouble and disputes over timing repeatedly damaged his round structure.",
-        "lyricalThemes": "Time and clocks; ADHD; family and parenting; stage credibility; allegations and rebuttals; violence; homelessness; writing ability; live freestyle; opponent's real name.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Three-round time system",
-            "description": "RYNO develops TYMELESS's name through travel, clock hands, expiry, timelines, dimensions, timestamps and death time. The repeated field gives separate rounds a shared identity."
-          },
-          {
-            "title": "Past, future and present",
-            "description": "Past time, writing for the future and telling TYMELESS what is present use three grammatical time positions while present also means what is happening now."
-          },
-          {
-            "title": "Recorded timestamp punch",
-            "description": "A physical attack becomes something recorded by the cameras and marked with a timestamp. The room's confusion over whether it was time adds unintended live resonance."
-          },
-          {
-            "title": "Clock-based freestyle",
-            "description": "RYNO asks for the current time, reads the clock and calls it TYMELESS's recorded time of death. Host reactions confirm that the live reading was recognised as improvised."
-          }
-        ]
+        "performer": "Ryno",
+        "overview": "Ryno arrived from an official Episode 8 win and performed like the technically established battler. William, time travel, clocks, timelines, timestamps, past, present, future, expiry and time of death give all three rounds an opponent-specific language system.\n\nThe writing is strongest when one term does several jobs. Clock is a timepiece, an act of noticing and a punch; stopwatch becomes an instruction; “fire at Will” reaches TymeLess through his real name. Family, children, ADHD, women and racism accusations are tied into those structures rather than delivered only as lists.\n\nControl is the weakness. Repetitions, room arguments and the mistaken time call during round two prevent the densest sequence from completing cleanly. Ryno nevertheless adapts: the third-round phone check converts the earlier timestamp confusion into the battle's sharpest live rebuttal.\n\nThe keys are a direct answer to homelessness, but a single proof object cannot control the closing image once TymeLess begins producing a whole household-survival kit. Ryno leaves with the clearer technical highlights but not the official decision.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "TYMELESS",
-        "overview": "TYMELESS combined direct rebuttal with increasingly theatrical props. His first round answered the racism angle and used a long homelessness rhyme family; his second introduced an alleged photograph and ashes; and his third converted socks, a toothbrush, Pot Noodle and soap into a connected care-package scheme. That clear escalation gave the audience something new in every round. His delivery drew major reactions despite several restarts and long pauses, and the prop-led close helped him edge the final crowd call.",
-        "lyricalThemes": "Homelessness; racism rebuttal; family and parenting; real-name flips; friendship and betrayal; photograph prop; ashes; bereavement; care-package props; NFA document rebuttal; Leicester identity.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Homeless rhyme family",
-            "description": "Homeless, hopeless, domeless, toneless and soulless stack one sound while expanding the same lifestyle attack. The sequence is easy to reload after interruption."
-          },
-          {
-            "title": "Ryan and Winnie-the-Pooh",
-            "description": "RYNO's real name becomes Ryan Winnie before soft like a teddy bear completes Winnie-the-Pooh. The name flip and character image support the same weakness angle."
-          },
-          {
-            "title": "Ashes prop close",
-            "description": "TYMELESS claims the bag contains ashes, then uses in the bag and pipe-and-smoke language to make the physical object the endpoint of the scheme."
-          },
-          {
-            "title": "Care-package sequence",
-            "description": "Socks, briefs, toothbrush, Pot Noodle and soap are introduced one after another. Each item answers a different part of the homelessness and hygiene angle, producing sustained visual escalation."
-          }
-        ]
+        "performer": "TymeLess",
+        "overview": "TymeLess treats Ryno's earlier clash as research material. Homelessness, 2MWAD's racism accusation, allegations, Leicester, friends and family history are assembled into one credibility portrait rather than presented as unrelated shocks.\n\nHis rebuttal instinct matters more than traditional polish. Ryno calls him racist; TymeLess asks for the evidence and returns to the charge already attached to Ryno. Ryno presents keys; TymeLess answers with more objects. Every defence is made to compete with an immediate live image.\n\nThe prop sequence is the winning technical choice. A photograph and ashes create severe exposure, while socks, toothbrush, Pot Noodle, soap and packing tape make housing and hygiene claims tangible. The objects are ordinary, which makes the alleged situation easier for the room to visualise.\n\nThe content is frequently extreme and the accusations remain unverified battle claims, but TymeLess controls the emotional temperature and closing memory. The room and official archive award him the win; later battles confirm that his prop timing and inherited-angle strategy became central parts of his GZone style.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -2258,7 +1888,7 @@ export const gzoneClashData = {
     }
   },
   "pr1nc3-vs-nattyebk": {
-    "clashSummary": "PR1NC3 vs NATTY EBK opened a five-battle Gzone event and immediately became an unusually hostile clash. NATTY, making his first appearance, led with bereavement, family and parenting attacks intended to overwhelm the room through shock. PR1NC3 answered by saying he had predicted the barber, wife and dancing angles, then made credibility and alleged police cooperation the centre of his response. Every personal claim is treated here as unverified battle material.\n\nNATTY's writing was direct and performance-led. His clearest structures included better than me / better than yours, three rounds to eliminate you, the Mars-Pluto space comparison and the one-plus-two-equals-three count. He repeatedly presented himself as the hungrier new battler and used blunt family material as his main source of pressure. The approach produced room reactions, although the transcript becomes increasingly distorted during his later passages.\n\nPR1NC3 relied more on rebuttal, compact fighting references and visible props. One-two, slip and crack imitated a boxing combination; 999 turned an alleged snitch angle into an emergency-call punch; and his second round used zinc, freezing, skin and under your skin as a loose connected field. He then produced Listerine, luxury soap and salt during a hygiene sequence, giving a straightforward breath angle a physical presentation.\n\nThe hosts announced that future events would use judges but left this battle to the audience. After the crowd call, they described the result as clear; the presenter initially began to say PR1NC3, corrected himself to NATTY and told NATTY to roll on. The official Gzone record also lists NATTY EBK. This archive records a NATTY crowd decision without inventing a vote count or round score.",
+    "clashSummary": "Episode 12 introduced NattyEBK to GZone against a returning PR1NC3, whose first appearance had ended in an official loss to Roman. Natty treated the debut as an immediate takeover. PR1NC3 treated it as redemption, so the battle opposed a new name trying to create fear with an existing battler trying to repair his record.\n\nNatty's first round moved instantly into Prince's wife, children, bereavement, money and credibility. The writing prioritised emotional damage and intimidation over layered punch construction. Prince's opening response was a prebuttal: he said the barber, dancer, wife and family routes were common knowledge and that he already knew what Natty would say, then redirected the clash toward lying, snitching, 999 and false danger.\n\nNatty's second relied on age, masculinity, transport, money, music, partner and wider family disrespect. Pluto and Mars supplied a compact status comparison, while the bicycle and car material made the financial route visual. PR1NC3 answered with the round's clearest prop sequence: bad breath led to Listerine, soap and salt, breaking the hostility with physical comedy while continuing his claim that Natty's image was dirty and manufactured.\n\nThe third became a test of stamina and control. Natty used drugs, cowardice, the boxing-ring setting, friends and family before a restart and repeated passage; he still declared the round and battle already won. PR1NC3 closed with roster-wide defiance, redemption, levels, boxing threats and his royal stage name, but his answer did not erase the pressure Natty had established from the first minute.\n\nThe transcript's final crowd-call names are unclear, but the official Season 1 record awards the win to NattyEBK. The earlier page sentence saying the crowd favoured PR1NC3 was incorrect. Natty later treats this verdict as his first body against Z.K in Episode 20, making the result part of his continuing character rather than an isolated debut win.\n\nThe host also announces a format change after the decision: this is the last show left only to the room, with celebrity judges promised from the next event onward. Episode 12 therefore closes an early crowd-only phase of GZone at the same moment Natty enters the roster.\n\nListerine\n\nUsed by PR1NC3 to mock NattyEBK's alleged bad breath\n\nLuxury Brand Bar of Soap\n\nUsed by PR1NC3 to mock NattyEBK's hygiene\n\nSalt\n\nUsed by PR1NC3 to allege NattyEBK was \"stinking\"",
     "props": [
       {
         "name": "Listerine",
@@ -2278,50 +1908,16 @@ export const gzoneClashData = {
     ],
     "performanceAnalysis": [
       {
-        "performer": "NATTY EBK",
-        "overview": "NATTY EBK used his debut to apply immediate pressure through blunt, highly personal material. His writing favoured direct comparisons, simple counts and recognisable images over concealed wordplay, allowing him to project through a difficult mix. The strongest passages contrasted age and status, moved between Pluto and Mars, and used the boxing-ring setting as part of the threat. Much of the material was deliberately extreme, but his confidence and commitment gave him the room presence reflected in the crowd result.",
-        "lyricalThemes": "Bereavement; parenting; family; experience and age; money and status; rookie-versus-veteran positioning; transport; planets; music prospects; boxing; crowd dominance.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Three-round mission statement",
-            "description": "NATTY states that he has three rounds to eliminate PR1NC3. The number gives his opening a clear competitive objective even when the surrounding material is personal."
-          },
-          {
-            "title": "Age and fraction contrast",
-            "description": "Looking double NATTY's age but being half the man uses two opposing mathematical quantities to separate appearance from status."
-          },
-          {
-            "title": "Pluto and Mars comparison",
-            "description": "A pushbike and car begin the transport hierarchy before Pluto and Mars expand it into planets. Mars also supports NATTY's warlike self-presentation."
-          },
-          {
-            "title": "Boxing-ring setting",
-            "description": "NATTY points out that they are standing in a boxing ring and invites PR1NC3 to drop the microphone and fight. The physical venue becomes part of the bar."
-          }
-        ]
+        "performer": "Natty EBK",
+        "overview": "NattyEBK constructed his debut around immediate pressure. Wife, children, bereavement, finances and danger were introduced before the room had any softer version of the character, making emotional risk itself the first impression.\n\nThe second and third broadened that pressure through age, masculinity, transport, money, music, Mars and Pluto, drugs, the boxing-ring setting, fighting and deceased friends. His clearest writing compresses a larger route into a visual comparison; his most effective performance choice is refusing to lower the intensity after the first round.\n\nThe weakness is technical cleanliness. Several passages are crude lists rather than developing schemes, and the restarts and repeated third-round material expose uneven control. The threats and family attacks also depend far more on discomfort than wordplay.\n\nThe official record nevertheless gives Natty the win. Episode 20 confirms how he understood the performance: Prince becomes the first recorded body in a continuing run, while the hygiene pressure used against Natty is studied and redirected onto Z.K.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
         "performer": "PR1NC3",
-        "overview": "PR1NC3 took a rebuttal-led approach, opening by naming the predictable angles before attacking NATTY's credibility, writing and alleged willingness to call police. His boxing combination and 999 line were his clearest compact punches. Round two became more theatrical when he produced Listerine, luxury soap and salt during hygiene material. He retained more technical variety than NATTY, but restarts, microphone problems and the heavily compressed final-round transcript reduced the clarity of his overall arc.",
-        "lyricalThemes": "Predicted angles; credibility; alleged snitching; boxing; violence; writing quality; appearance and hygiene; breath; Listerine and soap props; redemption; competitive levels.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Prebuttal opening",
-            "description": "PR1NC3 lists the barber, wife and dancing angles before saying they do not affect him. Predicting material before answering it is a classic prebuttal strategy."
-          },
-          {
-            "title": "Emergency-call punch",
-            "description": "Calling 999 is presented as proof that NATTY cannot sustain his threatening image. The familiar UK emergency number makes the credibility attack immediate."
-          },
-          {
-            "title": "Boxing combination cadence",
-            "description": "One-two, slip and crack are delivered like successive boxing instructions. The rhythm imitates the combination being described."
-          },
-          {
-            "title": "Hygiene prop sequence",
-            "description": "Zinc, breath, Listerine, skin, luxury soap and salt create a loose hygiene field that is strengthened by PR1NC3 physically handing over the products."
-          }
-        ]
+        "overview": "PR1NC3 correctly anticipated the available personal routes. Saying he already expected barber, dancer, wife and family material is a prebuttal rather than a denial: it asks the room to judge Natty on invention after the shock has already landed.\n\nHis strongest counterargument is credibility. Lies, snitching, 999, vermin and false danger turn Natty's aggression into alleged performance, while the boxing language lets Prince claim technical control inside the literal ring.\n\nListerine, soap and salt produce the cleanest organised sequence. The objects give the room a visible joke, cool the emotional temperature and continue the same inauthenticity argument through hygiene. Redemption and “levels” then connect the battle to Prince's Episode 2 loss and royal name.\n\nThe prior result text was wrong: the official archive awards NattyEBK the victory, not PR1NC3. Prince shows composure and several clearer devices, but they do not outweigh Natty's sustained room pressure on the recorded decision.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -2465,53 +2061,19 @@ export const gzoneClashData = {
     }
   },
   "btizz-vs-cj-zino": {
-    "clashSummary": "BTIZZ vs CJ-ZINO was a high-energy three-round contest built around comeback narratives, credibility and which MC could control the Gzone room. BTIZZ opened by calling the event a massacre and arguing that CJ had flopped previously; CJ answered by turning BTIZZ's spelling, clothing and alleged police history into recurring targets. Personal and medical claims made during the battle are preserved only as unverified performance material.\n\nBTIZZ's strongest writing used repeated names and familiar references. His second-round CJ-ZINO refrain moved through sleep, free throws, a predicted three-nil result, chemotherapy, Dory and Nemo. Leon Edwards supplied a recognisable headshot line, while round three added American Dad, relegation and bread/dough wordplay. His attack-first delivery was forceful, though repeated audio checks and long restarts made his material harder to sustain.\n\nCJ-ZINO favoured longer rhyme sequences and structural counting. His opening spelled BTIZZ's name, moved through repeated head, neck and beg endings, then counted from ten down toward first. Round two attacked BTIZZ's research and employment before moving through Audi/Ford transport comparisons and curtains/certain wordplay. Round three challenged copied flows, fatherhood angles and spending money on cocaine instead of clothes, then closed by calling for PR1NC3 next.\n\nThe hosts ended with separate calls for BTIZZ and CJ-ZINO. The surviving transcript does not preserve a numerical count, but the announcement resolves to CJ and the official Gzone record lists CJ-ZINO as winner. This archive therefore records a CJ-ZINO crowd decision without inventing a margin or round score.",
+    "clashSummary": "Episode 13 matched two battlers at different points in their first-season stories. CJ-Zino arrived after losing to Proty in Episode 5; BTizz had beaten Deluxx in Episode 7. BTizz therefore treated CJ's previous performance as proof that he was not a genuine challenger, while CJ tried to remove the originality and credibility behind BTizz's momentum.\n\nBTizz's first built the “GZone massacre” opening through violence, disease, relationships, road credibility, Mickey Mouse, NPC, UFC and MVP language. The repeated MVP refrain worked as an audience hook, but the opening also needed several restarts while the beat and delivery were settled. CJ's reply was less chant-driven: snitching, work, alcohol, clothes, sexuality, family and a descending number sequence were used to make BTizz look exposed rather than dangerous.\n\nIn the second, BTizz introduced the repeatable “CJ-Zino / three rounds / 3-0” pattern and moved through Nemo, Dory, Kermit, malaria, the clean-up crew, Leon Edwards and the surface-area punch. CJ answered with the battle's clearest technical accusation: he called to Tapped24 in the room and said BTizz had stolen his flow. Job loss, rum, cars, hygiene and the Listerine prop then made the originality attack feel like a wider character breakdown.\n\nBTizz's third returned to postcode, race, medication, relationships, relegation, cartoons, dust and contract status. CJ's final widened beyond BTizz: fatherhood, the stolen-flow claim, a TARDIS and Doctor Who pocket, clothes, alleged cocaine spending and league names all lead to “give me Prince next.” The material is uneven in places, but the round has a clear purpose—CJ is using the current opponent to demand a larger position on the card.\n\nThe crowd call clearly favoured CJ-Zino and the official Season 1 record awards him the win. That outcome makes the “3-0” prediction rebound against BTizz and converts CJ's loss to Proty into a recovery rather than a continuing decline.\n\nThe post-battle footage is part of the clash's larger importance. OneFlaymr appears and repeats flame, burning, cooking and smoke language while asking for a future battle. BTizz later faces him in Episode 16 and claims to have left him “fully extinguished”; CJ then inherits that exact phrase in Episode 19 and argues that he, not BTizz, is the one who can finish the fire angle. Episode 13 is therefore the visible start of a three-battle material chain.",
     "performanceAnalysis": [
       {
-        "performer": "BTIZZ",
-        "overview": "BTIZZ performed with an aggressive, compact style built for immediate reactions. His clearest passages used linked reference systems: Gzone massacre and clean-up imagery, UFC and MVP language, the CJ-ZINO refrain, Finding Nemo and American Dad. He repeatedly reset after sound interruptions and kept his energy high, but several personal-health angles were more shocking than technical and the disrupted pacing reduced the shape of his three rounds.",
-        "lyricalThemes": "Gzone massacre; previous performances; credibility; driving and status; disease allegations; UFC; CJ-ZINO name refrain; Finding Nemo; clean-up crew; American Dad; relegation; contracts.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Massacre and clean-up frame",
-            "description": "BTIZZ opens with a Gzone massacre and picking up pieces, then later promises to leave the stage squeaky clean. Destruction and cleanup bookend the same image."
-          },
-          {
-            "title": "UFC and MVP cluster",
-            "description": "MVP is repeated as status and cadence before GSP, champion and UFC extend the combat-sports field."
-          },
-          {
-            "title": "CJ-ZINO refrain",
-            "description": "The opponent's name repeatedly resets the second round before sleep, free throw, three-nil, chemo and Nemo punches. The refrain gives a long section clear signposts."
-          },
-          {
-            "title": "Bread and dough wordplay",
-            "description": "No bread and no dough both mean lacking money, while never baking activates their literal food meaning."
-          }
-        ]
+        "performer": "BTizz",
+        "overview": "BTizz entered with the stronger recent result and used it. The “GZone massacre” opening treated CJ-Zino's Episode 5 loss as proof that the challenger could talk but could not perform, then layered road, relationship, health, hygiene and credibility pressure over that record.\n\nHis best writing was simple enough to organise the room. MVP became call-and-response; “CJ-Zino / three rounds / 3-0” worked as a repeatable hook; Nemo and Dory, the clean-up crew and surface area, Leon Edwards and UFC, Alien Roger and relegation gave each passage a clear image.\n\nThe weakness was round control. The first required several restarts around sound and delivery, and later passages packed disease, sex, race, clothes, cartoons and violence together faster than the strongest concepts could settle. High energy prevented a collapse, but it did not create a single developing argument as strong as CJ's flow-theft route.\n\nThe official result also changes how the performance reads in sequence. The repeated 3-0 forecast is directly contradicted by the crowd call, and the next chapter of BTizz's story begins in the post-battle footage when OneFlaymr introduces the fire persona BTizz will later try to extinguish.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "CJ-ZINO",
-        "overview": "CJ-ZINO used longer rhyme strings, spelling and countdown structures to present himself as the more composed writer. His first round built from BTIZZ's name into a descending number sequence; the second used employment, treasure and vehicle comparisons; and the third attacked copied flows and fatherhood before setting up his next opponent. Some transcript passages are heavily distorted, but his direct room communication and stronger closing momentum align with the recorded crowd result.",
-        "lyricalThemes": "BTIZZ name spelling; clothing; credibility; alleged police involvement; countdowns; employment; research and information; vehicles; contracts; copied flows; fatherhood; drug spending; next-opponent callout.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Name-spelling cadence",
-            "description": "B to the I to the double-Z turns BTIZZ's name into a rhythmic identity check before CJ stacks repeated head, neck and beg sounds."
-          },
-          {
-            "title": "Descending countdown",
-            "description": "Ten, nine, seven, six, five, four, three, second and first create a long numerical skeleton for the end of round one."
-          },
-          {
-            "title": "Audi and Ford hierarchy",
-            "description": "CJ contrasts multiple rings in an Audi with BTIZZ being hit by a Ford. Brand status and physical impact share the vehicle scheme."
-          },
-          {
-            "title": "TARDIS and doctors",
-            "description": "Calling himself a TARDIS cues Doctor Who, then doctors extends the reference into a direct insult."
-          }
-        ]
+        "performer": "CJ Zino",
+        "overview": "CJ-Zino built a more opponent-specific credibility case. Employment, alcohol, clothes, relationships, snitching, sexuality and family were separate routes, but the central claim was technical: BTizz did not own the style he was using.\n\nCalling to Tapped24 made that accusation unusually effective. The alleged source was treated as a live witness, after which “go find your own flow” became the plain-language summary of the battle. The Listerine prop performed a similar function for the hygiene material by converting explanation into an instantly visible joke.\n\nHis rounds were not perfectly smooth. The tissue interruption, repetitions and some loosely connected passages show the same live-room disorder affecting BTizz. CJ nevertheless recovered with clearer destination points: the number sequence in the first, flow theft and personal evidence in the second, then TARDIS, fatherhood and PR1NC3 in the third.\n\nThe crowd clearly favoured CJ and the archive records the win. More importantly for the season narrative, he immediately turned the result into future matchmaking pressure; the later Episode 19 clash with OneFlaymr then lets him reuse BTizz's “fully extinguished” phrase as inherited evidence.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -2655,53 +2217,19 @@ export const gzoneClashData = {
     }
   },
   "deeno-vs-grams": {
-    "clashSummary": "DEENO vs GRAMS began as a surprise substitution: DEENO had prepared for 2MWAD, but GRAMS stepped from the room and delivered a written opening while DEENO had to respond with little warning. That format shaped the entire battle. GRAMS used his preparation to attack weight, the Viking identity and DEENO's place across platforms; DEENO leaned on direct rebuttal, name flips and Gzone home-field authority. Personal claims remain unverified battle material.\n\nGRAMS's strongest writing came through long reference clusters. Dirty, nerdy, curvy, nursery, Burberry, burpee and Kirby gave his opening a rolling sound; Viking led to dethrone; round two moved through Arthur, pastor, holy water, prayer and knock-down ginger; and round three connected Prince Harry, silver, Matilda, wheel-ups, Defenders and stamina. His fairy-character close moved through Fiona, Daphne Blake and Ariel to turn DEENO's appearance into a sequence of animated comparisons.\n\nDEENO adapted by making GRAMS's name the technical centre of his response. War moved into Iran, Thailand, China and a disrupted flight plan; smoking weed for free became getting paid to blaze on GRAMS; and round two used grams as weight, raising a hand so the room could watch him weigh the opponent. Crystal Palace became a glass house attacked with stones. In round three he framed the Gzone roster as his sons and placed GRAMS as the oldest inside that hierarchy.\n\nThe hosts asked separately whether GRAMS or DEENO had won, but the surviving transcript does not contain a clean spoken declaration, numerical tally or round score. The structured Gzone battle record lists DEENO as winner. This archive follows that official record while labelling it as an official battle result rather than inventing a clear crowd decision unsupported by the transcript.",
+    "clashSummary": "Episode 14 was built around a genuine preparation imbalance. Deeno was introduced for a matchup with 2 Man, but Grams emerged as the surprise opponent. Grams could attack a known target with prepared material; Deeno had to abandon the expected clash, absorb the reveal, and build a large part of his response from live observation, existing scene knowledge, and freestyle recovery.\n\nGrams used the surprise immediately. Deeno's Viking name, weight, speech, drinking, parenting, treatment of women, race identity, clothes, credibility, and claim to leadership were attacked through Odin, Arthur, Harry Potter, Shrek, Scooby-Doo, Ed Sheeran, glass-house imagery, and the argument that Deeno was being marketed as something he was not.\n\nDeeno acknowledged that the switch had rattled him, but made adaptation the point of his performance. Grams became weed, weight, weighing, age, outsider, Pen Game, and comeback material. Rather than pretending every line was prepared, Deeno repeatedly identified the freestyle process and used the home room as support while he assembled opponent-specific attacks.\n\nThe middle rounds exposed the tradeoff. Grams had the cleaner anti-Viking and image schemes, while Deeno's stops and moments of uncertainty gave future opponents a visible “mind went blank” angle. At the same time, recovering in public strengthened a different part of Deeno's identity: GZone as his home and a place he could still command without a prepared opponent.\n\nThe third widened Deeno's response beyond Grams. Platform status, other scene names, fatherhood, and the idea that he had helped build or guide GZone became part of the close. That father-figure posture later develops into the adoption-paper performance against Btizz, while the home claim becomes a central dispute with Badee Harz, TymeLess, and Btizz.\n\nThe final crowd check and official GZone record awarded the battle to Deeno; the host reinforced the result by calling GZone his home. Grams created the surprise and landed the cleaner pre-written deconstruction, but Deeno's adaptation, freestyle recovery, home-room command, and stronger final positioning carried the decision.",
     "performanceAnalysis": [
       {
-        "performer": "GRAMS",
-        "overview": "GRAMS entered as the prepared surprise opponent and used that advantage to deliver longer schemes with a consistent attack on DEENO's appearance, Viking branding and platform status. His opening rhyme stack and third-round reference chains were his most technical work. Several passages were restarted after crowd or audio disruption, but his material retained a clearer pre-written density than would normally be expected in a surprise matchup.",
-        "lyricalThemes": "Weight; Viking identity; platform rivalry; substance use; ethnicity and belonging; parenting; animated characters; royalty; vehicles and stamina; music and performance status.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Opening rhyme stack",
-            "description": "Dirty, nerdy, curvy, nursery, Burberry and burpee build a sustained sound before Kirby supplies the visual punch."
-          },
-          {
-            "title": "Religious-to-ginger chain",
-            "description": "Blessed, pastor, holy water and pray create a religious field before knocked-down ginger changes ginger into the childhood door-knocking game."
-          },
-          {
-            "title": "Bike and Defender comparison",
-            "description": "A mic reload becomes a bike wheel-up, then a Land Rover Defender and being in the field extend the vehicle and performance comparison."
-          },
-          {
-            "title": "Animated-character close",
-            "description": "Princess Fiona, Daphne Blake and Ariel place multiple animated women inside one appearance sequence, finishing with Ariel's boat being sunk."
-          }
-        ]
+        "performer": "Marni Gramz",
+        "overview": "Grams entered with the decisive preparation advantage. The opponent reveal made his first written lines feel like an ambush, and he immediately used Deeno's reaction as evidence that the established home figure could be removed from his preferred conditions.\n\nThe writing had a coherent anti-character route. Weight, speech, drinking, parenting, treatment of women, race identity, clothes, Odin, Arthur, Harry Potter, Shrek, Scooby-Doo, Ed Sheeran, and glass-house imagery all argued that the Viking and leader presentation was marketing rather than reality.\n\nPresence was his strongest quality. Grams made the surprise feel like a takeover and repeatedly challenged Deeno's ability to freestyle. His prepared references were naturally cleaner than the opponent's live construction, especially when he stayed on Viking authenticity and public image.\n\nThe weakness was conversion. Grams exposed real performance uncertainty but could not stop Deeno turning the preparation imbalance into a resilience test for the home crowd. The official decision went against him, and Tapped used that loss as immediate status pressure in Episode 15.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "DEENO",
-        "overview": "DEENO had to adapt to a last-minute opponent and relied on clear rebuttal structures rather than dense pre-written personals. His best work made GRAMS's name mean weight, cannabis and part of a larger word, while his country sequence and Crystal Palace/glass-house scheme gave the room simple connected concepts. He also used his status on the platform as a narrative advantage, presenting newer arrivals as his sons in the final round.",
-        "lyricalThemes": "Last-minute adaptation; weight rebuttals; war and countries; Gzone ownership; parenting; GRAMS name flips; cannabis; safety allegations; Crystal Palace; roster hierarchy; age and experience.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "War and country route",
-            "description": "War leads to Iran, Thailand, China, bombs and a flight plan. The geographical references all remain inside conflict or travel language."
-          },
-          {
-            "title": "GRAMS as cannabis",
-            "description": "DEENO moves from smoking weed for free to being paid to blaze on GRAMS and smoking GRAMS like flavour, turning the stage name into an amount of cannabis."
-          },
-          {
-            "title": "Weight and hand scale",
-            "description": "Because grams measure weight, DEENO raises his hand and invites the room to watch him weigh GRAMS in. The gesture gives the name flip a physical component."
-          },
-          {
-            "title": "Crystal Palace glass house",
-            "description": "Crystal Palace becomes a fragile glass house, allowing drawing DEENO out to trigger the familiar image of throwing stones."
-          }
-        ]
+        "performer": "Deeno",
+        "overview": "Deeno had the harder technical task because his prepared opponent did not appear. He admitted being rattled and allowed the room to see the construction process, making the battle partly a test of whether imperfect live adaptation could compete with tailored written rounds.\n\nHis cleanest recovery routes came from what was immediately available: Grams as weed, weight and weighing; age; Pen Game history; outsider status; the surprise itself; and the idea that GZone was being used for a comeback. Those angles sound less polished but more visibly responsive.\n\nThe third widened the purpose of the round. Other scene names, home-platform status, and the father-figure position made the battle about Deeno's role in GZone rather than only whether he could outwrite Grams without preparation.\n\nThe weakness was control: stops and uncertainty created the mind-blank angle Badee later reused. The strength was recovery. The final crowd call and official archive award Deeno the win, with the host explicitly framing GZone as his home; the earlier claim that Grams took the crowd decision was incorrect.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -2845,7 +2373,7 @@ export const gzoneClashData = {
     }
   },
   "tapped24-vs-grams": {
-    "clashSummary": "TAPPED24 vs GRAMS was a volatile three-round clash built around platform loyalty, parenting, relationships, image and which battler could control an increasingly disorderly room. GRAMS opened with lifestyle and family attacks; TAPPED24 answered by framing GRAMS's Pen Game history as repeated defeat. Audio problems forced both MCs to restart substantial sections, but the hostility continued to grow. All personal allegations remain unverified battle material.\n\nGRAMS's clearest writing used long direct sequences. His second round moved from headlock and desktop into next up and ten press-ups, then used crack under pressure and pressed delete. Later he renamed TAPPED24 as Tiny T and Vandal T, attacked sponsored clothing through freebies and drip checks, and built a step, check and Teflon chain. His strongest angle was a sustained address to TAPPED24's partner, using repetition to shift the room's focus away from the opponent.\n\nTAPPED24 used clearer pop-culture and platform references. Pen Game defeats became death after death and a return to the cemetery; Lion King led to Rafiki, Kiki and John Cena's 'you can't see me'; and his second round stacked catty, scatty, chatty, patty, crappy and wacky before turning Darren into a dentist. In round three he attacked GRAMS for moving between Pen Game and Gzone, produced a screenshot of an Instagram like and built a school/dormitory angle around the image.\n\nGuest judge Denzel Bentley explicitly chose TAPPED24, saying he had 'ripped the room,' and the official Gzone record also lists TAPPED24 as winner. A physical confrontation then broke out, security intervened and the host ordered a ten-minute break after the later crowd call. Because the transcript never supplies a numerical tally, this archive records the explicit guest-judge and official result without inventing a score.",
+    "clashSummary": "Episode 15 matched two battlers trying to reverse difficult records. Grams returned immediately after his official loss to Deeno, while Tapped24 had official losses to Deeno, Roman, and AJNA. The booking therefore carried two simultaneous status questions: whether Grams could move from Pen Game into GZone, and whether Tapped could finally convert an established presence into a recorded win.\n\nGrams' first round attacked Georgie, parenting, the home, physical condition, and Tapped's relationship to responsibility. Tapped answered through Grams' Pen Game legacy, repeated losses, age, finances, employment, family structure, Birmingham, John Cena, and the claim that Grams was neither him nor Deeno. Frequent sound resets made the opening longer and more fragmented than either written round intended.\n\nRound two produced the line that became league history. The event introduction had already joked about MMA, grappling, headlocks, and elbows; Grams then opened with “I put him in a headlock” before moving through press-ups, Georgie, children, cats, hygiene, employment, clothes, image, and property. Tapped escalated through the AJ loss dispute, cats, Grams' home, Badee Harz, Pen Game, and wider platform status.\n\nThe final changed from a personal battle into a platform war. Tapped told Grams to go home; Grams answered that GZone was his home now; Tapped repeatedly declared “fuck Pen Game” and presented himself as defending GZone. He then said he was bringing screenshots back—a direct evolution from the text-message screenshots used against Roman—and displayed an Instagram image as the basis of a serious allegation. Badee's pink underwear was also used as a physical scene-drama prop.\n\nSpecial guest Denzel Bentley gave the battle to Tapped24, saying that Tapped had ripped the room while acknowledging that Grams had performed well. A physical altercation followed the decision, prompting security intervention, a host statement against violence, and a ten-minute event break. The confrontation and headlock controversy became material in Episodes 19 and 21, but it happened after Bentley had already announced his choice.\n\nThe host then conducted separate crowd checks, and the official GZone record also awards the win to Tapped24. Grams built the more consistent money, parenting, Georgie, and image case; Tapped created the larger final-round narrative, stronger visual moments, and clearer platform allegiance. Allegations tied to the screenshots are documented as battle claims, not verified facts.\n\nScreenshot of photo Grams liked on Instagram\n\nUsed by Tapped24\n\nBadees pink panties\n\nUsed by Badee Harz",
     "props": [
       {
         "name": "Screenshot of photo Grams liked on Instagram",
@@ -2860,50 +2388,16 @@ export const gzoneClashData = {
     ],
     "performanceAnalysis": [
       {
-        "performer": "GRAMS",
-        "overview": "GRAMS used a direct, angle-heavy style focused on TAPPED24's parenting, finances, relationship and public image. His writing was strongest when the insults shared a mechanism: headlock/desktop/next up/press-ups, crack under pressure/press delete, or the long step/check/Teflon run. He also redirected a major section toward TAPPED24's partner, creating sustained live tension. Multiple audio restarts and the chaotic room made his already long passages difficult to maintain.",
-        "lyricalThemes": "Parenting; relationships; finances; fitness; drugs; Pen Game history; sponsored clothing; image; shoes; employment; partner-directed material; violence allegations.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Headlock and desktop chain",
-            "description": "Headlock moves into playing games on desktop, next up and ten press-ups. Fighting, gaming and fitness all support the claim that TAPPED24 is physically unprepared."
-          },
-          {
-            "title": "Pressure and delete sequence",
-            "description": "Crack under pressure uses a stress idiom before remaining time and press delete introduce computer language around removing the opponent."
-          },
-          {
-            "title": "Tiny T and Vandal T renaming",
-            "description": "GRAMS removes the established name and assigns two replacements: one reduces stature, while the other suggests destructive behaviour."
-          },
-          {
-            "title": "Step, check and Teflon run",
-            "description": "Dress, impressed and addressed lead into step, checked and Teflon. The sequence moves from fashion criticism to confrontation and bullet protection."
-          }
-        ]
+        "performer": "Marni Gramz",
+        "overview": "Grams built the more consistent lifestyle case. Georgie, children, parenting, cats, employment, benefits, clothing, free products, image, transport, property, and mortgage pressure all measured Tapped's dangerous public character against adult responsibility.\n\nDirect address was his strongest device. Speaking to Georgie made the relationship angle visible in the room, while I put him in a headlock, ten press-ups, Tapped/not tapped in, Tiny T, addressed/dress, Zac Efron, and Hitch gave the heavier case short repeatable punches.\n\nHis Pen Game position created both authority and vulnerability. Grams could argue from longer scene experience, but Tapped used prior losses and the immediate Deeno result to portray that history as decline. Saying GZone was his home now gave the transfer confidence but also opened the platform-loyalty counter.\n\nThe weakness was control. Reloads, sound problems, crowd debate, props, and rising tension repeatedly interrupted the writing. Grams remained competitive enough for Denzel Bentley to praise his performance, but the guest judge said Tapped had ripped the room and selected him.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "TAPPED24",
-        "overview": "TAPPED24 combined platform-history angles with rapid rhyme stacks and recognisable pop culture. His first round was organised around GRAMS's losses and image; his second used repeated sounds, cat wordplay and Pen Game rejection; and his third made screenshots the centre of a research-heavy accusation. His material repeatedly earned room reactions despite sound problems. The guest judge's statement that he ripped the room reflects his stronger crowd control, although the final screenshot angle also helped trigger the battle's most volatile aftermath.",
-        "lyricalThemes": "Pen Game legacy; repeated losses; engineers and reloads; finances; Birmingham incidents; Lion King; John Cena; cats; dentistry; platform loyalty; group chats; screenshots; school-age allegations.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Deaths-to-cemetery framing",
-            "description": "Repeated battle losses become death after death, and returning to battle becomes returning to the cemetery. One metaphor organises the whole opening."
-          },
-          {
-            "title": "Rafiki, Kiki and Cena run",
-            "description": "Lion King cues Rafiki, love cues Kiki and the visibility setup resolves with John Cena's 'you can't see me' catchphrase."
-          },
-          {
-            "title": "Catty rhyme barrage",
-            "description": "Catty, scatty, chatty, patty, crappy and wacky supply a fast repeated ending before literal cats extend the semantic field."
-          },
-          {
-            "title": "Screenshot-led final angle",
-            "description": "TAPPED24 physically introduces the Instagram screenshot, then builds boarding school, dormitory and mowing-the-lawn imagery around the claimed age-gap implication."
-          }
-        ]
+        "performer": "Tapped24",
+        "overview": "Tapped performed as someone defending a GZone position despite entering without an official win. Pen Game legacy, repeated losses, age, money, work, family structure, Birmingham, cats, Badee, and the AJ result all argued that Grams' experience did not make him higher status.\n\nRebuttal and revision were central. Grams cited the AJ loss; Tapped said the platform made him lose but that he had not really lost. Grams claimed GZone as home; Tapped answered through both group chats, snake, defending ours, and the first emphatic fuck-Pen-Game statement on the stage.\n\nThe third was his strongest complete round. Tottenham made Pen Game's decline visual, the returned screenshot connected to Episode 9, the Instagram image created a claimed evidence sequence, and platform loyalty gave the personal allegations a larger structure. The claims remain unverified battle material.\n\nTapped produced the bigger room swing and Denzel Bentley explicitly chose him before the later altercation. Security involvement and the headlock fallout made the battle infamous, but the official result rests on the performed rounds and the guest decision already announced.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -3047,53 +2541,19 @@ export const gzoneClashData = {
     }
   },
   "btizz-vs-1flaymr": {
-    "clashSummary": "BTIZZ vs 1FLAYMR was a two-round clash between an established Gzone battler and a masked newcomer whose identity was built around fire, Jamaican delivery and intimidation. 1FLAYMR treated his name as a complete performance concept: forest fires, the Fire Nation, flames, smoke, heat and burning recur throughout. BTIZZ answered by questioning the mask, nationality and authenticity of that persona. Personal claims remain unverified battle material.\n\n1FLAYMR's strongest technical work came through repetition and extended sound families. Nation moved through imitation, confirmation, location, inflation, migration and meditation; his second round stacked lyrically, physically, spiritually, mentally and intellectually; and the closing contrast placed BTIZZ's cold flow against his own heat, snowman against firebender. The mask became part of the theatre when the room repeatedly asked him to reveal himself.\n\nBTIZZ used more varied reference writing. A prison claim became being bagged with a box of Legos; cold bars moved into ice cream and Ben & Jerry's; B-to-I-to-double-Z became a self-branding rhythm; and the second round used Jamaica's black, green and gold flag, Gangnam Style, milkshake and cornmeal references to challenge 1FLAYMR's presentation. His repeated claim that the persona was cap formed the closing argument.\n\nThe host described the battle as very close and began a crowd call, but the transcript does not preserve a complete comparison or declared margin. The official Gzone record lists BTIZZ as winner. This archive follows that structured result while avoiding an unsupported crowd tally. It also corrects the previous generic copy: the available battle contains two rounds, with round two explicitly introduced as the last round.",
+    "clashSummary": "Episode 16 was a two-round clash between 1FLAYMAH, making his formal GZone debut, and Btizz, returning after an official win over Deluxx and a loss to CJ-Zino. The new character had already been previewed at the end of Episode 13 through “One Flamer,” “everything burn,” and “fire for that.” Here those phrases became a complete performance identity built around fire, Jamaican cadence, a balaclava, and the claim that no opponent could extinguish him.\n\n1FLAYMAH's first round introduced forest fires, Avatar's Fire Nation, lighter and spray-can denial, Jamaican identity, imitation, location, bacon, lullaby, and the hidden face. Btizz answered by entering the same cultural and elemental world: plantain, dustbin, Friction, “fire for that” call-and-response, cold bars, an ice zone, GTA, name spelling, Jamaican food, and crowd participation all made the newcomer's branding the object of the attack.\n\nThe second round expanded 1FLAYMAH's world through bang refrains, Prince and Natty, Moses and the Red Sea, landlord and eviction, smoke, the balaclava reveal, snowman, December, and firebender. Removing the mask was important: he first treated the face as private, then owned the visual himself with “I cover my ugly face, that's why I wear the bally,” preventing the reveal from belonging entirely to Btizz.\n\nBtizz's final reply was the clearer complete counter. Hygiene, claimed Jamaican authenticity, rice and beans, stolen-flow pressure, B-for-bars and T-for-teacher, Gangnam Style, Sizzla, the Jamaican flag, Magnum, cornmeal, spawn kills, Postman Pat, and repeated “cap” accusations all argued that the mask, accent, fire, and danger were constructed. The contrast was not simply fire against cold; it was character invention against character exposure.\n\nSeveral phrases outlived the result. Btizz's “fully extinguished” ending became the accepted summary of the battle, while Friction and the removed balaclava became reusable angles. In Episode 19 CJ adopted the same verdict, and 1FLAYMAH explicitly named Btizz as its source before arguing that a flame still returning to battle could never have been extinguished.\n\nThe closing reaction and official GZone record awarded the battle to Btizz, his first recorded Season 1 win. 1FLAYMAH created one of the season's clearest debut identities, but Btizz controlled the room more consistently, simplified his counters, and supplied the phrase that defined the clash afterward.",
     "performanceAnalysis": [
       {
-        "performer": "1FLAYMR",
-        "overview": "1FLAYMR built his debut around a unified fire persona, using a mask, Jamaican-influenced delivery and repeated combustion language to create presence. His strongest passages were long rhyme families rather than isolated punches: nation/imitation/confirmation and the multi-adverb physically/spiritually sequence. The energy was consistent across both rounds, although the density and transcript quality sometimes obscured exact wording. The persona gave him a memorable entrance even when BTIZZ successfully made its authenticity the issue.",
-        "lyricalThemes": "Forest fires; Fire Nation; Jamaican identity; nationality; mask and anonymity; weapons; heat and smoke; landlord and eviction; Red Sea and Moses; cold versus hot; firebender identity.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Fire-persona continuity",
-            "description": "Forest fire, Fire Nation, lighter, flame, smoke, hot and firebender appear across both rounds, giving the debut a consistent symbolic identity."
-          },
-          {
-            "title": "Nation rhyme family",
-            "description": "Nation, imitation, confirmation, location, inflation, migration and meditation create the longest clear end-rhyme chain in the opening."
-          },
-          {
-            "title": "Red Sea split",
-            "description": "A stick splitting BTIZZ in two is compared with Moses dividing the Red Sea, joining physical threat to a familiar biblical image."
-          },
-          {
-            "title": "Multi-adverb mask defence",
-            "description": "Lyrically, physically, spiritually, mentally and intellectually stack the same ending before the line openly says the mask covers an ugly face."
-          }
-        ]
+        "performer": "1FLAYMAH",
+        "overview": "1FLAYMAH arrived with more than a theme. Fire controlled the name, slogans, delivery, imagery, posture, and promised effect on the room. Forest fires, everything burn, Fire Nation, firebender, heat, smoke, snowman, and December made the two rounds feel like a designed character introduction.\n\nThe Jamaican cadence and balaclava added sound and appearance to the writing. This made the debut instantly recognisable but also gave Btizz clear surfaces to attack. Plantain, Sizzla, the flag, rice and beans, Magnum, cornmeal, the hidden face, and Friction could all be aimed at the same presentation.\n\nRound two showed useful adaptation. The mask came off, the appearance joke was owned before Btizz could control it, and Moses, landlord, eviction, Prince, Natty, CJ-Zino, and Deeno widened the material beyond generic fire. Hot flow, snowman, and December also answered Btizz's cold and ice-zone framing.\n\nThe weakness was clarity. Rapid patois-led passages, mic levels, repetition, and threat lists sometimes hid the setups. The character survived the loss and later won against CJ, but on this night Btizz made the room repeat the opponent's defining image as a losing verdict.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "BTIZZ",
-        "overview": "BTIZZ approached the newcomer as a persona to dismantle. He repeatedly questioned the mask and claimed Jamaican identity, then used pop-culture and product references to make the criticism accessible. His best material moved through Lego, Ben & Jerry's, Gangnam Style, Jamaican flag colours and milkshake/cornmeal imagery. He closed by labelling the opponent's claims cap, giving the two-round performance a clear argument rather than only trading threats.",
-        "lyricalThemes": "Authenticity; mask; nationality; prison claims; fire rebuttals; cold bars; name spelling; Jamaican flag; Gangnam Style; food and music references; online behaviour; cap accusations.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Lego prison flip",
-            "description": "Being bagged means arrested, while a box of Legos literalises bricks and undermines a claimed prison story through a children's toy."
-          },
-          {
-            "title": "Cold and Ben & Jerry's",
-            "description": "Cold bars lead into ice cream and Ben & Jerry's, turning battle-rap praise into a recognisable product reference."
-          },
-          {
-            "title": "Name-spelling identity",
-            "description": "B to the I to the double-Z lets BTIZZ answer a heavily branded opponent with his own rhythmic self-branding."
-          },
-          {
-            "title": "Flag-colour attack",
-            "description": "Black, green and gold describe the Jamaican flag and are reassigned to the opponent's teeth, converting national identity into appearance mockery."
-          }
-        ]
+        "performer": "BTizz",
+        "overview": "Btizz performed as the sceptic examining a debut in real time. Instead of building a separate persona, he treated every part of 1FLAYMAH's presentation as evidence: fire could be cooled, Jamaican identity could be tested, a mask could hide insecurity, and a new name could be traced back to Friction.\n\nThe first reply established the method through plantain, dustbin, Lego, fire-for-that, ice-zone writing, GTA, food, hygiene, and B-to-I-to-Z-Z crowd involvement. The strongest move was appropriation: the opponent's own slogan became the room's reaction cue for Btizz.\n\nThe final reply expanded the authenticity case through rice and beans, Sizzla, the Jamaican flag, Gangnam Style, Magnum, cornmeal, Postman Pat, spawn kills, and repeated cap accusations. Some material was crude or allegation-led, but the route remained easier to follow than 1FLAYMAH's denser passages.\n\nLive-room command was the winning difference. Btizz simplified, paused, repeated, involved the crowd, and ended with “fully extinguished,” a phrase concise enough to become the official memory of the battle. The result gave him his second Season 1 win after beating Deluxx and losing to CJ-Zino.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -3237,53 +2697,19 @@ export const gzoneClashData = {
     }
   },
   "ryno-vs-roman": {
-    "clashSummary": "RYNO vs ROMAN was a three-round clash built around a clear stylistic contrast. ROMAN arrived with prepared, densely written material and attacked RYNO's conduct, housing, career position and credibility. RYNO answered with a looser, more openly improvised performance driven by aggression, direct personals and bursts of reference writing. All private-life claims and allegations are indexed only as battle material and have not been independently verified.\n\nROMAN's strongest writing connected his opponent's name to complete ideas. Rhinos blocking the sun with mud became a factual setup before Romans arriving in squads; top of the league led to relegation; a vape flavour hid a word inside grape; prison cells became selling men face; and the final round moved through a wrist/timepiece link, sat-nav backtracking, hashtag cross-lines and English football. Those structures gave each round a recognisable argument even when microphone problems forced restarts.\n\nRYNO's best work came when his freestyle energy found a firm reference. Trojan turned war readiness into Roman history; Kung Fu Panda exaggerated his fighting stance; a no-scope image described locking focus onto ROMAN; poaching shifted from stealing talent to cooking an egg; and Maximus Decimus Meridius returned the battle to Gladiator and Roman identity. His willingness to admit that he was flopping and had not written well made the performance unusually candid, but also underlined its lack of control.\n\nThe surviving ending is not a complete crowd comparison. The host asks for noise if RYNO won, says 'there we have it', then asks the room to make noise for ROMAN before closing the event. No numerical tally, second explicit vote prompt or declared margin survives. Gzone's structured battle record lists ROMAN as winner, so the archive follows that official result without mislabelling the incomplete audio as a clear crowd decision.",
+    "clashSummary": "Episode 18 matched two battlers carrying very different records. Roman had official wins over PR1NC3 and Tapped24, giving him an unbeaten two-battle GZone run. Ryno had beaten 2MWAD before losing to TymeLess, and much of the material used against him in those earlier appearances—housing instability, Leicester, allegations, family, and credibility—returned here in a more concentrated form.\n\nRoman opened by predicting that Ryno would blame him for the death of his former partner, undercutting an angle Tapped24 had already used in Episode 9 before Ryno could deliver it. He then joined serious allegations with rhino facts, mud, solitary animals, Romans arriving as a squad, Heady One, sofa-surfing, a supposed shed, Leicester accommodation, football relegation, and a Ryan Winfield / windshield name flip.\n\nRyno used the predicted partner angle anyway, then attacked Roman's breath, hygiene, drinking, body, children, grief, and name. “R to the O, M-M-A to the N” supplied a repeated cadence, while “my bars rip you apart” stated the craft comparison directly. Mic adjustment and a false start made the opening feel less controlled than Roman's already completed case.\n\nRound two pushed Roman's main narrative hardest. Housing, a claimed move from one partner to another, vaping, a hotel allegation, criminal-case language, views without bookings, and “zero risk, zero gain” built toward a status question: what had Ryno's visibility actually produced? Ryno rejected the visual comparison and repeated “homeless not anymore,” before moving through Roman's crooked hat, no-scope, precision, delivery criticism, Deeno, family grief, and a deliberately awkward imitation of another flow.\n\nRoman's third returned to pending-case and NFA language, then moved through GZone names, age and grooming allegations, Bug's Life, the 5'3\" ego, keys, the sunflower lanyard, sat-nav, hashtag, and an English-team / English-tea racism construction. Ryno answered with ROM road lines, Maximus Decimus Meridius, Toy Story's Sid, a direct rebuttal to Roman's old “toughest warriors” claim, family shock material, and an admission that the round was not written as well as he wanted.\n\nThe battle contains repeated allegations about sexual conduct, criminal cases, parenting, race, relationships, and housing. They are documented here as claims and rebuttals made inside a battle, not verified facts. The transcript preserves a final audience check for Ryno but does not provide a complete comparative vote; the official GZone record awards Roman the win. His advantage was not simply darker content, but a clearer three-round case and more reliable control.",
     "performanceAnalysis": [
       {
-        "performer": "ROMAN",
-        "overview": "ROMAN delivered the more structured three-round case. His opening established behavioural accusations and status difference, then used rhino facts, Roman squads, relegation and housing imagery to keep the writing opponent-specific. Round two expanded the housing, reputation and career angles through the vape/grape, cells/sells and zero-risk/zero-gain sequences. Round three was his cleanest technical stretch, pairing compact multis with timepiece, sat-nav, hashtag and football references. Repeated restarts interrupted the rhythm, but the underlying writing remained coherent.",
-        "lyricalThemes": "Conduct allegations; hands and pockets; rhino facts; Roman identity; housing; league status; weapons; career relevance; prison language; reputation; grooming allegation; small stature; English football; backtracking and dishonesty.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Rhino fact into Roman squad",
-            "description": "A real rhino behaviour—using mud as sun protection—creates an opponent-specific setup before solitary rhinos are contrasted with Romans arriving in organised groups."
-          },
-          {
-            "title": "Cold barrel and toaster",
-            "description": "A weapon barrel turning cold is reheated like a toaster, joining threat imagery to an everyday heating appliance."
-          },
-          {
-            "title": "Vape and grape extraction",
-            "description": "ROMAN asks what vape flavour RYNO gives younger men, then points to the last four letters of grape to reveal the accusation embedded in the word."
-          },
-          {
-            "title": "Navigation and hashtag chain",
-            "description": "Taking a left like a sat-nav, backtracking and crossing lines like a hashtag form a connected movement-and-direction sequence in the final round."
-          }
-        ]
+        "performer": "Roman",
+        "overview": "Roman treated the matchup as a character case rather than a collection of unrelated insults. Housing, sexual-conduct allegations, family, online visibility, career progress, age, race, and credibility recur across the rounds, allowing each new reference to reinforce a portrait already established.\n\nHis opening prediction was strategically important. By announcing the deceased-partner attack before Ryno said it, Roman exposed how much material could be inherited from the Tapped battle. Rhino mud, solitary animals, squad-deep Romans, Heady One, the shed, Leicester, relegation, and windshield then kept the round varied without leaving the central case.\n\nRound two was his strongest complete construction. A claimed visual downgrade, unstable housing, vaping, a hotel allegation, views, bookings, stage demand, and David Blaine all served the same question: what measurable progress sits behind Ryno's public image? The “zero risk, zero gain, one million views” sequence gave the argument its clearest summary.\n\nRoman's weakness was the reliance on extreme and sometimes ableist allegation material. Several points came from routes already used by 2MWAD or TymeLess, and not every claim became technical writing. His edge was consolidation, pacing, and composure. He made repeated history sound like one prepared three-round prosecution and earned the official win.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "RYNO",
-        "overview": "RYNO relied on forceful freestyle momentum rather than ROMAN's prepared structure. His delivery was confrontational and he found sharp individual images through Trojan warfare, Kung Fu Panda, no-scope aiming, poached eggs, third-degree burns and Gladiator. The improvisation also produced long stretches of filler, abandoned thoughts and explicit admissions that he was flopping or had not written well. That volatility created live energy but weakened the case across three complete rounds.",
-        "lyricalThemes": "Retaliation; family and relationship personals; war; Roman and Trojan history; fighting; body and appearance; freestyle credibility; precision; no-scope gaming; poaching; religious references; Roman roads; Gladiator; performance honesty.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Trojan war response",
-            "description": "Ready for war becomes Trojan, placing RYNO inside the classical world suggested by ROMAN's name."
-          },
-          {
-            "title": "No-scope focus",
-            "description": "Smoking ROMAN like a roach leads into being focused on ROMAN like a no-scope, moving from cannabis language to a gaming shot without aiming down sights."
-          },
-          {
-            "title": "Poaching double meaning",
-            "description": "ROMAN is accused of poaching talent and struggling like someone poaching an egg, switching the same verb from recruitment to cooking."
-          },
-          {
-            "title": "Gladiator name connection",
-            "description": "Maximus Decimus Meridius invokes Gladiator, giving RYNO's final round a direct reference to ancient Rome and his opponent's stage name."
-          }
-        ]
+        "performer": "Ryno",
+        "overview": "Ryno's approach was immediate retaliation. Roman's former partner, mother, body, drinking, children, grief, delivery, artistic status, and street image became targets, with repeated threats and dark family material intended to prevent Roman from controlling the emotional temperature.\n\nHis cleanest ideas were usually shorter: R-to-the-O spelling, bars ripping Roman apart, homeless not anymore, hat at half past six, no-scope focus, precision, third-degree burns, ROM road lines, Maximus Decimus Meridius, and the direct challenge to the “toughest warriors” résumé.\n\nRyno did recognise the inherited case. He told Roman to stop the rapist bars, denied homelessness, rejected the visual comparison, and later listed gay, rapist, and homeless as claims Roman had faked. The problem was development: “homeless not anymore” repeated the TymeLess defence, while Roman had already advanced to the shed and key-proof counters.\n\nControl decided the performance. The opening needed a restart and mic adjustment, round two lost shape, and the third included an admission that the writing was not strong enough. Ryno's aggression created individual moments, but Roman's connected case remained easier for the room to follow and harder for the rebuttals to replace.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -3451,65 +2877,31 @@ export const gzoneClashData = {
     }
   },
   "deeno-vs-badee-harz": {
-    "clashSummary": "The clash between Deeno \"The Viking\" and Badee Harz at The GZone Rap Battle League unfolded as a volatile and deeply personal main event, defined less by layered lyricism and more by outright character destruction. From the outset, the tone was hostile and unfiltered, with both MCs abandoning subtlety in favour of direct, often uncomfortable confrontation.\n\nAcross three rounds, the battle leaned heavily into personals, with each artist dissecting the other's private life in brutal detail. Deeno's approach centred on relentless attacks toward Badee's family, children, and background, while also targeting her appearance and credibility within the scene. In response, Badee mirrored this intensity, focusing on Deeno's upbringing, mental state, and alleged behaviour, creating a back-and-forth that rarely strayed from deeply personal accusations.\n\nA dominant feature of the clash was the sheer level of escalation. What began as typical battle rap insults quickly spiralled into allegations of misconduct, substance abuse, and moral failings from both sides. This pushed the battle into a space that felt less performative and more confrontational, with each round raising the stakes in terms of severity and shock value rather than technical complexity.\n\nStylistically, the contrast was less about delivery and more about persistence. Deeno maintained a loud, commanding presence, attempting to overwhelm through repetition and directness, while Badee relied on sharp rebuttals and sustained pressure, frequently calling out perceived weaknesses and inconsistencies. The clash wasn't clean or polished, it was messy, raw, and at times chaotic, amplified further by technical issues and a noticeable stumble from Deeno during the second round.\n\nBy the final round, the battle had reached peak intensity, with both MCs fully committed to their angles despite the disorder surrounding the performance. The crowd remained engaged throughout, though reactions hinted at division, particularly as accusations and personal digs continued to dominate over structured writing.\n\nIn the end, the decision was handed to Deeno by the host and crowd, despite his mid-battle lapse. The result reflected not a flawless performance, but a combination of presence, experience, and control of the room. The clash stands as one of the more extreme examples within The GZone catalogue, remembered for its raw hostility, escalating tension, and unapologetically personal tone.",
+    "clashSummary": "Episode 17 placed established GZone figure Deeno “The Viking” against debutant Badee Harz in the final battle of the event. Deeno framed the booking as an intruder entering his territory, returning repeatedly to “my house,” “this is my home,” and the claim that Badee was a groupie rather than a recognised battler. Badee treated the same matchup as an arrival opportunity and promised to take over GZone rather than accept newcomer status.\n\nDeeno's first round established the hierarchy argument through Badee's age, body, profile, children, family, alleged scene relationships, and the Jasmine / Jafar baby-father scheme. The most important line was not the harshest personal but “this is my home, but still I run this,” continuing the house language heard against Tapped24 and around the surprise Grams battle. Badee answered through casino and life gambling, hair loss, Deeno's record against women, his siblings, Spain, jail claims, the Grams stumble, and her “baddest on GZone” declaration.\n\nRound two became a clash over who had the right to define the other. Deeno used Viking training, a country-knowledge test, Harley Coleman, human-flag imagery, Finding Nemo's Darla, family and parenting insults, and an accusation about Badee using the N-word. Repeated restarts and a stumble disrupted the round, but he recovered through freestyle comments and the crowd-facing “my house” refrain.\n\nBadee's second attacked Deeno's relationships, finances, home life, parents, children, alleged conduct, and claimed status as a veteran. She used B-A-D-double-E as audible self-branding and said Deeno's Grams performance had already shown him choking under pressure. The accusations on both sides remain statements made for a battle, not verified facts about either performer.\n\nThe final round introduced the clearest physical theatre. Deeno produced a bag described in the battle data as a 0.1-gram rock of crack and connected it to Badee's family; Badee's bag of ashes entered the exchange around Ryno and a previous event. Deeno moved through Fizz from The Tweenies, Little Mix, nobody call-and-response, Dobby, Honey G, a 125cc motorbike, and the claim that the show was his. Badee then revealed that information used for the N-word angle had been deliberately planted, called the material fake, challenged Deeno's second-round choke, used D-E-N-O / Renzo / friend-zone sounds, and called for AJ next.\n\nThe final audience checks and host announcement gave the battle to Deeno. Badee made a confident debut and her planted-information rebuttal gave the third a genuine strategic turn, but Deeno's repeated home-platform framing, wider reference range, prop moment, and stronger familiarity with the room survived the second-round disruption. The official GZone record awards Deeno the win.\n\nA bag with 0.1 gram of crack\n\nUsed by Deeno\n\nA bag of ashes\n\nUsed by Badee Harz",
     "props": [
       {
-        "name": "Small bag represented as a 0.1 rock",
+        "name": "A bag with 0.1 gram of crack",
         "user": "Deeno",
         "icon": "💎"
       },
       {
-        "name": "Small bag represented as ashes",
-        "user": "Deeno",
+        "name": "A bag of ashes",
+        "user": "Badee Harz",
         "icon": "⚱️"
       }
     ],
     "performanceAnalysis": [
       {
-        "performer": "DEENO",
-        "overview": "DEENO used experience, volume and direct confrontation to control a disorderly room. His clearest writing joined simple images into sequences: Jasmine/Jafar, Viking/training, country trivia/human flag and Dobby/doggy/Rottweiler. The final round added prop work and the repeated 125 motorbike image. Several restarts and a loss of place made the performance less clean than the result suggests, but he recovered, completed all three rounds and retained enough room authority to win the final call.",
-        "lyricalThemes": "Gzone status; Viking identity; newcomer credibility; family and relationship personals; appearance; country trivia; racism accusation; pop-culture comparisons; motorbike and 125 imagery; prop-assisted performance.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Jasmine and Jafar connection",
-            "description": "BADEE's first name becomes the route to Jafar through Disney's Aladdin, turning a personal photograph reference into a recognisable character comparison."
-          },
-          {
-            "title": "Viking training setup",
-            "description": "DEENO uses his established Viking identity to frame the newcomer as someone entering his ring for instruction rather than an equal opponent."
-          },
-          {
-            "title": "Country-facts sequence",
-            "description": "Questions about Canada and Russia establish geography before riding poles like a human flag converts countries and flags into a physical punchline."
-          },
-          {
-            "title": "Final-round prop theatre",
-            "description": "The 0.1 rock and ashes references were accompanied by small bags, making the personals visible even though repeated throwing attempts interrupted the verse."
-          }
-        ]
+        "performer": "Deeno",
+        "overview": "Deeno performed as the established figure policing access to his platform. The first round's age, body, groupie, children, Jasmine, Jafar, Tarzan, and profile attacks all supported the same hierarchy: Badee had entered his house without earning equal status.\n\nThe house language was his clearest long-term writing. It had appeared against Tapped24 and around the Grams surprise; here “my house” becomes a recovery cue as well as a claim. When rounds are restarted or the room interrupts, repeating it lets Deeno reset himself and remind the audience who normally controls the space.\n\nHis range widened after the stumble. Country facts, human flag, Darla, Tweenies, Little Mix, Dobby, Honey G, the 125cc motorbike, nobody call-and-response, Ryno, the ashes, and the crack prop gave the later rounds more visual anchors than the opening personals.\n\nThe weakness was excess and reliability. Graphic family, disability, illness, and sexual material often overpowered the cleaner schemes, while round two exposed the same loss of control Badee had cited from Grams. Deeno recovered through freestyling, familiarity with the room, the prop exchange, and repeated territorial framing strongly enough to take the crowd decision.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "BADEE HARZ",
-        "overview": "BADEE performed like a newcomer trying to force immediate recognition. She attacked DEENO's record against women, finances, family, relationships and status, then repeatedly stated her own name and takeover intent. Her sharpest passages used clear verbal mechanisms rather than allegations: casino gambling, bladed article/newspaper article, crumble-cookie-rookie and the B-A-D-double-E spelling. Her energy survived restarts and a visibly hostile room, although the final crowd call still went against her.",
-        "lyricalThemes": "Newcomer takeover; DEENO's record against women; gambling; family and relationship personals; finances; allegations framed as rumours; sharp bars; smoke; name spelling; rebuttal of racism angle; status challenge.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "DEENO casino name flip",
-            "description": "DEENO is bent toward casino, then losing a battle is paired with losing money through gambling to create the opening name-based attack."
-          },
-          {
-            "title": "Bladed article double meaning",
-            "description": "Article first means a bladed object, then shifts to a newspaper report; BADEE places her bars between them as the sharper tool."
-          },
-          {
-            "title": "Cookie rhyme pocket",
-            "description": "Crumble, cookie and rookie compress a food reference and an experience attack into a short, easily delivered sound sequence."
-          },
-          {
-            "title": "Spelled-name branding",
-            "description": "B-A-D-double-E and D-E-N-O turn both stage names into rhythmic anchors, helping BADEE restate her identity and challenge the veteran's status."
-          }
-        ]
+        "performer": "Badee Harz",
+        "overview": "Badee entered as a newcomer but wrote toward continuation. Deeno's record with women, AJ, 2MWAD, the baddest-on-GZone declaration, and the final call for AJ next all present this battle as the first step of a roster run rather than a one-off appearance.\n\nHer first round was strongest when it used visible or archived material: casino gambling, hair loss, named female opponents, siblings, Spain, the Grams stumble, and jail claims. B-A-D-double-E later supplied a simple identity hook that the room could carry through the heavier personal content.\n\nThe planted-information reveal was her best strategic moment. After Deeno used an N-word story to call her racist, Badee said she had finessed his information, that the setup was fake, and that her child's father wrote the words. Whether or not the account can be verified, she turned Deeno's research into evidence that he could be manipulated.\n\nHer weakness was the same escalation that affected Deeno. Long passages of allegations, family material, disability insults, and threats sometimes buried the more crafted gambling, article, family-gathering, Renzo, and friend-zone ideas. She made a forceful debut, but Deeno retained more control of the room and received the official decision.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -3677,80 +3069,46 @@ export const gzoneClashData = {
     }
   },
   "deeno-vs-tymeless": {
-    "clashSummary": "DEENO vs TYMELESS closed the event as a three-round main event built around ownership of Gzone, age, identity and live performance. DEENO repeatedly called the platform his house and attacked TYMELESS through his name, previous clashes, politics, family and claimed credibility. TYMELESS answered with a long toilet-and-throne concept, age and appearance rebuttals, a cascade of red-haired celebrity comparisons and five physical props. Personal and family claims are preserved only as battle material and have not been independently verified.\n\nDEENO's clearest writing made the opponent's name do technical work. Time, timeless, replay and no reverse created a recurring clock-and-playback field; Big Smoke and CJ made a GTA final-mission scheme; and his third round connected Young Filly, Thriller, Special K, cereal killer, The Simpsons and Smithers. His second round mixed prepared writing with an explicitly announced freestyle close, showing adaptability but also creating several looser passages.\n\nTYMELESS built the more complete performance. The opening transformed DEENO's real stomach complaint into Crohn's disease, squeeze, toilet seat, plop, blocked toilets, a plunger and the claim that Gzone's chair was not his throne. Round two introduced the returning Keith Lemon gag, then moved through ginger and silver foxes, GTA cheat codes, Rick Astley, Paul Scholes, Ron Weasley, leprechauns, Simon Pegg and Shaun of the Dead. His final round became a family-addressed performance before finishing with Machine Gun Kelly, R. Kelly, Matilda, building tools, 125 references and the third lemon's squeeze payoff.\n\nThe host ran a direct crowd comparison for DEENO and TYMELESS, called it close and explicitly said it was on TYMELESS. Gzone's structured record agrees. No numerical tally or round-by-round score is preserved, so the archive records a TYMELESS crowd decision without inventing a margin.",
+    "clashSummary": "Episode 21 was a main-event contest over who could control GZone itself. Deeno opened as the established home figure, while TymeLess arrived with the official win over Ryno already behind him. Across three rounds, Deeno tried to defend his status through tailored name flips and direct pressure; TymeLess answered by turning live circumstances, earlier clashes, physical props, and the people in the room into one connected performance.\n\nDeeno's first round declared GZone “my house” before moving through security, the recent headlock controversy, TymeLess' family, age, grey hair, battle record, and public image. TymeLess began his reply by pretending that his own stomach was hurting, briefly convincing the room before revealing that the complaint was a setup. Crohn's disease, IBS, locked toilets, taking the piss, the blocked toilet, and a plunger then developed toward the larger claim that Deeno's chair at GZone was not a throne.\n\nRound two separated their approaches. Deeno built his cleanest connected sequence through GTA, Big Smoke, CJ, a final mission, game over, and no replay, while also revisiting parenting and racism allegations previously used against TymeLess. TymeLess answered through visual character writing: Keith Lemon became a recurring physical motif, his own grey hair became a silver-fox rebuttal, and Deeno was compared with Ginga Jay, Prince Harry, Paul Scholes, Weasley, Simon Pegg, Shaun of the Dead, and the Sugar Puff Monster.\n\nDeeno's third returned to TymeLess' identity. Time, no reverse, William, smoking, cereal and serial-killer sounds, Thriller, and Smithers gave the round its strongest tailored writing. He also tried to answer the fruit gimmick with a lemonade line, but the restart weakened the rebuttal. TymeLess then reversed Deeno's parenting attack by addressing Deeno's son as a new stepfather, promising to provide for him, and saying that his real father was dead.\n\nTymeLess extended the closing round through the Kelly, Machine Gun Kelly, R. Kelly, Miss Trunchbull, and 125 sequences before revealing a third lemon. The final “get lemon, get squeezed” punch paid off a visual idea that had been introduced, repeated, interrupted, and carried through the full battle rather than used for one isolated reaction.\n\nThe crowd awarded the battle to TymeLess. Deeno produced strong individual schemes and defended his platform position with conviction, but TymeLess had the clearer three-round identity: a fake sickness setup became a toilet narrative and throne challenge, the ginger comparisons became a sustained character portrait, and the lemons became the image later opponents would reuse as shorthand for Deeno's defeat.",
     "props": [
       {
         "name": "Toilet plunger",
-        "user": "Tymeless",
+        "user": "TymeLess",
         "icon": "🪠"
       },
       {
         "name": "Childhood photo of Deeno",
-        "user": "Tymeless",
+        "user": "TymeLess",
         "icon": "📷"
       },
       {
         "name": "Lemon 1",
-        "user": "Tymeless",
+        "user": "TymeLess",
         "icon": "🍋"
       },
       {
         "name": "Lemon 2",
-        "user": "Tymeless",
+        "user": "TymeLess",
         "icon": "🍋"
       },
       {
         "name": "Lemon 3",
-        "user": "Tymeless",
+        "user": "TymeLess",
         "icon": "🍋"
       }
     ],
     "performanceAnalysis": [
       {
-        "performer": "DEENO",
-        "overview": "DEENO performed as Gzone's home representative, repeatedly telling TYMELESS that the room and platform were his house. His strongest technical material used the opponent's name: play for time, no replay, time teaching life and no reverse. The GTA Big Smoke/CJ sequence and final Thriller/Special K/cereal run gave the rounds recognisable pop-culture peaks. He also announced part of round two as freestyle and recovered through several beat restarts, but the looser improvisation and repeated setup lines made his overall case less controlled than TYMELESS' prop-led structure.",
-        "lyricalThemes": "Gzone ownership; time and replay; headlocks and MMA; driving and Lightning McQueen; age; politics and EDL; GTA; Big Smoke and CJ; family personals; Island Boys; Beta Squad and Young Filly; benefits; Thriller; cereal brands; Simpsons; country lines.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Timeless time field",
-            "description": "Play for time, no replay, time teaching life and no reverse recur across the battle, making the opponent's stage name a sustained source rather than a single flip."
-          },
-          {
-            "title": "GTA final mission",
-            "description": "Big Smoke and CJ are Grand Theft Auto characters; game over and no replay complete the final-mission framing."
-          },
-          {
-            "title": "Special K cereal-killer chain",
-            "description": "Thriller, Special K, Cheerio and serial killer move from Michael Jackson into breakfast cereal while preserving a death threat."
-          },
-          {
-            "title": "Simpsons and Smithers",
-            "description": "Calling TYMELESS a simp leads into The Simpsons, then Smithers supplies a recognisable character comparison and the rhyme."
-          }
-        ]
+        "performer": "Deeno",
+        "overview": "Deeno treated the main event as a defence of territory. The opening house claim, security language, headlock reference, age pressure, and dismissal of TymeLess's battle record all argued that the visitor did not belong above the established GZone figure.\n\nHis best writing was tailored and connected. GTA, Big Smoke, CJ, final mission, game over, and replay formed the clearest second-round scheme, while time, no reverse, William, Froot Loops, Special K, Cheerio and serial killer gave the third a strong opponent-specific route.\n\nEpisode 11 supplied part of his research. Ryno had already used William, time concepts, parenting criticism, and racism allegations against TymeLess; Deeno changed the wording but reused those established pressure points. The weekday question also created the opening for TymeLess's later stepfather reversal.\n\nDeeno remained forceful through a noisy battle, but stops and material selection weakened his control. The lemonade line was a genuine attempt to answer the fruit props, yet the stumble prevented it from replacing TymeLess's motif. His clean technical peaks kept the clash competitive, but they did not connect across all three rounds as completely as TymeLess's performance.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "TYMELESS",
-        "overview": "TYMELESS turned the battle into a performance piece. A real-time stomach complaint became the entry point for an extended toilet scheme with plop sounds, blocked VIP toilets, a throne flip and a plunger reveal. The lemons then operated as a running visual joke across the later rounds, while the second round's red-haired celebrity list and the final round's Kelly, Matilda, construction and 125 sections showed prepared reference density. He repeatedly controlled pauses, props and crowd anticipation, and the third lemon finally explained the entire running gag through squeezed.",
-        "lyricalThemes": "Stomach illness; gun squeeze; toilets and throne; plunger; Gzone ownership; Reddit and finances; Keith Lemon; ageing and grey hair; red-haired celebrities; GTA cheat codes; family-directed personals; Kelly name flips; Matilda; builders and tools; 125 refrain; lemons and squeezing.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Toilet concept round",
-            "description": "Crohn's disease, belly rumbling, squeeze, toilet seat, plop, blocked toilets, full of it, plunger and throne build one continuous comic world."
-          },
-          {
-            "title": "Three-lemon escalation",
-            "description": "Keith Lemon starts as an appearance joke, separate lemons recur as physical props, and the third reveal resolves the motif with 'get lemon, get squeezed'."
-          },
-          {
-            "title": "Red-haired reference cascade",
-            "description": "Angry Ginge, silver fox, Rick Astley, Paul Scholes, Ron Weasley, a leprechaun and Simon Pegg create a sustained appearance-based reference run."
-          },
-          {
-            "title": "Kelly name sequence",
-            "description": "DEENO's mother being named Kelly opens Machine Gun Kelly and R. Kelly references, letting one real name support several distinct punchlines."
-          }
-        ]
+        "performer": "TymeLess",
+        "overview": "TymeLess built the stronger complete performance by treating the clash as one developing story rather than a collection of isolated punches. He first pretended that his own stomach was hurting and let the room believe him, then exposed the complaint as the setup for a toilet scheme about Deeno. The toilet became Deeno's false throne, and the throne became a challenge to ownership of GZone.\n\nHis strongest battle instinct was transformation. Grey hair became the silver fox, the recent Tapped24 and Grams incident became headlock material, Ryno's flow became part of the toilet cadence, and Deeno's parenting attack became a third-round stepfather performance aimed directly at Deeno's son.\n\nThe visual writing gave every round recognisable anchors. The plunger completed the opening narrative; Keith Lemon expanded into three physical lemons; and Prince Harry, Paul Scholes, Weasley, Simon Pegg, Shaun of the Dead, the Sugar Puff Monster and Ginga Jay turned Deeno's appearance into a recurring character.\n\nTymeLess controlled reaction better through pauses, reloads, repetition, room involvement, misdirection, and delayed payoff. The third lemon resolved material introduced much earlier, while the crowd decision confirmed that the connected performance had outweighed Deeno's stronger individual technical passages.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -3918,53 +3276,19 @@ export const gzoneClashData = {
     }
   },
   "1flaymr-vs-cj-zino": {
-    "clashSummary": "1FLAYMR vs CJ ZINO was a three-round battle between a performer protecting a strong fire-based identity and a writer trying to dismantle it line by line. 1FLAYMR used Jamaican-influenced cadence, the recurring 'everything burn' and 'fully extinguished—never' slogans, gunshot vocal effects and crowd repetition. CJ ZINO attacked the former Friction name, mask, claimed background, online image and previous battles. Personal and family claims are preserved only as battle material and have not been independently verified.\n\n1FLAYMR's first round established his formula: Heung-min Son supplied a kick reference, blood and rum created a spill comparison, the Wayans represented a large family, and bank account, fridge, kitchen and brain were all answered with 'nothing in there'. Round two was more opponent-specific, turning CJ into a DJ through a spinning head, sending garbage lyrics to a rubbish bin and answering the extinguish angle with a birthday-wish flame. His third round compressed shorter rhyme pockets around Guinness, cemetery, Freddy, Blackberry and the gang/hand/bang sequence.\n\nCJ ZINO produced the battle's densest reference writing. His opening Hunger Games scheme connected Catching Fire, Katniss Everdeen, Mockingjay, President Snow, flame and the arena. Later sections used Three Little Birds against the claimed Jamaican identity, a gram/headlock link, Uncle Raful/just a fool, a Gzone baptism for a 'fake yardie', bare-face/no-mystery language and a long Batman refrain. His writing was more layered, although repeated microphone resets and several hard-to-hear passages reduced its live clarity.\n\nThe final crowd call asks separately for CJ ZINO and 1FLAYMR. The transcript then degrades during the host's spoken conclusion, so it does not support a numerical tally or reliable margin. Gzone's structured battle record lists 1FLAYMR as winner. The archive follows that official result while noting that CJ supplied the cleaner technical peaks and 1FLAYMR supplied the more persistent persona, vocal performance and room-facing hooks.",
+    "clashSummary": "Episode 19 brought together two characters whose previous battles were already connected. 1FLAYMAH returned from his official loss to Btizz in Episode 16, where the debuting fire persona had been declared “fully extinguished.” CJ-Zino arrived with an official win over that same Btizz in Episode 13 and treated the new booking as proof that he belonged among the league's leading names.\n\n1FLAYMAH opened by restoring the complete performance identity: “CJ, don't run,” “everything burn,” gunshot sounds, Jamaican cadence, rum, fire, and a widening list of GZone targets. CJ's reply was built to put that character on trial. “Fully extinguished” came directly from the Btizz clash, while Katniss, Catching Fire, Mockingjay, President Snow, and the Hunger Games arena turned the inherited verdict into the round's cleanest connected scheme.\n\nRound two made the battle's lineage explicit. 1FLAYMAH answered that the flame could never be extinguished, acknowledged CJ's win over Btizz, and accused CJ of helping the room blow the flame out in Episode 16. CJ returned to material already visible in that debut—the Friction name, the removed balaclava, Jamaican presentation, and fire branding—while also referencing the recent Grams headlock controversy and claiming he could earn a reload without borrowing a flow.\n\nThe third round sharpened the contrast. 1FLAYMAH dismissed questions about changing his name as nobody else's business, then moved through Guinness, rapid internal rhymes, gunshot rhythm, cemetery language, and an “in loving memory of CJ” finish. CJ immediately mirrored the wording with “why I'm battling today—mind your business,” before returning to Friction, the uncovered face, online toughness, stamping out fire, and whether 1FLAYMAH was built for the ring.\n\nThe clash therefore works as more than performance against writing. 1FLAYMAH argues that survival itself defeats the previous verdict: if he can return, hold the room, and keep the slogans alive, he was never extinguished. CJ argues that repetition proves the opposite: the new name, mask, flame language, and cadence are branding that can be traced, exposed, and dismantled.\n\nThe transcript records separate crowd checks but does not preserve their relative volume clearly enough to reconstruct the room decision from text alone. The official GZone battle record awards the win to 1FLAYMAH. CJ produced the cleaner counter-writing, but 1FLAYMAH's persistence, recognisable character, direct rebuttal to the Episode 16 loss, and stronger performance hooks produced the recorded result.",
     "performanceAnalysis": [
       {
-        "performer": "1FLAYMR",
-        "overview": "1FLAYMR treated the battle as a defence of the identity introduced against BTIZZ. Everything burn, fully extinguished—never, gunshot effects and Jamaican phrasing returned throughout all three rounds. He was most effective when repetition became structure: the nothing-in-there list, CJ/DJ and head-spin link, birthday-wish flame rebuttal, and final gang/hand/bang pocket. The writing was simpler than CJ's but easier to recognise as a continuous character, and his repeated crowd cues kept the room involved through severe sound problems.",
-        "lyricalThemes": "Fire and extinguishing; gunshots; Jamaican identity; rum; family-size comparisons; money and empty accounts; garbage writing; CJ name flips; birthday flames; death and cemetery imagery; mobile-phone sounds; badness and action; gang language.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Everything-burn refrain",
-            "description": "The repeated slogan works as name branding, a round transition and a crowd hook, allowing separate threats to return to the same fire identity."
-          },
-          {
-            "title": "Nothing-in-there list",
-            "description": "Bank account, fridge, kitchen and brain are each followed by the same answer, turning repetition into an escalating character attack."
-          },
-          {
-            "title": "CJ-to-DJ spin",
-            "description": "Turning CJ into a DJ because his head will spin links the opponent's initials to the physical action of a record."
-          },
-          {
-            "title": "Blackberry sound pocket",
-            "description": "Celly, ping-ping and Blackberry combine phone vocabulary with repeated percussive sounds before the writing returns to weapon imagery."
-          }
-        ]
+        "performer": "1FLAYMAH",
+        "overview": "1FLAYMAH performed as if Episode 16 had not ended the character but made it more necessary. “Everything burn,” “fully active,” gunshot noises, patois-led cadence, and repeated commands gave the crowd fixed points to recognise even when the surrounding writing became dense or the sound needed adjustment.\n\nThe first round was a relaunch. He moved from CJ to Btizz, Roman, Ryno, Tapped24, Darren, Jay, and Z.K, making one opponent the doorway to the whole roster. Heung-min Son, rum, Wayans, Satan, bank-account imagery, empty rooms, and the burn-up list supplied variety without abandoning the core voice.\n\nHis most important writing came in round two, where he directly confronted “fully extinguished.” By naming Btizz as the source, acknowledging CJ's role around that clash, and insisting the flame was still present, 1FLAYMAH turned a previous losing slogan into the central rebuttal of a new battle. The argument is simple, but it depends on the archive and therefore rewards viewers following the season.\n\nThe weakness remained clarity and control. Long repeated sections, mic checks, restarts, and sound-led phrasing sometimes made individual punches difficult to separate. His strongest moments used short hooks, direct eye contact, and physical conviction. Those qualities gave the character enough continuity and room impact to support the official win.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
-        "performer": "CJ ZINO",
-        "overview": "CJ ZINO took the role of persona-breaker. He questioned the mask and former Friction name, challenged 1FLAYMR's claimed Jamaican identity and repeatedly converted fire language into material for his own punches. The Hunger Games opening was the battle's clearest sustained scheme; later rounds added a gram/headlock connection, fool rhymes, baptism and actor language, reload commentary, religious fire imagery and Batman repetition. His content was denser than 1FLAYMR's, but microphone interruptions and uneven audibility made some transitions difficult to follow in the room.",
-        "lyricalThemes": "Mask and appearance; Friction name; Catching Fire and Hunger Games; claimed Jamaican identity; previous losses; Three Little Birds; Gzone status; family personals; fake-yardie angle; reloads; online toughness; Judas, devils and fire; bare-face identity; Batman refrain.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Hunger Games concept scheme",
-            "description": "Catching Fire, Katniss Everdeen, Mockingjay, Snow and the arena form a complete fictional world built specifically to counter the flame persona."
-          },
-          {
-            "title": "Three Little Birds rebuttal",
-            "description": "The Bob Marley song is used as a Jamaican reference, then its birds are told to fly away as part of CJ's extinguish-and-eliminate close."
-          },
-          {
-            "title": "Gzone baptism",
-            "description": "Calling 1FLAYMR a fake yardie leads to giving him a Gzone baptism, joining identity criticism to a ritual of initiation."
-          },
-          {
-            "title": "Religious fire reversal",
-            "description": "Judas, stamping out fire, devils at work and God not guiding them let CJ take the opponent's fire motif into a religious field."
-          }
-        ]
+        "performer": "CJ-Zino",
+        "overview": "CJ-Zino wrote the more explicit deconstruction. Rather than inventing a separate theme, he accepted 1FLAYMAH's fire world and filled it with counters: Catching Fire, Katniss, Mockingjay, Snow, the arena, stamping out fire, and the verdict that the flame had already been extinguished.\n\nThe first round was his clearest technical passage. The Hunger Games chain stayed readable because every reference served the same purpose. Friction, the mask, attraction, cannabis, clout, and flow then widened the argument from the flame itself to the person allegedly hidden behind the branding.\n\nCJ also used league continuity well. The Btizz result supplied authority, the Friction and balaclava angles came from 1FLAYMAH's debut, and the Grams headlock line used a recent GZone incident as shorthand. His “I don't need to get a flow to get a reload” claim continued the concern with borrowed cadences that he had already aimed at Btizz.\n\nHis weakness was conversion. The writing often exposed more about the opponent than 1FLAYMAH's material exposed about him, but some longer personals and broken performance passages diluted the cleaner schemes. The third-round “mind your business” echo showed fast awareness; the battle as a whole needed more moments that turned that intelligence into an unmistakable room swing.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -4132,7 +3456,7 @@ export const gzoneClashData = {
     }
   },
   "nattyebk-vs-z-k": {
-    "clashSummary": "NATTYEBK vs Z.K was a three-round clash between a returning Gzone performer and a Grimsby newcomer. NATTY attacked Z.K's name, travel, religion, online posts, family, hygiene and credibility with direct aggression and shock-value personals. Z.K answered with more measured research, focusing on NATTY's work, debts, music, social media, appearance and claimed street image. Personal allegations and private-life claims are preserved only as battle material and have not been independently verified.\n\nNATTY's opening used simple name and transport flips: Z.K became someone to eliminate, taking the train led to fixing change and the initials were challenged through a blade reference. His second round introduced screenshots and a photograph, turning an online-post angle into live evidence theatre before moving through a fireworks-dog image, bells and instant L language, tidal waves and boats. The third was his strongest sustained room-control round, using twins, throne/home, dentist/uppercut, broccoli/chop and Canada Goose/six imagery.\n\nZ.K's writing was denser and more reference-led. Round one moved through Gzone/lose/booze, Mickey Mouse, Grimsby/Dimzy, EBK/BBK and athlete's foot. Round two connected Batman and Robin, turkey dinosaurs against peas and rice, Virgil van Dijk, Arsenal/Lisbon, Central Cee, California weed, Tekken, Wiley and a lemon refrain. His final round stacked pop-culture images through Amarillo, Cher Lloyd, Sirius Black, Pokemon, Mewtwo, Bluetooth, Kindle, Pringle and shingles.\n\nAfter acknowledging production complications, the host asked for noise for Z.K and then NATTY. The following announcement audibly resolves the battle to NATTY, matching Gzone's structured winner record. No numerical total or round-by-round score is preserved, so the archive records a crowd decision without inventing a margin.",
+    "clashSummary": "Episode 20 matched NattyEBK, returning after his official win over PR1NC3, with debutant Z.K from Grimsby. Natty approached the clash as the next stage of an established run, repeatedly presenting Prince as the first body and Z.K as the next. Z.K treated the debut as a chance to prove that longer experience, clearer writing, and grime knowledge could overcome Natty's aggression and home-room momentum.\n\nNatty's first round framed the booking as an elimination assignment. Z.K's name, train journey, money, teeth, breath, religion, image, and claimed danger were attacked through direct statements and abrupt flow pockets. The Prince result supplied continuity, while references to Ryno and Badee Harz pulled wider league tensions into the round as battle allegations rather than verified claims.\n\nZ.K answered with the more controlled opening. Mickey Mouse, Dimzy, BBK, CCJs, social-media bars, floorboards, rats, fleas, food, Natty's girlfriend, and the Natty/Nathan/Steve identity sequence created a researched character portrait. Several routes came from Natty's first battle: PR1NC3 had already used Mickey Mouse and hygiene props against Natty, and Z.K returned to the same visual and credibility weaknesses.\n\nRound two moved from insults into claimed evidence. Natty stopped the beat and presented a screenshot and photograph to support allegations about Z.K's online behaviour, then escalated through family, death, washing, dating, and a Z.K-out-the-case weapon flip. Z.K kept the cleaner technical route through Batman and Robin, Grimsby-to-London movement, food and cultural identity, Virgil van Dijk, Arsenal, Central Cee, Tekken, Wiley, and the lemon comparison.\n\nNatty's third produced the battle's largest momentum shift. Twins became both family and weapon language, GZone support became a claim to the throne, the house invasion led into the Canada Goose six, and “just killed Prince, now Z.K's next” completed the two-battle progression. Z.K closed with a more controlled sequence around Natty's flow, Cher Lloyd, Sirius Black, Pokémon, Mewtwo, Bluetooth, Kindle, Pringle, shingles, hygiene, and online relevance.\n\nThe crowd awarded the battle to NattyEBK. Z.K's second round and clearer construction made the debut competitive, but Natty's physical evidence sequence, stronger third-round escalation, flow changes, and ability to claim the room produced the more decisive final impression.",
     "props": [
       {
         "name": "Screenshot presented during the clash",
@@ -4147,50 +3471,16 @@ export const gzoneClashData = {
     ],
     "performanceAnalysis": [
       {
-        "performer": "NATTYEBK",
-        "overview": "NATTYEBK used direct aggression and escalating shock value to control the room. His opening was built from short, accessible Z.K name flips and travel, money and dental attacks. Round two became live theatre when he stopped the beat and handed over screenshot/photo material, then resumed with fireworks, bells, boats and point/drift language. His third round had the strongest continuity, moving through twins, throne, dental violence, broccoli, Canada Goose and Gzone status. The approach was rarely subtle, but it created the clearest peaks in crowd energy.",
-        "lyricalThemes": "Z.K name and blade; travel and money; previous opponents; religion; teeth and hygiene; screenshots and online posts; family personals; fireworks; bells; waves and boats; twins; throne and Gzone status; dental attacks; Canada Goose; scene leadership.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "Train, broke and change",
-            "description": "Arriving by train becomes evidence of having no car; broke then moves into fixing change, joining transport and money in one short sequence."
-          },
-          {
-            "title": "Fourth-of-July dog image",
-            "description": "Z.K is compared with a dog frightened by fireworks, allowing tucking, boom and being first out of the room to share one visual scene."
-          },
-          {
-            "title": "Tidal-wave control",
-            "description": "Croak, smoke, tidal wave, sink and swim create a water-and-destruction chain for NATTY's claim that the whole platform moves when he performs."
-          },
-          {
-            "title": "Twins versus twins",
-            "description": "Both battlers having twins establishes similarity, then NATTY claims his pair are beside him while attacking the condition of Z.K's children. The personal claim is unverified."
-          }
-        ]
+        "performer": "NattyEBK",
+        "overview": "Natty performed as someone extending an existing run rather than beginning again. Prince was named at the start and finish, allowing Natty to frame Z.K as the second opponent in a sequence he expected to complete. That progression gave the clash a simple competitive story even when individual passages became chaotic.\n\nHis first round relied on direct pressure: Z.K's stage name, train journey, finances, teeth, breath, religion, appearance, and claimed danger. The hygiene route is especially important because PR1NC3 had used breath and Listerine against Natty; here Natty redirects the same kind of visible embarrassment toward a new opponent.\n\nThe second round changed the atmosphere by introducing a screenshot and photograph as claimed evidence. Natty stopped the beat and made the objects part of the confrontation before moving into family, death, washing, dating, and weapon material. The allegations remain claims made inside a battle, not independently verified facts.\n\nRound three was his strongest complete performance. Twins, paired weapons, GZone support, the throne claim, house invasion, Canada Goose, the Prince-to-Z.K progression, and a faster flow pocket all moved toward a decisive close. His main weakness was control: repeated stops and extreme personals could obscure the cleaner stage-name and progression writing, but his escalation and room impact carried the vote.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       },
       {
         "performer": "Z.K",
-        "overview": "Z.K entered as a researched newcomer with longer, reference-heavy passages. He attacked NATTY's music, debts, employment, hygiene, online image and relationships, often using pop culture to make the angles concrete. His best structures were the Grimsby/Dimzy connection, athlete's foot correction, Batman-and-Robin opening, Arsenal/Lisbon comparison and the final sequence moving from Cher Lloyd and Sirius Black through Mewtwo, Bluetooth, Kindle and Pringle. His writing was cleaner than NATTY's, but lower volume and repeated microphone guidance reduced its room impact.",
-        "lyricalThemes": "Grimsby identity; work and finances; Mickey Mouse haircut; road image; CCJs; hygiene; athlete's foot; Batman and Robin; food and cultural identity; football; California weed; Tekken and gaming; music history; pop culture; technology; appearance and clothing.",
-        "keyTechnicalHighlights": [
-          {
-            "title": "EBK and BBK comparison",
-            "description": "NATTY's EBK initials are compared with grime collective BBK, then Z.K asks what the letters actually represent to challenge the brand."
-          },
-          {
-            "title": "Athlete's foot correction",
-            "description": "The setup first says athlete's foot, then corrects itself to athlete's feet because both feet are being attacked, making the grammatical adjustment the punch."
-          },
-          {
-            "title": "Arsenal versus Lisbon",
-            "description": "Coming like Arsenal is placed against coming like Lisbon, using football clubs and cities to describe the expected mismatch."
-          },
-          {
-            "title": "Kindle-to-shingles chain",
-            "description": "Kindle, mingle, Pringle, single and shingles sustain the same ending while moving through reading, association, appearance, music and skin."
-          }
-        ]
+        "overview": "Z.K delivered a composed debut built around research and recognisable reference points. Rather than trying to match Natty's hostility immediately, he constructed a character through Mickey Mouse, Dimzy, BBK, CCJs, social media, alleged home conditions, food, relationships, music, and the Natty/Nathan/Steve identity sequence.\n\nSome pressure was inherited intelligently. PR1NC3 had already compared Natty with Mickey Mouse and attacked his hygiene; Z.K repeated the visual comparison while broadening the credibility case through debt, online clips, gaming, grime knowledge, and a claim that Natty's dangerous presentation did not match his life.\n\nRound two was Z.K's clearest technical round. Batman and Robin, Grimsby-to-London movement, peas and rice, Virgil van Dijk, Arsenal, Central Cee, Tekken, Wiley, and the lemon image moved across culture, sport, games, and grime without losing the opponent-specific thread.\n\nThe third continued the flow critique through AJ Tracey, Cher Lloyd, Sirius Black, Pokémon, Mewtwo, Bluetooth, Kindle, Pringle, shingles, and hygiene. Z.K's strength was clarity and range; his weakness was conversion. The references were often easier to follow than Natty's writing, but they did not become a final narrative or room moment strong enough to overturn Natty's third.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
       }
     ],
     "notableBars": [
@@ -4356,5 +3646,219 @@ export const gzoneClashData = {
       "verdict": "NATTYEBK — crowd decision",
       "summary": "Z.K delivered the denser reference writing through Grimsby/Dimzy, athlete's feet, Batman and Robin, Arsenal/Lisbon, Tekken and the long Kindle rhyme chain. NATTYEBK created the larger live moments through direct name flips, the screenshot/photo reveal, fireworks and tidal-wave imagery, then a stronger room-facing final round built around twins, throne, dental wordplay and Gzone status. The final crowd call awards NATTY the battle without preserving a score or margin."
     }
+  }
+,
+  "deeno-vs-btizz": {
+    "clashSummary": "Deeno vs Btizz arrived earlier than the room expected. Btizz was introduced as the roster climber, while Deeno entered under his self-declared GZone-king identity. Across three rounds, the clash became a contest between Deeno's opponent-specific angle construction and Btizz's changing flows, live confidence, and attempt to turn GZone history back on the home favourite.\n\nDeeno made round one personal immediately. The Oliver Twist setup linked Btizz's repeated requests for the battle to the neglected-child and absent-parent angle, while the clothing and hygiene material reused CJ Zino's earlier criticism as supporting evidence. A mistaken “Tap 22” call in the room also gave Deeno an opening to reshape the line into a live Catch-22 punch.\n\nBtizz answered by presenting his previous GZone clashes as a climb through the roster. Deluxx, CJ Zino, and 1FLAYMAH all became part of his résumé before he attacked Deeno's king claim through the loss to TymeLess. His Mission: Impossible, Benji Dunn, and Simon Pegg sequence also evolved a visual comparison TymeLess had already used against Deeno into a connected film scheme.\n\nRound two made the battle increasingly self-referential. Deeno reversed Btizz's repeated murder language through “red rum”, challenged his authenticity, and attacked the flows and gimmicks behind his rise. Btizz changed cadence, deliberately mirrored Deeno's delivery, revisited the lemon motif from Deeno's loss to TymeLess, and continued trying to turn Deeno's home platform into his own territory.\n\nDeeno's third was the most complete narrative round. He anticipated the copied flow, said he had “flipped the script”, used a Google Maps screenshot of Btizz's modest family home and a photograph of a headstone inscribed with “Btizz”, then presented adoption papers to prove he was going to “father” Btizz. Ben 10, Blade, Batman, Robin, Bruce Wayne, two-day preparation, and Blu-ray references gave the round a clearer technical route around the visual props.\n\nBtizz closed with another flow-heavy round built around taking the crown, making himself comfortable in Deeno's house, Lego bricks, Family Guy, and rapid internal-rhyme pockets. Repeated restarts and crowd interruptions weakened the shape of the round, while Deeno's visual sequence left the cleaner final impression. The first audience call was close enough for the host to repeat it; the official battle record awards the win to Deeno.",
+    "performanceAnalysis": [
+      {
+        "performer": "Deeno",
+        "overview": "Deeno treated the clash as a chance to defend his GZone position against a fast-rising opponent. His material was more battle-specific than general: Btizz's requests for the booking, family history, previous opponents, clothes, claimed road image, copied flows, and place on the roster all fed the same argument that the climb had reached its limit.\n\nAdaptation was Deeno's strongest quality. Catch-22 grew from the live Tap 22 mistake, red rum reversed Btizz's murder language, and the third-round opening predicted the copied cadence before turning it into the flipped-script setup. Those moments made the performance feel responsive rather than sealed inside pre-written rounds.\n\nThe third was his clearest complete structure. The Google Maps screenshot, headstone photograph, and adoption papers established visual pressure; presenting himself as Btizz's new father turned the between-round exchange into a complete adoption narrative. The Ben 10, Blade, Batman, Robin, Bruce Wayne, two-day, and Blu-ray references supplied connected technical payoffs around it.\n\nThe weakness was excess. Some family and death material was intentionally cruel, and repeated stops around the props interrupted momentum. Even so, Deeno built the stronger closing narrative and left the cleaner final impression for the crowd.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      },
+      {
+        "performer": "Btizz",
+        "overview": "Btizz performed like someone trying to prove that climbing the roster was not accidental. He used Deluxx, CJ Zino, and 1FLAYMAH as résumé markers, rejected Deeno's king status through the TymeLess result, and repeatedly reframed the home platform as territory he could occupy.\n\nFlow variation and self-awareness were his biggest strengths. He moved between direct punches, faster internal-rhyme pockets, crowd-facing repetition, and an explicit imitation of Deeno's cadence. Because CJ and Deluxx had previously criticised him for borrowing flows, making the imitation obvious changed it from a hidden weakness into a deliberate provocation.\n\nHis best connected writing came through Mission: Impossible, Benji Dunn, and Simon Pegg; the repeated house takeover; the lemon callback to TymeLess; and the later Lego, Family Guy, and crown material. These references made the clash feel part of an evolving GZone story rather than an isolated battle.\n\nThe weakness was control. Several passages were overpacked or hard to follow, and the third round needed repeated restarts after crowd interruptions and disputes over wording. Btizz remained dangerous through energy and adaptability, but his closing material did not resolve as cleanly as Deeno's prop-led third.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      }
+    ],
+    "props": [
+      {
+        "name": "Google Maps screenshot of Btizz's modest family home",
+        "user": "Deeno",
+        "icon": "🗺️"
+      },
+      {
+        "name": "Mock headstone photograph bearing Btizz’s name",
+        "user": "Deeno",
+        "icon": "📸"
+      },
+      {
+        "name": "Adoption papers presented to prove Deeno was going to “father” Btizz",
+        "user": "Deeno",
+        "icon": "📄"
+      }
+    ]
+  },
+  "z-k-vs-cj-zino": {
+    "clashSummary": "Episode 23 put Z.K into his second GZone battle after the official loss to NattyEBK in Episode 20. CJ-Zino arrived with a longer platform record: a loss to Proty, a win over Btizz, and a loss to 1FLAYMAH. Z.K was trying to convert a competitive debut into his first recorded win, while CJ was looking to restore momentum after the 1FLAYMAH result.\n\nCJ opened through direct status and credibility pressure. The repeated “Mr Robinson” entrance moved through Liverpool and Suarez, Grimsby, health and hygiene, family and bereavement material before reaching the clearest argument: Z.K had allegedly rapped for fourteen years without turning that experience into comparable visibility. The JDZ and birthday view-count comparison made reach the round's closing measure.\n\nAfter a sound restart, Z.K answered through CJ's Instagram reach, Gollum and other appearance jokes, CJ's GZone record, home-condition imagery, and a football run through Scholes, Gerrard, and Paolo Di Canio. He brought out a mini football to make the claim that he could volley CJ-Zino visible in the room. The first round established the battle's main contrast: CJ used blunt confrontation and personal pressure, while Z.K stacked visual comedy and recognisable references.\n\nThe middle rounds widened those approaches. CJ raised an unclear allegation about other people preparing Z.K's rounds, used “PC Robinson”, disputed the credibility behind Z.K's image, and closed through a partly unclear Roman-numeral and X sequence. Z.K began answering the season's picture tactic before it could control him, then used cheap food, clothes, CJ's previous results, football-kit imagery, and sustained appearance jokes to question CJ's status.\n\nCJ's third used the Peacock's boxing setting through gloves, sparring, kicks, knocks, and a crowd-facing “Pow” passage, but repeated mic and sound resets broke its progression. Z.K's final was the clearest rebuttal round: he answered the repeated Grimsby and GY pressure by saying CJ mentioned his home so often that he wanted to live there, contrasted the seaside with a London box house, then ran through Peter Parker, darts, Dwayne Carter, Keir Starmer, fish and tartar, Palmer, Pollock, teeth, and the anticipated-photo close.\n\nGinge checked both sides of the room before deferring the close result to the live YouTube audience. YouTube selected Z.K, and the official GZone record confirms him as the winner. The video gives no judge panel or round score. Z.K's sustained final run and stronger late adjustment left the cleaner last impression, while CJ's view-count argument and “Pow” participation kept the clash competitive. Serious personal accusations on both sides remain statements made in performance, not independently verified facts.",
+    "performanceAnalysis": [
+      {
+        "performer": "Z.K",
+        "overview": "Z.K remains a visual and reference-led writer, but this performance is more opponent-specific than his debut. Instagram reach, CJ's record, London versus GY, clothes, teeth, and the anticipated photograph all build from material attached either to CJ or to Z.K's previous GZone experience.\n\nHis opening uses quick images to resist CJ's direct aggression. Slipknot, TikTok, Gollum, Foster's, a cartoon character, Dixy Chicken, Nando's, Scholes, Gerrard, and Di Canio give the room frequent destinations even when the sound forces repetition.\n\nThe third is the clearest step forward. The location reversal supplies an argument before darts, Dwayne Carter, farmer, Starmer, tartar, Palmer, and Pollock create sustained movement. Ginge's interruption that Z.K had finally arrived and was an “encyclopedia of jokes” is the strongest explicit reaction preserved by the transcript.\n\nControl remains imperfect: Z.K needs multiple starts, repeats long passages, and sometimes extends sound chains beyond their clearest meaning. Some severe personal material also competes with the cleaner visual writing. He nevertheless produces the more memorable closing run and wins the official livestream-audience decision.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      },
+      {
+        "performer": "CJ-Zino",
+        "overview": "CJ performs through direct pressure, grime cadence, and confrontation. His first has the most coherent status argument: fourteen years becomes underachievement, and the view-count comparison gives the claim a measurable finish.\n\n“Mr Robinson”, Liverpool and Suarez, PC Robinson, GY, the gym, tea and mug language, and the Z.K and X material show attempts to tailor the writing beyond general hostility. His record rebuttal also makes the previous 1FLAYMAH decision part of the current battle.\n\nHis strongest performance device is the third-round “Pow” section. Repetition turns a straightforward threat sequence into crowd participation, while the boxing setting makes sparring, gloves, kicks, and punches locally relevant. “No more dropping the mic” also shows awareness of the live disruption.\n\nCJ's weakness is shape and clarity. Long allegation packages, harsh family and bereavement attacks, mic trouble, and repeated attempts at the final passage interrupt progression. He creates energy and several reactive moments but does not leave as complete a final written sequence as Z.K's third.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      }
+    ],
+    "props": [
+      {
+        "name": "Mini football used to demonstrate volleying CJ-Zino",
+        "user": "Z.K",
+        "icon": "⚽"
+      }
+    ]
+  },
+  "badee-harz-vs-1flaymr": {
+    "clashSummary": "Episode 24 brings Badee Harz back after her clash with Deeno and 1Flaymah back after his win over CJ-Zino. Their history is part of the writing from the start: the removed balaclava, Jamaican presentation, repeating hooks and fire identity are already familiar targets. The most important inherited material, though, is Deeno's comparison of Badee's deep voice to a 125cc motorbike in Episode 17 .\n\nBadee goes first and attacks the man beneath the image. The hospital bed that cannot fit his feet leads into six foot seven becoming six foot deep. The uncovered face and patois criticism revisit vulnerabilities already explored by Btizz and CJ. Flaymah answers with a different kind of organisation: repeated questions, a cooking-pot dismissal, snapback/cap wordplay and anticipated accusations, all built to return to recognisable rhythmic cues.\n\nRound two makes the disagreement about form explicit. Badee announces that Flaymah comes to the ring making tracks and now it is her turn. She demonstrates the hook-led style, then says hooks and tracks do not amount to bars and flows. Her son/childbirth image and repeating gunshot hook put her inside his musical approach while challenging its value as battle writing. Flaymah's reply combines repeatable openings with clearer individual constructions: football-net holes, two cancelled clashes becoming two lyrical killings, and the contract-killer finish.\n\nDeeno is present in the argument before the 125 returns by name. Flaymah's second round invokes no suction, addresses Deeno and calls the claim a lie. It answers Deeno's Episode 17 second-round inference from Badee's lips with an obscene claim of experience. The sexual, family, nationality and health accusations throughout this clash remain performance material; what matters here is how each battler redirects them.\n\nBadee's third is the clearest attempt to reclaim the old motorbike joke. She salutes Deeno, says she is taking this beat and accuses Flaymah of trying to bring him into the battle for the one-two-five. Deeno's original already joined the bike image to sexual riding wordplay; her answer redirects the sexual joke. If Flaymah were her man, she says, she would need that 125 because he could not satisfy her. She follows it with his flame never being as hot as hers and a reminder of the praise she attributes to him in the Btizz clash.\n\nFlaymah's last round refuses to let that end the routine. Badee getting ready to speak becomes a motorbike starting; he calls to Deeno, performs the voice comparison and returns to it near the close. The response preserves the audible caricature rather than supplying a detailed answer to her sexual reversal. Somebody/nobody/Badee repetition, the date-to-the-gym switch and a final Badee/body/body-bag chain give the impression a wider round to sit inside.\n\nThe finish makes the performance distinction unusually clear. The guest feedback praises Badee's confidence, wordplay and eye contact, but prefers Flaymah's creativity and sound effects, specifically mentioning the coughing. The hosts then run the room vote twice, asking more people to participate, and announce 1Flaymah as the winner. The existing official record agrees. No numerical round score is established by this transcript.",
+    "performanceAnalysis": [
+      {
+        "performer": "Badee Harz",
+        "overview": "Badee's strongest writing changes the direction of an existing idea. Six foot seven becomes six foot deep; Flaymah's heat becomes something hers can exceed; the old 125 routine becomes a taunt about his inadequacy. These moments need the opponent or the earlier battle to make full sense.\n\nHer second-round imitation is a deliberate formal response. Announcing my turn before the dancehall-style hook makes the switch part of her argument that he is producing tracks inside a battle. She then returns to hooks not bars in the third, so the critique has continuity across her turns.\n\nThe third is her most connected argument: her salute to Deeno and use of the beat, the alleged request for a cameo, the 125 flip, the hotter flame and the earlier compliment she invokes all challenge Flaymah's independence or consistency. The guest's praise for her eye contact and confidence supports the impression of someone willing to address him directly while delivering those lines.\n\nThe weakness is that the chosen imitation also exposes her to her own criticism. Repeated hooks, restarts and more general appearance or sexual insults can delay the next specific punch. The 125 reply is pointed, but it does not stop Flaymah from reviving the older vocal joke in the last turn.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      },
+      {
+        "performer": "1Flaymah",
+        "overview": "Flaymah builds his rounds around things the room can recognise quickly: a recurring question, a short slogan, a gunshot cue or an impression. Who told Badee to rap, the Scott-or-Paddy opening and somebody/nobody each give a long turn a repeatable entry point.\n\nThere is connected punchline writing inside that repetition. Snapback/cap, the football net, the two-cancellations/two-killings line, the gym-date reversal and meat/buns/Whopper all make their setup pay off within one image. The final body-bag sequence keeps the opponent's name central to the close.\n\nHis strongest use of history is performative. He can disagree with Deeno's no-suction claim in one round and recruit Deeno's motorbike caricature in the next. After Badee tries to reclaim the 125, Flaymah makes the original idea audible again. The guest explicitly credits creativity, sound effects and coughing when choosing him.\n\nThe trade-off is repeated setup and reliance on sexual humiliation, body insults and stereotypes. Those passages are not evidence about Badee's life, and some rehearse the same premise without a new turn. His recorded win comes with specific praise for performance; it does not require claiming that every line was more intricate or every round was decisively his.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      }
+    ]
+  },
+  "deeno-vs-cj-zino": {
+    "clashSummary": "Episode 25 delivers a highly personal and intense grudge match between Deeno \"The Viking\" and CJ Zino. Both MCs brought extreme disrespect, but the clash is ultimately defined by Deeno's calculated dismantlement of CJ's credibility, culminating in a unanimous victory.\n\nCJ Zino opened with aggressive attacks on Deeno's weight and appearance, deploying unverified shock allegations and attempting to weaponize Deeno's past defeat by threatening to produce a lemon prop—a direct callback to TymeLess. Deeno answered with a structured A-to-F alphabet scheme, dismissing CJ as an \"annoying little cunt\" who would never win in G-Zone.\n\nThe tone darkened drastically in round two. After CJ brought out a jar of marmalade to mock Deeno, spelled out P-A-S-S-I-V-E, and threw strays at 7wxve in the crowd, Deeno pivoted to a brutal angle about CJ having cancer as a baby. He used the illness to argue that CJ only receives \"special treatment\" and followed up by meticulously listing CJ's recent losses to 1FLAYMAH and Z.K.\n\nRound three descended into chaos. CJ Zino targeted Deeno's partner with sexually explicit bars, prompting Deeno to break character and interrupt the battle, calling CJ out for disrespecting his partner while she was physically standing in the room. Deeno then closed the battle emphatically, doubling down on the cancer angle and delivering a fatal blow: accusing CJ of using 'HM' as a ghostwriter. The combination of shock value, factual record-checking, and the authorship accusation secured Deeno a unanimous decision from both the hosts and the room.",
+    "performanceAnalysis": [
+      {
+        "performer": "CJ Zino",
+        "overview": "CJ Zino relied heavily on shock value, props, and crowd interaction. Threatening to bring back the lemon prop was a smart psychological tactic intended to rattle Deeno by reminding him of a past defeat, and actually producing the marmalade prop established his visual-heavy attack. His decision to call out 7wxve mid-round showed his willingness to play the villain against the entire room.\n\nHowever, CJ's reliance on unverified shock material about Deeno's partner backfired when it led to a real-world confrontation. Furthermore, he struggled to defend himself against Deeno's factual attacks regarding his losing streak and the devastating ghostwriting accusation at the end of the battle.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      },
+      {
+        "performer": "Deeno",
+        "overview": "Deeno delivered a masterclass in dismantling an opponent's credibility. He bypassed basic insults and instead weaponized CJ's real life: his childhood illness, his documented losing streak, and his behind-the-scenes writing process.\n\nBy framing the cancer angle as the only reason CJ gets \"special treatment\" and then revealing the ghostwriting allegation, Deeno effectively stripped CJ of any authenticity. The live interruption to defend his partner also showcased Deeno's commanding presence and refusal to let disrespect slide in his own arena, cementing a definitive, unanimous victory.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      }
+    ],
+    "props": [
+      {
+        "name": "A jar of Marmalade",
+        "user": "CJ Zino",
+        "icon": "🍯"
+      }
+    ]
+  },
+  "7wxve-vs-z-k": {
+    "clashSummary": "In Episode 26, we put GZone newcomer 7wxve against Z.K in a clash built around personal research, local identity, online footage, and claims from earlier battles. Z.K takes the first turn and tries to establish control through recognisable images and a large volume of alleged background detail. 7wxve answers with denser rhyme pockets and direct confrontation.\n\nThe opening is heavily affected by sound. Z.K begins his material, stops, restarts, and later delivers the same opening again after the beat is lowered and the microphone is raised. Once the passage settles, he moves through Skegness and Sheffield, build and posture jokes, finances, alleged living conditions, Ryno and Richie, and a short Dementor comparison. The repetition is technical recovery inside one round, not three separate attempts to score the same material.\n\n7wxve's first is more compressed. Zack becomes the anchor for cat, back, dash, fact, rat, gaff, clash, and related sounds. He attacks Z.K's credibility, appearance, teeth, home life, and alleged online conduct before moving into a Vapormax and Jason-mask sequence. The performance has forward motion, and we treat the harshest allegations as battle claims rather than verified facts.\n\nZ.K's second is his clearest complete round. He uses alleged earlier footage of 7wxve rapping into a microphone stand, asks him to remove his hat, and repeats the K from Another Hood comparison. Work, smell, the bedroom, handbags, prior battles, relationships, and the repeated local-victim label keep the round focused on a portrait of someone whose online aggression does not match his standing in person.\n\n7wxve begins his next turn with the battle's clearest direct response. After Z.K has repeated the handbag allegation, he says he has never robbed women and starts to explain what happened. The explanation does not develop into a full round: he loses the material during a Preston and Zack sequence and calls time.\n\nZ.K closes with another long personal round. Olympic and answer language leads into money, work, body odour, police, travel, caravan, online-account, prior-platform, and old-lady allegations. YouTube, beats, Skegness, GY, Jet Li, test me, watched MC, technique, and don't stress me give the finish its strongest sound chain.\n\nThe crowd awarded Z.K the win. His greater volume, stronger completion, and ability to recover from the early sound problems gave him the clearer overall performance.",
+    "performanceAnalysis": [
+      {
+        "performer": "Z.K",
+        "overview": "Z.K's main strength is persistence and volume. He survives multiple sound-related restarts, rebuilds the opening from the beginning, and still completes three substantial turns. That recovery matters because the technical interruptions could easily have ended the first round before its researched material became clear.\n\nHis strongest writing creates immediate pictures: stick insect, Kim K and Cat Slater, Dementor, microphone stands, K from Another Hood, caravan travel, Jet Li, and the closing watched-MC sequence. These images are easier to retain than the long allegation lists surrounding them.\n\nThe main weakness is excess. Severe personal claims, repeated passages, and long strings of alleged background information often compete with the cleaner visual jokes. We treat those claims as performance material rather than verified facts.\n\nThe crowd awarded Z.K the win after he completed more, supplied the clearer recurring images, and produced the stronger finish.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      },
+      {
+        "performer": "7wxve",
+        "overview": "7wxve's first round shows the outline of a direct, rhyme-led style. Zack supplies a stable sound for an extended sequence, while the references to GY, Ginga Jay, the Turkish market, Vapormax, and Jason keep parts of the writing attached to Z.K and the room.\n\nHis best strategic moment is the immediate handbag response. Rather than letting the accusation remain unanswered, he says he has never robbed women and tries to give an account. We treat both the accusation and response as battle material.\n\nControl is the decisive problem. The first requires a restart and the second ends after only a short attempted explanation, preventing several potentially strong rhyme pockets from fully developing.\n\nWe saw flashes of pace and directness, but they did not develop into a complete case strong enough to overcome Z.K's greater volume and control.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      }
+    ],
+    "props": [
+      {
+        "name": "Pink handbag",
+        "user": "7wxve",
+        "icon": "👜"
+      }
+    ]
+  },
+  "badee-harz-vs-roman": {
+    "clashSummary": "The highly anticipated grudge match between Roman and Badee Harz delivered one of the most intense, aggressive, and boundary-pushing battles of the season. Originally booked as a 2v1 handicap match featuring 1 Flaymah, Roman entered the ring alone against Badee Harz to settle their differences in a clash characterized by heavy personal disrespect and contrasting styles.\n\nRoman opened the battle with a relentless, fast-paced flow. He immediately targeted Badee Harz's appearance, hygiene, and credibility, weaving intricate multis and dark humor. By addressing his own controversies head-on, Roman established a dominant, veteran presence in the room.\n\nBadee Harz responded by abandoning traditional angles in favor of extreme shock value. She repeatedly attacked Roman's alleged addictions and delivered some of the darkest material seen in the GZone, explicitly disrespecting his deceased partner and family. The sheer disrespect shifted the energy of the room, forcing the audience to react to the raw hostility of her rounds.\n\nIn his second round, Roman addressed the original 2v1 booking, using 1 Flaymah's absence to further belittle Badee Harz. He showcased his experience by controlling his pacing, delivering a rapid sequence of weight jokes, and maintaining his commanding stage presence despite the personal nature of Badee's attacks.\n\nBadee Harz closed her performance by doubling down on the shock tactics, questioning Roman's legacy in the UK battle scene and challenging his status as a veteran. However, Roman's superior flow, structured writing, and undeniable stage presence proved too much to overcome.\n\nThe official decision awarded the victory to Roman, whose technical ability and crowd control triumphed over Badee Harz's heavy reliance on shock value and personal disrespect.\n\nTrojan Condom\n\nUsed by Badee Harz",
+    "performanceAnalysis": [
+      {
+        "performer": "Roman",
+        "overview": "Roman demonstrated exactly why he is considered a veteran of the scene. His breath control, rapid delivery, and ability to weave intricate multis gave his rounds a highly polished feel.\n\nHis strongest moments came when he addressed the meta-narrative of the battle, such as the rumors surrounding him and the fact that his opponents backed out of the 2v1 setup. This made him look fearless and in complete control of the narrative.\n\nBy absorbing Badee Harz's extremely personal attacks without losing composure, Roman proved his resilience and maintained his dominant energy from start to finish.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      },
+      {
+        "performer": "Badee Harz",
+        "overview": "Badee Harz opted for a high-risk strategy based entirely on shock value and boundary-crossing disrespect. Her willingness to attack Roman's deceased partner and family created incredibly tense moments in the room.\n\nWhile the shock tactics guaranteed a reaction, they often overshadowed her actual rapping ability. The reliance on purely offensive material meant that when the shock wore off, the rounds lacked the structural depth to compete with Roman's writing.\n\nDespite the loss, Badee Harz established herself as an unpredictable and fearless opponent willing to go anywhere to secure a reaction.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      }
+    ],
+    "props": [
+      {
+        "name": "Trojan Condom",
+        "user": "Badee Harz",
+        "icon": "🛡️"
+      }
+    ]
+  },
+  "1flaymr-vs-z-k": {
+    "clashSummary": "Z.K and 1Flaymah opened the night at Peacocks Boxing with a clash of two recognisable approaches: Grimsby grime, visual jokes and a point to prove on one side; dancehall delivery, repeated hooks and theatrical aggression on the other. Z.K went first and framed the booking as his chance to make it three wins in a row. Flaymah met that confidence with fully-flame, fully-active energy and made the crowd part of his rounds from the start.\n\nZ.K's opening builds a weekly timetable of insults before moving through Ladbrokes, bingo and the Jackson 5. The Tito comparison is a quick, recognisable picture; his scaffolding lines then switch from mocking Flaymah to explaining his own working identity. He says YouTube viewers thought he beat Natty and presents himself as unbeaten. That is Z.K arguing his own standing inside the clash. A pull-up brings the opening back before he adds further appearance jokes and challenges the value of Flaymah's earlier win over CJ.\n\nFlaymah immediately makes the exchange more personal. His opening care-home and foster-family wordplay prompts a stop and a restart, followed by an attack built around a photograph he describes of Z.K beside a naked man. From there, GY becomes a spelling joke and an order to go back to Grimsby. The round's clearest extended construction moves through ABC, D, BP and E before reaching Muhammad Ali's butterfly-and-bee phrase. Several pull-ups return him to the same opening, with the host explicitly calling out the number of reloads.\n\nZ.K's second begins with a beat-level adjustment before the Uncle Delroy setup leads into Anakin and the Primark mannequin comparison. Film, television and gaming references keep changing the picture: Scary Movie, Shorty and Roblox sit alongside age and appearance attacks. The mutton-and-rice versus nothing-was-nice couplet interrupts the jokes with a compact contrast in upbringing. Later, Z.K recalls Flaymah stamping on a picture in an earlier clash and losing a shoe, then attacks the tie and balaclava as parts of his opponent's presentation.\n\nFlaymah answers with a repeated question about why Z.K raps and talks that way. Punch, snooze and booze give the opening a simple sound pattern; the Bruno Fernandes comparison supplies the round's most immediate repeatable joke. He then insists he will win using his own flow, refusing to rap or act like the others. The fake-yardman challenge turns the clash toward authenticity before Zack and Robinson become the material for his closing name attack.\n\nIn the final exchange, Z.K changes the rhythmic approach and announces classic Grimsby flows. Video, Grimsby flows, stinky flow and Pinkies keep the opening connected by sound, while Krabby Patties gives the later stretch another cartoon image. Flaymah closes by turning Z.K into zombie killer, moving through Bambi, brandy and family insults before the repeated pull-it refrain takes over. His sound effects and movements draw a joking interruption from the host; the final passage briefly calls Z.K a nice guy before returning to the exaggerated lyrical attack and a goodbye to GY.\n\nBoth MCs completed all three rounds. Z.K supplied a steady run of visual comparisons, local pride and reminders of earlier clashes; Flaymah made his slogans, name flips and repeated passages into a larger performance. At the close, the host checked support for Z.K in the blue corner and Flaymah in the red corner, then announced 1Flaymah as the winner. The decision belongs to the audience vote, without a stated round-by-round score.",
+    "performanceAnalysis": [
+      {
+        "performer": "Z.K",
+        "overview": "Z.K's strongest writing gives the listener a picture quickly. Tito, the Primark mannequin, Shorty, Roblox and Krabby Patties all make the target recognisable without a long explanation. The weekly opening gives the first round a clear structure, and the mutton-and-rice couplet compresses opponent attack and self-description into two connected lines.\n\nHis identity is consistent across the rounds. Scaffolding, coming from the mud, Grimsby and the final flow change give the jokes a speaker with a specific background. He also makes earlier battles part of the argument: his own Natty reception, Flaymah's CJ win and the remembered flying shoe each become ways to question who deserves the stronger standing.\n\nHe completes three substantial turns and resumes after the sound adjustment. The limitation is that the references sometimes arrive as a list, with severe personal allegations and generic sexual insults interrupting the clearer ideas. His third-round change supplies variety, but the strongest individual comparisons do not become one sustained argument across the whole battle.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      },
+      {
+        "performer": "1Flaymah",
+        "overview": "Flaymah gives each round a recognisable way back in. Fully flame, fully active, the repeated opening, why you rap like that and the pull-it refrain all work as performance cues. His Jamaican phrasing and dancehall rhythm make repetition part of the delivery rather than simply another list of jokes.\n\nThere is connected writing inside that performance. The alphabet sequence links letter sounds and abbreviations, the Fernandes joke repeats the same comparison across two partners, and the final turn makes Z.K's name the setup for zombie killer. Cranberry and Cadbury provide another short sound-and-image connection before the refrain returns.\n\nHis weaker passages lean on family insults, stereotypes and broad threat language, while frequent returns to the opening delay fresh material. The host's interruptions and comments show how much the performance draws the room into the exchange, but a reload is not a round score. The final crowd decision awards him the win without establishing that every individual round or punch went his way.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      }
+    ]
+  },
+  "tymeless-vs-kime": {
+    "clashSummary": "Tymeless versus K.I.M.E brings two distinct approaches into the main event: K.I.M.E's direct character attacks and compact name flips against Tymeless's impersonation, extended teaching routine and physical props. K.I.M.E goes first in each of the three rounds, with Tymeless answering through a performance built around height, pronunciation and identity.\n\nK.I.M.E begins by presenting Tymeless as dependent on others, with the borrowed-time line linking that portrayal to his name. Tymeless replies with a comic impression and repeated scale comparisons. Their second rounds develop the contrast: K.I.M.E keeps his pressure on money and credibility, while Tymeless builds a classroom around vowel sounds, initials, educational titles and a lime.\n\nThe final round becomes much more personal on both sides. K.I.M.E champions straight bars over props; Tymeless turns towards family and Manchester identity before broadening his challenge to the scene. Claims about private lives, health, crime and family are allegations and insults within the battle, not verified facts. The positive reloads amplify the material as part of each complete round.\n\nGinga Jay asks the audience to respond for K.I.M.E in the blue corner and Tymeless in the red corner, then announces Tymeless as the winner. No numerical round score is given. The closing announcement also welcomes K.I.M.E onto the GZone roster.\n\nFake Beard\n\nUsed by Tymeless\n\nTymeless Lime\n\nUsed by Tymeless\n\nKey Stage 2 English Revision Sheets\n\nUsed by Tymeless\n\nK.I.M.E baby shoes\n\nUsed by Tymeless\n\nKey Stage 2 Mathematics Sheet\n\nUsed by Tymeless\n\nK.I.M.E Sheet\n\nUsed by Tymeless",
+    "performanceAnalysis": [
+      {
+        "performer": "K.I.M.E",
+        "overview": "K.I.M.E's strongest writing compresses an angle into a short, recognisable turn. Borrowed time attaches financial dependency to the opponent's name; typo reduces that name to a mistake; the suspicious bank payment makes poverty the setup for an institutional reaction. Those punches are easy to follow without needing a physical reveal.\n\nHe sustains a consistent character attack across three rounds and gives his performance a clear position when he champions straight bars over props. The seashells and lemons passages also show that his material engages with Tymeless's presentation. His less distinctive attacks repeat allegations about poverty, addiction and family; the sharper name flips and comparisons do more technical work than those accusations alone.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      },
+      {
+        "performer": "Tymeless",
+        "overview": "Tymeless's most complete construction is the second-round lesson. Pronunciation, spelling, initials and school language develop one idea through several forms. The physical lime lets the audience see the word being discussed, while the teaching commands place K.I.M.E inside the role Tymeless has written for him.\n\nHis first-round impersonation and repeated height comparisons establish the comic relationship that the classroom expands. The final round changes the temperature with much harsher personals, but 'our kid' and the standing/ducking image retain the opponent-specific wordplay. The audience decision goes to Tymeless; his props and sustained routines are central features of the performance, without needing to invent a numerical round score.",
+        "lyricalThemes": "",
+        "keyTechnicalHighlights": []
+      }
+    ],
+    "props": [
+      {
+        "name": "Fake Beard",
+        "user": "Tymeless",
+        "icon": "🧔"
+      },
+      {
+        "name": "Tymeless Lime",
+        "user": "Tymeless",
+        "icon": "🍋‍🟩"
+      },
+      {
+        "name": "Key Stage 2 English Revision Sheets",
+        "user": "Tymeless",
+        "icon": "📋"
+      },
+      {
+        "name": "K.I.M.E baby shoes",
+        "user": "Tymeless",
+        "icon": "👟"
+      },
+      {
+        "name": "Key Stage 2 Mathematics Sheet",
+        "user": "Tymeless",
+        "icon": "📋"
+      },
+      {
+        "name": "K.I.M.E Sheet",
+        "user": "Tymeless",
+        "icon": "📋"
+      }
+    ]
   }
 } satisfies Record<string, GzoneClashRecord>;

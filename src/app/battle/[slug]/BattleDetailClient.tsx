@@ -101,14 +101,20 @@ export default function BattleDetailClient({
 
               {battle.isUnreleased && (
                 <div className="flex justify-center mb-8">
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand/10 text-brand border border-brand/20 font-bold uppercase tracking-[0.2em] text-xs">
-                    <Clock size={16} /> Unreleased Battle
+                  <div className="text-brand font-bold uppercase tracking-[0.2em] text-xs">
+                    Unreleased Battle
                   </div>
                 </div>
               )}
               
               <div className="aspect-video bg-zinc-900 rounded-3xl border border-white/10 overflow-hidden relative group">
-                {videoEmbedUrl ? (
+                {battle.membersOnly ? (
+                  <div className="flex h-full flex-col items-center justify-center gap-4 p-6 text-center">
+                    <h2 className="font-display text-2xl italic uppercase">Members-only recording</h2>
+                    <p className="text-sm text-zinc-400">This video requires a PenGame YouTube channel membership.</p>
+                    <a href={battle.videoUrl ?? undefined} target="_blank" rel="noopener noreferrer" className="font-semibold text-brand hover:underline">Watch on YouTube</a>
+                  </div>
+                ) : videoEmbedUrl ? (
                   <YouTubeFacade videoId={videoId} title={battle.title} />
                 ) : (
                   <div className="w-full h-full flex flex-col items-center justify-center bg-zinc-900 relative">
@@ -268,11 +274,13 @@ export default function BattleDetailClient({
                     {battle.performanceAnalysis.map((analysis) => (
                       <article key={analysis.performer} className="bg-zinc-950/50 border border-white/5 rounded-2xl p-6">
                         <h4 className="text-lg font-display italic uppercase text-brand mb-4">{analysis.performer}</h4>
-                        <p className="text-zinc-300 leading-relaxed font-light mb-4">{analysis.overview}</p>
-                        <p className="text-zinc-300 leading-relaxed font-light">
+                        {analysis.overview.split(/\n\n+/).map((paragraph, index) => (
+                          <p key={index} className="text-zinc-300 leading-relaxed font-light mb-4">{paragraph}</p>
+                        ))}
+                        {analysis.lyricalThemes && <p className="text-zinc-300 leading-relaxed font-light">
                           <span className="text-white font-bold">Lyrical Themes: </span>
                           {analysis.lyricalThemes}
-                        </p>
+                        </p>}
                       </article>
                     ))}
                   </div>
@@ -645,7 +653,7 @@ export default function BattleDetailClient({
               <div className="space-y-4">
                 <div className="flex justify-between items-center py-3 border-b border-white/5">
                   <span className="text-zinc-400 text-xs uppercase tracking-widest">Date</span>
-                  <span className="text-zinc-100 font-bold">{formatBattleDate(battle.date)}</span>
+                  <span className="text-zinc-100 font-bold">{formatBattleDate(battle.date)}{battle.dateType === "upload" ? " · YouTube upload" : ""}</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-white/5">
                   <span className="text-zinc-400 text-xs uppercase tracking-widest">Views</span>

@@ -1,4 +1,4 @@
-import { ChevronRight, ShieldCheck, Trophy } from "lucide-react";
+import { ChevronRight, Trophy } from "lucide-react";
 import Link from "next/link";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
@@ -21,9 +21,6 @@ export default function LotaLeagueSpotlight() {
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-10">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-3 py-1 text-[10px] font-black uppercase tracking-[0.24em] text-brand">
-            <ShieldCheck size={14} /> Official combined standings
-          </div>
           <h2 className="font-display text-4xl italic uppercase leading-none text-white sm:text-5xl lg:text-[3.25rem] xl:text-6xl">
             Lord of the Archives <span className="text-brand">League Table</span>
           </h2>
@@ -60,8 +57,8 @@ export default function LotaLeagueSpotlight() {
                   {mc.rank}
                 </div>
                 {mc.rank === 1 && (
-                  <div className="absolute right-5 top-5 flex items-center gap-2 rounded-full bg-brand px-3 py-2 text-[9px] font-black uppercase tracking-[0.16em] text-black">
-                    <Trophy size={13} /> League leader
+                  <div className="absolute right-5 top-5 text-[9px] font-black uppercase tracking-[0.16em] text-brand">
+                    League leader
                   </div>
                 )}
                 <div className="absolute inset-x-0 bottom-0 p-6">

@@ -12,6 +12,7 @@ const NON_MONETIZED_ROUTES = new Set([
   "/property",
   "/sources",
   "/terms",
+  "/talk-is-cheap",
 ]);
 
 export default function AdSenseScript() {

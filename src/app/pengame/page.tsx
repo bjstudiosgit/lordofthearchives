@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import BattleRow from "../talk-is-cheap/BattleRow";
 import {
   getBattleRouteHref,
   hasBattleArchiveData,
@@ -7,13 +8,12 @@ import {
   lastUpdated,
   getRepeatClashNumber,
 } from "../../data/pengameBattles";
-import type { Battle } from "../../data/battleTypes";
+import { hasBattlePage, type Battle } from "../../data/battleTypes";
 import { pengameMcs } from "../../data/mcs";
 import { formatBattleDate, parseBattleDate } from "../../data/battleDates";
 import { formatViewCount } from "../../data/viewCounts";
 import Link from "next/link";
-import { motion } from "motion/react";
-import { CheckCircle2, Play, Eye, Calendar, Trophy } from "lucide-react";
+import { Play, Eye, Calendar, Trophy } from "lucide-react";
 
 const seasonDisplayOrder: Record<string, number> = {
   "Champions League": 11,
@@ -451,6 +451,7 @@ export default function PengamePage() {
                               ? `25x${String(index + 1).padStart(2, "0")}`
                             : battle.customEp || getFallbackEpisodeLabel(season, index);
                       const analysisComplete = hasBattleArchiveData(battle);
+                      const pageAvailable = hasBattlePage(battle);
 
                       return (
                         <React.Fragment key={battle.id}>
@@ -461,15 +462,9 @@ export default function PengamePage() {
                               </th>
                             </tr>
                           )}
-                          <motion.tr 
-                            initial={{ opacity: 0, y: 10 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ delay: index * 0.05 }}
-                            viewport={{ once: true }}
-                            className="group hover:bg-white/5 transition-all duration-300"
-                          >
+                          <BattleRow href={pageAvailable ? getBattleRouteHref(battle) : battle.videoUrl ?? undefined} animatedIndex={index}>
                             <td className="px-2 py-3 md:px-6 md:py-6">
-                              {analysisComplete ? (
+                              {pageAvailable ? (
                                 <Link href={getBattleRouteHref(battle)} className="font-mono text-brand text-[10px] md:text-sm hover:underline" aria-label={`Episode ${episodeLabel} details`}>
                                   {episodeLabel}
                                 </Link>
@@ -495,7 +490,7 @@ export default function PengamePage() {
                                       </>
                                     )}
                                   </span>
-                                  {analysisComplete ? (
+                                  {pageAvailable ? (
                                     <Link href={getBattleRouteHref(battle)} className="text-zinc-400 text-[10px] md:text-sm hover:text-brand transition-colors" aria-label={`Read ${mc1?.name || battle.mc1} vs ${mc2?.name || battle.mc2} analysis`}>VS</Link>
                                   ) : (
                                     <span className="text-[10px] text-zinc-600 md:text-sm" title="Analysis pending editorial review">VS</span>
@@ -528,6 +523,7 @@ export default function PengamePage() {
                               <div className="flex items-center gap-2 text-zinc-400 text-xs">
                                 <Calendar size={14} className="opacity-50" />
                                 {battle.isUnreleased ? "In production" : formatBattleDate(battle.date)}
+                                {battle.dateType === "upload" && <span className="text-zinc-500">Upload</span>}
                               </div>
                             </td>
                             <td className="hidden md:table-cell px-2 py-3 md:px-6 md:py-6">
@@ -537,18 +533,17 @@ export default function PengamePage() {
                               </div>
                             </td>
                             <td className="px-2 py-3 md:px-6 md:py-6 text-right md:text-left">
-                              <span className={`inline-flex items-center gap-1.5 px-2 py-0.5 md:px-3 md:py-1 rounded-full text-[8px] md:text-[10px] font-semibold tracking-wide ${
+                              <span className={`text-xs md:text-sm font-semibold tracking-wide ${
                                 hasBattleArchiveData(battle)
-                                  ? "bg-emerald-400/15 text-emerald-300 border border-emerald-300/40 shadow-[0_0_18px_rgba(52,211,153,0.12)]"
+                                  ? "text-emerald-300"
                                   : battle.videoUrl
-                                    ? "bg-brand/10 text-brand border border-brand/20"
-                                    : "bg-zinc-800 text-zinc-400 border border-white/5"
+                                    ? "text-brand"
+                                    : "text-zinc-400"
                               }`}>
-                                {analysisComplete && <CheckCircle2 size={12} />}
-                                {analysisComplete ? "Archived" : "Catalogued"}
+                                {battle.membersOnly ? "Members only" : analysisComplete ? "Archived" : "Catalogued"}
                               </span>
                             </td>
-                          </motion.tr>
+                          </BattleRow>
                         </React.Fragment>
                       );
                     })}

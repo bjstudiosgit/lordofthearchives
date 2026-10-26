@@ -3,7 +3,7 @@ import React, { useState, useMemo } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import McImage from "../../components/McImage";
-import { allMcs } from "../../data/mcs";
+import { allProfileMcs as allMcs, isCatalogueOnlyMc } from "../../data/archiveMcProfiles";
 import { 
   Search, 
   Filter, 
@@ -137,7 +137,7 @@ export default function MCIndex() {
                     </div>
                     <div className="text-right">
                       <div className="text-brand font-display italic text-xl leading-none">
-                        {mc.wins}-{mc.losses}
+                        {isCatalogueOnlyMc(mc.id) ? "Unreviewed" : `${mc.wins}-${mc.losses}`}
                       </div>
                       <p className="text-[8px] text-zinc-500 font-bold uppercase tracking-widest">Record</p>
                     </div>
@@ -150,7 +150,7 @@ export default function MCIndex() {
                         <div className="text-[8px] text-zinc-500 font-bold uppercase tracking-widest">Battles</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-zinc-300 font-mono text-xs font-bold">{mc.wins * 3}</div>
+                        <div className="text-zinc-300 font-mono text-xs font-bold">{isCatalogueOnlyMc(mc.id) ? "—" : mc.wins * 3}</div>
                         <div className="text-[8px] text-zinc-500 font-bold uppercase tracking-widest">Points</div>
                       </div>
                     </div>

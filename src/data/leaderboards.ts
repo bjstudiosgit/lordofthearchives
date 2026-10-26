@@ -3,6 +3,7 @@ import { gzoneBattles } from "./gzone";
 import { allMcs, type MC } from "./mcs";
 import { pengameBattles } from "./pengameBattles";
 import { parseViewCount } from "./viewCounts";
+import { allProfileMcs, archiveMcBattles, getArchiveMcId } from "./archiveMcProfiles";
 
 export interface PeopleChampionStanding extends MC {
   battleCount: number;
@@ -84,8 +85,26 @@ export const getPeopleChampionStandings = (): PeopleChampionStanding[] => {
     .map((mc, index) => ({ ...mc, rank: index + 1 }));
 };
 
-export const getLotaLeagueStandings = () =>
-  [...allMcs]
+export const getLotaLeagueStandings = (league?: "prizefighter") => {
+  const standings = new Map((league ? [] : allMcs).map((mc) => [mc.id, { ...mc }]));
+  for (const battle of archiveMcBattles.filter((battle) => battle.id.startsWith("pf-") || (!league && battle.id.startsWith("tic-")))) {
+    const winner = "winner" in battle && typeof battle.winner === "string"
+      ? getArchiveMcId(battle.winner) : undefined;
+    for (const id of battle.participants) {
+      if (!standings.has(id)) {
+        const profile = allProfileMcs.find((mc) => mc.id === id)!;
+        standings.set(id, { ...profile, battles: 0, wins: 0, losses: 0, scoredBattles: 0 });
+      }
+      const mc = standings.get(id)!;
+      mc.battles += 1;
+      if (winner && battle.participants.includes(winner)) {
+        if (id === winner) mc.wins += 1;
+        else mc.losses += 1;
+        mc.scoredBattles += 1;
+      }
+    }
+  }
+  return [...standings.values()]
     .sort((a, b) =>
       b.wins - a.wins ||
       a.losses - b.losses ||
@@ -93,3 +112,4 @@ export const getLotaLeagueStandings = () =>
       a.name.localeCompare(b.name),
     )
     .map((mc, index) => ({ ...mc, points: mc.wins * 3, rank: index + 1 }));
+};

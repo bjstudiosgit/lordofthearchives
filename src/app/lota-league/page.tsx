@@ -54,7 +54,7 @@ export default function LotaLeaguePage() {
               <span className="text-brand">League</span>
             </h1>
             <p className="mt-4 max-w-xl text-sm leading-relaxed text-zinc-400 md:mt-6 md:text-lg">
-              Combined leaderboard for PenGame and Gzone battlers. Scoring: 3 points for a win.
+              Combined leaderboard for PenGame, Gzone, Talk Is Cheap and Prizefighter battlers. Scoring: 3 points for a recorded win. Unrecorded results count towards appearances only.
             </p>
           </div>
 
@@ -121,10 +121,10 @@ export default function LotaLeaguePage() {
                 key={option.value}
                 type="button"
                 onClick={() => setSortMode(option.value as SortMode)}
-                className={`rounded-full border px-3 py-1 text-[10px] font-black uppercase tracking-[0.2em] transition-colors ${
+                className={`py-1 text-xs font-black uppercase tracking-[0.2em] transition-colors ${
                   sortMode === option.value
-                    ? "border-brand bg-brand/10 text-brand"
-                    : "border-white/10 bg-zinc-900/60 text-zinc-400 hover:border-white/20 hover:text-white"
+                    ? "text-brand underline underline-offset-4"
+                    : "text-zinc-400 hover:text-white"
                 }`}
               >
                 {option.label}

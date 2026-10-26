@@ -10,7 +10,7 @@ import {
 import { gzoneBattles } from "../../../data/gzone";
 import { lordOfTheMicsBattles } from "../../../data/lordOfTheMics";
 import { allMcs } from "../../../data/mcs";
-import { hasCompletedBattleAnalysis } from "../../../data/battleTypes";
+import { hasBattlePage } from "../../../data/battleTypes";
 import { getBattleMetaDescription } from "../../../data/battleDescriptions";
 import videoMetadataJson from "../../../data/videoMetadata.json";
 import BattleDetailClient from "./BattleDetailClient";
@@ -53,7 +53,7 @@ export async function generateStaticParams() {
   const routeSlugs = new Set<string>();
 
   [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles].forEach((battle) => {
-    if (hasCompletedBattleAnalysis(battle)) {
+    if (hasBattlePage(battle)) {
       routeSlugs.add(getBattlePageStem(battle));
     }
   });
@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await Promise.resolve(params);
   const battle = findBattleByRouteSlug(resolvedParams.slug, [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles]);
   
-  if (!battle || !hasCompletedBattleAnalysis(battle)) {
+  if (!battle || !hasBattlePage(battle)) {
     return { title: 'Battle Not Found' };
   }
   
@@ -116,7 +116,7 @@ export default async function BattlePage({ params }: Props) {
   const resolvedParams = await Promise.resolve(params);
   const battle = findBattleByRouteSlug(resolvedParams.slug, [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles]);
   
-  if (!battle || !hasCompletedBattleAnalysis(battle)) {
+  if (!battle || !hasBattlePage(battle)) {
     notFound();
   }
 
