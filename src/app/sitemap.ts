@@ -28,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   };
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/`, lastModified: new Date("2026-10-31"), changeFrequency: "daily", priority: 1 },
+    { url: `${SITE_URL}/`, lastModified: new Date("2026-11-01"), changeFrequency: "daily", priority: 1 },
     { url: `${SITE_URL}/pengame`, lastModified: new Date("2026-10-26"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/league`, lastModified: new Date("2026-10-31"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/gzone`, lastModified: new Date("2026-10-31"), changeFrequency: "daily", priority: 0.9 },
@@ -41,8 +41,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/king-of-the-ronalds`, lastModified: new Date("2026-11-01"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/lota-league`, lastModified: new Date("2026-10-31"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/peoples-vote`, lastModified: new Date("2026-10-31"), changeFrequency: "daily", priority: 0.9 },
-    { url: `${SITE_URL}/mcs`, lastModified: new Date("2026-10-31"), changeFrequency: "daily", priority: 0.9 },
+    { url: `${SITE_URL}/mcs`, lastModified: new Date("2026-11-01"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/hosts-judges`, lastModified: new Date("2026-08-20"), changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/property`, lastModified: new Date("2026-11-01"), changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/news`, lastModified: new Date("2026-11-01"), changeFrequency: "daily", priority: 0.8 },
     { url: `${SITE_URL}/news/top-10-most-viewed-uk-rap-battles`, lastModified: new Date("2026-11-01"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/news/history-of-king-of-the-ronalds`, lastModified: new Date("2026-11-01"), changeFrequency: "weekly", priority: 0.8 },
@@ -105,7 +106,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     return {
       url: `${SITE_URL}/mc/${mc.slug}`,
-      lastModified: getLastModified(latestBattle?.date) || new Date("2026-10-31"),
+      lastModified: getLastModified(latestBattle?.date) || new Date("2026-11-01"),
       changeFrequency: "weekly",
       priority: 0.7,
     };
