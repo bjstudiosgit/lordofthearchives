@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Trophy, MapPin, Compass, Flame } from "lucide-react";
+import { ArrowUpRight, Trophy, MapPin, Compass, Flame, Calendar, Film } from "lucide-react";
 import { pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
 import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
@@ -7,6 +7,13 @@ import { prizefighterBattles } from "../data/prizefighter";
 import { talkIsCheapSeries } from "../data/talkIsCheap";
 import { clashMoneyBattles } from "../data/clashMoney";
 import { kingOfTheRonaldsBattles } from "../data/kingOfTheRonalds";
+
+interface MemoryMilestone {
+  year: string;
+  season: string;
+  battles: string;
+  note: string;
+}
 
 interface RoadStop {
   step: string;
@@ -21,6 +28,7 @@ interface RoadStop {
   href: string;
   leagueHref: string | null;
   status: string;
+  memoryMilestones: MemoryMilestone[];
 }
 
 const roadStops: RoadStop[] = [
@@ -38,6 +46,38 @@ const roadStops: RoadStop[] = [
     href: "/lord-of-the-mics",
     leagueHref: null,
     status: "The Genesis",
+    memoryMilestones: [
+      {
+        year: "2004",
+        season: "LOTM 1",
+        battles: "Wiley vs Kano • Ghetto vs Napper • Bruza vs Crazy Titch",
+        note: "Recorded in Jammer's East London basement. Hand-to-hand bootleg DVD release.",
+      },
+      {
+        year: "2006",
+        season: "LOTM 2",
+        battles: "Skepta vs Devilman • Bashy vs Demon • Big Narstie vs Scorcher",
+        note: "The nationwide DVD phenomenon. Skepta vs Devilman becomes an eternal cultural anthem.",
+      },
+      {
+        year: "2011",
+        season: "LOTM 3",
+        battles: "Kozzie vs Sox • Discarda vs Jaykae • Marger vs LayZ",
+        note: "The digital return of LOTM, launching a new generation of 140 BPM clashers.",
+      },
+      {
+        year: "2014",
+        season: "LOTM 6",
+        battles: "Big H vs P Money • Dialect vs Nat Powers",
+        note: "Live headline clash event at Islington Academy with massive crowd energy.",
+      },
+      {
+        year: "2015",
+        season: "LOTM 7",
+        battles: "Jammer vs Wiley • Lady Lykez vs Sox",
+        note: "10-year anniversary clash between founding fathers of the grime scene.",
+      },
+    ],
   },
   {
     step: "02",
@@ -53,6 +93,32 @@ const roadStops: RoadStop[] = [
     href: "/prizefighter",
     leagueHref: "/prizefighter/league",
     status: "Knockout Circuit",
+    memoryMilestones: [
+      {
+        year: "2011",
+        season: "Inaugural Cup",
+        battles: "8-Man Grime Knockout Bracket",
+        note: "High-tempo sudden-death tournament format clashing for official prize purses.",
+      },
+      {
+        year: "2014",
+        season: "Prizefighter 5",
+        battles: "F.O.S vs Iamone • Big Hypes vs Nitro Clack",
+        note: "Silk City Radio recording featuring high-velocity bracket rounds.",
+      },
+      {
+        year: "2015",
+        season: "Prizefighter 8",
+        battles: "Firedon vs Jay3 • Psolja vs RdoubleG",
+        note: "Radio audio tournament series with verified judging scorecards.",
+      },
+      {
+        year: "2024",
+        season: "Ozone Circuit",
+        battles: "Modern 140 BPM Tournament Return",
+        note: "Revival of the classic prizefighter tournament format with live points table.",
+      },
+    ],
   },
   {
     step: "03",
@@ -68,6 +134,32 @@ const roadStops: RoadStop[] = [
     href: "/king-of-the-ronalds",
     leagueHref: null,
     status: "Cult Underground",
+    memoryMilestones: [
+      {
+        year: "2014",
+        season: "Old Red Lion Inception",
+        battles: "Bowski vs Micky Worthless • Pedro vs Bowski",
+        note: "The legendary London pub cellar inception. Uncensored disrespect and cult humor.",
+      },
+      {
+        year: "2015",
+        season: "Hulkmania & Punk In Drublic",
+        battles: "Hulk vs Pedro • Scoop vs Bowski",
+        note: "Explosion of the KOTR underground circuit with legendary cult characters.",
+      },
+      {
+        year: "2017",
+        season: "Check Point & Title Bouts",
+        battles: "Tony D vs Oshea • Big J vs Hulk",
+        note: "Don't Flop and national champions stepping into the notorious KOTR pit.",
+      },
+      {
+        year: "2020",
+        season: "Specialists in Failure",
+        battles: "The Final Chapter Showcase",
+        note: "The closing era sealing King of the Ronalds' permanent legacy in battle culture.",
+      },
+    ],
   },
   {
     step: "04",
@@ -83,6 +175,26 @@ const roadStops: RoadStop[] = [
     href: "/clash-money",
     leagueHref: null,
     status: "North vs UK",
+    memoryMilestones: [
+      {
+        year: "2015",
+        season: "The Trials 1 & 2",
+        battles: "Blizzard vs Dialect • Dialect vs Raptor",
+        note: "Proving ground tournament giving northern lyricists national spotlight.",
+      },
+      {
+        year: "2015",
+        season: "North vs South",
+        battles: "M1 Motorway Clash Invitational",
+        note: "Bridging the regional divide with explosive cross-country rivalries.",
+      },
+      {
+        year: "2016",
+        season: "2v2 Tag Teams",
+        battles: "Dialect & Kaotik 2v2s • Bru-C Showcases",
+        note: "Pioneered fast-paced tag-team grime bouts with rapid fire reloads.",
+      },
+    ],
   },
   {
     step: "05",
@@ -98,6 +210,32 @@ const roadStops: RoadStop[] = [
     href: "/pengame",
     leagueHref: "/league",
     status: "The Modern Flagship",
+    memoryMilestones: [
+      {
+        year: "2020–22",
+        season: "Seasons 1 & 2",
+        battles: "Launch Battles • First Judged Cards",
+        note: "Judging panel established with Lippy Lickshot, Joe Black, and LV General.",
+      },
+      {
+        year: "2023",
+        season: "Premier Division",
+        battles: "30+ Fixtures • Official Title Belts",
+        note: "Full league structure with promotion, relegation, and points table.",
+      },
+      {
+        year: "2024–25",
+        season: "Mega-Cards",
+        battles: "1M+ View Clashes • Boxpark & Central Studios",
+        note: "Record-breaking viewership and mainstream cultural penetration.",
+      },
+      {
+        year: "2026",
+        season: "Championship Race",
+        battles: "Current Title Fights & Live Divisional Standings",
+        note: "Live ongoing season tracked in real-time on Lord of the Archives.",
+      },
+    ],
   },
   {
     step: "06",
@@ -113,6 +251,26 @@ const roadStops: RoadStop[] = [
     href: "/gzone",
     leagueHref: "/gzone/league",
     status: "140 BPM Grime Reload",
+    memoryMilestones: [
+      {
+        year: "2024",
+        season: "Season 1 Launch",
+        battles: "Deeno vs Tapped24 • Roman vs Marni Gramz",
+        note: "Pure 140 BPM grime aggression over classic grime instrumental dubs.",
+      },
+      {
+        year: "2024",
+        season: "Mid-Season Derbies",
+        battles: "Ryno vs Deeno • Tapped24 vs Roman",
+        note: "Heavyweight clashes with high-stakes reload judge scoring.",
+      },
+      {
+        year: "2024",
+        season: "Final Table",
+        battles: "Season 1 Title Race",
+        note: "Verified season points determining the inaugural Gzone champion.",
+      },
+    ],
   },
   {
     step: "07",
@@ -128,6 +286,26 @@ const roadStops: RoadStop[] = [
     href: "/talk-is-cheap",
     leagueHref: null,
     status: "The Next Era",
+    memoryMilestones: [
+      {
+        year: "2024",
+        season: "Series 1 & 2",
+        battles: "Underground Debut • Series 1–2 Head-to-Heads",
+        note: "Rapid release tempo introducing London's next wave of freestyle talent.",
+      },
+      {
+        year: "2025",
+        season: "Series 3 & 4",
+        battles: "The Underground Proving Ground",
+        note: "Viral short-form format clashes keeping raw British battle rap alive.",
+      },
+      {
+        year: "2026",
+        season: "Series 5",
+        battles: "The New Wave Frontier",
+        note: "Next generation MCs actively carrying the clash culture forward.",
+      },
+    ],
   },
 ];
 
@@ -214,7 +392,7 @@ export default function IntroVideo() {
           <h2 className="sr-only">The UK Battle Rap Archives Road Map</h2>
 
           {/* Highway Quick-Jump Route Bar (Zero Scrollbars) */}
-          <div className="mb-14 overflow-x-auto pb-1 scrollbar-hide [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+          <div className="mb-12 overflow-x-auto pb-1 scrollbar-hide [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             <div className="flex items-center gap-2 min-w-max border-y border-white/10 bg-zinc-950/80 py-3 px-4 rounded-xl">
               <div className="flex items-center gap-1.5 pr-2 font-mono text-[10px] font-black uppercase tracking-wider text-zinc-400">
                 <Compass size={13} className="text-brand" /> Route:
@@ -243,9 +421,9 @@ export default function IntroVideo() {
             </div>
           </div>
 
-          {/* THE VISUAL ROAD HIGHWAY */}
+          {/* THE VISUAL ROAD HIGHWAY WITH MEMORY MAP */}
           <div className="relative">
-            {/* The Central Asphalt Highway Track (Mobile: Left-aligned; Desktop: Centered) */}
+            {/* The Central Asphalt Highway Track (Mobile: Left-aligned; Desktop: Centered between the 2 columns) */}
             <div className="absolute left-5 sm:left-6 lg:left-1/2 top-4 bottom-4 -translate-x-1/2 w-8 sm:w-10 lg:w-12 flex flex-col items-center pointer-events-none z-10">
               {/* Asphalt Road Bed */}
               <div className="relative w-full h-full bg-zinc-950/95 border-x border-white/10 shadow-[inset_0_0_15px_rgba(0,0,0,0.9)] flex items-center justify-center">
@@ -264,11 +442,9 @@ export default function IntroVideo() {
               </div>
             </div>
 
-            {/* The 7 Road Stops (Alternating on Desktop) */}
-            <div className="space-y-12 sm:space-y-16 lg:space-y-24">
-              {roadStops.map((stop, index) => {
-                const isEven = index % 2 === 1;
-
+            {/* The 7 Road Stops (Dual-Sided on Desktop: Platform Dossier on Left, Memory Map on Right) */}
+            <div className="space-y-16 sm:space-y-20 lg:space-y-28">
+              {roadStops.map((stop) => {
                 return (
                   <div
                     key={stop.name}
@@ -285,14 +461,9 @@ export default function IntroVideo() {
                       </div>
                     </div>
 
-                    {/* Road Stop Milestone Card */}
-                    <div
-                      className={`relative pl-14 sm:pl-16 lg:pl-0 lg:w-1/2 ${
-                        isEven
-                          ? "lg:ml-auto lg:pl-14"
-                          : "lg:mr-auto lg:pr-14"
-                      }`}
-                    >
+                    {/* Dual Grid Layout: Platform Dossier (Left) & Memory Map (Right) */}
+                    <div className="pl-14 sm:pl-16 lg:pl-0 lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-20 items-start">
+                      {/* LEFT: Platform Archive Dossier */}
                       <div className="group relative rounded-2xl border border-white/10 bg-zinc-950/90 p-6 sm:p-7 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_12px_40px_rgba(255,215,0,0.08)] overflow-hidden">
                         {/* Background Step Watermark */}
                         <div className="absolute right-4 top-2 font-display text-7xl sm:text-8xl italic text-white/[0.03] select-none pointer-events-none group-hover:text-brand/[0.07] transition-colors">
@@ -364,6 +535,53 @@ export default function IntroVideo() {
                               <Trophy size={13} className="text-brand" /> Table
                             </Link>
                           )}
+                        </div>
+                      </div>
+
+                      {/* RIGHT: Clash Memory Map (Seasons & Landmark Clash Milestones) */}
+                      <div className="mt-4 lg:mt-0 rounded-2xl border border-white/10 bg-zinc-950/85 p-6 sm:p-7 transition-all duration-300 hover:border-white/20">
+                        {/* Memory Map Card Header */}
+                        <div className="flex items-center justify-between border-b border-white/5 pb-4">
+                          <div className="flex items-center gap-2">
+                            <Film size={14} className="text-brand" />
+                            <span className="font-mono text-[10px] font-black uppercase tracking-[0.2em] text-brand">
+                              Clash Memory Map
+                            </span>
+                          </div>
+                          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-zinc-500">
+                            Seasons & Key Moments
+                          </span>
+                        </div>
+
+                        {/* Milestones Timeline */}
+                        <div className="mt-5 space-y-4">
+                          {stop.memoryMilestones.map((m, mIdx) => (
+                            <div
+                              key={m.season}
+                              className="relative pl-5 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-white/10 last:before:hidden"
+                            >
+                              {/* Glowing node on mini-timeline */}
+                              <div className="absolute -left-[3px] top-1.5 h-2 w-2 rounded-full border border-brand bg-zinc-950" />
+
+                              <div className="flex flex-wrap items-center gap-2">
+                                <span className="font-mono text-xs font-black text-brand">
+                                  {m.year}
+                                </span>
+                                <span className="text-zinc-600 font-mono text-xs">•</span>
+                                <span className="font-display text-sm uppercase italic text-white tracking-wide">
+                                  {m.season}
+                                </span>
+                              </div>
+
+                              <p className="mt-1 font-mono text-[11px] font-semibold text-zinc-200 leading-snug">
+                                {m.battles}
+                              </p>
+
+                              <p className="mt-1 text-[11px] leading-relaxed text-zinc-400">
+                                {m.note}
+                              </p>
+                            </div>
+                          ))}
                         </div>
                       </div>
                     </div>
