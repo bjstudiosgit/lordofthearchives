@@ -345,46 +345,16 @@ export default function IntroVideo() {
 
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
-      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-24 pt-36 sm:px-6 sm:pt-44 lg:px-8 lg:pt-48">
-        {/* Hero Main Content (Clean Editorial Typography, No Bubbles) */}
-        <div className="max-w-4xl">
-          <h1 id="hero-heading" className="font-display text-[clamp(2.5rem,6vw,5.75rem)] italic uppercase leading-[0.95] tracking-tight text-white sm:whitespace-nowrap">
+      <div className="relative z-30 mx-auto w-full max-w-[1700px] px-4 pb-24 pt-36 sm:px-8 sm:pt-44 lg:px-12 lg:pt-48 xl:px-16">
+        {/* Hero Main Content */}
+        <div className="w-full">
+          <h1 id="hero-heading" className="font-display text-[clamp(2.75rem,6vw,6rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
             Lord of the <span className="text-brand">Archives</span>
           </h1>
 
-          <p className="mt-5 max-w-2xl text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
-            Two decades of UK clash culture cataloged in one definitive vault. Watch legendary battles, track <span className="text-white font-semibold">540+ MC records</span>, and explore verified league standings across <span className="text-brand font-semibold">7 historic archives</span>.
+          <p className="mt-6 max-w-4xl text-base leading-relaxed text-zinc-300 sm:text-xl sm:leading-relaxed font-sans">
+            Two decades of UK clash culture cataloged in one definitive vault — documenting <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} battles</strong> across <strong className="text-white font-bold">7 historic eras</strong> and <strong className="text-white font-bold">540+ cataloged artists</strong> with verified match records and league standings.
           </p>
-
-          {/* Clean Architectural Stats (No Bubbles) */}
-          <div className="mt-8 flex flex-wrap items-center gap-8 border-t border-white/10 pt-6">
-            <div>
-              <span className="font-display text-2xl sm:text-3xl italic text-brand leading-none">
-                {archivedBattleCount.toLocaleString("en-GB")}
-              </span>
-              <span className="block text-[10px] font-bold uppercase tracking-widest text-zinc-400 mt-1">
-                Battles Archived
-              </span>
-            </div>
-            <div className="h-8 w-px bg-white/10 hidden sm:block" />
-            <div>
-              <span className="font-display text-2xl sm:text-3xl italic text-white leading-none">
-                7
-              </span>
-              <span className="block text-[10px] font-bold uppercase tracking-widest text-zinc-400 mt-1">
-                Historic Eras
-              </span>
-            </div>
-            <div className="h-8 w-px bg-white/10 hidden sm:block" />
-            <div>
-              <span className="font-display text-2xl sm:text-3xl italic text-white leading-none">
-                540+
-              </span>
-              <span className="block text-[10px] font-bold uppercase tracking-widest text-zinc-400 mt-1">
-                Cataloged Artists
-              </span>
-            </div>
-          </div>
         </div>
 
         {/* The UK Clash Road Map: "How It All Started" */}
@@ -392,7 +362,7 @@ export default function IntroVideo() {
           <h2 className="sr-only">The UK Battle Rap Archives Road Map</h2>
 
           {/* Road Map Section Header */}
-          <div className="mb-14 border-b border-white/10 pb-8">
+          <div className="mb-14 border-b border-white/10 pb-8 w-full">
             <div className="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-6">
               {/* UK Speed Limit Road Sign (140 MPH) */}
               <div className="relative shrink-0 self-start sm:self-center">
@@ -414,18 +384,15 @@ export default function IntroVideo() {
                 <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl uppercase italic tracking-tight text-white">
                   Grime at 140 MPH: <span className="text-brand">How It All Started</span>
                 </h2>
-                <p className="mt-1 font-mono text-xs sm:text-sm font-bold uppercase tracking-wider text-amber-400">
-                  The Metronome of UK Clash Culture • From Garage Clubs to Jammer&apos;s E17 Basement
-                </p>
               </div>
             </div>
 
-            <div className="mt-6 max-w-4xl space-y-3 text-xs sm:text-sm md:text-[15px] leading-relaxed text-zinc-300 font-sans">
+            <div className="mt-6 w-full space-y-3.5 text-xs sm:text-sm md:text-base leading-relaxed text-zinc-300 font-sans">
               <p>
-                In the early 2000s, British street music hit a breaking point. As UK Garage dominated commercial clubs at a syncopated 130–135 BPM, East London teenagers wanted something menacing, fast, and confrontational. Producers stripped away the swung garage groove, locked the metronome to an uncompromising <strong className="text-white font-bold">140 BPM</strong>, and dialed in distorted 808 sub-bass engineered for pirate radio aerials.
+                In the early 2000s, British street music hit a breaking point. As UK Garage dominated commercial clubs at a syncopated 130–135 BPM, East London teenagers wanted something menacing, fast, and confrontational. Producers stripped away the swung garage groove, locked the metronome to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>, and dialed in distorted 808 sub-bass engineered for pirate radio aerials.
               </p>
               <p>
-                In his parents&apos; basement on The Avenue in Leytonstone (E17), Boy Better Know producer <strong className="text-brand font-bold">Jammer</strong> built the epicenter of the movement. Crafting lethal 140 riddims like <em>Destruction VIP</em>, he noticed that lyrical beefs on Rinse FM and Deja Vu 92.3 were erupting without resolution. In 2004, Jammer brought rival MCs off the pirate airwaves, crammed them in front of a single camcorder in his cellar for <strong className="text-white font-bold">Lord of the Mics</strong>, and bootlegged the footage on physical DVDs — igniting two decades of UK battle rap history.
+                In his parents&apos; basement on The Avenue in Leytonstone (E17), Boy Better Know producer Jammer built the epicenter of the movement. Crafting lethal 140 riddims like <em>Destruction VIP</em>, he noticed that lyrical beefs on Rinse FM and Deja Vu 92.3 were erupting without resolution. In 2004, Jammer brought rival MCs off the pirate airwaves, crammed them in front of a single camcorder in his cellar for <strong className="text-white font-semibold">Lord of the Mics</strong>, and bootlegged the footage on physical DVDs — igniting two decades of UK battle rap history.
               </p>
             </div>
           </div>
@@ -605,32 +572,6 @@ export default function IntroVideo() {
                   </div>
                 );
               })}
-            </div>
-
-            {/* End of Current Route Horizon */}
-            <div className="relative z-20 mt-16 pl-14 sm:pl-22 lg:pl-32">
-              <div className="rounded-3xl border border-white/10 bg-zinc-950/90 p-6 sm:p-8 shadow-[0_15px_40px_rgba(0,0,0,0.8)] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
-                <div>
-                  <div className="flex items-center gap-2">
-                    <span className="h-2 w-2 rounded-full bg-brand animate-ping" />
-                    <span className="font-mono text-[10px] font-black uppercase tracking-[0.25em] text-brand">
-                      The Road Continues • 2026 &amp; Beyond
-                    </span>
-                  </div>
-                  <h4 className="font-display text-2xl sm:text-3xl uppercase italic text-white mt-1.5">
-                    Active Title Races &amp; The Next Generation
-                  </h4>
-                  <p className="text-xs sm:text-sm text-zinc-400 mt-1 max-w-xl">
-                    Lord of the Archives is updated in real-time as new clashes, title defenses, and divisional points drop across the UK battle rap scene.
-                  </p>
-                </div>
-                <Link
-                  href="/mcs"
-                  className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl border border-brand/40 bg-brand/10 px-6 py-3.5 text-xs font-black uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black font-display italic"
-                >
-                  Explore 540+ Cataloged MCs <ArrowUpRight size={15} />
-                </Link>
-              </div>
             </div>
           </div>
         </div>
