@@ -115,28 +115,6 @@ export default function IntroVideo() {
             Two decades of UK clash culture cataloged in one definitive vault. Watch legendary battles, track <span className="text-white font-semibold">540+ MC records</span>, and explore verified league standings across <span className="text-brand font-semibold">7 historic archives</span>.
           </p>
 
-          {/* Hero Quick Actions */}
-          <div className="mt-8 flex flex-wrap items-center gap-3">
-            <a
-              href="#hero-archives"
-              className="inline-flex items-center gap-2 rounded-xl bg-brand px-6 py-3.5 text-xs font-black uppercase tracking-wider text-black transition hover:bg-yellow-300 shadow-[0_0_25px_rgba(242,125,38,0.3)]"
-            >
-              Browse The Leagues <ArrowUpRight size={15} />
-            </a>
-            <Link
-              href="/lota-league"
-              className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3.5 text-xs font-black uppercase tracking-wider text-white transition hover:border-brand/40 hover:bg-white/10"
-            >
-              <Trophy size={14} className="text-brand" /> LOTA League Table
-            </Link>
-            <Link
-              href="/mcs"
-              className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3.5 text-xs font-black uppercase tracking-wider text-white transition hover:border-brand/40 hover:bg-white/10"
-            >
-              MC Profiles
-            </Link>
-          </div>
-
           {/* Quick Stats Badges */}
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
