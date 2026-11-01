@@ -345,60 +345,47 @@ export default function IntroVideo() {
 
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
-      <div className="relative z-30 mx-auto w-full max-w-[1700px] px-4 pb-24 pt-36 sm:px-8 sm:pt-44 lg:px-12 lg:pt-48 xl:px-16">
-        {/* Hero Main Content */}
-        <div className="w-full">
-          <h1 id="hero-heading" className="font-display text-[clamp(2.75rem,6vw,6rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
-            Lord of the <span className="text-brand">Archives</span>
-          </h1>
-
-          <p className="mt-6 max-w-4xl text-base leading-relaxed text-zinc-300 sm:text-xl sm:leading-relaxed font-sans">
-            Two decades of UK clash culture cataloged in one definitive vault — documenting <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} battles</strong> across <strong className="text-white font-bold">7 historic eras</strong> and <strong className="text-white font-bold">540+ cataloged artists</strong> with verified match records and league standings.
-          </p>
-        </div>
-
-        {/* The UK Clash Road Map: "How It All Started" */}
-        <div id="hero-archives" className="mt-16 scroll-mt-28 border-t border-white/10 pt-12 sm:mt-20 sm:pt-16">
-          <h2 className="sr-only">The UK Battle Rap Archives Road Map</h2>
-
-          {/* Road Map Section Header */}
-          <div className="mb-14 border-b border-white/10 pb-8 w-full">
-            <div className="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-6">
-              {/* UK Speed Limit Road Sign (140 MPH) */}
-              <div className="relative shrink-0 self-start sm:self-center">
-                <div className="flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-full border-[6px] sm:border-[7px] border-[#d32f2f] bg-white shadow-[0_0_30px_rgba(211,47,47,0.4)] ring-2 ring-black/40">
-                  <div className="flex flex-col items-center justify-center leading-none text-black">
-                    <span className="font-display text-2xl sm:text-3xl font-black italic tracking-tighter">
-                      140
-                    </span>
-                    <span className="font-mono text-[8px] sm:text-[9px] font-black tracking-widest uppercase -mt-0.5">
-                      MPH
-                    </span>
-                  </div>
+      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-20 pt-36 sm:px-6 sm:pt-44 lg:px-8 lg:pt-48">
+        {/* Unified Hero Header & Origin Story (Left-Aligned, Clear of the Right Emblem) */}
+        <div className="max-w-2xl lg:max-w-3xl">
+          <div className="flex items-center gap-4 sm:gap-5">
+            {/* UK Speed Limit Road Sign (140 MPH) */}
+            <div className="relative shrink-0">
+              <div className="flex h-14 w-14 sm:h-18 sm:w-18 items-center justify-center rounded-full border-[5px] sm:border-[6px] border-[#d32f2f] bg-white shadow-[0_0_25px_rgba(211,47,47,0.4)] ring-2 ring-black/50">
+                <div className="flex flex-col items-center justify-center leading-none text-black">
+                  <span className="font-display text-xl sm:text-2xl font-black italic tracking-tighter">
+                    140
+                  </span>
+                  <span className="font-mono text-[7px] sm:text-[8px] font-black tracking-widest uppercase -mt-0.5">
+                    MPH
+                  </span>
                 </div>
-                {/* Road Sign Post Mount */}
-                <div className="hidden sm:block absolute left-1/2 -bottom-2 -translate-x-1/2 w-1.5 h-2.5 bg-zinc-600 rounded-b" />
-              </div>
-
-              <div>
-                <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl uppercase italic tracking-tight text-white">
-                  Grime at 140 MPH: <span className="text-brand">How It All Started</span>
-                </h2>
               </div>
             </div>
 
-            <div className="mt-6 w-full space-y-3.5 text-xs sm:text-sm md:text-base leading-relaxed text-zinc-300 font-sans">
-              <p>
-                In the early 2000s, British street music hit a breaking point. As UK Garage dominated commercial clubs at a syncopated 130–135 BPM, East London teenagers wanted something menacing, fast, and confrontational. Producers stripped away the swung garage groove, locked the metronome to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>, and dialed in distorted 808 sub-bass engineered for pirate radio aerials.
-              </p>
-              <p>
-                In his parents&apos; basement on The Avenue in Leytonstone (E17), Boy Better Know producer Jammer built the epicenter of the movement. Crafting lethal 140 riddims like <em>Destruction VIP</em>, he noticed that lyrical beefs on Rinse FM and Deja Vu 92.3 were erupting without resolution. In 2004, Jammer brought rival MCs off the pirate airwaves, crammed them in front of a single camcorder in his cellar for <strong className="text-white font-semibold">Lord of the Mics</strong>, and bootlegged the footage on physical DVDs — igniting two decades of UK battle rap history.
+            <div>
+              <h1 id="hero-heading" className="font-display text-[clamp(2.5rem,5.5vw,5.5rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
+                Lord of the <span className="text-brand">Archives</span>
+              </h1>
+              <p className="font-display text-base sm:text-xl uppercase italic tracking-tight text-brand mt-1">
+                Grime at 140 MPH: <span className="text-white">How It All Started</span>
               </p>
             </div>
           </div>
 
-          {/* THE PHYSICAL ASPHALT HIGHWAY WITH INTEGRATED MILESTONE STATIONS */}
-          <div className="relative">
+          {/* Unified Narrative */}
+          <div className="mt-6 space-y-3.5 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+            <p>
+              Two decades of UK clash culture cataloged in one definitive vault — documenting <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} battles</strong> across <strong className="text-white font-bold">7 historic eras</strong> and <strong className="text-white font-bold">540+ cataloged artists</strong> with verified match records and league standings.
+            </p>
+            <p>
+              In the early 2000s, British street music broke away from UK Garage dancefloors. MCs wanted darker, faster pressure, locking the metronome to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Boy Better Know producer Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong>, bootlegging the footage on physical DVDs and sparking two decades of British clash culture.
+            </p>
+          </div>
+        </div>
+
+        {/* THE PHYSICAL ASPHALT HIGHWAY WITH INTEGRATED MILESTONE STATIONS */}
+        <div id="hero-archives" className="mt-14 scroll-mt-28 border-t border-white/10 pt-12 sm:mt-16 sm:pt-14 relative">
             {/* The Continuous Asphalt Road Spine running down the left */}
             <div className="absolute left-6 sm:left-8 lg:left-12 top-0 bottom-0 -translate-x-1/2 w-12 sm:w-16 lg:w-20 flex flex-col items-center pointer-events-none z-10">
               {/* Asphalt Road Bed */}
@@ -575,7 +562,6 @@ export default function IntroVideo() {
             </div>
           </div>
         </div>
-      </div>
 
       {/* Cinematic Vignette */}
       <div className="absolute inset-0 shadow-[inset_0_0_160px_rgba(0,0,0,0.5)] pointer-events-none z-20" />
