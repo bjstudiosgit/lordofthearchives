@@ -306,8 +306,8 @@ export default function IntroVideo() {
 
   return (
     <section aria-labelledby="hero-heading" className="relative isolate w-full overflow-hidden border-b border-brand/20 bg-black">
-      {/* Background Graphic Watermark */}
-      <div className="absolute inset-0 z-0">
+      {/* Background Graphic Watermark (Locked to Hero Area, Not Stretched Across Whole Page) */}
+      <div className="absolute top-0 inset-x-0 h-[750px] sm:h-[850px] lg:h-[950px] overflow-hidden z-0 pointer-events-none">
         <picture className="absolute inset-0 block">
           <source
             type="image/webp"
@@ -323,13 +323,13 @@ export default function IntroVideo() {
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            className="absolute inset-0 h-full w-full object-cover object-[68%_center] opacity-60 contrast-110 sm:object-center sm:opacity-85"
+            className="absolute inset-0 h-full w-full object-cover object-[70%_center] opacity-80 contrast-110 sm:object-right-top sm:opacity-90"
           />
         </picture>
-        <div className="absolute inset-0 bg-black/10 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-transparent to-black/75 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/55 to-transparent z-10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/25 z-10" />
+        <div className="absolute inset-0 bg-black/15 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent z-10" />
+        <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-black via-black/80 to-transparent z-10" />
 
         {/* Scanline Effect */}
         <div className="absolute inset-0 pointer-events-none z-20 opacity-[0.03] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]" />
@@ -428,12 +428,15 @@ export default function IntroVideo() {
                 {/* Center Broken Amber Lane Divider */}
                 <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-amber-400/80 shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
 
-                {/* Stenciled "START" Road Marking on the Tarmac */}
-                <div className="relative z-10 w-full pt-4 flex flex-col items-center">
-                  <span className="font-mono text-[8px] sm:text-[10px] font-black tracking-[0.3em] text-white/90 select-none uppercase">
+                {/* Stenciled "START • 2004" Road Marking on the Tarmac */}
+                <div className="relative z-10 w-full pt-3 pb-1 flex flex-col items-center">
+                  <span className="font-mono text-[8px] sm:text-[9px] font-black tracking-[0.25em] text-brand select-none uppercase">
                     START
                   </span>
-                  <svg className="w-3.5 h-6 text-white/80 my-1" viewBox="0 0 24 36" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                  <span className="font-display text-base sm:text-xl font-bold italic tracking-tight text-white select-none leading-none mt-0.5">
+                    2004
+                  </span>
+                  <svg className="w-3.5 h-5 text-white/80 my-1" viewBox="0 0 24 36" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="12" y1="34" x2="12" y2="4" />
                     <polyline points="5 11 12 4 19 11" />
                   </svg>
@@ -451,13 +454,16 @@ export default function IntroVideo() {
                     className="relative scroll-mt-36"
                   >
                     {/* Waypoint Road Node on the Asphalt Highway */}
-                    <div className="absolute left-6 sm:left-8 lg:left-12 top-8 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
+                    <div className="absolute left-6 sm:left-8 lg:left-12 top-8 -translate-x-1/2 z-20 flex flex-col items-center justify-center pointer-events-none">
                       <div className="relative flex h-11 w-11 sm:h-12 sm:w-12 items-center justify-center rounded-full border-2 border-brand bg-zinc-950 shadow-[0_0_25px_rgba(255,215,0,0.5)]">
                         <span className="font-display text-base font-bold italic text-brand">
                           {stop.step}
                         </span>
                         <div className="absolute -inset-1 rounded-full border border-brand/40 animate-ping pointer-events-none opacity-25" />
                       </div>
+                      <span className="mt-1 font-mono text-[9px] sm:text-[10px] font-black text-amber-300 tracking-wider">
+                        {stop.era.split("–")[0]}
+                      </span>
                     </div>
 
                     {/* Horizontal Connector Arm from Road Node to Card */}
@@ -476,7 +482,7 @@ export default function IntroVideo() {
                           <div className="flex items-center gap-2.5">
                             <div className="flex items-center gap-1.5 rounded-lg border border-brand/30 bg-brand/10 px-3 py-1 font-mono text-xs font-black text-brand uppercase tracking-wider">
                               <MapPin size={13} className="text-brand shrink-0" />
-                              JCT {stop.step} • {stop.location}
+                              JCT {stop.step} ({stop.era.split("–")[0]}) • {stop.location}
                             </div>
                           </div>
                           <div className="flex items-center gap-4 font-mono text-xs text-zinc-400">
