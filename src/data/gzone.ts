@@ -69,7 +69,7 @@ export const gzoneBattles: Battle[] = [
   makeBattle("1x04", "LDN MIKEZ", "2MWAD", "24.9K", "2026-01-15", "LDN MIKEZ", "https://www.youtube.com/watch?v=NEiGspeXLYM"),
   makeBattle("1x05", "CJ Zino", "Proty", "11.9K", "2026-02-15", "Proty", "https://www.youtube.com/watch?v=T0zo6YgfxB4"),
   makeBattle("1x06", "Renzo", "Proty", "10.8K", "2026-02-19", "Renzo", "https://www.youtube.com/watch?v=bZRy8jgPvwk"),
-  makeBattle("1x07", "Deluxx", "Btizz", "5.9K", "2026-02-25", "Btizz", "https://www.youtube.com/watch?v=Asvv9rzqXDI"),
+  makeBattle("1x07", "Deluxx", "Btizz", "6.0K", "2026-02-25", "Btizz", "https://www.youtube.com/watch?v=Asvv9rzqXDI"),
   makeBattle("1x08", "2MWAD", "Ryno", "28.4K", "2026-02-19", "2MWAD", "https://www.youtube.com/watch?v=HfO3UR_Zeyk"),
   makeBattle("1x09", "Tapped24", "Roman", "25.7K", "2026-03-04", "Roman", "https://www.youtube.com/watch?v=OGagI2K6StY"),
   makeBattle("1x10", "Tapped24", "AJNA", "15.2K", "2026-03-19", "AJNA", "https://www.youtube.com/watch?v=oUDDrQtoTHM"),
@@ -79,7 +79,7 @@ export const gzoneBattles: Battle[] = [
   { ...makeBattle("1x14", "Deeno", "Grams", "22.8K", "2026-04-26", "Deeno", "https://www.youtube.com/watch?v=OuVeBAU1OQQ"), title: "DEENO vs MARNI GRAMZ" },
   { ...makeBattle("1x15", "Tapped24", "Grams", "13.2K", "2026-04-26", "Tapped24", "https://www.youtube.com/watch?v=9gkXN1ZJeP8"), title: "TAPPED24 vs MARNI GRAMZ" },
   makeBattle("1x16", "Btizz", "1Flaymr", "9.0K", "2026-04-26", "Btizz", "https://www.youtube.com/watch?v=2lFLlylG5NQ"),
-  makeBattle("1x17", "Deeno", "Badee Harz", "42.1K", "2026-05-23", "Deeno", "https://www.youtube.com/watch?v=yCkMZvg-cUg"),
+  makeBattle("1x17", "Deeno", "Badee Harz", "42.4K", "2026-05-23", "Deeno", "https://www.youtube.com/watch?v=yCkMZvg-cUg"),
   makeBattle("1x18", "Ryno", "Roman", "14.4K", "2026-04-26", "Roman", "https://www.youtube.com/watch?v=eNusiS3fDhw"),
   makeBattle("1x19", "1Flaymr", "CJ Zino", "5.9K", "2026-05-31", "1Flaymr", "https://www.youtube.com/watch?v=BKAVkMglg3Q"),
   makeBattle("1x20", "NattyEBK", "Z.K", "5.3K", "2026-05-31", "NattyEBK", "https://www.youtube.com/watch?v=ayTTSuKB168"),
@@ -92,7 +92,7 @@ export const gzoneBattles: Battle[] = [
   makeBattle("1x27", "Badee Harz", "Roman", "18.8K", "2026-10-02", "Roman", "https://www.youtube.com/watch?v=oAgeLuYN344"),
   makeBattle("1x28", "1Flaymr", "Z.K", "6.5K", "2026-09-26", "1Flaymr", "https://www.youtube.com/watch?v=nIlog2sd0eY"),
   { ...makeBattle("1x29", "Tymeless", "KIME", "", "2026-09-26", "Tymeless", "https://www.youtube.com/watch?v=JYLCFI0nYuU"), title: "TYMELESS vs K.I.M.E" },
-  { ...makeBattle("1x30", "Btizz", "Grams", "3.8K", "2026-10-31", "Grams", "https://www.youtube.com/watch?v=xj8fvKvWc9M"), title: "BTIZZ vs MARNI GRAMZ" },
+  { ...makeBattle("1x30", "Btizz", "Grams", "4.0K", "2026-10-31", "Grams", "https://www.youtube.com/watch?v=xj8fvKvWc9M"), title: "BTIZZ vs MARNI GRAMZ" },
 ];
 
 export const gzoneMcs: GzoneMc[] = Array.from(

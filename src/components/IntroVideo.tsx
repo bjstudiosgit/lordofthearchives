@@ -65,7 +65,6 @@ const archives = [
 
 export default function IntroVideo() {
   const archivedBattleCount = archives.reduce((total, archive) => total + archive.count, 0);
-  const largestArchive = Math.max(...archives.map((archive) => archive.count), 1);
 
   return (
     <section aria-labelledby="hero-heading" className="relative isolate w-full overflow-hidden border-b border-brand/20 bg-black">
@@ -101,37 +100,50 @@ export default function IntroVideo() {
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
       <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-16 pt-36 sm:px-6 sm:pt-44 lg:px-8 lg:pt-48">
-        <div className="max-w-3xl">
-          <p className="mb-6 flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-brand sm:text-xs">
-            We never forget
-          </p>
-          <h1 id="hero-heading" className="font-display text-[clamp(3.5rem,6.5vw,6.5rem)] italic uppercase leading-[0.98] tracking-tight text-white">
-            <span className="block">Lord of the</span>
-            <span className="block text-brand">Archives.</span>
+        <div className="max-w-5xl">
+          <h1 id="hero-heading" className="font-display text-[clamp(2.2rem,5.5vw,5.5rem)] italic uppercase leading-none tracking-tight text-white sm:whitespace-nowrap">
+            Lord of the <span className="text-brand">Archives.</span>
           </h1>
-          <p className="mt-7 max-w-lg text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
+          <p className="mt-6 max-w-2xl text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
             Explore UK rap battle history in one place. Watch clashes, discover MCs, explore our own league tables and dive into the results, rivalries and bars behind the battles.
           </p>
-          <div className="mt-7 max-w-lg rounded-2xl border border-white/10 bg-black/65 p-4 sm:p-5">
-            <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-              <h2 className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400">Battles by archive</h2>
-              <p className="text-xs text-zinc-400"><span className="font-semibold tabular-nums text-brand">{archivedBattleCount.toLocaleString("en-GB")}</span> battles archived</p>
+
+          {/* Hero Quick Actions */}
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <a
+              href="#hero-archives"
+              className="inline-flex items-center gap-2 rounded-xl bg-brand px-5 py-3 text-xs font-black uppercase tracking-wider text-black transition hover:bg-yellow-300"
+            >
+              Browse The Leagues <ArrowUpRight size={14} />
+            </a>
+            <Link
+              href="/lota-league"
+              className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-xs font-black uppercase tracking-wider text-white transition hover:border-brand/40 hover:bg-white/10"
+            >
+              LOTA League Table
+            </Link>
+            <Link
+              href="/mcs"
+              className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-xs font-black uppercase tracking-wider text-white transition hover:border-brand/40 hover:bg-white/10"
+            >
+              MC Profiles
+            </Link>
+          </div>
+
+          {/* Quick Stats Badges */}
+          <div className="mt-7 flex flex-wrap items-center gap-2.5">
+            <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-black/60 px-3.5 py-2">
+              <span className="font-display text-base italic text-brand">{archivedBattleCount.toLocaleString("en-GB")}</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Battles Archived</span>
             </div>
-            <ul className="space-y-3">
-              {[...archives].sort((a, b) => b.count - a.count).map((archive) => (
-                <li key={archive.href}>
-                  <Link href={archive.href} className="group block" aria-label={`${archive.name}: ${archive.count.toLocaleString("en-GB")} battles`}>
-                    <span className="mb-1 flex justify-between gap-3 text-xs font-semibold text-zinc-300 group-hover:text-brand">
-                      <span>{archive.name}</span>
-                      <span className="tabular-nums text-brand">{archive.count.toLocaleString("en-GB")}</span>
-                    </span>
-                    <span aria-hidden="true" className="block h-1.5 overflow-hidden rounded-full bg-white/10">
-                      <span className="block h-full rounded-full bg-brand" style={{ width: `${(archive.count / largestArchive) * 100}%` }} />
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-black/60 px-3.5 py-2">
+              <span className="font-display text-base italic text-white">7</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Battle Leagues</span>
+            </div>
+            <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-black/60 px-3.5 py-2">
+              <span className="font-display text-base italic text-white">540+</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Cataloged MCs</span>
+            </div>
           </div>
         </div>
 
