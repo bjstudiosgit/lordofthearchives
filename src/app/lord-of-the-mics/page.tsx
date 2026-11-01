@@ -17,12 +17,68 @@ const dvdSources: Record<string, string> = {
   LOTM8: "https://www.musicglue.com/lordofthemics/products/lord-of-the-mics-8-cd-slash-dvd",
 };
 
+const serializeStructuredData = (value: object) =>
+  JSON.stringify(value).replace(/</g, "\\u003c");
+
 export const metadata = {
   title: "Lord of the Mics Battle Catalog | Lord of the Archives",
   description: "A season-by-season catalog of Lord of the Mics clashes, matchups, dates, series and surviving view-count records.",
   alternates: {
     canonical: "https://www.lordofthearchives.co.uk/lord-of-the-mics",
   },
+  openGraph: {
+    title: "Lord of the Mics Battle Catalog | Lord of the Archives",
+    description: "A season-by-season catalog of Lord of the Mics clashes, matchups, dates, series and surviving view-count records.",
+    url: "https://www.lordofthearchives.co.uk/lord-of-the-mics",
+    siteName: "Lord of the Archives",
+    type: "website",
+    images: [
+      {
+        url: "https://www.lordofthearchives.co.uk/hero-archives-emblem.png",
+        width: 1200,
+        height: 630,
+        alt: "Lord of the Mics Battle Catalog",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lord of the Mics Battle Catalog | Lord of the Archives",
+    description: "A season-by-season catalog of Lord of the Mics clashes, matchups, dates, series and surviving view-count records.",
+    images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
+  },
+};
+
+const collectionStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Lord of the Mics Battle Catalog",
+  description: "A season-by-season catalog of Lord of the Mics clashes, matchups, dates, series and surviving view-count records.",
+  url: "https://www.lordofthearchives.co.uk/lord-of-the-mics",
+  isPartOf: {
+    "@type": "WebSite",
+    name: "Lord of the Archives",
+    url: "https://www.lordofthearchives.co.uk",
+  },
+};
+
+const breadcrumbStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.lordofthearchives.co.uk/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Lord of the Mics",
+      item: "https://www.lordofthearchives.co.uk/lord-of-the-mics",
+    },
+  ],
 };
 
 export default function LordOfTheMicsPage() {
@@ -42,6 +98,18 @@ export default function LordOfTheMicsPage() {
 
   return (
     <main className="min-h-screen bg-zinc-950 pt-32 pb-24 text-white selection:bg-brand selection:text-black">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeStructuredData(collectionStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeStructuredData(breadcrumbStructuredData),
+        }}
+      />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
@@ -96,7 +164,7 @@ export default function LordOfTheMicsPage() {
                       {battles.map((battle, index) => (
                         <BattleRow key={battle.id} href={`/lord-of-the-mics/${battle.slug}`}>
                           <td className="px-2 py-3 md:px-6 md:py-6">
-                            <Link href={`/lord-of-the-mics/${battle.slug}`} className="font-mono text-brand text-[10px] md:text-sm hover:underline" aria-label={`View ${battle.title}`}>{index + 1}</Link>
+                            <Link href={`/lord-of-the-mics/${battle.slug}`} className="whitespace-nowrap font-mono text-brand text-[10px] md:text-sm hover:underline" aria-label={`View ${series} EP ${index + 1}: ${battle.title}`}>{series} EP {index + 1}</Link>
                           </td>
                           <td className="px-2 py-3 md:px-6 md:py-6">
                             <div className="flex flex-wrap items-center gap-1.5 md:gap-3 text-sm font-semibold text-zinc-100 md:text-lg group-hover:text-brand transition-colors">

@@ -47,7 +47,10 @@ const footerGroups: Array<{
       { href: "/pengame", label: "PenGame archive", icon: Play },
       { href: "/gzone", label: "Gzone archive", icon: Play },
       { href: "/lord-of-the-mics", label: "Lord of the Mics", icon: BookOpen },
+      { href: "/talk-is-cheap", label: "Talk Is Cheap", icon: Play },
       { href: "/prizefighter", label: "Prizefighter", icon: Trophy },
+      { href: "/clash-money", label: "Clash Money", icon: Play },
+      { href: "/king-of-the-ronalds", label: "King of the Ronalds", icon: Play },
     ],
   },
   {

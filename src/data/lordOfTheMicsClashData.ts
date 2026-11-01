@@ -248,5 +248,277 @@ export const lordOfTheMicsClashData: Record<string, LordOfTheMicsClashRecord> = 
       "verdict": "DRAW (LOTA Result)",
       "summary": "Footsie vs Scratchy is ruled a historic draw. Scratchy delivered one of the most iconic hooks in Grime history with his immortal 'body bag' opening and maintained a relentless, rapid-fire cadence throughout the battle. Footsie countered with undeniable physical presence, booming bass-heavy projection, and lethal punchlines including his famous 'B-A-T' sequence. With both MCs showcasing opposing but equally potent styles of early Grime warfare, LOTA scores this classic dungeon clash as an enduring dead heat."
     }
+  },
+  "funky-dee-vs-mischief": {
+    winner: "Mischief",
+    resultSource: "lota",
+    battlePageEnabled: true,
+    views: "20k",
+    host: "Jammer (Lord of the Mics)",
+    clashSummary: "FUNKY DEE and MISCHIEF clashed in one of the most volatile and heavily discussed head-to-head encounters of Lord of the Mics 8 (2019). Hosted by Jammer alongside Treble and Ratty, the battle marked the return of the iconic grime clash platform following a multi-year hiatus. The grudge match arrived after months of relentless, venomous back-and-forth arguments on Twitter, where personal insults, accusations of ducking, and a proposed £1,000 bet created palpable real-world tension in the room. Stylistically, the bout pitted the larger-than-life South London veteran Funky Dee—famed for his comedic swagger, high-energy stage presence, and crossover UK Funky smash 'Are You Gonna Bang Doe?'—against the gritty, rapid-fire street delivery of Hertfordshire's Mischief. Across three intense rounds over relentless 140 BPM instrumentals, both MCs traded biting personal exposes, crew politics, and cultural haymakers.\n\nRound one ignited with Funky Dee taking the offensive, immediately targeting Mischief's suburban origins. In one of the most memorable hooks of the battle, Funky Dee broke into an infectious, sing-song cadence chanting 'Borehamwood and Hertfordshire,' uncovering Mischief's government name Jerome Pascal and roasting his 'face vest' aesthetic. He dismissed Mischief's street legitimacy and closed with threats to rob him after the clash. Mischief fired back without missing a beat, tackling the viral Twitter war head-on ('No more Twitter, but you can't @ me'). He spelled out 'G-R-E-A-T', 'E-A-T', and 'D-E-A-D' over the riddim, before directly dismantling Funky Dee's grime credentials: dubbing him 'Funky D-Von,' rejecting funky house anthems, and threatening him with wrestling moves inside the 'Elimination Chamber.'\n\nRound two escalated in personal intensity following a chaotic interlude where Jammer and Treble had to rein in the room. Funky Dee opened with raw emotion, reflecting on his long grind in the music industry and thanking Jammer for the platform. He quickly transitioned into fierce counter-offense, bringing up the £1,000 bet, mocking Mischief with So Solid '21 Seconds' cadences, and alleging Mischief was creeping around sisters' bedrooms on a low-key 'Loki' tip. He then landed the financial knockout blow of the round, contrasting his commercial royalties with Mischief's living situation: 'Made around a hundred racks from a track / You are still living in your mum's flat!' Mischief responded by picking apart the room's politics, telling Jammer not to doubt his hunger, and referencing the historic Chip vs Bugzy Malone and Chip vs Yungen clashes. He then unleashed a dizzying, machine-gun 'dot dot' flow scheme, spelling out 'F.U.N.K.' to box Funky Dee into a corner.\n\nThe final round delivered the clash's defining drama. Mischief took the mic first, repeating the menacing phrase 'I've killed him with passion' six times in succession before dropping the battle's biggest behind-the-scenes bombshell: revealing that Funky Dee had called his personal phone prior to the event, arrogantly claiming he was the sole reason Mischief was booked for LOTM 8. Mischief vehemently rejected the narrative, declaring himself a Lord of the Mics in his own right, labeling Funky Dee a 'one-hit wonder' funky house MC, and exposing his name change from Firmer Dee. He followed with a blistering, calendar-themed road sprint detailing his weekly hustle. Funky Dee answered with an explosive, entertaining showcase: running through a rapid pop-culture gauntlet (Vin Diesel, Suplex, BMX, Professor X, Degeneration X), addressing Jammer's pre-clash 'no mentioning mums' cypher rule, and delivering an unforgettable homage to Crazy Titch ('two straps over your shoulders... but I ain't talking dungarees'). Showing self-deprecating wit, Funky Dee playfully rebranded himself 'Chunky Dee' from eating too much bun and cheese, before unloading Friday pump bars, Trunks sword metaphors, and threats of swinging a wooden stool.\n\nLord of the Archives scores the clash a decisive 2-1 victory for MISCHIEF. While Funky Dee was exceptionally entertaining, delivering crowd-pleasing humor, unforgettable hooks ('Borehamwood and Hertfordshire'), and lethal financial disses, Mischief operated with superior tactical precision. By exposing the pre-clash telephone politics, relentlessly interrogating Funky Dee's grime legitimacy, and maintaining flawless flow velocity over 140 BPM, Mischief captured the rounds that mattered most in competitive grime warfare.",
+    performanceAnalysis: [
+      {
+        performer: "Funky Dee",
+        overview: "Funky Dee brought maximum theatrical energy, comedic timing, and raw underground charisma to Lord of the Mics 8. As a seasoned veteran who had navigated both the grime underground and the commercial UK Funky explosion, he understood how to craft instantly catchy, crowd-shaking angles. Rather than getting bogged down in rigid technical multi-syllabics, Funky Dee relied on devastating real-life flexes, infectious repetition, and self-aware humor that frequently had the room laughing and reacting.",
+        lyricalThemes: "Suburban origins vs inner-city credibility; Borehamwood and Hertfordshire geography; real name exposure (Jerome Pascal); £1,000 pre-clash wager; 21 Seconds / So Solid references; Loki and low-key sister creeping; £100k royalties flex vs living with mum; Nokia trap phones; Crazy Titch tribute ('dungarees' straps); 'Chunky Dee' bun and cheese self-deprecation; Craig's dad pump shotgun; Dragon Ball Z Trunks sword; barroom wooden stool attacks.",
+        keyTechnicalHighlights: [
+          {
+            title: "Borehamwood & Hertfordshire Sing-Song Hook",
+            description: "Funky Dee turns Mischief's suburban hometown into an infectious, sing-song refrain, combining comedic ridicule with real-name government exposure to undermine his opponent's street reputation."
+          },
+          {
+            title: "The 100 Racks Commercial Flex",
+            description: "Delivers the most damaging financial counter of the clash in round two, contrasting the massive earnings from his hit single against Mischief still living in his mother's flat."
+          },
+          {
+            title: "Crazy Titch & Chunky Dee Pop-Culture Blitz",
+            description: "Fuses iconic grime history (Crazy Titch strap scheme) with self-deprecating comedy about his own weight ('eating too much bun and cheese'), keeping the room engaged through sheer personality."
+          }
+        ]
+      },
+      {
+        performer: "Mischief",
+        overview: "Mischief delivered a textbook masterclass in focused, aggressive grime clashing. Approaching the battle with cold, calculated intent, he weaponized Funky Dee's commercial pop crossover against him, painting him as an interloper who abandoned grime for funky house. His flow control across all three rounds was razor-sharp, executing complex rhythm switches, spelling patterns, and high-velocity sprints without dropping a syllable. His strategic reveal of Funky Dee's backstage phone call in round three was the decisive haymaker of the clash.",
+        lyricalThemes: "Online Twitter talk vs face-to-face reality; spelling patterns (G-R-E-A-T, E-A-T, D-E-A-D, F-U-N-K); funky house vs authentic grime; Funky D-Von wrestling comparisons; Elimination Chamber; Chip vs Bugzy / Yungen battle rap parallels; 'Killed him with passion' repetition; backstage phone call and booking exposure; one-hit wonder accusations; Firmer Dee name change; prison hooch and wing life; Monday-to-Sunday weekly hustle calendar.",
+        keyTechnicalHighlights: [
+          {
+            title: "The Six-Fold Passion Intimidation",
+            description: "Opens round three by repeating 'I've killed him with passion' six consecutive times with deadpan vocal intensity, freezing the room's energy before launching his final assault."
+          },
+          {
+            title: "Backstage Phone Call & Booking Deconstruction",
+            description: "Exposes Funky Dee's private claim that he was responsible for Mischief's spot on LOTM 8, flipping the narrative to establish his own independent pedigree and artistic pride."
+          },
+          {
+            title: "The F.U.N.K. Dot-Dot Cadence Switch",
+            description: "Executes a rapid-fire 140 BPM rhythmic scheme in round two, spelling out his opponent's name across syncopated bullet-point cadences that completely overwhelmed the instrumental."
+          }
+        ]
+      }
+    ],
+    notableBars: [
+      {
+        performer: "Funky Dee",
+        theme: "Round 1 — Borehamwood & Hertfordshire",
+        bar: "I swear this guy's wearing his phone / Borehamwood and Hertfordshire! How could he send for me his phone / Borehamwood and Hertfordshire! He named Jerome Pascal from Borehamwood and Hertfordshire!",
+        explanation: "Funky Dee turns Mischief's suburban county and government name into a hilarious, nursery-rhyme battle hook."
+      },
+      {
+        performer: "Mischief",
+        theme: "Round 1 — Twitter vs Real Clash",
+        bar: "All that talk in your timeline, and now you're gonna actually clash me! No more Twitter, but you can't @ me! G-R-E-A-T, but not Gatsby! You can't be E-A-T or clash me! Leave man shaky, shaky, no Bambi: you are D-E-A-D, it's that beat!",
+        explanation: "Mischief confronts the online pre-battle trash talk with sharp spelling schemes and rapid-fire cadence switches."
+      },
+      {
+        performer: "Mischief",
+        theme: "Round 1 — Funky House Dismissal",
+        bar: "I'm like, it's on, Funky D-Von! I don't wanna hear no funky house song: kill him on the rhythm, he's gone!",
+        explanation: "Mischief compares Funky Dee to WWE wrestler D-Von Dudley while dismissing his funky house crossover catalog."
+      },
+      {
+        performer: "Funky Dee",
+        theme: "Round 2 — 100 Racks vs Mum's Flat",
+        bar: "Made around a hundred racks from a track! You are still living in your mum's flat! I hit you with a Shaq attack cause you're an idiot like that!",
+        explanation: "Funky Dee lands the biggest crowd-reaction punchline of the clash, contrasting his massive royalty earnings against Mischief's domestic reality."
+      },
+      {
+        performer: "Funky Dee",
+        theme: "Round 2 — Loki & Low-Key",
+        bar: "Blood you don't know, I'm gonna got a mischief like Loki! I heard that you're creeping in the sister's room on a low-key!",
+        explanation: "A clever double entendre playing on Mischief's name, Marvel's god of mischief Loki, and alleged bedroom sneaking."
+      },
+      {
+        performer: "Mischief",
+        theme: "Round 2 — Chip vs Bugzy & Yungen",
+        bar: "Twitter fingers can't touch me! I'ma do you how Chip did Bugzy! No, I'ma do you how Chip did Yungen!",
+        explanation: "Mischief references two of the most celebrated lyrical demolitions in modern grime history to signal his aggressive intent."
+      },
+      {
+        performer: "Mischief",
+        theme: "Round 2 — F.U.N.K. Dot-Dot Scheme",
+        bar: "Dot dot, what dot dot, East End dot with a dot dot... It's F dot U dot N dot K dot! Red's the red K dot, roof the dot the dot, stars the dot the dot... Anywhere I spray the dot the dot!",
+        explanation: "Mischief unleashes a blistering 140 BPM bullet-point scheme, spelling out Funky Dee's name while showcasing elite breath control."
+      },
+      {
+        performer: "Mischief",
+        theme: "Round 3 — Backstage Booking Exposure",
+        bar: "Tell them the truth: you didn't want to go back to back with me! He called my phone after everything was already set up, started talking about he was the reason that I was getting this clash on Lord of the Mics... but let me tell you, I am a Lord of the Mics in my own rights!",
+        explanation: "The defining narrative angle of the clash, exposing Funky Dee's backstage power-tripping and claiming artistic independence."
+      },
+      {
+        performer: "Mischief",
+        theme: "Round 3 — Firmer Dee to Funky Dee",
+        bar: "You thought I was just some new MC, but realized I'm raised on grime when I do this! You had to change your name, deluded: went from Firmer Dee to Funky Dee!",
+        explanation: "Mischief digs into underground grime trivia, revealing Funky Dee's original moniker Firmer Dee to accuse him of rebranding for commercial gain."
+      },
+      {
+        performer: "Funky Dee",
+        theme: "Round 3 — Crazy Titch Homage",
+        bar: "I got bars and I'll kill you off comfortably! I'll put two straps all over your shoulders, blud, but I ain't talking dungarees! It's all in honour of Crazy Titch!",
+        explanation: "Funky Dee pays tribute to Crazy Titch's legendary grime clash bars, using firearm wordplay with dungaree straps."
+      },
+      {
+        performer: "Funky Dee",
+        theme: "Round 3 — Chunky Dee & Bun and Cheese",
+        bar: "It's not Funky-Dee, Chunky-Dee! He's been eating too much bun and cheese! Let's go living for living, it's all fun to me: got him sitting on the wall for them Humpty-dees!",
+        explanation: "Funky Dee disarms his opponent's fat jokes by poking fun at his own weight with classic Caribbean bun and cheese references."
+      },
+      {
+        performer: "Funky Dee",
+        theme: "Round 3 — Trunks & Elephant's Trunk",
+        bar: "My gun so big, how big? It's big like an elephant's trunk in '03! I roll with a sword like Trunks, fire with a pump, pump, pump, pump, pump!",
+        explanation: "A vintage UK grime rhyming scheme linking 2003 nostalgic gun bars with Dragon Ball Z's Future Trunks."
+      }
+    ],
+    oddMoments: [
+      "Jammer, Treble, and crew had to repeatedly halt proceedings and shout at the production desk between rounds ('Bob, 16s, let's go anyway... Bob for God's sake let's go!'), trying to get the audio engineer and cameraman in position.",
+      "Funky Dee delivered his 'Borehamwood and Hertfordshire' hook in a repetitive, almost comedic nursery-rhyme sing-song, catching Mischief visibly off guard.",
+      "Mischief began round three with a chilling, deadpan psychological repetition, repeating the sentence 'I've killed him with passion' six consecutive times without blinking before dropping his verse.",
+      "Funky Dee completely derailed Mischief's fat-shaming angles in round three by voluntarily renaming himself 'Chunky Dee' and joking about his appetite for Jamaican bun and cheese on camera."
+    ],
+    coolMoments: [
+      "Funky Dee detonating the basement with his round two financial haymaker: 'Made around a hundred racks from a track / You are still living in your mum's flat!'",
+      "Mischief's ferocious, high-speed 'F.U.N.K. dot-dot' flow switch in round two, showcasing top-tier 140 BPM breath control and syncopation.",
+      "Mischief dramatically revealing Funky Dee's pre-clash phone call in round three, turning private backstage politics into a devastating battle angle.",
+      "Funky Dee's high-energy Crazy Titch tribute ('two straps all over your shoulders, blud, but I ain't talking dungarees!') delivering an electrifying throwback to classic early grime."
+    ],
+    postBattleContext: "Released in August 2019 as part of Lord of the Mics 8, Funky Dee vs Mischief stood out as one of the most animated, entertaining, and meme-worthy clashes of the modern LOTM era. The intense social media build-up and genuine friction translated into a battle that balanced pure grime technicality with laugh-out-loud entertainment. Following the release, Mischief earned widespread plaudits from the grime community for his tactical discipline, high work rate, and sharp flow, while Funky Dee's 'Borehamwood and Hertfordshire' and 'Chunky Dee' routines became viral staples on social media. The clash reinforced LOTM's reputation for unfiltered personality clashes.",
+    judgementSummary: {
+      "verdict": "MISCHIEF (LOTA Result)",
+      "summary": "Mischief earns the victory in an entertaining, action-packed Lord of the Mics 8 showdown. While Funky Dee dominated the comedic and crowd-pleasing moments with unforgettable jabs ('Borehamwood and Hertfordshire', 'Chunky Dee', '100 racks from a track'), Mischief was decisively superior in technical grime battle craft. Mischief maintained a relentless 140 BPM flow, executed complex spelling schemes, and landed the most potent conceptual angles by exposing pre-clash phone calls and interrogating Funky Dee's grime credentials. LOTA scores the battle 2-1 to Mischief."
+    }
+  },
+  "jafro-vs-dialect": {
+    winner: "Jafro",
+    resultSource: "lota",
+    battlePageEnabled: true,
+    views: "42k",
+    host: "Jammer (Lord of the Mics)",
+    clashSummary: "JAFRO and DIALECT collided in what is universally acclaimed as the technical and lyrical peak of Lord of the Mics 8 (2019). Hosted by Jammer alongside Treble and Ratty in the iconic LOTM basement setting, the battle served as a premier inter-regional showdown pitting Leicester's elite grime technician Jafro against Leeds battle rap royalty Dialect. Billed by Jammer prior to the opening bell as 'very, very high level, top gauge,' the clash lived up to the hype and more. Spanning three rapid-fire rounds over pounding 140 BPM instrumentals, the encounter delivered an extraordinary display of complex multi-syllabic grime syncopation, pop-culture wordplay, and devastating personal exposés that cemented the contest as an instant modern classic.\n\nRound one kicked off with Dialect launching a flurry of northern Yorkshire grime cadences, flexing dragon-fire delivery and threatening physical pressure. Jafro countered with immediate, cold-blooded technical brilliance: halting Dialect with his sharp-pencil scheme, stepping forward into battle with intricate anime and comic book imagery ('move like Deathstroke with an X-Bow from a text I wrote in a Death Note / This Shinigami has as much power as a mini army'), and matching his rival bar for bar. After Dialect fired back with personal jabs regarding Jafro's first kiss with his cousin and living in Kamikaze's shadow, Jafro delivered a scathing rebuke. Reminding the room of Dialect's 3-0 whitewash defeat against Opium on Lord of the Mics 6, Jafro unleashed his famous 'you div' barrage, mocking Dialect's wide hat size and tourist selfies with his partner Tori.\n\nRound two raised the stakes even further. Jafro seized complete control of the room, opening with Leicester pride ('ice in Lestos'), Teenage Mutant Ninja Turtles cellars, and a biting political scheme contrasting Brexit with Dialect's private life. He then unleashed the defining conceptual highlight of the round: a masterclass in homophone wordplay centered on Dialect's home city ('burying Leeds / taking a lead in Leeds / microphone leads'), followed by his famous French bilingual Nerf bar ('only time you're touching a nine is a Nerf, and by that I don't mean French'). Dialect battled back with fierce pride, executing his signature 'Jaguar' pronunciation breakdown, repping his Jamaican heritage ('Jamaican, I'll take home mutton') over Yorkshire pudding, and dropping rapid references to Thor from Asgard and Homer from Akbars.\n\nThe final round exploded into absolute pandemonium. Dialect came out swinging with Manga comparisons, Hagrid metaphors, and raw speed, before taking low blows at Jafro's family, wife, and mother. Jafro absorbed the barrage effortlessly and countered with a lethal three-stage dismantling. First, he activated 'savage mode' to dissect Dialect's clash record, declaring that Dialect had a BDSM fetish for getting flogged on camera and that the burns in his chest couldn't be soothed by Gaviscon. Second, he deconstructed Dialect's artistic limitations, proving that despite blazing flow velocity, Dialect lacked songwriting craft and relied heavily on empty fillers to mask speech impediments. Finally, Jafro dropped the ultimate financial haymaker: revealing Dialect's government name Marcus Brackleton and breaking down how Dialect squandered his £16,000 battle rap prize money, ended up busking on the street and needing a GoFundMe, contrasted with Jafro's successful music business and superior streaming numbers.\n\nLord of the Archives scores the clash a decisive, masterclass victory for JAFRO (3-0 / unanimous decision). While Dialect demonstrated elite flow velocity, veteran aggression, and undeniable regional grit, Jafro delivered one of the most complete, technically flawless, and surgically written performances in Lord of the Mics history. Combining intellectual anime metaphors, multi-layered homophones, and devastating financial and career dissections, Jafro proved why he is one of the premier lyricists of his generation.",
+    performanceAnalysis: [
+      {
+        performer: "Jafro",
+        overview: "Jafro delivered what is widely considered one of the greatest technical performances in the history of Lord of the Mics. Performing with supreme composure, impeccable diction at 140 BPM, and surgical ring generalship, the Leicester prodigy dismantled his opponent across every conceivable battle dimension. His writing seamlessly wove high-concept pop-culture lore (Deathstroke, Death Note, Shinigami, TMNT) with devastating real-world angles that completely demolished Dialect's battle record, songwriting legitimacy, and financial standing.",
+        lyricalThemes: "Pencil and razor sharpness; Deathstroke, crossbows, Death Note, and Shinigami power; marching on front lines; Dialect's 3-0 loss to Opium on LOTM 6; 'you div' refrains and Tori selfies; putting ice in Leicester ('Lestos'); TMNT cellars; Brexit and political double entendres; the legendary 'Burying Leeds / microphone leads' homophone scheme; Nerf and French 'neuf' nine-millimeter wordplay; Gaviscon and BDSM clash fetishes; speech impediments and filler lyrics; real name exposure (Marcus Brackleton); squandering the £16k prize money vs streaming royalties and business ownership.",
+        keyTechnicalHighlights: [
+          {
+            title: "Deathstroke & Death Note Shinigami Scheme",
+            description: "Jafro opens round one with a multi-layered comic and anime sequence, likening his lyrical execution to Ryuk's Death Note and DC's Deathstroke with flawless rhythm."
+          },
+          {
+            title: "Burying Leeds / Microphone Leads Homophone Barrage",
+            description: "A tour-de-force linguistic clinic in round two, twisting the phonetic homophones of Dialect's hometown (Leeds), electrical microphone cables (leads), and taking a leadership position."
+          },
+          {
+            title: "The 16 Grand & Business Deconstruction",
+            description: "The battle-ending financial audit in round three, exposing Marcus Brackleton's squandered £16,000 prize purse, GoFundMe campaign, and street busking against Jafro's commercial streaming revenue."
+          }
+        ]
+      },
+      {
+        performer: "Dialect",
+        overview: "Dialect arrived as a battle-tested veteran and one of the fastest, most rhythmic MCs in the UK. Bringing trademark Yorkshire grit and ferocious cadence speed, he peppered Jafro with rapid-fire road imagery, personal family jabs, and Northern pride. While his flow velocity and breath control remained world-class, his material relied heavily on generalized battle fillers that struggled to blunt the precision of Jafro's targeted conceptual haymakers.",
+        lyricalThemes: "Flares of a dragon and cannons; JDZ Media and drinking cuppas; cousin kiss rumors; Kamikaze's Leicester shadow; Quidditch broomsticks and shanks; Jaguar vs Jag-u-ar pronunciation debates; Frank Lampard strikes; Homer at Akbars and Thor from Asgard; Yorkshire pudding vs Jamaican mutton heritage; Manga comparisons; Hagrid; fetus and family insults; Malteser and peanut head shapes.",
+        keyTechnicalHighlights: [
+          {
+            title: "Jaguar Pronunciation Breakdown",
+            description: "Dialect contrasts northern vs southern accents, breaking down the phonetic pronunciation of 'Jaguar' with rapid-fire delivery and street authority."
+          },
+          {
+            title: "Yorkshire Pudding to Jamaican Mutton Heritage",
+            description: "Flips regional stereotypes about Yorkshire pudding by leaning into his Jamaican roots, declaring his appetite for battle through culinary metaphors."
+          },
+          {
+            title: "Kamikaze's Shadow & Cousin Attack",
+            description: "Fires off a biting personal angle in round one, accusing Jafro of living under the shadow of Leicester grime pioneer Kamikaze."
+          }
+        ]
+      }
+    ],
+    notableBars: [
+      {
+        performer: "Jafro",
+        theme: "Round 1 — Deathstroke & Death Note",
+        bar: "If I see you on ten toes, I'll move like Deathstroke with an X-Bow from a text I wrote in a Death Note! This Shinigami has as much power as a mini army!",
+        explanation: "Jafro combines DC Comics assassin Deathstroke with manga/anime Death Note, casting himself as a supernatural Shinigami wielding immense lyrical firepower."
+      },
+      {
+        performer: "Jafro",
+        theme: "Round 1 — LOTM6 Opium Defeat",
+        bar: "Cause last time you was on Lord of the Mics, you got spun and the score was like three-nil! I heard OPM made you whitey, so this clash here is to redeem your soul... but you're against me, so that's highly unlikely you div!",
+        explanation: "Jafro directly calls out Dialect's infamous 3-0 loss to Opium on Lord of the Mics 6, dismissing his attempt at career redemption."
+      },
+      {
+        performer: "Jafro",
+        theme: "Round 1 — Hat Size & Grime Scene",
+        bar: "Your hat size is that wide, you could wipe out the whole grime scene with a turn of your head!",
+        explanation: "A crowd-detonating visual insult mocking Dialect's oversized flat-cap aesthetic."
+      },
+      {
+        performer: "Dialect",
+        theme: "Round 1 — Kamikaze's Shadow",
+        bar: "Jafro's coming with bars like a rag-o, we're still living in Kamikaze's shadow!",
+        explanation: "Dialect targets Jafro's local standing in Leicester, claiming he will never escape the shadow cast by pioneer Kamikaze."
+      },
+      {
+        performer: "Jafro",
+        theme: "Round 2 — Burying Leeds / Microphone Leads",
+        bar: "I don't mean when a lead gets earthed, when I say right now I'm burying Leeds! How can I respect anybody from Leeds? You ain't even taking a lead in Leeds! You man is so dead on the mic, somebody should have jacked your microphone leads!",
+        explanation: "One of the greatest homophone schemes in battle rap history, alternating between Leeds (city), taking the lead (first place), and microphone leads (cables)."
+      },
+      {
+        performer: "Jafro",
+        theme: "Round 2 — Nerf & French Neuf",
+        bar: "Dialect don't spray lens, talks like he does but it don't make sense: cause the only time that you're touching a nine is a Nerf, and by that I don't mean French!",
+        explanation: "A brilliant bilingual pun playing on toy Nerf guns, 9mm firearms, and the French word for nine ('neuf')."
+      },
+      {
+        performer: "Dialect",
+        theme: "Round 2 — Jaguar Debate",
+        bar: "Round here man call it a Jaguar, this pussyhole calls it a Jaguar! Nigga, I've been in more wars than your grandpa!",
+        explanation: "Dialect weaponizes his northern dialect against Jafro's southern/midlands accent over luxury vehicle pronunciations."
+      },
+      {
+        performer: "Dialect",
+        theme: "Round 2 — Yorkshire Pudding & Mutton",
+        bar: "From Yorkshire, but I ain't no pudding! I'm from a cold place, but I ain't no Russian... I'm a Jamaican, I'll take home mutton!",
+        explanation: "Dialect embraces his dual heritage, contrasting Yorkshire culinary staples with Jamaican curry mutton."
+      },
+      {
+        performer: "Jafro",
+        theme: "Round 3 — Gaviscon & BDSM Clash Fetish",
+        bar: "Clashing Jafro's lungs, you don't recover when the damage is done, cause there's a burn in your chest and it can't be suppressed by Gaviscon! You must have a BDSM fetish where you love getting flogged in clashes, don!",
+        explanation: "Jafro links heartburn medication Gaviscon to the lyrical heat in his opponent's chest, before ridiculing Dialect's repeated battle losses."
+      },
+      {
+        performer: "Jafro",
+        theme: "Round 3 — Songwriting Weakness & Speech Impediment",
+        bar: "Dialect ain't got a decent song, cause songwriting is a weakness he has! All these filler lyrics couldn't make a scratch on Jaff: but that's Jaff killing off Dialect more than speech impediments ever can have!",
+        explanation: "Jafro critiques Dialect's lack of musical streaming catalog and reliance on empty filler bars to compensate for flow stumbles."
+      },
+      {
+        performer: "Jafro",
+        theme: "Round 3 — The 16 Grand Financial Audit",
+        bar: "If you thought that I would get spun by a guy named Marcus Brackleton, then you're dumb now! So let's take a look at this 16 grand: so I've set up a GoFundMe page, I would have just used the 16 grand! Oh wait, Dialect can't do that, Dialect wasted the 16 grand! I would have took that 16 grand and invested in some business, man!",
+        explanation: "The clash's defining coup de grâce: Jafro exposes Dialect's government name (Marcus Brackleton) and interrogates how he squandered a £16k prize purse to end up busking."
+      }
+    ],
+    oddMoments: [
+      "Jammer had to pause and reset between rounds two and three, openly debating whether the clash would need a bonus round on the spot because the quality of bars was overflowing.",
+      "Dialect launched into a lengthy, bizarrely personal string of insults in round three targeting Jafro's unborn fetus, mother, and claiming Jafro's wife was cheating with him.",
+      "Jafro repeatedly addressing Dialect with the dry East Midlands insult 'you div' with deadpan delivery throughout his first round.",
+      "Jammer repeatedly hyping the room between rounds by shouting 'Gear two, round two!' and warning that Jafro was 'taking over the house.'"
+    ],
+    coolMoments: [
+      "Jafro unveiling the immortal 'Deathstroke with an X-Bow from a text I wrote in a Death Note' multi-syllabic anime scheme in round one, instantly commanding the basement.",
+      "Jafro delivering the flawless 'Burying Leeds / taking a lead in Leeds / microphone leads' homophone clinic in round two, executing each switch without missing a beat.",
+      "The bilingual 'touching a nine is a Nerf, and by that I don't mean French' punchline landing with pin-drop clarity.",
+      "Jafro closing the entire clash by dropping Dialect's government name Marcus Brackleton and delivering the devastating '16 grand / GoFundMe / businessman' financial lecture to seal the win."
+    ],
+    postBattleContext: "Released in August 2019 on Lord of the Mics 8, Jafro vs Dialect is widely celebrated by fans and critics as one of the finest pure grime clashes ever filmed on the platform. The encounter served as a definitive showcase of how modern grime had evolved from raw dungeon aggression into sophisticated, multi-layered literary warfare. Jafro's performance became a benchmark for technical precision, propelling him to national prominence as one of the UK's most respected lyricists and leading to high-profile appearances across BBC 1Xtra and national festival circuits. For Dialect, the battle reinforced his reputation as an elite flow machine while cementing his status as one of northern battle rap's most enduring figures.",
+    judgementSummary: {
+      "verdict": "JAFRO (LOTA Result)",
+      "summary": "Jafro captures an emphatic, unanimous victory in what is widely celebrated as the standout clash of Lord of the Mics 8. While Dialect exhibited astonishing cadence speed, fierce regional pride, and veteran battle resilience, Jafro operated on a superior lyrical plane. Jafro systematically dismantled Dialect across all three rounds: deploying mind-bending anime metaphors (Deathstroke / Death Note), executing a timeless homophone clinic on Dialect's hometown ('burying Leeds / microphone leads'), and landing the ultimate knockout blow by exposing Marcus Brackleton's squandered £16,000 prize purse against his own flourishing music business. LOTA scores the contest 3-0 to Jafro in an all-time classic."
+    }
   }
 };

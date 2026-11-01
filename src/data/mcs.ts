@@ -398,7 +398,8 @@ export const mcs: MC[] = [
   {
     "id": "grams",
     "slug": "grams",
-    "name": "GRAMS",
+    "name": "MARNI GRAMZ",
+    "nickname": "Grams",
     "battles": 14,
     "wins": 1,
     "losses": 5,
@@ -1172,8 +1173,21 @@ mcs.push(
     losses: 0,
     style: "Versatile",
     image: `/${name.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`,
-    bio: "PenGame Academy artist.",
+    bio: id === "trickyy" ? "PenGame Academy artist, also competing as Tricksta in Clash Money." : "PenGame Academy artist.",
+    ...(id === "trickyy" ? { nickname: "Tricksta" } : {}),
   })),
+  {
+    id: "jm-clash-money",
+    slug: "jm-clash-money",
+    name: "JM",
+    nickname: "Clash Money",
+    battles: 7,
+    wins: 0,
+    losses: 0,
+    style: "Grime",
+    image: "/hero-archives-emblem.png",
+    bio: "Clash Money MC from the 2015–2016 era, competing across main stage and Trials events.",
+  },
 );
 
 const season2025McProfiles = [
@@ -1312,7 +1326,8 @@ const summarizeMcFromBattles = (mc: MC, battles: Battle[], fallbackBio: string):
   const analysis = mcBattles
     .flatMap((battle) => battle.performanceAnalysis ?? [])
     .find((item) => item.performer.toLowerCase() === mc.name.toLowerCase());
-  const theme = analysis?.lyricalThemes.split(",")[0]?.trim().toLowerCase();
+  const rawTheme = analysis?.lyricalThemes ? analysis.lyricalThemes.split(/[,;]/)[0]?.trim().toLowerCase() : undefined;
+  const theme = rawTheme && rawTheme.length <= 60 ? rawTheme : undefined;
   const record = mc.wins + mc.losses > 0 ? `${mc.wins}-${mc.losses}` : `${mcBattles.length} battle`;
   const platform = mcBattles.some((battle) => battle.theme === "gzone") ? "Gzone" : "PenGame";
   const seasonText = seasons.length > 0 ? ` across ${seasons.map(formatMcSeasonLabel).join(", ")}` : "";

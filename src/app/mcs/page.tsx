@@ -19,8 +19,8 @@ type SortOrder = "asc" | "desc";
 
 export default function MCIndex() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [sortField, setSortField] = useState<SortField>("name");
-  const [sortOrder, setSortOrder] = useState<SortOrder>("asc");
+  const [sortField, setSortField] = useState<SortField>("wins");
+  const [sortOrder, setSortOrder] = useState<SortOrder>("desc");
 
   const filteredAndSortedMCs = useMemo(() => {
     return allMcs
@@ -34,6 +34,20 @@ export default function MCIndex() {
           comparison = a.name.localeCompare(b.name);
         } else {
           comparison = (a[sortField] || 0) - (b[sortField] || 0);
+          if (comparison === 0) {
+            if (sortField === "wins") {
+              const battleDiff = (a.battles || 0) - (b.battles || 0);
+              if (battleDiff !== 0) return sortOrder === "asc" ? battleDiff : -battleDiff;
+              const lossDiff = (a.losses || 0) - (b.losses || 0);
+              if (lossDiff !== 0) return sortOrder === "asc" ? -lossDiff : lossDiff;
+              return a.name.localeCompare(b.name);
+            }
+            if (sortField === "losses") {
+              const battleDiff = (a.battles || 0) - (b.battles || 0);
+              if (battleDiff !== 0) return sortOrder === "asc" ? battleDiff : -battleDiff;
+              return a.name.localeCompare(b.name);
+            }
+          }
         }
         return sortOrder === "asc" ? comparison : -comparison;
       });
@@ -44,7 +58,7 @@ export default function MCIndex() {
       setSortOrder(sortOrder === "asc" ? "desc" : "asc");
     } else {
       setSortField(field);
-      setSortOrder("desc"); // Default to desc for stats
+      setSortOrder(field === "name" ? "asc" : "desc"); // Default to asc for name, desc for stats
     }
   };
 

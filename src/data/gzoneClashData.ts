@@ -1,4 +1,4 @@
-import type { Battle } from "./battleTypes";
+﻿import type { Battle } from "./battleTypes";
 
 type GzoneClashRecord = Partial<Pick<
   Battle,
@@ -2234,61 +2234,61 @@ export const gzoneClashData = {
     ],
     "notableBars": [
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 1 — Opening rhyme stack",
         "bar": "You're dirty, nerdy... way too curvy... nursery... Burberry... can't do a burpee.",
         "explanation": "The repeated ending lets GRAMS move rapidly through hygiene, appearance, age, fashion and fitness without resetting his cadence."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 1 — Kirby visual",
         "bar": "Watch this man turn pink and go flying like Kirby.",
         "explanation": "Kirby is the pink Nintendo character known for floating. GRAMS uses both colour and movement to make the impact easy to picture."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 1 — Reading and Grimstead",
         "bar": "Make your mother tell you goodnight in Reading, then your body's getting found down Grimstead.",
         "explanation": "Goodnight introduces sleep or death, while Reading and Grimstead supply locations and the repeated ending for the threat."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 1 — Viking dethroning",
         "bar": "He's a Viking — I'm gonna dethrone him.",
         "explanation": "DEENO's Viking identity implies a ruler or warrior. Dethrone removes that status and states GRAMS's competitive objective in one word."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Arthur and disaster",
         "bar": "You ain't a Viking, you're not Arthur... that kind of dipping is a natural disaster.",
         "explanation": "Arthur invokes a legendary king, keeping the attack in heroic history before natural disaster becomes the exaggerated outcome of DEENO's behaviour."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Pastor and holy water",
         "bar": "You want a blessing? Go be a pastor... you just had holy water. / Made Ginger pray — knocked-down ginger.",
         "explanation": "Blessing, pastor, holy water and pray form a religious chain. Knocked-down ginger then changes ginger into the name of a door-knocking game."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Sun and eclipse",
         "bar": "You gingers are facing the sun... you have to resist the social eclipse.",
         "explanation": "Sun activates the red-hair and burning angle, while eclipse keeps the solar language and turns exclusion into a social event."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 3 — Prince Harry and Matilda",
         "bar": "Could've been a prince like Harry... mummy gave you all the cake and now you're like that big kid in Matilda.",
         "explanation": "Prince Harry supplies royalty; Matilda supplies Bruce Bogtrotter's forced cake scene. Both references target status and appearance through familiar British images."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 3 — Mic and bike wheel-up",
         "bar": "On a mic you might get a reload, but on a bike you can't get a wheel-up.",
         "explanation": "A reload repeats a successful bar, while a wheel-up can mean a rewind or bicycle wheelie. GRAMS shifts from performance praise to physical ability."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 3 — Fiona, Daphne and Ariel",
         "bar": "Princess Fiona... Daphne Blake... who knew Ariel's boat would've just got sunk?",
         "explanation": "The sequence moves across Shrek, Scooby-Doo and The Little Mermaid. Ariel's boat adds a final plot image and defeat metaphor."
@@ -2402,61 +2402,61 @@ export const gzoneClashData = {
     ],
     "notableBars": [
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 1 — Fighter comparison",
         "bar": "That's a good fight: same weight, same height, same rings, same size.",
         "explanation": "The repeated same presents the matchup as evenly matched physically. Rings connects relationship jewellery and the combat setting."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 1 — T-Rex teeth",
         "bar": "You got the teeth of a Tyrannosaurus Rex.",
         "explanation": "The dinosaur comparison exaggerates the size and shape of TAPPED24's teeth into a simple visual punch."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Headlock and desktop",
         "bar": "Put him in a headlock; he's playing games, desktop. / Think you're next up but can't do ten press-ups.",
         "explanation": "Headlock begins physical combat, desktop turns behaviour into gaming and press-ups tests fitness. Next up and press-ups preserve the sound."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Crack under pressure",
         "bar": "Crack babies crack under pressure.",
         "explanation": "Crack repeats first as a drug reference and then as breaking under stress. The mirrored wording makes the insult compact and audible."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Coroner and Ed Gein",
         "bar": "If the coroner don't get around fast, they might see TAPPED handling a body like Ed Gein.",
         "explanation": "A coroner examines bodies and Ed Gein is historically associated with crimes involving corpses. The reference completes a dark body-handling image."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Black Will Smith",
         "bar": "Get your white girlfriend — I'm a Black Will Smith, I'm Hitch.",
         "explanation": "Will Smith stars in Hitch as a relationship adviser. GRAMS uses the film title to position himself as the alternative partner."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Tiny T and Vandal T",
         "bar": "Don't call him TAPPED no more, that's Tiny T... everybody knows B2B, now I'm introducing Vandal T.",
         "explanation": "Tiny T reduces TAPPED24's stature. Vandal T changes the same initial into a new identity built around alleged destructive behaviour."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Freebie drip check",
         "bar": "Show got sponsored by a clothes brand... how you use freebies for a drip check?",
         "explanation": "Drip means fashion and check means assessment. GRAMS argues that sponsored clothing cannot prove personal wealth or style."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Addressed and dressed",
         "bar": "Why you gonna get addressed when you can't even dress?",
         "explanation": "Addressed means confronted, while dress shifts the same sound into clothing. The line condenses the image angle into one near-homophone."
       },
       {
-        "performer": "GRAMS",
+        "performer": "Marni Gramz",
         "theme": "Round 2 — Step and Teflon",
         "bar": "Get stepped on... stick to the truth or get checked on. / Don't step wrong... they all die if they don't cop Teflon.",
         "explanation": "Step repeats as dominance and warning, checked means challenged, and Teflon supplies protection from the final weapon image."
@@ -3860,5 +3860,147 @@ export const gzoneClashData = {
         "icon": "📋"
       }
     ]
+  },
+  "btizz-vs-grams": {
+    "clashSummary": "Episode 30 brought a long-awaited grudge match to the Peacock Gymnasium in London, hosted by Ginga Jay. Ginga Jay opened the event by explaining that Btizz had been publicly calling out Marni Gramz for five to six months after Gramz repeatedly declined the matchup, until recent back-and-forth remarks finally drew Gramz out of his hiatus to settle the dispute inside the GZone ring.\n\nMarni Gramz opened round one with multiple sound checks and vocal adjustments, insisting the engineers turn his levels up properly. Once locked in over the beat, Gramz set the tone with sharp visual and character-based comedy: Rihanna's umbrella, Edna Mode ('no capes, no pressure'), poking fun at Btizz's haircut ('shroom top', 'barber must cut round bowls'), and the baby Guinness comparison. He attacked Btizz's street credibility, bringing Chinese takeout, egg fried rice, and chip-shop wordplay alongside jokes about black bean pots and soy sauce, prompting laughter and strong early energy in the room.\n\nBtizz responded in round one with high energy, brandishing a large whole honeydew melon as a stage prop to match his bright green jacket. Btizz delivered multi-rhymes referencing Crystal Palace, Yannick Bolasie's five-star skill rainbow flick, bank card balance, and his Birmingham 0121 heritage. He launched personal attacks questioning Gramz's physical standing while teasing him about earlier scene altercations and the infamous 'slap me again' controversy. Ginga Jay and Btizz joked about placing the melon in the 'GZone archive' for a future season-end museum auction, and Lou officially took custody of the prop.\n\nIn round two, Marni Gramz maintained the pressure following further sound desk adjustments. He targeted Btizz's authenticity and hunger for views, labelling him a permanent capper and an unserious battler. Gramz mocked Btizz's heritage questions, brought references to Venus star power, and delivered the line 'facing the grams ain't smart for a man.' He ridiculed Btizz's market clothing and lack of real-world employment before telling him to get a job.\n\nBtizz faced microphone level confusion in his second round, prompting multiple false starts and debates with the sound desk. Once underway, Btizz attacked Gramz's age ('how are you 35 for the past 10 years?'), his inability to grow back his dreadlocks, and recalled the physical confrontation from Gramz's clash with Tapped24. He used aggressive wordplay comparing Gramz to cats, referenced Shawn Mendes, and dismissed Gramz's PenGame legacy as washed.\n\nRound three saw Marni Gramz open with theatrical flair, instructing the crowd to 'bow our heads and raise our hands' in mock solemnity. Gramz explored a morbid death scheme, accusing Btizz of a dark obsession with death, citing Death Note, and joking about buying an Infinity Gauntlet on TikTok to snap Btizz's family back to reality. He wove Ouija board, psychic, and Kanye West sacrifice angles into a darkly comedic cemetery routine that drew the biggest laughs of the night.\n\nBtizz closed with an energetic, grime-heavy third round built around his 'despicable' cadence. He attacked Gramz's six-year lack of hair growth, dropped rapid multi-syllables about secondary school, Fred Perry, and the Flintstones, and challenged Gramz's Jamaican phrasing against his natural accent. He repeatedly insisted 'Grams, you are not the guy,' before Ginga Jay called for the instrumental to ride out so the entire room could skank and celebrate the summer energy.\n\nHost Ginga Jay initiated the official crowd decibel check at the conclusion of the battle. Calling first for Btizz in the blue corner, the room offered polite appreciation. Calling next for Marni Gramz in the red corner, the Peacock Gymnasium erupted in a decisive roar of cheers and shouting. Ginga Jay declared: 'Make some noise for Marni is the winner! Make some noise for Marni is back!' while directing viewers to the YouTube comments to voice their opinions.\n\nHoneydew Melon\n\nUsed by Btizz",
+    "props": [
+      {
+        "name": "Honeydew Melon",
+        "user": "Btizz",
+        "icon": "🍈"
+      }
+    ],
+    "performanceAnalysis": [
+      {
+        "performer": "Btizz",
+        "overview": "Btizz brought relentless aggression, athletic delivery, and memorable stage props to a matchup he had sought for half a year. Bringing a whole honeydew melon onto the stage to match his green jacket was one of the visual highlights of the event, generating immediate comedic engagement with Ginga Jay and the crowd.\n\nHis technical delivery was at its best during the high-tempo grime pockets. The Bolasie five-star rainbow flick, 0121 Birmingham heritage, and 'slap me again' callback gave his first round strong regional identity and sharp scene awareness. In his third round, the 'despicable' cadence and rapid-fire rhymes kept the energy in the room lively until the final beat ride-out.\n\nHis primary drawbacks were soundboard disruptions and inconsistent punchline clarity. Microphone level confusion in round two broke his momentum, and several of his extended shock lines about family and cats arrived too scattered to overturn Gramz's commanding comedic presence.",
+        "lyricalThemes": "0121 Birmingham pride, Yannick Bolasie rainbow flick, honeydew melon prop, Crystal Palace, slap me again callback, dreadlocks growth, age attacks, secondary school, Fred Perry, Flintstones, despicable flow.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round one."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "High-tempo grime cadence and prop comedy."
+          },
+          {
+            "title": "Best visual moment",
+            "description": "Brandishing the matching honeydew melon and passing it to the GZone archive."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Bolasie five-star skill / rainbow flick / Crystal Palace multi-rhyme run."
+          }
+        ]
+      },
+      {
+        "performer": "Marni Gramz",
+        "overview": "Marni Gramz delivered a commanding, charismatic performance that proved his experience on the battle stage. Returning after months of decline, Gramz controlled the room through superior pacing, effortless humor, and razor-sharp character deconstruction.\n\nHis opener dismantled Btizz's appearance and persona with precision. The Edna Mode ('no capes, no pressure'), round-bowl haircut, baby Guinness, and Chinese takeout schemes landed with immediate clarity and drew big laughs from the audience. In round two, he maintained pressure by exposing Btizz as a view-hungry capper and declaring 'facing the grams ain't smart for a man.'\n\nHis third round was the comedic peak of the clash. Opening with mock reverence ('bow our heads and raise our hands'), Gramz flipped Btizz's morbid aesthetic into an absurd Death Note, TikTok Infinity Gauntlet, and Ouija board routine. His theatrical delivery and sharp comedic timing easily won over the room, securing a decisive crowd-vote victory.",
+        "lyricalThemes": "Edna Mode, no capes, bowl haircut, baby Guinness, egg fried rice / soy sauce, permanent cap, view hunger, Venus star power, Death Note, TikTok Infinity Gauntlet, Ouija board, Kanye West sacrifice angle.",
+        "keyTechnicalHighlights": [
+          {
+            "title": "Best round",
+            "description": "Round three."
+          },
+          {
+            "title": "Strongest trait",
+            "description": "Theatrical comedy, character deconstruction, and room command."
+          },
+          {
+            "title": "Best angle",
+            "description": "Mushroom-head haircut and morbid Death Note / Ouija board deconstruction."
+          },
+          {
+            "title": "Best technical section",
+            "description": "Mock-prayer / Infinity Gauntlet / Ouija board sequence in round three."
+          }
+        ]
+      }
+    ],
+    "notableBars": [
+      {
+        "performer": "Marni Gramz",
+        "theme": "Appearance",
+        "bar": "Trim that you got him looking like Edna. No capes, no pressure.",
+        "explanation": "References Edna Mode from The Incredibles, mocking Btizz's haircut and styling."
+      },
+      {
+        "performer": "Marni Gramz",
+        "theme": "Appearance",
+        "bar": "Got a fresh trim, but why is your hair so rounded? Your barber must cut round bowls.",
+        "explanation": "A direct visual jab at Btizz's rounded mushroom-bowl haircut."
+      },
+      {
+        "performer": "Marni Gramz",
+        "theme": "Wordplay",
+        "bar": "Tis looks just like a baby Guinness. All we got to do is swap around the white and the black.",
+        "explanation": "Visual comparison to a baby Guinness shot, contrasting skin tone and styling."
+      },
+      {
+        "performer": "Marni Gramz",
+        "theme": "Wordplay",
+        "bar": "Facing the grams ain't smart for a man.",
+        "explanation": "A clean double entendre playing on his battle name and metric weight / drug measurements."
+      },
+      {
+        "performer": "Marni Gramz",
+        "theme": "Concept",
+        "bar": "You spend your teenage years in a house disjointed, got an abnormal obsession for death by this mushroom head boy.",
+        "explanation": "Opens his third-round deconstruction of Btizz's morbid lyrical themes."
+      },
+      {
+        "performer": "Marni Gramz",
+        "theme": "Humour",
+        "bar": "Snap them back to reality. Don't battle me, you lost your sanity.",
+        "explanation": "Jokes about buying an Infinity Gauntlet on TikTok to snap Btizz's reality back into place."
+      },
+      {
+        "performer": "Marni Gramz",
+        "theme": "Dark Comedy",
+        "bar": "To chat to his mum he got to back out the Ouija.",
+        "explanation": "A dark comedic punch using an occult Ouija board setup."
+      },
+      {
+        "performer": "Btizz",
+        "theme": "Football / Reference",
+        "bar": "Rainbow flick, five star like Yannick.",
+        "explanation": "References former Crystal Palace winger Yannick Bolasie, famous for his five-star skill moves and FIFA rating."
+      },
+      {
+        "performer": "Btizz",
+        "theme": "Heritage",
+        "bar": "You got scared in Birmingham... when a man say 0121.",
+        "explanation": "Represents his Birmingham heritage using the city's 0121 area code to claim street intimidation."
+      },
+      {
+        "performer": "Btizz",
+        "theme": "Status / Age",
+        "bar": "How are you 35 for the past 10 years? You should be screaming next stop.",
+        "explanation": "Attacks Gramz's age and scene longevity, suggesting he has been claiming the same age for a decade."
+      },
+      {
+        "performer": "Btizz",
+        "theme": "Scene History",
+        "bar": "After the show we was doing up slap me, slap me again.",
+        "explanation": "Recalls the infamous physical altercation that followed Gramz's clash with Tapped24."
+      },
+      {
+        "performer": "Btizz",
+        "theme": "Delivery",
+        "bar": "In six years your hair ain't grew.",
+        "explanation": "Pokes fun at Gramz's dreadlocks failing to grow back across multiple years."
+      },
+      {
+        "performer": "Btizz",
+        "theme": "Status",
+        "bar": "Trust me, Grams, you are not the guy.",
+        "explanation": "A direct, repeated dismissal denying Gramz top-tier status."
+      }
+    ],
+    "judgementSummary": {
+      "verdict": "Marni Gramz wins",
+      "summary": "Official result: Marni Gramz wins by crowd decision. Host Ginga Jay conducted a decibel check between the blue corner (Btizz) and the red corner (Marni Gramz). The room erupted with overwhelming noise and cheers for Gramz, leading Ginga Jay to declare: 'Make some noise for Marni is the winner! Make some noise for Marni is back!' Archive consensus: Marni Gramz 3-0 Btizz, propelled by sharp comedic writing, effortless crowd connection, and a standout third round."
+    }
   }
 } satisfies Record<string, GzoneClashRecord>;

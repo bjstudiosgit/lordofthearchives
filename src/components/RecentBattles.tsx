@@ -88,22 +88,22 @@ export default function RecentBattles() {
                 </div>
 
                 <dl className="mt-5 grid grid-cols-3 gap-3">
-                  <PlatformStat value={archive.coverage.total} label="Indexed" />
+                  <PlatformStat value={archive.coverage.total} label="Archived" />
                   <PlatformStat
                     value={archive.coverage.complete > 0 ? archive.coverage.complete : archive.coverage.inProgress}
                     label={archive.coverage.complete > 0 ? "Detailed" : "In research"}
                   />
                   <PlatformStat
                     value={archive.coverage.complete > 0 ? archive.coverage.inProgress : "Live"}
-                    label={archive.coverage.complete > 0 ? "In research" : "Battle index"}
+                    label={archive.coverage.complete > 0 ? "In research" : "Battle archive"}
                   />
                 </dl>
 
                 <div className="mt-7 flex flex-col gap-5 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
                   <p className="text-xs leading-5 text-zinc-500">
                     {archive.coverage.complete > 0
-                      ? `${archive.coverage.percent}% of indexed battles have a completed research entry.`
-                      : "The battle index is live; detailed research entries are now being added."}
+                      ? `${archive.coverage.percent}% of archived battles have a completed research entry.`
+                      : "The battle archive is live; detailed research entries are now being added."}
                   </p>
                   <Link
                     href={archive.href}

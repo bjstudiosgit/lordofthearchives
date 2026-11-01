@@ -23,9 +23,13 @@ export interface PrizefighterEdition {
 
 const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
-export const getPrizefighterBattleSlug = (
+export const getLegacyPrizefighterBattleSlug = (
   edition: PrizefighterEdition, battle: PrizefighterEdition["battles"][number],
 ) => slugify(`${edition.era}-${edition.edition}-${edition.year}-${battle.side1}-vs-${battle.side2}-${battle.round}`);
+
+export const getPrizefighterBattleSlug = (
+  _edition: PrizefighterEdition, battle: PrizefighterEdition["battles"][number],
+) => slugify(`${battle.side1}-vs-${battle.side2}`);
 
 type Matchup = [string, string, string, ("1v1" | "Multi-MC")?, string?];
 const edition = (
@@ -128,15 +132,20 @@ export const prizefighterEditions: PrizefighterEdition[] = [
 ];
 
 export const prizefighterBattleRedirects: Record<string, string> = {
-  "ozone-season-2-2024-origin-vs-haughton-opening-round": "classic-prizefighter-1-season-2-2015-origin-vs-haughton-opening-round",
-  "ozone-season-4-2025-arkay-vs-7wxve-round-unverified": "ozone-season-4-2025-arkay-vs-7wxve-semi-final",
-  "ozone-season-4-2025-therealrp-vs-ritchie-rich-round-unverified": "ozone-season-4-2025-therealrp-vs-ritchie-rich-opening-round",
+  ...Object.fromEntries(prizefighterEditions.flatMap((edition) => edition.battles.map((battle) => [
+    getLegacyPrizefighterBattleSlug(edition, battle), getPrizefighterBattleSlug(edition, battle),
+  ]))),
+  "ozone-season-2-2024-origin-vs-haughton-opening-round": "origin-vs-haughton",
+  "ozone-season-4-2025-arkay-vs-7wxve-round-unverified": "arkay-vs-7wxve",
+  "ozone-season-4-2025-therealrp-vs-ritchie-rich-round-unverified": "therealrp-vs-ritchie-rich",
 };
 
 export const prizefighterBattles = prizefighterEditions.flatMap((edition) =>
   edition.battles.map((battle) => {
     const slug = getPrizefighterBattleSlug(edition, battle);
-    const clashRecord = prizefighterClashData[slug] ?? {};
+    const clashRecord = prizefighterClashData[getLegacyPrizefighterBattleSlug(edition, battle)]
+      ?? prizefighterClashData[slug]
+      ?? {};
     return {
       ...battle,
       era: edition.era,

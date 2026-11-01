@@ -1479,3 +1479,509 @@ prizefighterClashData["ozone-season-4-2025-therealrp-vs-arkay-final"] = {
   ],
   postBattleContext: "TheRealRP was crowned the Ozone Prizefighter Season 4 Champion, earning qualification for the elite 'winner of winners' tournament. Immediately following this 1v1 final, the studio rolled straight into the chaotic Season 4 Prizefighter Rumble featuring Arkay, TheRealRP, 7wxve, Jynx, and Korrupt Citizen.",
 };
+
+prizefighterClashData["ozone-season-3-2024-jlmz-vs-rygwan-semi-final"] = {
+  winner: "Jlmz",
+    resultSource: "official",
+    score: "2-1 (Official Decision)",
+    views: "1k",
+    host: "Limbs (Prizefighter Live / Ozone Media)",
+    judges: ["Haz", "In-Studio Panel", "Foyah"],
+    judgementSummary: {
+      verdict: "Jlmz wins 2-1 (Official Decision)",
+      summary: "Jlmz secured a hard-fought 2-1 decision from the judging panel (Haz, the In-Studio Panel, and Foyah calling in from work) to punch his ticket to the Prizefighter Season 3 Grand Final against Trickyy. While Rygwan claimed the opening round across multiple cards with intricate, high-cadence grime flows and creative Scunthorpe/Vulcan imagery, Jlmz completely shifted the trajectory of the battle from Round 2 onward. Armed with ruthless directness, comedic punches, and cutting personal insults (unmasking Rygwan as Ryan, mocking his bowl haircut, and delivering the Stephen Hawking and Calfreezy roasts), Jlmz swept Round 3 with a blistering tournament call-out scheme and a lethal flip on Rygwan's 'Ryan goes horse' angles.",
+    },
+    clashSummary: "JLMZ and RYGWAN squared off in the high-stakes Semi-Final of Ozone Prizefighter Season 3 (2024), presented by host Limbs on Prizefighter Live and sponsored by Call Rummins Drinks and Midlands Music Scene. With a coveted spot in the Grand Final against Trickyy on the line, the clash brought together two hungry, polar-opposite stylists: Jlmz, bringing blunt, aggressive comedic punches, heavy personal disrespect, and direct ring generalship, against Rygwan, celebrated for intricate, rapid-fire northern grime syncopation, complex rhyme schemes, and high-velocity flows.\n\nRound one ignited with Jlmz taking the microphone first, wasting no time unloading raw, personal haymakers. He took direct aim at Rygwan's lifestyle and finances, accusing him of ducking fuel money on lifts, alleging hard drug abuse, and insulting Rygwan's partner Choice. He followed with his 'small fry / Sprite' cadence and a scathing routine mocking Rygwan couch-surfing for free dinners and scrolling through Tinder for mingers. Rygwan responded with a blistering, technical clinic over the 140 BPM instrumental. Countering with razor-sharp cadence switches, Rygwan dubbed Jlmz 'Fuzzers' bodyguard,' mocked him as a diabetic in second-hand trainers older than his dad, and uncorked a hilarious rumor alleging Jlmz had a tattoo on his backside reading 'WOW.' Rygwan closed with a breathless scheme likening Jlmz to an onion-smelling Russian from London before dropping a heavy Vulcan bomber punchline, sweeping Round 1 on the judges' scorecards.\n\nRound two proved to be the turning point of the battle. Jlmz opened with suffocating aggression, transitioning from rapid road imagery into a deeply personal offensive. Unmasking Rygwan's legal first name as Ryan, Jlmz attacked his family dynamics, alleged he was adopted, and took ruthless comedic jabs at his appearance—comparing him to a bowl-cut sad man resembling YouTuber Calfreezy, Stephen Hawking, and Tracey Beaker. He urged Ryan to 'get a job and get off the dole' while delivering foul-mouthed roasts about his partner. Rygwan fought back gallantly with dense, multi-syllabic schemes referencing Charlie Sloth, Tate Brown, and alphabet spaghetti, before launching his standout 'Ryan goes horse' barrage, accusing Jlmz of wearing nappies like a poster boy for Dappy. However, Rygwan's volume began to wear down against Jlmz's direct, crowd-shaking punches.\n\nRound three delivered the decisive blow. Sensing the momentum in the room, Jlmz unleashed a masterclass in tournament awareness. He started by bragging about his past victory over Relapse ('I spun Relapse, how is he gonna talk like he is some Prizefighter Lord?'), before unleashing a rapid-fire hit list calling out everyone who ducked the tournament—mocking Barz, Kontact, Bossman, J.Dot, and Dead. He then delivered the fatal counter, flipping Rygwan's 'Ryan goes horse' hook directly back onto him ('Ryan goes hard on a G! Ryan goes hard on a gram! Ryan goes hard on a slag!'). Rygwan tried to rally in the dying seconds with complex internal rhyming schemes touching on temperature ketones, pillars, and stones, but his intricate flows lacked the blunt-force impact needed to overcome Jlmz's commanding final verse.\n\nThe judging panel delivered their verdict in favor of JLMZ. Judge Haz admitted to struggling through the close opening rounds, but noted that Jlmz's direct humor and explosive third round sealed the win. The in-studio judge scored Round 1 to Rygwan and Round 3 to Jlmz with Round 2 a dead heat, giving the overall edge to Jlmz for his directness. Foyah, calling in remotely from his workplace, officially confirmed the decision, scoring the contest 2-1 to Jlmz (Round 1 to Rygwan, Rounds 2 and 3 to Jlmz). Jlmz officially advanced to the Prizefighter Season 3 Grand Final against Trickyy.",
+    performanceAnalysis: [
+      {
+        performer: "Jlmz",
+        overview: "Jlmz delivered a masterclass in blunt, direct battle rap psychology and comedic crowd control. While Rygwan possessed faster and more complex multi-syllabic grime cadences, Jlmz understood how to make every single line bite with personal malice and humor. His ability to adjust after losing Round 1, unmask Rygwan's real name (Ryan), and execute an electrifying tournament-wide call-out verse in Round 3 ultimately secured his place in the Grand Final.",
+        lyricalThemes: "Fuel money and couch-surfing; Tinder mingers; Ryan legal name exposure; adopted at the back of the flats; bowl-cut and Calfreezy comparisons; Stephen Hawking disability humor; getting off the dole and working in a factory; spinning Relapse; tournament call-outs (Barz, Kontact, Bossman, J.Dot, Dead); flipping the 'Ryan goes horse / hard' hook.",
+        keyTechnicalHighlights: [
+          {
+            title: "Ryan Bowl-Cut & Calfreezy Roast",
+            description: "Delivered in Round 2, Jlmz combines personal name usage with devastating visual comedy, mocking Rygwan's haircut and internet persona.",
+          },
+          {
+            title: "Tournament Roster Call-Out Blitz",
+            description: "Jlmz takes command of Round 3 by running through the entire Prizefighter tournament field, roasting competitors who pulled out or lost.",
+          },
+          {
+            title: "The 'Ryan Goes Hard' Rebuttal",
+            description: "In Round 3, Jlmz directly flips Rygwan's 'horse' hook into a rapid-fire rhyming scheme that lands with heavy finality.",
+          },
+        ],
+      },
+      {
+        performer: "Rygwan",
+        overview: "Rygwan demonstrated elite, blistering 140 BPM grime flow mechanics and dense internal rhyming schemes throughout the clash. His Round 1 was widely regarded as the most technically impressive stanza of the battle, executing breathless switches and witty humor. However, as the contest wore on, his material leaned into intricate flow patterns rather than damaging direct rebuttals, allowing Jlmz's comedic punches to sway the judges.",
+        lyricalThemes: "Fuzzers' bodyguard; diabetic appearance; Scunthorpe nannies and drug cooking; Relapse age and washed-up status; Foz rumors and 'WOW' tattoo; Russian from London and Vulcan bomber; Charlie Sloth Insta booth; Tate Brown and alphabet spaghetti; the 'Ryan goes horse' hook; Dappy and nappies; Earthworm Jim and maggots; temperature ketones and deceptive pillars.",
+        keyTechnicalHighlights: [
+          {
+            title: "Scunthorpe & Vulcan Bomber Opening Salvo",
+            description: "Rygwan's standout Round 1 performance, weaving rapid Northern grime syncopation with high-speed punchlines that earned him the opening frame.",
+          },
+          {
+            title: "The 'Ryan Goes Horse' Repetition Hook",
+            description: "A high-tempo conceptual hook in Round 2 repeating 'Ryan goes horse' to ridicule his opponent's habits.",
+          },
+          {
+            title: "Temperature Ketones & Internal Grime Flow",
+            description: "A rapid, melodic closing sprint in Round 3 showcasing pure underground cadence control over the instrumental.",
+          },
+        ],
+      },
+    ],
+    notableBars: [
+      {
+        performer: "Jlmz",
+        theme: "Round 1 — Small Fry & Tinder",
+        bar: "After the clash you're the weakest, but we knew this when he stepped to the mic: man a small fry but I come like pike! ... You scroll through Tinder for them mingers, couch-surfing so you get three dinners!",
+        explanation: "Jlmz contrasts predatory fish sizes before delivering a funny lifestyle attack mocking Rygwan's dating and living arrangements.",
+      },
+      {
+        performer: "Rygwan",
+        theme: "Round 1 — Scunthorpe Nanny",
+        bar: "The dirty man gets three for a hundred and cooks it in a pan, then goes over the road and smokes it with his nannies from Scunthorpe!",
+        explanation: "Rygwan's absurdly vivid Northern visual insult accusing Jlmz of cooking narcotics with family members.",
+      },
+      {
+        performer: "Rygwan",
+        theme: "Round 1 — Vulcan Bomber",
+        bar: "My man smells like onion, looking like a Russian from London... put you in the grave, gonna drop like a Vulcan!",
+        explanation: "Rygwan utilizes rapid-fire internal rhyme schemes, likening his lyrical bombs to Britain's Cold War Avro Vulcan strategic jet bomber.",
+      },
+      {
+        performer: "Rygwan",
+        theme: "Round 1 — The 'WOW' Tattoo",
+        bar: "Ryan's a gay boy I know that now, cause I got told that he's got a tattoo on his arse and it says 'WOW'!",
+        explanation: "A classic schoolyard insult that Rygwan delivers with punchy timing to derail Jlmz's street credibility.",
+      },
+      {
+        performer: "Jlmz",
+        theme: "Round 2 — Stephen Hawking & Calfreezy",
+        bar: "You dribble when talking, you'll get left crippled like Hawking! ... Come to the clash, look like you're small, that brown or greasy, never seen a clash in your life, you're a sad man coming like Calfreezy!",
+        explanation: "Jlmz unloads personal caricatures, comparing Rygwan's posture and appearance to theoretical physicist Stephen Hawking and popular UK content creator Calfreezy.",
+      },
+      {
+        performer: "Jlmz",
+        theme: "Round 2 — Factory & The Dole",
+        bar: "Ryan you're getting too old, you need to get a job and get off the dole! Your hair looks like it's been cut with a bowl, you don't want this clash, you can see it in your soul!",
+        explanation: "Jlmz repeatedly attacks Rygwan by his government name Ryan, telling him to stop clashing and seek employment.",
+      },
+      {
+        performer: "Rygwan",
+        theme: "Round 2 — Ryan Goes Horse & Dappy",
+        bar: "Ryan goes horse on Baki, Ryan goes horse on a free Fabacali, Ryan goes horse on a five-pound cabi! I swear that you are a poster of Dappy, you're a crybaby, I bet you're wearing a nappy!",
+        explanation: "Rygwan launches into his infectious 'horse' cadence scheme, comparing Jlmz to N-Dubz rapper Dappy.",
+      },
+      {
+        performer: "Jlmz",
+        theme: "Round 3 — Spinning Relapse",
+        bar: "I spin Relapse, how is he gonna talk like he is some Prizefighter Lord?!",
+        explanation: "Jlmz references his past tournament victory over Relapse to undermine Rygwan's credentials.",
+      },
+      {
+        performer: "Jlmz",
+        theme: "Round 3 — Tournament Roster Call-Out",
+        bar: "Too many men backed out of the clash! Barz is a joker, he is a twat, and don't get me started with Kontact! Bossman made a fool of himself, J.Dot is weird he needs to get help, Dead said that I was shit but for him it didn't go too well!",
+        explanation: "A rapid-fire tournament audit where Jlmz dismisses the entire Ozone Prizefighter Season 3 roster in one breath.",
+      },
+      {
+        performer: "Jlmz",
+        theme: "Round 3 — Ryan Goes Hard Counter",
+        bar: "Ryan goes hard on a G! Ryan goes hard on a gram! Ryan goes hard on a slag! And he goes hard on a five-pound pop out!",
+        explanation: "Jlmz's round-sealing rebuttal, taking Rygwan's Round 2 hook and twisting it into a devastating multi-syllabic counter-attack.",
+      },
+    ],
+    oddMoments: [
+      "Host Limbs and the sound engineer repeatedly paused before Round 1 to ask for the monitors to be adjusted so they could hear the vocals clearly over the beat.",
+      "Both MCs repeatedly traded graphic, over-the-top allegations regarding family members, sexual orientation, and bodily tattoos across Rounds 1 and 2.",
+      "Judge Foyah had to call in via speakerphone live from his workplace during his lunch break to deliver his official scorecard for the Semi-Final.",
+      "Rygwan and Jlmz took multiple extra bars at the end of Round 2 because the backing instrumental had roughly 20 seconds of empty rhythm remaining.",
+    ],
+    coolMoments: [
+      "Rygwan's blistering Round 1 flow sprint culminating in the Avro Vulcan jet bomber punchline.",
+      "Jlmz's ruthless comedic pivot in Round 2, rattling off the bowl-cut, Calfreezy, and Stephen Hawking roasts in rapid succession.",
+      "Jlmz executing the tournament call-out scheme in Round 3, running through Barz, Kontact, Bossman, J.Dot, and Dead to electrify the studio.",
+      "Jlmz flipping Rygwan's 'Ryan goes horse' cadence into his own 'Ryan goes hard' counter to definitively clinch the judges' decision.",
+    ],
+    postBattleContext: "With this 2-1 Semi-Final victory, Jlmz officially punched his ticket to the Ozone Prizefighter Season 3 Grand Final to clash against Leicester's Trickyy. Rygwan was eliminated from the singles bracket but returned alongside Afrodon, Trickyy, and Jlmz for the high-octane Season 3 Prizefighter Rumble.",
+};
+
+prizefighterClashData["ozone-season-3-2024-relapse-afrodon-vs-trickyy-jlmz-rumble"] = {
+  winner: "Relapse",
+  resultSource: "official",
+  score: "Relapse 7, Trickyy 2, Afrodon 0, Jlmz 0",
+  views: "1.2k",
+  host: "Limbs / Ozone Media",
+  judges: ["Hitman", "C4", "Fire Dan"],
+  judgementSummary: {
+    verdict: "Relapse wins with 7 points (Official Decision)",
+    summary: "Relapse captured the Ozone Prizefighter Season 3 Royal Rumble in dominant fashion, amassing an insurmountable 7 points across the judges' cards (Hitman, C4, and Fire Dan) to claim the championship trophy and punch his ticket to the elite 'winner of winners' tournament. Despite facing stiff multi-target fire—headlined by Trickyy's relentless weight and comfort-eating roasts, Jlmz's initial burst before being disqualified for running over time, and Afrodon's aggressive Chesterfield jabs—Relapse controlled the cypher with ruthless consistency, multi-directional punchlines, and devastating personal attacks that systematically dismantled all three opponents.",
+  },
+  clashSummary: "The Ozone Prizefighter Season 3 Royal Rumble brought together all four heavyweight contenders—tournament finalist RELAPSE, 1v1 champion TRICKYY, Nottingham grinder AFRODON, and semi-finalist JLMZ—in a chaotic, high-stakes 4-way cypher clash inside the BSR studio, presented by host Limbs on Prizefighter Live and sponsored by Call Rummins Drinks and Midlands Music Scene. With the coveted Rumble trophy and entry into the elite 'winner of winners' tournament on the line, all four MCs stood toe-to-toe in a no-holds-barred multi-target exchange before a judging panel featuring Hitman (calling in on speakerphone), C4 (in-studio), and Fire Dan.\n\nRound one set a turbulent tone immediately. Jlmz grabbed the microphone first, spraying aggressive multi-target bars roasting Relapse for ordering Uber Eats to the BSR studio address and mocking competitors' internet comment sections. However, Jlmz exceeded his allocated 16-bar limit, prompting host Limbs to step in and disqualify him from scoring in the opening round. Trickyy stepped up next, delivering the clash's hardest-hitting comedic haymakers: roasting Relapse's double chin, mocking his JDZ Media comment section, and dropping the devastating 'eyeballs fucked, left one looking over there while the right one's looking at the decks' visual roast. Relapse countered with suffocating authority, firing at both Afrodon and Jlmz with scathing personal attacks, computer porridge bars, and John Terry references. Afrodon finished the round attacking Relapse's weight and Chesterfield roots. In the Round 1 voting, judge Hitman awarded his points to Relapse, putting him firmly in the driver's seat.\n\nRound two brought relentless cypher pressure. Relapse took total control of the room, spraying an uninterrupted, multi-target masterclass: comparing Afrodon's endless talking to 'more than a million Q-tips,' mocking his rural background by contrasting Emmerdale Farm with The Hills Have Eyes, and labeling Trickyy a 'white James Corden' who got catfished on Tinder. He punctuated the stanza by dubbing Afrodon a silly waste MC and calling Jlmz a 'vegan sloth' who looks 15 years old. Afrodon rallied with fierce energy, pushing Relapse hard with Chesterfield benefits and medicine bars, while Trickyy and Jlmz traded foul-mouthed roasts. In the Round 2 voting, both Hitman and C4 awarded their points to Relapse, moving him to 4+ points and pulling away from the pack.\n\nRound three exploded into a battle of heavyweight punchlines. Trickyy came out swinging with blistering, crowd-detonating roasts targeting Relapse's frame: 'Relapse can't wait to lose, which is ironic, he's got weight to lose!' before dropping his immortal double entendre: 'When Mikey said we got to relax on radio bro, he meant that literally!' and mocking him as a heavyweight who got there through comfort eating. Afrodon fired shots at J.Dot, FOS, and TikTok rappers, while Jlmz took aim at absent competitors. In the judges' deliberations, Hitman rewarded Trickyy's comedic brilliance with 2 points, but Fire Dan awarded another point to Relapse, mathematically locking up the victory at an insurmountable 7 points.\n\nHost Limbs officially announced Relapse as the undisputed Season 3 Royal Rumble Champion, and in-studio judge C4 presented him with the trophy: 'Even if anyone had scored maximum points now, they're not catching Relapse! Relapse is the Season 3 Rumble winner!' All four MCs embraced in mutual respect, closing out one of the most volatile and hilarious cyphers in Prizefighter history.",
+  performanceAnalysis: [
+    {
+      performer: "Relapse",
+      overview: "Relapse delivered a masterclass in multi-target cypher dominance, capturing 7 points from the judging panel to take the trophy. Maintaining composure despite heavy personal jokes about his weight and eyesight, Relapse sprayed continuous, well-researched attacks against all three opponents, showcasing elite stamina, thick skin, and lethal ring presence.",
+      lyricalThemes: "Afrodon million Q-tips; Emmerdale Farm vs Hills Have Eyes; J.Dot slippers; white James Corden Trickyy; Tinder catfish; vegan sloth Jlmz; 15-year-old schoolboy insults; computer porridge; John Terry cheating bars.",
+      keyTechnicalHighlights: [
+        {
+          title: "Emmerdale Farm & Q-Tips Barrage",
+          description: "Relapse's defining Round 2 sequence ridiculing Afrodon's endless talking and contrasting rural regional backgrounds.",
+        },
+        {
+          title: "James Corden & Tinder Catfish Roasts",
+          description: "A rapid-fire personal angle in Round 2 targeting Trickyy's appearance and online dating life.",
+        },
+        {
+          title: "Multi-Target Cypher Generalship",
+          description: "Seamlessly rotating between Afrodon, Trickyy, and Jlmz across all three rounds to accumulate a commanding 7 judging points.",
+        },
+      ],
+    },
+    {
+      performer: "Trickyy",
+      overview: "Trickyy was the standout comedic force of the cypher, landing the hardest-hitting and most quoted punchlines of the entire battle. His relentless focus on Relapse's weight and comfort eating earned him 2 points from judge Hitman and widespread praise from the studio crew.",
+      lyricalThemes: "Relapse double chin; eyeballs left and right / decks roast; weight to lose; 'Mikey said relax on radio' literal flip; five chins and five dinners; comfort eating heavyweight; Leah Sharma; Bellingham.",
+      keyTechnicalHighlights: [
+        {
+          title: "Eyeballs & Decks Visual Roast",
+          description: "Trickyy's Round 1 showstopper mocking Relapse's facial features that set the comedic standard for the cypher.",
+        },
+        {
+          title: "Relax on Radio Double Entendre",
+          description: "A brilliant flip on DJ Big Mikee's studio catchphrase and Relapse's artist name in Round 3.",
+        },
+        {
+          title: "Comfort Eating & Heavyweight Deconstruction",
+          description: "Trickyy's closing salvo mocking Relapse for gaining weight through comfort eating.",
+        },
+      ],
+    },
+    {
+      performer: "Afrodon",
+      overview: "Afrodon brought relentless grit, raw aggression, and high-cadence Nottingham flows to the cypher. He fought fiercely against Relapse in Round 2, pushing him to a razor-thin margin on C4's scorecard with personal Chesterfield and benefit-claiming angles.",
+      lyricalThemes: "Relapse Chesterfield resident; living with mum and taking medicine; claiming benefits; gym dumbbell bars; lips and kissing defense; J.Dot, Dead, and Kontact call-outs.",
+      keyTechnicalHighlights: [
+        {
+          title: "Chesterfield & Benefits Roast",
+          description: "Afrodon's hard-hitting Round 2 attack on Relapse's living situation and domestic circumstances.",
+        },
+        {
+          title: "High-Energy Round 2 Spaz-Out",
+          description: "A furious 16 that had judge C4 heavily weighing Afrodon against Relapse for the round's point.",
+        },
+      ],
+    },
+    {
+      performer: "Jlmz",
+      overview: "Jlmz brought sharp energy and personal angles to the rumble, but his momentum was severely compromised in Round 1 when he exceeded the 16-bar limit and was disqualified from scoring. He rebounded in subsequent rounds with comical jabs at J.Dot and scene politics.",
+      lyricalThemes: "Uber Eats to BSR studio; wonky eye; J.Dot mask walking out of clashes; Tara Mitchell; keyboard warriors.",
+      keyTechnicalHighlights: [
+        {
+          title: "Uber Eats to BSR Studio Angle",
+          description: "A humorous opening setup highlighting Relapse's appetite during studio sessions.",
+        },
+        {
+          title: "J.Dot Mask & Clash Walkout Roast",
+          description: "A witty Round 2 barrage targeting scene rumors surrounding J.Dot.",
+        },
+      ],
+    },
+  ],
+  notableBars: [
+    {
+      performer: "Trickyy",
+      theme: "Round 1 — Eyeballs & Decks Roast",
+      bar: "Look, your eyeballs fucked, the left one's looking over there while your right one's looking at the deck, son! He can't afford food at a restaurant or the command get stepped on!",
+      explanation: "Trickyy delivers the most celebrated visual insult of the battle, roasting Relapse's eye alignment over the instrumental.",
+    },
+    {
+      performer: "Relapse",
+      theme: "Round 2 — Emmerdale Farm & Q-Tips",
+      bar: "Afrodon talks more than a million Q-tips, he's talking shit and he's losing! ... My ends looking like Emmerdale Farm while your friends looking like The Hills Have Eyes!",
+      explanation: "Relapse compares Afrodon's chatter to cotton swabs before dropping vivid rural horror imagery mocking his background.",
+    },
+    {
+      performer: "Relapse",
+      theme: "Round 2 — James Corden & Tinder Catfish",
+      bar: "White James Corden's hyping, never been violent! ... You're the worst MC from Tamworth, you don't use Tinder cause you got catfished by a tranny with a penis, yo that's a madden!",
+      explanation: "Relapse unloads personal caricatures, comparing Trickyy to James Corden and mocking his online dating life.",
+    },
+    {
+      performer: "Relapse",
+      theme: "Round 2 — Vegan Sloth & 15-Year-Old",
+      bar: "Afro's a silly little waste MC from Notts, and Jlmz looks like a vegan sloth! Jlmz looks like a fifteen-year-old, I swear that he's just been seen at school!",
+      explanation: "Relapse targets both opponents simultaneously with quick-fire physical caricatures.",
+    },
+    {
+      performer: "Afrodon",
+      theme: "Round 2 — Chesterfield Resident",
+      bar: "Little Chesterfield resident, still living at his mum's and has to take medicine! It's a joke, not relevant, you're never in your element because they claim benefits, definite!",
+      explanation: "Afrodon attacks Relapse's domestic arrangements, alleging reliance on state support in Derbyshire.",
+    },
+    {
+      performer: "Trickyy",
+      theme: "Round 3 — Weight to Lose & Relax on Radio",
+      bar: "Relapse can't wait to lose, which is ironic, he's got weight to lose! Making moves, shaking rooms in BSR, taking rooms... and when Mikey said we got to relax on radio bro, he meant that literally!",
+      explanation: "Trickyy's legendary double entendre flipping Big Mikee's catchphrase and Relapse's moniker.",
+    },
+    {
+      performer: "Trickyy",
+      theme: "Round 3 — Five Dinners & Comfort Eating",
+      bar: "These eyes don't have five chins on my face, these eyes don't have five dinners on my plate! ... And now you're the heavyweight in this clash just cause you have been comfort eating!",
+      explanation: "Trickyy counters jokes about his eyes by mocking Relapse's weight and comfort eating habits.",
+    },
+    {
+      performer: "Jlmz",
+      theme: "Round 1 — Uber Eats & Wonky Eye",
+      bar: "Relapse asked Mikey for the address just so he could order an Uber Eats! ... Watch how I'm working the rumble, you got a wonky eye you're getting buried in the mud!",
+      explanation: "Jlmz takes early comedic aim at Relapse's food habits inside the BSR studio.",
+    },
+  ],
+  oddMoments: [
+    "Jlmz was disqualified from scoring in Round 1 after exceeding the strict 16-bar limit, forcing host Limbs to cut him off and award zero points for the stanza.",
+    "Both MCs and judges repeatedly traded jokes about eye direction, with Trickyy and Relapse mocking each other's vision and wonky eyes.",
+    "Judge Hitman participated in the deliberations entirely via speakerphone from his car, yelling his scores for Relapse and Trickyy over road noise.",
+    "Host Limbs and the sound engineer repeatedly paused the start of the battle to dial down the music levels so vocal projection could cut through the microphones.",
+  ],
+  coolMoments: [
+    "Trickyy detonating the studio with his legendary Round 3 double entendre: 'When Mikey said we got to relax on radio bro, he meant that literally!'",
+    "Relapse demonstrating supreme cypher generalship, seamlessly pivoting from roasting Afrodon's q-tips to Trickyy's James Corden appearance and Jlmz's vegan sloth look.",
+    "C4 officially presenting Relapse with the Season 3 Royal Rumble trophy after his dominant 7-point sweep.",
+    "The chaotic, high-energy multi-MC trading between all four competitors over 140 BPM instrumentals in the BSR studio.",
+  ],
+  postBattleContext: "Relapse was crowned the Ozone Prizefighter Season 3 Royal Rumble Champion, collecting 7 points from the judging panel and securing qualification alongside 1v1 champion Trickyy for the elite 'winner of winners' tournament. Despite early friction and bar-count penalties, all four MCs embraced after the clash, cementing Season 3 as one of the most entertaining and volatile chapters in Ozone Prizefighter history.",
+};
+
+prizefighterClashData["ozone-season-3-2024-relapse-vs-jdot-opening-round"] = {
+  winner: "Relapse",
+  resultSource: "official",
+  score: "3-0 (Official Decision / Round 3 Forfeit)",
+  views: "1.7k",
+  host: "Limbs (Prizefighter Live / Ozone Media)",
+  judges: ["Haz", "In-Studio Panel", "Fire Dan"],
+  judgementSummary: {
+    verdict: "Relapse wins 3-0 by Round 3 Forfeit (Official Decision)",
+    summary: "Relapse secured a dominant 3-0 victory after Jdot suffered the first forfeit in Prizefighter history during Round 3. Despite Jdot launching personal angles about Relapse's domestic life and appearance in Round 1, Relapse completely overwhelmed him with superior grime cadences, commanding projection, and cutting personal roasts. As Jdot struggled with microphone placement and became visibly distracted reading live stream comments on the studio monitors, his delivery unraveled in Round 2 before he abruptly quit midway through Round 3. All three judges—Fire Dan (scoring 3-0), Haz, and the in-studio panel—unanimously confirmed that Relapse had comfortably swept every round regardless of the stoppage.",
+  },
+  clashSummary: "The Opening Round of Ozone Prizefighter Season 3 (2024) pitted Tamworth's RELAPSE against JDOT in a high-tension 1v1 clash inside the Black Sheep Riddim (BSR) studio, presented by host Limbs on Prizefighter Live and sponsored by Call Rummins Drinks and Midlands Music Scene. With a spot in the Semi-Finals against Leicester's Trickyy on the line and DJ Big Mikee spinning heavy 140 BPM grime instrumentals, the matchup quickly evolved from a battle of regional pride into one of the most notorious psychological collapses in platform history.\n\nRound one commenced with Jdot taking the microphone first. He opened with aggressive personal attacks aimed at Relapse's appearance and backstory, comparing him to a '1950s orphan born out of boredom' and claiming his nose and facial features were out of proportion. Jdot alleged that Relapse had been run out of Erdington and forced to relocate to Sutton Coldfield for safety, threw height jabs calling him 'four-foot-five in a bush,' and labeled him a snitch who struggled to write coherent lyrics. Relapse countered with suffocating authority and razor-sharp grime cadences. Dismissing Jdot's attempts to dredge up his 2013 JDZ Media appearance ('My JDZ from 2013 is not relevant now, so you better just shush!'), Relapse called Jdot an ugly dafty who twerks in photos and mocked him as an H-Block resident walking barefoot in Fog. He escalated with blistering internal rhymes—'I drink JD Coke with a kick, can't get a grip like C4 holding a fish'—before revealing he had spotted Jdot's partner on Hinge. Relapse swept Round 1 across all judging cards.\n\nRound two brought significant technical and psychological strain for Jdot. He attempted to target Relapse's scene hiatus, accusing him of hiding in the BSR restroom, acting like a ghost who had accomplished nothing in years, and mocking his artist moniker ('Relapse, you need to relax, it's ironic you call yourself Relapse, I heard you went rehab'). However, Jdot repeatedly lost the timing of the instrumental, forcing host Limbs to pause and reset the beat ('catch it again, catch it again... come on we got the time'). Jdot grew visibly flustered, removing the microphone from the stand and looking anxiously at the studio monitor displaying live chat comments. Relapse pounced on his opponent's hesitation with devastating comedic punches. He ridiculed Jdot's breath as worse than PenGame's Kandi, launched into a rapid 'night jacket and sun hat' rhythm scheme, and delivered a ruthless barrage calling Jdot a '50 not 40' old man who grinds weed into his mustache and would have been bullied on Words Are Weapons. The studio erupted in applause as Relapse took complete command of the room.\n\nRound three delivered the decisive and unprecedented conclusion. Jdot opened by declaring himself a 'verbal assassin' who was levels above a nerd surrounded by dirty dishes and grasses, spitting a brief threat about C4. However, after barely ten bars, Jdot completely froze, stopped rapping, and stood silently staring at the YouTube live stream comments. Host Limbs stepped in, urging him to continue: 'You done? Spray your bars then!' Jdot refused to spray any further and walked away, conceding the first official forfeit in Prizefighter history. With time remaining, Relapse stepped forward for an unopposed victory lap, burying Jdot with cold comedic lines about feeding slot machines, having a rainbow rug in his bedroom, and looking like a 'starving nitty at the chippy.'\n\nDuring the judging deliberations, host Limbs officially confirmed the forfeit: 'That has been the first ever Prizefighter forfeit, that was epic still!' Judge Haz highlighted that Relapse had controlled the battle from the opening seconds, criticizing Jdot for letting internet comments derail his composure. Judge Fire Dan awarded a clean 3-0 score to Relapse, noting that Relapse's confidence, breath control, and cadence outclassed Jdot across every exchange. The in-studio panel concurred that Relapse had won comfortably on points prior to the stoppage, officially sending Relapse through to the Semi-Finals against Trickyy.",
+  performanceAnalysis: [
+    {
+      performer: "Relapse",
+      overview: "Relapse delivered a masterclass in aggressive ring generalship, lyrical discipline, and vocal projection. Unfazed by Jdot's personal insults, Relapse dominated the audio space with sharp multi-syllabic grime rhyme schemes, crushing comedic counters, and relentless stamina that ultimately forced the first forfeit in Prizefighter history.",
+      lyricalThemes: "Dafty inbred twerking; JDZ Media 2013 dismissal; C4 holding a fish; Hinge partner roast; wrinkled steak and broken chinbones; breath worse than PenGame Kandi; night jacket and sun hat scheme; grinding weed in mustache; 50 not 40 old man; Words Are Weapons bullying; slot machines and starving nitty.",
+      keyTechnicalHighlights: [
+        {
+          title: "JDZ Dismissal & C4 Fish Scheme",
+          description: "Relapse's sharp Round 1 counter-punch effortlessly brushing aside historical footage attacks while delivering rapid-fire grime imagery.",
+        },
+        {
+          title: "Night Jacket & Sun Hat Cadence Barrage",
+          description: "A seamless rhythmic cadence switch in Round 2 that electrified the studio while Jdot was visibly struggling with timing.",
+        },
+        {
+          title: "Unopposed Victory Lap Clinic",
+          description: "Relapse's dominant Round 3 stanza after Jdot's forfeit, maintaining high energy and sharp punchlines to cap a 3-0 sweep.",
+        },
+      ],
+    },
+    {
+      performer: "Jdot",
+      overview: "Jdot opened Round 1 with spirited local angles regarding Erdington and domestic life, but his performance deteriorated rapidly due to poor microphone handling, timing errors over the instrumental, and getting visibly distracted by the live YouTube stream comments, culminating in a third-round forfeit.",
+      lyricalThemes: "1950s orphan born of boredom; Erdington to Sutton Coldfield; 4 foot 5 in a bush; snitch allegations; BSR restroom sniffing; ghost in the scene; Relapse and rehab wordplay; varicose veins; verbal assassin and C4.",
+      keyTechnicalHighlights: [
+        {
+          title: "1950s Orphan & Sutton Opening",
+          description: "Jdot's initial burst in Round 1 utilizing vivid visual insults to attack Relapse's background.",
+        },
+        {
+          title: "Rehab & Relapse Double Entendre",
+          description: "A witty personal wordplay attempt in Round 2 playing on his opponent's name before timing issues disrupted the verse.",
+        },
+      ],
+    },
+  ],
+  notableBars: [
+    {
+      performer: "Relapse",
+      theme: "Round 1 — JDZ Dismissal & C4 Fish",
+      bar: "My JDZ from 2013's not relevant now so you better just shush! ... I drink JD Coke with a kick, can't get a grip like C4 holding a fish!",
+      explanation: "Relapse dismisses Jdot's attempts to use ancient battle footage against him before dropping a clever simile referencing judge C4.",
+    },
+    {
+      performer: "Jdot",
+      theme: "Round 1 — 1950s Orphan & Facial Proportions",
+      bar: "Jordan, why do you look like a 1950s orphan? You was only born out of boredom! Your nose and face isn't in proportion! ... Got run out of Erdington, now he lives in Sutton for reassurance!",
+      explanation: "Jdot unloads early personal caricature attacks targeting Relapse's facial features and regional relocation.",
+    },
+    {
+      performer: "Relapse",
+      theme: "Round 1 — Hinge Profile Exposure",
+      bar: "I saw your girl on Hinge like what at the side of a road... it's you that she tries to ignore cause she's not satisfied with the size!",
+      explanation: "Relapse takes aim at Jdot's romantic relationship with an embarrassing dating app angle.",
+    },
+    {
+      performer: "Jdot",
+      theme: "Round 2 — Relapse & Rehab Wordplay",
+      bar: "Relax, you need to relax, it's ironic you call yourself Relapse, I heard you went rehab!",
+      explanation: "Jdot delivers his sharpest conceptual line of the clash, flipping Relapse's moniker into an angle on sobriety.",
+    },
+    {
+      performer: "Relapse",
+      theme: "Round 2 — Wrinkled Steak & PenGame Kandi",
+      bar: "Relapse, you're so ugly make windows break... looking like a wrinkled steak, one punch make sure that your chinbone breaks! What's going on with your breath, make Mankey coming worse than PenGame's Kandi!",
+      explanation: "Relapse detonates the studio with harsh visual roasts, comparing Jdot's hygiene to battle rap competitor Kandi.",
+    },
+    {
+      performer: "Relapse",
+      theme: "Round 2 — 50 Not 40 & Words Are Weapons",
+      bar: "You're 50 not 40 you weird old man! ... Flurries I could serve in seconds, he would have got bullied on Words Are Weapons! Him and his mates are all coming like birds and peasants, acting like nerds and pheasants!",
+      explanation: "Relapse mocks Jdot's seniority in the room and asserts he would never have survived the ruthless era of Words Are Weapons.",
+    },
+    {
+      performer: "Relapse",
+      theme: "Round 3 — Slot Machines & Leg Room",
+      bar: "He goes to work but spends all his money on feeding slots! ... He's got a rainbow rug in his bedroom, I put my foot in your girlfriend's pussy and I still had leg room!",
+      explanation: "Relapse unloads crude, disrespectful punchlines during his unopposed third-round victory lap.",
+    },
+    {
+      performer: "Relapse",
+      theme: "Round 3 — Starving Nitty at the Chippy",
+      bar: "My man only put you on Prizefighter for the fun cause a weak MC gets spun, now run quick back to your drum! ... You look like a starving nitty at the chippy, every surface in your yard is sticky!",
+      explanation: "Relapse's closing salvo dismantling Jdot's underground credentials and celebrating his impending advance in the tournament.",
+    },
+  ],
+  oddMoments: [
+    "Jdot committed the first official forfeit in Prizefighter history during Round 3, abruptly stopping after ten bars and staring at the live chat monitor on the studio wall.",
+    "Jdot repeatedly struggled with microphone technique, removing the mic from its stand which muffled his audio until host Limbs and the engineers instructed him to reposition.",
+    "Host Limbs had to halt and restart the backing instrumental for Jdot in Round 2 after he lost his timing and completely slipped off the beat.",
+    "Judge Haz and Limbs spent post-battle deliberations debating whether reading YouTube comments during a live clash was what psychologically broke Jdot's composure.",
+  ],
+  coolMoments: [
+    "Relapse's effortless cadence switch into the 'night jacket and sun hat' scheme in Round 2, locking into the rhythm and earning cheers from the studio crew.",
+    "Relapse taking an authoritative victory lap verse in Round 3 despite Jdot already walking away and forfeiting the contest.",
+    "DJ Big Mikee providing sharp instrumental restarts and backing cuts throughout the session inside the Black Sheep Riddim studio.",
+    "The judges and Limbs maintaining high energy and comedy during deliberations as the studio prepared to transition directly into The Invasion Show.",
+  ],
+  postBattleContext: "With this 3-0 forfeit victory, Relapse advanced directly to the Ozone Prizefighter Season 3 Semi-Finals to face Leicester champion Trickyy. Jdot was eliminated from the tournament bracket but remained connected to the scene, later referenced during the Season 3 Royal Rumble. The clash entered Prizefighter lore as the platform's inaugural live-broadcast forfeit.",
+};
+
+prizefighterClashData["ozone-season-3-2024-rygwan-vs-afrodon-opening-round"] = {
+  winner: "Rygwan",
+  resultSource: "official",
+  score: "3-0 (Official Decision)",
+  views: "1.8k",
+  host: "Limbs (Prizefighter Live / Ozone Media)",
+  judges: ["Haz", "Fire Dan", "G-Dot"],
+  judgementSummary: {
+    verdict: "Rygwan wins 3-0 (Official Decision)",
+    summary: "Rygwan earned a clean 3-0 sweep on the judges' scorecards (Haz, Fire Dan, and G-Dot) to advance to the Ozone Prizefighter Season 3 Semi-Finals against Jlmz. While Afrodon brought blistering energy, relentless comedic disrespect, and memorable haymakers across all three rounds (the Ryland Clark and Pennywise roasts in Round 1, the lazy-eye mother flip in Round 2, and the Dublin penis and Instagram condom bars in Round 3), his aggressive delivery occasionally compromised his vocal diction and breath control. Rygwan weathered the initial storm and took over the clash with razor-sharp Northern grime syncopation, flawless 140 BPM flow pockets, and cutting personal counters (the potato-peeling routine, Cherish angles, inflated forehead roasts, and the tuna and egg bar) that won over all three judges.",
+  },
+  clashSummary: "The Opening Round of Ozone Prizefighter Season 3 (2024) kicked off with a high-octane regional clash between Scunthorpe's RYGWAN and Nottingham's AFRODON inside the Black Sheep Riddim (BSR) studio, presented by host Limbs on Prizefighter Live and sponsored by Call Rummins Drinks and Midlands Music Scene. With DJ Big Mikee spinning heavy 140 BPM grime instrumentals and a coveted spot in the Semi-Finals against Jlmz on the line, the clash delivered an electric contrast of styles: Afrodon's raw, hyperactive comedic disrespect versus Rygwan's intricate, rapid Northern grime cadence control.\n\nRound one ignited with Afrodon taking the microphone first, spraying aggressive personal caricatures aimed at Rygwan's background and appearance. He opened by dubbing him 'Ryland Clark if he tried grime hard,' compared him to a great white shark from a car park, and claimed Rygwan had missed his previous clash because he was stuck at the Jobcentre for a family Universal Credit meeting. Afrodon attacked Rygwan's Scunthorpe roots, called his body Pennywise, and dropped an outrageous line labeling him the Scunthorpe equivalent of Jimmy Savile. Rygwan responded with blistering syncopation over the instrumental. Mid-verse, the backing beat ran out, prompting host Limbs to pause and reset the track. Rygwan immediately capitalized on the restart, launching into his standout potato-peeling scheme: 'Why your bottom lip look flooded with fluid? Potato head but it's time to get peeled! Afro never put boots in fields!' He mocked Afrodon for wearing the same Nike top in every TikTok video with J1, called him a benefit breeder in homeless gear, and finished with personal jabs involving F.O.S and Afrodon's partner Cherish. In the judges' round assessment, Haz scored the round to Rygwan, Fire Dan awarded it to Afrodon, and G-Dot scored it a dead heat.\n\nRound two saw Afrodon come out firing over an icy instrumental, showcasing rapid video game metaphors comparing his damage to Double XP and rhyming mannequin panicking with Star Wars Anakin and Darth Vader. He took aim at Rygwan's domestic life, claiming he found his girlfriend on Gumtree and stole her passport to get her out of the country, before detonating the round's biggest comedic punchline: 'Want to know how I got a lazy eye? One eye to your mom, and one in the other direction!' Afrodon closed by calling Rygwan a homeless man with zero monthly listeners on Spotify who had no right to label anyone a TikTok rapper. Rygwan countered with ruthless technical precision. He ridiculed Afrodon's YouTube presence, claiming Afrodon's channel was filled with dead videos with 1,000 views and 1,000 dislikes. Rygwan followed with a devastating physical caricature mocking Afrodon's skull shape: 'Please get the snip, save the population! No more kids with foreheads inflated, that's a target for a bully!' He flipped Big Mikee's catchphrases and dismissed Afrodon's rural roasts by pointing out he keeps 100 cows, 100 sheep, and 100 dogs at his yard, comfortably securing Round 2 across all three judges' cards.\n\nRound three exploded into an unhinged, no-holds-barred war of words. Afrodon launched a venomous attack on Scunthorpe, claiming all anyone smells in the town is doner kebabs, and told Rygwan to quit music and return to growing potatoes. He then uncorked an outrageous family DM angle: 'Your dad messaged me on Instagram, he said yo, I wish I used a condom!' Afrodon followed with graphic bars about Rygwan's partner Cherish making the bed creak before dropping a viral geographic pun: 'It's like you come from Ireland cause when I see your girl my penis is Dublin!' Rygwan refused to be rattled by the onslaught, answering with supreme grime discipline and breathless cadence control. He attacked Afrodon's hygiene and living conditions, alleged Afrodon took ten takes to record a single bar, and unmasked him as an impostor: 'Every single time that he touches the mic, all I can smell around me is a little bit of tuna, a little bit of egg!' Rygwan closed with a breathless multi-syllabic barrage that brought cheers from the studio crew.\n\nDuring deliberations, host Limbs called for the judges' official scorecards. Judge Haz scored Rounds 1 and 2 to Rygwan and Round 3 to Afrodon, giving his overall point to Rygwan. Judge Fire Dan gave Round 1 to Afrodon and Rounds 2 and 3 to Rygwan, explaining that while Afrodon possessed incredible energy, his hyperactive projection harmed his vocal clarity compared to Rygwan's controlled, razor-sharp cadence. Judge G-Dot scored Round 1 a draw and Rounds 2 and 3 to Rygwan, also citing Rygwan's clear diction and technical flow. Host Limbs officially announced Rygwan as the 3-0 winner, sending him through to the Ozone Prizefighter Season 3 Semi-Finals against Jlmz.",
+  performanceAnalysis: [
+    {
+      performer: "Rygwan",
+      overview: "Rygwan showcased elite Northern grime flow mechanics, rapid syncopation, and remarkable breath discipline throughout the clash. Weathering Afrodon's chaotic comedic onslaught, Rygwan took control of the battle from Round 2 onward with superior vocal clarity, surgical timing, and damaging personal punchlines that earned him a unanimous 3-0 victory from the judges.",
+      lyricalThemes: "Head never seen a wash; benefit breeder; potato head and peeling; boots in fields; wearing same Nike top on TikTok; F.O.S and Cherish angles; dead YouTube videos with 1,000 dislikes; inflated forehead bully target; 100 cows and 100 sheep; tuna and egg smell; impostor unmasking.",
+      keyTechnicalHighlights: [
+        {
+          title: "Potato Head & Boots in Fields Scheme",
+          description: "Rygwan's defining Round 1 sequence delivered immediately following the instrumental reset, blending rapid grime syncopation with biting regional humor.",
+        },
+        {
+          title: "Inflated Forehead & Bully Target Roast",
+          description: "A devastating visual caricature in Round 2 ridiculing Afrodon's head shape and appearance.",
+        },
+        {
+          title: "Northern Syncopation & Tuna/Egg Closer",
+          description: "A breathless final stanza in Round 3 delivering elite vocal clarity to seal the judging panel's unanimous decision.",
+        },
+      ],
+    },
+    {
+      performer: "Afrodon",
+      overview: "Afrodon brought relentless grit, raw comedic charisma, and chaotic energy to the clash. While his hyperactive delivery occasionally hindered his vocal clarity in the eyes of the judging panel, his writing produced some of the most memorable and quoted punchlines of the tournament.",
+      lyricalThemes: "Ryland Clark and car park shark; Universal Credit meeting at the Jobcentre; Pennywise comparison; Scunthorpe Jimmy Savile; Double XP and Anakin/Vader; Gumtree passport theft; lazy-eye mother flip; zero monthly listeners vs TikTok rapper; doner kebabs and potato farming; Instagram condom DM; Dublin penis pun.",
+      keyTechnicalHighlights: [
+        {
+          title: "Ryland Clark & Universal Credit Salvo",
+          description: "Afrodon's explosive Round 1 opening attacking Rygwan's name, television persona, and domestic financial situation.",
+        },
+        {
+          title: "Lazy-Eye Mother Flip & Gumtree Angle",
+          description: "The comedic highlight of Round 2, turning personal jokes into a devastating family counter-punch.",
+        },
+        {
+          title: "Instagram Condom & Dublin Pun Barrage",
+          description: "An unhinged, high-velocity third-round offensive featuring shocking personal roasts and wordplay.",
+        },
+      ],
+    },
+  ],
+  notableBars: [
+    {
+      performer: "Afrodon",
+      theme: "Round 1 — Ryland Clark & Jobcentre",
+      bar: "Ryan, you have got no bars like Ryland Clark if he tried grime hard! ... I didn't think you made that clash for one reason: thought he had a Jobcentre Universal Credit meeting!",
+      explanation: "Afrodon opens with vivid UK television comparisons and financial digs targeting Rygwan's domestic arrangements.",
+    },
+    {
+      performer: "Rygwan",
+      theme: "Round 1 — Potato Peeling & Boots in Fields",
+      bar: "Why your bottom lip look flooded with fluid? Potato head but it's time to get peeled! Afro never put boots in fields!",
+      explanation: "Rygwan's signature Round 1 scheme turning agricultural imagery into a sharp visual roast against Afrodon.",
+    },
+    {
+      performer: "Afrodon",
+      theme: "Round 2 — Lazy Eye Mother Flip",
+      bar: "Want to know how I got a lazy eye? One eye to your mom, and one in the other direction!",
+      explanation: "Afrodon delivers the biggest laugh of the clash, flipping jokes about his own facial features into a mother insult.",
+    },
+    {
+      performer: "Afrodon",
+      theme: "Round 2 — Gumtree Passport & Zero Listeners",
+      bar: "Found his girl on Gumtree, if I stole her passport I could finally get her out of this country! ... Rygwan's got zero monthly listeners, so don't that make him a TikTok rapper?!",
+      explanation: "Afrodon questions Rygwan's online presence and mocks his dating life with classifieds jokes.",
+    },
+    {
+      performer: "Rygwan",
+      theme: "Round 2 — Inflated Forehead Roast",
+      bar: "Please get the snip, save the population! No more kids with foreheads inflated, that's a target for a bully!",
+      explanation: "Rygwan fires back with a ruthless physical caricature ridiculing Afrodon's head shape.",
+    },
+    {
+      performer: "Afrodon",
+      theme: "Round 3 — Instagram Condom Message",
+      bar: "Your dad messaged me on Instagram, he said yo, I wish I used a condom!",
+      explanation: "Afrodon drops a shocking, direct personal insult to open his high-voltage third round.",
+    },
+    {
+      performer: "Afrodon",
+      theme: "Round 3 — Dublin Penis Pun",
+      bar: "It's like you come from Ireland cause when I see your girl my penis is Dublin!",
+      explanation: "Afrodon drops an outrageous geographic pun targeting Rygwan's partner Cherish.",
+    },
+    {
+      performer: "Rygwan",
+      theme: "Round 3 — Tuna & Egg Mic Roast",
+      bar: "Every single time that he touches the mic, all I can smell around me is a little bit of tuna, a little bit of egg!",
+      explanation: "Rygwan's closing insult attacking Afrodon's hygiene before delivering a round-sealing flow clinic.",
+    },
+  ],
+  oddMoments: [
+    "DJ Big Mikee's backing instrumental unexpectedly ran out mid-verse in Round 1, forcing host Limbs to pause the clash and reset the beat so Rygwan could complete his 16.",
+    "Judge Fire Dan and host Limbs playfully debated during deliberations whether Afrodon's hyperactive energy caused his diction and microphone projection to deteriorate.",
+    "Afrodon and Rygwan engaged in a heated debate over who was truly a 'TikTok rapper,' contrasting TikTok gifting revenue against Spotify streaming metrics.",
+    "Judge G-Dot humorously compared Rygwan's name to Star Wars character Qui-Gon Jinn during the post-battle judging discussion.",
+  ],
+  coolMoments: [
+    "Rygwan's breathless flow recovery in Round 1, immediately detonating the 'potato head time to get peeled' barrage the instant DJ Big Mikee dropped the beat.",
+    "Afrodon's electrifying Round 2 lazy-eye punchline catching the entire BSR studio off guard and sparking massive laughter.",
+    "The high-velocity clash of contrasting styles: Afrodon's raw comedic Midland bounce versus Rygwan's intricate, rapid Northern grime cadences.",
+    "Rygwan maintaining composure throughout Afrodon's outrageous Round 3 onslaught before delivering a technically flawless rebuttal to lock in his Semi-Final spot.",
+  ],
+  postBattleContext: "With this 3-0 decision, Rygwan advanced directly to the Ozone Prizefighter Season 3 Semi-Finals to clash against Jlmz. Afrodon was eliminated from the singles bracket but returned alongside Rygwan, Trickyy, and Relapse for the high-octane Season 3 Royal Rumble. The clash established Rygwan as one of the platform's premier technical flow specialists.",
+};

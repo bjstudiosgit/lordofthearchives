@@ -10,6 +10,11 @@ import {
 import { formatBattleDate } from "../../../data/battleDates";
 import { getArchiveMcHref } from "../../../data/archiveMcProfiles";
 
+const SITE_URL = "https://www.lordofthearchives.co.uk";
+
+const serializeStructuredData = (value: object) =>
+  JSON.stringify(value).replace(/</g, "\\u003c");
+
 const battles = talkIsCheapSeries.flatMap((event) =>
   event.battles
     .filter(([, , videoId]) => Boolean(videoId))
@@ -34,16 +39,42 @@ export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const battle = battles.find((b) => b.slug === slug);
   if (!battle) return { title: "Battle Not Found" };
-  const { mc1, mc2, event } = battle;
+  const { mc1, mc2, event, videoId } = battle;
   const clashData = getTalkIsCheapClashData(slug);
   const description = clashData
-    ? `Clash summary, performance analysis, technical highlights and indexed bars for ${mc1} vs ${mc2} at Talk Is Cheap: ${event.name} (${formatBattleDate(event.date)}).`
+    ? `Clash summary, performance analysis, technical highlights and archived bars for ${mc1} vs ${mc2} at Talk Is Cheap: ${event.name} (${formatBattleDate(event.date)}).`
     : `Watch ${mc1} vs ${mc2} at Talk Is Cheap: ${event.name}, held on ${formatBattleDate(event.date)} at ${event.venue}.`;
 
+  const battleUrl = `${SITE_URL}/talk-is-cheap/${slug}`;
+  const title = `${mc1} vs ${mc2} | Talk Is Cheap Battle`;
+  const thumbnailUrl = videoId
+    ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`
+    : `${SITE_URL}/hero-archives-emblem.png`;
+
   return {
-    title: `${mc1} vs ${mc2} | Talk Is Cheap Battle`,
+    title,
     description,
-    alternates: { canonical: `https://www.lordofthearchives.co.uk/talk-is-cheap/${slug}` },
+    alternates: { canonical: battleUrl },
+    openGraph: {
+      title,
+      description,
+      url: battleUrl,
+      type: "video.other",
+      images: [
+        {
+          url: thumbnailUrl,
+          width: 1280,
+          height: 720,
+          alt: `${title} Thumbnail`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [thumbnailUrl],
+    },
   };
 }
 
@@ -66,8 +97,65 @@ export default async function TalkIsCheapBattlePage({ params }: Props) {
     return groups;
   }, {});
 
+  const battleUrl = `${SITE_URL}/talk-is-cheap/${slug}`;
+  const battleTitle = `${mc1} vs ${mc2}`;
+  const pageDescription = clashData
+    ? `Clash summary, performance analysis, technical highlights and archived bars for ${mc1} vs ${mc2} at Talk Is Cheap: ${event.name} (${formatBattleDate(event.date)}).`
+    : `Watch ${mc1} vs ${mc2} at Talk Is Cheap: ${event.name}, held on ${formatBattleDate(event.date)} at ${event.venue}.`;
+
+  const uploadDate = event.date ? `${event.date}T12:00:00Z` : undefined;
+  const videoStructuredData = videoId && uploadDate ? {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: `${battleTitle} Rap Battle`,
+    description: pageDescription,
+    thumbnailUrl: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
+    uploadDate,
+    contentUrl: `https://www.youtube.com/watch?v=${videoId}`,
+    embedUrl: `https://www.youtube.com/embed/${videoId}`,
+  } : null;
+
+  const breadcrumbStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: `${SITE_URL}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Talk Is Cheap",
+        item: `${SITE_URL}/talk-is-cheap`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: battleTitle,
+        item: battleUrl,
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen bg-zinc-950 pb-24 pt-32 text-white">
+      {videoStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: serializeStructuredData(videoStructuredData),
+          }}
+        />
+      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeStructuredData(breadcrumbStructuredData),
+        }}
+      />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Link
           href="/talk-is-cheap"
@@ -235,11 +323,11 @@ export default async function TalkIsCheapBattlePage({ params }: Props) {
                     </div>
                   )}
 
-                {/* Indexed Bars & Breakdown */}
+                {/* Archived Bars & Breakdown */}
                 {notableBarsByPerformer && (
                   <div className="mt-10 border-t border-white/10 pt-8 text-left">
                     <h3 className="mb-6 font-display text-xl uppercase italic text-white">
-                      Indexed Bars &amp; Breakdown
+                      Archived Bars &amp; Breakdown
                     </h3>
                     <div className="grid gap-6 md:grid-cols-2">
                       {Object.entries(notableBarsByPerformer).map(([performer, bars]) => (

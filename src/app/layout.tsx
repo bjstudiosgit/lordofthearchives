@@ -21,8 +21,34 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "Lord of the Archives",
-  description: "The ultimate rap battle archive.",
+  metadataBase: new URL("https://www.lordofthearchives.co.uk"),
+  title: {
+    default: "Lord of the Archives | UK Rap Battle Archive",
+    template: "%s | Lord of the Archives",
+  },
+  description: "Explore UK rap battle history across PenGame, Gzone, Lord of the Mics, Talk Is Cheap and Prizefighter, with clash analysis, MC profiles and league rankings.",
+  openGraph: {
+    type: "website",
+    locale: "en_GB",
+    url: "https://www.lordofthearchives.co.uk",
+    siteName: "Lord of the Archives",
+    title: "Lord of the Archives | UK Rap Battle Archive",
+    description: "Explore UK rap battle history across PenGame, Gzone, Lord of the Mics, Talk Is Cheap, Prizefighter and Clash Money, with clash analysis, MC profiles and league rankings.",
+    images: [
+      {
+        url: "https://www.lordofthearchives.co.uk/hero-archives-emblem.png",
+        width: 1200,
+        height: 630,
+        alt: "Lord of the Archives",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lord of the Archives | UK Rap Battle Archive",
+    description: "Explore UK rap battle history across PenGame, Gzone, Lord of the Mics, Talk Is Cheap, Prizefighter and Clash Money, with clash analysis, MC profiles and league rankings.",
+    images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
+  },
 };
 
 export const viewport: Viewport = {
@@ -33,6 +59,37 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${anton.variable}`}>
       <head>
+        <script
+          id="site-organization-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.lordofthearchives.co.uk/#website",
+                  "url": "https://www.lordofthearchives.co.uk",
+                  "name": "Lord of the Archives",
+                  "description": "UK Rap Battle Archive across PenGame, Gzone, Lord of the Mics, Talk Is Cheap and Prizefighter.",
+                  "inLanguage": "en-GB",
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://www.lordofthearchives.co.uk/#organization",
+                  "name": "Lord of the Archives",
+                  "url": "https://www.lordofthearchives.co.uk",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.lordofthearchives.co.uk/hero-archives-emblem.png",
+                    "width": 1200,
+                    "height": 630,
+                  },
+                },
+              ],
+            }),
+          }}
+        />
         <meta name="google-adsense-account" content="ca-pub-2858435877591429" />
         <script
           id="google-consent-default"

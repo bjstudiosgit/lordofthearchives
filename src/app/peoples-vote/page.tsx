@@ -4,25 +4,34 @@ import { getPeopleChampionStandings } from "../../data/leaderboards";
 import { getBattleRouteHref } from "../../data/pengameBattles";
 
 export const metadata = {
-  title: "LOTA People's Champion Lord of the Archives",
+  title: "LOTA People's Champion | Lord of the Archives",
   description:
     "A solo battle views leaderboard ranking MCs by cumulative YouTube views across Lord of the Archives, PenGame, and Gzone battle history.",
   alternates: {
     canonical: "https://www.lordofthearchives.co.uk/peoples-vote",
   },
   openGraph: {
-    title: "LOTA People's Champion Lord of the Archives",
+    title: "LOTA People's Champion | Lord of the Archives",
     description:
       "See which MCs the public watched most, ranked by cumulative YouTube views from solo rap battles.",
     url: "https://www.lordofthearchives.co.uk/peoples-vote",
     siteName: "Lord of the Archives",
     type: "website",
+    images: [
+      {
+        url: "https://www.lordofthearchives.co.uk/hero-archives-emblem.png",
+        width: 1200,
+        height: 630,
+        alt: "LOTA People's Champion",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
-    title: "LOTA People's Champion Lord of the Archives",
+    card: "summary_large_image",
+    title: "LOTA People's Champion | Lord of the Archives",
     description:
       "The people's champion leaderboard, ranked by solo battle YouTube views.",
+    images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
   },
 };
 

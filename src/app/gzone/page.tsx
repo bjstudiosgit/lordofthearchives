@@ -8,12 +8,68 @@ import { getBattleRouteHref } from "../../data/pengameBattles";
 import { formatViewCount } from "../../data/viewCounts";
 import { hasCompletedBattleAnalysis } from "../../data/battleTypes";
 
+const serializeStructuredData = (value: object) =>
+  JSON.stringify(value).replace(/</g, "\\u003c");
+
 export const metadata = {
-  title: "Gzone Archives Lord of the Archives",
-  description: "Gzone Season 1 battle archive and league standings.",
+  title: "Gzone Rap Battle Archive | Lord of the Archives",
+  description: "Gzone Season 1 battle archive, clash analysis and league standings.",
   alternates: {
     canonical: "https://www.lordofthearchives.co.uk/gzone",
   },
+  openGraph: {
+    title: "Gzone Rap Battle Archive | Lord of the Archives",
+    description: "Gzone Season 1 battle archive, clash analysis and league standings.",
+    url: "https://www.lordofthearchives.co.uk/gzone",
+    siteName: "Lord of the Archives",
+    type: "website",
+    images: [
+      {
+        url: "https://www.lordofthearchives.co.uk/hero-archives-emblem.png",
+        width: 1200,
+        height: 630,
+        alt: "Gzone Battle Archive",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gzone Rap Battle Archive | Lord of the Archives",
+    description: "Gzone Season 1 battle archive, clash analysis and league standings.",
+    images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
+  },
+};
+
+const collectionStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Gzone Rap Battle Archive",
+  description: "Gzone Season 1 battle archive, clash analysis and league standings.",
+  url: "https://www.lordofthearchives.co.uk/gzone",
+  isPartOf: {
+    "@type": "WebSite",
+    name: "Lord of the Archives",
+    url: "https://www.lordofthearchives.co.uk",
+  },
+};
+
+const breadcrumbStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.lordofthearchives.co.uk/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Gzone",
+      item: "https://www.lordofthearchives.co.uk/gzone",
+    },
+  ],
 };
 
 const parseViews = (views: string | number | null | undefined): number => {
@@ -36,6 +92,18 @@ export default function GzonePage() {
 
   return (
     <main className="min-h-screen bg-zinc-950 pt-32 pb-24 text-white selection:bg-gzone selection:text-black">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeStructuredData(collectionStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeStructuredData(breadcrumbStructuredData),
+        }}
+      />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
@@ -59,7 +127,7 @@ export default function GzonePage() {
               </h2>
             </div>
             <p className="max-w-4xl text-sm leading-relaxed text-zinc-400">
-              Season 1 features DEENO, TAPPED24, PR1NC3, ROMAN, LDN MIKEZ, DELUXX, CJ ZINO, PROTY, RENZO, BTIZZ, RYNO, TYMELESS, AJNA, NATTYEBK, GRAMS, 1FLAYMR, BADEE HARZ, Z.K, 7WXVE and K.I.M.E.
+              Season 1 features DEENO, TAPPED24, PR1NC3, ROMAN, LDN MIKEZ, DELUXX, CJ ZINO, PROTY, RENZO, BTIZZ, RYNO, TYMELESS, AJNA, NATTYEBK, MARNI GRAMZ, 1FLAYMR, BADEE HARZ, Z.K, 7WXVE and K.I.M.E.
             </p>
           </div>
           <div className="overflow-hidden rounded-3xl border border-white/5 bg-zinc-900/20">

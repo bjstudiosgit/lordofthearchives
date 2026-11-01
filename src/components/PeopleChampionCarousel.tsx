@@ -27,8 +27,9 @@ export default function PeopleChampionCarousel({ leaders }: { leaders: PeopleCha
               Lord of the Archives <span className="text-brand">People&apos;s Champion</span>
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
-              Every eligible MC is ranked by the cumulative YouTube views earned across their solo PenGame and Gzone
-              battles. These cards show the current four leaders; the full People&apos;s League ranks the entire field.
+              The People&apos;s Champion is the MC whose solo battles have been watched the most. We add up the recorded
+              YouTube views from each MC&apos;s one-on-one PenGame and Gzone battles; team clashes don&apos;t count. Both MCs
+              receive the full views for each battle. The top four are shown here, with the full ranking in the People&apos;s League.
             </p>
           </div>
         </div>

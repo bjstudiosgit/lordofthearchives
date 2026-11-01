@@ -7,6 +7,11 @@ import { formatBattleDate } from "../../../data/battleDates";
 import { prizefighterBattles, prizefighterBattleRedirects } from "../../../data/prizefighter";
 import { allProfileMcs, getArchiveMcId, getArchiveMcName } from "../../../data/archiveMcProfiles";
 
+const SITE_URL = "https://www.lordofthearchives.co.uk";
+
+const serializeStructuredData = (value: object) =>
+  JSON.stringify(value).replace(/</g, "\\u003c");
+
 const displaySide = (side: string) => side.split(" / ").map(getArchiveMcName).join(" / ");
 
 type Props = { params: Promise<{ slug: string }> };
@@ -20,10 +25,37 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const battle = prizefighterBattles.find((item) => item.slug === slug);
   if (!battle) return { title: "Battle not found" };
+  const battleUrl = `${SITE_URL}/prizefighter/${slug}`;
+  const title = `${displaySide(battle.side1)} vs ${displaySide(battle.side2)} | Ozone Prizefighter`;
+  const description = `${battle.side1} vs ${battle.side2} — ${battle.era} ${battle.edition}${battle.year ? ` (${battle.year})` : ""}. ${battle.round}, ${battle.format}.`;
+  const thumbnailUrl = battle.videoId
+    ? `https://img.youtube.com/vi/${battle.videoId}/maxresdefault.jpg`
+    : `${SITE_URL}/hero-archives-emblem.png`;
+
   return {
-    title: `${displaySide(battle.side1)} vs ${displaySide(battle.side2)} | Ozone Prizefighter`,
-    description: `${battle.side1} vs ${battle.side2} — ${battle.era} ${battle.edition}${battle.year ? ` (${battle.year})` : ""}. ${battle.round}, ${battle.format}.`,
-    alternates: { canonical: `https://www.lordofthearchives.co.uk/prizefighter/${slug}` },
+    title,
+    description,
+    alternates: { canonical: battleUrl },
+    openGraph: {
+      title,
+      description,
+      url: battleUrl,
+      type: "video.other",
+      images: [
+        {
+          url: thumbnailUrl,
+          width: 1280,
+          height: 720,
+          alt: `${title} Thumbnail`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [thumbnailUrl],
+    },
   };
 }
 
@@ -40,8 +72,62 @@ export default async function PrizefighterBattlePage({ params }: Props) {
   const next = editionBattles[index + 1];
   const winnerId = battle.winner ? getArchiveMcId(battle.winner) : undefined;
 
+  const battleUrl = `${SITE_URL}/prizefighter/${slug}`;
+  const battleTitle = `${displaySide(battle.side1)} vs ${displaySide(battle.side2)}`;
+  const description = `${battle.side1} vs ${battle.side2} — ${battle.era} ${battle.edition}${battle.year ? ` (${battle.year})` : ""}. ${battle.round}, ${battle.format}.`;
+  const uploadDate = battle.releaseDate ? `${battle.releaseDate}T12:00:00Z` : (battle.year ? `${battle.year}-01-01T12:00:00Z` : undefined);
+  const videoStructuredData = battle.videoId && uploadDate ? {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: `${battleTitle} Rap Battle`,
+    description,
+    thumbnailUrl: `https://img.youtube.com/vi/${battle.videoId}/maxresdefault.jpg`,
+    uploadDate,
+    contentUrl: `https://www.youtube.com/watch?v=${battle.videoId}`,
+    embedUrl: `https://www.youtube.com/embed/${battle.videoId}`,
+  } : null;
+
+  const breadcrumbStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: `${SITE_URL}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Ozone Prizefighter",
+        item: `${SITE_URL}/prizefighter`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: battleTitle,
+        item: battleUrl,
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen bg-zinc-950 pb-24 pt-32 text-white">
+      {videoStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: serializeStructuredData(videoStructuredData),
+          }}
+        />
+      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeStructuredData(breadcrumbStructuredData),
+        }}
+      />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Link href={`/prizefighter#${battle.era.toLowerCase()}`} className="mb-10 inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-brand">
           <ArrowLeft size={16} /> Back to Prizefighter

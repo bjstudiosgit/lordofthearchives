@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight, Film } from "lucide-react";
+import { ArrowLeft, ArrowRight, Film, Trophy } from "lucide-react";
 import YouTubeFacade from "../../../components/YouTubeFacade";
 import { lordOfTheMicsBattles } from "../../../data/lordOfTheMics";
 import { getArchiveMcHref } from "../../../data/archiveMcProfiles";
 import { formatBattleDate } from "../../../data/battleDates";
+
+const SITE_URL = "https://www.lordofthearchives.co.uk";
+
+const serializeStructuredData = (value: object) =>
+  JSON.stringify(value).replace(/</g, "\\u003c");
 
 type Props = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
@@ -18,10 +23,38 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const battle = lordOfTheMicsBattles.find((item) => item.slug === slug);
   if (!battle) return { title: "Battle not found" };
+  const battleUrl = `${SITE_URL}/lord-of-the-mics/${slug}`;
+  const videoId = battle.videoUrl ? new URL(battle.videoUrl).searchParams.get("v") : null;
+  const title = `${battle.title} | ${battle.customEp} | Lord of the Mics`;
+  const description = `${battle.title} from ${battle.customEp}. Battle recording, MC profiles and archive details.`;
+  const thumbnailUrl = videoId
+    ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`
+    : `${SITE_URL}/hero-archives-emblem.png`;
+
   return {
-    title: `${battle.title} | ${battle.customEp} | Lord of the Mics`,
-    description: `${battle.title} from ${battle.customEp}. Battle recording, MC profiles and archive details.`,
-    alternates: { canonical: `https://www.lordofthearchives.co.uk/lord-of-the-mics/${slug}` },
+    title,
+    description,
+    alternates: { canonical: battleUrl },
+    openGraph: {
+      title,
+      description,
+      url: battleUrl,
+      type: "video.other",
+      images: [
+        {
+          url: thumbnailUrl,
+          width: 1280,
+          height: 720,
+          alt: `${title} Thumbnail`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [thumbnailUrl],
+    },
   };
 }
 
@@ -36,8 +69,60 @@ export default async function LordOfTheMicsBattlePage({ params }: Props) {
   const previous = seriesBattles[index - 1];
   const next = seriesBattles[index + 1];
 
+  const battleUrl = `${SITE_URL}/lord-of-the-mics/${slug}`;
+  const uploadDate = battle.date ? `${battle.date}T12:00:00Z` : undefined;
+  const videoStructuredData = videoId && uploadDate ? {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: `${battle.title} Rap Battle`,
+    description: `${battle.title} from ${battle.customEp}. Battle recording, MC profiles and archive details.`,
+    thumbnailUrl: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
+    uploadDate,
+    contentUrl: `https://www.youtube.com/watch?v=${videoId}`,
+    embedUrl: `https://www.youtube.com/embed/${videoId}`,
+  } : null;
+
+  const breadcrumbStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: `${SITE_URL}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Lord of the Mics",
+        item: `${SITE_URL}/lord-of-the-mics`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: battle.title,
+        item: battleUrl,
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen bg-zinc-950 pb-24 pt-32 text-white">
+      {videoStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: serializeStructuredData(videoStructuredData),
+          }}
+        />
+      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeStructuredData(breadcrumbStructuredData),
+        }}
+      />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Link href="/lord-of-the-mics" className="mb-10 inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-brand">
           <ArrowLeft size={16} /> Back to Lord of the Mics
@@ -74,11 +159,15 @@ export default async function LordOfTheMicsBattlePage({ params }: Props) {
                 )}
               </div>
               <div className="grid grid-cols-2 gap-4 md:gap-8">
-                {[battle.mc1, battle.mc2].map((name) => (
-                  <Link key={name} href={getArchiveMcHref(name)} className="min-w-0 rounded-2xl border border-white/5 bg-zinc-900/30 p-5 text-center font-display text-2xl uppercase italic hover:text-brand md:p-8 md:text-3xl">
-                    {name}
-                  </Link>
-                ))}
+                {[battle.mc1, battle.mc2].map((name) => {
+                  const isWinner = battle.winner?.toLowerCase() === name.toLowerCase();
+                  return (
+                    <Link key={name} href={getArchiveMcHref(name)} className={`min-w-0 rounded-2xl border p-5 text-center font-display text-2xl uppercase italic hover:text-brand md:p-8 md:text-3xl ${isWinner ? "border-brand/40 bg-brand/5 text-brand" : "border-white/5 bg-zinc-900/30"}`}>
+                      {isWinner && <span className="mb-2 flex items-center justify-center gap-1.5 font-sans text-[10px] font-bold not-italic tracking-widest"><Trophy size={14} /> Winner{battle.resultSource === "lota" ? " · LOTA result" : ""}</span>}
+                      {name}
+                    </Link>
+                  );
+                })}
               </div>
               <div className="mt-10 border-t border-white/10 pt-8">
                 <h3 className="mb-4 font-display text-xl uppercase italic text-brand">Clash Summary</h3>

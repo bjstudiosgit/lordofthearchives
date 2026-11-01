@@ -3,17 +3,85 @@ import Link from "next/link";
 import BattleRow from "../talk-is-cheap/BattleRow";
 import { getArchiveMcHref, getArchiveMcId, getArchiveMcName } from "../../data/archiveMcProfiles";
 import { Trophy } from "lucide-react";
-import { getPrizefighterBattleSlug, prizefighterEditions, prizefighterClashData } from "../../data/prizefighter";
+import { getLegacyPrizefighterBattleSlug, getPrizefighterBattleSlug, prizefighterEditions, prizefighterClashData } from "../../data/prizefighter";
+
+const serializeStructuredData = (value: object) =>
+  JSON.stringify(value).replace(/</g, "\\u003c");
 
 export const metadata = {
-  title: "Ozone Prizefighter | Lord of the Archives",
+  title: "Ozone Prizefighter Battle Archive | Lord of the Archives",
   description: "Explore Classic Prizefighter and Ozone matchups, tournament rounds and recording availability by edition and season.",
   alternates: { canonical: "https://www.lordofthearchives.co.uk/prizefighter" },
+  openGraph: {
+    title: "Ozone Prizefighter Battle Archive | Lord of the Archives",
+    description: "Explore Classic Prizefighter and Ozone matchups, tournament rounds and recording availability by edition and season.",
+    url: "https://www.lordofthearchives.co.uk/prizefighter",
+    siteName: "Lord of the Archives",
+    type: "website",
+    images: [
+      {
+        url: "https://www.lordofthearchives.co.uk/hero-archives-emblem.png",
+        width: 1200,
+        height: 630,
+        alt: "Ozone Prizefighter Archive",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ozone Prizefighter Battle Archive | Lord of the Archives",
+    description: "Explore Classic Prizefighter and Ozone matchups, tournament rounds and recording availability by edition and season.",
+    images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
+  },
+};
+
+const collectionStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Ozone Prizefighter Battle Archive",
+  description: "Explore Classic Prizefighter and Ozone matchups, tournament rounds and recording availability by edition and season.",
+  url: "https://www.lordofthearchives.co.uk/prizefighter",
+  isPartOf: {
+    "@type": "WebSite",
+    name: "Lord of the Archives",
+    url: "https://www.lordofthearchives.co.uk",
+  },
+};
+
+const breadcrumbStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.lordofthearchives.co.uk/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Ozone Prizefighter",
+      item: "https://www.lordofthearchives.co.uk/prizefighter",
+    },
+  ],
 };
 
 export default function PrizefighterPage() {
   return (
     <main className="min-h-screen bg-zinc-950 pb-24 pt-32 text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeStructuredData(collectionStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeStructuredData(breadcrumbStructuredData),
+        }}
+      />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <p className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-brand">Archive</p>
         <h1 className="font-display text-4xl italic uppercase leading-tight md:text-6xl">
@@ -47,7 +115,8 @@ export default function PrizefighterPage() {
                         </thead>
                         <tbody className="divide-y divide-white/5">
                           {edition.battles.map((battle, index) => {
-                            const clashData = prizefighterClashData[getPrizefighterBattleSlug(edition, battle)];
+                            const clashData = prizefighterClashData[getLegacyPrizefighterBattleSlug(edition, battle)]
+                              ?? prizefighterClashData[getPrizefighterBattleSlug(edition, battle)];
                             const isArchived = Boolean(clashData?.clashSummary?.trim());
                             const winnerId = clashData?.winner ? getArchiveMcId(clashData.winner) : undefined;
                             return (
@@ -68,7 +137,7 @@ export default function PrizefighterPage() {
                               <td className="whitespace-nowrap px-4 py-5 text-xs text-zinc-400 md:px-6" title={battle.releaseDate ? "YouTube publication date" : "Event year"}>{battle.releaseDate ? formatBattleDate(battle.releaseDate) : edition.year || "—"}</td>
                               <td className="px-4 py-5 font-mono text-xs text-zinc-400 md:px-6" aria-label="Views unavailable">—</td>
                               <td className="px-4 py-5 md:px-6">
-                                <span className={`text-xs md:text-sm font-semibold ${isArchived ? "text-emerald-300" : "text-brand"}`}>{isArchived ? "Indexed" : "Added"}</span>
+                                <span className={`text-xs md:text-sm font-semibold ${isArchived ? "text-emerald-300" : "text-brand"}`}>{isArchived ? "Archived" : "Catalogued"}</span>
                               </td>
                             </BattleRow>
                             );

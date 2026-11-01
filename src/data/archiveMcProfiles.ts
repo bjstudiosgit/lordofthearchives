@@ -4,6 +4,8 @@ import talkIsCheapViews from "./talkIsCheapViews.json";
 import { prizefighterBattles } from "./prizefighter";
 import { formatBattleDate } from "./battleDates";
 import { getTalkIsCheapBattleSlug, getTalkIsCheapClashData, talkIsCheapSeries } from "./talkIsCheap";
+import clashMoneyBattles from "./clashMoneyData.json";
+import kotrBattles from "./kotrData.json";
 
 const normalize = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, "");
 const aliases: Record<string, string> = {
@@ -14,9 +16,14 @@ const aliases: Record<string, string> = {
   "Swiftzz": "Swiftz",
   "Flawzz": "Flawz",
   "Tricky": "Trickyy",
+  "Tricksta": "Trickyy",
   "Z,K": "Z.K",
   "RP": "TheRealRP",
   "Korrupt": "Korrupt Citizen",
+  "Grams": "MARNI GRAMZ",
+  "Marni Gramz": "MARNI GRAMZ",
+  "Definin": "Defenin",
+  "Leadership": "Lidaship",
 };
 export const getArchiveMcName = (name: string) => {
   const alias = Object.entries(aliases).find(([variant]) => normalize(variant) === normalize(name));
@@ -29,6 +36,16 @@ export const getArchiveMcId = (name: string): string => {
     ?? canonicalName(name).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 };
 export const getArchiveMcHref = (name: string) => getMcProfileHref(getArchiveMcId(name));
+
+export const getClashMoneyMcId = (name: string): string => {
+  if (name.trim() === "JM") return "jm-clash-money";
+  return getArchiveMcId(name);
+};
+
+export const getClashMoneyMcHref = (name: string): string => {
+  if (name.trim() === "JM") return "/mc/jm-clash-money";
+  return getArchiveMcHref(name);
+};
 
 interface ArchiveBattle {
   id: string;
@@ -47,18 +64,24 @@ interface ArchiveBattle {
 }
 
 const catalogueBattles: ArchiveBattle[] = [
-  ...lordOfTheMicsBattles.map((battle) => ({
-    id: battle.id,
-    names: [battle.mc1, battle.mc2],
-    event: `Lord of the Mics · ${battle.customEp}`,
-    date: battle.date ?? "",
-    yearOnly: Boolean(battle.date?.endsWith("-01-01")),
-    archiveHref: "/lord-of-the-mics",
-    battleHref: `/lord-of-the-mics/${battle.slug}`,
-    videoUrl: battle.videoUrl,
-    views: undefined as number | undefined,
-    note: battle.statusNote,
-  })),
+  ...lordOfTheMicsBattles.map((battle) => {
+    const winner = battle.winner && battle.winner !== "unknown" && battle.winner !== "draw"
+      ? [battle.mc1, battle.mc2].find((name) => getArchiveMcId(name) === getArchiveMcId(battle.winner!))
+      : undefined;
+    return {
+      id: battle.id,
+      names: [battle.mc1, battle.mc2],
+      event: `Lord of the Mics · ${battle.customEp}`,
+      date: battle.date ?? "",
+      yearOnly: Boolean(battle.date?.endsWith("-01-01")),
+      archiveHref: "/lord-of-the-mics",
+      battleHref: `/lord-of-the-mics/${battle.slug}`,
+      videoUrl: battle.videoUrl,
+      views: undefined as number | undefined,
+      winner,
+      note: battle.judgementSummary?.verdict ?? (winner ? `${getArchiveMcName(winner)} wins` : battle.statusNote),
+    };
+  }),
   ...talkIsCheapSeries.flatMap((series) => series.battles.map(([mc1, mc2, videoId]) => {
     const slug = getTalkIsCheapBattleSlug(mc1, mc2);
     const clashData = getTalkIsCheapClashData(slug);
@@ -96,15 +119,53 @@ const catalogueBattles: ArchiveBattle[] = [
       note: battle.judgementSummary?.verdict ?? (winner ? `${getArchiveMcName(winner)} wins` : "Result not recorded"),
     };
   }),
+  ...clashMoneyBattles.map((battle): ArchiveBattle => {
+    const sides = [battle.mc1.split(" & "), battle.mc2.split(" & ")];
+    return {
+      id: battle.id,
+      names: [...new Set(sides.flat())],
+      sides: sides.map((side) => side.map(getClashMoneyMcId)),
+      event: `Clash Money · ${battle.series}`,
+      date: battle.releaseDate,
+      dateLabel: `${formatBattleDate(battle.releaseDate)} · YouTube release`,
+      yearOnly: false,
+      archiveHref: "/clash-money",
+      battleHref: `/clash-money/${battle.slug}`,
+      videoUrl: battle.videoUrl,
+      note: battle.series === "Trials" ? "Clash Money Trials clash" : "Clash Money main stage clash",
+    };
+  }),
+  ...kotrBattles.map((battle): ArchiveBattle => {
+    const sides = [battle.mc1.split(" & "), battle.mc2.split(" & ")];
+    return {
+      id: battle.id,
+      names: [...new Set(sides.flat())],
+      sides: sides.map((side) => side.map(getArchiveMcId)),
+      event: battle.event ? `King of the Ronalds · ${battle.event}` : "King of the Ronalds",
+      date: battle.releaseDate,
+      dateLabel: `${formatBattleDate(battle.releaseDate)} · YouTube release`,
+      yearOnly: false,
+      archiveHref: "/king-of-the-ronalds",
+      battleHref: `/king-of-the-ronalds/${battle.slug}`,
+      videoUrl: battle.videoUrl,
+      note: battle.verification ? `${battle.verification}${battle.notes ? ` · ${battle.notes}` : ""}` : "King of the Ronalds indexed clash",
+    };
+  }),
 ];
 export const archiveMcBattles = catalogueBattles.map((battle) => ({
-  ...battle, participants: [...new Set(battle.names.map(getArchiveMcId))],
+  ...battle,
+  participants: battle.sides
+    ? [...new Set(battle.sides.flat())]
+    : [...new Set(battle.names.map(getArchiveMcId))],
 }));
 
 const profiles = new Map<string, MC>(allMcs.map((mc) => [mc.id, { ...mc }]));
 for (const battle of archiveMcBattles) {
   battle.participants.forEach((id) => {
-    const name = battle.names.find((name) => getArchiveMcId(name) === id)!;
+    const name = battle.names.find((name) => {
+      if (battle.archiveHref === "/clash-money") return getClashMoneyMcId(name) === id;
+      return getArchiveMcId(name) === id;
+    }) ?? id;
     if (!profiles.has(id)) {
       const base = mcs.find((mc) => mc.id === id);
       profiles.set(id, {

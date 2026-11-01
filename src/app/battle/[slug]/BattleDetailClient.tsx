@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { getRepeatClashNumber, hasBattleArchiveData, pengameBattles } from "../../../data/pengameBattles";
@@ -310,7 +310,7 @@ export default function BattleDetailClient({
 
               {hasArchiveData && notableBarsByPerformer && (
                 <div className="mt-10 border-t border-white/10 pt-8 text-left">
-                  <h3 className="text-xl font-display italic uppercase text-white mb-6">Indexed Bars &amp; Breakdown</h3>
+                  <h3 className="text-xl font-display italic uppercase text-white mb-6">Archived Bars &amp; Breakdown</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     {Object.entries(notableBarsByPerformer).map(([performer, bars]) => (
                       <article key={performer} className="bg-zinc-950/50 border border-white/5 rounded-2xl p-6">
