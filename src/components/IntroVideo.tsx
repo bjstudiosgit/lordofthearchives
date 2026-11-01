@@ -102,11 +102,17 @@ export default function IntroVideo() {
       <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-20 pt-36 sm:px-6 sm:pt-44 lg:px-8 lg:pt-48">
         {/* Hero Main Content */}
         <div className="max-w-4xl">
-          <h1 id="hero-heading" className="font-display text-[clamp(2.4rem,5.5vw,5.5rem)] italic uppercase leading-none tracking-tight text-white sm:whitespace-nowrap">
-            Lord of the <span className="text-brand">Archives.</span>
+          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-3.5 py-1 text-[10px] font-black uppercase tracking-[0.25em] text-brand backdrop-blur-md">
+            <span className="h-1.5 w-1.5 rounded-full bg-brand animate-pulse" />
+            The UK Battle Rap Archive
+          </div>
+
+          <h1 id="hero-heading" className="font-display text-[clamp(2.5rem,6vw,5.75rem)] italic uppercase leading-[0.95] tracking-tight text-white sm:whitespace-nowrap">
+            Lord of the <span className="text-brand">Archives</span>
           </h1>
-          <p className="mt-6 max-w-2xl text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
-            Explore UK rap battle history in one place. Watch clashes, discover MCs, explore our own league tables and dive into the results, rivalries and bars behind the battles.
+
+          <p className="mt-5 max-w-2xl text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
+            Two decades of UK clash culture cataloged in one definitive vault. Watch legendary battles, track <span className="text-white font-semibold">540+ MC records</span>, and explore verified league standings across <span className="text-brand font-semibold">7 historic archives</span>.
           </p>
 
           {/* Hero Quick Actions */}
@@ -121,7 +127,7 @@ export default function IntroVideo() {
               href="/lota-league"
               className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3.5 text-xs font-black uppercase tracking-wider text-white transition hover:border-brand/40 hover:bg-white/10"
             >
-              LOTA League Table
+              <Trophy size={14} className="text-brand" /> LOTA League Table
             </Link>
             <Link
               href="/mcs"
