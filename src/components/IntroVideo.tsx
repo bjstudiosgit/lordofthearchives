@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Trophy, MapPin, Flame, Calendar, Film } from "lucide-react";
+import { ArrowUpRight, Trophy, MapPin, Flame, Film } from "lucide-react";
 import { pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
 import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
@@ -36,7 +36,7 @@ const roadStops: RoadStop[] = [
     era: "2004–15",
     name: "Lord of the Mics",
     tagline: "Jammer's Basement & The Camcorder DVD Era",
-    location: "Leytonstone, East London (E17)",
+    location: "Leytonstone, East London E17",
     story:
       "Where it all began. In 2004, Boy Better Know producer Jammer crammed East London's deadliest pirate radio MCs into his parents' basement with a single camcorder. Pressed onto physical bootleg DVDs and traded through barbershops and car boots, LOTM birthed modern UK clash culture.",
     landmarkBattles: "Wiley vs Kano • Skepta vs Devilman • Ghetts vs Napper",
@@ -82,7 +82,7 @@ const roadStops: RoadStop[] = [
     era: "2011–24",
     name: "Prizefighter",
     tagline: "140 BPM Tournament Knockouts & Belts",
-    location: "London Boxing Rings & Live Venues",
+    location: "Boxing Rings & Live Arenas, London",
     story:
       "Bridging raw grime energy with sudden-death tournament boxing. MCs entered 8-man knockout brackets, clashing at 140 BPM for cash purses, title belts, and verified divisional points tables across multiple tournament generations.",
     landmarkBattles: "Knockout Series 1 & 2 • Grime Bracket Title Deciders",
@@ -122,7 +122,7 @@ const roadStops: RoadStop[] = [
     era: "2014–20",
     name: "King of the Ronalds",
     tagline: "Rowdy Pub Basements & Dark British Comedy",
-    location: "The Old Red Lion Pub, Islington, London",
+    location: "The Old Red Lion Pub, Islington N1",
     story:
       "Uncensored, beer-soaked, and strictly for the underground. Bowski and Micky Worthless crammed hundreds of rowdy spectators into London pub basements. KOTR became a cult British institution defined by brutal personal disrespect, pitch-black humour, and iconic characters.",
     landmarkBattles: "Bowski vs Micky Worthless • Hulk vs Pedro • Tony D vs Oshea",
@@ -162,7 +162,7 @@ const roadStops: RoadStop[] = [
     era: "2015–16",
     name: "Clash Money",
     tagline: "The M1 Corridor, 2v2 Bouts & The Trials",
-    location: "Leeds, Nottingham & Manchester (M1 North)",
+    location: "M1 North • Leeds, Nottingham & Manchester",
     story:
       "Breaking the London monopoly. Clash Money took battle rap up the M1 motorway, staging historic 2v2 wars and 'The Trials' development proving grounds that launched northern heavyweights like Blizzard, Dialect, and Bru-C onto the national stage.",
     landmarkBattles: "Blizzard vs Dialect • Dialect & Kaotik 2v2 • The Trials Invitational",
@@ -196,7 +196,7 @@ const roadStops: RoadStop[] = [
     era: "2020–26",
     name: "PenGame",
     tagline: "Judged Divisions, Title Matches & Modern Benchmark",
-    location: "Headline Stages & Central Studios, UK",
+    location: "Central Studios & Main Stages, UK",
     story:
       "The definitive modern powerhouse of UK battle rap. Over 450 battles cataloged with multi-tier divisional tables, championship title fights, and a respected judging desk featuring Lippy Lickshot, Joe Black, and LV General.",
     landmarkBattles: "Premier Division Title Clashes • 450+ Judged Matches",
@@ -236,7 +236,7 @@ const roadStops: RoadStop[] = [
     era: "Season 1",
     name: "Gzone",
     tagline: "Heavyweight 140 BPM Grime Reload Aggression",
-    location: "Underground Grime Circuit, UK",
+    location: "London Grime Circuit",
     story:
       "A ferocious return to pure grime energy. Heavyweight contenders clashing head-to-head at 140 BPM over classic instrumental reload dubs, backed by official season fixtures and league standings.",
     landmarkBattles: "Deeno, Tapped24, Roman, Marni Gramz & Ryno Season Fixtures",
@@ -380,79 +380,60 @@ export default function IntroVideo() {
         </div>
 
         {/* The UK Clash Road Map: "How It All Started" */}
-        <div id="hero-archives" className="mt-14 scroll-mt-28 border-t border-white/10 pt-10 sm:mt-18 sm:pt-12">
+        <div id="hero-archives" className="mt-16 scroll-mt-28 border-t border-white/10 pt-12 sm:mt-20 sm:pt-16">
           <h2 className="sr-only">The UK Battle Rap Archives Road Map</h2>
 
-          {/* Overhead Highway Gantry Sign at Entrance */}
-          <div className="relative z-20 mb-10 flex justify-center">
-            <div className="relative max-w-xl w-full mx-auto">
-              <div className="rounded-2xl border-2 border-zinc-700 bg-zinc-950 p-4 sm:p-5 shadow-[0_20px_50px_rgba(0,0,0,0.9)] text-center relative overflow-hidden">
-                {/* Top Hazard Warning Stripe */}
-                <div className="absolute top-0 inset-x-0 h-1.5 bg-[repeating-linear-gradient(45deg,#f27d26,#f27d26_12px,#000_12px,#000_24px)]" />
-
-                <div className="flex items-center justify-between gap-3 border-b border-white/10 pb-2.5 mb-2.5">
-                  <span className="font-mono text-[10px] font-black uppercase tracking-[0.25em] text-brand">
-                    UK BATTLE HIGHWAY • ROUTE 2004 — 2026
-                  </span>
-                  <span className="rounded bg-emerald-500/10 border border-emerald-500/40 px-2 py-0.5 font-mono text-[9px] font-black uppercase text-emerald-400 tracking-wider flex items-center gap-1.5">
-                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                    ROAD OPEN
-                  </span>
-                </div>
-
-                <div className="font-display text-2xl sm:text-4xl uppercase italic tracking-tight text-white">
-                  START POINT: <span className="text-brand">JAMMER&apos;S BASEMENT</span>
-                </div>
-                <p className="font-mono text-xs text-zinc-400 mt-1">
-                  Leytonstone, East London E17 • Established 2004 • The Genesis of Modern UK Clashing
-                </p>
+          {/* Road Map Section Header */}
+          <div className="mb-14 border-b border-white/10 pb-8 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="h-2 w-2 rounded-full bg-brand animate-ping" />
+                <span className="font-mono text-[10px] sm:text-xs font-black uppercase tracking-[0.3em] text-brand">
+                  The Chronological Route • 2004 — 2026
+                </span>
+              </div>
+              <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl uppercase italic tracking-tight text-white mt-2">
+                The Road Map: <span className="text-brand">How It All Started</span>
+              </h2>
+              <p className="mt-2.5 max-w-2xl text-xs sm:text-sm text-zinc-400 leading-relaxed font-sans">
+                Follow the 20-year route of UK battle rap from Jammer&apos;s East London basement in 2004 through pub cellars and northern motorway clashes to modern title leagues.
+              </p>
+            </div>
+            <div className="shrink-0 flex items-center gap-3 rounded-2xl border border-white/10 bg-zinc-950 px-4 py-3">
+              <div className="flex flex-col items-start leading-none">
+                <span className="font-mono text-[9px] uppercase tracking-widest text-zinc-500">Route Overview</span>
+                <span className="font-mono text-xs font-black uppercase text-brand mt-1 flex items-center gap-1.5">
+                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" /> 7 Eras • {archivedBattleCount} Battles
+                </span>
               </div>
             </div>
           </div>
 
-          {/* THE VISUAL ROAD HIGHWAY WITH MEMORY MAP */}
+          {/* THE PHYSICAL ASPHALT HIGHWAY WITH INTEGRATED MILESTONE STATIONS */}
           <div className="relative">
-            {/* The Central Asphalt Highway Track (Mobile: Left-aligned; Desktop: Centered between the 2 columns) */}
-            <div className="absolute left-6 sm:left-8 lg:left-1/2 top-0 bottom-0 -translate-x-1/2 w-16 sm:w-20 lg:w-28 flex flex-col items-center pointer-events-none z-10">
+            {/* The Continuous Asphalt Road Spine running down the left */}
+            <div className="absolute left-6 sm:left-8 lg:left-12 top-0 bottom-0 -translate-x-1/2 w-12 sm:w-16 lg:w-20 flex flex-col items-center pointer-events-none z-10">
               {/* Asphalt Road Bed */}
-              <div className="relative w-full h-full bg-zinc-950 border-x-2 border-white/40 shadow-[inset_0_0_25px_rgba(0,0,0,0.98)] flex flex-col items-center">
-                {/* UK Kerbs: Double Yellow Lines on Both Edges */}
-                <div className="absolute left-1 inset-y-0 w-1.5 flex justify-between opacity-80 pointer-events-none">
-                  <div className="w-[1.5px] h-full bg-amber-400" />
-                  <div className="w-[1.5px] h-full bg-amber-400" />
+              <div className="relative w-full h-full bg-[#0d0d10] border-x-2 border-white/30 shadow-[inset_0_0_20px_rgba(0,0,0,0.95)] flex flex-col items-center">
+                {/* UK Kerbs: Double Yellow Lines along both edges */}
+                <div className="absolute left-1 inset-y-0 w-1 flex justify-between opacity-80 pointer-events-none">
+                  <div className="w-[1px] h-full bg-amber-400" />
+                  <div className="w-[1px] h-full bg-amber-400" />
                 </div>
-                <div className="absolute right-1 inset-y-0 w-1.5 flex justify-between opacity-80 pointer-events-none">
-                  <div className="w-[1.5px] h-full bg-amber-400" />
-                  <div className="w-[1.5px] h-full bg-amber-400" />
+                <div className="absolute right-1 inset-y-0 w-1 flex justify-between opacity-80 pointer-events-none">
+                  <div className="w-[1px] h-full bg-amber-400" />
+                  <div className="w-[1px] h-full bg-amber-400" />
                 </div>
 
-                {/* Center Dashed Lane Divider */}
-                <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-amber-300/80 shadow-[0_0_8px_rgba(255,215,0,0.4)]" />
+                {/* Center Broken Amber Lane Divider */}
+                <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-amber-400/80 shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
 
-                {/* Painted Start Line & Tarmac Stencils at Road Entrance */}
-                <div className="relative z-10 w-full pt-2 flex flex-col items-center">
-                  {/* Checkered Start Line */}
-                  <div className="w-full h-6 border-y border-white/30 my-2">
-                    <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 100 24">
-                      <defs>
-                        <pattern id="road-checkers" width="12.5" height="12" patternUnits="userSpaceOnUse">
-                          <rect width="6.25" height="6" fill="#ffffff" />
-                          <rect x="6.25" width="6.25" height="6" fill="#18181b" />
-                          <rect y="6" width="6.25" height="6" fill="#18181b" />
-                          <rect x="6.25" y="6" width="6.25" height="6" fill="#ffffff" />
-                        </pattern>
-                      </defs>
-                      <rect width="100" height="24" fill="url(#road-checkers)" />
-                    </svg>
-                  </div>
-
-                  {/* Painted "START" Road Stencil */}
-                  <span className="font-mono text-[9px] sm:text-[11px] font-black tracking-[0.3em] text-white/90 select-none uppercase mt-1">
+                {/* Stenciled "START" Road Marking on the Tarmac */}
+                <div className="relative z-10 w-full pt-4 flex flex-col items-center">
+                  <span className="font-mono text-[8px] sm:text-[10px] font-black tracking-[0.3em] text-white/90 select-none uppercase">
                     START
                   </span>
-
-                  {/* Directional Highway Arrow */}
-                  <svg className="w-3.5 h-6 text-white/80 my-1.5" viewBox="0 0 24 36" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                  <svg className="w-3.5 h-6 text-white/80 my-1" viewBox="0 0 24 36" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="12" y1="34" x2="12" y2="4" />
                     <polyline points="5 11 12 4 19 11" />
                   </svg>
@@ -460,8 +441,8 @@ export default function IntroVideo() {
               </div>
             </div>
 
-            {/* The 7 Road Stops (Dual-Sided on Desktop: Platform Dossier on Left, Memory Map on Right) */}
-            <div className="space-y-16 sm:space-y-20 lg:space-y-28 pt-8">
+            {/* The 7 Unified Road Milestone Stations */}
+            <div className="space-y-14 sm:space-y-18 lg:space-y-24">
               {roadStops.map((stop) => {
                 return (
                   <div
@@ -469,132 +450,131 @@ export default function IntroVideo() {
                     id={`stop-${stop.step}`}
                     className="relative scroll-mt-36"
                   >
-                    {/* Waypoint Milestone Node on the Highway Track */}
-                    <div className="absolute left-6 sm:left-8 lg:left-1/2 top-8 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
-                      <div className="relative flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-full border-2 border-brand bg-zinc-950 shadow-[0_0_20px_rgba(255,215,0,0.4)]">
-                        <span className="font-display text-sm font-bold italic text-brand">
+                    {/* Waypoint Road Node on the Asphalt Highway */}
+                    <div className="absolute left-6 sm:left-8 lg:left-12 top-8 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
+                      <div className="relative flex h-11 w-11 sm:h-12 sm:w-12 items-center justify-center rounded-full border-2 border-brand bg-zinc-950 shadow-[0_0_25px_rgba(255,215,0,0.5)]">
+                        <span className="font-display text-base font-bold italic text-brand">
                           {stop.step}
                         </span>
-                        <div className="absolute -inset-1 rounded-full border border-brand/30 animate-ping pointer-events-none opacity-30" />
+                        <div className="absolute -inset-1 rounded-full border border-brand/40 animate-ping pointer-events-none opacity-25" />
                       </div>
                     </div>
 
-                    {/* Dual Grid Layout: Platform Dossier (Left) & Memory Map (Right) */}
-                    <div className="pl-16 sm:pl-20 lg:pl-0 lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-24 items-start">
-                      {/* LEFT: Platform Archive Dossier */}
-                      <div className="group relative rounded-2xl border border-white/10 bg-zinc-950/90 p-6 sm:p-7 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_12px_40px_rgba(255,215,0,0.08)] overflow-hidden">
+                    {/* Horizontal Connector Arm from Road Node to Card */}
+                    <div className="absolute left-6 sm:left-8 lg:left-12 top-14 w-10 sm:w-16 lg:w-20 -translate-y-1/2 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
+
+                    {/* UNIFIED MILESTONE STATION CARD */}
+                    <div className="pl-14 sm:pl-22 lg:pl-32">
+                      <div className="group relative rounded-3xl border border-white/10 bg-zinc-950/90 p-6 sm:p-8 lg:p-10 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_15px_50px_rgba(255,215,0,0.08)] overflow-hidden">
                         {/* Background Step Watermark */}
-                        <div className="absolute right-4 top-2 font-display text-7xl sm:text-8xl italic text-white/[0.03] select-none pointer-events-none group-hover:text-brand/[0.07] transition-colors">
+                        <div className="absolute right-6 top-3 font-display text-8xl sm:text-9xl italic text-white/[0.03] select-none pointer-events-none group-hover:text-brand/[0.06] transition-colors">
                           {stop.step}
                         </div>
 
-                        {/* Card Header (No Tags, Pure Clean Typography) */}
-                        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/5 pb-4">
-                          <span className="font-mono text-xs font-semibold text-zinc-400">
-                            {stop.era}
-                          </span>
-                          <span className="font-mono text-xs text-zinc-400">
-                            <strong className="text-white font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles
-                          </span>
-                        </div>
-
-                        {/* Location Tag */}
-                        <div className="mt-4 flex items-center gap-1.5 text-xs text-zinc-400">
-                          <MapPin size={13} className="text-brand shrink-0" />
-                          <span className="font-mono text-[11px] text-zinc-300 truncate">
-                            {stop.location}
-                          </span>
-                        </div>
-
-                        {/* Era Title */}
-                        <h3 className="mt-2 font-display text-2xl sm:text-3xl uppercase italic text-white transition-colors group-hover:text-brand">
-                          {stop.name}
-                        </h3>
-
-                        {/* Tagline */}
-                        <p className="text-[11px] font-bold uppercase tracking-wider text-brand">
-                          {stop.tagline}
-                        </p>
-
-                        {/* Narrative: How It Started & Cultural Impact */}
-                        <p className="mt-3 text-xs sm:text-sm leading-relaxed text-zinc-300">
-                          {stop.story}
-                        </p>
-
-                        {/* Landmark Historic Battles */}
-                        <div className="mt-4 rounded-xl border border-white/5 bg-white/[0.02] p-3">
-                          <div className="flex items-center gap-1.5 font-mono text-[10px] font-black uppercase tracking-wider text-brand">
-                            <Flame size={12} className="text-brand shrink-0" /> Classic Clashes:
+                        {/* Junction & Postcode Sign Header */}
+                        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-5 mb-6">
+                          <div className="flex items-center gap-2.5">
+                            <div className="flex items-center gap-1.5 rounded-lg border border-brand/30 bg-brand/10 px-3 py-1 font-mono text-xs font-black text-brand uppercase tracking-wider">
+                              <MapPin size={13} className="text-brand shrink-0" />
+                              JCT {stop.step} • {stop.location}
+                            </div>
                           </div>
-                          <p className="mt-1 font-mono text-[11px] text-zinc-300 leading-normal">
-                            {stop.landmarkBattles}
-                          </p>
-                        </div>
-
-                        {/* Action Buttons */}
-                        <div className="mt-6 flex flex-wrap items-center gap-2 pt-2">
-                          <Link
-                            href={stop.href}
-                            className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-brand px-4 py-2.5 text-xs font-black uppercase tracking-wider text-black font-display italic transition hover:bg-white hover:shadow-[0_0_20px_rgba(255,215,0,0.4)]"
-                          >
-                            Explore {stop.name} <ArrowUpRight size={14} />
-                          </Link>
-                          {stop.leagueHref && (
-                            <Link
-                              href={stop.leagueHref}
-                              className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-xs font-black uppercase tracking-wider text-zinc-200 transition hover:border-brand/40 hover:bg-brand/10 hover:text-brand"
-                              title="League Table Standings"
-                            >
-                              <Trophy size={13} className="text-brand" /> Table
-                            </Link>
-                          )}
-                        </div>
-                      </div>
-
-                      {/* RIGHT: Clash Memory Map (Seasons & Landmark Clash Milestones) */}
-                      <div className="mt-4 lg:mt-0 rounded-2xl border border-white/10 bg-zinc-950/85 p-6 sm:p-7 transition-all duration-300 hover:border-white/20">
-                        {/* Memory Map Card Header */}
-                        <div className="flex items-center justify-between border-b border-white/5 pb-4">
-                          <div className="flex items-center gap-2">
-                            <Film size={14} className="text-brand" />
-                            <span className="font-mono text-[10px] font-black uppercase tracking-[0.2em] text-brand">
-                              Clash Memory Map
+                          <div className="flex items-center gap-4 font-mono text-xs text-zinc-400">
+                            <span className="font-bold text-white">{stop.era}</span>
+                            <span className="text-zinc-700">•</span>
+                            <span>
+                              <strong className="text-brand font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles cataloged
                             </span>
                           </div>
-                          <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-zinc-500">
-                            Seasons & Key Moments
-                          </span>
                         </div>
 
-                        {/* Milestones Timeline */}
-                        <div className="mt-5 space-y-4">
-                          {stop.memoryMilestones.map((m, mIdx) => (
-                            <div
-                              key={m.season}
-                              className="relative pl-5 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-white/10 last:before:hidden"
-                            >
-                              {/* Glowing node on mini-timeline */}
-                              <div className="absolute -left-[3px] top-1.5 h-2 w-2 rounded-full border border-brand bg-zinc-950" />
+                        {/* Content Grid: Left = Platform Dossier, Right = Clash Memory Map */}
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+                          {/* Left Column (5 cols): Platform History & Clashes */}
+                          <div className="lg:col-span-5 flex flex-col justify-between h-full">
+                            <div>
+                              <h3 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic text-white tracking-tight transition-colors group-hover:text-brand">
+                                {stop.name}
+                              </h3>
+                              <p className="font-mono text-xs font-bold uppercase tracking-wider text-brand mt-1">
+                                {stop.tagline}
+                              </p>
 
-                              <div className="flex flex-wrap items-center gap-2">
-                                <span className="font-mono text-xs font-black text-brand">
-                                  {m.year}
-                                </span>
-                                <span className="text-zinc-600 font-mono text-xs">•</span>
-                                <span className="font-display text-sm uppercase italic text-white tracking-wide">
-                                  {m.season}
+                              <p className="mt-4 text-xs sm:text-sm leading-relaxed text-zinc-300 font-sans">
+                                {stop.story}
+                              </p>
+
+                              {/* Classic Clashes */}
+                              <div className="mt-5 rounded-2xl border border-white/5 bg-white/[0.02] p-4">
+                                <div className="flex items-center gap-1.5 font-mono text-[10px] font-black uppercase tracking-wider text-brand">
+                                  <Flame size={13} className="text-brand shrink-0" /> Classic Clashes:
+                                </div>
+                                <p className="mt-1.5 font-mono text-xs text-zinc-200 leading-normal">
+                                  {stop.landmarkBattles}
+                                </p>
+                              </div>
+                            </div>
+
+                            {/* Action Buttons */}
+                            <div className="mt-8 flex flex-wrap items-center gap-3">
+                              <Link
+                                href={stop.href}
+                                className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-brand px-5 py-3 text-xs font-black uppercase tracking-wider text-black font-display italic transition hover:bg-white hover:shadow-[0_0_25px_rgba(255,215,0,0.5)]"
+                              >
+                                Explore {stop.name} Archive <ArrowUpRight size={15} />
+                              </Link>
+                              {stop.leagueHref && (
+                                <Link
+                                  href={stop.leagueHref}
+                                  className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-xs font-black uppercase tracking-wider text-zinc-200 transition hover:border-brand/40 hover:bg-brand/10 hover:text-brand"
+                                  title="League Table Standings"
+                                >
+                                  <Trophy size={14} className="text-brand" /> Table
+                                </Link>
+                              )}
+                            </div>
+                          </div>
+
+                          {/* Right Column (7 cols): Clash Memory Map (Seasons & Key Moments) */}
+                          <div className="lg:col-span-7 lg:border-l lg:border-white/10 lg:pl-10">
+                            <div className="flex items-center justify-between border-b border-white/5 pb-3 mb-4">
+                              <div className="flex items-center gap-2">
+                                <Film size={14} className="text-brand" />
+                                <span className="font-mono text-xs font-black uppercase tracking-[0.2em] text-brand">
+                                  Clash Memory Map
                                 </span>
                               </div>
-
-                              <p className="mt-1 font-mono text-[11px] font-semibold text-zinc-200 leading-snug">
-                                {m.battles}
-                              </p>
-
-                              <p className="mt-1 text-[11px] leading-relaxed text-zinc-400">
-                                {m.note}
-                              </p>
+                              <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-zinc-500">
+                                Seasons &amp; Key Moments
+                              </span>
                             </div>
-                          ))}
+
+                            <div className="space-y-4">
+                              {stop.memoryMilestones.map((m) => (
+                                <div
+                                  key={m.season}
+                                  className="relative pl-5 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-white/10 last:before:hidden group/item"
+                                >
+                                  <div className="absolute -left-[3px] top-1.5 h-2 w-2 rounded-full border border-brand bg-zinc-950 transition-colors group-hover/item:bg-brand" />
+                                  <div className="flex flex-wrap items-center gap-2">
+                                    <span className="font-mono text-xs font-black text-brand">
+                                      {m.year}
+                                    </span>
+                                    <span className="text-zinc-600 font-mono text-xs">•</span>
+                                    <span className="font-display text-sm uppercase italic text-white tracking-wide">
+                                      {m.season}
+                                    </span>
+                                  </div>
+                                  <p className="mt-1 font-mono text-xs font-semibold text-zinc-200 leading-snug">
+                                    {m.battles}
+                                  </p>
+                                  <p className="mt-0.5 text-xs leading-relaxed text-zinc-400">
+                                    {m.note}
+                                  </p>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -603,29 +583,29 @@ export default function IntroVideo() {
               })}
             </div>
 
-            {/* Overhead Road Horizon Gantry */}
-            <div className="relative z-20 mt-20 flex justify-center">
-              <div className="relative max-w-xl w-full mx-auto">
-                <div className="rounded-2xl border-2 border-zinc-700 bg-zinc-950 p-4 sm:p-5 shadow-[0_20px_50px_rgba(0,0,0,0.9)] text-center relative overflow-hidden">
-                  <div className="absolute top-0 inset-x-0 h-1.5 bg-[repeating-linear-gradient(45deg,#f27d26,#f27d26_12px,#000_12px,#000_24px)]" />
-
-                  <div className="flex items-center justify-between gap-3 border-b border-white/10 pb-2.5 mb-2.5">
+            {/* End of Current Route Horizon */}
+            <div className="relative z-20 mt-16 pl-14 sm:pl-22 lg:pl-32">
+              <div className="rounded-3xl border border-white/10 bg-zinc-950/90 p-6 sm:p-8 shadow-[0_15px_40px_rgba(0,0,0,0.8)] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="h-2 w-2 rounded-full bg-brand animate-ping" />
                     <span className="font-mono text-[10px] font-black uppercase tracking-[0.25em] text-brand">
-                      CURRENT FRONTIER • 2026 &amp; BEYOND
-                    </span>
-                    <span className="rounded bg-brand/10 border border-brand/40 px-2 py-0.5 font-mono text-[9px] font-black uppercase text-brand tracking-wider flex items-center gap-1.5">
-                      <span className="h-1.5 w-1.5 rounded-full bg-brand animate-ping" />
-                      LIVE NOW
+                      The Road Continues • 2026 &amp; Beyond
                     </span>
                   </div>
-
-                  <div className="font-display text-2xl sm:text-4xl uppercase italic tracking-tight text-white">
-                    THE ROAD <span className="text-brand">CONTINUES</span>
-                  </div>
-                  <p className="font-mono text-xs text-zinc-400 mt-1">
-                    Live Season Title Defenses, Grime Standings &amp; The Underground Next Generation
+                  <h4 className="font-display text-2xl sm:text-3xl uppercase italic text-white mt-1.5">
+                    Active Title Races &amp; The Next Generation
+                  </h4>
+                  <p className="text-xs sm:text-sm text-zinc-400 mt-1 max-w-xl">
+                    Lord of the Archives is updated in real-time as new clashes, title defenses, and divisional points drop across the UK battle rap scene.
                   </p>
                 </div>
+                <Link
+                  href="/mcs"
+                  className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl border border-brand/40 bg-brand/10 px-6 py-3.5 text-xs font-black uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black font-display italic"
+                >
+                  Explore 540+ Cataloged MCs <ArrowUpRight size={15} />
+                </Link>
               </div>
             </div>
           </div>
