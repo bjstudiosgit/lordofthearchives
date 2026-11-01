@@ -393,12 +393,41 @@ export default function IntroVideo() {
 
           {/* Road Map Section Header */}
           <div className="mb-14 border-b border-white/10 pb-8">
-            <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl uppercase italic tracking-tight text-white">
-              Grime at 140 MPH: <span className="text-brand">How It All Started</span>
-            </h2>
-            <p className="mt-3 max-w-3xl text-xs sm:text-sm md:text-base text-zinc-300 leading-relaxed font-sans">
-              When UK Garage tempos locked at 138–140 BPM, East London MCs broke away from the dancefloors to spit darker, faster 8-bar flows on pirate radio. In 2004, Jammer captured that ferocious energy in his Leytonstone basement on physical DVDs — sparking two decades of British clash culture.
-            </p>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-6">
+              {/* UK Speed Limit Road Sign (140 MPH) */}
+              <div className="relative shrink-0 self-start sm:self-center">
+                <div className="flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-full border-[6px] sm:border-[7px] border-[#d32f2f] bg-white shadow-[0_0_30px_rgba(211,47,47,0.4)] ring-2 ring-black/40">
+                  <div className="flex flex-col items-center justify-center leading-none text-black">
+                    <span className="font-display text-2xl sm:text-3xl font-black italic tracking-tighter">
+                      140
+                    </span>
+                    <span className="font-mono text-[8px] sm:text-[9px] font-black tracking-widest uppercase -mt-0.5">
+                      MPH
+                    </span>
+                  </div>
+                </div>
+                {/* Road Sign Post Mount */}
+                <div className="hidden sm:block absolute left-1/2 -bottom-2 -translate-x-1/2 w-1.5 h-2.5 bg-zinc-600 rounded-b" />
+              </div>
+
+              <div>
+                <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl uppercase italic tracking-tight text-white">
+                  Grime at 140 MPH: <span className="text-brand">How It All Started</span>
+                </h2>
+                <p className="mt-1 font-mono text-xs sm:text-sm font-bold uppercase tracking-wider text-amber-400">
+                  The Metronome of UK Clash Culture • From Garage Clubs to Jammer&apos;s E17 Basement
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-6 max-w-4xl space-y-3 text-xs sm:text-sm md:text-[15px] leading-relaxed text-zinc-300 font-sans">
+              <p>
+                In the early 2000s, British street music hit a breaking point. As UK Garage dominated commercial clubs at a syncopated 130–135 BPM, East London teenagers wanted something menacing, fast, and confrontational. Producers stripped away the swung garage groove, locked the metronome to an uncompromising <strong className="text-white font-bold">140 BPM</strong>, and dialed in distorted 808 sub-bass engineered for pirate radio aerials.
+              </p>
+              <p>
+                In his parents&apos; basement on The Avenue in Leytonstone (E17), Boy Better Know producer <strong className="text-brand font-bold">Jammer</strong> built the epicenter of the movement. Crafting lethal 140 riddims like <em>Destruction VIP</em>, he noticed that lyrical beefs on Rinse FM and Deja Vu 92.3 were erupting without resolution. In 2004, Jammer brought rival MCs off the pirate airwaves, crammed them in front of a single camcorder in his cellar for <strong className="text-white font-bold">Lord of the Mics</strong>, and bootlegged the footage on physical DVDs — igniting two decades of UK battle rap history.
+              </p>
+            </div>
           </div>
 
           {/* THE PHYSICAL ASPHALT HIGHWAY WITH INTEGRATED MILESTONE STATIONS */}
