@@ -43,7 +43,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/peoples-vote`, lastModified: new Date("2026-10-31"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/mcs`, lastModified: new Date("2026-10-31"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/hosts-judges`, lastModified: new Date("2026-08-20"), changeFrequency: "weekly", priority: 0.8 },
-    { url: `${SITE_URL}/news`, lastModified: new Date("2026-08-21"), changeFrequency: "daily", priority: 0.8 },
+    { url: `${SITE_URL}/news`, lastModified: new Date("2026-11-01"), changeFrequency: "daily", priority: 0.8 },
+    { url: `${SITE_URL}/news/top-10-most-viewed-uk-rap-battles`, lastModified: new Date("2026-11-01"), changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/news/history-of-king-of-the-ronalds`, lastModified: new Date("2026-11-01"), changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/news/prizefighter-tournament-format-breakdown`, lastModified: new Date("2026-11-01"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/news/did-pengame-fall-off`, lastModified: new Date("2026-08-21"), changeFrequency: "monthly", priority: 0.8 },
     ...["about", "methodology", "sources", "corrections", "contact", "privacy", "terms"].map((slug) => ({
       url: `${SITE_URL}/${slug}`,
