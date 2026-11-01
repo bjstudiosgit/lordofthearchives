@@ -17,7 +17,6 @@ interface MemoryMilestone {
 
 interface RoadStop {
   step: string;
-  mile: string;
   era: string;
   name: string;
   tagline: string;
@@ -34,7 +33,6 @@ interface RoadStop {
 const roadStops: RoadStop[] = [
   {
     step: "01",
-    mile: "MILE 01",
     era: "2004–15",
     name: "Lord of the Mics",
     tagline: "Jammer's Basement & The Camcorder DVD Era",
@@ -81,7 +79,6 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "02",
-    mile: "MILE 02",
     era: "2011–24",
     name: "Prizefighter",
     tagline: "140 BPM Tournament Knockouts & Belts",
@@ -122,7 +119,6 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "03",
-    mile: "MILE 03",
     era: "2014–20",
     name: "King of the Ronalds",
     tagline: "Rowdy Pub Basements & Dark British Comedy",
@@ -163,7 +159,6 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "04",
-    mile: "MILE 04",
     era: "2015–16",
     name: "Clash Money",
     tagline: "The M1 Corridor, 2v2 Bouts & The Trials",
@@ -198,7 +193,6 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "05",
-    mile: "MILE 05",
     era: "2020–26",
     name: "PenGame",
     tagline: "Judged Divisions, Title Matches & Modern Benchmark",
@@ -239,7 +233,6 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "06",
-    mile: "MILE 06",
     era: "Season 1",
     name: "Gzone",
     tagline: "Heavyweight 140 BPM Grime Reload Aggression",
@@ -274,7 +267,6 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "07",
-    mile: "MILE 07",
     era: "2024–26",
     name: "Talk Is Cheap",
     tagline: "Rapid Releases & The Next Generation Wave",
@@ -402,13 +394,23 @@ export default function IntroVideo() {
               </div>
             </div>
 
-            {/* Starting Line Flag / Origin Marker */}
-            <div className="relative z-20 mb-12 pl-14 sm:pl-16 lg:pl-0 lg:flex lg:justify-center">
-              <div className="inline-flex items-center gap-3 rounded-xl border border-brand/40 bg-zinc-950 px-4 py-2 shadow-[0_0_25px_rgba(255,215,0,0.15)]">
-                <span className="flex h-2.5 w-2.5 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_rgba(52,211,153,0.8)]" />
-                <span className="font-mono text-[11px] font-black uppercase tracking-widest text-brand">
-                  ORIGIN • 2004 • JAMMER'S BASEMENT, E17
-                </span>
+            {/* Archival Genesis Marker */}
+            <div className="relative z-20 mb-14 pl-14 sm:pl-16 lg:pl-0 flex lg:justify-center">
+              <div className="flex items-center gap-3 sm:gap-4">
+                <div className="h-px w-8 sm:w-16 bg-gradient-to-r from-transparent to-brand/50 hidden sm:block" />
+                <div className="flex items-center gap-3 rounded-xl border border-brand/30 bg-zinc-950/90 px-4 py-2.5 shadow-[0_0_30px_rgba(255,215,0,0.12)]">
+                  <span className="flex h-2 w-2 rounded-full bg-brand shadow-[0_0_8px_rgba(255,215,0,0.8)]" />
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2 leading-none">
+                    <span className="font-mono text-[11px] font-black uppercase tracking-[0.25em] text-brand">
+                      THE GENESIS • 2004
+                    </span>
+                    <span className="hidden sm:inline text-zinc-600 font-mono text-xs">•</span>
+                    <span className="text-[11px] font-mono text-zinc-400">
+                      Jammer&apos;s Basement, Leytonstone E17
+                    </span>
+                  </div>
+                </div>
+                <div className="h-px w-8 sm:w-16 bg-gradient-to-l from-transparent to-brand/50 hidden sm:block" />
               </div>
             </div>
 
@@ -443,8 +445,8 @@ export default function IntroVideo() {
                         {/* Highway Milestone Header */}
                         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/5 pb-4">
                           <div className="flex items-center gap-2">
-                            <span className="rounded bg-brand/10 border border-brand/30 px-2 py-0.5 font-mono text-[10px] font-black text-brand tracking-wider">
-                              {stop.mile}
+                            <span className="rounded bg-brand/10 border border-brand/30 px-2.5 py-0.5 font-mono text-[10px] font-black text-brand tracking-wider">
+                              ERA {stop.step}
                             </span>
                             <span className="font-mono text-xs font-semibold text-zinc-400">
                               {stop.era}
@@ -560,13 +562,23 @@ export default function IntroVideo() {
               })}
             </div>
 
-            {/* Destination Road Marker */}
-            <div className="relative z-20 mt-16 pl-14 sm:pl-16 lg:pl-0 lg:flex lg:justify-center">
-              <div className="inline-flex items-center gap-3 rounded-xl border border-white/10 bg-zinc-950 px-4 py-2.5 shadow-[0_0_25px_rgba(0,0,0,0.8)]">
-                <span className="flex h-2.5 w-2.5 rounded-full bg-brand animate-ping" />
-                <span className="font-mono text-[11px] font-black uppercase tracking-widest text-zinc-300">
-                  DESTINATION • 2026 & BEYOND • THE NEW WAVE CONTINUES
-                </span>
+            {/* Timeline Frontier Marker */}
+            <div className="relative z-20 mt-16 pl-14 sm:pl-16 lg:pl-0 flex lg:justify-center">
+              <div className="flex items-center gap-3 sm:gap-4">
+                <div className="h-px w-8 sm:w-16 bg-gradient-to-r from-transparent to-white/20 hidden sm:block" />
+                <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-zinc-950/90 px-4 py-2.5 shadow-[0_0_30px_rgba(0,0,0,0.8)]">
+                  <span className="flex h-2 w-2 rounded-full bg-brand animate-ping" />
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2 leading-none">
+                    <span className="font-mono text-[11px] font-black uppercase tracking-[0.25em] text-white">
+                      2026 &amp; BEYOND
+                    </span>
+                    <span className="hidden sm:inline text-zinc-600 font-mono text-xs">•</span>
+                    <span className="text-[11px] font-mono text-zinc-400">
+                      The New Generation &amp; Live Season Title Races
+                    </span>
+                  </div>
+                </div>
+                <div className="h-px w-8 sm:w-16 bg-gradient-to-l from-transparent to-white/20 hidden sm:block" />
               </div>
             </div>
           </div>
