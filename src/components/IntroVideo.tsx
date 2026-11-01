@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Trophy } from "lucide-react";
 import { pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
 import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
@@ -68,7 +68,7 @@ export default function IntroVideo() {
 
   return (
     <section aria-labelledby="hero-heading" className="relative isolate w-full overflow-hidden border-b border-brand/20 bg-black">
-      {/* Cinematic Overlays */}
+      {/* Background Graphic Watermark */}
       <div className="absolute inset-0 z-0">
         <picture className="absolute inset-0 block">
           <source
@@ -85,13 +85,12 @@ export default function IntroVideo() {
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            className="absolute inset-0 h-full w-full object-cover object-[68%_center] opacity-50 contrast-110 sm:object-center sm:opacity-80"
+            className="absolute inset-0 h-full w-full object-cover object-[80%_center] opacity-25 contrast-105 sm:object-right sm:opacity-35"
           />
         </picture>
-        <div className="absolute inset-0 bg-black/10 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-transparent to-black/75 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/55 to-transparent z-10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/25 z-10" />
+        <div className="absolute inset-0 bg-black/40 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/70 z-10" />
         
         {/* Scanline Effect */}
         <div className="absolute inset-0 pointer-events-none z-20 opacity-[0.03] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]" />
@@ -99,9 +98,10 @@ export default function IntroVideo() {
 
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
-      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-16 pt-36 sm:px-6 sm:pt-44 lg:px-8 lg:pt-48">
-        <div className="max-w-5xl">
-          <h1 id="hero-heading" className="font-display text-[clamp(2.2rem,5.5vw,5.5rem)] italic uppercase leading-none tracking-tight text-white sm:whitespace-nowrap">
+      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-20 pt-36 sm:px-6 sm:pt-44 lg:px-8 lg:pt-48">
+        {/* Hero Main Content */}
+        <div className="max-w-4xl">
+          <h1 id="hero-heading" className="font-display text-[clamp(2.4rem,5.5vw,5.5rem)] italic uppercase leading-none tracking-tight text-white sm:whitespace-nowrap">
             Lord of the <span className="text-brand">Archives.</span>
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
@@ -112,50 +112,50 @@ export default function IntroVideo() {
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
               href="#hero-archives"
-              className="inline-flex items-center gap-2 rounded-xl bg-brand px-5 py-3 text-xs font-black uppercase tracking-wider text-black transition hover:bg-yellow-300"
+              className="inline-flex items-center gap-2 rounded-xl bg-brand px-6 py-3.5 text-xs font-black uppercase tracking-wider text-black transition hover:bg-yellow-300 shadow-[0_0_25px_rgba(242,125,38,0.3)]"
             >
-              Browse The Leagues <ArrowUpRight size={14} />
+              Browse The Leagues <ArrowUpRight size={15} />
             </a>
             <Link
               href="/lota-league"
-              className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-xs font-black uppercase tracking-wider text-white transition hover:border-brand/40 hover:bg-white/10"
+              className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3.5 text-xs font-black uppercase tracking-wider text-white transition hover:border-brand/40 hover:bg-white/10"
             >
               LOTA League Table
             </Link>
             <Link
               href="/mcs"
-              className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-xs font-black uppercase tracking-wider text-white transition hover:border-brand/40 hover:bg-white/10"
+              className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3.5 text-xs font-black uppercase tracking-wider text-white transition hover:border-brand/40 hover:bg-white/10"
             >
               MC Profiles
             </Link>
           </div>
 
           {/* Quick Stats Badges */}
-          <div className="mt-7 flex flex-wrap items-center gap-2.5">
-            <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-black/60 px-3.5 py-2">
-              <span className="font-display text-base italic text-brand">{archivedBattleCount.toLocaleString("en-GB")}</span>
-              <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Battles Archived</span>
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
+              <span className="font-display text-lg italic text-brand">{archivedBattleCount.toLocaleString("en-GB")}</span>
+              <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Battles Archived</span>
             </div>
-            <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-black/60 px-3.5 py-2">
-              <span className="font-display text-base italic text-white">7</span>
-              <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Battle Leagues</span>
+            <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
+              <span className="font-display text-lg italic text-white">7</span>
+              <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Battle Leagues</span>
             </div>
-            <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-black/60 px-3.5 py-2">
-              <span className="font-display text-base italic text-white">540+</span>
-              <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Cataloged MCs</span>
+            <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
+              <span className="font-display text-lg italic text-white">540+</span>
+              <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Cataloged MCs</span>
             </div>
           </div>
         </div>
 
         {/* League Archive Panels */}
-        <div id="hero-archives" className="mt-14 scroll-mt-28 border-t border-white/15 pt-10 sm:mt-16 sm:pt-12">
-          <div className="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand">Browse The Leagues</p>
-              <h2 className="font-display text-2xl uppercase italic text-white sm:text-4xl">The Seven Battle Archives</h2>
-            </div>
-            <p className="text-xs text-zinc-400">
-              <span className="text-brand font-semibold tabular-nums">{archivedBattleCount.toLocaleString("en-GB")}</span> authenticated matches across seven archives
+        <div id="hero-archives" className="mt-20 scroll-mt-28 border-t border-white/10 pt-14 sm:mt-24 sm:pt-16">
+          <div className="mb-8">
+            <p className="text-[10px] font-black uppercase tracking-[0.25em] text-brand">Browse The Leagues</p>
+            <h2 className="font-display text-3xl uppercase italic text-white sm:text-5xl mt-1">
+              The Seven Battle Archives
+            </h2>
+            <p className="mt-2 text-xs sm:text-sm text-zinc-400 max-w-xl">
+              <span className="text-brand font-semibold tabular-nums">{archivedBattleCount.toLocaleString("en-GB")}</span> authenticated matches cataloged across UK battle rap and grime history.
             </p>
           </div>
 
@@ -186,17 +186,17 @@ export default function IntroVideo() {
                 <div className="mt-5 flex items-center gap-2 border-t border-white/5 pt-4">
                   <Link
                     href={archive.href}
-                    className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-brand/10 border border-brand/30 px-3 py-2 text-[11px] font-bold uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
+                    className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-brand/10 border border-brand/30 px-3 py-2 text-[11px] font-black uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
                   >
                     Archive <ArrowUpRight size={13} />
                   </Link>
                   {archive.leagueHref && (
                     <Link
                       href={archive.leagueHref}
-                      className="inline-flex items-center justify-center gap-1 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-[11px] font-bold uppercase tracking-wider text-zinc-300 transition hover:border-white/20 hover:text-white"
+                      className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-[11px] font-black uppercase tracking-wider text-zinc-300 transition hover:border-brand/30 hover:bg-brand/10 hover:text-brand"
                       title="League Table"
                     >
-                      Table
+                      <Trophy size={12} className="text-brand" /> Table
                     </Link>
                   )}
                 </div>
