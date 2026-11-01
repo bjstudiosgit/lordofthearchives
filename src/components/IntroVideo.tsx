@@ -210,22 +210,8 @@ export default function IntroVideo() {
         </div>
 
         {/* The UK Clash Road Map: "How It All Started" */}
-        <div id="hero-archives" className="mt-20 scroll-mt-28 border-t border-white/10 pt-14 sm:mt-24 sm:pt-16">
-          {/* Section Header */}
-          <div className="mb-10 max-w-3xl">
-            <div className="flex items-center gap-2">
-              <span className="h-1.5 w-1.5 rounded-full bg-brand animate-ping" />
-              <span className="text-[10px] font-black uppercase tracking-[0.3em] text-brand">
-                The Chronological Journey • 2004–2026
-              </span>
-            </div>
-            <h2 className="font-display text-3xl uppercase italic text-white sm:text-5xl lg:text-6xl mt-2 tracking-tight">
-              The Road Map: How It All Started
-            </h2>
-            <p className="mt-3 text-sm leading-relaxed text-zinc-400 sm:text-base">
-              Trace the 20-year route of UK battle rap from Jammer’s Leytonstone basement in 2004 to today’s judged title leagues. Follow the highway below through each milestone era.
-            </p>
-          </div>
+        <div id="hero-archives" className="mt-16 scroll-mt-28 border-t border-white/10 pt-10 sm:mt-20 sm:pt-12">
+          <h2 className="sr-only">The UK Battle Rap Archives Road Map</h2>
 
           {/* Highway Quick-Jump Route Bar (Zero Scrollbars) */}
           <div className="mb-14 overflow-x-auto pb-1 scrollbar-hide [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
