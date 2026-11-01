@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Trophy, MapPin, Compass, Flame, Calendar, Film } from "lucide-react";
+import { ArrowUpRight, Trophy, MapPin, Flame, Calendar, Film } from "lucide-react";
 import { pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
 import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
@@ -388,38 +388,8 @@ export default function IntroVideo() {
         </div>
 
         {/* The UK Clash Road Map: "How It All Started" */}
-        <div id="hero-archives" className="mt-16 scroll-mt-28 border-t border-white/10 pt-10 sm:mt-20 sm:pt-12">
+        <div id="hero-archives" className="mt-14 scroll-mt-28 border-t border-white/10 pt-10 sm:mt-18 sm:pt-12">
           <h2 className="sr-only">The UK Battle Rap Archives Road Map</h2>
-
-          {/* Highway Quick-Jump Route Bar (Zero Scrollbars) */}
-          <div className="mb-12 overflow-x-auto pb-1 scrollbar-hide [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-            <div className="flex items-center gap-2 min-w-max border-y border-white/10 bg-zinc-950/80 py-3 px-4 rounded-xl">
-              <div className="flex items-center gap-1.5 pr-2 font-mono text-[10px] font-black uppercase tracking-wider text-zinc-400">
-                <Compass size={13} className="text-brand" /> Route:
-              </div>
-              {roadStops.map((stop, index) => (
-                <div key={stop.name} className="flex items-center gap-2">
-                  <a
-                    href={`#stop-${stop.step}`}
-                    className="group flex items-center gap-2 rounded-lg border border-white/5 bg-zinc-900/80 px-2.5 py-1 transition hover:border-brand/40 hover:bg-zinc-800"
-                  >
-                    <span className="font-mono text-[10px] font-bold text-brand">
-                      {stop.step}
-                    </span>
-                    <span className="font-display text-xs uppercase italic text-zinc-200 group-hover:text-white">
-                      {stop.name}
-                    </span>
-                    <span className="font-mono text-[9px] text-zinc-500">
-                      ({stop.era})
-                    </span>
-                  </a>
-                  {index < roadStops.length - 1 && (
-                    <span className="text-[11px] text-zinc-700">→</span>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
 
           {/* THE VISUAL ROAD HIGHWAY WITH MEMORY MAP */}
           <div className="relative">
