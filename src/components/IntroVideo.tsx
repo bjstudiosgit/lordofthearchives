@@ -383,39 +383,85 @@ export default function IntroVideo() {
         <div id="hero-archives" className="mt-14 scroll-mt-28 border-t border-white/10 pt-10 sm:mt-18 sm:pt-12">
           <h2 className="sr-only">The UK Battle Rap Archives Road Map</h2>
 
+          {/* Overhead Highway Gantry Sign at Entrance */}
+          <div className="relative z-20 mb-10 flex justify-center">
+            <div className="relative max-w-xl w-full mx-auto">
+              <div className="rounded-2xl border-2 border-zinc-700 bg-zinc-950 p-4 sm:p-5 shadow-[0_20px_50px_rgba(0,0,0,0.9)] text-center relative overflow-hidden">
+                {/* Top Hazard Warning Stripe */}
+                <div className="absolute top-0 inset-x-0 h-1.5 bg-[repeating-linear-gradient(45deg,#f27d26,#f27d26_12px,#000_12px,#000_24px)]" />
+
+                <div className="flex items-center justify-between gap-3 border-b border-white/10 pb-2.5 mb-2.5">
+                  <span className="font-mono text-[10px] font-black uppercase tracking-[0.25em] text-brand">
+                    UK BATTLE HIGHWAY • ROUTE 2004 — 2026
+                  </span>
+                  <span className="rounded bg-emerald-500/10 border border-emerald-500/40 px-2 py-0.5 font-mono text-[9px] font-black uppercase text-emerald-400 tracking-wider flex items-center gap-1.5">
+                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                    ROAD OPEN
+                  </span>
+                </div>
+
+                <div className="font-display text-2xl sm:text-4xl uppercase italic tracking-tight text-white">
+                  START POINT: <span className="text-brand">JAMMER&apos;S BASEMENT</span>
+                </div>
+                <p className="font-mono text-xs text-zinc-400 mt-1">
+                  Leytonstone, East London E17 • Established 2004 • The Genesis of Modern UK Clashing
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* THE VISUAL ROAD HIGHWAY WITH MEMORY MAP */}
           <div className="relative">
             {/* The Central Asphalt Highway Track (Mobile: Left-aligned; Desktop: Centered between the 2 columns) */}
-            <div className="absolute left-5 sm:left-6 lg:left-1/2 top-4 bottom-4 -translate-x-1/2 w-8 sm:w-10 lg:w-12 flex flex-col items-center pointer-events-none z-10">
+            <div className="absolute left-6 sm:left-8 lg:left-1/2 top-0 bottom-0 -translate-x-1/2 w-16 sm:w-20 lg:w-28 flex flex-col items-center pointer-events-none z-10">
               {/* Asphalt Road Bed */}
-              <div className="relative w-full h-full bg-zinc-950/95 border-x border-white/10 shadow-[inset_0_0_15px_rgba(0,0,0,0.9)] flex items-center justify-center">
-                {/* Glowing Golden Dashed Center Line */}
-                <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-brand/40 shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
-              </div>
-            </div>
-
-            {/* Archival Genesis Marker */}
-            <div className="relative z-20 mb-14 pl-14 sm:pl-16 lg:pl-0 flex lg:justify-center">
-              <div className="flex items-center gap-3 sm:gap-4">
-                <div className="h-px w-8 sm:w-16 bg-gradient-to-r from-transparent to-brand/50 hidden sm:block" />
-                <div className="flex items-center gap-3 rounded-xl border border-brand/30 bg-zinc-950/90 px-4 py-2.5 shadow-[0_0_30px_rgba(255,215,0,0.12)]">
-                  <span className="flex h-2 w-2 rounded-full bg-brand shadow-[0_0_8px_rgba(255,215,0,0.8)]" />
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2 leading-none">
-                    <span className="font-mono text-[11px] font-black uppercase tracking-[0.25em] text-brand">
-                      THE GENESIS • 2004
-                    </span>
-                    <span className="hidden sm:inline text-zinc-600 font-mono text-xs">•</span>
-                    <span className="text-[11px] font-mono text-zinc-400">
-                      Jammer&apos;s Basement, Leytonstone E17
-                    </span>
-                  </div>
+              <div className="relative w-full h-full bg-zinc-950 border-x-2 border-white/40 shadow-[inset_0_0_25px_rgba(0,0,0,0.98)] flex flex-col items-center">
+                {/* UK Kerbs: Double Yellow Lines on Both Edges */}
+                <div className="absolute left-1 inset-y-0 w-1.5 flex justify-between opacity-80 pointer-events-none">
+                  <div className="w-[1.5px] h-full bg-amber-400" />
+                  <div className="w-[1.5px] h-full bg-amber-400" />
                 </div>
-                <div className="h-px w-8 sm:w-16 bg-gradient-to-l from-transparent to-brand/50 hidden sm:block" />
+                <div className="absolute right-1 inset-y-0 w-1.5 flex justify-between opacity-80 pointer-events-none">
+                  <div className="w-[1.5px] h-full bg-amber-400" />
+                  <div className="w-[1.5px] h-full bg-amber-400" />
+                </div>
+
+                {/* Center Dashed Lane Divider */}
+                <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-amber-300/80 shadow-[0_0_8px_rgba(255,215,0,0.4)]" />
+
+                {/* Painted Start Line & Tarmac Stencils at Road Entrance */}
+                <div className="relative z-10 w-full pt-2 flex flex-col items-center">
+                  {/* Checkered Start Line */}
+                  <div className="w-full h-6 border-y border-white/30 my-2">
+                    <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 100 24">
+                      <defs>
+                        <pattern id="road-checkers" width="12.5" height="12" patternUnits="userSpaceOnUse">
+                          <rect width="6.25" height="6" fill="#ffffff" />
+                          <rect x="6.25" width="6.25" height="6" fill="#18181b" />
+                          <rect y="6" width="6.25" height="6" fill="#18181b" />
+                          <rect x="6.25" y="6" width="6.25" height="6" fill="#ffffff" />
+                        </pattern>
+                      </defs>
+                      <rect width="100" height="24" fill="url(#road-checkers)" />
+                    </svg>
+                  </div>
+
+                  {/* Painted "START" Road Stencil */}
+                  <span className="font-mono text-[9px] sm:text-[11px] font-black tracking-[0.3em] text-white/90 select-none uppercase mt-1">
+                    START
+                  </span>
+
+                  {/* Directional Highway Arrow */}
+                  <svg className="w-3.5 h-6 text-white/80 my-1.5" viewBox="0 0 24 36" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="12" y1="34" x2="12" y2="4" />
+                    <polyline points="5 11 12 4 19 11" />
+                  </svg>
+                </div>
               </div>
             </div>
 
             {/* The 7 Road Stops (Dual-Sided on Desktop: Platform Dossier on Left, Memory Map on Right) */}
-            <div className="space-y-16 sm:space-y-20 lg:space-y-28">
+            <div className="space-y-16 sm:space-y-20 lg:space-y-28 pt-8">
               {roadStops.map((stop) => {
                 return (
                   <div
@@ -424,7 +470,7 @@ export default function IntroVideo() {
                     className="relative scroll-mt-36"
                   >
                     {/* Waypoint Milestone Node on the Highway Track */}
-                    <div className="absolute left-5 sm:left-6 lg:left-1/2 top-8 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
+                    <div className="absolute left-6 sm:left-8 lg:left-1/2 top-8 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
                       <div className="relative flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-full border-2 border-brand bg-zinc-950 shadow-[0_0_20px_rgba(255,215,0,0.4)]">
                         <span className="font-display text-sm font-bold italic text-brand">
                           {stop.step}
@@ -434,7 +480,7 @@ export default function IntroVideo() {
                     </div>
 
                     {/* Dual Grid Layout: Platform Dossier (Left) & Memory Map (Right) */}
-                    <div className="pl-14 sm:pl-16 lg:pl-0 lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-20 items-start">
+                    <div className="pl-16 sm:pl-20 lg:pl-0 lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-24 items-start">
                       {/* LEFT: Platform Archive Dossier */}
                       <div className="group relative rounded-2xl border border-white/10 bg-zinc-950/90 p-6 sm:p-7 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_12px_40px_rgba(255,215,0,0.08)] overflow-hidden">
                         {/* Background Step Watermark */}
@@ -442,16 +488,11 @@ export default function IntroVideo() {
                           {stop.step}
                         </div>
 
-                        {/* Highway Milestone Header */}
+                        {/* Card Header (No Tags, Pure Clean Typography) */}
                         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/5 pb-4">
-                          <div className="flex items-center gap-2">
-                            <span className="rounded bg-brand/10 border border-brand/30 px-2.5 py-0.5 font-mono text-[10px] font-black text-brand tracking-wider">
-                              ERA {stop.step}
-                            </span>
-                            <span className="font-mono text-xs font-semibold text-zinc-400">
-                              {stop.era}
-                            </span>
-                          </div>
+                          <span className="font-mono text-xs font-semibold text-zinc-400">
+                            {stop.era}
+                          </span>
                           <span className="font-mono text-xs text-zinc-400">
                             <strong className="text-white font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles
                           </span>
@@ -562,23 +603,29 @@ export default function IntroVideo() {
               })}
             </div>
 
-            {/* Timeline Frontier Marker */}
-            <div className="relative z-20 mt-16 pl-14 sm:pl-16 lg:pl-0 flex lg:justify-center">
-              <div className="flex items-center gap-3 sm:gap-4">
-                <div className="h-px w-8 sm:w-16 bg-gradient-to-r from-transparent to-white/20 hidden sm:block" />
-                <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-zinc-950/90 px-4 py-2.5 shadow-[0_0_30px_rgba(0,0,0,0.8)]">
-                  <span className="flex h-2 w-2 rounded-full bg-brand animate-ping" />
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2 leading-none">
-                    <span className="font-mono text-[11px] font-black uppercase tracking-[0.25em] text-white">
-                      2026 &amp; BEYOND
+            {/* Overhead Road Horizon Gantry */}
+            <div className="relative z-20 mt-20 flex justify-center">
+              <div className="relative max-w-xl w-full mx-auto">
+                <div className="rounded-2xl border-2 border-zinc-700 bg-zinc-950 p-4 sm:p-5 shadow-[0_20px_50px_rgba(0,0,0,0.9)] text-center relative overflow-hidden">
+                  <div className="absolute top-0 inset-x-0 h-1.5 bg-[repeating-linear-gradient(45deg,#f27d26,#f27d26_12px,#000_12px,#000_24px)]" />
+
+                  <div className="flex items-center justify-between gap-3 border-b border-white/10 pb-2.5 mb-2.5">
+                    <span className="font-mono text-[10px] font-black uppercase tracking-[0.25em] text-brand">
+                      CURRENT FRONTIER • 2026 &amp; BEYOND
                     </span>
-                    <span className="hidden sm:inline text-zinc-600 font-mono text-xs">•</span>
-                    <span className="text-[11px] font-mono text-zinc-400">
-                      The New Generation &amp; Live Season Title Races
+                    <span className="rounded bg-brand/10 border border-brand/40 px-2 py-0.5 font-mono text-[9px] font-black uppercase text-brand tracking-wider flex items-center gap-1.5">
+                      <span className="h-1.5 w-1.5 rounded-full bg-brand animate-ping" />
+                      LIVE NOW
                     </span>
                   </div>
+
+                  <div className="font-display text-2xl sm:text-4xl uppercase italic tracking-tight text-white">
+                    THE ROAD <span className="text-brand">CONTINUES</span>
+                  </div>
+                  <p className="font-mono text-xs text-zinc-400 mt-1">
+                    Live Season Title Defenses, Grime Standings &amp; The Underground Next Generation
+                  </p>
                 </div>
-                <div className="h-px w-8 sm:w-16 bg-gradient-to-l from-transparent to-white/20 hidden sm:block" />
               </div>
             </div>
           </div>
