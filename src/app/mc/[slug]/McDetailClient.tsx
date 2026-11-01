@@ -2,7 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import McImage from "../../../components/McImage";
 import { allProfileMcs as allMcs, archiveMcBattles, getArchiveMcId, isCatalogueOnlyMc } from "../../../data/archiveMcProfiles";
 import { formatBattleDate, parseBattleDate } from "../../../data/battleDates";
 import { gzoneBattles } from "../../../data/gzone";
@@ -38,6 +37,7 @@ import {
   Clock,
   Eye,
   Scissors,
+  Swords,
 } from "lucide-react";
 
 const parseViews = (views: Battle["views"]): number => {
@@ -53,6 +53,15 @@ const formatViews = (views: number): string => {
   if (views >= 1000) return `${Math.floor(views / 1000)}k`;
   return String(views);
 };
+
+const getInitials = (name: string) =>
+  name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase() || "MC";
 
 export default function McDetailClient({ slug }: { slug: string }) {
   const router = useRouter();
@@ -167,52 +176,110 @@ export default function McDetailClient({ slug }: { slug: string }) {
         {/* Back Button */}
         <button
           onClick={() => router.back()}
-          className="flex items-center gap-2 text-zinc-400 hover:text-brand transition-colors uppercase tracking-[0.2em] text-[10px] font-bold mb-12 group"
+          className="flex items-center gap-2 text-zinc-400 hover:text-brand transition-colors uppercase tracking-[0.2em] text-[10px] font-bold mb-8 group"
         >
           <ChevronLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
           Back to MC Roster
         </button>
 
-        <div className="grid lg:grid-cols-12 gap-12 items-start">
-          {/* Left Column: Image */}
-          <div className="lg:col-span-5 relative">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-2xl"
-            >
-              <McImage
-                src={mc.image}
-                alt={mc.name}
-                className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60" />
+        {/* Masterclass MC Dossier Banner (Zero-Photo Modern Header) */}
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="relative mb-12 rounded-3xl border border-white/10 bg-gradient-to-b from-zinc-900/90 via-zinc-900/40 to-black p-6 sm:p-10 overflow-hidden shadow-2xl"
+        >
+          <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-brand/10 rounded-full blur-3xl pointer-events-none" />
 
-              {/* Battle Record Badge */}
-              <div className="absolute bottom-8 right-8 w-20 h-20 bg-brand rounded-full flex flex-col items-center justify-center text-black shadow-[0_0_30px_rgba(242,125,38,0.4)]">
-                <span className="text-[8px] font-black uppercase tracking-[0.25em] leading-none">{catalogueOnly ? "ARCHIVE" : "W-L"}</span>
-                <span className="font-display text-2xl italic leading-none">{catalogueOnly ? mc.battles : `${mc.wins}-${mc.losses}`}</span>
-              </div>
-            </motion.div>
-            <div className="mt-6 rounded-2xl border border-brand/20 bg-zinc-900/50 px-5 py-4 shadow-[0_0_24px_rgba(255,213,0,0.08)]">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-brand/10 border border-brand/30 flex items-center justify-center text-brand">
-                  <Eye size={18} />
+          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+            <div className="max-w-2xl">
+              <div className="flex items-center gap-4 mb-3">
+                <div className="flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-2xl border border-brand/40 bg-brand/10 font-display text-2xl sm:text-3xl italic text-brand shadow-[0_0_25px_rgba(242,125,38,0.2)] shrink-0">
+                  {getInitials(mc.name)}
                 </div>
                 <div>
-                  <p className="font-display italic text-3xl uppercase leading-none text-white">
-                    {catalogueOnly && !battleHistory.some((battle) => battle.views != null) ? "Not recorded" : formatViews(totalBattleViews)}
-                  </p>
-                  <p className="mt-1 text-[10px] font-black uppercase tracking-[0.25em] text-zinc-500">
-                    Total battle views
-                  </p>
+                  <span className="text-[10px] font-black uppercase tracking-[0.25em] text-brand">Artist Dossier</span>
+                  <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display italic uppercase leading-none tracking-tight text-white">
+                    {mc.name}
+                  </h1>
                 </div>
               </div>
+
+              {mc.nickname && (
+                <p className="text-sm font-bold uppercase tracking-widest text-zinc-400 mb-4 pl-1">
+                  &ldquo;{mc.nickname}&rdquo;
+                </p>
+              )}
+
+              {/* Bio if exists */}
+              {mc.bio && (
+                <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed max-w-xl mb-4 pl-1">
+                  {mc.bio}
+                </p>
+              )}
+
+              {/* Meta pills */}
+              <div className="flex flex-wrap items-center gap-2 pt-1 pl-1">
+                {mc.location && (
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 text-[11px] font-semibold text-zinc-300">
+                    <MapPin size={12} className="text-brand" /> {mc.location}
+                  </span>
+                )}
+                {mc.style && (
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 text-[11px] font-semibold text-zinc-300">
+                    <Zap size={12} className="text-brand" /> {mc.style}
+                  </span>
+                )}
+                {mc.weightClass && (
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 text-[11px] font-semibold text-zinc-300">
+                    <Scale size={12} className="text-brand" /> {mc.weightClass}
+                  </span>
+                )}
+                {mc.height && (
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 text-[11px] font-semibold text-zinc-300">
+                    <Ruler size={12} className="text-brand" /> {mc.height}
+                  </span>
+                )}
+              </div>
             </div>
-            <div className="mt-6">
+
+            {/* Quick KPI Strip */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-3 shrink-0">
+              <div className="rounded-2xl border border-brand/30 bg-black/60 p-4 min-w-[120px]">
+                <p className="text-[9px] font-black uppercase tracking-[0.2em] text-brand">Record</p>
+                <p className="font-display text-2xl sm:text-3xl italic text-white mt-1">
+                  {catalogueOnly ? "Archive" : `${wins}-${losses}${draws > 0 ? `-${draws}` : ""}`}
+                </p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-black/60 p-4 min-w-[120px]">
+                <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-400">Total Battles</p>
+                <p className="font-display text-2xl sm:text-3xl italic text-white mt-1">
+                  {battleCount}
+                </p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-black/60 p-4 min-w-[120px]">
+                <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-400">Battle Views</p>
+                <p className="font-display text-2xl sm:text-3xl italic text-brand mt-1">
+                  {catalogueOnly && !battleHistory.some((battle) => battle.views != null) ? "—" : formatViews(totalBattleViews)}
+                </p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-black/60 p-4 min-w-[120px]">
+                <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-400">Points</p>
+                <p className="font-display text-2xl sm:text-3xl italic text-white mt-1">
+                  {catalogueOnly ? "—" : totalPoints}
+                </p>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Content Split: Left (Form & Channels & Props) | Right (Battle Logs) */}
+        <div className="grid lg:grid-cols-12 gap-8 items-start">
+          {/* Left Column */}
+          <div className="lg:col-span-4 space-y-6">
+            {/* Form Section */}
+            <div className="rounded-2xl border border-white/10 bg-zinc-900/40 p-5">
               <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500 mb-3">
-                Form
+                Recent Form
               </h2>
               <div className="flex flex-wrap gap-2">
                 {battleHistory.filter((battle) => !catalogueById.has(battle.id) || getOutcome(battle) !== "UNREVIEWED").map((battle) => {
@@ -253,8 +320,53 @@ export default function McDetailClient({ slug }: { slug: string }) {
               </div>
             </div>
 
+            {/* Social Links */}
+            {(mc.instagram || mc.twitter || mc.youtube) && (
+              <div className="rounded-2xl border border-white/10 bg-zinc-900/40 p-5">
+                <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500 mb-3">
+                  Official Channels
+                </h2>
+                <div className="flex gap-3">
+                  {mc.instagram && (
+                    <a
+                      href={`https://instagram.com/${mc.instagram}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${mc.name} on Instagram`}
+                      className="w-10 h-10 rounded-xl bg-zinc-800 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all"
+                    >
+                      <Instagram size={18} />
+                    </a>
+                  )}
+                  {mc.twitter && (
+                    <a
+                      href={`https://twitter.com/${mc.twitter}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${mc.name} on Twitter`}
+                      className="w-10 h-10 rounded-xl bg-zinc-800 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all"
+                    >
+                      <Twitter size={18} />
+                    </a>
+                  )}
+                  {mc.youtube && (
+                    <a
+                      href={`https://youtube.com/${mc.youtube}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${mc.name} on YouTube`}
+                      className="w-10 h-10 rounded-xl bg-zinc-800 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all"
+                    >
+                      <Youtube size={18} />
+                    </a>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Prop'erty Section */}
             {mcPropertyItems.length > 0 && (
-              <div className="mt-8">
+              <div className="rounded-2xl border border-white/10 bg-zinc-900/40 p-5">
                 <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500 mb-3">
                   Prop&apos;erty
                 </h2>
@@ -263,23 +375,20 @@ export default function McDetailClient({ slug }: { slug: string }) {
                     <Link
                       key={`${item.name}-${item.battle}`}
                       href={item.battleHref}
-                      className="flex items-start gap-4 rounded-2xl border border-white/5 bg-zinc-900/40 p-4 transition-colors hover:bg-white/5 group"
+                      className="flex items-start gap-3 rounded-xl border border-white/5 bg-zinc-900/60 p-3 transition-colors hover:bg-white/5 group"
                     >
-                      <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-zinc-800 text-brand transition-colors group-hover:bg-brand group-hover:text-black">
-                        <Scissors size={22} strokeWidth={1.8} />
+                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-white/10 bg-zinc-800 text-brand transition-colors group-hover:bg-brand group-hover:text-black">
+                        <Scissors size={18} strokeWidth={1.8} />
                       </div>
                       <div className="min-w-0">
-                        <div className="mb-1 flex flex-wrap items-center gap-2">
-                          <span className="font-mono text-[10px] text-zinc-500">{item.episode}</span>
-                          <span className="text-[10px] text-zinc-600">{item.date}</span>
+                        <div className="mb-0.5 flex flex-wrap items-center gap-1.5">
+                          <span className="font-mono text-[9px] text-zinc-500">{item.episode}</span>
+                          <span className="text-[9px] text-zinc-600">{item.date}</span>
                         </div>
-                        <h3 className="font-display text-lg italic uppercase text-white transition-colors group-hover:text-brand">
+                        <h3 className="font-display text-base italic uppercase text-white transition-colors group-hover:text-brand">
                           {item.name}
                         </h3>
-                        <p className="mt-1 text-sm text-zinc-400">{item.note}</p>
-                        <p className="mt-2 text-[10px] font-black uppercase tracking-widest text-zinc-500">
-                          {item.battle}
-                        </p>
+                        <p className="mt-0.5 text-xs text-zinc-400">{item.note}</p>
                       </div>
                     </Link>
                   ))}
@@ -288,211 +397,108 @@ export default function McDetailClient({ slug }: { slug: string }) {
             )}
           </div>
 
-          {/* Right Column: Info */}
-          <div className="lg:col-span-7">
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.2 }}
-            >
-              <h1 className="text-6xl md:text-8xl font-display italic uppercase leading-none mb-4 tracking-tighter">
-                {mc.name}
-              </h1>
+          {/* Right Column: Battle History Log */}
+          <div className="lg:col-span-8">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="font-display text-2xl sm:text-3xl italic uppercase text-white">
+                Battle History <span className="text-brand">({battleHistory.length})</span>
+              </h2>
+            </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
-                <StatBadge
-                  icon={<Trophy size={14} />}
-                  label={catalogueOnly ? "RESULTS UNREVIEWED" : `${wins}-${losses}-${draws} RECORD`}
-                  highlight
-                />
-                <StatBadge icon={<Zap size={14} />} label={`${battleCount} BATTLES`} />
-                {!catalogueOnly && <StatBadge icon={<Star size={14} />} label={`${totalPoints} POINTS`} />}
-                {unknownResults > 0 && <StatBadge icon={<Clock size={14} />} label={`${unknownResults} UNKNOWN`} />}
-                {unresolved > 0 && <StatBadge icon={<Clock size={14} />} label={`${unresolved} UNRESOLVED`} />}
-                {mc.weightClass && <StatBadge icon={<Scale size={14} />} label={mc.weightClass} />}
-                {mc.height && <StatBadge icon={<Ruler size={14} />} label={mc.height} />}
-                {mc.location && <StatBadge icon={<MapPin size={14} />} label={mc.location} />}
-              </div>
+            <div className="space-y-3">
+              {battleHistory.map((battle) => {
+                const { opponentTeam } = getBattleSides(battle);
+                const opponentId = opponentTeam[0];
+                const opponent = opponentId ? allMcs.find((m) => m.id === opponentId) : null;
+                const opponentLabel = opponentTeam.length > 0 ? opponentTeam.map(getMcName).join(" / ") : "Opponent";
+                const outcome = getOutcome(battle);
+                const catalogueEntry = catalogueById.get(battle.id);
+                const recordingUrl = catalogueEntry?.videoUrl ?? battle.videoUrl;
+                const battlePageAvailable = hasBattlePage(battle);
 
-              {/* Social Links */}
-              <div className="flex gap-4 mb-12">
-                {mc.instagram && (
-                  <a
-                    href={`https://instagram.com/${mc.instagram}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`${mc.name} on Instagram`}
-                    className="w-12 h-12 rounded-xl bg-zinc-900/50 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all"
-                  >
-                    <Instagram size={20} />
-                  </a>
-                )}
-                {mc.twitter && (
-                  <a
-                    href={`https://twitter.com/${mc.twitter}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`${mc.name} on Twitter`}
-                    className="w-12 h-12 rounded-xl bg-zinc-900/50 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all"
-                  >
-                    <Twitter size={20} />
-                  </a>
-                )}
-                {mc.youtube && (
-                  <a
-                    href={`https://youtube.com/${mc.youtube}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`${mc.name} on YouTube`}
-                    className="w-12 h-12 rounded-xl bg-zinc-900/50 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all"
-                  >
-                    <Youtube size={20} />
-                  </a>
-                )}
-              </div>
+                const outcomeClass =
+                  outcome === "WIN"
+                    ? "bg-emerald-500/20 text-emerald-500"
+                    : outcome === "LOSS"
+                      ? "bg-rose-500/20 text-rose-500"
+                      : "bg-zinc-700/40 text-zinc-400";
+                const themeTextClass = getThemeTextClass(battle);
+                const themeHoverClass = getThemeHoverClass(battle);
+                const themeHoverBgClass = getThemeHoverBgClass(battle);
 
-              {/* Biography */}
-              <div className="mb-16">
-                <h2 className="text-xs font-black uppercase tracking-[0.4em] text-zinc-500 mb-6 flex items-center gap-3">
-                  <div className="w-1 h-4 bg-brand" />
-                  {catalogueOnly ? "Archive profile" : "Biography"}
-                </h2>
-                <p className="text-zinc-400 text-lg leading-relaxed font-medium">{mc.bio}</p>
-              </div>
-
-              {/* Battle History */}
-              <div>
-                <h2 className="text-xs font-black uppercase tracking-[0.4em] text-zinc-500 mb-8 flex items-center gap-3">
-                  <div className="w-1 h-4 bg-brand" />
-                  Battle History
-                </h2>
-                <div className="space-y-4">
-                  {battleHistory.map((battle) => {
-                    const { opponentTeam } = getBattleSides(battle);
-                    const opponentId = opponentTeam[0];
-                    const opponent = allMcs.find((m) => m.id === opponentId);
-                    const opponentLabel = opponentTeam.map(getMcName).join(" & ") || "TBD";
-                    const outcome = getOutcome(battle);
-                    const battlePageAvailable = hasBattlePage(battle);
-                    const catalogueEntry = catalogueById.get(battle.id);
-                    const recordingUrl = catalogueEntry?.videoUrl;
-                    const outcomeClass =
-                      outcome === "WIN"
-                        ? "bg-emerald-500/20 text-emerald-500"
-                        : outcome === "LOSS"
-                          ? "bg-rose-500/20 text-rose-500"
-                          : "bg-zinc-700/40 text-zinc-400";
-                    const themeTextClass = getThemeTextClass(battle);
-                    const themeHoverClass = getThemeHoverClass(battle);
-                    const themeHoverBgClass = getThemeHoverBgClass(battle);
-
-                    const battleCard = (
-                      <>
-                        <div className="flex items-center gap-4 min-w-0">
-                          <div className="w-12 h-12 rounded-xl overflow-hidden border border-white/10">
-                            <McImage
-                              src={opponent?.image || `https://picsum.photos/seed/${opponentId}/100/100`}
-                              alt={opponent?.name || opponentLabel}
-                              className="w-full h-full object-cover"
-                              referrerPolicy="no-referrer"
-                            />
-                          </div>
-                          <div className="min-w-0">
-                            <div className="flex items-center gap-2 mb-1">
-                              <span className="text-[10px] font-black text-zinc-500 uppercase tracking-widest">
-                                VS {opponentLabel}
-                              </span>
-                              <span
-                                className={`${outcomeClass} text-[8px] font-black px-1.5 py-0.5 rounded uppercase tracking-widest`}
-                              >
-                                {outcome}
-                              </span>
-                            </div>
-                            <h3 className={`font-display italic uppercase text-xl ${themeHoverClass} transition-colors truncate`}>
-                              {battle.displayTitle || battle.title}
-                            </h3>
-                            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1">
-                              <span className={`text-[10px] ${themeTextClass} font-black uppercase tracking-widest`}>
-                                {getEventLabel(battle)}
-                              </span>
-                              {battle.views != null && <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
-                                {formatViewCount(battle.views)} views
-                              </span>}
-                              <span className="text-[10px] text-zinc-600 uppercase tracking-widest">
-                                {catalogueEntry?.dateLabel ?? (catalogueEntry?.yearOnly ? battle.date?.slice(0, 4) : formatBattleDate(battle.date))}
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        <div className={`w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center ${themeHoverBgClass} group-hover:text-black transition-all shrink-0`}>
-                          {battlePageAvailable || recordingUrl ? <Play size={16} fill="currentColor" /> : <Clock size={16} />}
-                        </div>
-                      </>
-                    );
-
-                    return battlePageAvailable ? (
-                      <Link
-                        key={battle.id}
-                        href={getBattleHref(battle)}
-                        className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
-                      >
-                        {battleCard}
-                      </Link>
-                    ) : recordingUrl ? (
-                      <a
-                        key={battle.id}
-                        href={recordingUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={`Watch ${battle.title}`}
-                        className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
-                      >
-                        {battleCard}
-                      </a>
-                    ) : (
-                      <div
-                        key={battle.id}
-                        title="Editorial analysis pending"
-                        className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl"
-                      >
-                        {battleCard}
+                const battleCard = (
+                  <>
+                    <div className="flex items-center gap-4 min-w-0">
+                      {/* Opponent Initials Monogram Badge */}
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-zinc-950 font-display text-xs italic text-brand">
+                        {getInitials(opponentLabel)}
                       </div>
-                    );
-                  })}
-                </div>
-              </div>
-            </motion.div>
+                      <div className="min-w-0">
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className="text-[10px] font-black text-zinc-500 uppercase tracking-widest">
+                            VS {opponentLabel}
+                          </span>
+                          <span
+                            className={`${outcomeClass} text-[8px] font-black px-1.5 py-0.5 rounded uppercase tracking-widest`}
+                          >
+                            {outcome}
+                          </span>
+                        </div>
+                        <h3 className={`font-display italic uppercase text-xl ${themeHoverClass} transition-colors truncate`}>
+                          {battle.displayTitle || battle.title}
+                        </h3>
+                        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1">
+                          <span className={`text-[10px] ${themeTextClass} font-black uppercase tracking-widest`}>
+                            {getEventLabel(battle)}
+                          </span>
+                          {battle.views != null && <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
+                            {formatViewCount(battle.views)} views
+                          </span>}
+                          <span className="text-[10px] text-zinc-600 uppercase tracking-widest">
+                            {catalogueEntry?.dateLabel ?? (catalogueEntry?.yearOnly ? battle.date?.slice(0, 4) : formatBattleDate(battle.date))}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={`w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center ${themeHoverBgClass} group-hover:text-black transition-all shrink-0`}>
+                      {battlePageAvailable || recordingUrl ? <Play size={16} fill="currentColor" /> : <Clock size={16} />}
+                    </div>
+                  </>
+                );
+
+                return battlePageAvailable ? (
+                  <Link
+                    key={battle.id}
+                    href={getBattleHref(battle)}
+                    className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
+                  >
+                    {battleCard}
+                  </Link>
+                ) : recordingUrl ? (
+                  <a
+                    key={battle.id}
+                    href={recordingUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Watch ${battle.title}`}
+                    className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl hover:bg-white/5 transition-all group"
+                  >
+                    {battleCard}
+                  </a>
+                ) : (
+                  <div
+                    key={battle.id}
+                    title="Editorial analysis pending"
+                    className="flex items-center justify-between gap-3 p-4 bg-zinc-900/40 border border-white/5 rounded-2xl"
+                  >
+                    {battleCard}
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-
-function StatBadge({
-  icon,
-  label,
-  highlight = false,
-}: {
-  icon: React.ReactNode;
-  label: string;
-  highlight?: boolean;
-}) {
-  return (
-    <div
-      className={`flex items-center gap-3 p-3 rounded-xl border ${
-        highlight ? "bg-brand/5 border-brand/20" : "bg-zinc-900/40 border-white/5"
-      }`}
-    >
-      <div className={highlight ? "text-brand" : "text-zinc-500"}>{icon}</div>
-      <span
-        className={`text-[10px] font-black uppercase tracking-widest ${
-          highlight ? "text-brand" : "text-zinc-300"
-        }`}
-      >
-        {label}
-      </span>
     </div>
   );
 }

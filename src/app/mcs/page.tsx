@@ -2,20 +2,27 @@
 import React, { useState, useMemo } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
-import McImage from "../../components/McImage";
 import { allProfileMcs as allMcs, isCatalogueOnlyMc } from "../../data/archiveMcProfiles";
 import { 
   Search, 
-  Filter, 
-  ArrowUpDown, 
   Trophy, 
   XCircle, 
   User,
-  ChevronRight
+  ChevronRight,
+  Swords
 } from "lucide-react";
 
 type SortField = "name" | "wins" | "losses" | "battles";
 type SortOrder = "asc" | "desc";
+
+const getInitials = (name: string) =>
+  name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase() || "MC";
 
 export default function MCIndex() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -58,7 +65,7 @@ export default function MCIndex() {
       setSortOrder(sortOrder === "asc" ? "desc" : "asc");
     } else {
       setSortField(field);
-      setSortOrder(field === "name" ? "asc" : "desc"); // Default to asc for name, desc for stats
+      setSortOrder(field === "name" ? "asc" : "desc");
     }
   };
 
@@ -70,17 +77,18 @@ export default function MCIndex() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-12">
-          <h1 className="text-4xl md:text-6xl font-display italic uppercase leading-tight">
-            Lord of the Archives <br /><span className="text-brand">Artists</span>
+        <div className="mb-10">
+          <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand mb-2">UK Battle Rap Roster</p>
+          <h1 className="text-4xl md:text-6xl font-display italic uppercase leading-tight text-white">
+            Lord of the Archives <span className="text-brand">Artists</span>
           </h1>
-          <p className="text-zinc-400 mt-4 max-w-xl text-sm md:text-lg leading-relaxed">
-            Every MC logged in The Archive. Tap any name to pull up their full profile — battle record, form, stats, and complete history.
+          <p className="text-zinc-400 mt-4 max-w-xl text-sm md:text-base leading-relaxed">
+            Every MC logged in The Archive across 7 leagues. Tap any artist to pull up their full dossier — clash record, form, stats, and complete battle history.
           </p>
         </div>
 
         {/* Filters & Search */}
-        <div className="flex flex-col md:flex-row gap-4 mb-12">
+        <div className="flex flex-col md:flex-row gap-4 mb-10">
           <div className="relative flex-1">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-zinc-500" size={18} />
             <input
@@ -88,11 +96,11 @@ export default function MCIndex() {
               placeholder="Search MCs by name or nickname..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-zinc-900/50 border border-white/5 rounded-2xl py-4 pl-12 pr-4 text-white placeholder:text-zinc-600 focus:outline-none focus:border-brand/50 transition-colors"
+              className="w-full bg-zinc-900/50 border border-white/5 rounded-2xl py-3.5 pl-12 pr-4 text-white placeholder:text-zinc-600 focus:outline-none focus:border-brand/50 transition-colors text-sm"
             />
           </div>
           
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             <SortButton 
               active={sortField === "name"} 
               onClick={() => toggleSort("name")}
@@ -111,71 +119,81 @@ export default function MCIndex() {
               label="Losses"
               icon={<XCircle size={14} />}
             />
+            <SortButton 
+              active={sortField === "battles"} 
+              onClick={() => toggleSort("battles")}
+              label="Battles"
+              icon={<Swords size={14} />}
+            />
           </div>
         </div>
 
         {/* MC Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filteredAndSortedMCs.map((mc, index) => (
-            <motion.div
-              key={mc.id}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.02 }}
-            >
-              <Link 
-                href={`/mc/${mc.slug}`}
-                className="group block bg-zinc-900/40 border border-white/5 rounded-3xl overflow-hidden hover:border-brand/30 transition-all hover:shadow-[0_0_30px_rgba(242,125,38,0.05)]"
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {filteredAndSortedMCs.map((mc, index) => {
+            const isUnreviewed = isCatalogueOnlyMc(mc.id);
+            const initials = getInitials(mc.name);
+
+            return (
+              <motion.div
+                key={mc.id}
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: Math.min(index * 0.015, 0.4) }}
               >
-                <div className="aspect-square relative overflow-hidden">
-                  <McImage
-                    src={mc.image} 
-                    alt={mc.name}
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
-                    referrerPolicy="no-referrer"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60" />
-                </div>
-
-                <div className="p-6">
-                  <div className="flex justify-between items-start mb-2">
-                    <div>
-                      <h3 className="font-display italic uppercase text-2xl group-hover:text-brand transition-colors leading-none">
-                        {mc.name}
-                      </h3>
-                      {mc.nickname && (
-                        <p className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest mt-1">
-                          {mc.nickname}
-                        </p>
-                      )}
-                    </div>
-                    <div className="text-right">
-                      <div className="text-brand font-display italic text-xl leading-none">
-                        {isCatalogueOnlyMc(mc.id) ? "Unreviewed" : `${mc.wins}-${mc.losses}`}
+                <Link 
+                  href={`/mc/${mc.slug}`}
+                  className="group relative flex flex-col justify-between h-full rounded-2xl border border-white/5 bg-zinc-900/40 p-5 transition-all duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_8px_30px_rgba(242,125,38,0.08)]"
+                >
+                  <div>
+                    {/* Header: Monogram + Record */}
+                    <div className="flex items-center justify-between gap-3 mb-4">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-zinc-950 font-display text-sm italic text-brand transition-colors group-hover:border-brand/50 group-hover:bg-brand/10">
+                        {initials}
                       </div>
-                      <p className="text-[8px] text-zinc-500 font-bold uppercase tracking-widest">Record</p>
+
+                      <div className="text-right">
+                        <span className={`inline-block font-display text-lg italic leading-none ${isUnreviewed ? "text-zinc-500 text-xs font-sans not-italic font-bold tracking-wider uppercase" : "text-brand"}`}>
+                          {isUnreviewed ? "Unreviewed" : `${mc.wins}-${mc.losses}`}
+                        </span>
+                        {!isUnreviewed && (
+                          <p className="text-[8px] font-bold uppercase tracking-widest text-zinc-500">Record</p>
+                        )}
+                      </div>
                     </div>
+
+                    {/* MC Name & Nickname */}
+                    <h3 className="font-display text-xl uppercase italic leading-tight text-white transition-colors group-hover:text-brand truncate">
+                      {mc.name}
+                    </h3>
+                    {mc.nickname && (
+                      <p className="mt-1 text-[10px] font-bold uppercase tracking-widest text-zinc-500 truncate">
+                        &ldquo;{mc.nickname}&rdquo;
+                      </p>
+                    )}
                   </div>
 
-                  <div className="flex items-center justify-between mt-6 pt-6 border-t border-white/5">
-                    <div className="flex gap-4">
-                      <div className="text-center">
-                        <div className="text-zinc-300 font-mono text-xs font-bold">{mc.battles}</div>
-                        <div className="text-[8px] text-zinc-500 font-bold uppercase tracking-widest">Battles</div>
+                  {/* Footer: Stats & Link Arrow */}
+                  <div className="mt-5 flex items-center justify-between border-t border-white/5 pt-4">
+                    <div className="flex items-center gap-4">
+                      <div>
+                        <div className="font-mono text-xs font-bold text-zinc-300">{mc.battles}</div>
+                        <div className="text-[8px] font-bold uppercase tracking-widest text-zinc-500">Battles</div>
                       </div>
-                      <div className="text-center">
-                        <div className="text-zinc-300 font-mono text-xs font-bold">{isCatalogueOnlyMc(mc.id) ? "—" : mc.wins * 3}</div>
-                        <div className="text-[8px] text-zinc-500 font-bold uppercase tracking-widest">Points</div>
+                      <div>
+                        <div className="font-mono text-xs font-bold text-zinc-300">{isUnreviewed ? "—" : mc.wins * 3}</div>
+                        <div className="text-[8px] font-bold uppercase tracking-widest text-zinc-500">Points</div>
                       </div>
                     </div>
-                    <div className="w-8 h-8 rounded-full bg-zinc-800 flex items-center justify-center text-zinc-500 group-hover:bg-brand group-hover:text-black transition-all">
-                      <ChevronRight size={16} />
+
+                    <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-zinc-800/80 text-zinc-400 transition-colors group-hover:bg-brand group-hover:text-black">
+                      <ChevronRight size={14} />
                     </div>
                   </div>
-                </div>
-              </Link>
-            </motion.div>
-          ))}
+                </Link>
+              </motion.div>
+            );
+          })}
         </div>
 
         {filteredAndSortedMCs.length === 0 && (

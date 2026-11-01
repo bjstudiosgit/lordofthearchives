@@ -85,7 +85,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const videoId = videoMetadata[sourceVideoId]?.videoId ?? sourceVideoId;
   const thumbnailUrl = videoId 
     ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` 
-    : `https://picsum.photos/seed/${battle.id}/1280/720`;
+    : `${SITE_URL}/hero-archives-emblem.png`;
   
   const team1Name = [mc1?.name ?? battle.mc1, mc3?.name].filter(Boolean).join(" & ");
   const team2Name = [mc2?.name ?? battle.mc2, mc4?.name].filter(Boolean).join(" & ");

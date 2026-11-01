@@ -1,12 +1,10 @@
-import { ChevronRight, Eye } from "lucide-react";
+import { ChevronRight, Eye, Trophy } from "lucide-react";
 import Link from "next/link";
-import McImage from "./McImage";
 
 interface PeopleChampionLeader {
   id: string;
   slug: string;
   name: string;
-  image: string;
   battleCount: number;
   totalViews: number;
   averageViews: number;
@@ -41,29 +39,32 @@ export default function PeopleChampionCarousel({ leaders }: { leaders: PeopleCha
               href={`/mc/${mc.slug}`}
               className="group relative overflow-hidden rounded-3xl border border-white/10 bg-black shadow-2xl transition duration-300 hover:-translate-y-1 hover:border-brand/50"
             >
-              <div className="relative h-80 overflow-hidden bg-zinc-900">
-                <div className="absolute inset-0 flex items-center justify-center font-display text-8xl italic text-brand/20">
+              <div className="relative h-64 overflow-hidden bg-gradient-to-b from-zinc-900 via-zinc-950 to-black p-6 flex flex-col justify-between border-b border-white/5">
+                {/* Background Watermark Initial */}
+                <div className="absolute -right-2 -bottom-6 select-none pointer-events-none font-display text-9xl italic text-white/[0.04] transition-transform duration-500 group-hover:scale-110 group-hover:text-brand/[0.07]">
                   {mc.name[0]}
                 </div>
-                <McImage
-                  src={mc.image}
-                  alt={mc.name}
-                  sizes="(min-width: 1280px) 288px, (min-width: 640px) 50vw, 100vw"
-                  className="absolute inset-0 h-full w-full object-cover object-top grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
-                <div className="absolute left-5 top-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-brand/40 bg-black/80 font-display text-3xl italic text-brand backdrop-blur">
-                  {mc.rank}
+
+                <div className="flex items-center justify-between relative z-10">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-brand/40 bg-brand/10 font-display text-2xl italic text-brand backdrop-blur shadow-[0_0_15px_rgba(242,125,38,0.2)]">
+                    #{mc.rank}
+                  </div>
+                  <span className="text-[10px] font-black uppercase tracking-[0.2em] text-brand">
+                    {mc.rank === 1 ? "People's Champion" : `Rank #${mc.rank}`}
+                  </span>
                 </div>
-                <div className="absolute inset-x-0 bottom-0 p-6">
-                  <p className="mb-2 text-[10px] font-black uppercase tracking-[0.24em] text-brand">
-                    {mc.rank === 1 ? "Current People's Champion" : `People's League No. ${mc.rank}`}
+
+                <div className="relative z-10">
+                  <p className="mb-1 text-[10px] font-black uppercase tracking-[0.24em] text-zinc-500">
+                    Leaderboard
                   </p>
-                  <h3 className="font-display text-4xl italic uppercase leading-none text-white">{mc.name}</h3>
+                  <h3 className="font-display text-3xl sm:text-4xl italic uppercase leading-none text-white group-hover:text-brand transition-colors">
+                    {mc.name}
+                  </h3>
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 divide-x divide-white/10 border-t border-white/10">
+              <div className="grid grid-cols-2 divide-x divide-white/10 border-t border-white/10 bg-zinc-950/60">
                 <div className="p-5">
                   <div className="mb-2 flex items-center gap-2 text-[9px] font-bold uppercase tracking-[0.18em] text-zinc-500">
                     <Eye size={13} className="text-brand" /> Solo views

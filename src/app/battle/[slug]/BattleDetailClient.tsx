@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { getRepeatClashNumber, hasBattleArchiveData, pengameBattles } from "../../../data/pengameBattles";
@@ -119,10 +119,10 @@ export default function BattleDetailClient({
                 ) : (
                   <div className="w-full h-full flex flex-col items-center justify-center bg-zinc-900 relative">
                     <img 
-                      src={`https://picsum.photos/seed/${battle.id}/1280/720`} 
-                      alt="Battle Thumbnail" 
-                      className="absolute inset-0 w-full h-full object-cover opacity-20 grayscale"
-                      referrerPolicy="no-referrer"
+                      src="/hero-archives-emblem.png" 
+                      alt="" 
+                      aria-hidden="true"
+                      className="absolute inset-0 w-full h-full object-cover opacity-15 grayscale"
                     />
                     <div className="relative z-10 text-center p-8">
                       <div className="w-20 h-20 bg-brand/10 text-brand rounded-full flex items-center justify-center mx-auto mb-6 border border-brand/20">
