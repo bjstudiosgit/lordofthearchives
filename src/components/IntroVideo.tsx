@@ -17,6 +17,7 @@ interface MemoryMilestone {
 
 interface RoadStop {
   step: string;
+  year: string;
   era: string;
   name: string;
   tagline: string;
@@ -33,6 +34,7 @@ interface RoadStop {
 const roadStops: RoadStop[] = [
   {
     step: "01",
+    year: "2004",
     era: "2004–15",
     name: "Lord of the Mics",
     tagline: "Jammer's Basement & The Camcorder DVD Era",
@@ -79,6 +81,7 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "02",
+    year: "2011",
     era: "2011–24",
     name: "Prizefighter",
     tagline: "140 BPM Tournament Knockouts & Belts",
@@ -119,6 +122,7 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "03",
+    year: "2014",
     era: "2014–20",
     name: "King of the Ronalds",
     tagline: "Rowdy Pub Basements & Dark British Comedy",
@@ -159,6 +163,7 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "04",
+    year: "2015",
     era: "2015–16",
     name: "Clash Money",
     tagline: "The M1 Corridor, 2v2 Bouts & The Trials",
@@ -193,6 +198,7 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "05",
+    year: "2020",
     era: "2020–26",
     name: "PenGame",
     tagline: "Judged Divisions, Title Matches & Modern Benchmark",
@@ -233,7 +239,8 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "06",
-    era: "Season 1",
+    year: "2024",
+    era: "Season 1 (2024)",
     name: "Gzone",
     tagline: "Heavyweight 140 BPM Grime Reload Aggression",
     location: "London Grime Circuit",
@@ -267,6 +274,7 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "07",
+    year: "2024",
     era: "2024–26",
     name: "Talk Is Cheap",
     tagline: "Rapid Releases & The Next Generation Wave",
@@ -384,29 +392,13 @@ export default function IntroVideo() {
           <h2 className="sr-only">The UK Battle Rap Archives Road Map</h2>
 
           {/* Road Map Section Header */}
-          <div className="mb-14 border-b border-white/10 pb-8 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-brand animate-ping" />
-                <span className="font-mono text-[10px] sm:text-xs font-black uppercase tracking-[0.3em] text-brand">
-                  The Chronological Route • 2004 — 2026
-                </span>
-              </div>
-              <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl uppercase italic tracking-tight text-white mt-2">
-                The Road Map: <span className="text-brand">How It All Started</span>
-              </h2>
-              <p className="mt-2.5 max-w-2xl text-xs sm:text-sm text-zinc-400 leading-relaxed font-sans">
-                Follow the 20-year route of UK battle rap from Jammer&apos;s East London basement in 2004 through pub cellars and northern motorway clashes to modern title leagues.
-              </p>
-            </div>
-            <div className="shrink-0 flex items-center gap-3 rounded-2xl border border-white/10 bg-zinc-950 px-4 py-3">
-              <div className="flex flex-col items-start leading-none">
-                <span className="font-mono text-[9px] uppercase tracking-widest text-zinc-500">Route Overview</span>
-                <span className="font-mono text-xs font-black uppercase text-brand mt-1 flex items-center gap-1.5">
-                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" /> 7 Eras • {archivedBattleCount} Battles
-                </span>
-              </div>
-            </div>
+          <div className="mb-14 border-b border-white/10 pb-8">
+            <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl uppercase italic tracking-tight text-white">
+              Grime at 140 MPH: <span className="text-brand">How It All Started</span>
+            </h2>
+            <p className="mt-3 max-w-3xl text-xs sm:text-sm md:text-base text-zinc-300 leading-relaxed font-sans">
+              When UK Garage tempos locked at 138–140 BPM, East London MCs broke away from the dancefloors to spit darker, faster 8-bar flows on pirate radio. In 2004, Jammer captured that ferocious energy in his Leytonstone basement on physical DVDs — sparking two decades of British clash culture.
+            </p>
           </div>
 
           {/* THE PHYSICAL ASPHALT HIGHWAY WITH INTEGRATED MILESTONE STATIONS */}
@@ -428,16 +420,14 @@ export default function IntroVideo() {
                 {/* Center Broken Amber Lane Divider */}
                 <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-amber-400/80 shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
 
-                {/* Stenciled "START • 2004" Road Marking on the Tarmac */}
-                <div className="relative z-10 w-full pt-3 pb-1 flex flex-col items-center">
+                {/* Stenciled "START" Road Marking on the Tarmac */}
+                <div className="relative z-10 w-full pt-3 pb-2 flex flex-col items-center">
+                  <div className="w-full h-1.5 bg-[repeating-linear-gradient(90deg,#fff,#fff_4px,#000_4px,#000_8px)] opacity-60 mb-2" />
                   <span className="font-mono text-[8px] sm:text-[9px] font-black tracking-[0.25em] text-brand select-none uppercase">
                     START
                   </span>
-                  <span className="font-display text-base sm:text-xl font-bold italic tracking-tight text-white select-none leading-none mt-0.5">
-                    2004
-                  </span>
-                  <svg className="w-3.5 h-5 text-white/80 my-1" viewBox="0 0 24 36" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                    <line x1="12" y1="34" x2="12" y2="4" />
+                  <svg className="w-3 h-4 text-white/70 mt-1" viewBox="0 0 24 36" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="12" y1="32" x2="12" y2="4" />
                     <polyline points="5 11 12 4 19 11" />
                   </svg>
                 </div>
@@ -453,40 +443,39 @@ export default function IntroVideo() {
                     id={`stop-${stop.step}`}
                     className="relative scroll-mt-36"
                   >
-                    {/* Waypoint Road Node on the Asphalt Highway */}
-                    <div className="absolute left-6 sm:left-8 lg:left-12 top-8 -translate-x-1/2 z-20 flex flex-col items-center justify-center pointer-events-none">
-                      <div className="relative flex h-11 w-11 sm:h-12 sm:w-12 items-center justify-center rounded-full border-2 border-brand bg-zinc-950 shadow-[0_0_25px_rgba(255,215,0,0.5)]">
-                        <span className="font-display text-base font-bold italic text-brand">
-                          {stop.step}
+                    {/* Milestone Year Node on the Asphalt Highway */}
+                    <div className="absolute left-6 sm:left-8 lg:left-12 top-8 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
+                      <div className="relative flex h-8 px-2 sm:h-9 sm:px-2.5 items-center justify-center rounded-lg border-2 border-brand bg-zinc-950 shadow-[0_0_20px_rgba(255,215,0,0.45)]">
+                        <span className="font-display text-xs sm:text-sm font-bold italic tracking-tight text-white select-none">
+                          {stop.year}
                         </span>
-                        <div className="absolute -inset-1 rounded-full border border-brand/40 animate-ping pointer-events-none opacity-25" />
+                        <div className="absolute -inset-1 rounded-lg border border-brand/40 animate-ping pointer-events-none opacity-20" />
                       </div>
-                      <span className="mt-1 font-mono text-[9px] sm:text-[10px] font-black text-amber-300 tracking-wider">
-                        {stop.era.split("–")[0]}
-                      </span>
                     </div>
 
                     {/* Horizontal Connector Arm from Road Node to Card */}
-                    <div className="absolute left-6 sm:left-8 lg:left-12 top-14 w-10 sm:w-16 lg:w-20 -translate-y-1/2 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
+                    <div className="absolute left-6 sm:left-8 lg:left-12 top-12 w-10 sm:w-16 lg:w-20 -translate-y-1/2 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
 
                     {/* UNIFIED MILESTONE STATION CARD */}
                     <div className="pl-14 sm:pl-22 lg:pl-32">
                       <div className="group relative rounded-3xl border border-white/10 bg-zinc-950/90 p-6 sm:p-8 lg:p-10 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_15px_50px_rgba(255,215,0,0.08)] overflow-hidden">
-                        {/* Background Step Watermark */}
-                        <div className="absolute right-6 top-3 font-display text-8xl sm:text-9xl italic text-white/[0.03] select-none pointer-events-none group-hover:text-brand/[0.06] transition-colors">
-                          {stop.step}
+                        {/* Background Year Watermark */}
+                        <div className="absolute right-6 top-2 font-display text-7xl sm:text-8xl lg:text-9xl italic text-white/[0.03] select-none pointer-events-none group-hover:text-brand/[0.06] transition-colors">
+                          {stop.year}
                         </div>
 
-                        {/* Junction & Postcode Sign Header */}
+                        {/* Milestone Station Location & Era Header */}
                         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-5 mb-6">
-                          <div className="flex items-center gap-2.5">
-                            <div className="flex items-center gap-1.5 rounded-lg border border-brand/30 bg-brand/10 px-3 py-1 font-mono text-xs font-black text-brand uppercase tracking-wider">
-                              <MapPin size={13} className="text-brand shrink-0" />
-                              JCT {stop.step} ({stop.era.split("–")[0]}) • {stop.location}
-                            </div>
+                          <div className="flex items-center gap-2">
+                            <MapPin size={14} className="text-brand shrink-0" />
+                            <span className="font-mono text-xs sm:text-sm font-bold text-white tracking-wide">
+                              {stop.location}
+                            </span>
                           </div>
-                          <div className="flex items-center gap-4 font-mono text-xs text-zinc-400">
-                            <span className="font-bold text-white">{stop.era}</span>
+                          <div className="flex items-center gap-3 font-mono text-xs text-zinc-400">
+                            <span className="rounded-md border border-white/15 bg-white/5 px-2.5 py-1 font-bold text-white">
+                              {stop.era}
+                            </span>
                             <span className="text-zinc-700">•</span>
                             <span>
                               <strong className="text-brand font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles cataloged

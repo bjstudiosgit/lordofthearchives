@@ -1,5 +1,6 @@
 import Link from "next/link";
 import BattleRow from "../talk-is-cheap/BattleRow";
+import RetroGzoneBanner from "../../components/RetroGzoneBanner";
 import { Calendar, CircleDot, Eye, Play, Trophy } from "lucide-react";
 import { formatBattleDate } from "../../data/battleDates";
 import { gzoneBattles } from "../../data/gzone";
@@ -116,6 +117,10 @@ export default function GzonePage() {
             <StatCard icon={<Eye size={14} />} label="YouTube Views" value={formatViews(totalViews)} />
             <StatCard icon={<Play size={14} />} label="Total Battles" value={String(gzoneBattles.length)} />
           </div>
+        </div>
+
+        <div className="mb-12">
+          <RetroGzoneBanner />
         </div>
 
         <section>
