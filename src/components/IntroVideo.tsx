@@ -85,12 +85,13 @@ export default function IntroVideo() {
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            className="absolute inset-0 h-full w-full object-cover object-[80%_center] opacity-25 contrast-105 sm:object-right sm:opacity-35"
+            className="absolute inset-0 h-full w-full object-cover object-[68%_center] opacity-60 contrast-110 sm:object-center sm:opacity-85"
           />
         </picture>
-        <div className="absolute inset-0 bg-black/40 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-transparent z-10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/70 z-10" />
+        <div className="absolute inset-0 bg-black/10 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-transparent to-black/75 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/55 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/25 z-10" />
         
         {/* Scanline Effect */}
         <div className="absolute inset-0 pointer-events-none z-20 opacity-[0.03] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]" />
