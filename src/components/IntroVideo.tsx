@@ -242,11 +242,11 @@ const roadStops: RoadStop[] = [
     year: "2024",
     era: "Season 1 (2024)",
     name: "Gzone",
-    tagline: "Heavyweight 140 BPM Grime Reload Aggression",
-    location: "London Grime Circuit",
+    tagline: "The Squared Circle • Pure 140 BPM Reloads",
+    location: "Peacock Gym, Canning Town, East London",
     story:
-      "A ferocious return to pure grime energy. Heavyweight contenders clashing head-to-head at 140 BPM over classic instrumental reload dubs, backed by official season fixtures and league standings.",
-    landmarkBattles: "Deeno, Tapped24, Roman, Marni Gramz & Ryno Season Fixtures",
+      "Real grime clash culture inside the boxing ring at Peacock Gym, Canning Town. Heavyweights trading vicious 8-bar rounds over classic instrumental reload dubs with live referee scoring and pure East London aggression.",
+    landmarkBattles: "Deeno vs Tapped24 • Roman vs Marni Gramz • Ryno vs Deeno",
     count: gzoneBattles.length,
     href: "/gzone",
     leagueHref: "/gzone/league",
@@ -274,8 +274,8 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "07",
-    year: "2024",
-    era: "2024–26",
+    year: "2019",
+    era: "2019–26",
     name: "Talk Is Cheap",
     tagline: "Rapid Releases & The Next Generation Wave",
     location: "New Wave Proving Grounds, UK",
@@ -349,7 +349,7 @@ export default function IntroVideo() {
         {/* Unified Hero Header & Origin Story (Left-Aligned, Clear of the Right Emblem) */}
         <div className="max-w-2xl lg:max-w-3xl">
           <div className="flex items-center gap-4 sm:gap-5">
-            {/* UK Speed Limit Road Sign (140 MPH) */}
+            {/* UK Speed Limit Road Sign (140 BPM) */}
             <div className="relative shrink-0">
               <div className="flex h-14 w-14 sm:h-18 sm:w-18 items-center justify-center rounded-full border-[5px] sm:border-[6px] border-[#d32f2f] bg-white shadow-[0_0_25px_rgba(211,47,47,0.4)] ring-2 ring-black/50">
                 <div className="flex flex-col items-center justify-center leading-none text-black">
@@ -357,7 +357,7 @@ export default function IntroVideo() {
                     140
                   </span>
                   <span className="font-mono text-[7px] sm:text-[8px] font-black tracking-widest uppercase -mt-0.5">
-                    MPH
+                    BPM
                   </span>
                 </div>
               </div>
@@ -368,20 +368,15 @@ export default function IntroVideo() {
                 Lord of the <span className="text-brand">Archives</span>
               </h1>
               <p className="font-display text-base sm:text-xl uppercase italic tracking-tight text-brand mt-1">
-                Grime at 140 MPH: <span className="text-white">How It All Started</span>
+                140 BPM! <span className="text-white">How It All Started</span>
               </p>
             </div>
           </div>
 
-          {/* Unified Narrative */}
-          <div className="mt-6 space-y-3.5 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
-            <p>
-              Two decades of UK clash culture cataloged in one definitive vault — documenting <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} battles</strong> across <strong className="text-white font-bold">7 historic eras</strong> and <strong className="text-white font-bold">540+ cataloged artists</strong> with verified match records and league standings.
-            </p>
-            <p>
-              In the early 2000s, British street music broke away from UK Garage dancefloors. MCs wanted darker, faster pressure, locking the metronome to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Boy Better Know producer Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong>, bootlegging the footage on physical DVDs and sparking two decades of British clash culture.
-            </p>
-          </div>
+          {/* Unified Narrative (Single Paragraph) */}
+          <p className="mt-5 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+            When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
+          </p>
         </div>
 
         {/* THE PHYSICAL ASPHALT HIGHWAY WITH INTEGRATED MILESTONE STATIONS */}
@@ -402,18 +397,6 @@ export default function IntroVideo() {
 
                 {/* Center Broken Amber Lane Divider */}
                 <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-amber-400/80 shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
-
-                {/* Stenciled "START" Road Marking on the Tarmac */}
-                <div className="relative z-10 w-full pt-3 pb-2 flex flex-col items-center">
-                  <div className="w-full h-1.5 bg-[repeating-linear-gradient(90deg,#fff,#fff_4px,#000_4px,#000_8px)] opacity-60 mb-2" />
-                  <span className="font-mono text-[8px] sm:text-[9px] font-black tracking-[0.25em] text-brand select-none uppercase">
-                    START
-                  </span>
-                  <svg className="w-3 h-4 text-white/70 mt-1" viewBox="0 0 24 36" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                    <line x1="12" y1="32" x2="12" y2="4" />
-                    <polyline points="5 11 12 4 19 11" />
-                  </svg>
-                </div>
               </div>
             </div>
 
@@ -471,9 +454,22 @@ export default function IntroVideo() {
                           {/* Left Column (5 cols): Platform History & Clashes */}
                           <div className="lg:col-span-5 flex flex-col justify-between h-full">
                             <div>
-                              <h3 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic text-white tracking-tight transition-colors group-hover:text-brand">
-                                {stop.name}
-                              </h3>
+                              <div className="flex flex-wrap items-center justify-between gap-2">
+                                <Link href={stop.href} className="group/title inline-flex items-center gap-2">
+                                  <h3 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic text-white tracking-tight transition-colors group-hover/title:text-brand">
+                                    {stop.name}
+                                  </h3>
+                                  <ArrowUpRight size={22} className="text-zinc-600 transition-colors group-hover/title:text-brand" />
+                                </Link>
+                                {stop.leagueHref && (
+                                  <Link
+                                    href={stop.leagueHref}
+                                    className="inline-flex items-center gap-1 rounded-md border border-brand/30 bg-brand/10 px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
+                                  >
+                                    <Trophy size={12} /> Table Standings
+                                  </Link>
+                                )}
+                              </div>
                               <p className="font-mono text-xs font-bold uppercase tracking-wider text-brand mt-1">
                                 {stop.tagline}
                               </p>
@@ -482,34 +478,15 @@ export default function IntroVideo() {
                                 {stop.story}
                               </p>
 
-                              {/* Classic Clashes */}
-                              <div className="mt-5 rounded-2xl border border-white/5 bg-white/[0.02] p-4">
-                                <div className="flex items-center gap-1.5 font-mono text-[10px] font-black uppercase tracking-wider text-brand">
-                                  <Flame size={13} className="text-brand shrink-0" /> Classic Clashes:
-                                </div>
-                                <p className="mt-1.5 font-mono text-xs text-zinc-200 leading-normal">
+                              {/* Classic Clashes (Pure Text, No Bubble) */}
+                              <p className="mt-4 text-xs leading-relaxed text-zinc-300 font-sans">
+                                <span className="font-mono text-[11px] font-bold uppercase tracking-wider text-brand mr-1.5">
+                                  Classic Clashes:
+                                </span>
+                                <span className="text-zinc-200 font-medium">
                                   {stop.landmarkBattles}
-                                </p>
-                              </div>
-                            </div>
-
-                            {/* Action Buttons */}
-                            <div className="mt-8 flex flex-wrap items-center gap-3">
-                              <Link
-                                href={stop.href}
-                                className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-brand px-5 py-3 text-xs font-black uppercase tracking-wider text-black font-display italic transition hover:bg-white hover:shadow-[0_0_25px_rgba(255,215,0,0.5)]"
-                              >
-                                Explore {stop.name} Archive <ArrowUpRight size={15} />
-                              </Link>
-                              {stop.leagueHref && (
-                                <Link
-                                  href={stop.leagueHref}
-                                  className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-xs font-black uppercase tracking-wider text-zinc-200 transition hover:border-brand/40 hover:bg-brand/10 hover:text-brand"
-                                  title="League Table Standings"
-                                >
-                                  <Trophy size={14} className="text-brand" /> Table
-                                </Link>
-                              )}
+                                </span>
+                              </p>
                             </div>
                           </div>
 
