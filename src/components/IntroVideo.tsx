@@ -458,7 +458,7 @@ export default function IntroVideo() {
             </h1>
 
             <p className="mt-8 max-w-2xl lg:max-w-3xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8 lg:text-xl lg:leading-9 font-sans">
-              Two decades of British clash culture documented in one definitive record book. Explore <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-semibold">540+ MC combat dossiers</strong>, and unified league points tables across <strong className="text-white font-semibold">7 historic battle archives</strong>.
+              The definitive vault of UK clash culture. From pirate radio basements and physical bootleg DVDs to judged championship rings, trace two decades of British battle rap across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-semibold">540+ MC combat dossiers</strong>, and unified league standings spanning <strong className="text-white font-semibold">7 historic archives</strong>.
             </p>
           </div>
         </div>
@@ -477,10 +477,6 @@ export default function IntroVideo() {
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* 140 BPM Origin Story Header directly above the Road Map (Spanning Across the Page) */}
           <div className="mb-12 sm:mb-16 w-full max-w-5xl lg:max-w-6xl pl-2 sm:pl-4">
-            <div className="inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-3 py-1 font-mono text-[11px] font-bold uppercase tracking-widest text-brand mb-3">
-              <span className="h-1.5 w-1.5 rounded-full bg-brand animate-pulse" />
-              The Chronological Highway • 2004–2026
-            </div>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic tracking-tight text-brand">
               140 BPM! <span className="text-white">How It All Started</span>
             </h2>
