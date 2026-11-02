@@ -318,23 +318,22 @@ function MilestoneCard({ stop }: { stop: RoadStop }) {
         {stop.year}
       </div>
 
-      {/* Milestone Station Location & Era Header */}
-      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4 mb-5">
-        <div className="flex items-center gap-2.5">
-          <span className="flex h-7 px-2.5 items-center justify-center rounded-lg border border-white/20 bg-white/5 font-display text-sm font-bold italic text-white shadow-sm">
+      {/* Milestone Header (Clean Typography, Zero Bubbles) */}
+      <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2 border-b border-white/10 pb-4 mb-5">
+        <div className="flex items-center gap-2">
+          <span className="font-display text-lg sm:text-xl font-bold italic tracking-tight text-white">
             {stop.year}
           </span>
-          <div className="flex items-center gap-1.5 ml-1">
-            <MapPin size={14} className="text-zinc-400 shrink-0" />
-            <span className="font-mono text-xs sm:text-sm font-bold text-white tracking-wide">
+          <span className="text-zinc-600 font-mono text-xs">•</span>
+          <div className="flex items-center gap-1.5 text-zinc-300 font-mono text-xs sm:text-sm">
+            <MapPin size={13} className="text-zinc-400 shrink-0" />
+            <span className="font-semibold text-zinc-200">
               {stop.location}
             </span>
           </div>
         </div>
-        <div className="flex items-center gap-2.5 font-mono text-xs text-zinc-400">
-          <span className="rounded-md border border-white/15 bg-white/5 px-2.5 py-1 font-bold text-white">
-            {stop.era}
-          </span>
+        <div className="flex items-center gap-2 font-mono text-xs text-zinc-400">
+          <span className="font-semibold text-zinc-300">{stop.era}</span>
           <span className="text-zinc-700">•</span>
           <span>
             <strong className="text-white font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles
@@ -355,9 +354,9 @@ function MilestoneCard({ stop }: { stop: RoadStop }) {
             <Link
               href={stop.leagueHref}
               aria-label={`${stop.name} League Table & Standings`}
-              className="inline-flex items-center gap-1.5 rounded-md border border-brand/30 bg-brand/10 px-2.5 py-1 font-mono text-[11px] font-bold uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
+              className="inline-flex items-center gap-1 font-mono text-xs font-bold uppercase tracking-wider text-brand hover:underline transition-colors"
             >
-              <Trophy size={11} /> {stop.name === "PenGame" ? "PenGame Table" : stop.name === "Gzone" ? "Gzone Table" : "Points Table"}
+              <Trophy size={13} /> {stop.name === "PenGame" ? "PenGame Table" : stop.name === "Gzone" ? "Gzone Table" : "Points Table"} &rarr;
             </Link>
           )}
         </div>
@@ -488,21 +487,6 @@ export default function IntroVideo() {
           </div>
 
           <div className="relative">
-            {/* MOBILE ONLY: Straight Continuous Asphalt Road Spine running down the left on < lg */}
-            <div className="lg:hidden absolute left-6 sm:left-8 top-0 bottom-0 -translate-x-1/2 w-12 sm:w-16 flex flex-col items-center pointer-events-none z-10">
-              <div className="relative w-full h-full bg-[#0d0d10] border-x-2 border-white/30 rounded-t-xl overflow-hidden shadow-[inset_0_0_20px_rgba(0,0,0,0.95)] flex flex-col items-center">
-                <div className="absolute left-1 inset-y-0 w-1 flex justify-between opacity-80 pointer-events-none">
-                  <div className="w-[1px] h-full bg-amber-400" />
-                  <div className="w-[1px] h-full bg-amber-400" />
-                </div>
-                <div className="absolute right-1 inset-y-0 w-1 flex justify-between opacity-80 pointer-events-none">
-                  <div className="w-[1px] h-full bg-amber-400" />
-                  <div className="w-[1px] h-full bg-amber-400" />
-                </div>
-                <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-amber-400/80 shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
-              </div>
-            </div>
-
             {/* DESKTOP ONLY: Unified Single-Path Serpentine Highway (Zero Seams, Zero Gaps, 100% Continuous) */}
             <div className="hidden lg:block absolute inset-y-0 left-1/2 -translate-x-1/2 w-64 xl:w-72 pointer-events-none z-10">
               <svg className="w-full h-full" viewBox="0 0 200 4200" preserveAspectRatio="none" fill="none">
@@ -535,20 +519,6 @@ export default function IntroVideo() {
                   strokeDasharray="10 12"
                   strokeLinecap="round"
                 />
-
-                {/* 5. Glowing Road Milestone Waypoint Nodes on the Center Asphalt */}
-                {roadStops.map((stop, i) => {
-                  const isEven = i % 2 === 0;
-                  const nodeX = isEven ? 55 : 145;
-                  const nodeY = i * 600 + 300;
-                  return (
-                    <g key={stop.name}>
-                      <circle cx={nodeX} cy={nodeY} r="14" fill="#f59e0b" opacity="0.25" />
-                      <circle cx={nodeX} cy={nodeY} r="9" fill="#0d0d12" stroke="#f59e0b" strokeWidth="2.5" />
-                      <circle cx={nodeX} cy={nodeY} r="4" fill="#fbbf24" />
-                    </g>
-                  );
-                })}
               </svg>
             </div>
 
@@ -561,26 +531,13 @@ export default function IntroVideo() {
                   <div
                     key={stop.name}
                     id={`stop-${stop.step}`}
-                    className="relative py-10 lg:py-16 scroll-mt-36"
+                    className="relative py-8 lg:py-16 scroll-mt-36"
                   >
-                    {/* MOBILE ONLY: Milestone Year Node on the Left Highway */}
-                    <div className="lg:hidden absolute left-6 sm:left-8 top-12 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
-                      <div className="relative flex h-8 px-2 sm:h-9 sm:px-2.5 items-center justify-center rounded-lg border-2 border-brand bg-zinc-950 shadow-[0_0_20px_rgba(255,215,0,0.45)]">
-                        <span className="font-display text-xs sm:text-sm font-bold italic tracking-tight text-white select-none">
-                          {stop.year}
-                        </span>
-                        <div className="absolute -inset-1 rounded-lg border border-brand/40 animate-ping pointer-events-none opacity-20" />
-                      </div>
-                    </div>
-
-                    {/* MOBILE ONLY: Horizontal Connector Arm */}
-                    <div className="lg:hidden absolute left-6 sm:left-8 top-12 w-10 sm:w-16 -translate-y-1/2 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
-
-                    {/* TWO-COLUMN ALTERNATING GRID (CARDS ON EACH SIDE OF WAVY ROAD) */}
+                    {/* TWO-COLUMN ALTERNATING GRID (CARDS ON EACH SIDE OF WAVY ROAD, CLEAN FULL WIDTH ON MOBILE) */}
                     <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-28 xl:gap-36 items-center">
                       {/* Column 1 (Left Side) */}
                       {isEven ? (
-                        <div className="pl-14 sm:pl-22 lg:pl-0 lg:pr-6">
+                        <div className="w-full lg:pl-0 lg:pr-6">
                           <MilestoneCard stop={stop} />
                         </div>
                       ) : (
@@ -589,7 +546,7 @@ export default function IntroVideo() {
 
                       {/* Column 2 (Right Side) */}
                       {!isEven ? (
-                        <div className="pl-14 sm:pl-22 lg:pl-6 lg:pr-0">
+                        <div className="w-full lg:pl-6 lg:pr-0">
                           <MilestoneCard stop={stop} />
                         </div>
                       ) : (
