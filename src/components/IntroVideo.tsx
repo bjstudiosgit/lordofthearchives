@@ -309,6 +309,101 @@ const roadStops: RoadStop[] = [
   },
 ];
 
+
+function MilestoneCard({ stop }: { stop: RoadStop }) {
+  return (
+    <div className="group relative rounded-3xl border border-white/10 bg-zinc-950/90 p-6 sm:p-8 lg:p-9 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_15px_50px_rgba(255,215,0,0.08)] overflow-hidden">
+      {/* Background Year Watermark */}
+      <div className="absolute right-4 top-2 font-display text-7xl sm:text-8xl italic text-white/[0.03] select-none pointer-events-none group-hover:text-brand/[0.06] transition-colors">
+        {stop.year}
+      </div>
+
+      {/* Milestone Station Location & Era Header */}
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4 mb-5">
+        <div className="flex items-center gap-2">
+          <MapPin size={14} className="text-brand shrink-0" />
+          <span className="font-mono text-xs sm:text-sm font-bold text-white tracking-wide">
+            {stop.location}
+          </span>
+        </div>
+        <div className="flex items-center gap-2.5 font-mono text-xs text-zinc-400">
+          <span className="rounded-md border border-white/15 bg-white/5 px-2.5 py-1 font-bold text-white">
+            {stop.era}
+          </span>
+          <span className="text-zinc-700">•</span>
+          <span>
+            <strong className="text-brand font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles
+          </span>
+        </div>
+      </div>
+
+      {/* Platform History & Details */}
+      <div>
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <Link href={stop.href} className="group/title inline-flex items-center gap-2">
+            <h3 className="font-display text-2xl sm:text-3xl lg:text-4xl uppercase italic text-white tracking-tight transition-colors group-hover/title:text-brand">
+              {stop.name}
+            </h3>
+            <ArrowUpRight size={20} className="text-zinc-600 transition-colors group-hover/title:text-brand" />
+          </Link>
+          {stop.leagueHref && (
+            <Link
+              href={stop.leagueHref}
+              className="inline-flex items-center gap-1 rounded-md border border-brand/30 bg-brand/10 px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
+            >
+              <Trophy size={11} /> Table
+            </Link>
+          )}
+        </div>
+        <p className="font-mono text-xs font-bold uppercase tracking-wider text-brand mt-1">
+          {stop.tagline}
+        </p>
+
+        <p className="mt-3.5 text-xs sm:text-sm leading-relaxed text-zinc-300 font-sans">
+          {stop.story}
+        </p>
+
+        {/* Classic Clashes (Pure Text) */}
+        <p className="mt-3.5 text-xs leading-relaxed text-zinc-300 font-sans">
+          <span className="font-mono text-[11px] font-bold uppercase tracking-wider text-brand mr-1.5">
+            Classic Clashes:
+          </span>
+          <span className="text-zinc-200 font-medium">
+            {stop.landmarkBattles}
+          </span>
+        </p>
+
+        {/* Clash Memory Timeline */}
+        <div className="mt-5 pt-4 border-t border-white/10 space-y-3">
+          {stop.memoryMilestones.map((m) => (
+            <div
+              key={m.season}
+              className="relative pl-5 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-white/10 last:before:hidden group/item"
+            >
+              <div className="absolute -left-[3px] top-1.5 h-2 w-2 rounded-full border border-brand bg-zinc-950 transition-colors group-hover/item:bg-brand" />
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="font-mono text-xs font-black text-brand">
+                  {m.year}
+                </span>
+                <span className="text-zinc-600 font-mono text-xs">•</span>
+                <span className="font-display text-sm uppercase italic text-white tracking-wide">
+                  {m.season}
+                </span>
+              </div>
+              <p className="mt-0.5 font-mono text-xs font-semibold text-zinc-200 leading-snug">
+                {m.battles}
+              </p>
+              <p className="mt-0.5 text-xs leading-relaxed text-zinc-400">
+                {m.note}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function IntroVideo() {
   const archivedBattleCount = roadStops.reduce((total, era) => total + era.count, 0);
 
@@ -357,8 +452,8 @@ export default function IntroVideo() {
               Lord of the <span className="text-brand">Archives</span>
             </h1>
 
-            <p className="mt-8 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8 lg:text-xl lg:leading-9">
-              Two decades of UK clash culture cataloged in one definitive vault across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-semibold">7 historic battle leagues</strong>, and <strong className="text-white font-semibold">540+ cataloged MCs</strong>. Watch legendary clashes, track MC records, and explore verified league standings.
+            <p className="mt-8 max-w-2xl lg:max-w-3xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8 lg:text-xl lg:leading-9 font-sans">
+              Two decades of British clash culture documented in one definitive record book. Explore <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-semibold">540+ MC combat dossiers</strong>, and unified league points tables across <strong className="text-white font-semibold">7 historic battle archives</strong>.
             </p>
           </div>
         </div>
@@ -381,16 +476,14 @@ export default function IntroVideo() {
               140 BPM! <span className="text-white">How It All Started</span>
             </h2>
             <p className="mt-4 text-base sm:text-lg leading-relaxed text-zinc-300 font-sans">
-              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
+              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
             </p>
           </div>
 
           <div className="relative">
-            {/* The Continuous Asphalt Road Spine running down the left */}
-            <div className="absolute left-6 sm:left-8 lg:left-12 top-0 bottom-0 -translate-x-1/2 w-12 sm:w-16 lg:w-20 flex flex-col items-center pointer-events-none z-10">
-              {/* Asphalt Road Bed */}
+            {/* MOBILE ONLY: Straight Continuous Asphalt Road Spine running down the left on < lg */}
+            <div className="lg:hidden absolute left-6 sm:left-8 top-0 bottom-0 -translate-x-1/2 w-12 sm:w-16 flex flex-col items-center pointer-events-none z-10">
               <div className="relative w-full h-full bg-[#0d0d10] border-x-2 border-white/30 rounded-t-xl overflow-hidden shadow-[inset_0_0_20px_rgba(0,0,0,0.95)] flex flex-col items-center">
-                {/* UK Kerbs: Double Yellow Lines along both edges */}
                 <div className="absolute left-1 inset-y-0 w-1 flex justify-between opacity-80 pointer-events-none">
                   <div className="w-[1px] h-full bg-amber-400" />
                   <div className="w-[1px] h-full bg-amber-400" />
@@ -399,23 +492,60 @@ export default function IntroVideo() {
                   <div className="w-[1px] h-full bg-amber-400" />
                   <div className="w-[1px] h-full bg-amber-400" />
                 </div>
-
-                {/* Center Broken Amber Lane Divider */}
                 <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-amber-400/80 shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
               </div>
             </div>
 
-            {/* The 7 Unified Road Milestone Stations */}
-            <div className="space-y-14 sm:space-y-18 lg:space-y-24">
-              {roadStops.map((stop) => {
+            {/* The 7 Alternating Road Milestone Stations with Wavy Center Highway */}
+            <div className="space-y-16 sm:space-y-20 lg:space-y-24">
+              {roadStops.map((stop, index) => {
+                const isEven = index % 2 === 0; // Even: Card on Left. Odd: Card on Right.
+                const pathD = isEven
+                  ? "M 100 0 C 100 45, 60 55, 60 100 C 60 145, 100 155, 100 200"
+                  : "M 100 0 C 100 45, 140 55, 140 100 C 140 145, 100 155, 100 200";
+
                 return (
                   <div
                     key={stop.name}
                     id={`stop-${stop.step}`}
                     className="relative scroll-mt-36"
                   >
-                    {/* Milestone Year Node on the Asphalt Highway */}
-                    <div className="absolute left-6 sm:left-8 lg:left-12 top-8 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
+                    {/* DESKTOP ONLY: Wavy SVG Asphalt Road Segment */}
+                    <div className="hidden lg:block absolute inset-y-0 left-1/2 -translate-x-1/2 w-56 xl:w-64 pointer-events-none z-10">
+                      <svg className="w-full h-full" viewBox="0 0 200 200" preserveAspectRatio="none" fill="none">
+                        {/* 1. Road Outer Kerb Edge Border */}
+                        <path d={pathD} stroke="rgba(255, 255, 255, 0.22)" strokeWidth="46" strokeLinecap="butt" />
+                        {/* 2. UK Double Yellow Kerb Base */}
+                        <path d={pathD} stroke="#f59e0b" strokeWidth="42" strokeLinecap="butt" />
+                        {/* 3. Dark Asphalt Road Surface */}
+                        <path d={pathD} stroke="#0d0d12" strokeWidth="36" strokeLinecap="butt" />
+                        {/* 4. Center Broken Amber Lane Divider */}
+                        <path d={pathD} stroke="#fbbf24" strokeWidth="2.2" strokeDasharray="5 7" strokeLinecap="round" />
+                      </svg>
+
+                      {/* Desktop Year Node placed on the Apex of the Curve */}
+                      <div
+                        className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 z-20 flex items-center justify-center pointer-events-none"
+                        style={{ left: isEven ? "30%" : "70%" }}
+                      >
+                        <div className="relative flex h-8 px-2.5 sm:h-9 sm:px-3 items-center justify-center rounded-lg border-2 border-brand bg-zinc-950 shadow-[0_0_20px_rgba(255,215,0,0.5)]">
+                          <span className="font-display text-xs sm:text-sm font-bold italic tracking-tight text-white select-none">
+                            {stop.year}
+                          </span>
+                          <div className="absolute -inset-1 rounded-lg border border-brand/40 animate-ping pointer-events-none opacity-20" />
+                        </div>
+                      </div>
+
+                      {/* Desktop Horizontal Connector Arm from Node to Card */}
+                      {isEven ? (
+                        <div className="absolute top-1/2 -translate-y-1/2 right-[70%] w-16 xl:w-24 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
+                      ) : (
+                        <div className="absolute top-1/2 -translate-y-1/2 left-[70%] w-16 xl:w-24 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
+                      )}
+                    </div>
+
+                    {/* MOBILE ONLY: Milestone Year Node on the Left Highway */}
+                    <div className="lg:hidden absolute left-6 sm:left-8 top-8 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
                       <div className="relative flex h-8 px-2 sm:h-9 sm:px-2.5 items-center justify-center rounded-lg border-2 border-brand bg-zinc-950 shadow-[0_0_20px_rgba(255,215,0,0.45)]">
                         <span className="font-display text-xs sm:text-sm font-bold italic tracking-tight text-white select-none">
                           {stop.year}
@@ -424,107 +554,28 @@ export default function IntroVideo() {
                       </div>
                     </div>
 
-                    {/* Horizontal Connector Arm from Road Node to Card */}
-                    <div className="absolute left-6 sm:left-8 lg:left-12 top-12 w-10 sm:w-16 lg:w-20 -translate-y-1/2 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
+                    {/* MOBILE ONLY: Horizontal Connector Arm */}
+                    <div className="lg:hidden absolute left-6 sm:left-8 top-12 w-10 sm:w-16 -translate-y-1/2 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
 
-                    {/* UNIFIED MILESTONE STATION CARD */}
-                    <div className="pl-14 sm:pl-22 lg:pl-32">
-                      <div className="group relative rounded-3xl border border-white/10 bg-zinc-950/90 p-6 sm:p-8 lg:p-10 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_15px_50px_rgba(255,215,0,0.08)] overflow-hidden">
-                        {/* Background Year Watermark */}
-                        <div className="absolute right-6 top-2 font-display text-7xl sm:text-8xl lg:text-9xl italic text-white/[0.03] select-none pointer-events-none group-hover:text-brand/[0.06] transition-colors">
-                          {stop.year}
+                    {/* TWO-COLUMN ALTERNATING GRID (CARDS ON EACH SIDE OF WAVY ROAD) */}
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24 xl:gap-32 items-center">
+                      {/* Column 1 (Left Side) */}
+                      {isEven ? (
+                        <div className="pl-14 sm:pl-22 lg:pl-0 lg:pr-6">
+                          <MilestoneCard stop={stop} />
                         </div>
+                      ) : (
+                        <div className="hidden lg:block" aria-hidden="true" />
+                      )}
 
-                        {/* Milestone Station Location & Era Header */}
-                        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-5 mb-6">
-                          <div className="flex items-center gap-2">
-                            <MapPin size={14} className="text-brand shrink-0" />
-                            <span className="font-mono text-xs sm:text-sm font-bold text-white tracking-wide">
-                              {stop.location}
-                            </span>
-                          </div>
-                          <div className="flex items-center gap-3 font-mono text-xs text-zinc-400">
-                            <span className="rounded-md border border-white/15 bg-white/5 px-2.5 py-1 font-bold text-white">
-                              {stop.era}
-                            </span>
-                            <span className="text-zinc-700">•</span>
-                            <span>
-                              <strong className="text-brand font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles cataloged
-                            </span>
-                          </div>
+                      {/* Column 2 (Right Side) */}
+                      {!isEven ? (
+                        <div className="pl-14 sm:pl-22 lg:pl-6 lg:pr-0">
+                          <MilestoneCard stop={stop} />
                         </div>
-
-                        {/* Content Grid: Left = Platform Dossier, Right = Clash Memory Map */}
-                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-                          {/* Left Column (5 cols): Platform History & Clashes */}
-                          <div className="lg:col-span-5 flex flex-col justify-between h-full">
-                            <div>
-                              <div className="flex flex-wrap items-center justify-between gap-2">
-                                <Link href={stop.href} className="group/title inline-flex items-center gap-2">
-                                  <h3 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic text-white tracking-tight transition-colors group-hover/title:text-brand">
-                                    {stop.name}
-                                  </h3>
-                                  <ArrowUpRight size={22} className="text-zinc-600 transition-colors group-hover/title:text-brand" />
-                                </Link>
-                                {stop.leagueHref && (
-                                  <Link
-                                    href={stop.leagueHref}
-                                    className="inline-flex items-center gap-1 rounded-md border border-brand/30 bg-brand/10 px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
-                                  >
-                                    <Trophy size={12} /> Table Standings
-                                  </Link>
-                                )}
-                              </div>
-                              <p className="font-mono text-xs font-bold uppercase tracking-wider text-brand mt-1">
-                                {stop.tagline}
-                              </p>
-
-                              <p className="mt-4 text-xs sm:text-sm leading-relaxed text-zinc-300 font-sans">
-                                {stop.story}
-                              </p>
-
-                              {/* Classic Clashes (Pure Text, No Bubble) */}
-                              <p className="mt-4 text-xs leading-relaxed text-zinc-300 font-sans">
-                                <span className="font-mono text-[11px] font-bold uppercase tracking-wider text-brand mr-1.5">
-                                  Classic Clashes:
-                                </span>
-                                <span className="text-zinc-200 font-medium">
-                                  {stop.landmarkBattles}
-                                </span>
-                              </p>
-                            </div>
-                          </div>
-
-                          {/* Right Column (7 cols): Clash Memory Timeline */}
-                          <div className="lg:col-span-7 lg:border-l lg:border-white/10 lg:pl-10">
-                            <div className="space-y-4">
-                              {stop.memoryMilestones.map((m) => (
-                                <div
-                                  key={m.season}
-                                  className="relative pl-5 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-white/10 last:before:hidden group/item"
-                                >
-                                  <div className="absolute -left-[3px] top-1.5 h-2 w-2 rounded-full border border-brand bg-zinc-950 transition-colors group-hover/item:bg-brand" />
-                                  <div className="flex flex-wrap items-center gap-2">
-                                    <span className="font-mono text-xs font-black text-brand">
-                                      {m.year}
-                                    </span>
-                                    <span className="text-zinc-600 font-mono text-xs">•</span>
-                                    <span className="font-display text-sm uppercase italic text-white tracking-wide">
-                                      {m.season}
-                                    </span>
-                                  </div>
-                                  <p className="mt-1 font-mono text-xs font-semibold text-zinc-200 leading-snug">
-                                    {m.battles}
-                                  </p>
-                                  <p className="mt-0.5 text-xs leading-relaxed text-zinc-400">
-                                    {m.note}
-                                  </p>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      ) : (
+                        <div className="hidden lg:block" aria-hidden="true" />
+                      )}
                     </div>
                   </div>
                 );
