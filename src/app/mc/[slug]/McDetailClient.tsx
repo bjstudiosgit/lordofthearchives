@@ -23,9 +23,6 @@ import {
 } from "../../../data/leagueStandings";
 import { motion } from "motion/react";
 import {
-  Instagram,
-  Twitter,
-  Youtube,
   Play,
   ChevronLeft,
   Trophy,
@@ -212,7 +209,6 @@ export default function McDetailClient({ slug }: { slug: string }) {
                   {getInitials(mc.name)}
                 </div>
                 <div>
-                  <span className="text-[10px] font-black uppercase tracking-[0.25em] text-brand">Artist Dossier</span>
                   <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display italic uppercase leading-none tracking-tight text-white flex flex-wrap items-baseline gap-x-3 gap-y-1">
                     <span>{mc.name}</span>
                     {mc.realName && (
@@ -340,49 +336,6 @@ export default function McDetailClient({ slug }: { slug: string }) {
               </div>
             </div>
 
-            {/* Social Links */}
-            {(mc.instagram || mc.twitter || mc.youtube) && (
-              <div className="rounded-2xl border border-white/10 bg-zinc-900/40 p-5">
-                <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500 mb-3">
-                  Official Channels
-                </h2>
-                <div className="flex gap-3">
-                  {mc.instagram && (
-                    <a
-                      href={`https://instagram.com/${mc.instagram}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`${mc.name} on Instagram`}
-                      className="w-10 h-10 rounded-xl bg-zinc-800 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all"
-                    >
-                      <Instagram size={18} />
-                    </a>
-                  )}
-                  {mc.twitter && (
-                    <a
-                      href={`https://twitter.com/${mc.twitter}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`${mc.name} on Twitter`}
-                      className="w-10 h-10 rounded-xl bg-zinc-800 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all"
-                    >
-                      <Twitter size={18} />
-                    </a>
-                  )}
-                  {mc.youtube && (
-                    <a
-                      href={`https://youtube.com/${mc.youtube}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`${mc.name} on YouTube`}
-                      className="w-10 h-10 rounded-xl bg-zinc-800 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand hover:text-black transition-all"
-                    >
-                      <Youtube size={18} />
-                    </a>
-                  )}
-                </div>
-              </div>
-            )}
 
             {/* Prop'erty Section */}
             {mcPropertyItems.length > 0 && (
