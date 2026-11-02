@@ -317,7 +317,7 @@ export default function IntroVideo() {
       {/* 1. STANDALONE HERO SECTION (FULL BREATHING SPACE) */}
       <section
         aria-labelledby="hero-heading"
-        className="relative isolate w-full overflow-hidden border-b border-brand/20 bg-black min-h-[500px] sm:min-h-[580px] lg:min-h-[640px] flex flex-col justify-center"
+        className="relative isolate w-full overflow-hidden border-b border-brand/20 bg-black min-h-[85vh] sm:min-h-[90vh] lg:min-h-[940px] flex flex-col justify-center"
       >
         {/* Background Graphic Watermark (Spans Hero Cleanly) */}
         <div className="absolute inset-0 z-0 pointer-events-none">
@@ -336,13 +336,13 @@ export default function IntroVideo() {
               loading="eager"
               fetchPriority="high"
               decoding="async"
-              className="absolute inset-0 h-full w-full object-cover object-[70%_center] opacity-80 contrast-110 sm:object-right-top sm:opacity-90"
+              className="absolute inset-0 h-full w-full object-cover object-[75%_center] opacity-85 contrast-110 sm:object-right sm:opacity-90"
             />
           </picture>
           <div className="absolute inset-0 bg-black/15 z-10" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black z-10" />
           <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent z-10" />
-          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black via-black/80 to-transparent z-10" />
+          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black via-black/60 to-transparent z-10" />
 
           {/* Scanline Effect */}
           <div className="absolute inset-0 pointer-events-none z-20 opacity-[0.03] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]" />
@@ -351,18 +351,18 @@ export default function IntroVideo() {
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
         {/* Hero Header (Spacious, Left-Aligned, Clear of the Right Emblem) */}
-        <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pt-36 pb-24 sm:px-6 sm:pt-44 sm:pb-32 lg:px-8 lg:pt-48 lg:pb-36">
+        <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pt-40 pb-44 sm:px-6 sm:pt-48 sm:pb-52 lg:px-8 lg:pt-56 lg:pb-60">
           <div className="max-w-3xl">
             <h1 id="hero-heading" className="font-display text-[clamp(2.75rem,6vw,5.75rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
               Lord of the <span className="text-brand">Archives</span>
             </h1>
 
-            <p className="mt-5 max-w-2xl text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
+            <p className="mt-7 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8">
               Two decades of UK clash culture cataloged in one definitive vault. Watch legendary battles, track <span className="text-white font-semibold">540+ MC records</span>, and explore verified league standings across <span className="text-brand font-semibold">7 historic archives</span>.
             </p>
 
             {/* Quick Stats Badges */}
-            <div className="mt-8 flex flex-wrap items-center gap-3">
+            <div className="mt-12 flex flex-wrap items-center gap-3.5">
               <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
                 <span className="font-display text-lg italic text-brand">{archivedBattleCount.toLocaleString("en-GB")}</span>
                 <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Battles Archived</span>
