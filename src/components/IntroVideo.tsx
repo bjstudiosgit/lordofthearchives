@@ -313,77 +313,72 @@ export default function IntroVideo() {
   const archivedBattleCount = roadStops.reduce((total, era) => total + era.count, 0);
 
   return (
-    <section aria-labelledby="hero-heading" className="relative isolate w-full overflow-hidden border-b border-brand/20 bg-black">
-      {/* Background Graphic Watermark (Locked to Hero Area, Not Stretched Across Whole Page) */}
-      <div className="absolute top-0 inset-x-0 h-[750px] sm:h-[850px] lg:h-[950px] overflow-hidden z-0 pointer-events-none">
-        <picture className="absolute inset-0 block">
-          <source
-            type="image/webp"
-            srcSet="/hero-archives-emblem-768.webp 768w, /hero-archives-emblem-1280.webp 1280w, /hero-archives-emblem.webp 1600w"
-            sizes="100vw"
-          />
-          <img
-            src="/hero-archives-emblem.png"
-            alt=""
-            aria-hidden="true"
-            width={1659}
-            height={948}
-            loading="eager"
-            fetchPriority="high"
-            decoding="async"
-            className="absolute inset-0 h-full w-full object-cover object-[70%_center] opacity-80 contrast-110 sm:object-right-top sm:opacity-90"
-          />
-        </picture>
-        <div className="absolute inset-0 bg-black/15 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black z-10" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent z-10" />
-        <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-black via-black/80 to-transparent z-10" />
+    <>
+      {/* 1. STANDALONE HERO SECTION (FULL BREATHING SPACE) */}
+      <section
+        aria-labelledby="hero-heading"
+        className="relative isolate w-full overflow-hidden border-b border-brand/20 bg-black min-h-[500px] sm:min-h-[580px] lg:min-h-[640px] flex flex-col justify-center"
+      >
+        {/* Background Graphic Watermark (Spans Hero Cleanly) */}
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <picture className="absolute inset-0 block">
+            <source
+              type="image/webp"
+              srcSet="/hero-archives-emblem-768.webp 768w, /hero-archives-emblem-1280.webp 1280w, /hero-archives-emblem.webp 1600w"
+              sizes="100vw"
+            />
+            <img
+              src="/hero-archives-emblem.png"
+              alt=""
+              aria-hidden="true"
+              width={1659}
+              height={948}
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+              className="absolute inset-0 h-full w-full object-cover object-[70%_center] opacity-80 contrast-110 sm:object-right-top sm:opacity-90"
+            />
+          </picture>
+          <div className="absolute inset-0 bg-black/15 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent z-10" />
+          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black via-black/80 to-transparent z-10" />
 
-        {/* Scanline Effect */}
-        <div className="absolute inset-0 pointer-events-none z-20 opacity-[0.03] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]" />
-      </div>
+          {/* Scanline Effect */}
+          <div className="absolute inset-0 pointer-events-none z-20 opacity-[0.03] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]" />
+        </div>
 
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
+        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
-      {/* Hero Header & Origin Story (Left-Aligned, Clear of the Right Emblem) */}
-      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pt-36 pb-20 sm:px-6 sm:pt-44 sm:pb-24 lg:px-8 lg:pt-48 lg:pb-28">
-        <div className="max-w-2xl lg:max-w-3xl">
-          <div className="flex items-center gap-4 sm:gap-5">
-            {/* UK Speed Limit Road Sign (140 BPM) */}
-            <div className="relative shrink-0">
-              <div className="flex h-14 w-14 sm:h-18 sm:w-18 items-center justify-center rounded-full border-[5px] sm:border-[6px] border-[#d32f2f] bg-white shadow-[0_0_25px_rgba(211,47,47,0.4)] ring-2 ring-black/50">
-                <div className="flex flex-col items-center justify-center leading-none text-black">
-                  <span className="font-display text-xl sm:text-2xl font-black italic tracking-tighter">
-                    140
-                  </span>
-                  <span className="font-mono text-[7px] sm:text-[8px] font-black tracking-widest uppercase -mt-0.5">
-                    BPM
-                  </span>
-                </div>
-              </div>
-            </div>
-
+        {/* Hero Header & Origin Story (Spacious, Left-Aligned, Clear of the Right Emblem) */}
+        <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pt-36 pb-24 sm:px-6 sm:pt-44 sm:pb-32 lg:px-8 lg:pt-48 lg:pb-36">
+          <div className="max-w-2xl lg:max-w-3xl">
             <div>
-              <h1 id="hero-heading" className="font-display text-[clamp(2.5rem,5.5vw,5.5rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
+              <h1 id="hero-heading" className="font-display text-[clamp(2.75rem,6vw,5.75rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
                 Lord of the <span className="text-brand">Archives</span>
               </h1>
-              <p className="font-display text-base sm:text-xl uppercase italic tracking-tight text-brand mt-1">
+              <p className="font-display text-base sm:text-xl uppercase italic tracking-tight text-brand mt-2">
                 140 BPM! <span className="text-white">How It All Started</span>
               </p>
             </div>
+
+            {/* Unified Narrative (Single Paragraph) */}
+            <p className="mt-6 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
+            </p>
           </div>
-
-          {/* Unified Narrative (Single Paragraph) */}
-          <p className="mt-5 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
-            When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
-          </p>
         </div>
-      </div>
 
-      {/* DEDICATED SECTION: THE UK BATTLE RAP HIGHWAY (CHRONOLOGICAL ROAD MAP) */}
-      <div
+        {/* Cinematic Vignette */}
+        <div className="absolute inset-0 shadow-[inset_0_0_160px_rgba(0,0,0,0.5)] pointer-events-none z-20" />
+        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand/40 to-transparent z-30" />
+      </section>
+
+      {/* 2. DEDICATED SECTION: THE UK BATTLE RAP HIGHWAY (CHRONOLOGICAL ROAD MAP) */}
+      <section
         id="hero-archives"
-        className="relative z-30 pt-10 pb-28 sm:pt-14 sm:pb-36 scroll-mt-24"
+        aria-label="UK Battle Rap Timeline"
+        className="relative w-full bg-black py-20 sm:py-28 lg:py-36 border-b border-brand/20 scroll-mt-20"
       >
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="relative">
@@ -533,11 +528,7 @@ export default function IntroVideo() {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Cinematic Vignette */}
-      <div className="absolute inset-0 shadow-[inset_0_0_160px_rgba(0,0,0,0.5)] pointer-events-none z-20" />
-      <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand/60 to-transparent z-40" />
-    </section>
+      </section>
+    </>
   );
 }
