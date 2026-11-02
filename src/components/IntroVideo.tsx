@@ -320,11 +320,16 @@ function MilestoneCard({ stop }: { stop: RoadStop }) {
 
       {/* Milestone Station Location & Era Header */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4 mb-5">
-        <div className="flex items-center gap-2">
-          <MapPin size={14} className="text-brand shrink-0" />
-          <span className="font-mono text-xs sm:text-sm font-bold text-white tracking-wide">
-            {stop.location}
+        <div className="flex items-center gap-2.5">
+          <span className="flex h-7 px-2.5 items-center justify-center rounded-lg border-2 border-brand bg-brand/10 font-display text-sm font-bold italic text-brand shadow-[0_0_12px_rgba(255,215,0,0.35)]">
+            {stop.year}
           </span>
+          <div className="flex items-center gap-1.5 ml-1">
+            <MapPin size={14} className="text-brand shrink-0" />
+            <span className="font-mono text-xs sm:text-sm font-bold text-white tracking-wide">
+              {stop.location}
+            </span>
+          </div>
         </div>
         <div className="flex items-center gap-2.5 font-mono text-xs text-zinc-400">
           <span className="rounded-md border border-white/15 bg-white/5 px-2.5 py-1 font-bold text-white">
@@ -500,63 +505,45 @@ export default function IntroVideo() {
               </div>
             </div>
 
-            {/* The 7 Alternating Road Milestone Stations with Seamless Continuous Winding Highway */}
+            {/* The 7 Alternating Road Milestone Stations with Wide Serpentine Highway */}
             <div className="relative">
-              {/* Desktop Top Highway Lead-In */}
-              <div className="hidden lg:block absolute -top-10 left-1/2 -translate-x-1/2 w-64 xl:w-72 h-10 pointer-events-none z-10">
-                <svg className="w-full h-full" viewBox="0 0 200 40" preserveAspectRatio="none" fill="none">
-                  <path d="M 100 0 L 100 40" stroke="rgba(255, 255, 255, 0.22)" strokeWidth="48" strokeLinecap="butt" />
-                  <path d="M 100 0 L 100 40" stroke="#f59e0b" strokeWidth="44" strokeLinecap="butt" />
-                  <path d="M 100 0 L 100 40" stroke="#0d0d12" strokeWidth="38" strokeLinecap="butt" />
-                  <path d="M 100 0 L 100 40" stroke="#fbbf24" strokeWidth="2.5" strokeDasharray="6 7" strokeLinecap="round" />
-                </svg>
-              </div>
-
               {roadStops.map((stop, index) => {
                 const isEven = index % 2 === 0; // Even: Card on Left, Road bends Left. Odd: Card on Right, Road bends Right.
-                // Symmetrical C1 continuous cubic bezier connecting seamlessly without any gaps
+                // Wide, graceful S-curve connecting from top-center (200,0) to apex to bottom-center (200,600)
                 const pathD = isEven
-                  ? "M 100 0 C 40 25, 40 75, 100 100"
-                  : "M 100 0 C 160 25, 160 75, 100 100";
+                  ? "M 200 0 C 70 150, 70 450, 200 600"
+                  : "M 200 0 C 330 150, 330 450, 200 600";
+                const nodeX = isEven ? 102.5 : 297.5;
 
                 return (
                   <div
                     key={stop.name}
                     id={`stop-${stop.step}`}
-                    className="relative py-10 lg:py-16 scroll-mt-36"
+                    className="relative min-h-[520px] lg:min-h-[580px] flex items-center scroll-mt-36"
                   >
                     {/* DESKTOP ONLY: Seamless Wavy SVG Asphalt Road Segment */}
-                    <div className="hidden lg:block absolute inset-y-0 left-1/2 -translate-x-1/2 w-64 xl:w-72 pointer-events-none z-10">
-                      <svg className="w-full h-full" viewBox="0 0 200 100" preserveAspectRatio="none" fill="none">
+                    <div className="hidden lg:block absolute inset-y-0 left-1/2 -translate-x-1/2 w-[420px] xl:w-[480px] pointer-events-none z-10">
+                      <svg className="w-full h-full" viewBox="0 0 400 600" preserveAspectRatio="none" fill="none">
                         {/* 1. Road Outer Kerb Edge Border */}
-                        <path d={pathD} stroke="rgba(255, 255, 255, 0.22)" strokeWidth="48" strokeLinecap="butt" />
+                        <path d={pathD} stroke="rgba(255, 255, 255, 0.2)" strokeWidth="54" strokeLinecap="butt" />
                         {/* 2. UK Double Yellow Kerb Base */}
-                        <path d={pathD} stroke="#f59e0b" strokeWidth="44" strokeLinecap="butt" />
+                        <path d={pathD} stroke="#f59e0b" strokeWidth="48" strokeLinecap="butt" />
                         {/* 3. Dark Asphalt Road Surface */}
-                        <path d={pathD} stroke="#0d0d12" strokeWidth="38" strokeLinecap="butt" />
+                        <path d={pathD} stroke="#0d0d12" strokeWidth="40" strokeLinecap="butt" />
                         {/* 4. Center Broken Amber Lane Divider */}
-                        <path d={pathD} stroke="#fbbf24" strokeWidth="2.5" strokeDasharray="6 7" strokeLinecap="round" />
+                        <path d={pathD} stroke="#fbbf24" strokeWidth="2.5" strokeDasharray="10 12" strokeLinecap="round" />
+
+                        {/* 5. Horizontal Dotted Connector Line to Milestone Card */}
+                        {isEven ? (
+                          <line x1={nodeX} y1="300" x2="0" y2="300" stroke="#f59e0b" strokeWidth="2" strokeDasharray="6 6" />
+                        ) : (
+                          <line x1={nodeX} y1="300" x2="400" y2="300" stroke="#f59e0b" strokeWidth="2" strokeDasharray="6 6" />
+                        )}
+
+                        {/* 6. Glowing Road Milestone Waypoint Node */}
+                        <circle cx={nodeX} cy="300" r="10" fill="#0d0d12" stroke="#f59e0b" strokeWidth="3" />
+                        <circle cx={nodeX} cy="300" r="4.5" fill="#fbbf24" />
                       </svg>
-
-                      {/* Desktop Year Node placed on the Apex of the Curve */}
-                      <div
-                        className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 z-20 flex items-center justify-center pointer-events-none"
-                        style={{ left: isEven ? "27.5%" : "72.5%" }}
-                      >
-                        <div className="relative flex h-8 px-2.5 sm:h-9 sm:px-3 items-center justify-center rounded-lg border-2 border-brand bg-zinc-950 shadow-[0_0_20px_rgba(255,215,0,0.5)]">
-                          <span className="font-display text-xs sm:text-sm font-bold italic tracking-tight text-white select-none">
-                            {stop.year}
-                          </span>
-                          <div className="absolute -inset-1 rounded-lg border border-brand/40 animate-ping pointer-events-none opacity-20" />
-                        </div>
-                      </div>
-
-                      {/* Desktop Horizontal Connector Arm from Node to Card */}
-                      {isEven ? (
-                        <div className="absolute top-1/2 -translate-y-1/2 right-[72.5%] w-16 xl:w-28 border-t-2 border-dashed border-amber-400/60 z-10 pointer-events-none shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
-                      ) : (
-                        <div className="absolute top-1/2 -translate-y-1/2 left-[72.5%] w-16 xl:w-28 border-t-2 border-dashed border-amber-400/60 z-10 pointer-events-none shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
-                      )}
                     </div>
 
                     {/* MOBILE ONLY: Milestone Year Node on the Left Highway */}
@@ -573,7 +560,7 @@ export default function IntroVideo() {
                     <div className="lg:hidden absolute left-6 sm:left-8 top-12 w-10 sm:w-16 -translate-y-1/2 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
 
                     {/* TWO-COLUMN ALTERNATING GRID (CARDS ON EACH SIDE OF WAVY ROAD) */}
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-28 xl:gap-36 items-center">
+                    <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-28 xl:gap-36 items-center">
                       {/* Column 1 (Left Side) */}
                       {isEven ? (
                         <div className="pl-14 sm:pl-22 lg:pl-0 lg:pr-6">
@@ -595,16 +582,6 @@ export default function IntroVideo() {
                   </div>
                 );
               })}
-
-              {/* Desktop Bottom Highway Lead-Out */}
-              <div className="hidden lg:block absolute -bottom-10 left-1/2 -translate-x-1/2 w-64 xl:w-72 h-10 pointer-events-none z-10">
-                <svg className="w-full h-full" viewBox="0 0 200 40" preserveAspectRatio="none" fill="none">
-                  <path d="M 100 0 L 100 40" stroke="rgba(255, 255, 255, 0.22)" strokeWidth="48" strokeLinecap="butt" />
-                  <path d="M 100 0 L 100 40" stroke="#f59e0b" strokeWidth="44" strokeLinecap="butt" />
-                  <path d="M 100 0 L 100 40" stroke="#0d0d12" strokeWidth="38" strokeLinecap="butt" />
-                  <path d="M 100 0 L 100 40" stroke="#fbbf24" strokeWidth="2.5" strokeDasharray="6 7" strokeLinecap="round" />
-                </svg>
-              </div>
             </div>
           </div>
         </div>
