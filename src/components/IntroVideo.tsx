@@ -321,11 +321,11 @@ function MilestoneCard({ stop }: { stop: RoadStop }) {
       {/* Milestone Station Location & Era Header */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4 mb-5">
         <div className="flex items-center gap-2.5">
-          <span className="flex h-7 px-2.5 items-center justify-center rounded-lg border-2 border-brand bg-brand/10 font-display text-sm font-bold italic text-brand shadow-[0_0_12px_rgba(255,215,0,0.35)]">
+          <span className="flex h-7 px-2.5 items-center justify-center rounded-lg border border-white/20 bg-white/5 font-display text-sm font-bold italic text-white shadow-sm">
             {stop.year}
           </span>
           <div className="flex items-center gap-1.5 ml-1">
-            <MapPin size={14} className="text-brand shrink-0" />
+            <MapPin size={14} className="text-zinc-400 shrink-0" />
             <span className="font-mono text-xs sm:text-sm font-bold text-white tracking-wide">
               {stop.location}
             </span>
@@ -337,7 +337,7 @@ function MilestoneCard({ stop }: { stop: RoadStop }) {
           </span>
           <span className="text-zinc-700">•</span>
           <span>
-            <strong className="text-brand font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles
+            <strong className="text-white font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles
           </span>
         </div>
       </div>
@@ -458,7 +458,7 @@ export default function IntroVideo() {
             </h1>
 
             <p className="mt-8 max-w-2xl lg:max-w-3xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8 lg:text-xl lg:leading-9 font-sans">
-              The definitive vault of UK clash culture. From pirate radio basements and physical bootleg DVDs to judged championship rings, trace two decades of British battle rap across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-semibold">540+ MC combat dossiers</strong>, and unified league standings spanning <strong className="text-white font-semibold">7 historic archives</strong>.
+              The definitive vault of UK clash culture. From pirate radio basements and physical bootleg DVDs to judged championship rings, trace two decades of British battle rap across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-semibold">540+ MC combat dossiers</strong>, and unified league standings spanning <strong className="text-white font-semibold">7 historic archives</strong>.
             </p>
           </div>
         </div>
@@ -476,12 +476,12 @@ export default function IntroVideo() {
       >
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* 140 BPM Origin Story Header directly above the Road Map (Spanning Across the Page) */}
-          <div className="mb-12 sm:mb-16 w-full max-w-5xl lg:max-w-6xl pl-2 sm:pl-4">
-            <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic tracking-tight text-brand">
-              140 BPM! <span className="text-white">How It All Started</span>
+          <div className="mb-16 sm:mb-20 lg:mb-28 w-full max-w-5xl lg:max-w-6xl pl-2 sm:pl-4">
+            <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic tracking-tight text-white">
+              140 BPM! <span className="text-zinc-400">How It All Started</span>
             </h2>
             <p className="mt-4 text-base sm:text-lg leading-relaxed text-zinc-300 font-sans">
-              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
+              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-semibold">7 historic eras</strong>, and <strong className="text-white font-semibold">540+ artists</strong>.
             </p>
           </div>
 
@@ -559,7 +559,7 @@ export default function IntroVideo() {
                   <div
                     key={stop.name}
                     id={`stop-${stop.step}`}
-                    className="relative min-h-[520px] lg:h-[600px] flex items-center py-6 lg:py-0 scroll-mt-36"
+                    className="relative py-10 lg:py-16 scroll-mt-36"
                   >
                     {/* MOBILE ONLY: Milestone Year Node on the Left Highway */}
                     <div className="lg:hidden absolute left-6 sm:left-8 top-12 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
