@@ -357,25 +357,9 @@ export default function IntroVideo() {
               Lord of the <span className="text-brand">Archives</span>
             </h1>
 
-            <p className="mt-7 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8">
-              Two decades of UK clash culture cataloged in one definitive vault. Watch legendary battles, track <span className="text-white font-semibold">540+ MC records</span>, and explore verified league standings across <span className="text-brand font-semibold">7 historic archives</span>.
+            <p className="mt-8 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8 lg:text-xl lg:leading-9">
+              Two decades of UK clash culture cataloged in one definitive vault across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-semibold">7 historic battle leagues</strong>, and <strong className="text-white font-semibold">540+ cataloged MCs</strong>. Watch legendary clashes, track MC records, and explore verified league standings.
             </p>
-
-            {/* Quick Stats Badges */}
-            <div className="mt-12 flex flex-wrap items-center gap-3.5">
-              <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
-                <span className="font-display text-lg italic text-brand">{archivedBattleCount.toLocaleString("en-GB")}</span>
-                <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Battles Archived</span>
-              </div>
-              <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
-                <span className="font-display text-lg italic text-white">7</span>
-                <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Battle Leagues</span>
-              </div>
-              <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
-                <span className="font-display text-lg italic text-white">540+</span>
-                <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Cataloged MCs</span>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -391,12 +375,12 @@ export default function IntroVideo() {
         className="relative w-full bg-black py-16 sm:py-24 lg:py-28 border-b border-brand/20 scroll-mt-20"
       >
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* 140 BPM Origin Story Header directly above the Road Map */}
-          <div className="mb-12 sm:mb-16 max-w-3xl pl-2 sm:pl-4">
+          {/* 140 BPM Origin Story Header directly above the Road Map (Spanning Across the Page) */}
+          <div className="mb-14 sm:mb-18 w-full max-w-5xl lg:max-w-6xl pl-2 sm:pl-4">
             <h2 className="font-display text-2xl sm:text-3xl lg:text-4xl uppercase italic tracking-tight text-brand">
               140 BPM! <span className="text-white">How It All Started</span>
             </h2>
-            <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+            <p className="mt-4 text-base sm:text-lg leading-relaxed text-zinc-300 font-sans">
               When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
             </p>
           </div>
