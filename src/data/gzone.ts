@@ -92,7 +92,7 @@ export const gzoneBattles: Battle[] = [
   makeBattle("1x27", "Badee Harz", "Roman", "18.8K", "2026-10-02", "Roman", "https://www.youtube.com/watch?v=oAgeLuYN344"),
   makeBattle("1x28", "1Flaymr", "Z.K", "6.5K", "2026-09-26", "1Flaymr", "https://www.youtube.com/watch?v=nIlog2sd0eY"),
   { ...makeBattle("1x29", "Tymeless", "KIME", "", "2026-09-26", "Tymeless", "https://www.youtube.com/watch?v=JYLCFI0nYuU"), title: "TYMELESS vs K.I.M.E" },
-  { ...makeBattle("1x30", "Btizz", "Grams", "4.2K", "2026-10-31", "Grams", "https://www.youtube.com/watch?v=xj8fvKvWc9M"), title: "BTIZZ vs MARNI GRAMZ" },
+  { ...makeBattle("1x30", "Btizz", "Grams", "4.4K", "2026-10-31", "Grams", "https://www.youtube.com/watch?v=xj8fvKvWc9M"), title: "BTIZZ vs MARNI GRAMZ" },
 ];
 
 export const gzoneMcs: GzoneMc[] = Array.from(

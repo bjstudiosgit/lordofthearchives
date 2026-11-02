@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Trophy, MapPin } from "lucide-react";
+import { ArrowUpRight, Trophy } from "lucide-react";
 import { pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
 import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
@@ -8,314 +8,68 @@ import { talkIsCheapSeries } from "../data/talkIsCheap";
 import { clashMoneyBattles } from "../data/clashMoney";
 import { kingOfTheRonaldsBattles } from "../data/kingOfTheRonalds";
 
-interface MemoryMilestone {
-  year: string;
-  season: string;
-  battles: string;
-  note: string;
-}
-
-interface RoadStop {
-  step: string;
-  year: string;
-  era: string;
-  name: string;
-  tagline: string;
-  location: string;
-  story: string;
-  landmarkBattles: string;
-  count: number;
-  href: string;
-  leagueHref: string | null;
-  status: string;
-  memoryMilestones: MemoryMilestone[];
-}
-
-const roadStops: RoadStop[] = [
+const archives = [
   {
-    step: "01",
-    year: "2004",
-    era: "2004–15",
-    name: "Lord of the Mics",
-    tagline: "Jammer's Basement & The Camcorder DVD Era",
-    location: "Leytonstone, East London E17",
-    story:
-      "Where it all began. In 2004, Boy Better Know producer Jammer crammed East London's deadliest pirate radio MCs into his parents' basement with a single camcorder. Pressed onto physical bootleg DVDs and traded through barbershops and car boots, LOTM birthed modern UK clash culture.",
-    landmarkBattles: "Wiley vs Kano • Skepta vs Devilman • Ghetts vs Napper",
-    count: lordOfTheMicsBattles.length,
-    href: "/lord-of-the-mics",
-    leagueHref: null,
-    status: "The Genesis",
-    memoryMilestones: [
-      {
-        year: "2004",
-        season: "LOTM 1",
-        battles: "Wiley vs Kano • Ghetto vs Napper • Bruza vs Crazy Titch",
-        note: "Recorded in Jammer's East London basement. Hand-to-hand bootleg DVD release.",
-      },
-      {
-        year: "2006",
-        season: "LOTM 2",
-        battles: "Skepta vs Devilman • Bashy vs Demon • Big Narstie vs Scorcher",
-        note: "The nationwide DVD phenomenon. Skepta vs Devilman becomes an eternal cultural anthem.",
-      },
-      {
-        year: "2011",
-        season: "LOTM 3",
-        battles: "Kozzie vs Sox • Discarda vs Jaykae • Marger vs LayZ",
-        note: "The digital return of LOTM, launching a new generation of 140 BPM clashers.",
-      },
-      {
-        year: "2014",
-        season: "LOTM 6",
-        battles: "Big H vs P Money • Dialect vs Nat Powers",
-        note: "Live headline clash event at Islington Academy with massive crowd energy.",
-      },
-      {
-        year: "2015",
-        season: "LOTM 7",
-        battles: "Jammer vs Wiley • Lady Lykez vs Sox",
-        note: "10-year anniversary clash between founding fathers of the grime scene.",
-      },
-    ],
-  },
-  {
-    step: "02",
-    year: "2011",
-    era: "2011–24",
-    name: "Prizefighter",
-    tagline: "DJ Mikee • 8-Man Tournament Knockouts & Cash Belts",
-    location: "Birmingham & The Midlands (Brum)",
-    story:
-      "Pioneered by Birmingham producer DJ Mikee to bring vital opportunity and a national spotlight to the Brum grime scene. Prizefighter pitted Midlands heavyweights against London invaders in sudden-death 8-man knockout brackets for cash purses and championship belts.",
-    landmarkBattles: "Birmingham vs London 8-Man Brackets • Devilman, Sox & Jaykae Showcases",
-    count: prizefighterBattles.length,
-    href: "/prizefighter",
-    leagueHref: "/prizefighter/league",
-    status: "Knockout Circuit",
-    memoryMilestones: [
-      {
-        year: "2011",
-        season: "Inaugural Cup",
-        battles: "8-Man Grime Knockout Bracket",
-        note: "DJ Mikee launches the Midlands tournament circuit with cash prize belts.",
-      },
-      {
-        year: "2014",
-        season: "Prizefighter 5",
-        battles: "F.O.S vs Iamone • Big Hypes vs Nitro Clack",
-        note: "Silk City Radio recording featuring high-velocity bracket rounds.",
-      },
-      {
-        year: "2015",
-        season: "Prizefighter 8",
-        battles: "Firedon vs Jay3 • Psolja vs RdoubleG",
-        note: "Radio audio tournament series with verified judging scorecards.",
-      },
-      {
-        year: "2024",
-        season: "Ozone Circuit",
-        battles: "Modern 140 BPM Tournament Return",
-        note: "Revival of the classic prizefighter tournament format with live points table.",
-      },
-    ],
-  },
-  {
-    step: "03",
-    year: "2014",
-    era: "2014–20",
-    name: "King of the Ronalds",
-    tagline: "Rowdy Pub Basements & Dark British Comedy",
-    location: "The Old Red Lion Pub, Islington N1",
-    story:
-      "Uncensored, beer-soaked, and strictly for the underground. Bowski and Micky Worthless crammed hundreds of rowdy spectators into London pub basements. KOTR became a cult British institution defined by brutal personal disrespect, pitch-black humour, and iconic characters.",
-    landmarkBattles: "Bowski vs Micky Worthless • Hulk vs Pedro • Tony D vs Oshea",
-    count: kingOfTheRonaldsBattles.length,
-    href: "/king-of-the-ronalds",
-    leagueHref: null,
-    status: "Cult Underground",
-    memoryMilestones: [
-      {
-        year: "2014",
-        season: "Old Red Lion Inception",
-        battles: "Bowski vs Micky Worthless • Pedro vs Bowski",
-        note: "The legendary London pub cellar inception. Uncensored disrespect and cult humor.",
-      },
-      {
-        year: "2015",
-        season: "Hulkmania & Punk In Drublic",
-        battles: "Hulk vs Pedro • Scoop vs Bowski",
-        note: "Explosion of the KOTR underground circuit with legendary cult characters.",
-      },
-      {
-        year: "2017",
-        season: "Check Point & Title Bouts",
-        battles: "Tony D vs Oshea • Big J vs Hulk",
-        note: "Don't Flop and national champions stepping into the notorious KOTR pit.",
-      },
-      {
-        year: "2020",
-        season: "Specialists in Failure",
-        battles: "The Final Chapter Showcase",
-        note: "The closing era sealing King of the Ronalds' permanent legacy in battle culture.",
-      },
-    ],
-  },
-  {
-    step: "04",
-    year: "2015",
-    era: "2015–16",
-    name: "Clash Money",
-    tagline: "The M1 Corridor, 2v2 Bouts & The Trials",
-    location: "M1 North • Leeds, Nottingham & Manchester",
-    story:
-      "Breaking the London monopoly. Clash Money took battle rap up the M1 motorway, staging historic 2v2 wars and 'The Trials' development proving grounds that launched northern heavyweights like Blizzard, Dialect, and Bru-C onto the national stage.",
-    landmarkBattles: "Blizzard vs Dialect • Dialect & Kaotik 2v2 • The Trials Invitational",
-    count: clashMoneyBattles.length,
-    href: "/clash-money",
-    leagueHref: null,
-    status: "North vs UK",
-    memoryMilestones: [
-      {
-        year: "2015",
-        season: "The Trials 1 & 2",
-        battles: "Blizzard vs Dialect • Dialect vs Raptor",
-        note: "Proving ground tournament giving northern lyricists national spotlight.",
-      },
-      {
-        year: "2015",
-        season: "North vs South",
-        battles: "M1 Motorway Clash Invitational",
-        note: "Bridging the regional divide with explosive cross-country rivalries.",
-      },
-      {
-        year: "2016",
-        season: "2v2 Tag Teams",
-        battles: "Dialect & Kaotik 2v2s • Bru-C Showcases",
-        note: "Pioneered fast-paced tag-team grime bouts with rapid fire reloads.",
-      },
-    ],
-  },
-  {
-    step: "05",
-    year: "2019",
-    era: "2019–26",
-    name: "Talk Is Cheap",
-    tagline: "Rapid Releases & The Next Generation Wave",
-    location: "New Wave Proving Grounds, UK",
-    story:
-      "The newest chapter in UK clash history. High-velocity releases, emerging underground spitters, raw freestyle punchlines, and the new generation carrying British battle culture into the next decade.",
-    landmarkBattles: "Series 1 to 5 Next-Generation Head-to-Heads",
-    count: talkIsCheapSeries.reduce((total, series) => total + series.battles.length, 0),
-    href: "/talk-is-cheap",
-    leagueHref: null,
-    status: "The Next Era",
-    memoryMilestones: [
-      {
-        year: "2019–21",
-        season: "Series 1 & 2",
-        battles: "Underground Debut • Early Head-to-Heads",
-        note: "Rapid release tempo introducing London's next wave of freestyle talent.",
-      },
-      {
-        year: "2022–24",
-        season: "Series 3 & 4",
-        battles: "The Underground Proving Ground",
-        note: "Viral short-form format clashes keeping raw British battle rap alive.",
-      },
-      {
-        year: "2025–26",
-        season: "Series 5",
-        battles: "The New Wave Frontier",
-        note: "Next generation MCs actively carrying the clash culture forward.",
-      },
-    ],
-  },
-  {
-    step: "06",
-    year: "2020",
-    era: "2020–26",
     name: "PenGame",
-    tagline: "Judged Divisions, Title Matches & Modern Benchmark",
-    location: "Central Studios & Main Stages, UK",
-    story:
-      "The definitive modern powerhouse of UK battle rap. Over 450 battles cataloged with multi-tier divisional tables, championship title fights, and a respected judging desk featuring Lippy Lickshot, Joe Black, and LV General.",
-    landmarkBattles: "Premier Division Title Clashes • 450+ Judged Matches",
-    count: pengameBattles.length,
     href: "/pengame",
     leagueHref: "/league",
-    status: "The Modern Flagship",
-    memoryMilestones: [
-      {
-        year: "2020–22",
-        season: "Seasons 1 & 2",
-        battles: "Launch Battles • First Judged Cards",
-        note: "Judging panel established with Lippy Lickshot, Joe Black, and LV General.",
-      },
-      {
-        year: "2023",
-        season: "Premier Division",
-        battles: "30+ Fixtures • Official Title Belts",
-        note: "Full league structure with promotion, relegation, and points table.",
-      },
-      {
-        year: "2024–25",
-        season: "Mega-Cards",
-        battles: "1M+ View Clashes • Boxpark & Central Studios",
-        note: "Record-breaking viewership and mainstream cultural penetration.",
-      },
-      {
-        year: "2026",
-        season: "Championship Race",
-        battles: "Current Title Fights & Live Divisional Standings",
-        note: "Live ongoing season tracked in real-time on Lord of the Archives.",
-      },
-    ],
+    count: pengameBattles.length,
+    era: "2023–26",
+    description: "The UK's flagship clash platform: 450+ battles, judged fixtures and divisional league tables.",
   },
   {
-    step: "07",
-    year: "2024",
-    era: "Season 1 (2024)",
+    name: "King of the Ronalds",
+    href: "/king-of-the-ronalds",
+    count: kingOfTheRonaldsBattles.length,
+    era: "2014–20",
+    description: "Raw, unfiltered UK battle culture: Bowski, Micky Worthless, Hulk, Pedro, Oshea & Tony D.",
+  },
+  {
+    name: "Prizefighter",
+    href: "/prizefighter",
+    leagueHref: "/prizefighter/league",
+    count: prizefighterBattles.length,
+    era: "2011–24",
+    description: "Tournament grime clashes across multiple eras with verified results and points tables.",
+  },
+  {
+    name: "Clash Money",
+    href: "/clash-money",
+    count: clashMoneyBattles.length,
+    era: "2015–16",
+    description: "Headline 1v1 and 2v2 bouts plus Trials development featuring Blizzard, Dialect & Bru-C.",
+  },
+  {
+    name: "Lord of the Mics",
+    href: "/lord-of-the-mics",
+    count: lordOfTheMicsBattles.length,
+    era: "2004–15",
+    description: "The foundation of UK clash history: Jammer's legendary basement DVD tracklists.",
+  },
+  {
     name: "Gzone",
-    tagline: "The Squared Circle • Pure 140 BPM Reloads",
-    location: "Peacock Gym, Canning Town, East London",
-    story:
-      "Real grime clash culture inside the boxing ring at Peacock Gym, Canning Town. Heavyweights trading vicious 8-bar rounds over classic instrumental reload dubs with live referee scoring and pure East London aggression.",
-    landmarkBattles: "Deeno vs Tapped24 • Roman vs Marni Gramz • Ryno vs Deeno",
-    count: gzoneBattles.length,
     href: "/gzone",
     leagueHref: "/gzone/league",
-    status: "140 BPM Grime Reload",
-    memoryMilestones: [
-      {
-        year: "2024",
-        season: "Season 1 Launch",
-        battles: "Deeno vs Tapped24 • Roman vs Marni Gramz",
-        note: "Pure 140 BPM grime aggression over classic grime instrumental dubs.",
-      },
-      {
-        year: "2024",
-        season: "Mid-Season Derbies",
-        battles: "Ryno vs Deeno • Tapped24 vs Roman",
-        note: "Heavyweight clashes with high-stakes reload judge scoring.",
-      },
-      {
-        year: "2024",
-        season: "Final Table",
-        battles: "Season 1 Title Race",
-        note: "Verified season points determining the inaugural Gzone champion.",
-      },
-    ],
+    count: gzoneBattles.length,
+    era: "Season 1",
+    description: "Heavyweight grime clashes featuring Deeno, Tapped24, Roman, Marni Gramz and Ryno.",
+  },
+  {
+    name: "Talk Is Cheap",
+    href: "/talk-is-cheap",
+    count: talkIsCheapSeries.reduce((total, series) => total + series.battles.length, 0),
+    era: "2024–26",
+    description: "Next-generation underground rap clashes, rapid releases and emerging scene talent.",
   },
 ];
 
 export default function IntroVideo() {
-  const archivedBattleCount = roadStops.reduce((total, era) => total + era.count, 0);
+  const archivedBattleCount = archives.reduce((total, archive) => total + archive.count, 0);
 
   return (
     <section aria-labelledby="hero-heading" className="relative isolate w-full overflow-hidden border-b border-brand/20 bg-black">
-      {/* Background Graphic Watermark (Locked to Hero Area, Not Stretched Across Whole Page) */}
-      <div className="absolute top-0 inset-x-0 h-[750px] sm:h-[850px] lg:h-[950px] overflow-hidden z-0 pointer-events-none">
+      {/* Background Graphic Watermark */}
+      <div className="absolute inset-0 z-0">
         <picture className="absolute inset-0 block">
           <source
             type="image/webp"
@@ -331,206 +85,108 @@ export default function IntroVideo() {
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            className="absolute inset-0 h-full w-full object-cover object-[70%_center] opacity-80 contrast-110 sm:object-right-top sm:opacity-90"
+            className="absolute inset-0 h-full w-full object-cover object-[68%_center] opacity-60 contrast-110 sm:object-center sm:opacity-85"
           />
         </picture>
-        <div className="absolute inset-0 bg-black/15 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black z-10" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent z-10" />
-        <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-black via-black/80 to-transparent z-10" />
-
+        <div className="absolute inset-0 bg-black/10 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-transparent to-black/75 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/55 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/25 z-10" />
+        
         {/* Scanline Effect */}
         <div className="absolute inset-0 pointer-events-none z-20 opacity-[0.03] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]" />
       </div>
 
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
-      {/* Hero Header & Origin Story (Left-Aligned, Clear of the Right Emblem) */}
-      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pt-36 pb-20 sm:px-6 sm:pt-44 sm:pb-24 lg:px-8 lg:pt-48 lg:pb-28">
-        <div className="max-w-2xl lg:max-w-3xl">
-          <div className="flex items-center gap-4 sm:gap-5">
-            {/* UK Speed Limit Road Sign (140 BPM) */}
-            <div className="relative shrink-0">
-              <div className="flex h-14 w-14 sm:h-18 sm:w-18 items-center justify-center rounded-full border-[5px] sm:border-[6px] border-[#d32f2f] bg-white shadow-[0_0_25px_rgba(211,47,47,0.4)] ring-2 ring-black/50">
-                <div className="flex flex-col items-center justify-center leading-none text-black">
-                  <span className="font-display text-xl sm:text-2xl font-black italic tracking-tighter">
-                    140
-                  </span>
-                  <span className="font-mono text-[7px] sm:text-[8px] font-black tracking-widest uppercase -mt-0.5">
-                    BPM
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h1 id="hero-heading" className="font-display text-[clamp(2.5rem,5.5vw,5.5rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
-                Lord of the <span className="text-brand">Archives</span>
-              </h1>
-              <p className="font-display text-base sm:text-xl uppercase italic tracking-tight text-brand mt-1">
-                140 BPM! <span className="text-white">How It All Started</span>
-              </p>
-            </div>
+      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-20 pt-36 sm:px-6 sm:pt-44 lg:px-8 lg:pt-48">
+        {/* Hero Main Content */}
+        <div className="max-w-4xl">
+          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-3.5 py-1 text-[10px] font-black uppercase tracking-[0.25em] text-brand backdrop-blur-md">
+            <span className="h-1.5 w-1.5 rounded-full bg-brand animate-pulse" />
+            The UK Battle Rap Archive
           </div>
 
-          {/* Unified Narrative (Single Paragraph) */}
-          <p className="mt-5 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
-            When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
+          <h1 id="hero-heading" className="font-display text-[clamp(2.5rem,6vw,5.75rem)] italic uppercase leading-[0.95] tracking-tight text-white sm:whitespace-nowrap">
+            Lord of the <span className="text-brand">Archives</span>
+          </h1>
+
+          <p className="mt-5 max-w-2xl text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
+            Two decades of UK clash culture cataloged in one definitive vault. Watch legendary battles, track <span className="text-white font-semibold">540+ MC records</span>, and explore verified league standings across <span className="text-brand font-semibold">7 historic archives</span>.
           </p>
+
+          {/* Quick Stats Badges */}
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
+              <span className="font-display text-lg italic text-brand">{archivedBattleCount.toLocaleString("en-GB")}</span>
+              <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Battles Archived</span>
+            </div>
+            <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
+              <span className="font-display text-lg italic text-white">7</span>
+              <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Battle Leagues</span>
+            </div>
+            <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
+              <span className="font-display text-lg italic text-white">540+</span>
+              <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Cataloged MCs</span>
+            </div>
+          </div>
         </div>
-      </div>
 
-      {/* DEDICATED SECTION: THE UK BATTLE RAP HIGHWAY (CHRONOLOGICAL ROAD MAP) */}
-      <div
-        id="hero-archives"
-        className="relative z-30 border-t border-white/10 bg-black/60 backdrop-blur-sm pt-14 pb-28 sm:pt-18 sm:pb-36 scroll-mt-24"
-      >
-        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="relative">
-            {/* The Continuous Asphalt Road Spine running down the left */}
-            <div className="absolute left-6 sm:left-8 lg:left-12 top-0 bottom-0 -translate-x-1/2 w-12 sm:w-16 lg:w-20 flex flex-col items-center pointer-events-none z-10">
-              {/* Asphalt Road Bed */}
-              <div className="relative w-full h-full bg-[#0d0d10] border-x-2 border-white/30 shadow-[inset_0_0_20px_rgba(0,0,0,0.95)] flex flex-col items-center">
-                {/* UK Kerbs: Double Yellow Lines along both edges */}
-                <div className="absolute left-1 inset-y-0 w-1 flex justify-between opacity-80 pointer-events-none">
-                  <div className="w-[1px] h-full bg-amber-400" />
-                  <div className="w-[1px] h-full bg-amber-400" />
-                </div>
-                <div className="absolute right-1 inset-y-0 w-1 flex justify-between opacity-80 pointer-events-none">
-                  <div className="w-[1px] h-full bg-amber-400" />
-                  <div className="w-[1px] h-full bg-amber-400" />
-                </div>
+        {/* League Archive Panels */}
+        <div id="hero-archives" className="mt-20 scroll-mt-28 border-t border-white/10 pt-14 sm:mt-24 sm:pt-16">
+          <div className="mb-8">
+            <p className="text-[10px] font-black uppercase tracking-[0.25em] text-brand">Browse The Leagues</p>
+            <h2 className="font-display text-3xl uppercase italic text-white sm:text-5xl mt-1">
+              The Seven Battle Archives
+            </h2>
+            <p className="mt-2 text-xs sm:text-sm text-zinc-400 max-w-xl">
+              <span className="text-brand font-semibold tabular-nums">{archivedBattleCount.toLocaleString("en-GB")}</span> authenticated matches cataloged across UK battle rap and grime history.
+            </p>
+          </div>
 
-                {/* Center Broken Amber Lane Divider */}
-                <div className="absolute inset-y-0 w-0.5 border-r-2 border-dashed border-amber-400/80 shadow-[0_0_8px_rgba(255,215,0,0.3)]" />
-              </div>
-            </div>
-
-            {/* The 7 Unified Road Milestone Stations */}
-            <div className="space-y-14 sm:space-y-18 lg:space-y-24">
-              {roadStops.map((stop) => {
-                return (
-                  <div
-                    key={stop.name}
-                    id={`stop-${stop.step}`}
-                    className="relative scroll-mt-36"
-                  >
-                    {/* Milestone Year Node on the Asphalt Highway */}
-                    <div className="absolute left-6 sm:left-8 lg:left-12 top-8 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
-                      <div className="relative flex h-8 px-2 sm:h-9 sm:px-2.5 items-center justify-center rounded-lg border-2 border-brand bg-zinc-950 shadow-[0_0_20px_rgba(255,215,0,0.45)]">
-                        <span className="font-display text-xs sm:text-sm font-bold italic tracking-tight text-white select-none">
-                          {stop.year}
-                        </span>
-                        <div className="absolute -inset-1 rounded-lg border border-brand/40 animate-ping pointer-events-none opacity-20" />
-                      </div>
-                    </div>
-
-                    {/* Horizontal Connector Arm from Road Node to Card */}
-                    <div className="absolute left-6 sm:left-8 lg:left-12 top-12 w-10 sm:w-16 lg:w-20 -translate-y-1/2 border-t-2 border-dashed border-brand/40 z-10 pointer-events-none" />
-
-                    {/* UNIFIED MILESTONE STATION CARD */}
-                    <div className="pl-14 sm:pl-22 lg:pl-32">
-                      <div className="group relative rounded-3xl border border-white/10 bg-zinc-950/90 p-6 sm:p-8 lg:p-10 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_15px_50px_rgba(255,215,0,0.08)] overflow-hidden">
-                        {/* Background Year Watermark */}
-                        <div className="absolute right-6 top-2 font-display text-7xl sm:text-8xl lg:text-9xl italic text-white/[0.03] select-none pointer-events-none group-hover:text-brand/[0.06] transition-colors">
-                          {stop.year}
-                        </div>
-
-                        {/* Milestone Station Location & Era Header */}
-                        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-5 mb-6">
-                          <div className="flex items-center gap-2">
-                            <MapPin size={14} className="text-brand shrink-0" />
-                            <span className="font-mono text-xs sm:text-sm font-bold text-white tracking-wide">
-                              {stop.location}
-                            </span>
-                          </div>
-                          <div className="flex items-center gap-3 font-mono text-xs text-zinc-400">
-                            <span className="rounded-md border border-white/15 bg-white/5 px-2.5 py-1 font-bold text-white">
-                              {stop.era}
-                            </span>
-                            <span className="text-zinc-700">•</span>
-                            <span>
-                              <strong className="text-brand font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles cataloged
-                            </span>
-                          </div>
-                        </div>
-
-                        {/* Content Grid: Left = Platform Dossier, Right = Clash Memory Map */}
-                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-                          {/* Left Column (5 cols): Platform History & Clashes */}
-                          <div className="lg:col-span-5 flex flex-col justify-between h-full">
-                            <div>
-                              <div className="flex flex-wrap items-center justify-between gap-2">
-                                <Link href={stop.href} className="group/title inline-flex items-center gap-2">
-                                  <h3 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic text-white tracking-tight transition-colors group-hover/title:text-brand">
-                                    {stop.name}
-                                  </h3>
-                                  <ArrowUpRight size={22} className="text-zinc-600 transition-colors group-hover/title:text-brand" />
-                                </Link>
-                                {stop.leagueHref && (
-                                  <Link
-                                    href={stop.leagueHref}
-                                    className="inline-flex items-center gap-1 rounded-md border border-brand/30 bg-brand/10 px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
-                                  >
-                                    <Trophy size={12} /> Table Standings
-                                  </Link>
-                                )}
-                              </div>
-                              <p className="font-mono text-xs font-bold uppercase tracking-wider text-brand mt-1">
-                                {stop.tagline}
-                              </p>
-
-                              <p className="mt-4 text-xs sm:text-sm leading-relaxed text-zinc-300 font-sans">
-                                {stop.story}
-                              </p>
-
-                              {/* Classic Clashes (Pure Text, No Bubble) */}
-                              <p className="mt-4 text-xs leading-relaxed text-zinc-300 font-sans">
-                                <span className="font-mono text-[11px] font-bold uppercase tracking-wider text-brand mr-1.5">
-                                  Classic Clashes:
-                                </span>
-                                <span className="text-zinc-200 font-medium">
-                                  {stop.landmarkBattles}
-                                </span>
-                              </p>
-                            </div>
-                          </div>
-
-                          {/* Right Column (7 cols): Clash Memory Timeline */}
-                          <div className="lg:col-span-7 lg:border-l lg:border-white/10 lg:pl-10">
-                            <div className="space-y-4">
-                              {stop.memoryMilestones.map((m) => (
-                                <div
-                                  key={m.season}
-                                  className="relative pl-5 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-white/10 last:before:hidden group/item"
-                                >
-                                  <div className="absolute -left-[3px] top-1.5 h-2 w-2 rounded-full border border-brand bg-zinc-950 transition-colors group-hover/item:bg-brand" />
-                                  <div className="flex flex-wrap items-center gap-2">
-                                    <span className="font-mono text-xs font-black text-brand">
-                                      {m.year}
-                                    </span>
-                                    <span className="text-zinc-600 font-mono text-xs">•</span>
-                                    <span className="font-display text-sm uppercase italic text-white tracking-wide">
-                                      {m.season}
-                                    </span>
-                                  </div>
-                                  <p className="mt-1 font-mono text-xs font-semibold text-zinc-200 leading-snug">
-                                    {m.battles}
-                                  </p>
-                                  <p className="mt-0.5 text-xs leading-relaxed text-zinc-400">
-                                    {m.note}
-                                  </p>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {archives.map((archive) => (
+              <div
+                key={archive.href}
+                className="group relative flex flex-col justify-between rounded-2xl border border-white/10 bg-zinc-950/80 p-5 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/60 hover:shadow-[0_8px_30px_rgba(242,125,38,0.08)]"
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="rounded-full bg-brand/10 border border-brand/20 px-2.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-brand">
+                      {archive.era}
+                    </span>
+                    <span className="font-mono text-xs text-zinc-400">
+                      <strong className="text-white font-bold">{archive.count.toLocaleString("en-GB")}</strong> battles
+                    </span>
                   </div>
-                );
-              })}
-            </div>
+
+                  <h3 className="mt-3 font-display text-2xl uppercase italic text-white transition-colors group-hover:text-brand">
+                    {archive.name}
+                  </h3>
+                  <p className="mt-2 text-xs leading-relaxed text-zinc-400 line-clamp-2">
+                    {archive.description}
+                  </p>
+                </div>
+
+                <div className="mt-5 flex items-center gap-2 border-t border-white/5 pt-4">
+                  <Link
+                    href={archive.href}
+                    className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-brand/10 border border-brand/30 px-3 py-2 text-[11px] font-black uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
+                  >
+                    Archive <ArrowUpRight size={13} />
+                  </Link>
+                  {archive.leagueHref && (
+                    <Link
+                      href={archive.leagueHref}
+                      className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-[11px] font-black uppercase tracking-wider text-zinc-300 transition hover:border-brand/30 hover:bg-brand/10 hover:text-brand"
+                      title="League Table"
+                    >
+                      <Trophy size={12} className="text-brand" /> Table
+                    </Link>
+                  )}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

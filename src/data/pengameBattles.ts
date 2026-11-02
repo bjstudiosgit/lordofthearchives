@@ -1,6 +1,6 @@
 import { hasCompletedBattleAnalysis, type Battle } from "./battleTypes";
 
-export const lastUpdated = "1 Nov 2026";
+export const lastUpdated = "2 Nov 2026";
 
 export const hasBattleArchiveData = (battle: Battle): boolean =>
   hasCompletedBattleAnalysis(battle);
@@ -357,7 +357,7 @@ export const pengameBattles: Battle[] = [
     "stage": "Quarter-final",
     "customEp": "QF4",
     "seasonOrder": -1,
-    "views": "92k",
+    "views": "93k",
     "winner": "anbu-sensei",
     "resultSource": "lota",
     "statusNote": "Video released",
@@ -64004,7 +64004,7 @@ export const pengameBattles: Battle[] = [
     "competition": "PenGame Cold War",
     "seasonOrder": 35,
     "subGroup": "Semi Finals",
-    "views": "170k",
+    "views": "171k",
     "stage": "Semi Finals",
     "group": null,
     "tag": null,
