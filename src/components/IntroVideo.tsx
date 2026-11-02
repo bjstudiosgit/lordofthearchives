@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Trophy, MapPin, Flame, Film } from "lucide-react";
+import { ArrowUpRight, Trophy, MapPin } from "lucide-react";
 import { pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
 import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
@@ -84,11 +84,11 @@ const roadStops: RoadStop[] = [
     year: "2011",
     era: "2011–24",
     name: "Prizefighter",
-    tagline: "140 BPM Tournament Knockouts & Belts",
-    location: "Boxing Rings & Live Arenas, London",
+    tagline: "DJ Mikee • 8-Man Tournament Knockouts & Cash Belts",
+    location: "Birmingham & The Midlands (Brum)",
     story:
-      "Bridging raw grime energy with sudden-death tournament boxing. MCs entered 8-man knockout brackets, clashing at 140 BPM for cash purses, title belts, and verified divisional points tables across multiple tournament generations.",
-    landmarkBattles: "Knockout Series 1 & 2 • Grime Bracket Title Deciders",
+      "Pioneered by Birmingham producer DJ Mikee to bring vital opportunity and a national spotlight to the Brum grime scene. Prizefighter pitted Midlands heavyweights against London invaders in sudden-death 8-man knockout brackets for cash purses and championship belts.",
+    landmarkBattles: "Birmingham vs London 8-Man Brackets • Devilman, Sox & Jaykae Showcases",
     count: prizefighterBattles.length,
     href: "/prizefighter",
     leagueHref: "/prizefighter/league",
@@ -98,7 +98,7 @@ const roadStops: RoadStop[] = [
         year: "2011",
         season: "Inaugural Cup",
         battles: "8-Man Grime Knockout Bracket",
-        note: "High-tempo sudden-death tournament format clashing for official prize purses.",
+        note: "DJ Mikee launches the Midlands tournament circuit with cash prize belts.",
       },
       {
         year: "2014",
@@ -198,6 +198,41 @@ const roadStops: RoadStop[] = [
   },
   {
     step: "05",
+    year: "2019",
+    era: "2019–26",
+    name: "Talk Is Cheap",
+    tagline: "Rapid Releases & The Next Generation Wave",
+    location: "New Wave Proving Grounds, UK",
+    story:
+      "The newest chapter in UK clash history. High-velocity releases, emerging underground spitters, raw freestyle punchlines, and the new generation carrying British battle culture into the next decade.",
+    landmarkBattles: "Series 1 to 5 Next-Generation Head-to-Heads",
+    count: talkIsCheapSeries.reduce((total, series) => total + series.battles.length, 0),
+    href: "/talk-is-cheap",
+    leagueHref: null,
+    status: "The Next Era",
+    memoryMilestones: [
+      {
+        year: "2019–21",
+        season: "Series 1 & 2",
+        battles: "Underground Debut • Early Head-to-Heads",
+        note: "Rapid release tempo introducing London's next wave of freestyle talent.",
+      },
+      {
+        year: "2022–24",
+        season: "Series 3 & 4",
+        battles: "The Underground Proving Ground",
+        note: "Viral short-form format clashes keeping raw British battle rap alive.",
+      },
+      {
+        year: "2025–26",
+        season: "Series 5",
+        battles: "The New Wave Frontier",
+        note: "Next generation MCs actively carrying the clash culture forward.",
+      },
+    ],
+  },
+  {
+    step: "06",
     year: "2020",
     era: "2020–26",
     name: "PenGame",
@@ -238,7 +273,7 @@ const roadStops: RoadStop[] = [
     ],
   },
   {
-    step: "06",
+    step: "07",
     year: "2024",
     era: "Season 1 (2024)",
     name: "Gzone",
@@ -269,41 +304,6 @@ const roadStops: RoadStop[] = [
         season: "Final Table",
         battles: "Season 1 Title Race",
         note: "Verified season points determining the inaugural Gzone champion.",
-      },
-    ],
-  },
-  {
-    step: "07",
-    year: "2019",
-    era: "2019–26",
-    name: "Talk Is Cheap",
-    tagline: "Rapid Releases & The Next Generation Wave",
-    location: "New Wave Proving Grounds, UK",
-    story:
-      "The newest chapter in UK clash history. High-velocity releases, emerging underground spitters, raw freestyle punchlines, and the new generation carrying British battle culture into the next decade.",
-    landmarkBattles: "Series 1 to 5 Next-Generation Head-to-Heads",
-    count: talkIsCheapSeries.reduce((total, series) => total + series.battles.length, 0),
-    href: "/talk-is-cheap",
-    leagueHref: null,
-    status: "The Next Era",
-    memoryMilestones: [
-      {
-        year: "2024",
-        season: "Series 1 & 2",
-        battles: "Underground Debut • Series 1–2 Head-to-Heads",
-        note: "Rapid release tempo introducing London's next wave of freestyle talent.",
-      },
-      {
-        year: "2025",
-        season: "Series 3 & 4",
-        battles: "The Underground Proving Ground",
-        note: "Viral short-form format clashes keeping raw British battle rap alive.",
-      },
-      {
-        year: "2026",
-        season: "Series 5",
-        battles: "The New Wave Frontier",
-        note: "Next generation MCs actively carrying the clash culture forward.",
       },
     ],
   },
@@ -345,8 +345,8 @@ export default function IntroVideo() {
 
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
-      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-20 pt-36 sm:px-6 sm:pt-44 lg:px-8 lg:pt-48">
-        {/* Unified Hero Header & Origin Story (Left-Aligned, Clear of the Right Emblem) */}
+      {/* Hero Header & Origin Story (Left-Aligned, Clear of the Right Emblem) */}
+      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pt-36 pb-20 sm:px-6 sm:pt-44 sm:pb-24 lg:px-8 lg:pt-48 lg:pb-28">
         <div className="max-w-2xl lg:max-w-3xl">
           <div className="flex items-center gap-4 sm:gap-5">
             {/* UK Speed Limit Road Sign (140 BPM) */}
@@ -378,9 +378,15 @@ export default function IntroVideo() {
             When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
           </p>
         </div>
+      </div>
 
-        {/* THE PHYSICAL ASPHALT HIGHWAY WITH INTEGRATED MILESTONE STATIONS */}
-        <div id="hero-archives" className="mt-14 scroll-mt-28 border-t border-white/10 pt-12 sm:mt-16 sm:pt-14 relative">
+      {/* DEDICATED SECTION: THE UK BATTLE RAP HIGHWAY (CHRONOLOGICAL ROAD MAP) */}
+      <div
+        id="hero-archives"
+        className="relative z-30 border-t border-white/10 bg-black/60 backdrop-blur-sm pt-14 pb-28 sm:pt-18 sm:pb-36 scroll-mt-24"
+      >
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="relative">
             {/* The Continuous Asphalt Road Spine running down the left */}
             <div className="absolute left-6 sm:left-8 lg:left-12 top-0 bottom-0 -translate-x-1/2 w-12 sm:w-16 lg:w-20 flex flex-col items-center pointer-events-none z-10">
               {/* Asphalt Road Bed */}
@@ -490,20 +496,8 @@ export default function IntroVideo() {
                             </div>
                           </div>
 
-                          {/* Right Column (7 cols): Clash Memory Map (Seasons & Key Moments) */}
+                          {/* Right Column (7 cols): Clash Memory Timeline */}
                           <div className="lg:col-span-7 lg:border-l lg:border-white/10 lg:pl-10">
-                            <div className="flex items-center justify-between border-b border-white/5 pb-3 mb-4">
-                              <div className="flex items-center gap-2">
-                                <Film size={14} className="text-brand" />
-                                <span className="font-mono text-xs font-black uppercase tracking-[0.2em] text-brand">
-                                  Clash Memory Map
-                                </span>
-                              </div>
-                              <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-zinc-500">
-                                Seasons &amp; Key Moments
-                              </span>
-                            </div>
-
                             <div className="space-y-4">
                               {stop.memoryMilestones.map((m) => (
                                 <div
@@ -539,6 +533,7 @@ export default function IntroVideo() {
             </div>
           </div>
         </div>
+      </div>
 
       {/* Cinematic Vignette */}
       <div className="absolute inset-0 shadow-[inset_0_0_160px_rgba(0,0,0,0.5)] pointer-events-none z-20" />
