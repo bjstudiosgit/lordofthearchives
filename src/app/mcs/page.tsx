@@ -143,9 +143,22 @@ export default function MCIndex() {
               >
                 <Link 
                   href={`/mc/${mc.slug}`}
-                  className="group relative flex flex-col justify-between h-full rounded-2xl border border-white/5 bg-zinc-900/40 p-5 transition-all duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_8px_30px_rgba(242,125,38,0.08)]"
+                  className="group relative flex flex-col justify-between h-full rounded-2xl border border-white/5 bg-zinc-900/40 p-5 transition-all duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_8px_30px_rgba(242,125,38,0.08)] overflow-hidden"
                 >
-                  <div>
+                  {/* MC Photo Background on the right */}
+                  {mc.image && (
+                    <div className="absolute right-0 top-0 bottom-0 w-2/5 pointer-events-none overflow-hidden z-0">
+                      <img
+                        src={mc.image}
+                        alt=""
+                        aria-hidden="true"
+                        className="absolute right-0 top-0 h-full w-full object-cover object-[70%_top] opacity-20 contrast-125 filter grayscale group-hover:grayscale-0 group-hover:opacity-40 group-hover:scale-105 transition-all duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-r from-zinc-900/90 via-zinc-900/40 to-transparent z-10" />
+                    </div>
+                  )}
+
+                  <div className="relative z-10">
                     {/* Header: Monogram + Record */}
                     <div className="flex items-center justify-between gap-3 mb-4">
                       <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-zinc-950 font-display text-sm italic text-brand transition-colors group-hover:border-brand/50 group-hover:bg-brand/10">
@@ -163,9 +176,16 @@ export default function MCIndex() {
                     </div>
 
                     {/* MC Name & Nickname */}
-                    <h3 className="font-display text-xl uppercase italic leading-tight text-white transition-colors group-hover:text-brand truncate">
-                      {mc.name}
-                    </h3>
+                    <div className="flex flex-wrap items-baseline gap-1.5">
+                      <h3 className="font-display text-xl uppercase italic leading-tight text-white transition-colors group-hover:text-brand truncate">
+                        {mc.name}
+                      </h3>
+                      {mc.realName && (
+                        <span className="text-[11px] font-sans text-zinc-400 font-normal truncate">
+                          ({mc.realName})
+                        </span>
+                      )}
+                    </div>
                     {mc.nickname && (
                       <p className="mt-1 text-[10px] font-bold uppercase tracking-widest text-zinc-500 truncate">
                         &ldquo;{mc.nickname}&rdquo;

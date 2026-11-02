@@ -182,12 +182,27 @@ export default function McDetailClient({ slug }: { slug: string }) {
           Back to MC Roster
         </button>
 
-        {/* Masterclass MC Dossier Banner (Zero-Photo Modern Header) */}
+        {/* Masterclass MC Dossier Banner (Cinematic Half-Face Photo Background) */}
         <motion.div
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
-          className="relative mb-12 rounded-3xl border border-white/10 bg-gradient-to-b from-zinc-900/90 via-zinc-900/40 to-black p-6 sm:p-10 overflow-hidden shadow-2xl"
+          className="relative mb-12 rounded-3xl border border-white/10 bg-gradient-to-b from-zinc-900/95 via-zinc-900/60 to-black p-6 sm:p-10 overflow-hidden shadow-2xl group"
         >
+          {/* MC Cinematic Half-Face Background Photo on the Right */}
+          {mc.image && (
+            <div className="absolute right-0 top-0 bottom-0 w-full sm:w-2/3 lg:w-1/2 pointer-events-none overflow-hidden z-0">
+              <img
+                src={mc.image}
+                alt={mc.name}
+                className="absolute right-0 top-0 h-full w-full object-cover object-[70%_top] sm:object-right-top opacity-35 sm:opacity-50 contrast-125 filter grayscale group-hover:grayscale-0 transition-all duration-700"
+              />
+              {/* Gradients blending into the banner */}
+              <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/75 to-transparent z-10" />
+              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-transparent to-zinc-950/30 z-10" />
+              <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-zinc-950/60 to-transparent z-10" />
+            </div>
+          )}
+
           <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-brand/10 rounded-full blur-3xl pointer-events-none" />
 
           <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
@@ -198,8 +213,13 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 </div>
                 <div>
                   <span className="text-[10px] font-black uppercase tracking-[0.25em] text-brand">Artist Dossier</span>
-                  <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display italic uppercase leading-none tracking-tight text-white">
-                    {mc.name}
+                  <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display italic uppercase leading-none tracking-tight text-white flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <span>{mc.name}</span>
+                    {mc.realName && (
+                      <span className="font-sans font-normal not-italic text-lg sm:text-2xl lg:text-3xl text-zinc-400 tracking-normal normal-case">
+                        ({mc.realName})
+                      </span>
+                    )}
                   </h1>
                 </div>
               </div>

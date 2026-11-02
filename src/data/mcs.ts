@@ -6,6 +6,7 @@ export interface MC {
   id: string;
   slug: string;
   name: string;
+  realName?: string;
   nickname?: string;
   battles: number;
   wins: number;
@@ -296,6 +297,7 @@ export const mcs: MC[] = [
     "id": "skamz",
     "slug": "skamz",
     "name": "SKAMZ",
+    "realName": "Alexandre Sousa",
     "nickname": "The Energizer",
     "battles": 21,
     "wins": 12,
