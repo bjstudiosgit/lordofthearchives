@@ -108,42 +108,71 @@ export default function LotaLeaguePage() {
         </div>
 
         <section id="league" className="scroll-mt-24 pb-24">
-          <div className="mb-6 flex flex-wrap items-center gap-2">
-            {[
-              { value: "points", label: "Points" },
-              { value: "appearances", label: "Appearances" },
-              { value: "wins", label: "Wins" },
-              { value: "losses", label: "Losses" },
-              { value: "winRate", label: "Win Ratio" },
-              { value: "lossRate", label: "Loss Ratio" },
-            ].map((option) => (
-              <button
-                key={option.value}
-                type="button"
-                onClick={() => setSortMode(option.value as SortMode)}
-                className={`py-1 text-xs font-black uppercase tracking-[0.2em] transition-colors ${
-                  sortMode === option.value
-                    ? "text-brand underline underline-offset-4"
-                    : "text-zinc-400 hover:text-white"
-                }`}
-              >
-                {option.label}
-              </button>
-            ))}
-          </div>
           <div className="overflow-hidden rounded-3xl border border-white/5 bg-zinc-900/50">
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-left">
                 <thead>
-                  <tr className="border-b border-white/5 bg-zinc-900/80">
-                    <th className="hidden px-2 py-3 text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:table-cell md:px-8 md:py-6 md:text-xs">Rank</th>
-                    <th className="px-2 py-3 text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">MC Name</th>
-                    <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Appearances</th>
-                    <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Wins</th>
-                    <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Losses</th>
-                    <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Win Ratio</th>
-                    <th className="px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Loss Ratio</th>
-                    <th className="px-2 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-zinc-300 md:px-8 md:py-6 md:text-xs">Points</th>
+                  <tr className="border-b border-white/5 bg-zinc-900/80 select-none">
+                    <th className="hidden px-2 py-3 text-[9px] font-bold uppercase tracking-widest text-zinc-400 md:table-cell md:px-8 md:py-6 md:text-xs">
+                      Rank
+                    </th>
+                    <th className="px-2 py-3 text-[9px] font-bold uppercase tracking-widest text-zinc-400 md:px-8 md:py-6 md:text-xs">
+                      MC Name
+                    </th>
+                    <th
+                      onClick={() => setSortMode("appearances")}
+                      className={`cursor-pointer px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
+                        sortMode === "appearances" ? "text-brand" : "text-zinc-400"
+                      }`}
+                      title="Sort by Appearances"
+                    >
+                      Appearances
+                    </th>
+                    <th
+                      onClick={() => setSortMode("wins")}
+                      className={`cursor-pointer px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
+                        sortMode === "wins" ? "text-brand" : "text-zinc-400"
+                      }`}
+                      title="Sort by Wins"
+                    >
+                      Wins
+                    </th>
+                    <th
+                      onClick={() => setSortMode("losses")}
+                      className={`cursor-pointer px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
+                        sortMode === "losses" ? "text-brand" : "text-zinc-400"
+                      }`}
+                      title="Sort by Losses"
+                    >
+                      Losses
+                    </th>
+                    <th
+                      onClick={() => setSortMode("winRate")}
+                      className={`cursor-pointer px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
+                        sortMode === "winRate" ? "text-brand" : "text-zinc-400"
+                      }`}
+                      title="Sort by Win Ratio"
+                    >
+                      Win Ratio
+                    </th>
+                    <th
+                      onClick={() => setSortMode("lossRate")}
+                      className={`cursor-pointer px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
+                        sortMode === "lossRate" ? "text-brand" : "text-zinc-400"
+                      }`}
+                      title="Sort by Loss Ratio"
+                    >
+                      Loss Ratio
+                    </th>
+                    <th
+                      onClick={() => setSortMode("points")}
+                      className={`cursor-pointer px-2 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
+                        sortMode === "points" ? "text-brand" : "text-zinc-400"
+                      }`}
+                      title="Sort by Points"
+                    >
+                      Points
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
