@@ -4,9 +4,9 @@ import { getPeopleChampionStandings } from "../../data/leaderboards";
 import { getBattleRouteHref } from "../../data/pengameBattles";
 
 export const metadata = {
-  title: "LOTA People's Champion | Lord of the Archives",
+  title: "People's Champion Leaderboard | Most Viewed UK Battle MCs",
   description:
-    "A solo battle views leaderboard ranking MCs by cumulative YouTube views across Lord of the Archives, PenGame, and Gzone battle history.",
+    "Lord of the Archives People's Champion leaderboard. Track the most viewed UK battle rap MCs ranked by verified solo YouTube clash views across all eras.",
   alternates: {
     canonical: "https://www.lordofthearchives.co.uk/peoples-vote",
   },

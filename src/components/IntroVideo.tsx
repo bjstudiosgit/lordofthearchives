@@ -354,9 +354,10 @@ function MilestoneCard({ stop }: { stop: RoadStop }) {
           {stop.leagueHref && (
             <Link
               href={stop.leagueHref}
-              className="inline-flex items-center gap-1 rounded-md border border-brand/30 bg-brand/10 px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
+              aria-label={`${stop.name} League Table & Standings`}
+              className="inline-flex items-center gap-1.5 rounded-md border border-brand/30 bg-brand/10 px-2.5 py-1 font-mono text-[11px] font-bold uppercase tracking-wider text-brand transition hover:bg-brand hover:text-black"
             >
-              <Trophy size={11} /> Table
+              <Trophy size={11} /> {stop.name === "PenGame" ? "PenGame Table" : stop.name === "Gzone" ? "Gzone Table" : "Points Table"}
             </Link>
           )}
         </div>
@@ -455,10 +456,11 @@ export default function IntroVideo() {
           <div className="max-w-3xl">
             <h1 id="hero-heading" className="font-display text-[clamp(2.75rem,6vw,5.75rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
               Lord of the <span className="text-brand">Archives</span>
+              <span className="sr-only">: UK Rap Battle Archive &amp; Clash Statistics</span>
             </h1>
 
             <p className="mt-8 max-w-2xl lg:max-w-3xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8 lg:text-xl lg:leading-9 font-sans">
-              The definitive vault of UK clash culture. From pirate radio basements and physical bootleg DVDs to judged championship rings, trace two decades of British battle rap across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-semibold">540+ MC combat dossiers</strong>, and unified league standings spanning <strong className="text-white font-semibold">7 historic archives</strong>.
+              The definitive vault of UK clash culture. From pirate radio basements and physical bootleg DVDs to judged championship rings, trace two decades of British battle rap across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">540+ MC combat dossiers</Link>, and <Link href="/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">unified league standings</Link> spanning <a href="#hero-archives" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">7 historic archives</a>.
             </p>
           </div>
         </div>
@@ -478,10 +480,10 @@ export default function IntroVideo() {
           {/* 140 BPM Origin Story Header directly above the Road Map (Spanning Across the Page) */}
           <div className="mb-16 sm:mb-20 lg:mb-28 w-full max-w-5xl lg:max-w-6xl pl-2 sm:pl-4">
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic tracking-tight text-white">
-              140 BPM! <span className="text-zinc-400">How It All Started</span>
+              The Seven Battle Archives <span className="text-zinc-400 font-sans text-xl sm:text-2xl font-normal block sm:inline sm:ml-2 tracking-normal">• 140 BPM Genesis to Modern Eras</span>
             </h2>
             <p className="mt-4 text-base sm:text-lg leading-relaxed text-zinc-300 font-sans">
-              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <strong className="text-white font-semibold">7 historic eras</strong>, and <strong className="text-white font-semibold">540+ artists</strong>.
+              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <Link href="/lord-of-the-mics" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Lord of the Mics</Link> — sparking two decades of clash culture cataloged here across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <a href="#hero-archives" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">7 historic eras</a>, and <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">540+ artists</Link>.
             </p>
           </div>
 

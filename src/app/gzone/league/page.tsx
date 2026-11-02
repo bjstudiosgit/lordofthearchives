@@ -42,8 +42,8 @@ export default function GzoneLeaguePage() {
               Gzone <br />
               <span className="text-gzone">League</span>
             </h1>
-            <p className="mt-4 max-w-xl text-sm leading-relaxed text-zinc-400 md:mt-6 md:text-lg">
-              Current Gzone Season 1 leaderboard. Points are awarded once winners are added.
+            <p className="mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-zinc-300 md:mt-6 font-sans">
+              The official Gzone Season 1 League standings document combat performance inside the Peacock Gym boxing ring. In this high-velocity 140 BPM reload tournament, MCs earn three points for every verified victory, while judges and referees track round deductions, reload responses, and lyrical command. From undefeated frontrunners leading the championship race to surging contenders trading knockout bars over classic grime dubs, this leaderboard provides real-time standings for East London&apos;s premier clash league. Filter by appearances, win percentages, and total points, or visit the <Link href="/gzone" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-gzone hover:text-gzone transition-colors">Gzone Battle Archive</Link> to watch every clash and read detailed round-by-round analysis.
             </p>
           </div>
 

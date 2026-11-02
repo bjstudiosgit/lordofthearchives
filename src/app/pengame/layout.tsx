@@ -5,14 +5,16 @@ const serializeStructuredData = (value: object) =>
   JSON.stringify(value).replace(/</g, "\\u003c");
 
 export const metadata: Metadata = {
-  title: "PenGame Rap Battle Archive | Lord of the Archives",
-  description: "Browse PenGame rap battles by season, with clash analysis, results, dates and recorded YouTube views.",
+  title: "PenGame Rap Battle Archive | Clashes, Results & Videos",
+  description:
+    "Explore over 450 judged UK rap battles from PenGame. Access official judge decisions, match videos, divisional fixtures, and competitor fight records.",
   alternates: {
     canonical: "https://www.lordofthearchives.co.uk/pengame",
   },
   openGraph: {
-    title: "PenGame Rap Battle Archive | Lord of the Archives",
-    description: "Browse PenGame rap battles by season, with clash analysis, results, dates and recorded YouTube views.",
+    title: "PenGame Rap Battle Archive | Clashes, Results & Videos",
+    description:
+      "Explore over 450 judged UK rap battles from PenGame. Access official judge decisions, match videos, divisional fixtures, and competitor fight records.",
     url: "https://www.lordofthearchives.co.uk/pengame",
     siteName: "Lord of the Archives",
     type: "website",
@@ -27,8 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "PenGame Rap Battle Archive | Lord of the Archives",
-    description: "Browse PenGame rap battles by season, with clash analysis, results, dates and recorded YouTube views.",
+    title: "PenGame Rap Battle Archive | Clashes, Results & Videos",
+    description:
+      "Explore over 450 judged UK rap battles from PenGame. Access official judge decisions, match videos, divisional fixtures, and competitor fight records.",
     images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
   },
 };
@@ -37,7 +40,8 @@ const collectionStructuredData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "PenGame Rap Battle Archive",
-  description: "Browse PenGame rap battles by season, with clash analysis, results, dates and recorded YouTube views.",
+  description:
+    "Explore over 450 judged UK rap battles from PenGame with official decisions, scorecards and fighter records.",
   url: "https://www.lordofthearchives.co.uk/pengame",
   isPartOf: {
     "@type": "WebSite",
@@ -65,7 +69,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-export default function PengameLayout({ children }: { children: ReactNode }) {
+export default function PenGameLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <script

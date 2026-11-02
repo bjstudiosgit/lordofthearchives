@@ -82,8 +82,8 @@ export default function MCIndex() {
           <h1 className="text-4xl md:text-6xl font-display italic uppercase leading-tight text-white">
             Lord of the Archives <span className="text-brand">Artists</span>
           </h1>
-          <p className="text-zinc-400 mt-4 max-w-xl text-sm md:text-base leading-relaxed">
-            Every MC logged in The Archive across 7 leagues. Tap any artist to pull up their full dossier — clash record, form, stats, and complete battle history.
+          <p className="text-zinc-300 mt-4 max-w-3xl text-sm md:text-base leading-relaxed font-sans">
+            The Lord of the Archives artist roster provides the definitive combat directory for UK battle rap, cataloging over 540 active and historical MCs across 7 major leagues. From pioneering grime clashers who shaped early pirate radio battles to modern judged division contenders on PenGame and Gzone, each profile features a comprehensive combat record. Explore detailed career metrics including total victories, verified losses, recent form trajectories, points tallies, and direct YouTube clash footage. Search for any artist by name, filter by total wins or appearances, and click any profile to access an in-depth combat dossier chronicling their complete battle history.
           </p>
         </div>
 

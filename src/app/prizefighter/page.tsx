@@ -9,8 +9,8 @@ const serializeStructuredData = (value: object) =>
   JSON.stringify(value).replace(/</g, "\\u003c");
 
 export const metadata = {
-  title: "Ozone Prizefighter Battle Archive | Lord of the Archives",
-  description: "Explore Classic Prizefighter and Ozone matchups, tournament rounds and recording availability by edition and season.",
+  title: "Ozone Prizefighter Battle Archive | 8-Man Grime Knockouts",
+  description: "Explore Birmingham and Midlands 8-man grime knockout battles from Prizefighter and Ozone across 2011–2024, featuring Devilman, Sox, Jaykae and F-Don.",
   alternates: { canonical: "https://www.lordofthearchives.co.uk/prizefighter" },
   openGraph: {
     title: "Ozone Prizefighter Battle Archive | Lord of the Archives",
@@ -87,9 +87,8 @@ export default function PrizefighterPage() {
         <h1 className="font-display text-4xl italic uppercase leading-tight md:text-6xl">
           Ozone <span className="text-brand">Prizefighter</span>
         </h1>
-        <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-400 md:text-lg">
-          Classic radio clashes, DVD battles and the Ozone tournament seasons. Explore the matchups, rounds and recording availability below.
-          {" "}Dates show YouTube publication dates where available; otherwise the event year is shown.
+        <p className="mt-4 max-w-3xl text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+          Prizefighter brought an electric tournament dynamic to British clash culture. Conceived in Birmingham by producer DJ Mikee to provide Midlands grime artists with a dedicated national battleground, the platform pitted 8 contenders into sudden-death elimination brackets for cash prizes and championship belts. From legendary early radio wars broadcast on Silk City Radio to modern Ozone revival stages, explore indexed tournament rounds, verify fighter scores, or consult the <Link href="/prizefighter/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">official Prizefighter points table</Link>.
         </p>
 
         {["Ozone", "Classic"].map((era) => (

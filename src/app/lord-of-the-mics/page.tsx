@@ -21,8 +21,8 @@ const serializeStructuredData = (value: object) =>
   JSON.stringify(value).replace(/</g, "\\u003c");
 
 export const metadata = {
-  title: "Lord of the Mics Battle Catalog | Lord of the Archives",
-  description: "A season-by-season catalog of Lord of the Mics clashes, matchups, dates, series and surviving view-count records.",
+  title: "Lord of the Mics Battle Catalog | LOTM 1 to 8 Clash History",
+  description: "The complete Lord of the Mics (LOTM 1–8) clash catalog. Explore legendary grime battles including Wiley vs Kano, Skepta vs Devilman, Big H vs P Money and more.",
   alternates: {
     canonical: "https://www.lordofthearchives.co.uk/lord-of-the-mics",
   },
@@ -117,9 +117,8 @@ export default function LordOfTheMicsPage() {
             <h1 className="font-display text-4xl italic uppercase leading-tight md:text-6xl">
               Lord of the <span className="text-brand">Mics</span>
             </h1>
-            <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-400 md:text-lg">
-              Explore clashes from LOTM 1–8, including Skinner vs CY, with linked MC profiles and recording links where verified.
-              Detailed analysis will follow source review.
+            <p className="mt-4 max-w-3xl text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+              Lord of the Mics (LOTM) is the foundational genesis of modern British clash culture. In 2004, Boy Better Know producer Jammer crammed East London&apos;s deadliest pirate radio MCs into his parents&apos; Leytonstone basement (E17), filming legendary clashes with a single handheld camcorder. Pressed onto physical bootleg DVDs and traded through barbershops and car boots, LOTM established iconic rivalries that defined grime music history. Explore the complete season tracklists from LOTM 1 through LOTM 8, view landmark bouts including Wiley vs Kano, Skepta vs Devilman, and Big H vs P Money, and access fighter dossiers across <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">the MC directory</Link>.
             </p>
           </div>
 

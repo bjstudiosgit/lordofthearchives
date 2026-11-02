@@ -13,14 +13,14 @@ const serializeStructuredData = (value: object) =>
   JSON.stringify(value).replace(/</g, "\\u003c");
 
 export const metadata = {
-  title: "Gzone Rap Battle Archive | Lord of the Archives",
-  description: "Gzone Season 1 battle archive, clash analysis and league standings.",
+  title: "Gzone Rap Battle Archive | 140 BPM Grime Clashes & Videos",
+  description: "Official Gzone battle archive. Watch 140 BPM grime clashes recorded live in the Peacock Gym boxing ring, with referee decisions and fighter statistics.",
   alternates: {
     canonical: "https://www.lordofthearchives.co.uk/gzone",
   },
   openGraph: {
-    title: "Gzone Rap Battle Archive | Lord of the Archives",
-    description: "Gzone Season 1 battle archive, clash analysis and league standings.",
+    title: "Gzone Rap Battle Archive | 140 BPM Grime Clashes & Videos",
+    description: "Official Gzone battle archive. Watch 140 BPM grime clashes recorded live in the Peacock Gym boxing ring, with referee decisions and fighter statistics.",
     url: "https://www.lordofthearchives.co.uk/gzone",
     siteName: "Lord of the Archives",
     type: "website",
@@ -35,8 +35,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gzone Rap Battle Archive | Lord of the Archives",
-    description: "Gzone Season 1 battle archive, clash analysis and league standings.",
+    title: "Gzone Rap Battle Archive | 140 BPM Grime Clashes & Videos",
+    description: "Official Gzone battle archive. Watch 140 BPM grime clashes recorded live in the Peacock Gym boxing ring, with referee decisions and fighter statistics.",
     images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
   },
 };
@@ -106,11 +106,14 @@ export default function GzonePage() {
         }}
       />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-16 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
-          <div>
+        <div className="mb-16 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
+          <div className="max-w-3xl">
             <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
               Gzone <span className="text-gzone">Archives</span>
             </h1>
+            <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+              Staged inside the historic boxing ring at Peacock Gym in Canning Town, East London, Gzone revitalised the raw intensity of 140 BPM grime battle rap. Departing from traditional acapella setups, Gzone places fighters in the squared circle to trade rapid-fire 8-bar verses over classic instrumental reload dubs. With live referee stoppages, crowd reload scoring, and raw East London energy, the league brings authentic pirate radio battle culture into a modern tournament format. Season 1 chronicles heavy-hitting encounters from clash heavyweights including Deeno, Tapped24, Roman, Marni Gramz, and Ryno. Explore complete battle records, analyze clash dynamics, or view the <Link href="/gzone/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-gzone hover:text-gzone transition-colors">official Gzone League Table</Link> to inspect points, fight records, and live divisional standings.
+            </p>
           </div>
 
           <div className="flex flex-wrap gap-4">

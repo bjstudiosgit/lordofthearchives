@@ -30,8 +30,8 @@ export default function League() {
               PenGame <br />
               <span className="text-brand">League</span>
             </h1>
-            <p className="text-zinc-400 mt-4 md:mt-6 max-w-xl text-sm md:text-lg leading-relaxed">
-              PenGame leaderboard across the archive. Points are awarded as follows: 3 points for a win.
+            <p className="text-zinc-300 mt-4 md:mt-6 max-w-xl text-sm md:text-base leading-relaxed font-sans">
+              The official PenGame League standings record competitive performances across all sanctioned rounds in the PenGame archive. Modeled on professional sports league formats, MCs earn three points for every judged victory, with tiebreaks determined by lowest loss counts followed by total appearances. From championship veterans defending top-table positions to rising contenders climbing through developmental brackets, these tables provide an objective, real-time snapshot of combat records. Filter between the Premier Division, Championship, and Academy tables to inspect detailed statistics, judge decisions, and head-to-head records for every active MC on the circuit.
             </p>
           </div>
 

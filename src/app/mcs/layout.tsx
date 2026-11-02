@@ -5,14 +5,16 @@ const serializeStructuredData = (value: object) =>
   JSON.stringify(value).replace(/</g, "\\u003c");
 
 export const metadata: Metadata = {
-  title: "UK Battle Rap MC Profiles | Lord of the Archives",
-  description: "Browse MC profiles, battle records, form, statistics and archive history from UK rap battle leagues.",
+  title: "UK Battle Rap MC Directory | Fighter Dossiers & Stats",
+  description:
+    "Complete fighter directory for UK rap battle MCs. Explore career combat records, win percentages, head-to-head clash histories, and league rankings.",
   alternates: {
     canonical: "https://www.lordofthearchives.co.uk/mcs",
   },
   openGraph: {
-    title: "UK Battle Rap MC Profiles | Lord of the Archives",
-    description: "Browse MC profiles, battle records, form, statistics and archive history from UK rap battle leagues.",
+    title: "UK Battle Rap MC Directory | Fighter Dossiers & Stats",
+    description:
+      "Complete fighter directory for UK rap battle MCs. Explore career combat records, win percentages, head-to-head clash histories, and league rankings.",
     url: "https://www.lordofthearchives.co.uk/mcs",
     siteName: "Lord of the Archives",
     type: "website",
@@ -27,8 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "UK Battle Rap MC Profiles | Lord of the Archives",
-    description: "Browse MC profiles, battle records, form, statistics and archive history from UK rap battle leagues.",
+    title: "UK Battle Rap MC Directory | Fighter Dossiers & Stats",
+    description:
+      "Complete fighter directory for UK rap battle MCs. Explore career combat records, win percentages, head-to-head clash histories, and league rankings.",
     images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
   },
 };
@@ -36,8 +39,9 @@ export const metadata: Metadata = {
 const collectionStructuredData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "UK Battle Rap MC Profiles",
-  description: "Browse MC profiles, battle records, form, statistics and archive history from UK rap battle leagues.",
+  name: "UK Battle Rap MC Directory",
+  description:
+    "Complete directory of 540+ UK battle rap MCs with verified records, statistics and match history.",
   url: "https://www.lordofthearchives.co.uk/mcs",
   isPartOf: {
     "@type": "WebSite",
@@ -59,13 +63,13 @@ const breadcrumbStructuredData = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "MC Directory",
+      name: "Artists",
       item: "https://www.lordofthearchives.co.uk/mcs",
     },
   ],
 };
 
-export default function McIndexLayout({ children }: { children: ReactNode }) {
+export default function McsLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <script

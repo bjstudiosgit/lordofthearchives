@@ -21,8 +21,8 @@ const serializeStructuredData = (value: object) =>
   JSON.stringify(value).replace(/</g, "\\u003c");
 
 export const metadata = {
-  title: "Talk Is Cheap Battle Catalog | Lord of the Archives",
-  description: "A first catalog of Talk Is Cheap grime clashes with links to the league's original video uploads.",
+  title: "Talk Is Cheap Battle Catalog | New Wave UK Grime Clashes",
+  description: "Explore Talk Is Cheap (TIC) UK battle rap archives. Watch rapid-fire grime clashes, emerging new-generation spitters, and official YouTube match releases.",
   alternates: { canonical: "https://www.lordofthearchives.co.uk/talk-is-cheap" },
   robots: { index: true, follow: true },
   openGraph: {

@@ -12,9 +12,9 @@ const serializeStructuredData = (value: object) =>
   JSON.stringify(value).replace(/</g, "\\u003c");
 
 export const metadata = {
-  title: "Clash Money Rap Battle Archive",
+  title: "Clash Money Rap Battle Archive | M1 Motorway Wars & 2v2s",
   description:
-    "Explore 110 Clash Money battles (67 Main, 43 Trials) from 2015–2016, with clash recordings, MC profiles and verified event dates.",
+    "Explore 110 Clash Money battles from the 2015–2016 M1 corridor era. Watch iconic 2v2 wars, The Trials proving ground clashes, and northern lyricist showcases.",
   alternates: { canonical: `${SITE_URL}/clash-money` },
   openGraph: {
     title: "Clash Money Rap Battle Archive | Lord of the Archives",

@@ -26,8 +26,8 @@ export default function PeopleChampionCarousel({ leaders }: { leaders: PeopleCha
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
               The People&apos;s Champion is the MC whose solo battles have been watched the most. We add up the recorded
-              YouTube views from each MC&apos;s one-on-one PenGame and Gzone battles; team clashes don&apos;t count. Both MCs
-              receive the full views for each battle. The top four are shown here, with the full ranking in the People&apos;s League.
+              YouTube views from each MC&apos;s one-on-one <Link href="/pengame" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">PenGame</Link> and <Link href="/gzone" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">Gzone</Link> battles; team clashes don&apos;t count. Both MCs
+              receive the full views for each battle. The top four are shown here, with the complete ranking in the <Link href="/peoples-vote" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">People&apos;s League</Link>.
             </p>
           </div>
         </div>

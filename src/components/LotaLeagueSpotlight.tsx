@@ -25,8 +25,8 @@ export default function LotaLeagueSpotlight() {
             Lord of the Archives <span className="text-brand">League Table</span>
           </h2>
           <p className="mt-5 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
-            A combined performance table built from confirmed PenGame and Gzone results. Every win earns three points;
-            tied totals are separated by fewer losses, then appearances. These cards preview the current top four.
+            A combined performance table built from confirmed <Link href="/pengame" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">PenGame</Link> and <Link href="/gzone" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">Gzone</Link> results. Every win earns three points;
+            tied totals are separated by fewer losses, then appearances. Explore full standings in the <Link href="/lota-league" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">unified LOTA League Table</Link>.
           </p>
         </div>
 

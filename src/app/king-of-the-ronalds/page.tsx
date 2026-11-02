@@ -12,14 +12,14 @@ const serializeStructuredData = (value: object) =>
   JSON.stringify(value).replace(/</g, "\\u003c");
 
 export const metadata = {
-  title: "King of the Ronalds Rap Battle Archive | KOTR",
+  title: "King of the Ronalds Battle Archive | KOTR Clashes & Videos",
   description:
-    "Explore 271 King of the Ronalds (KOTR) battles from 2014–2020 featuring Bowski, Micky Worthless, Hulk, Pedro, Oshea, Tony D, Kinell and Mac Sherry.",
+    "Explore 271 unfiltered King of the Ronalds (KOTR) battles from 2014–2020 featuring Bowski, Micky Worthless, Hulk, Pedro, Oshea, Tony D and the KOTR roster.",
   alternates: { canonical: `${SITE_URL}/king-of-the-ronalds` },
   openGraph: {
-    title: "King of the Ronalds Rap Battle Archive | Lord of the Archives",
+    title: "King of the Ronalds Battle Archive | KOTR Clashes & Videos",
     description:
-      "Explore 271 King of the Ronalds (KOTR) battles from 2014–2020 featuring Bowski, Micky Worthless, Hulk, Pedro, Oshea, Tony D, Kinell and Mac Sherry.",
+      "Explore 271 unfiltered King of the Ronalds (KOTR) battles from 2014–2020 featuring Bowski, Micky Worthless, Hulk, Pedro, Oshea, Tony D and the KOTR roster.",
     url: `${SITE_URL}/king-of-the-ronalds`,
     siteName: "Lord of the Archives",
     type: "website",
@@ -34,9 +34,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "King of the Ronalds Rap Battle Archive | Lord of the Archives",
+    title: "King of the Ronalds Battle Archive | KOTR Clashes & Videos",
     description:
-      "Explore 271 King of the Ronalds (KOTR) battles from 2014–2020 featuring Bowski, Micky Worthless, Hulk, Pedro, Oshea, Tony D, Kinell and Mac Sherry.",
+      "Explore 271 unfiltered King of the Ronalds (KOTR) battles from 2014–2020 featuring Bowski, Micky Worthless, Hulk, Pedro, Oshea, Tony D and the KOTR roster.",
     images: [`${SITE_URL}/hero-archives-emblem.png`],
   },
 };
@@ -134,10 +134,8 @@ export default function KingOfTheRonaldsPage() {
             <h1 className="font-display text-4xl italic uppercase leading-tight md:text-6xl">
               King of the <span className="text-brand">Ronalds</span>
             </h1>
-            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-400 md:text-base">
-              The unfiltered UK battle rap league (KOTR) run from 2014 to 2020. Chronicling legendary clashes,
-              humour, grudge matches and iconic performances from Bowski, Micky Worthless, Hulk, Pedro, Oshea,
-              Tony D, Kinell, Bard, Mac Sherry and the whole KOTR roster.
+            <p className="mt-4 max-w-3xl text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+              King of the Ronalds (KOTR) remains one of the most culturally iconic and uncompromising underground institutions in British battle rap history. Founded in 2014 by Bowski and Micky Worthless in the cramped, beer-soaked cellar of The Old Red Lion Pub in Islington, North London, KOTR offered a radical, satirical counter-balance to mainstream battle leagues. Operating without censorship or commercial restrictions, the platform became legendary for pitch-black British comedy, explosive personal grudge matches, and unforgettable character performances from cult icons including Hulk, Pedro, Oshea, Tony D, Kinell, Bard, and Mac Sherry. Across 271 cataloged clashes spanning 2014 through 2020, this definitive archive indexes verified matchup outcomes, historical event dates, and surviving video clashes.
             </p>
           </div>
 

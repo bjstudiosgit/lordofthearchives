@@ -53,8 +53,8 @@ export default function LotaLeaguePage() {
               LOTA <br />
               <span className="text-brand">League</span>
             </h1>
-            <p className="mt-4 max-w-xl text-sm leading-relaxed text-zinc-400 md:mt-6 md:text-lg">
-              Combined leaderboard for PenGame, Gzone, Talk Is Cheap and Prizefighter battlers. Scoring: 3 points for a recorded win. Unrecorded results count towards appearances only.
+            <p className="mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-zinc-300 md:mt-6 font-sans">
+              The unified Lord of the Archives (LOTA) League Table is the master performance index for modern UK battle rap. Unifying verified results across <Link href="/pengame" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">PenGame</Link>, <Link href="/gzone" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Gzone</Link>, <Link href="/talk-is-cheap" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Talk Is Cheap</Link>, and <Link href="/prizefighter" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Prizefighter</Link>, the table standardizes combat statistics under an all-league points framework. MCs earn three points for every confirmed victory, with ties settled by lowest loss counts followed by total archive appearances. Whether measuring multi-era consistency, tracking cross-league dominance, or discovering the sharpest active win rates in British clash history, this unified table provides an authoritative, data-driven ranking of UK battle rap talent.
             </p>
           </div>
 

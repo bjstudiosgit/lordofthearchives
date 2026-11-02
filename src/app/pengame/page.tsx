@@ -301,11 +301,14 @@ export default function PengamePage() {
     <div className="min-h-screen pt-32 pb-24 bg-zinc-950 text-white selection:bg-brand selection:text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
-          <div>
+        <div className="flex flex-col lg:flex-row lg:items-start justify-between mb-16 gap-8">
+          <div className="max-w-3xl">
             <h1 className="text-3xl md:text-5xl font-semibold leading-tight">
               PenGame <span className="text-brand">Archives</span>
             </h1>
+            <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+              PenGame stands as the modern powerhouse of UK judged battle rap. Founded in 2020, the platform transformed British clash culture by combining strict round timing with a respected, authoritative judging desk featuring <strong className="text-white font-semibold">Lippy Lickshot</strong>, <strong className="text-white font-semibold">Joe Black</strong>, and <strong className="text-white font-semibold">LV General</strong>. Across more than 450 indexed clashes, PenGame documents the full spectrum of competitive lyricism — from grassroots <strong className="text-white font-semibold">Academy</strong> qualifiers and high-intensity <strong className="text-white font-semibold">Cold War</strong> events to high-profile <strong className="text-white font-semibold">Premier Division</strong> championship title fights. Explore every sanctioned season below, study verified judge scorecards, or consult the <Link href="/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">official PenGame League Table</Link> to track fighter points, records, and divisional standings.
+            </p>
           </div>
           
           {/* Summary Stats */}

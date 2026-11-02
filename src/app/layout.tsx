@@ -25,30 +25,30 @@ const anton = Anton({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lordofthearchives.co.uk"),
   title: {
-    default: "Lord of the Archives | UK Rap Battle Archive",
+    default: "UK Rap Battle Archive | Results, History & Stats | Lord of the Archives",
     template: "%s | Lord of the Archives",
   },
-  description: "Explore UK rap battle history across PenGame, Gzone, Lord of the Mics, Talk Is Cheap and Prizefighter, with clash analysis, MC profiles and league rankings.",
+  description: "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
   openGraph: {
     type: "website",
     locale: "en_GB",
     url: "https://www.lordofthearchives.co.uk",
     siteName: "Lord of the Archives",
-    title: "Lord of the Archives | UK Rap Battle Archive",
-    description: "Explore UK rap battle history across PenGame, Gzone, Lord of the Mics, Talk Is Cheap, Prizefighter and Clash Money, with clash analysis, MC profiles and league rankings.",
+    title: "UK Rap Battle Archive | Results, History & Stats | Lord of the Archives",
+    description: "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
     images: [
       {
         url: "https://www.lordofthearchives.co.uk/hero-archives-emblem.png",
         width: 1200,
         height: 630,
-        alt: "Lord of the Archives",
+        alt: "Lord of the Archives - UK Rap Battle Archive",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lord of the Archives | UK Rap Battle Archive",
-    description: "Explore UK rap battle history across PenGame, Gzone, Lord of the Mics, Talk Is Cheap, Prizefighter and Clash Money, with clash analysis, MC profiles and league rankings.",
+    title: "UK Rap Battle Archive | Results, History & Stats | Lord of the Archives",
+    description: "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
     images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
   },
 };
@@ -73,8 +73,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   "@id": "https://www.lordofthearchives.co.uk/#website",
                   "url": "https://www.lordofthearchives.co.uk",
                   "name": "Lord of the Archives",
-                  "description": "UK Rap Battle Archive across PenGame, Gzone, Lord of the Mics, Talk Is Cheap and Prizefighter.",
+                  "description": "The definitive UK Rap Battle Archive documenting two decades of British clash culture.",
                   "inLanguage": "en-GB",
+                  "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://www.lordofthearchives.co.uk/mcs?search={search_term_string}",
+                    "query-input": "required name=search_term_string",
+                  },
                 },
                 {
                   "@type": "Organization",
