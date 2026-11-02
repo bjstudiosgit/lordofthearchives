@@ -505,47 +505,66 @@ export default function IntroVideo() {
               </div>
             </div>
 
-            {/* The 7 Alternating Road Milestone Stations with Wide Serpentine Highway */}
-            <div className="relative">
+            {/* DESKTOP ONLY: Unified Single-Path Serpentine Highway (Zero Seams, Zero Gaps, 100% Continuous) */}
+            <div className="hidden lg:block absolute inset-y-0 left-1/2 -translate-x-1/2 w-64 xl:w-72 pointer-events-none z-10">
+              <svg className="w-full h-full" viewBox="0 0 200 4200" preserveAspectRatio="none" fill="none">
+                {/* 1. Road Outer Kerb Edge Border */}
+                <path
+                  d="M 100 0 C 40 150, 40 450, 100 600 C 160 750, 160 1050, 100 1200 C 40 1350, 40 1650, 100 1800 C 160 1950, 160 2250, 100 2400 C 40 2550, 40 2850, 100 3000 C 160 3150, 160 3450, 100 3600 C 40 3750, 40 4050, 100 4200"
+                  stroke="rgba(255, 255, 255, 0.2)"
+                  strokeWidth="44"
+                  strokeLinecap="round"
+                />
+                {/* 2. UK Double Yellow Kerb Base */}
+                <path
+                  d="M 100 0 C 40 150, 40 450, 100 600 C 160 750, 160 1050, 100 1200 C 40 1350, 40 1650, 100 1800 C 160 1950, 160 2250, 100 2400 C 40 2550, 40 2850, 100 3000 C 160 3150, 160 3450, 100 3600 C 40 3750, 40 4050, 100 4200"
+                  stroke="#f59e0b"
+                  strokeWidth="40"
+                  strokeLinecap="round"
+                />
+                {/* 3. Dark Asphalt Road Surface */}
+                <path
+                  d="M 100 0 C 40 150, 40 450, 100 600 C 160 750, 160 1050, 100 1200 C 40 1350, 40 1650, 100 1800 C 160 1950, 160 2250, 100 2400 C 40 2550, 40 2850, 100 3000 C 160 3150, 160 3450, 100 3600 C 40 3750, 40 4050, 100 4200"
+                  stroke="#0d0d12"
+                  strokeWidth="34"
+                  strokeLinecap="round"
+                />
+                {/* 4. Center Broken Amber Lane Divider */}
+                <path
+                  d="M 100 0 C 40 150, 40 450, 100 600 C 160 750, 160 1050, 100 1200 C 40 1350, 40 1650, 100 1800 C 160 1950, 160 2250, 100 2400 C 40 2550, 40 2850, 100 3000 C 160 3150, 160 3450, 100 3600 C 40 3750, 40 4050, 100 4200"
+                  stroke="#fbbf24"
+                  strokeWidth="2.2"
+                  strokeDasharray="10 12"
+                  strokeLinecap="round"
+                />
+
+                {/* 5. Glowing Road Milestone Waypoint Nodes on the Center Asphalt */}
+                {roadStops.map((stop, i) => {
+                  const isEven = i % 2 === 0;
+                  const nodeX = isEven ? 55 : 145;
+                  const nodeY = i * 600 + 300;
+                  return (
+                    <g key={stop.name}>
+                      <circle cx={nodeX} cy={nodeY} r="14" fill="#f59e0b" opacity="0.25" />
+                      <circle cx={nodeX} cy={nodeY} r="9" fill="#0d0d12" stroke="#f59e0b" strokeWidth="2.5" />
+                      <circle cx={nodeX} cy={nodeY} r="4" fill="#fbbf24" />
+                    </g>
+                  );
+                })}
+              </svg>
+            </div>
+
+            {/* The 7 Alternating Milestone Stations */}
+            <div className="relative z-20">
               {roadStops.map((stop, index) => {
-                const isEven = index % 2 === 0; // Even: Card on Left, Road bends Left. Odd: Card on Right, Road bends Right.
-                // Wide, graceful S-curve connecting from top-center (200,0) to apex to bottom-center (200,600)
-                const pathD = isEven
-                  ? "M 200 0 C 70 150, 70 450, 200 600"
-                  : "M 200 0 C 330 150, 330 450, 200 600";
-                const nodeX = isEven ? 102.5 : 297.5;
+                const isEven = index % 2 === 0;
 
                 return (
                   <div
                     key={stop.name}
                     id={`stop-${stop.step}`}
-                    className="relative min-h-[520px] lg:min-h-[580px] flex items-center scroll-mt-36"
+                    className="relative min-h-[520px] lg:h-[600px] flex items-center py-6 lg:py-0 scroll-mt-36"
                   >
-                    {/* DESKTOP ONLY: Seamless Wavy SVG Asphalt Road Segment */}
-                    <div className="hidden lg:block absolute inset-y-0 left-1/2 -translate-x-1/2 w-[420px] xl:w-[480px] pointer-events-none z-10">
-                      <svg className="w-full h-full" viewBox="0 0 400 600" preserveAspectRatio="none" fill="none">
-                        {/* 1. Road Outer Kerb Edge Border */}
-                        <path d={pathD} stroke="rgba(255, 255, 255, 0.2)" strokeWidth="54" strokeLinecap="butt" />
-                        {/* 2. UK Double Yellow Kerb Base */}
-                        <path d={pathD} stroke="#f59e0b" strokeWidth="48" strokeLinecap="butt" />
-                        {/* 3. Dark Asphalt Road Surface */}
-                        <path d={pathD} stroke="#0d0d12" strokeWidth="40" strokeLinecap="butt" />
-                        {/* 4. Center Broken Amber Lane Divider */}
-                        <path d={pathD} stroke="#fbbf24" strokeWidth="2.5" strokeDasharray="10 12" strokeLinecap="round" />
-
-                        {/* 5. Horizontal Dotted Connector Line to Milestone Card */}
-                        {isEven ? (
-                          <line x1={nodeX} y1="300" x2="0" y2="300" stroke="#f59e0b" strokeWidth="2" strokeDasharray="6 6" />
-                        ) : (
-                          <line x1={nodeX} y1="300" x2="400" y2="300" stroke="#f59e0b" strokeWidth="2" strokeDasharray="6 6" />
-                        )}
-
-                        {/* 6. Glowing Road Milestone Waypoint Node */}
-                        <circle cx={nodeX} cy="300" r="10" fill="#0d0d12" stroke="#f59e0b" strokeWidth="3" />
-                        <circle cx={nodeX} cy="300" r="4.5" fill="#fbbf24" />
-                      </svg>
-                    </div>
-
                     {/* MOBILE ONLY: Milestone Year Node on the Left Highway */}
                     <div className="lg:hidden absolute left-6 sm:left-8 top-12 -translate-x-1/2 z-20 flex items-center justify-center pointer-events-none">
                       <div className="relative flex h-8 px-2 sm:h-9 sm:px-2.5 items-center justify-center rounded-lg border-2 border-brand bg-zinc-950 shadow-[0_0_20px_rgba(255,215,0,0.45)]">
