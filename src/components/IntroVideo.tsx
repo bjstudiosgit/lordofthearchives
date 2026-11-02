@@ -313,27 +313,27 @@ const roadStops: RoadStop[] = [
 function MilestoneCard({ stop }: { stop: RoadStop }) {
   return (
     <div className="group relative rounded-3xl border border-white/10 bg-zinc-950/90 p-6 sm:p-8 lg:p-9 transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_15px_50px_rgba(255,215,0,0.08)] overflow-hidden">
-      {/* Background Year Watermark */}
-      <div className="absolute right-4 top-2 font-display text-7xl sm:text-8xl italic text-white/[0.03] select-none pointer-events-none group-hover:text-brand/[0.06] transition-colors">
+      {/* Background Year Watermark (Clear, High-Contrast Typography) */}
+      <div className="absolute right-4 top-2 font-display text-7xl sm:text-8xl lg:text-9xl italic text-white/15 select-none pointer-events-none group-hover:text-brand/30 transition-colors">
         {stop.year}
       </div>
 
-      {/* Milestone Header (Clean Typography, Zero Bubbles) */}
+      {/* Milestone Header (Clear Typography, High Contrast, Zero Bubbles) */}
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2 border-b border-white/10 pb-4 mb-5">
-        <div className="flex items-center gap-2">
-          <span className="font-display text-lg sm:text-xl font-bold italic tracking-tight text-white">
+        <div className="flex items-center gap-2.5">
+          <span className="font-display text-2xl sm:text-3xl font-bold italic tracking-tight text-brand">
             {stop.year}
           </span>
           <span className="text-zinc-600 font-mono text-xs">•</span>
           <div className="flex items-center gap-1.5 text-zinc-300 font-mono text-xs sm:text-sm">
-            <MapPin size={13} className="text-zinc-400 shrink-0" />
-            <span className="font-semibold text-zinc-200">
+            <MapPin size={14} className="text-zinc-400 shrink-0" />
+            <span className="font-bold text-zinc-200">
               {stop.location}
             </span>
           </div>
         </div>
-        <div className="flex items-center gap-2 font-mono text-xs text-zinc-400">
-          <span className="font-semibold text-zinc-300">{stop.era}</span>
+        <div className="flex items-center gap-2 font-mono text-xs sm:text-sm text-zinc-400">
+          <span className="font-bold text-white">{stop.era}</span>
           <span className="text-zinc-700">•</span>
           <span>
             <strong className="text-white font-bold">{stop.count.toLocaleString("en-GB")}</strong> battles
