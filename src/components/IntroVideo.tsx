@@ -350,22 +350,32 @@ export default function IntroVideo() {
 
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/70 to-transparent z-30" />
 
-        {/* Hero Header & Origin Story (Spacious, Left-Aligned, Clear of the Right Emblem) */}
+        {/* Hero Header (Spacious, Left-Aligned, Clear of the Right Emblem) */}
         <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pt-36 pb-24 sm:px-6 sm:pt-44 sm:pb-32 lg:px-8 lg:pt-48 lg:pb-36">
-          <div className="max-w-2xl lg:max-w-3xl">
-            <div>
-              <h1 id="hero-heading" className="font-display text-[clamp(2.75rem,6vw,5.75rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
-                Lord of the <span className="text-brand">Archives</span>
-              </h1>
-              <p className="font-display text-base sm:text-xl uppercase italic tracking-tight text-brand mt-2">
-                140 BPM! <span className="text-white">How It All Started</span>
-              </p>
-            </div>
+          <div className="max-w-3xl">
+            <h1 id="hero-heading" className="font-display text-[clamp(2.75rem,6vw,5.75rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
+              Lord of the <span className="text-brand">Archives</span>
+            </h1>
 
-            {/* Unified Narrative (Single Paragraph) */}
-            <p className="mt-6 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
-              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
+            <p className="mt-5 max-w-2xl text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
+              Two decades of UK clash culture cataloged in one definitive vault. Watch legendary battles, track <span className="text-white font-semibold">540+ MC records</span>, and explore verified league standings across <span className="text-brand font-semibold">7 historic archives</span>.
             </p>
+
+            {/* Quick Stats Badges */}
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
+                <span className="font-display text-lg italic text-brand">{archivedBattleCount.toLocaleString("en-GB")}</span>
+                <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Battles Archived</span>
+              </div>
+              <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
+                <span className="font-display text-lg italic text-white">7</span>
+                <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Battle Leagues</span>
+              </div>
+              <div className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-black/60 px-4 py-2.5 backdrop-blur-md">
+                <span className="font-display text-lg italic text-white">540+</span>
+                <span className="text-[10px] font-black uppercase tracking-wider text-zinc-400">Cataloged MCs</span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -378,9 +388,19 @@ export default function IntroVideo() {
       <section
         id="hero-archives"
         aria-label="UK Battle Rap Timeline"
-        className="relative w-full bg-black py-20 sm:py-28 lg:py-36 border-b border-brand/20 scroll-mt-20"
+        className="relative w-full bg-black py-16 sm:py-24 lg:py-28 border-b border-brand/20 scroll-mt-20"
       >
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          {/* 140 BPM Origin Story Header directly above the Road Map */}
+          <div className="mb-12 sm:mb-16 max-w-3xl pl-2 sm:pl-4">
+            <h2 className="font-display text-2xl sm:text-3xl lg:text-4xl uppercase italic tracking-tight text-brand">
+              140 BPM! <span className="text-white">How It All Started</span>
+            </h2>
+            <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <strong className="text-white font-semibold">Lord of the Mics</strong> — sparking two decades of clash culture cataloged here across <strong className="text-brand font-bold">{archivedBattleCount.toLocaleString("en-GB")} verified battles</strong>, <strong className="text-white font-bold">7 historic eras</strong>, and <strong className="text-white font-bold">540+ artists</strong>.
+            </p>
+          </div>
+
           <div className="relative">
             {/* The Continuous Asphalt Road Spine running down the left */}
             <div className="absolute left-6 sm:left-8 lg:left-12 top-0 bottom-0 -translate-x-1/2 w-12 sm:w-16 lg:w-20 flex flex-col items-center pointer-events-none z-10">
