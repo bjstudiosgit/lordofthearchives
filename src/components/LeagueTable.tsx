@@ -91,28 +91,28 @@ export default function LeagueTable({ limit, showTitle = true }: LeagueTableProp
                 <tr className="border-b border-white/5 bg-zinc-900/80">
                   <th className="hidden md:table-cell px-2 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300">Rank</th>
                   <th className="px-2 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300">MC Name</th>
-                  <th className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
-                    <span className="md:hidden">Apps</span>
+                  <th abbr="Appearances" className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
+                    <span className="md:hidden" aria-hidden="true">Apps </span>
                     <span className="hidden md:inline">Appearances</span>
                   </th>
-                  <th className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
-                    <span className="md:hidden">W</span>
+                  <th abbr="Wins" className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
+                    <span className="md:hidden" aria-hidden="true">W </span>
                     <span className="hidden md:inline">Wins</span>
                   </th>
-                  <th className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
-                    <span className="md:hidden">L</span>
+                  <th abbr="Losses" className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
+                    <span className="md:hidden" aria-hidden="true">L </span>
                     <span className="hidden md:inline">Losses</span>
                   </th>
-                  <th className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
-                    <span className="md:hidden">WR</span>
+                  <th abbr="Win Ratio" className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
+                    <span className="md:hidden" aria-hidden="true">WR </span>
                     <span className="hidden md:inline">Win Ratio</span>
                   </th>
-                  <th className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
-                    <span className="md:hidden">LR</span>
+                  <th abbr="Loss Ratio" className="px-1 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
+                    <span className="md:hidden" aria-hidden="true">LR </span>
                     <span className="hidden md:inline">Loss Ratio</span>
                   </th>
-                  <th className="px-2 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
-                    <span className="md:hidden">Pts</span>
+                  <th abbr="Points" className="px-2 py-3 md:px-8 md:py-6 text-[9px] md:text-xs font-bold uppercase tracking-widest text-zinc-300 text-center">
+                    <span className="md:hidden" aria-hidden="true">Pts </span>
                     <span className="hidden md:inline">Points</span>
                   </th>
                 </tr>

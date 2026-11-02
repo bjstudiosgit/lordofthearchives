@@ -8,7 +8,7 @@ import { formatBattleDate, parseBattleDate } from "../../data/battleDates";
 import { hasCompletedBattleAnalysis, type Battle } from "../../data/battleTypes";
 
 export const metadata = {
-  title: "Hosts & Judges | Lord of the Archives",
+  title: "Hosts & Judges: Verified Battle Credits",
   description: "Biographies and verified completed-battle credits for hosts and judges documented by Lord of the Archives.",
   alternates: { canonical: "https://www.lordofthearchives.co.uk/hosts-judges" },
 };
@@ -89,12 +89,13 @@ export default function HostsJudgesPage() {
                               href={getBattleHref(battle)}
                               className="group flex items-start justify-between gap-4 rounded-lg border border-white/5 bg-black/20 px-3 py-3 transition hover:border-brand/30"
                             >
-                              <span>
-                                <span className="block text-sm font-semibold uppercase text-zinc-200 group-hover:text-brand">{battle.title}</span>
-                                <span className="mt-1 block text-xs text-zinc-500">
+                              <div>
+                                <div className="text-sm font-semibold uppercase text-zinc-200 group-hover:text-brand">{battle.title}</div>
+                                <div className="mt-1 text-xs text-zinc-500">
+                                  <span className="sr-only"> · </span>
                                   {roles.join(" & ")}{battle.date ? ` · ${formatBattleDate(battle.date)}` : ""}
-                                </span>
-                              </span>
+                                </div>
+                              </div>
                               <ArrowUpRight className="mt-0.5 shrink-0 text-zinc-600 group-hover:text-brand" size={16} />
                             </Link>
                           </li>

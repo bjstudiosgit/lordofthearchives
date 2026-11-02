@@ -13,7 +13,7 @@ import { clashMoneyBattles } from "../../data/clashMoney";
 import { kingOfTheRonaldsBattles } from "../../data/kingOfTheRonalds";
 
 export const metadata: Metadata = {
-  title: "News & Editorials | Lord of the Archives",
+  title: "UK Battle Rap News & Editorials",
   description:
     "The latest UK rap battle archive updates, investigative editorials, historical deep-dives, and verified clash reports across all 7 UK battle leagues.",
   alternates: {

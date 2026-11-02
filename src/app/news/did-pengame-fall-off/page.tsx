@@ -5,7 +5,7 @@ import { ArrowLeft, CalendarDays } from "lucide-react";
 const articleTitle = "PenGame Heads to Ministry of Sound as 2026 View Figures Trail Its Peak";
 
 export const metadata: Metadata = {
-  title: `${articleTitle} | Lord of the Archives`,
+  title: articleTitle,
   description:
     "PenGame's sold-out Ministry of Sound event arrives as its 2026 YouTube releases sit below the view levels of the platform's biggest seasons.",
   alternates: { canonical: "https://www.lordofthearchives.co.uk/news/did-pengame-fall-off" },

@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowUpRight, CalendarDays, Beer, Skull, Mic2, ShieldAlert, 
 const articleTitle = "The Complete History of King of the Ronalds (KOTR): UK Battle Rap's Rawest Movement";
 
 export const metadata: Metadata = {
-  title: `${articleTitle} | Lord of the Archives`,
+  title: articleTitle,
   description:
     "An in-depth retrospective on King of the Ronalds (KOTR), the legendary underground UK battle league founded by Pedro and Micky Worthless that championed unfiltered comedy, pub basements, and raw disrespect.",
   alternates: {
@@ -41,9 +41,9 @@ const keyEras = [
   },
   {
     title: "4. Lasting Cultural Legacy & Archive Recovery",
-    subtitle: "Preserving 268+ Battles on Lord of the Archives",
+    subtitle: "Preserving 271 Battles on Lord of the Archives",
     content:
-      "While many older videos suffered from broken URLs and deleted channels over the years, the Lord of the Archives historical recovery project has cataloged over 268 verified KOTR clash records. KOTR proved that raw charisma, comedic bravery, and an electric live room will always outshine million-pound production values.",
+      "While many older videos suffered from broken URLs and deleted channels over the years, the Lord of the Archives historical recovery project has cataloged over 271 verified KOTR clash records. KOTR proved that raw charisma, comedic bravery, and an electric live room will always outshine million-pound production values.",
   },
 ];
 
@@ -188,7 +188,7 @@ export default function HistoryOfKotrPage() {
                 Explore The Complete KOTR Archive
               </p>
               <h3 className="mt-1 font-display text-2xl italic uppercase text-white">
-                268+ King of the Ronalds Battles Now Live
+                271 King of the Ronalds Battles Now Live
               </h3>
             </div>
             <Link

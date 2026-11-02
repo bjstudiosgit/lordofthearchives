@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowUpRight, CalendarDays, Swords, Zap, Timer, Trophy, Shie
 const articleTitle = "Prizefighter Breakdown: How Tournament Brackets & 140 BPM Sudden Death Changed UK Clashing";
 
 export const metadata: Metadata = {
-  title: `${articleTitle} | Lord of the Archives`,
+  title: articleTitle,
   description:
     "An analytical breakdown of Ozone Prizefighter's high-stakes knockout tournament model, examining how 8-bar rounds, sudden-death brackets, and 140 BPM grime tempos revolutionized UK battle rap.",
   alternates: {

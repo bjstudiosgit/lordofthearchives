@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowUpRight, CalendarDays, Eye, Flame, Trophy, TrendingUp, 
 const articleTitle = "The Top 10 Most Viewed UK Rap Battles of All Time";
 
 export const metadata: Metadata = {
-  title: `${articleTitle} | Lord of the Archives`,
+  title: articleTitle,
   description:
     "Explore the 10 most viewed UK rap battles in modern archive history, featuring record-breaking clashes from Kandi, Prynlee, Ren DMC, Passive, and Anbu Sensei.",
   alternates: {
