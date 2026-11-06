@@ -44,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/mcs`, lastModified: new Date("2026-11-02"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/hosts-judges`, lastModified: new Date("2026-08-20"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/property`, lastModified: new Date("2026-11-02"), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${SITE_URL}/life-of-pen`, lastModified: new Date("2026-11-06"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/news`, lastModified: new Date("2026-11-02"), changeFrequency: "daily", priority: 0.8 },
     { url: `${SITE_URL}/news/top-10-most-viewed-uk-rap-battles`, lastModified: new Date("2026-11-02"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/news/history-of-king-of-the-ronalds`, lastModified: new Date("2026-11-02"), changeFrequency: "weekly", priority: 0.8 },

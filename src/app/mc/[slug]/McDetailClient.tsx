@@ -11,6 +11,7 @@ import {
 } from "../../../data/pengameBattles";
 import { propertyItems } from "../../../data/property";
 import { formatViewCount } from "../../../data/viewCounts";
+import { hasAvailableMcImage } from "../../../data/mcImageAvailability";
 import { hasBattlePage as hasAvailableBattlePage, type Battle } from "../../../data/battleTypes";
 import {
   getBattleParticipants,
@@ -165,7 +166,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-zinc-950 pb-24 pt-32 text-white selection:bg-brand selection:text-black">
-      {mc.image && (
+      {hasAvailableMcImage(mc.image) && (
         <div className="pointer-events-none absolute right-0 top-16 h-[950px] w-full overflow-hidden sm:w-4/5 lg:w-3/5">
           <img
             src={mc.image}

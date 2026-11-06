@@ -133,7 +133,6 @@ const trustPages: Record<string, TrustPage> = {
 
 type Props = { params: Promise<{ trust: string }> };
 
-export const dynamicParams = false;
 
 export function generateStaticParams() {
   return Object.keys(trustPages).map((trust) => ({ trust }));

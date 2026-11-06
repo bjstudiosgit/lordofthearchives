@@ -3,6 +3,7 @@ import {
   BookOpen,
   Eye,
   FileSearch,
+  Film,
   Info,
   Mail,
   Newspaper,
@@ -70,6 +71,7 @@ const footerGroups: Array<{
       { href: "/mcs", label: "MC profiles", icon: Users },
       { href: "/hosts-judges", label: "Hosts & judges", icon: Scale },
       { href: "/property", label: "Prop'erty", icon: Package },
+      { href: "/life-of-pen", label: "Life of Pen", icon: Film },
     ],
   },
   {

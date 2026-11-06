@@ -247,7 +247,60 @@ export const mcs: MC[] = [
     "losses": 10,
     "style": "Lyrical",
     "image": "/dandannah.png",
-    "bio": "PenGame Season 1 artist.",
+    "bio": "Dan Dannah stands as PenGame’s definitive institutional gatekeeper, an ever-present veteran whose style is rooted in relentless, forward-leaning grime ferocity and high-decibel confrontation. His greatest strength is an uncompromising, physical stage presence that commands the room on 140 BPM instrumentals. However, his clearest limitation remains a persistent technical ceiling, marked by swallowed diction, predictable rhyme schemes and an over-reliance on modular, interchangeable violence.",
+    "profile": {
+      "introduction": "Spanning from the raw beginnings of Season 1 through multi-season tournaments, Cold War brackets and Champions League campaigns, Dan Dannah represents the foundational combatant of the league. Emerging initially as an under-projecting novice against Bigga, he systematically retooled himself into an aggressive, intimidating heavyweight. His artistic identity hinges on traditional grime energy, prioritising raw kinetic force over intricate penmanship. Across clashes with technical writers, comedic stylists and younger challengers, Dannah has proven remarkably durable, yet structurally predictable. His body of work reveals an artist whose sheer intensity and pocket command reliably overwhelm underprepared opponents, but whose recurring flaws—coarse rhyme patterns, repetitive conceptual angles and blurred vocal articulation—routinely hinder him when facing opponents with multi-layered writing and superior dynamic control.",
+      "sections": [
+            {
+                  "title": "Structure and transitions",
+                  "body": "Dannah constructs rounds around rigid, battle-ready blocks designed to detonate on the drop. He frequently opens with his trademark crowd-priming ritual or addresses the host before launching into aggressive eight-bar and sixteen-bar volleys. Progression within his verses is linear and cumulative, moving from initial taunts into sustained physical threats. However, his transitional connective tissue is formulaic; he leans heavily on verbal resets such as \"listen\", \"look\" or rhetorical interrogatives like \"what did you think was gonna happen?\" to shift gears. When an instrumental transition or stumble disrupts his sequence, he eschews subtle recovery, instead halting the performance, openly instructing the engineer to restart the rhythm, and re-entering from the top of the block with uncompromised velocity."
+            },
+            {
+                  "title": "Delivery and cadence",
+                  "body": "Rooted in classic grime lineage, Dannah operates with natural comfort across 140 BPM tempos, locking into the pocket with assertive, driving momentum. His delivery is characterised by urgent forward lean, percussive syllable placement and aggressive projection that actively crowds the opponent's physical space. While this high-octane attack generates immediate arena impact, it exposes significant technical vulnerabilities. As rounds advance, his relentless vocal strain leads to audible breath depletion, forcing him to cluster phrases abruptly before the snare. Furthermore, his delivery lacks dynamic variation; he rarely drops into nuanced pauses or conversational half-time cadences, maintaining a single, sustained shout that can turn monotonous and overwhelm delicate instrumental nuances on unconventional or slower drill beats."
+            },
+            {
+                  "title": "Rhyme construction",
+                  "body": "Dannah’s rhyming mechanics rely heavily on primary, monosyllabic end-rhymes organised into lengthy single-vowel chains. He repeatedly defaults to familiar phonetic families, most noticeably extended strings on the \"-an\" and \"-ang\" sounds—cycling through Dan, man, plan, bang, slam, and Liu Kang across multiple clashes. While he occasionally constructs rapid multisyllabic runs, such as linking element, impediment, and adrenaline, these combinations follow well-trodden battle rap templates rather than bespoke internal mosaics. His rhyming is built for sonic momentum rather than semantic surprise; terminal words are selected primarily to maintain punchy momentum rather than intricate wordplay. This safe construction guarantees rhythmic stability, but makes his punchline destinations readily foreseeable to seasoned judges and audiences."
+            },
+            {
+                  "title": "Repetition and hooks",
+                  "body": "Dannah makes deliberate, highly effective use of performance rituals, specifically his signature \"Let me hear you say: War!\" call-and-response chant that primes the audience and forces arena engagement before his verse begins. In contrast to these calculated crowd-participation hooks, his rounds also display unintended structural repetition born of cognitive fatigue. Under competitive pressure, Dannah frequently recycles transitional crutches, repeatedly invoking opponent names mechanically, repeating variations of \"D-A-N\", or defaulting to rhetorical questions while organising his next thought. When earning a performance reload, he rarely introduces improvised variations, instead faithfully executing identical four-bar set-pieces with muscular precision, treating the reset as a technical hammer rather than an opportunity for creative divergence."
+            },
+            {
+                  "title": "Vocabulary and diction",
+                  "body": "Operating within a focused lexicon of London street vernacular, grime terminology and martial jargon, Dannah relies on direct, unvarnished language. Terms like head-top, batted down, murk, and lack appear routinely as shorthand for physical dominance. His sentence construction is punchy and direct, avoiding complex syntactic inversion in favour of straightforward declarative threats. The primary deficit in his verbal execution is diction clarity; under rapid tempo and elevated vocal volume, his enunciation frequently deteriorates. Swallowed consonants and blurred syllables have drawn explicit critique from league adjudicators, who note that potentially impactful lines are lost to the room because his breathless, rushed vocalisation obscures critical punchlines in the heat of delivery."
+            },
+            {
+                  "title": "Angles and opponent focus",
+                  "body": "Dannah’s approach to opposition writing fluctuates between sharp, surface-level personal attacks and completely modular, interchangeable violence. When targeting specific opponents, he isolates obvious traits: mocking physical features, exploiting an opponent’s lisp, weaponising youth against older competitors, or parodying an opponent’s adopted moniker, such as comparing Monroe to Marilyn or flipping Skamz into financial fraud. However, these bespoke angles are rarely sustained across an entire round. Instead, they serve as brief decorative entry points into long, generic passages of physical harm and street dominance that could be directed at any combatant. His material lacks forensic personal deconstruction, leaving him vulnerable against writers who dissect his extensive competitive history and institutional stagnation."
+            },
+            {
+                  "title": "References and imagery",
+                  "body": "Dannah decorates his rounds with an accessible array of pop culture, comic book, anime and gaming references. He routinely invokes martial figures and superhuman archetypes, drawing upon Liu Kang, Street Fighter, Dragon Ball Z's Cell, Magneto, Wolverine, Bruce Wayne, and John Jones to illustrate combat superiority. Domestically, his imagery incorporates British consumer fixtures and cultural touchstones like Santander, Stardawg, and Strongbow. While these references provide colourful visual flourishes that register instantly with the live audience, they predominantly function as direct, functional similes—punching like a fighter or disassembling like Magneto—rather than multi-layered conceptual vehicles. They decorate his bars effectively, but rarely elevate the underlying writing beyond conventional battle tropes."
+            },
+            {
+                  "title": "Themes and persona",
+                  "body": "Dannah’s competitive character is built entirely around authentic grime aggression, unapologetic masculinity, and the ethos of an unyielding veteran gladiator. He presents himself as an institutional gatekeeper who treats battle rap as genuine combat, openly dismissing comedy and theatricality in favour of menacing confrontation. His recurring themes centre on physical retribution, territorial dominance, and survival against all challengers. Conversely, this persona leaves him exposed to consistent counter-angles; opponents routinely target his status as a perpetual league journeyman, mock his parental domesticity, and highlight his inability to capture undisputed championship silverware despite years of participation. He remains steadfastly committed to his lane, projecting an aura of uncompromising, stubborn durability."
+            },
+            {
+                  "title": "Performance under pressure",
+                  "body": "Under intense pressure, Dannah demonstrates commendable psychological toughness, rarely freezing into catastrophic silence. When a line misfires, an instrumental clashes, or a tongue-twister collapses, he avoids panicky retreat; he typically acknowledges the error bluntly, calls out the slip, and resets with furious resolve. However, his technical composure under pressure reveals limitations. Hostile crowds and high-stakes tournament rounds often cause him to rush his cadence, exacerbating breath control deficiencies and muddying his diction. His capacity for off-the-cuff improvisation and organic rebuttals is minimal; he relies almost entirely on pre-written material, meaning that when an opponent lands a devastating contextual strike, Dannah must rely on brute volume rather than sharp spontaneous counter-punching."
+            },
+            {
+                  "title": "Limitations",
+                  "body": "Dannah's foremost limitation is technical enunciation; his tendency to swallow consonants under high tempo repeatedly dilutes punchline clarity. Structurally, his writing suffers from predictable rhyme schemes, leaning on elementary end-sounds and modular thematic templates that lack lyrical surprise. His tactical repertoire is narrow, relying almost entirely on aggression while lacking the ability to incorporate humour, forensic personal dissection, or sophisticated narrative angles. Furthermore, his delivery remains dynamically flat, maintaining a sustained shout that strains his vocal cords and restricts his musical adaptability on slower or unconventional beats. This combination of coarse construction and vocal rushing establishes a rigid ceiling against elite writers who control pacing, space, and layered penmanship."
+            },
+            {
+                  "title": "Strengths",
+                  "body": "Dannah’s enduring effectiveness stems from authentic grime energy, commanding physical stature, and unshakeable confidence inside the clash arena. He possesses a natural, percussive pocket control on traditional 140 BPM grime instrumentals, driving beats forward with ferocious momentum. His pre-round call-and-response rituals immediately unify the venue, converting neutral crowds into active participants. Dannah delivers his material with genuine conviction, looking straight through opponents and establishing an intimidating physical presence that rattles hesitant challengers. His direct, punchy writing ensures that when his lines land clearly, they deliver immediate visceral impact. This visceral authenticity and veteran durability make him a fearsome, punishing obstacle for anyone attempting to rise through the league ranks."
+            },
+            {
+                  "title": "Development and legacy",
+                  "body": "Dannah’s evolution marks him as one of PenGame’s most vital institutional pillars. Progressing from an inexperienced, under-projected novice in the inaugural season into a feared, headline-level heavyweight, he embodies the league’s gritty, beat-driven identity. While his core technical flaws—rushed diction, safe rhyming, and modular writing—have remained largely uncorrected over the years, his stagecraft, ring generalship, and crowd command have developed substantially. He has tested generations of talent across tournaments, singles, and tag-team formats, serving as the benchmark against which emerging contenders measure their readiness. Dannah’s legacy is that of the quintessential battle-tested soldier: an immovable gatekeeper whose raw energy and uncompromising presence helped define the league's competitive standard."
+            }
+      ]
+},
     "instagram": "dan_dannah"
   },
   {
@@ -465,7 +518,6 @@ export const mcs: MC[] = [
     "id": "dbc",
     "slug": "dbc",
     "name": "DBC",
-    "realName": "Joseph McFashion",
     "battles": 3,
     "wins": 1,
     "losses": 2,
@@ -1261,7 +1313,6 @@ export const mcs: MC[] = [
     "id": "caveman",
     "slug": "caveman",
     "name": "CAVEMAN",
-    "realName": "Patrick",
     "battles": 2,
     "wins": 0,
     "losses": 1,
@@ -1514,7 +1565,6 @@ export const mcs: MC[] = [
     "id": "monroe",
     "slug": "monroe",
     "name": "MONROE",
-    "realName": "Jonathan Monroe",
     "battles": 2,
     "wins": 0,
     "losses": 1,
@@ -1526,7 +1576,6 @@ export const mcs: MC[] = [
     "id": "varntae",
     "slug": "varntae",
     "name": "VARNTAE",
-    "realName": "Joseph",
     "battles": 2,
     "wins": 0,
     "losses": 1,

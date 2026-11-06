@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import Link from "next/link";
 import { allProfileMcs as allMcs, isCatalogueOnlyMc } from "../../data/archiveMcProfiles";
 import { formatViewCount } from "../../data/viewCounts";
+import { hasAvailableMcImage } from "../../data/mcImageAvailability";
 import { 
   Search, 
   Trophy, 
@@ -155,7 +156,7 @@ export default function MCIndex() {
                   className="group relative flex flex-col justify-between h-full rounded-2xl border border-white/5 bg-zinc-900/40 p-5 transition-all duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-zinc-900/80 hover:shadow-[0_8px_30px_rgba(242,125,38,0.08)] overflow-hidden"
                 >
                   {/* MC Photo Background on the right */}
-                  {mc.image && (
+                  {hasAvailableMcImage(mc.image) && (
                     <div className="absolute bottom-0 right-0 top-0 z-0 w-1/2 overflow-hidden pointer-events-none">
                       <img
                         src={mc.image}

@@ -246,10 +246,6 @@ const getFallbackEpisodeLabel = (season: string, index: number): string => {
 };
 
 export default function PengamePage() {
-  React.useEffect(() => {
-    document.title = "PenGame Archives Lord of the Archives";
-  }, []);
-
   // Helper to parse view strings like "46.3K" or "4,569" into numbers
   const parseViews = (viewStr: string | number | null | undefined): number => {
     if (!viewStr) return 0;

@@ -12,6 +12,7 @@ import {
   Package,
   Newspaper,
   ChevronDown,
+  Film,
 } from "lucide-react";
 import React, { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
@@ -49,6 +50,7 @@ const vaultLinks = [
   { name: "People's Champion", href: "/peoples-vote", icon: Eye },
   { name: "Hosts & Judges", href: "/hosts-judges", icon: Scale },
   { name: "Prop'erty Vault", href: "/property", icon: Package },
+  { name: "Life of Pen", href: "/life-of-pen", icon: Film },
 ];
 
 export default function Navbar() {
@@ -101,9 +103,12 @@ export default function Navbar() {
     "/talk-is-cheap",
   ].some((path) => pathname === path || pathname.startsWith(`${path}/`));
 
-  const isVaultActive = ["/peoples-vote", "/hosts-judges", "/property"].some(
-    (path) => pathname === path,
-  );
+  const isVaultActive = [
+    "/peoples-vote",
+    "/hosts-judges",
+    "/property",
+    "/life-of-pen",
+  ].some((path) => pathname === path || pathname.startsWith(`${path}/`));
 
   const handleScrollToLeagues = (e: React.MouseEvent) => {
     setLeaguesOpen(false);
@@ -382,7 +387,7 @@ export default function Navbar() {
                 <p className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-400 mb-2 px-1">
                   Extra
                 </p>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <div className="grid grid-cols-2 gap-2">
                   {vaultLinks.map((item) => (
                     <Link
                       key={item.href}
