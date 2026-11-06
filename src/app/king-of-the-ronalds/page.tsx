@@ -158,7 +158,7 @@ export default function KingOfTheRonaldsPage() {
         </div>
 
         {/* Battles Table */}
-        <div className="space-y-6">
+        <div id="clashes" className="space-y-6 scroll-mt-32">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
             <h2 className="font-display text-2xl uppercase italic text-white md:text-3xl">
               All Clashes <span className="text-brand">({battles.length})</span>

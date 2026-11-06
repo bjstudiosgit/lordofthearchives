@@ -12,7 +12,6 @@ import {
   Package,
   Newspaper,
   ChevronDown,
-  ArrowUpRight,
 } from "lucide-react";
 import React, { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
@@ -123,12 +122,16 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 px-4 sm:px-6">
           {/* Logo */}
           <div className="flex items-center shrink-0">
-            <Link href="/" className="group flex items-center gap-3">
-              <div className="w-8 h-8 sm:w-9 sm:h-9 bg-brand rounded-xl border border-yellow-200/60 flex items-center justify-center font-display text-lg sm:text-xl text-black shadow-[0_0_20px_rgba(255,215,0,0.3)] transition-transform group-hover:scale-105">
-                L
+            <Link href="/" className="flex items-center gap-3">
+              <div className="h-9 w-9 shrink-0 sm:h-10 sm:w-10">
+                <img
+                  src="/assets/branding/logohires.png"
+                  alt="Lord of the Archives Logo"
+                  className="h-full w-full object-contain"
+                />
               </div>
               <div className="flex flex-col leading-none">
-                <span className="font-display text-base sm:text-lg tracking-tight uppercase leading-none text-white group-hover:text-brand transition-colors">
+                <span className="font-display text-base sm:text-lg tracking-tight uppercase leading-none text-white">
                   LORD OF THE <span className="text-brand">ARCHIVES</span>
                 </span>
                 <span className="mt-1 text-[8px] sm:text-[8.5px] font-black uppercase tracking-[0.25em] leading-none text-zinc-400">
@@ -186,16 +189,6 @@ export default function Navbar() {
                             <span className="text-[10px] font-mono text-zinc-500">{league.count}</span>
                           </Link>
                         ))}
-                      </div>
-                      <div className="mt-1 pt-1 border-t border-white/10">
-                        <Link
-                          href="/#hero-archives"
-                          onClick={handleScrollToLeagues}
-                          className="flex items-center justify-between px-3 py-1.5 rounded-lg text-[10px] font-black uppercase tracking-wider text-brand hover:bg-brand/10 transition-colors"
-                        >
-                          <span>Browse All Leagues</span>
-                          <ArrowUpRight size={12} />
-                        </Link>
                       </div>
                     </div>
                   </motion.div>
@@ -257,7 +250,7 @@ export default function Navbar() {
                     : "border border-transparent text-zinc-300 hover:border-white/10 hover:bg-white/5 hover:text-white"
                 }`}
               >
-                <span>The Vault</span>
+                <span>Extra</span>
                 <ChevronDown
                   size={13}
                   className={`transition-transform duration-200 ${
@@ -387,7 +380,7 @@ export default function Navbar() {
               {/* The Vault */}
               <div>
                 <p className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-400 mb-2 px-1">
-                  The Vault
+                  Extra
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                   {vaultLinks.map((item) => (

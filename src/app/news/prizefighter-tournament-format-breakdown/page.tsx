@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, ArrowUpRight, CalendarDays, Swords, Zap, Timer, Trophy, ShieldCheck } from "lucide-react";
+import { ArrowLeft, CalendarDays, Swords, Zap, Timer, Trophy, ShieldCheck } from "lucide-react";
 
 const articleTitle = "Prizefighter Breakdown: How Tournament Brackets & 140 BPM Sudden Death Changed UK Clashing";
 
@@ -153,33 +153,6 @@ export default function PrizefighterFormatBreakdownPage() {
           </p>
         </div>
 
-        {/* Link Out Banner */}
-        <div className="mt-10 rounded-3xl border border-cyan-500/30 bg-gradient-to-r from-zinc-950 via-cyan-950/20 to-zinc-950 p-6 sm:p-8">
-          <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-cyan-400">
-                Explore The Complete Prizefighter Archive
-              </p>
-              <h3 className="mt-1 font-display text-2xl italic uppercase text-white">
-                Tournament Brackets, Results &amp; Seasons
-              </h3>
-            </div>
-            <div className="flex flex-wrap gap-3">
-              <Link
-                href="/prizefighter"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-400 px-5 py-3 text-xs font-black uppercase tracking-[0.16em] text-black transition hover:bg-cyan-300"
-              >
-                Browse Brackets <ArrowUpRight size={16} />
-              </Link>
-              <Link
-                href="/prizefighter/league"
-                className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 px-5 py-3 text-xs font-black uppercase tracking-[0.16em] text-white transition hover:border-cyan-400 hover:text-cyan-400"
-              >
-                League Standings <Trophy size={15} />
-              </Link>
-            </div>
-          </div>
-        </div>
       </article>
     </main>
   );

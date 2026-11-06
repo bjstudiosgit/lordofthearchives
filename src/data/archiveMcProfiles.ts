@@ -6,6 +6,9 @@ import { formatBattleDate } from "./battleDates";
 import { getTalkIsCheapBattleSlug, getTalkIsCheapClashData, talkIsCheapSeries } from "./talkIsCheap";
 import clashMoneyBattles from "./clashMoneyData.json";
 import kotrBattles from "./kotrData.json";
+import { pengameBattles } from "./pengameBattles";
+import { gzoneBattles } from "./gzone";
+import { parseViewCount } from "./viewCounts";
 
 const normalize = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, "");
 const aliases: Record<string, string> = {
@@ -189,5 +192,50 @@ for (const battle of archiveMcBattles) {
     }
   });
 }
+
+const mcViews = new Map<string, number>();
+const addMcViews = (mcId: string, views: string | number | null | undefined) => {
+  if (!mcId || !views) return;
+  const count = typeof views === "number" ? views : parseViewCount(views);
+  if (count <= 0) return;
+  mcViews.set(mcId, (mcViews.get(mcId) || 0) + count);
+};
+
+for (const battle of pengameBattles) {
+  const views = parseViewCount(battle.views);
+  if (views > 0) {
+    if (battle.mc1) addMcViews(getArchiveMcId(battle.mc1), views);
+    if (battle.mc2) addMcViews(getArchiveMcId(battle.mc2), views);
+    if (battle.mc3) addMcViews(getArchiveMcId(battle.mc3), views);
+    if (battle.mc4) addMcViews(getArchiveMcId(battle.mc4), views);
+  }
+}
+
+for (const battle of gzoneBattles) {
+  const views = parseViewCount(battle.views);
+  if (views > 0) {
+    if (battle.mc1) addMcViews(getArchiveMcId(battle.mc1), views);
+    if (battle.mc2) addMcViews(getArchiveMcId(battle.mc2), views);
+    if (battle.mc3) addMcViews(getArchiveMcId(battle.mc3), views);
+    if (battle.mc4) addMcViews(getArchiveMcId(battle.mc4), views);
+  }
+}
+
+for (const battle of catalogueBattles) {
+  if (battle.views) {
+    const participants = battle.sides
+      ? [...new Set(battle.sides.flat())]
+      : [...new Set(battle.names.map(getArchiveMcId))];
+    for (const p of participants) {
+      addMcViews(p, battle.views);
+    }
+  }
+}
+
+profiles.forEach((profile, id) => {
+  profile.totalViews = mcViews.get(id) || 0;
+  profile.points = (profile.wins * 3) - profile.losses;
+});
+
 export const allProfileMcs = [...profiles.values()].sort((a, b) => a.name.localeCompare(b.name));
 export const isCatalogueOnlyMc = (id: string) => !allMcs.some((mc) => mc.id === id);

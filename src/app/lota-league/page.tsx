@@ -3,12 +3,18 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { motion } from "motion/react";
-import { Trophy } from "lucide-react";
+import { Trophy, Eye } from "lucide-react";
 import { getLotaLeagueStandings } from "../../data/leaderboards";
+import { formatViewCount } from "../../data/viewCounts";
 
-type SortMode = "appearances" | "wins" | "losses" | "winRate" | "lossRate" | "points";
+type SortMode = "views" | "points" | "appearances" | "wins" | "losses" | "winRate" | "lossRate";
 
-const getPoints = (mc: { wins: number }) => mc.wins * 3;
+const getRate = (primary: number, secondary: number): number => {
+  const total = primary + secondary;
+  if (total <= 0) return 0;
+  return primary / total;
+};
+
 const getWinRate = (wins: number, losses: number) => {
   const total = wins + losses;
   if (total <= 0) return "0.0%";
@@ -17,50 +23,51 @@ const getWinRate = (wins: number, losses: number) => {
 
 export default function LotaLeaguePage() {
   const [sortMode, setSortMode] = useState<SortMode>("points");
-  const standings = useMemo(() => getLotaLeagueStandings()
-    .sort((a, b) => {
-      const comparisons: Record<SortMode, number> = {
-        appearances: b.battles - a.battles,
-        wins: b.wins - a.wins,
-        losses: b.losses - a.losses,
-        winRate: getRate(b.wins, b.losses) - getRate(a.wins, a.losses),
-        lossRate: getRate(b.losses, b.wins) - getRate(a.losses, a.wins),
-        points: getPoints(b) - getPoints(a),
-      };
+  const standings = useMemo(() => {
+    return [...getLotaLeagueStandings()]
+      .sort((a, b) => {
+        const comparisons: Record<SortMode, number> = {
+          views: (b.totalViews || 0) - (a.totalViews || 0),
+          points: (b.points ?? 0) - (a.points ?? 0),
+          appearances: b.battles - a.battles,
+          wins: b.wins - a.wins,
+          losses: b.losses - a.losses,
+          winRate: getRate(b.wins, b.losses) - getRate(a.wins, a.losses),
+          lossRate: getRate(b.losses, b.wins) - getRate(a.losses, a.wins),
+        };
 
-      const primary = comparisons[sortMode];
-      if (primary !== 0) return primary;
-      if (sortMode !== "losses" && a.losses !== b.losses) return a.losses - b.losses;
-      if (a.losses !== b.losses) return a.losses - b.losses;
-      if (b.battles !== a.battles) return b.battles - a.battles;
-      return a.name.localeCompare(b.name);
-    })
-    .map((mc, index) => ({
-      ...mc,
-      rank: index + 1,
-      points: getPoints(mc),
-    })), [sortMode]);
+        const primary = comparisons[sortMode];
+        if (primary !== 0) return primary;
+        if (sortMode !== "losses" && a.losses !== b.losses) return a.losses - b.losses;
+        if ((b.totalViews || 0) !== (a.totalViews || 0)) return (b.totalViews || 0) - (a.totalViews || 0);
+        if (b.battles !== a.battles) return b.battles - a.battles;
+        return a.name.localeCompare(b.name);
+      })
+      .map((mc, index) => ({
+        ...mc,
+        rank: index + 1,
+      }));
+  }, [sortMode]);
 
-  const topThree = useMemo(() => getLotaLeagueStandings().slice(0, 3), []);
+  const topThree = useMemo(() => standings.slice(0, 3), [standings]);
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-screen pt-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 grid items-center gap-12 lg:grid-cols-2">
           <div>
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-brand">Combined Rankings</p>
             <h1 className="text-4xl font-display italic uppercase leading-tight md:text-6xl">
               LOTA <br />
               <span className="text-brand">League</span>
             </h1>
             <p className="mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-zinc-300 md:mt-6 font-sans">
-              The unified Lord of the Archives (LOTA) League Table is the master performance index for modern UK battle rap. Unifying verified results across <Link href="/pengame" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">PenGame</Link>, <Link href="/gzone" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Gzone</Link>, <Link href="/talk-is-cheap" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Talk Is Cheap</Link>, and <Link href="/prizefighter" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Prizefighter</Link>, the table standardizes combat statistics under an all-league points framework. MCs earn three points for every confirmed victory, with ties settled by lowest loss counts followed by total archive appearances. Whether measuring multi-era consistency, tracking cross-league dominance, or discovering the sharpest active win rates in British clash history, this unified table provides an authoritative, data-driven ranking of UK battle rap talent.
+              The unified Lord of the Archives (LOTA) League Table is the master performance index for modern UK battle rap. Unifying verified results across <Link href="/pengame" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">PenGame</Link>, <Link href="/gzone" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Gzone</Link>, <Link href="/talk-is-cheap" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Talk Is Cheap</Link>, and <Link href="/prizefighter" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Prizefighter</Link>, the table standardizes combat statistics under an all-league points framework. MCs earn three points for every confirmed victory with a one-point loss penalty to reward clinical records over pure volume. Standings can also be sorted by total YouTube views, win ratio, or individual metrics to provide an authoritative, data-driven ranking of UK battle rap talent.
             </p>
           </div>
 
           <div className="grid grid-cols-1 gap-4">
             <h3 className="mb-2 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-zinc-400">
-              <Trophy size={14} className="text-brand" /> Current Top 3
+              <Trophy size={14} className="text-brand" /> Current Top 3 {sortMode === "views" ? "(By Views)" : "(By Points)"}
             </h3>
             <div className="grid gap-4">
               {topThree.map((mc, index) => (
@@ -93,13 +100,17 @@ export default function LotaLeaguePage() {
                         {mc.name}
                       </h4>
                       <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
-                        {mc.wins} Wins • {mc.battles} Battles
+                        {mc.wins}W - {mc.losses}L • {formatViewCount(mc.totalViews)} Views
                       </p>
                     </div>
                   </Link>
                   <div className="text-right">
-                    <div className="font-display text-2xl italic text-brand">{mc.points}</div>
-                    <div className="text-[8px] font-bold uppercase tracking-widest text-zinc-400">Points</div>
+                    <div className="font-display text-2xl italic text-brand">
+                      {sortMode === "views" ? formatViewCount(mc.totalViews) : mc.points}
+                    </div>
+                    <div className="text-[8px] font-bold uppercase tracking-widest text-zinc-400">
+                      {sortMode === "views" ? "Views" : "Points"}
+                    </div>
                   </div>
                 </motion.div>
               ))}
@@ -120,13 +131,22 @@ export default function LotaLeaguePage() {
                       MC Name
                     </th>
                     <th
-                      onClick={() => setSortMode("appearances")}
+                      onClick={() => setSortMode("views")}
                       className={`cursor-pointer px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
-                        sortMode === "appearances" ? "text-brand" : "text-zinc-400"
+                        sortMode === "views" ? "text-brand" : "text-zinc-400"
                       }`}
-                      title="Sort by Appearances"
+                      title="Sort by Total Views"
                     >
-                      Appearances
+                      <span className="inline-flex items-center gap-1"><Eye size={12} /> Views</span>
+                    </th>
+                    <th
+                      onClick={() => setSortMode("points")}
+                      className={`cursor-pointer px-2 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
+                        sortMode === "points" ? "text-brand" : "text-zinc-400"
+                      }`}
+                      title="Sort by Points (3 per Win, -1 per Loss)"
+                    >
+                      Points
                     </th>
                     <th
                       onClick={() => setSortMode("wins")}
@@ -156,22 +176,13 @@ export default function LotaLeaguePage() {
                       Win Ratio
                     </th>
                     <th
-                      onClick={() => setSortMode("lossRate")}
+                      onClick={() => setSortMode("appearances")}
                       className={`cursor-pointer px-1 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
-                        sortMode === "lossRate" ? "text-brand" : "text-zinc-400"
+                        sortMode === "appearances" ? "text-brand" : "text-zinc-400"
                       }`}
-                      title="Sort by Loss Ratio"
+                      title="Sort by Appearances"
                     >
-                      Loss Ratio
-                    </th>
-                    <th
-                      onClick={() => setSortMode("points")}
-                      className={`cursor-pointer px-2 py-3 text-center text-[9px] font-bold uppercase tracking-widest transition-colors hover:text-brand md:px-8 md:py-6 md:text-xs ${
-                        sortMode === "points" ? "text-brand" : "text-zinc-400"
-                      }`}
-                      title="Sort by Points"
-                    >
-                      Points
+                      Appearances
                     </th>
                   </tr>
                 </thead>
@@ -193,18 +204,18 @@ export default function LotaLeaguePage() {
                           </span>
                         </Link>
                       </td>
-                      <td className="px-1 py-3 text-center font-mono text-[11px] text-zinc-300 md:px-8 md:py-6 md:text-base">{mc.battles}</td>
+                      <td className="px-1 py-3 text-center font-mono text-[11px] text-brand md:px-8 md:py-6 md:text-base font-bold">
+                        {formatViewCount(mc.totalViews)}
+                      </td>
+                      <td className="px-2 py-3 text-center text-[11px] font-bold text-zinc-100 md:px-8 md:py-6 md:text-base">
+                        {mc.points.toLocaleString()}
+                      </td>
                       <td className="px-1 py-3 text-center font-mono text-[11px] text-zinc-300 md:px-8 md:py-6 md:text-base">{mc.wins}</td>
                       <td className="px-1 py-3 text-center font-mono text-[11px] text-zinc-300 md:px-8 md:py-6 md:text-base">{mc.losses}</td>
                       <td className="px-1 py-3 text-center font-mono text-[11px] text-zinc-300 md:px-8 md:py-6 md:text-base">
                         {getWinRate(mc.wins, mc.losses)}
                       </td>
-                      <td className="px-1 py-3 text-center font-mono text-[11px] text-zinc-300 md:px-8 md:py-6 md:text-base">
-                        {getWinRate(mc.losses, mc.wins)}
-                      </td>
-                      <td className="px-2 py-3 text-center text-[11px] font-bold text-zinc-100 md:px-8 md:py-6 md:text-base">
-                        {mc.points.toLocaleString()}
-                      </td>
+                      <td className="px-1 py-3 text-center font-mono text-[11px] text-zinc-300 md:px-8 md:py-6 md:text-base">{mc.battles}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -212,7 +223,7 @@ export default function LotaLeaguePage() {
             </div>
             <div className="border-t border-white/5 bg-zinc-950/50 px-8 py-4">
               <p className="text-center text-[10px] font-bold uppercase tracking-widest text-zinc-300">
-                Combined LOTA scoring: 3 Points per Win
+                Combined LOTA scoring: 3 Points per Win, -1 Point per Loss • Standings sortable by Total Views, Points, Wins, and Win Ratio
               </p>
             </div>
           </div>
@@ -220,10 +231,4 @@ export default function LotaLeaguePage() {
       </div>
     </motion.div>
   );
-}
-
-function getRate(primary: number, secondary: number): number {
-  const total = primary + secondary;
-  if (total <= 0) return 0;
-  return primary / total;
 }

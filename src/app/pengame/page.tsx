@@ -334,7 +334,7 @@ export default function PengamePage() {
         </div>
 
         {orderedSeasons.map(([season, seasonBattles]) => (
-          <div key={season} className="mb-16">
+          <div key={season} id={`season-${season.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`} className="mb-16 scroll-mt-32">
             <div className="mb-8">
               <h3 className="text-xl md:text-2xl font-semibold text-zinc-200">
                 {getSeasonTitle(season)}

@@ -13,6 +13,7 @@ interface MemoryMilestone {
   season: string;
   battles: string;
   note: string;
+  href?: string;
 }
 
 interface RoadStop {
@@ -52,30 +53,35 @@ const roadStops: RoadStop[] = [
         season: "LOTM 1",
         battles: "Wiley vs Kano • Ghetto vs Napper • Bruza vs Crazy Titch",
         note: "Recorded in Jammer's East London basement. Hand-to-hand bootleg DVD release.",
+        href: "/lord-of-the-mics#lotm-1",
       },
       {
         year: "2006",
         season: "LOTM 2",
         battles: "Skepta vs Devilman • Bashy vs Demon • Big Narstie vs Scorcher",
         note: "The nationwide DVD phenomenon. Skepta vs Devilman becomes an eternal cultural anthem.",
+        href: "/lord-of-the-mics#lotm-2",
       },
       {
         year: "2011",
         season: "LOTM 3",
         battles: "Kozzie vs Sox • Discarda vs Jaykae • Marger vs LayZ",
         note: "The digital return of LOTM, launching a new generation of 140 BPM clashers.",
+        href: "/lord-of-the-mics#lotm-3",
       },
       {
         year: "2014",
         season: "LOTM 6",
         battles: "Big H vs P Money • Dialect vs Nat Powers",
         note: "Live headline clash event at Islington Academy with massive crowd energy.",
+        href: "/lord-of-the-mics#lotm-6",
       },
       {
         year: "2015",
         season: "LOTM 7",
         battles: "Jammer vs Wiley • Lady Lykez vs Sox",
         note: "10-year anniversary clash between founding fathers of the grime scene.",
+        href: "/lord-of-the-mics#lotm-7",
       },
     ],
   },
@@ -99,24 +105,28 @@ const roadStops: RoadStop[] = [
         season: "Inaugural Cup",
         battles: "8-Man Grime Knockout Bracket",
         note: "DJ Mikee launches the Midlands tournament circuit with cash prize belts.",
+        href: "/prizefighter#classic",
       },
       {
         year: "2014",
         season: "Prizefighter 5",
         battles: "F.O.S vs Iamone • Big Hypes vs Nitro Clack",
         note: "Silk City Radio recording featuring high-velocity bracket rounds.",
+        href: "/prizefighter#prizefighter-5",
       },
       {
         year: "2015",
         season: "Prizefighter 8",
         battles: "Firedon vs Jay3 • Psolja vs RdoubleG",
         note: "Radio audio tournament series with verified judging scorecards.",
+        href: "/prizefighter#prizefighter-8",
       },
       {
         year: "2024",
         season: "Ozone Circuit",
         battles: "Modern 140 BPM Tournament Return",
         note: "Revival of the classic prizefighter tournament format with live points table.",
+        href: "/prizefighter#ozone",
       },
     ],
   },
@@ -140,24 +150,28 @@ const roadStops: RoadStop[] = [
         season: "Old Red Lion Inception",
         battles: "Bowski vs Micky Worthless • Pedro vs Bowski",
         note: "The legendary London pub cellar inception. Uncensored disrespect and cult humor.",
+        href: "/king-of-the-ronalds#clashes",
       },
       {
         year: "2015",
         season: "Hulkmania & Punk In Drublic",
         battles: "Hulk vs Pedro • Scoop vs Bowski",
         note: "Explosion of the KOTR underground circuit with legendary cult characters.",
+        href: "/king-of-the-ronalds#clashes",
       },
       {
         year: "2017",
         season: "Check Point & Title Bouts",
         battles: "Tony D vs Oshea • Big J vs Hulk",
         note: "Don't Flop and national champions stepping into the notorious KOTR pit.",
+        href: "/king-of-the-ronalds#clashes",
       },
       {
         year: "2020",
         season: "Specialists in Failure",
         battles: "The Final Chapter Showcase",
         note: "The closing era sealing King of the Ronalds' permanent legacy in battle culture.",
+        href: "/king-of-the-ronalds#clashes",
       },
     ],
   },
@@ -181,18 +195,21 @@ const roadStops: RoadStop[] = [
         season: "The Trials 1 & 2",
         battles: "Blizzard vs Dialect • Dialect vs Raptor",
         note: "Proving ground tournament giving northern lyricists national spotlight.",
+        href: "/clash-money#trials",
       },
       {
         year: "2015",
         season: "North vs South",
         battles: "M1 Motorway Clash Invitational",
         note: "Bridging the regional divide with explosive cross-country rivalries.",
+        href: "/clash-money#main",
       },
       {
         year: "2016",
         season: "2v2 Tag Teams",
         battles: "Dialect & Kaotik 2v2s • Bru-C Showcases",
         note: "Pioneered fast-paced tag-team grime bouts with rapid fire reloads.",
+        href: "/clash-money#main",
       },
     ],
   },
@@ -216,18 +233,21 @@ const roadStops: RoadStop[] = [
         season: "Series 1 & 2",
         battles: "Underground Debut • Early Head-to-Heads",
         note: "Rapid release tempo introducing London's next wave of freestyle talent.",
+        href: "/talk-is-cheap#initiation",
       },
       {
         year: "2022–24",
         season: "Series 3 & 4",
         battles: "The Underground Proving Ground",
         note: "Viral short-form format clashes keeping raw British battle rap alive.",
+        href: "/talk-is-cheap#resurgence",
       },
       {
         year: "2025–26",
         season: "Series 5",
         battles: "The New Wave Frontier",
         note: "Next generation MCs actively carrying the clash culture forward.",
+        href: "/talk-is-cheap#proving-grounds",
       },
     ],
   },
@@ -251,24 +271,28 @@ const roadStops: RoadStop[] = [
         season: "Seasons 1 & 2",
         battles: "Launch Battles • First Judged Cards",
         note: "Judging panel established with Lippy Lickshot, Joe Black, and LV General.",
+        href: "/pengame#season-1",
       },
       {
         year: "2023",
         season: "Premier Division",
         battles: "30+ Fixtures • Official Title Belts",
         note: "Full league structure with promotion, relegation, and points table.",
+        href: "/pengame#season-2023",
       },
       {
         year: "2024–25",
         season: "Mega-Cards",
         battles: "1M+ View Clashes • Boxpark & Central Studios",
         note: "Record-breaking viewership and mainstream cultural penetration.",
+        href: "/pengame#season-5",
       },
       {
         year: "2026",
         season: "Championship Race",
         battles: "Current Title Fights & Live Divisional Standings",
         note: "Live ongoing season tracked in real-time on Lord of the Archives.",
+        href: "/pengame#season-champions-league",
       },
     ],
   },
@@ -292,18 +316,21 @@ const roadStops: RoadStop[] = [
         season: "Season 1 Launch",
         battles: "Deeno vs Tapped24 • Roman vs Marni Gramz",
         note: "Pure 140 BPM grime aggression over classic grime instrumental dubs.",
+        href: "/gzone#season-1",
       },
       {
         year: "2024",
         season: "Mid-Season Derbies",
         battles: "Ryno vs Deeno • Tapped24 vs Roman",
         note: "Heavyweight clashes with high-stakes reload judge scoring.",
+        href: "/gzone#season-1",
       },
       {
         year: "2024",
         season: "Final Table",
         battles: "Season 1 Title Race",
         note: "Verified season points determining the inaugural Gzone champion.",
+        href: "/gzone#season-1",
       },
     ],
   },
@@ -391,9 +418,12 @@ function MilestoneCard({ stop }: { stop: RoadStop }) {
                   {m.year}
                 </span>
                 <span className="text-zinc-600 font-mono text-xs">•</span>
-                <span className="font-display text-sm uppercase italic text-white tracking-wide">
+                <Link
+                  href={m.href ?? stop.href}
+                  className="font-display text-sm uppercase italic text-white tracking-wide underline underline-offset-4 decoration-white/40 hover:text-brand hover:decoration-brand transition-colors"
+                >
                   {m.season}
-                </span>
+                </Link>
               </div>
               <p className="mt-0.5 font-mono text-xs font-semibold text-zinc-200 leading-snug">
                 {m.battles}
@@ -479,7 +509,7 @@ export default function IntroVideo() {
           {/* 140 BPM Origin Story Header directly above the Road Map (Spanning Across the Page) */}
           <div className="mb-16 sm:mb-20 lg:mb-28 w-full max-w-5xl lg:max-w-6xl pl-2 sm:pl-4">
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic tracking-tight text-white">
-              The Seven Battle Archives <span className="text-zinc-400 font-sans text-xl sm:text-2xl font-normal block sm:inline sm:ml-2 tracking-normal">• 140 BPM Genesis to Modern Eras</span>
+              The Seven Battle Archives
             </h2>
             <p className="mt-4 text-base sm:text-lg leading-relaxed text-zinc-300 font-sans">
               When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <Link href="/lord-of-the-mics" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Lord of the Mics</Link> — sparking two decades of clash culture cataloged here across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <a href="#hero-archives" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">7 historic eras</a>, and <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">540+ artists</Link>.

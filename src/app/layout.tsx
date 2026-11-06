@@ -29,6 +29,16 @@ export const metadata: Metadata = {
     template: "%s | Lord of the Archives",
   },
   description: "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
+  icons: {
+    icon: [
+      { url: "/assets/favicon/favicon.ico" },
+      { url: "/assets/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/assets/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    shortcut: "/assets/favicon/favicon.ico",
+    apple: "/assets/favicon/apple-touch-icon.png",
+  },
+  manifest: "/assets/favicon/site.webmanifest",
   openGraph: {
     type: "website",
     locale: "en_GB",

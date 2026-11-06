@@ -108,7 +108,7 @@ export default function TalkIsCheapPage() {
 
         <div className="mt-14 space-y-10">
           {archiveSections.map((series) => (
-            <section key={series.name}>
+            <section key={series.name} id={series.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")} className="scroll-mt-32">
               <h2 className="text-xl font-semibold text-zinc-200 md:text-2xl">{series.name}</h2>
               <p className="mb-5 mt-2 text-sm text-zinc-400">
                 {series.eventDetails}{" "}

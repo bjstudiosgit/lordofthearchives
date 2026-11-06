@@ -128,8 +128,11 @@ export default function LordOfTheMicsPage() {
         </div>
 
         <section className="space-y-10">
-          {Object.entries(groupedBattles).map(([series, battles]) => (
-            <div key={series}>
+          {Object.entries(groupedBattles).map(([series, battles]) => {
+            const num = series.replace(/\D/g, "");
+            const sectionId = num ? `lotm-${num}` : series.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+            return (
+              <div key={series} id={sectionId} className="scroll-mt-32">
               <div className="mb-5">
                 <h2 className="text-xl font-semibold text-zinc-200 md:text-2xl">{series}</h2>
                 <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
@@ -190,7 +193,8 @@ export default function LordOfTheMicsPage() {
                 </div>
               </div>
             </div>
-          ))}
+          );
+        })}
         </section>
       </div>
     </main>

@@ -26,10 +26,6 @@ import {
   Play,
   ChevronLeft,
   Trophy,
-  Scale,
-  Ruler,
-  MapPin,
-  Zap,
   Star,
   Clock,
   Eye,
@@ -168,133 +164,109 @@ export default function McDetailClient({ slug }: { slug: string }) {
   const hasBattlePage = (battle: Battle) => Boolean(catalogueById.get(battle.id)?.battleHref) || hasAvailableBattlePage(battle);
 
   return (
-    <div className="min-h-screen pt-32 pb-24 bg-zinc-950 text-white selection:bg-brand selection:text-black">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="relative min-h-screen overflow-hidden bg-zinc-950 pb-24 pt-32 text-white selection:bg-brand selection:text-black">
+      {mc.image && (
+        <div className="pointer-events-none absolute right-0 top-16 h-[950px] w-full overflow-hidden sm:w-4/5 lg:w-3/5">
+          <img
+            src={mc.image}
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 h-full w-full object-cover object-[55%_top] opacity-60 grayscale brightness-110 contrast-110"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/10 via-transparent to-zinc-950/75" />
+        </div>
+      )}
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Back Button */}
         <button
           onClick={() => router.back()}
           className="flex items-center gap-2 text-zinc-400 hover:text-brand transition-colors uppercase tracking-[0.2em] text-[10px] font-bold mb-8 group"
         >
           <ChevronLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
-          Back to MC Roster
+          Back
         </button>
 
-        {/* Masterclass MC Dossier Banner (Cinematic Half-Face Photo Background) */}
         <motion.div
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
-          className="relative mb-12 rounded-3xl border border-white/10 bg-gradient-to-b from-zinc-900/95 via-zinc-900/60 to-black p-6 sm:p-10 overflow-hidden shadow-2xl group"
+          className="relative mb-12 py-6 sm:py-10"
         >
-          {/* MC Cinematic Half-Face Background Photo on the Right */}
-          {mc.image && (
-            <div className="absolute right-0 top-0 bottom-0 w-full sm:w-2/3 lg:w-1/2 pointer-events-none overflow-hidden z-0">
-              <img
-                src={mc.image}
-                alt={mc.name}
-                className="absolute right-0 top-0 h-full w-full object-cover object-[70%_top] sm:object-right-top opacity-35 sm:opacity-50 contrast-125 filter grayscale group-hover:grayscale-0 transition-all duration-700"
-              />
-              {/* Gradients blending into the banner */}
-              <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/75 to-transparent z-10" />
-              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-transparent to-zinc-950/30 z-10" />
-              <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-zinc-950/60 to-transparent z-10" />
-            </div>
-          )}
-
-          <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-brand/10 rounded-full blur-3xl pointer-events-none" />
-
-          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
-            <div className="max-w-2xl">
-              <div className="flex items-center gap-4 mb-3">
-                <div className="flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-2xl border border-brand/40 bg-brand/10 font-display text-2xl sm:text-3xl italic text-brand shadow-[0_0_25px_rgba(242,125,38,0.2)] shrink-0">
-                  {getInitials(mc.name)}
-                </div>
+          <div className="relative z-10 max-w-2xl">
+              <div className="mb-3">
                 <div>
-                  <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display italic uppercase leading-none tracking-tight text-white flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                    <span>{mc.name}</span>
-                    {mc.realName && (
-                      <span className="font-sans font-normal not-italic text-lg sm:text-2xl lg:text-3xl text-zinc-400 tracking-normal normal-case">
-                        ({mc.realName})
-                      </span>
-                    )}
+                  <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display italic uppercase leading-none tracking-tight text-white">
+                    {mc.name}
                   </h1>
+                  {mc.realName && (
+                    <p className="mt-1.5 font-sans font-normal text-base sm:text-xl text-zinc-400 tracking-normal normal-case">
+                      {mc.realName}
+                    </p>
+                  )}
                 </div>
               </div>
 
-              {mc.nickname && (
-                <p className="text-sm font-bold uppercase tracking-widest text-zinc-400 mb-4 pl-1">
-                  &ldquo;{mc.nickname}&rdquo;
+              {(mc.profile?.introduction || mc.bio) && (
+                <p className="mb-4 max-w-xl pl-1 text-xs leading-relaxed text-zinc-300 sm:text-sm">
+                  {mc.profile?.introduction || mc.bio}
                 </p>
               )}
-
-              {/* Bio if exists */}
-              {mc.bio && (
-                <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed max-w-xl mb-4 pl-1">
-                  {mc.bio}
-                </p>
-              )}
-
-              {/* Meta pills */}
-              <div className="flex flex-wrap items-center gap-2 pt-1 pl-1">
-                {mc.location && (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 text-[11px] font-semibold text-zinc-300">
-                    <MapPin size={12} className="text-brand" /> {mc.location}
-                  </span>
-                )}
-                {mc.style && (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 text-[11px] font-semibold text-zinc-300">
-                    <Zap size={12} className="text-brand" /> {mc.style}
-                  </span>
-                )}
-                {mc.weightClass && (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 text-[11px] font-semibold text-zinc-300">
-                    <Scale size={12} className="text-brand" /> {mc.weightClass}
-                  </span>
-                )}
-                {mc.height && (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 text-[11px] font-semibold text-zinc-300">
-                    <Ruler size={12} className="text-brand" /> {mc.height}
-                  </span>
-                )}
-              </div>
-            </div>
-
-            {/* Quick KPI Strip */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-3 shrink-0">
-              <div className="rounded-2xl border border-brand/30 bg-black/60 p-4 min-w-[120px]">
-                <p className="text-[9px] font-black uppercase tracking-[0.2em] text-brand">Record</p>
-                <p className="font-display text-2xl sm:text-3xl italic text-white mt-1">
-                  {catalogueOnly ? "Archive" : `${wins}-${losses}${draws > 0 ? `-${draws}` : ""}`}
-                </p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-black/60 p-4 min-w-[120px]">
-                <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-400">Total Battles</p>
-                <p className="font-display text-2xl sm:text-3xl italic text-white mt-1">
-                  {battleCount}
-                </p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-black/60 p-4 min-w-[120px]">
-                <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-400">Battle Views</p>
-                <p className="font-display text-2xl sm:text-3xl italic text-brand mt-1">
-                  {catalogueOnly && !battleHistory.some((battle) => battle.views != null) ? "—" : formatViews(totalBattleViews)}
-                </p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-black/60 p-4 min-w-[120px]">
-                <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-400">Points</p>
-                <p className="font-display text-2xl sm:text-3xl italic text-white mt-1">
-                  {catalogueOnly ? "—" : totalPoints}
-                </p>
-              </div>
-            </div>
           </div>
         </motion.div>
 
-        {/* Content Split: Left (Form & Channels & Props) | Right (Battle Logs) */}
+        {/* Profile layout */}
         <div className="grid lg:grid-cols-12 gap-8 items-start">
-          {/* Left Column */}
-          <div className="lg:col-span-4 space-y-6">
-            {/* Form Section */}
+          <aside className="order-2 space-y-7 lg:col-span-4 lg:col-start-9 lg:row-start-1">
+              <h2 className="font-display text-3xl italic uppercase text-white">
+                Lord of the Archives Assessment
+              </h2>
+              <div className="mt-7 space-y-7">
+                {mc.profile ? (
+                  mc.profile.sections.map((section) => (
+                    <div key={section.title} className="border-t border-white/10 pt-4">
+                      <h3 className="font-display text-xl italic uppercase text-white">
+                        {section.title}
+                      </h3>
+                      <p className="mt-3 text-sm leading-6 text-zinc-400">
+                        {section.body}
+                      </p>
+                    </div>
+                  ))
+                ) : (
+                  <p className="border-t border-white/10 pt-4 text-sm leading-6 text-zinc-400">
+                    A full Lord of the Archives artist assessment will be added here.
+                  </p>
+                )}
+              </div>
+            </aside>
+
+          <div className="order-1 space-y-8 lg:col-span-8 lg:col-start-1 lg:row-start-1">
             <div className="rounded-2xl border border-white/10 bg-zinc-900/40 p-5">
-              <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500 mb-3">
+              <div className="mb-5 grid grid-cols-2 gap-4 border-b border-white/10 pb-5 sm:grid-cols-4">
+                <div>
+                  <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-500">Record</p>
+                  <p className="mt-1 font-display text-2xl italic text-brand">
+                    {catalogueOnly ? "Archive" : `${wins}-${losses}${draws > 0 ? `-${draws}` : ""}`}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-500">Battles</p>
+                  <p className="mt-1 font-display text-2xl italic text-white">{battleCount}</p>
+                </div>
+                <div>
+                  <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-500">Views</p>
+                  <p className="mt-1 font-display text-2xl italic text-white">
+                    {catalogueOnly && !battleHistory.some((battle) => battle.views != null) ? "—" : formatViews(totalBattleViews)}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-500">Points</p>
+                  <p className="mt-1 font-display text-2xl italic text-white">
+                    {catalogueOnly ? "—" : totalPoints}
+                  </p>
+                </div>
+              </div>
+              <h2 className="mb-3 text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500">
                 Recent Form
               </h2>
               <div className="flex flex-wrap gap-2">
@@ -308,9 +280,8 @@ export default function McDetailClient({ slug }: { slug: string }) {
                       : outcome === "LOSS"
                         ? "border-rose-500/40 bg-rose-500/15 text-rose-400"
                         : "border-white/10 bg-zinc-900/60 text-zinc-500";
-
                   const label = `${battle.displayTitle || battle.title}: ${outcome}`;
-                  const className = `w-9 h-9 rounded-lg border flex items-center justify-center text-xs font-black ${formClass}`;
+                  const className = `flex h-9 w-9 items-center justify-center rounded-lg border text-xs font-black ${formClass}`;
 
                   return battlePageAvailable ? (
                     <Link
@@ -335,7 +306,6 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 })}
               </div>
             </div>
-
 
             {/* Prop'erty Section */}
             {mcPropertyItems.length > 0 && (
@@ -368,17 +338,16 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 </div>
               </div>
             )}
-          </div>
 
-          {/* Right Column: Battle History Log */}
-          <div className="lg:col-span-8">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl sm:text-3xl italic uppercase text-white">
-                Battle History <span className="text-brand">({battleHistory.length})</span>
-              </h2>
-            </div>
+            {/* Battle History */}
+            <div>
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="font-display text-2xl sm:text-3xl italic uppercase text-white">
+                  Battle History <span className="text-brand">({battleHistory.length})</span>
+                </h2>
+              </div>
 
-            <div className="space-y-3">
+              <div className="space-y-3">
               {battleHistory.map((battle) => {
                 const { opponentTeam } = getBattleSides(battle);
                 const opponentId = opponentTeam[0];
@@ -473,5 +442,6 @@ export default function McDetailClient({ slug }: { slug: string }) {
         </div>
       </div>
     </div>
+  </div>
   );
 }

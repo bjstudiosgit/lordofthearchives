@@ -1,6 +1,5 @@
 import Link from "next/link";
 import BattleRow from "../talk-is-cheap/BattleRow";
-import RetroGzoneBanner from "../../components/RetroGzoneBanner";
 import { Calendar, CircleDot, Eye, Play, Trophy } from "lucide-react";
 import { formatBattleDate } from "../../data/battleDates";
 import { gzoneBattles } from "../../data/gzone";
@@ -123,10 +122,9 @@ export default function GzonePage() {
         </div>
 
         <div className="mb-12">
-          <RetroGzoneBanner />
         </div>
 
-        <section>
+        <section id="season-1" className="scroll-mt-32">
           <div className="mb-8">
             <div className="mb-3 flex items-center gap-3">
               <CircleDot className="text-gzone" size={20} />

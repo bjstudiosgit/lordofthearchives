@@ -98,7 +98,7 @@ export default function PrizefighterPage() {
               {prizefighterEditions.filter((edition) => edition.era === era).sort((a, b) =>
                 b.year.localeCompare(a.year) || Number(b.edition.match(/\d+/)?.[0] ?? 0) - Number(a.edition.match(/\d+/)?.[0] ?? 0)
               ).map((edition) => (
-                <section key={`${edition.edition}-${edition.year}`}>
+                <section key={`${edition.edition}-${edition.year}`} id={edition.edition.toLowerCase().replace(/[^a-z0-9]+/g, "-")} className="scroll-mt-32">
                   <h3 className="text-xl font-semibold text-zinc-200 md:text-2xl">{edition.edition}</h3>
                   <p className="mb-5 mt-2 text-sm text-zinc-400">{edition.year || "Year not recorded"} · {edition.battles.length} battles</p>
                   <div className="overflow-hidden rounded-3xl border border-white/5 bg-zinc-900/20">

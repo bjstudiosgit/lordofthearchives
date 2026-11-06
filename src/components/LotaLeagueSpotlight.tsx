@@ -1,8 +1,9 @@
-import { ChevronRight, Trophy } from "lucide-react";
+import { ChevronRight, Trophy, Eye } from "lucide-react";
 import Link from "next/link";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { getLotaLeagueStandings } from "../data/leaderboards";
+import { formatViewCount } from "../data/viewCounts";
 
 export default function LotaLeagueSpotlight() {
   const leaders = getLotaLeagueStandings()
@@ -25,8 +26,7 @@ export default function LotaLeagueSpotlight() {
             Lord of the Archives <span className="text-brand">League Table</span>
           </h2>
           <p className="mt-5 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
-            A combined performance table built from confirmed <Link href="/pengame" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">PenGame</Link> and <Link href="/gzone" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">Gzone</Link> results. Every win earns three points;
-            tied totals are separated by fewer losses, then appearances. Explore full standings in the <Link href="/lota-league" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">unified LOTA League Table</Link>.
+            A unified performance table standardizing verified UK battle rap results. Wins earn three points with a one-point deduction for losses to reward clinical win records, with standings trackable by points, total views, and win ratio. Explore full standings in the <Link href="/lota-league" className="text-zinc-200 underline decoration-white/20 underline-offset-4 hover:text-brand hover:decoration-brand transition-colors">unified LOTA League Table</Link>.
           </p>
         </div>
 
@@ -69,17 +69,25 @@ export default function LotaLeagueSpotlight() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 divide-x divide-white/10 border-t border-white/10">
-                <div className="p-5">
-                  <div className="mb-2 flex items-center gap-2 text-[9px] font-bold uppercase tracking-[0.18em] text-zinc-500">
-                    <Trophy size={13} className="text-brand" /> Points
+              <div className="grid grid-cols-3 divide-x divide-white/10 border-t border-white/10">
+                <div className="p-4 text-center">
+                  <div className="mb-1 flex items-center justify-center gap-1.5 text-[8px] font-bold uppercase tracking-[0.16em] text-zinc-500">
+                    <Trophy size={11} className="text-brand" /> Points
                   </div>
-                  <p className="font-display text-2xl italic text-white">{mc.points}</p>
+                  <p className="font-display text-xl italic text-white">{mc.points}</p>
                 </div>
-                <div className="p-5">
-                  <div className="mb-2 text-[9px] font-bold uppercase tracking-[0.18em] text-zinc-500">Record</div>
-                  <p className="font-display text-2xl italic text-white">
+                <div className="p-4 text-center">
+                  <div className="mb-1 text-[8px] font-bold uppercase tracking-[0.16em] text-zinc-500">Record</div>
+                  <p className="font-display text-xl italic text-white whitespace-nowrap">
                     {mc.wins}W <span className="text-zinc-600">/</span> {mc.losses}L
+                  </p>
+                </div>
+                <div className="p-4 text-center">
+                  <div className="mb-1 flex items-center justify-center gap-1.5 text-[8px] font-bold uppercase tracking-[0.16em] text-zinc-500">
+                    <Eye size={11} className="text-brand" /> Views
+                  </div>
+                  <p className="font-display text-xl italic text-brand">
+                    {formatViewCount(mc.totalViews)}
                   </p>
                 </div>
               </div>

@@ -145,8 +145,7 @@ export default function NewsPage() {
       <section className="mx-auto max-w-7xl px-4 pt-14 sm:px-6 lg:px-8">
         <div className="mb-8 flex items-center justify-between border-b border-white/10 pb-5">
           <div>
-            <p className="text-[10px] font-black uppercase tracking-[0.24em] text-brand">Long-form journalism</p>
-            <h2 className="mt-2 font-display text-3xl italic uppercase text-white sm:text-4xl">Featured Editorials</h2>
+            <h2 className="font-display text-3xl italic uppercase text-white sm:text-4xl">Featured Editorials</h2>
           </div>
           <span className="text-xs uppercase tracking-wider text-zinc-500">4 In-Depth Guides</span>
         </div>
@@ -160,9 +159,6 @@ export default function NewsPage() {
           <div className="relative grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
             <div>
               <div className="flex flex-wrap items-center gap-3 text-[10px] font-black uppercase tracking-[0.2em]">
-                <span className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 ${leadArticle.badgeColor}`}>
-                  <leadArticle.icon size={13} /> {leadArticle.category}
-                </span>
                 <span className="text-zinc-500">New Release</span>
                 <span className="text-zinc-500">{leadArticle.readTime}</span>
               </div>
@@ -187,7 +183,6 @@ export default function NewsPage() {
         {/* Supporting Editorial Articles Grid */}
         <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {otherArticles.map((article) => {
-            const Icon = article.icon;
             return (
               <Link
                 key={article.slug}
@@ -195,10 +190,7 @@ export default function NewsPage() {
                 className="group flex flex-col justify-between rounded-3xl border border-white/10 bg-zinc-950/70 p-6 transition hover:-translate-y-1 hover:border-brand/40"
               >
                 <div>
-                  <div className="flex items-center justify-between gap-3 text-[9px] font-black uppercase tracking-[0.18em]">
-                    <span className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 ${article.badgeColor}`}>
-                      <Icon size={12} /> {article.category}
-                    </span>
+                  <div className="flex items-center justify-end text-[9px] font-black uppercase tracking-[0.18em]">
                     <span className="text-zinc-600">{article.readTime}</span>
                   </div>
                   <h4 className="mt-5 font-display text-2xl italic uppercase leading-tight text-white transition group-hover:text-brand">
