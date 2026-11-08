@@ -54,6 +54,7 @@ export async function generateMetadata({ params }: Props) {
   return {
     title,
     description,
+    robots: { index: Boolean(clashData?.clashSummary?.trim()), follow: true },
     alternates: { canonical: battleUrl },
     openGraph: {
       title,

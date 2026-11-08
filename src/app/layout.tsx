@@ -69,7 +69,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${anton.variable}`}>
+    <html lang="en-GB" className={`${inter.variable} ${anton.variable}`}>
       <head>
         <script
           id="site-organization-schema"
@@ -85,11 +85,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   "name": "Lord of the Archives",
                   "description": "The definitive UK Rap Battle Archive documenting two decades of British clash culture.",
                   "inLanguage": "en-GB",
-                  "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": "https://www.lordofthearchives.co.uk/mcs?search={search_term_string}",
-                    "query-input": "required name=search_term_string",
-                  },
                 },
                 {
                   "@type": "Organization",

@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    robots: { index: Boolean(battle.clashSummary?.trim()), follow: true },
     alternates: { canonical: battleUrl },
     openGraph: {
       title,

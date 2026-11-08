@@ -10,7 +10,7 @@ import {
 import { gzoneBattles } from "../../../data/gzone";
 import { lordOfTheMicsBattles } from "../../../data/lordOfTheMics";
 import { allMcs } from "../../../data/mcs";
-import { hasBattlePage } from "../../../data/battleTypes";
+import { hasBattlePage, hasCompletedBattleAnalysis } from "../../../data/battleTypes";
 import { getBattleMetaDescription } from "../../../data/battleDescriptions";
 import videoMetadataJson from "../../../data/videoMetadata.json";
 import BattleDetailClient from "./BattleDetailClient";
@@ -99,6 +99,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    robots: { index: hasCompletedBattleAnalysis(battle), follow: true },
     alternates: {
       canonical: battleUrl,
     },

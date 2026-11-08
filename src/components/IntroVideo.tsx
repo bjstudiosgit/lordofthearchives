@@ -499,6 +499,34 @@ export default function IntroVideo() {
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand/40 to-transparent z-30" />
       </section>
 
+      <nav aria-label="Choose a battle league" className="border-b border-brand/20 bg-black py-12 sm:py-16">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-6 flex items-end justify-between gap-4 border-b border-white/15 pb-4">
+            <h2 className="font-display text-2xl uppercase italic text-white sm:text-3xl">Choose a league</h2>
+            <span className="font-mono text-xs uppercase tracking-widest text-brand">7 archives</span>
+          </div>
+          <div className="grid grid-cols-2 gap-px border border-white/15 bg-white/15 sm:grid-cols-3 lg:grid-cols-4">
+            {[...roadStops].sort((a, b) => Number(b.name === "PenGame") - Number(a.name === "PenGame")).map((stop) => (
+              <Link
+                key={stop.href}
+                href={stop.href}
+                className="group flex min-h-36 flex-col justify-between bg-zinc-950 p-5 transition-colors hover:bg-zinc-900 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-brand sm:min-h-44 sm:p-6"
+                aria-label={`Explore ${stop.name} archive`}
+              >
+                <span className="flex items-start justify-between gap-2 font-mono text-[10px] uppercase tracking-widest text-zinc-500">
+                  <span>{stop.era}</span>
+                  <ArrowUpRight size={18} className="text-brand transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true" />
+                </span>
+                <span className="font-display text-xl font-bold uppercase italic leading-none text-white group-hover:text-brand sm:text-2xl">
+                  {stop.name}
+                </span>
+                <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-400">Explore archive</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </nav>
+
       {/* 2. DEDICATED SECTION: THE UK BATTLE RAP HIGHWAY (CHRONOLOGICAL ROAD MAP) */}
       <section
         id="hero-archives"

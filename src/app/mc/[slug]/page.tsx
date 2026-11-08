@@ -3,7 +3,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { hasIndexableMcProfile } from "../../../data/mcs";
-import { allProfileMcs as allMcs, isCatalogueOnlyMc } from "../../../data/archiveMcProfiles";
+import { allProfileMcs as allMcs } from "../../../data/archiveMcProfiles";
 import McDetailClient from "./McDetailClient";
 
 type Props = {
@@ -31,22 +31,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const url = `${SITE_URL}/mc/${mc.slug}`;
-  const title = `${mc.name} Lord of the Archives MC Profile`;
+  const title = `${mc.name} MC Profile, Battle Record & Results`;
   const hasProfileImage = existsSync(join(process.cwd(), "public", mc.image.replace(/^\//, "")));
   const imageUrl = hasProfileImage ? `${SITE_URL}${mc.image}` : `${SITE_URL}/hero-archives-emblem.png`;
 
   return {
     title,
-    description: mc.bio,
+    description: `Explore ${mc.name}’s battle record, results and appearances across the Lord of the Archives.`,
     alternates: {
       canonical: url,
     },
-    robots: !isCatalogueOnlyMc(mc.id) && hasIndexableMcProfile(mc)
+    robots: hasIndexableMcProfile(mc)
       ? { index: true, follow: true }
       : { index: false, follow: true },
     openGraph: {
       title,
-      description: mc.bio,
+      description: `Explore ${mc.name}’s battle record, results and appearances across the Lord of the Archives.`,
       url,
       images: [
         {
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title,
-      description: mc.bio,
+      description: `Explore ${mc.name}’s battle record, results and appearances across the Lord of the Archives.`,
       images: [imageUrl],
     },
   };
@@ -86,7 +86,7 @@ export default async function McPage({ params }: Props) {
       "@type": "Person",
       name: mc.name,
       ...(mc.nickname ? { alternateName: mc.nickname } : {}),
-      description: mc.bio,
+      description: `Explore ${mc.name}’s battle record, results and appearances across the Lord of the Archives.`,
       image: profileImageUrl,
       url: `${SITE_URL}/mc/${mc.slug}`,
       knowsAbout: ["Grime", "Battle Rap", "UK Rap"],

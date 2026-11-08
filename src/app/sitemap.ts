@@ -2,12 +2,10 @@ import type { MetadataRoute } from "next";
 import { getBattleHref, pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
 import { lordOfTheMicsBattles } from "../data/lordOfTheMics";
-import { allMcs } from "../data/mcs";
-import { hasBattlePage } from "../data/battleTypes";
-import { getTalkIsCheapBattleSlug, talkIsCheapSeries } from "../data/talkIsCheap";
+import { hasIndexableMcProfile } from "../data/mcs";
+import { hasBattlePage, hasCompletedBattleAnalysis } from "../data/battleTypes";
+import { getTalkIsCheapBattleSlug, getTalkIsCheapClashData, talkIsCheapSeries } from "../data/talkIsCheap";
 import { prizefighterBattles } from "../data/prizefighter";
-import { clashMoneyBattles } from "../data/clashMoney";
-import { kingOfTheRonaldsBattles } from "../data/kingOfTheRonalds";
 import { allProfileMcs } from "../data/archiveMcProfiles";
 
 const SITE_URL = "https://www.lordofthearchives.co.uk";
@@ -43,7 +41,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/peoples-vote`, lastModified: new Date("2026-11-02"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/mcs`, lastModified: new Date("2026-11-02"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/hosts-judges`, lastModified: new Date("2026-08-20"), changeFrequency: "weekly", priority: 0.8 },
-    { url: `${SITE_URL}/property`, lastModified: new Date("2026-11-02"), changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/life-of-pen`, lastModified: new Date("2026-11-06"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/news`, lastModified: new Date("2026-11-02"), changeFrequency: "daily", priority: 0.8 },
     { url: `${SITE_URL}/news/top-10-most-viewed-uk-rap-battles`, lastModified: new Date("2026-11-02"), changeFrequency: "weekly", priority: 0.8 },
@@ -59,7 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const battlePages: MetadataRoute.Sitemap = [...pengameBattles, ...gzoneBattles]
-    .filter(hasBattlePage)
+    .filter((battle) => hasBattlePage(battle) && hasCompletedBattleAnalysis(battle))
     .map((battle) => ({
       url: `${SITE_URL}${getBattleHref(battle)}`,
       lastModified: getLastModified(battle.date),
@@ -68,28 +65,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
   const archiveBattlePages: MetadataRoute.Sitemap = [
-    ...lordOfTheMicsBattles.map((battle) => ({
+    ...lordOfTheMicsBattles.filter((battle) => Boolean(battle.clashSummary?.trim())).map((battle) => ({
       path: `/lord-of-the-mics/${battle.slug}`,
       date: battle.date,
     })),
     ...talkIsCheapSeries.flatMap((series) =>
       series.battles
-        .filter(([, , videoId]) => Boolean(videoId))
+        .filter(([mc1, mc2, videoId]) => Boolean(videoId && getTalkIsCheapClashData(getTalkIsCheapBattleSlug(mc1, mc2))?.clashSummary?.trim()))
         .map(([mc1, mc2]) => {
           const slug = getTalkIsCheapBattleSlug(mc1, mc2);
           return { path: `/talk-is-cheap/${slug}`, date: series.date };
         }),
     ),
-    ...prizefighterBattles.map((battle) => ({
+    ...prizefighterBattles.filter((battle) => Boolean(battle.clashSummary?.trim())).map((battle) => ({
       path: `/prizefighter/${battle.slug}`,
-      date: battle.releaseDate,
-    })),
-    ...clashMoneyBattles.map((battle) => ({
-      path: `/clash-money/${battle.slug}`,
-      date: battle.releaseDate,
-    })),
-    ...kingOfTheRonaldsBattles.map((battle) => ({
-      path: `/king-of-the-ronalds/${battle.slug}`,
       date: battle.releaseDate,
     })),
   ].map(({ path, date }) => ({
@@ -99,7 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const mcPages: MetadataRoute.Sitemap = allProfileMcs.map((mc) => {
+  const mcPages: MetadataRoute.Sitemap = allProfileMcs.filter(hasIndexableMcProfile).map((mc) => {
     const mcBattles = [...pengameBattles, ...gzoneBattles].filter(
       (b) => b.mc1 === mc.id || b.mc2 === mc.id || b.mc3 === mc.id || b.mc4 === mc.id,
     );
