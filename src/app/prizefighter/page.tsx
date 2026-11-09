@@ -1,5 +1,6 @@
 import { formatBattleDate } from "../../data/battleDates";
 import Link from "next/link";
+import Image from "next/image";
 import BattleRow from "../talk-is-cheap/BattleRow";
 import { getArchiveMcHref, getArchiveMcId, getArchiveMcName } from "../../data/archiveMcProfiles";
 import { Trophy } from "lucide-react";
@@ -83,13 +84,17 @@ export default function PrizefighterPage() {
         }}
       />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <p className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-brand">Archive</p>
-        <h1 className="font-display text-4xl italic uppercase leading-tight md:text-6xl">
-          Ozone <span className="text-brand">Prizefighter</span>
-        </h1>
-        <p className="mt-4 max-w-3xl text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+        <div className="mb-16 flex flex-col items-start gap-8 md:flex-row md:items-center md:gap-12">
+          <Image src="/assets/leagues/prizefighter-logo.png" alt="" width={320} height={180} priority aria-hidden="true" className="h-40 w-40 shrink-0 object-contain md:h-48 md:w-48" />
+          <div className="min-w-0 flex-1">
+            <h1 className="font-display text-4xl uppercase italic leading-none text-white md:text-6xl">
+              Ozone <span className="text-brand">Prizefighter</span>
+            </h1>
+            <p className="mt-4 text-sm leading-relaxed text-zinc-300 md:text-lg">
           Prizefighter brought an electric tournament dynamic to British clash culture. Conceived in Birmingham by producer DJ Mikee to provide Midlands grime artists with a dedicated national battleground, the platform pitted 8 contenders into sudden-death elimination brackets for cash prizes and championship belts. From legendary early radio wars broadcast on Silk City Radio to modern Ozone revival stages, explore indexed tournament rounds, verify fighter scores, or consult the <Link href="/prizefighter/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">official Prizefighter points table</Link>.
-        </p>
+            </p>
+          </div>
+        </div>
 
         {["Ozone", "Classic"].map((era) => (
           <section key={era} id={era.toLowerCase()} className="mt-14 scroll-mt-32">

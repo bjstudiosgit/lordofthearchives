@@ -5,17 +5,17 @@ import PeopleChampionSpotlight from "../components/PeopleChampionSpotlight";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "UK Rap Battle Archive | Results, History & Stats | LOTA",
+    absolute: "UK Rap Battle Archive | Results, History & Stats | Lord of the Archives",
   },
   description:
-    "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
+    "Explore the definitive UK rap battle archive. Search 866 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
   alternates: {
     canonical: "https://www.lordofthearchives.co.uk/",
   },
   openGraph: {
     title: "UK Rap Battle Archive | Results, History & Stats | Lord of the Archives",
     description:
-      "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
+      "Explore the definitive UK rap battle archive. Search 866 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
     url: "https://www.lordofthearchives.co.uk/",
     siteName: "Lord of the Archives",
     type: "website",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "UK Rap Battle Archive | Results, History & Stats | Lord of the Archives",
     description:
-      "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
+      "Explore the definitive UK rap battle archive. Search 866 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
     images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
   },
 };
@@ -46,7 +46,7 @@ const homeSchema = {
       "url": "https://www.lordofthearchives.co.uk/",
       "name": "UK Rap Battle Archive & Statistics",
       "description":
-        "The definitive historical record of UK rap battle culture spanning 873 indexed battles, 540+ MC profiles, and official league tables.",
+        "The definitive historical record of UK rap battle culture spanning 866 indexed battles, 540+ MC profiles, and official league tables.",
       "isPartOf": {
         "@type": "WebSite",
         "@id": "https://www.lordofthearchives.co.uk/#website",

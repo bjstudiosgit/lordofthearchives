@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
-import { Calendar, Play, Trophy, Users, ExternalLink, ShieldCheck, Video, Info } from "lucide-react";
+import { Calendar, Play, Trophy, ExternalLink, ShieldCheck, Info } from "lucide-react";
 import BattleRow from "../talk-is-cheap/BattleRow";
 import { formatBattleDate } from "../../data/battleDates";
 import { getArchiveMcHref, getArchiveMcName } from "../../data/archiveMcProfiles";
@@ -93,23 +94,8 @@ function McTeamLink({ name }: { name: string }) {
   );
 }
 
-function StatCard({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
-  return (
-    <div className="flex items-center gap-3 rounded-2xl border border-white/5 bg-zinc-900/40 p-4">
-      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand">
-        {icon}
-      </div>
-      <div>
-        <p className="font-display text-xl uppercase italic text-white leading-none">{value}</p>
-        <p className="mt-1 text-[10px] font-bold uppercase tracking-wider text-zinc-400">{label}</p>
-      </div>
-    </div>
-  );
-}
-
 export default function KingOfTheRonaldsPage() {
   const battles = kingOfTheRonaldsBattles;
-  const withVideo = battles.filter((b) => b.videoId);
 
   return (
     <main className="min-h-screen bg-zinc-950 pb-24 pt-32 text-white selection:bg-brand selection:text-black">
@@ -128,22 +114,15 @@ export default function KingOfTheRonaldsPage() {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* League Hero Header */}
-        <div className="mb-14 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
-          <div>
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.3em] text-brand">Battle League Archive</p>
-            <h1 className="font-display text-4xl italic uppercase leading-tight md:text-6xl">
+        <div className="mb-16 flex flex-col items-start gap-8 md:flex-row md:items-center md:gap-12">
+          <Image src="/assets/leagues/king-of-the-ronalds-logo.png" alt="" width={240} height={240} priority aria-hidden="true" className="h-40 w-40 shrink-0 object-contain md:h-48 md:w-48" />
+          <div className="min-w-0 flex-1">
+            <h1 className="font-display text-4xl uppercase italic leading-none text-white md:text-6xl">
               King of the <span className="text-brand">Ronalds</span>
             </h1>
-            <p className="mt-4 max-w-3xl text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+            <p className="mt-4 text-sm leading-relaxed text-zinc-300 md:text-lg">
               King of the Ronalds (KOTR) remains one of the most culturally iconic and uncompromising underground institutions in British battle rap history. Founded in 2014 by Bowski and Micky Worthless in the cramped, beer-soaked cellar of The Old Red Lion Pub in Islington, North London, KOTR offered a radical, satirical counter-balance to mainstream battle leagues. Operating without censorship or commercial restrictions, the platform became legendary for pitch-black British comedy, explosive personal grudge matches, and unforgettable character performances from cult icons including Hulk, Pedro, Oshea, Tony D, Kinell, Bard, and Mac Sherry. Across 271 cataloged clashes spanning 2014 through 2020, this definitive archive indexes verified matchup outcomes, historical event dates, and surviving video clashes.
             </p>
-          </div>
-
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 md:w-auto">
-            <StatCard icon={<Trophy size={16} />} label="Total Clashes" value={battles.length.toString()} />
-            <StatCard icon={<Video size={16} />} label="Videos Live" value={withVideo.length.toString()} />
-            <StatCard icon={<Users size={16} />} label="Roster MCs" value="168" />
-            <StatCard icon={<Calendar size={16} />} label="Era" value="2014–20" />
           </div>
         </div>
 

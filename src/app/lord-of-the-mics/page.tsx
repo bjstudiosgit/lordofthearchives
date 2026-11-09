@@ -1,7 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import BattleRow from "../talk-is-cheap/BattleRow";
 import { getArchiveMcHref } from "../../data/archiveMcProfiles";
-import { Calendar, ExternalLink, Play } from "lucide-react";
+import { Calendar, ExternalLink } from "lucide-react";
 import { lordOfTheMicsBattles } from "../../data/lordOfTheMics";
 import { formatBattleDate } from "../../data/battleDates";
 import { formatViewCount } from "../../data/viewCounts";
@@ -111,19 +112,15 @@ export default function LordOfTheMicsPage() {
         }}
       />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-16 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
-          <div>
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-brand">Archive</p>
-            <h1 className="font-display text-4xl italic uppercase leading-tight md:text-6xl">
+        <div className="mb-16 flex flex-col items-start gap-8 md:flex-row md:items-center md:gap-12">
+          <Image src="/assets/leagues/lord-of-the-mics-logo.png" alt="" width={240} height={240} priority aria-hidden="true" className="h-40 w-40 shrink-0 object-contain md:h-48 md:w-48" />
+          <div className="min-w-0 flex-1">
+            <h1 className="font-display text-4xl uppercase italic leading-none text-white md:text-6xl">
               Lord of the <span className="text-brand">Mics</span>
             </h1>
-            <p className="mt-4 max-w-3xl text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
+            <p className="mt-4 text-sm leading-relaxed text-zinc-300 md:text-lg">
               Lord of the Mics (LOTM) is the foundational genesis of modern British clash culture. In 2004, Boy Better Know producer Jammer crammed East London&apos;s deadliest pirate radio MCs into his parents&apos; Leytonstone basement (E17), filming legendary clashes with a single handheld camcorder. Pressed onto physical bootleg DVDs and traded through barbershops and car boots, LOTM established iconic rivalries that defined grime music history. Explore the complete season tracklists from LOTM 1 through LOTM 8, view landmark bouts including Wiley vs Kano, Skepta vs Devilman, and Big H vs P Money, and access fighter dossiers across <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">the MC directory</Link>.
             </p>
-          </div>
-
-          <div className="flex flex-wrap gap-4">
-            <StatCard icon={<Play size={14} />} label="Battles" value={String(lordOfTheMicsBattles.length)} />
           </div>
         </div>
 
@@ -198,17 +195,5 @@ export default function LordOfTheMicsPage() {
         </section>
       </div>
     </main>
-  );
-}
-
-function StatCard({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
-  return (
-    <div className="min-w-[140px] rounded-3xl border border-white/5 bg-zinc-900/30 p-6">
-      <div className="mb-2 flex items-center gap-2 text-zinc-400">
-        <span className="text-brand">{icon}</span>
-        <span className="text-[11px] font-semibold tracking-wide">{label}</span>
-      </div>
-      <div className="text-3xl font-semibold text-white">{value}</div>
-    </div>
   );
 }

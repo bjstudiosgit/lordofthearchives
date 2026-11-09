@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getArchiveMcHref } from "../../data/archiveMcProfiles";
 import { Calendar, ExternalLink } from "lucide-react";
 import { getTalkIsCheapBattleSlug, getTalkIsCheapClashData, talkIsCheapSeries } from "../../data/talkIsCheap";
@@ -97,16 +98,25 @@ export default function TalkIsCheapPage() {
         }}
       />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <p className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-brand">Archive</p>
-        <h1 className="font-display text-4xl italic uppercase leading-tight md:text-6xl">
-          Talk Is <span className="text-brand">Cheap</span>
-        </h1>
-        <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-400 md:text-lg">
-          Explore Talk Is Cheap grime clashes by event, with original battle videos, view counts and linked MC profiles.
-          Archived battles include clash summaries and performance analysis. Dates shown are event dates.
-        </p>
+        <div className="flex flex-col items-start gap-8 md:flex-row md:items-center md:gap-12">
+          <Image
+            src="/assets/leagues/talk-is-cheap-logo.png"
+            alt=""
+            width={480}
+            height={300}
+            priority
+            aria-hidden="true"
+            className="h-40 w-40 shrink-0 object-contain md:h-48 md:w-48"
+          />
+          <div className="min-w-0 flex-1">
+            <h1 className="font-display text-4xl uppercase italic leading-none text-white md:text-6xl">Talk Is Cheap</h1>
+            <p className="mt-4 text-sm leading-relaxed text-zinc-300 md:text-lg">
+              Talk Is Cheap began in Leeds in 2019, bringing established names and hungry newcomers into the same room. Its early Initiation card at Eiger Music Studios included Dialect vs Tali alongside a full slate of emerging battlers. Dialect and Strika helped give those first events their voice, while artists such as Zen became part of the league&apos;s early story. After a hiatus, Talk Is Cheap returned to Leeds in 2024 with Dialect hosting at Freedom Mills: four grime clashes, cameras catching the crowd, and an open mic for anyone ready to step up. The newer live-event era has continued to make space for fresh faces, with Fangol and Hunter among those involved.
+            </p>
+          </div>
+        </div>
 
-        <div className="mt-14 space-y-10">
+        <div className="mt-16 space-y-10">
           {archiveSections.map((series) => (
             <section key={series.name} id={series.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")} className="scroll-mt-32">
               <h2 className="text-xl font-semibold text-zinc-200 md:text-2xl">{series.name}</h2>

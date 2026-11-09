@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     default: "UK Rap Battle Archive | Results, History & Stats | Lord of the Archives",
     template: "%s | Lord of the Archives",
   },
-  description: "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
+  description: "Explore the definitive UK rap battle archive. Search 866 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
   icons: {
     icon: [
       { url: "/assets/favicon/favicon.ico" },
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     url: "https://www.lordofthearchives.co.uk",
     siteName: "Lord of the Archives",
     title: "UK Rap Battle Archive | Results, History & Stats | Lord of the Archives",
-    description: "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
+    description: "Explore the definitive UK rap battle archive. Search 866 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
     images: [
       {
         url: "https://www.lordofthearchives.co.uk/hero-archives-emblem.png",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "UK Rap Battle Archive | Results, History & Stats | Lord of the Archives",
-    description: "Explore the definitive UK rap battle archive. Search 873 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
+    description: "Explore the definitive UK rap battle archive. Search 866 indexed clashes, 540+ MC combat records, verified league tables, and video archives across 7 eras.",
     images: ["https://www.lordofthearchives.co.uk/hero-archives-emblem.png"],
   },
 };

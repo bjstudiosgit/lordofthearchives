@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight, Trophy, MapPin } from "lucide-react";
 import { pengameBattles } from "../data/pengameBattles";
 import { gzoneBattles } from "../data/gzone";
@@ -7,6 +8,8 @@ import { prizefighterBattles } from "../data/prizefighter";
 import { talkIsCheapSeries } from "../data/talkIsCheap";
 import { clashMoneyBattles } from "../data/clashMoney";
 import { kingOfTheRonaldsBattles } from "../data/kingOfTheRonalds";
+import talkIsCheapViews from "../data/talkIsCheapViews.json";
+import { formatViewCount, parseViewCount } from "../data/viewCounts";
 
 interface MemoryMilestone {
   year: string;
@@ -36,7 +39,7 @@ const roadStops: RoadStop[] = [
   {
     step: "01",
     year: "2004",
-    era: "2004–15",
+    era: "2004–20",
     name: "Lord of the Mics",
     tagline: "Jammer's Basement & The Camcorder DVD Era",
     location: "Leytonstone, East London E17",
@@ -82,6 +85,20 @@ const roadStops: RoadStop[] = [
         battles: "Jammer vs Wiley • Lady Lykez vs Sox",
         note: "10-year anniversary clash between founding fathers of the grime scene.",
         href: "/lord-of-the-mics#lotm-7",
+      },
+      {
+        year: "2019",
+        season: "LOTM 8",
+        battles: "Funky Dee vs Mischief • Jafro vs Dialect • Yizzy vs Micofcourse",
+        note: "The eighth edition brought a new generation into the dungeon.",
+        href: "/lord-of-the-mics#lotm-8",
+      },
+      {
+        year: "2020",
+        season: "LOTM 9 footage",
+        battles: "Skinner vs CY",
+        note: "Footage surfaced from the filmed but unreleased ninth edition.",
+        href: "/lord-of-the-mics#lotm-9",
       },
     ],
   },
@@ -441,6 +458,32 @@ function MilestoneCard({ stop }: { stop: RoadStop }) {
 
 export default function IntroVideo() {
   const archivedBattleCount = roadStops.reduce((total, era) => total + era.count, 0);
+  const rankedLeagues = [...roadStops].sort((a, b) => b.count - a.count);
+  const sumViews = (battles: { views?: string | number | null }[]) =>
+    battles.reduce((total, battle) => total + parseViewCount(battle.views), 0);
+  const leagueViews: Record<string, number | null> = {
+    PenGame: sumViews(pengameBattles),
+    "King of the Ronalds": null,
+    "Clash Money": null,
+    "Lord of the Mics": sumViews(lordOfTheMicsBattles),
+    Prizefighter: sumViews(prizefighterBattles),
+    Gzone: sumViews(gzoneBattles),
+    "Talk Is Cheap": talkIsCheapSeries.reduce(
+      (total, series) => total + series.battles.reduce(
+        (seriesTotal, [, , videoId]) => seriesTotal + ((talkIsCheapViews as Record<string, number>)[videoId] ?? 0), 0,
+      ), 0,
+    ),
+  };
+  const recordedViewTotal = Object.values(leagueViews).reduce<number>((total, views) => total + (views ?? 0), 0);
+  const leagueColours: Record<string, string> = {
+    PenGame: "#e63946",
+    "King of the Ronalds": "#f59e0b",
+    "Clash Money": "#22c55e",
+    "Lord of the Mics": "#a78bfa",
+    Prizefighter: "#eab308",
+    Gzone: "#f97316",
+    "Talk Is Cheap": "#38bdf8",
+  };
 
   return (
     <>
@@ -502,30 +545,81 @@ export default function IntroVideo() {
       <nav aria-label="Choose a battle league" className="border-b border-brand/20 bg-black py-12 sm:py-16">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-6 flex items-end justify-between gap-4 border-b border-white/15 pb-4">
-            <h2 className="font-display text-2xl uppercase italic text-white sm:text-3xl">Choose a league</h2>
-            <span className="font-mono text-xs uppercase tracking-widest text-brand">7 archives</span>
+            <h2 className="font-display text-2xl uppercase italic text-white sm:text-3xl">7 leagues and counting…</h2>
           </div>
           <div className="grid grid-cols-2 gap-px border border-white/15 bg-white/15 sm:grid-cols-3 lg:grid-cols-4">
-            {[...roadStops].sort((a, b) => Number(b.name === "PenGame") - Number(a.name === "PenGame")).map((stop) => (
+            {[...roadStops].sort((a, b) => Number(b.year) - Number(a.year)).map((stop) => (
               <Link
                 key={stop.href}
                 href={stop.href}
-                className="group flex min-h-36 flex-col justify-between bg-zinc-950 p-5 transition-colors hover:bg-zinc-900 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-brand sm:min-h-44 sm:p-6"
+                className={`group relative flex min-h-36 flex-col justify-between overflow-hidden bg-zinc-950 p-5 transition-colors focus-visible:outline-2 focus-visible:outline-offset-[-2px] sm:min-h-44 sm:p-6 ${stop.name === "Gzone" ? "hover:bg-orange-950/30 focus-visible:outline-gzone" : "hover:bg-yellow-950/20 focus-visible:outline-brand"}`}
                 aria-label={`Explore ${stop.name} archive`}
               >
-                <span className="flex items-start justify-between gap-2 font-mono text-[10px] uppercase tracking-widest text-zinc-500">
-                  <span>{stop.era}</span>
-                  <ArrowUpRight size={18} className="text-brand transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true" />
+                <span aria-hidden="true" className={`absolute inset-y-0 left-0 w-1 ${stop.name === "Gzone" ? "bg-gzone" : "bg-brand"}`} />
+                <span className="flex items-start justify-between gap-2">
+                  <span className="flex flex-col gap-1">
+                    <span className="font-display text-base uppercase italic text-white">{stop.name}</span>
+                    <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">{stop.name === "Gzone" ? "2024–Ongoing" : stop.name === "PenGame" ? "2020–Ongoing" : stop.name === "Talk Is Cheap" ? "2019–Ongoing" : stop.name === "Prizefighter" ? "2011–Ongoing" : stop.name === "King of the Ronalds" ? "2014–2020" : stop.name === "Clash Money" ? "2015–2016" : stop.name === "Lord of the Mics" ? "2004–2020" : stop.era}</span>
+                  </span>
+                  <ArrowUpRight size={18} className={`transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 ${stop.name === "Gzone" ? "text-gzone" : "text-brand"}`} aria-hidden="true" />
                 </span>
-                <span className="font-display text-xl font-bold uppercase italic leading-none text-white group-hover:text-brand sm:text-2xl">
-                  {stop.name}
-                </span>
-                <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-400">Explore archive</span>
+                {["PenGame", "Gzone", "Lord of the Mics", "Talk Is Cheap", "Prizefighter", "King of the Ronalds", "Clash Money"].includes(stop.name) ? (
+                  <span className="flex items-center gap-3">
+                    <Image
+                      src={stop.name === "PenGame" ? "/assets/leagues/pengame-logo.png" : stop.name === "Gzone" ? "/assets/leagues/gzone-logo.png" : stop.name === "Lord of the Mics" ? "/assets/leagues/lord-of-the-mics-logo.png" : stop.name === "Talk Is Cheap" ? "/assets/leagues/talk-is-cheap-logo.png" : stop.name === "King of the Ronalds" ? "/assets/leagues/king-of-the-ronalds-logo.png" : stop.name === "Clash Money" ? "/assets/leagues/clash-money-logo.png" : "/assets/leagues/prizefighter-logo.png"}
+                      alt={stop.name}
+                      width={["Talk Is Cheap", "Prizefighter"].includes(stop.name) ? 96 : ["Gzone", "Lord of the Mics", "King of the Ronalds", "Clash Money"].includes(stop.name) ? 80 : 64}
+                      height="64"
+                      className={`${["Talk Is Cheap", "Prizefighter"].includes(stop.name) ? "h-14 w-24 object-contain sm:h-16 sm:w-28" : ["Gzone", "Lord of the Mics", "King of the Ronalds", "Clash Money"].includes(stop.name) ? "h-16 w-16 object-contain sm:h-20 sm:w-20" : "h-14 w-14 rounded-sm object-cover sm:h-16 sm:w-16"} shadow-[0_0_20px_rgba(255,215,0,0.14)] transition-transform group-hover:scale-105`}
+                    />
+                    <span className="flex flex-col">
+                      <span className="font-display text-2xl font-bold italic leading-none text-white sm:text-3xl">
+                        {stop.count.toLocaleString("en-GB")}
+                      </span>
+                      <span className="mt-1 font-mono text-[9px] uppercase tracking-[0.18em] text-zinc-400">
+                        battles added
+                      </span>
+                    </span>
+                  </span>
+                ) : (
+                  <span className={`font-display text-2xl font-bold italic leading-none text-white sm:text-3xl ${stop.name === "Gzone" ? "group-hover:text-gzone" : "group-hover:text-brand"}`}>
+                    {stop.count.toLocaleString("en-GB")} <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-zinc-400">battles added</span>
+                  </span>
+                )}
               </Link>
             ))}
           </div>
         </div>
       </nav>
+
+      <section aria-labelledby="league-comparison-heading" className="border-b border-brand/20 bg-black py-12 sm:py-16">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-8 flex flex-wrap items-end justify-between gap-3 border-b border-white/15 pb-4">
+            <div>
+              <h2 id="league-comparison-heading" className="font-display text-2xl uppercase italic text-white sm:text-3xl">Progress so far</h2>
+            </div>
+            <p className="font-mono text-xs uppercase tracking-widest text-zinc-400">{archivedBattleCount.toLocaleString("en-GB")} total battles <span className="mx-2 text-zinc-600">·</span> {formatViewCount(recordedViewTotal)} recorded views</p>
+          </div>
+          <div className="mb-3 hidden grid-cols-[11rem_minmax(0,1fr)_3.5rem_7rem] gap-x-5 font-mono text-[10px] uppercase tracking-wider text-zinc-500 sm:grid">
+            <span>League</span><span /><span className="text-right">Battles</span><span className="text-right">YouTube views</span>
+          </div>
+          <div className="space-y-4">
+            {rankedLeagues.map((stop) => (
+              <div key={stop.href} className="grid grid-cols-[minmax(0,1fr)_auto_auto] items-center gap-x-4 gap-y-2 sm:grid-cols-[11rem_minmax(0,1fr)_3.5rem_7rem] sm:gap-x-5">
+                <Link href={stop.href} className="text-sm font-semibold text-white hover:underline hover:underline-offset-4">{stop.name}</Link>
+                <div className="col-span-3 h-3 bg-zinc-900 sm:col-span-1 sm:col-start-2 sm:row-start-1" role="img" aria-label={`${stop.name}: ${stop.count} indexed battles`}>
+                  <div className="h-full" style={{ width: `${(stop.count / rankedLeagues[0].count) * 100}%`, backgroundColor: leagueColours[stop.name] }} />
+                </div>
+                <span className="col-start-2 row-start-1 text-right font-mono text-sm font-bold text-white sm:col-start-3">{stop.count.toLocaleString("en-GB")}</span>
+                <span className="col-start-3 row-start-1 text-right font-mono text-sm text-zinc-300 sm:col-start-4" aria-label={`${stop.name} recorded YouTube views: ${leagueViews[stop.name] === null ? "not available" : leagueViews[stop.name]?.toLocaleString("en-GB")}`}>
+                  {leagueViews[stop.name] === null ? "—" : formatViewCount(leagueViews[stop.name])}
+                </span>
+              </div>
+            ))}
+          </div>
+          <p className="mt-6 text-xs text-zinc-500">We track original-upload views as a guide to each clash&apos;s reach. Takedowns, reuploads and other platforms make the figures approximate; — means no figure is recorded.</p>
+        </div>
+      </section>
 
       {/* 2. DEDICATED SECTION: THE UK BATTLE RAP HIGHWAY (CHRONOLOGICAL ROAD MAP) */}
       <section
@@ -536,10 +630,7 @@ export default function IntroVideo() {
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* 140 BPM Origin Story Header directly above the Road Map (Spanning Across the Page) */}
           <div className="mb-16 sm:mb-20 lg:mb-28 w-full max-w-5xl lg:max-w-6xl pl-2 sm:pl-4">
-            <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase italic tracking-tight text-white">
-              The Seven Battle Archives
-            </h2>
-            <p className="mt-4 text-base sm:text-lg leading-relaxed text-zinc-300 font-sans">
+            <p className="text-base sm:text-lg leading-relaxed text-zinc-300 font-sans">
               When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <Link href="/lord-of-the-mics" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Lord of the Mics</Link> — sparking two decades of clash culture cataloged here across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <a href="#hero-archives" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">7 historic eras</a>, and <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">540+ artists</Link>.
             </p>
           </div>
@@ -589,7 +680,7 @@ export default function IntroVideo() {
                   <div
                     key={stop.name}
                     id={`stop-${stop.step}`}
-                    className="relative py-8 lg:py-16 scroll-mt-36"
+                    className={`relative py-2 sm:py-0 scroll-mt-36 ${index === 1 ? "lg:-mt-8" : ""}`}
                   >
                     {/* TWO-COLUMN ALTERNATING GRID (CARDS ON EACH SIDE OF WAVY ROAD, CLEAN FULL WIDTH ON MOBILE) */}
                     <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-28 xl:gap-36 items-center">

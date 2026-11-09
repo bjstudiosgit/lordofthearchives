@@ -37,13 +37,13 @@ function TiktokIcon({ size = 18 }: { size?: number }) {
 }
 
 const leagues = [
-  { name: "PenGame", href: "/pengame", count: "450+" },
-  { name: "King of the Ronalds", href: "/king-of-the-ronalds", count: "270+" },
-  { name: "Prizefighter", href: "/prizefighter", count: "60+" },
-  { name: "Clash Money", href: "/clash-money", count: "110+" },
-  { name: "Lord of the Mics", href: "/lord-of-the-mics", count: "60+" },
-  { name: "Gzone", href: "/gzone", count: "30+" },
-  { name: "Talk Is Cheap", href: "/talk-is-cheap", count: "20+" },
+  { name: "PenGame", href: "/pengame", count: "450+", logo: "/assets/leagues/pengame-logo.png" },
+  { name: "King of the Ronalds", href: "/king-of-the-ronalds", count: "270+", logo: "/assets/leagues/king-of-the-ronalds-logo.png" },
+  { name: "Prizefighter", href: "/prizefighter", count: "60+", logo: "/assets/leagues/prizefighter-logo.png" },
+  { name: "Clash Money", href: "/clash-money", count: "110+", logo: "/assets/leagues/clash-money-logo.png" },
+  { name: "Lord of the Mics", href: "/lord-of-the-mics", count: "60+", logo: "/assets/leagues/lord-of-the-mics-logo.png" },
+  { name: "Gzone", href: "/gzone", count: "30+", logo: "/assets/leagues/gzone-logo.png" },
+  { name: "Talk Is Cheap", href: "/talk-is-cheap", count: "20+", logo: "/assets/leagues/talk-is-cheap-logo.png" },
 ];
 
 const vaultLinks = [
@@ -190,7 +190,10 @@ export default function Navbar() {
                             href={league.href}
                             className="flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold text-zinc-300 hover:text-brand hover:bg-white/5 transition-colors"
                           >
-                            <span>{league.name}</span>
+                            <span className="flex items-center gap-2">
+                              <img src={league.logo} alt="" className="h-5 w-7 shrink-0 object-contain" aria-hidden="true" />
+                              <span>{league.name}</span>
+                            </span>
                             <span className="text-[10px] font-mono text-zinc-500">{league.count}</span>
                           </Link>
                         ))}
@@ -375,7 +378,10 @@ export default function Navbar() {
                       href={league.href}
                       className="flex items-center justify-between rounded-xl border border-white/5 bg-zinc-900/40 p-2.5 hover:border-brand/30 transition-colors"
                     >
-                      <span className="font-display text-sm italic uppercase text-white">{league.name}</span>
+                      <span className="flex min-w-0 items-center gap-2">
+                        <img src={league.logo} alt="" className="h-6 w-8 shrink-0 object-contain" aria-hidden="true" />
+                        <span className="font-display text-sm italic uppercase text-white">{league.name}</span>
+                      </span>
                       <span className="text-[10px] font-mono text-brand font-bold">{league.count}</span>
                     </Link>
                   ))}

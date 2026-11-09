@@ -90,7 +90,7 @@ const footerGroups: Array<{
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-brand/20 bg-[#070708]">
+    <footer className="relative overflow-hidden bg-[#070708]">
       <div className="absolute -left-32 top-0 h-80 w-80 rounded-full bg-brand/5 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-16">

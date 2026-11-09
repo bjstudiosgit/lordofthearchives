@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import BattleRow from "../talk-is-cheap/BattleRow";
-import { Calendar, CircleDot, Eye, Play, Trophy } from "lucide-react";
+import { Calendar, CircleDot, Trophy } from "lucide-react";
 import { formatBattleDate } from "../../data/battleDates";
 import { gzoneBattles } from "../../data/gzone";
 import { getMcProfileHref } from "../../data/mcs";
@@ -72,22 +73,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const parseViews = (views: string | number | null | undefined): number => {
-  if (!views) return 0;
-  const clean = String(views).replace(/,/g, "").toUpperCase();
-  if (clean.endsWith("K")) return Number(clean.replace("K", "")) * 1000;
-  if (clean.endsWith("M")) return Number(clean.replace("M", "")) * 1000000;
-  return Number(clean) || 0;
-};
-
-const formatViews = (views: number): string => {
-  if (views >= 1000000) return `${(views / 1000000).toFixed(1)}M`;
-  if (views >= 1000) return `${(views / 1000).toFixed(1)}K`;
-  return String(views);
-};
-
 export default function GzonePage() {
-  const totalViews = gzoneBattles.reduce((total, battle) => total + parseViews(battle.views), 0);
   const sortedBattles = [...gzoneBattles].sort((a, b) => (a.seasonOrder || 0) - (b.seasonOrder || 0));
 
   return (
@@ -105,19 +91,13 @@ export default function GzonePage() {
         }}
       />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-16 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
-          <div className="max-w-3xl">
-            <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
-              Gzone <span className="text-gzone">Archives</span>
-            </h1>
-            <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
-              Staged inside the historic boxing ring at Peacock Gym in Canning Town, East London, Gzone revitalised the raw intensity of 140 BPM grime battle rap. Departing from traditional acapella setups, Gzone places fighters in the squared circle to trade rapid-fire 8-bar verses over classic instrumental reload dubs. With live referee stoppages, crowd reload scoring, and raw East London energy, the league brings authentic pirate radio battle culture into a modern tournament format. Season 1 chronicles heavy-hitting encounters from clash heavyweights including Deeno, Tapped24, Roman, Marni Gramz, and Ryno. Explore complete battle records, analyze clash dynamics, or view the <Link href="/gzone/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-gzone hover:text-gzone transition-colors">official Gzone League Table</Link> to inspect points, fight records, and live divisional standings.
+        <div className="mb-16 flex flex-col items-start gap-8 md:flex-row md:items-center md:gap-12">
+          <Image src="/assets/leagues/gzone-logo.png" alt="" width={240} height={240} priority aria-hidden="true" className="h-40 w-40 shrink-0 object-contain md:h-48 md:w-48" />
+          <div className="min-w-0 flex-1">
+            <h1 className="font-display text-4xl uppercase italic leading-none text-white md:text-6xl">Gzone</h1>
+            <p className="mt-4 text-sm leading-relaxed text-zinc-300 md:text-lg">
+              When Ginga Jay&apos;s PenGame chapter ended, another door opened: Gzone. Jay built a battle league with its own ring, its own rules, and no shortage of noise. At Peacock Gym in Canning Town, MCs trade rapid-fire bars over grime beats while the crowd calls for reloads. Then Darren &ldquo;The Dentist&rdquo; Stewart joined the hosting team, bringing a fighter&apos;s presence to a show that already felt like a title bout. Season 1 throws Deeno, Tapped24, Roman, Marni Gramz, Ryno and more into the mix.
             </p>
-          </div>
-
-          <div className="flex flex-wrap gap-4">
-            <StatCard icon={<Eye size={14} />} label="YouTube Views" value={formatViews(totalViews)} />
-            <StatCard icon={<Play size={14} />} label="Total Battles" value={String(gzoneBattles.length)} />
           </div>
         </div>
 
@@ -204,17 +184,5 @@ export default function GzonePage() {
         </section>
       </div>
     </main>
-  );
-}
-
-function StatCard({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
-  return (
-    <div className="min-w-[160px] rounded-3xl border border-white/5 bg-zinc-900/30 p-6">
-      <div className="mb-2 flex items-center gap-2 text-zinc-400">
-        <span className="text-gzone">{icon}</span>
-        <span className="text-[11px] font-semibold tracking-wide">{label}</span>
-      </div>
-      <div className="text-3xl font-semibold text-white">{value}</div>
-    </div>
   );
 }

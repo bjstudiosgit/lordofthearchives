@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
-import { Calendar, Play, Trophy, Users, ExternalLink, ShieldCheck } from "lucide-react";
+import { Calendar, Play, Trophy, ExternalLink, ShieldCheck } from "lucide-react";
 import BattleRow from "../talk-is-cheap/BattleRow";
 import { formatBattleDate } from "../../data/battleDates";
 import { getArchiveMcName } from "../../data/archiveMcProfiles";
@@ -92,7 +93,6 @@ function McTeamLink({ name }: { name: string }) {
     </span>
   );
 }
-
 export default function ClashMoneyPage() {
   const mainBattles = clashMoneyBattles.filter((b) => b.series === "Main");
   const trialsBattles = clashMoneyBattles.filter((b) => b.series === "Trials");
@@ -131,23 +131,16 @@ export default function ClashMoneyPage() {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* League Hero Header */}
-        <div className="mb-14 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
-          <div>
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.3em] text-brand">Battle League Archive</p>
-            <h1 className="font-display text-4xl italic uppercase leading-tight md:text-6xl">
+        <div className="mb-16 flex flex-col items-start gap-8 md:flex-row md:items-center md:gap-12">
+          <Image src="/assets/leagues/clash-money-logo.png" alt="" width={240} height={240} priority aria-hidden="true" className="h-40 w-40 shrink-0 object-contain md:h-48 md:w-48" />
+          <div className="min-w-0 flex-1">
+            <h1 className="font-display text-4xl uppercase italic leading-none text-white md:text-6xl">
               Clash <span className="text-brand">Money</span>
             </h1>
-            <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-400 md:text-base">
+            <p className="mt-4 text-sm leading-relaxed text-zinc-300 md:text-lg">
               Explore the recovered catalog of 110 Clash Money battles across the Main stage and Trials series (2015–2016),
               featuring original YouTube recordings, linked MC profiles and verified event dates.
             </p>
-          </div>
-
-          <div className="flex flex-wrap gap-3">
-            <StatCard icon={<Play size={16} />} label="Total Battles" value="110" />
-            <StatCard icon={<Trophy size={16} />} label="Main Stage" value="67" />
-            <StatCard icon={<Users size={16} />} label="Trials" value="43" />
-            <StatCard icon={<Calendar size={16} />} label="Era" value="2015–16" />
           </div>
         </div>
 
@@ -224,17 +217,5 @@ export default function ClashMoneyPage() {
         </div>
       </div>
     </main>
-  );
-}
-
-function StatCard({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
-  return (
-    <div className="min-w-[120px] rounded-2xl border border-white/5 bg-zinc-900/40 p-4 md:p-5">
-      <div className="mb-2 flex items-center gap-2 text-zinc-400">
-        <span className="text-brand">{icon}</span>
-        <span className="text-[10px] md:text-xs font-semibold uppercase tracking-wider">{label}</span>
-      </div>
-      <div className="text-2xl md:text-3xl font-semibold text-white">{value}</div>
-    </div>
   );
 }

@@ -116,7 +116,7 @@ const lordOfTheMicsBattleInputs: LordOfTheMicsBattleInput[] = [
   ["LOTM8", "Jay0117", "Tommy B", "2019", "public", "RhEXJC3Iwmw"],
   ["LOTM8", "T Roadz", "SBK", "2019", "missing"],
   ["LOTM8", "Yizzy", "Micofcourse", "2019", "public", "aZQsbj0kPVk"],
-  ["LOTM8", "Skinner", "CY", "2020-10-18", "public", "iMZPzsQlNYo"],
+  ["LOTM9", "Skinner", "CY", "2020-10-18", "public", "iMZPzsQlNYo"],
 ];
 
 export const lordOfTheMicsBattles: Battle[] = lordOfTheMicsBattleInputs.map(makeBattle);

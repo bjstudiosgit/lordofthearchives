@@ -5,7 +5,6 @@ import {
   getBattleRouteHref,
   hasBattleArchiveData,
   pengameBattles,
-  lastUpdated,
   getRepeatClashNumber,
 } from "../../data/pengameBattles";
 import { hasBattlePage, type Battle } from "../../data/battleTypes";
@@ -13,7 +12,8 @@ import { pengameMcs } from "../../data/mcs";
 import { formatBattleDate, parseBattleDate } from "../../data/battleDates";
 import { formatViewCount } from "../../data/viewCounts";
 import Link from "next/link";
-import { Play, Eye, Calendar, Trophy } from "lucide-react";
+import Image from "next/image";
+import { Calendar, Trophy } from "lucide-react";
 
 const seasonDisplayOrder: Record<string, number> = {
   "Champions League": 11,
@@ -246,19 +246,6 @@ const getFallbackEpisodeLabel = (season: string, index: number): string => {
 };
 
 export default function PengamePage() {
-  // Helper to parse view strings like "46.3K" or "4,569" into numbers
-  const parseViews = (viewStr: string | number | null | undefined): number => {
-    if (!viewStr) return 0;
-    const clean = String(viewStr).replace(/,/g, "").toUpperCase();
-    if (clean.endsWith("K")) {
-      return parseFloat(clean.replace("K", "")) * 1000;
-    }
-    if (clean.endsWith("M")) {
-      return parseFloat(clean.replace("M", "")) * 1000000;
-    }
-    return parseInt(clean) || 0;
-  };
-
   const formatBattleViews = (viewStr: string | number | null | undefined): string => {
     return formatViewCount(viewStr);
   };
@@ -286,46 +273,27 @@ export default function PengamePage() {
     ] as const)
     .sort(([seasonA], [seasonB]) => getSeasonRank(seasonB) - getSeasonRank(seasonA));
 
-  const totalViewsNum = pengameBattles.reduce((acc, b) => acc + parseViews(b.views), 0);
-  const totalViewsStr = totalViewsNum >= 1000000
-    ? (totalViewsNum / 1000000).toFixed(1) + " mil"
-    : totalViewsNum >= 1000
-    ? (totalViewsNum / 1000).toFixed(1) + "K"
-    : totalViewsNum.toString();
-
   return (
     <div className="min-h-screen pt-32 pb-24 bg-zinc-950 text-white selection:bg-brand selection:text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
-        <div className="flex flex-col lg:flex-row lg:items-start justify-between mb-16 gap-8">
-          <div className="max-w-3xl">
-            <h1 className="text-3xl md:text-5xl font-semibold leading-tight">
-              PenGame <span className="text-brand">Archives</span>
-            </h1>
-            <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-300 font-sans">
-              PenGame stands as the modern powerhouse of UK judged battle rap. Founded in 2020, the platform transformed British clash culture by combining strict round timing with a respected, authoritative judging desk featuring <strong className="text-white font-semibold">Lippy Lickshot</strong>, <strong className="text-white font-semibold">Joe Black</strong>, and <strong className="text-white font-semibold">LV General</strong>. Across more than 450 indexed clashes, PenGame documents the full spectrum of competitive lyricism — from grassroots <strong className="text-white font-semibold">Academy</strong> qualifiers and high-intensity <strong className="text-white font-semibold">Cold War</strong> events to high-profile <strong className="text-white font-semibold">Premier Division</strong> championship title fights. Explore every sanctioned season below, study verified judge scorecards, or consult the <Link href="/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">official PenGame League Table</Link> to track fighter points, records, and divisional standings.
-            </p>
-          </div>
-          
-          {/* Summary Stats */}
-          <div className="flex gap-4 md:gap-8">
-            <div className="bg-zinc-900/30 border border-white/5 p-8 rounded-3xl min-w-[180px]">
-              <div className="flex items-center gap-2 text-zinc-400 mb-2">
-                <Eye size={14} className="text-brand" />
-                <span className="text-[11px] tracking-wide font-semibold">YouTube Views</span>
-              </div>
-              <div className="text-3xl font-semibold text-white mb-1">{totalViewsStr}</div>
-              <div className="flex items-center justify-between mt-1">
-                <div className="text-[11px] text-zinc-500 tracking-wide">Last updated: {lastUpdated}</div>
-              </div>
-            </div>
-            <div className="bg-zinc-900/30 border border-white/5 p-8 rounded-3xl min-w-[180px]">
-              <div className="flex items-center gap-2 text-zinc-400 mb-2">
-                <Play size={14} className="text-brand" />
-                <span className="text-[11px] tracking-wide font-semibold">Total Battles</span>
-              </div>
-              <div className="text-3xl font-semibold text-white">{pengameBattles.length}</div>
-            </div>
+        <div className="mb-16 flex flex-col items-start gap-8 md:flex-row md:items-center md:gap-12">
+            <Image
+              src="/assets/leagues/pengame-logo.png"
+              alt=""
+              width={320}
+              height={320}
+              priority
+              aria-hidden="true"
+              className="h-40 w-40 shrink-0 object-contain md:h-48 md:w-48"
+            />
+            <div className="min-w-0 flex-1">
+              <h1 className="font-display text-4xl uppercase italic leading-none text-white md:text-6xl">
+                PenGame <span className="text-brand">Archives</span>
+              </h1>
+              <p className="mt-4 text-sm leading-relaxed text-zinc-300 md:text-lg">
+                PenGame grew out of Margs&apos;s 2017 rap challenge, which invited other MCs to record over his beat before becoming a platform for filmed battles. In a <a href="https://www.lovehackney.uk/people/margs" target="_blank" rel="noopener noreferrer" className="font-semibold text-white underline decoration-white/30 underline-offset-4 transition-colors hover:text-brand hover:decoration-brand">Love Hackney interview</a>, Margs also spoke about spending a short time in prison in 2006 and wanting to create opportunities for young artists, including planned creative workshops inside prisons. This archive begins with PenGame&apos;s 2020 battles and now catalogues {pengameBattles.length} clashes across its early seasons, Academy, Cold War and Premier Division. Browse the battles and judge scorecards below, or visit the <Link href="/league" className="font-semibold text-white underline decoration-white/30 underline-offset-4 transition-colors hover:text-brand hover:decoration-brand">PenGame League Table</Link> for records and standings.
+              </p>
           </div>
         </div>
 
@@ -521,7 +489,7 @@ export default function PengamePage() {
                             <td className="hidden md:table-cell px-2 py-3 md:px-6 md:py-6">
                               <div className="flex items-center gap-2 text-zinc-400 text-xs">
                                 <Calendar size={14} className="opacity-50" />
-                                {battle.isUnreleased ? "In production" : formatBattleDate(battle.date)}
+                                {battle.statusNote === "Matchup unconfirmed" ? "Unconfirmed" : battle.isUnreleased ? "In production" : formatBattleDate(battle.date)}
                                 {battle.dateType === "upload" && <span className="text-zinc-500">Upload</span>}
                               </div>
                             </td>
@@ -539,7 +507,7 @@ export default function PengamePage() {
                                     ? "text-brand"
                                     : "text-zinc-400"
                               }`}>
-                                {battle.membersOnly ? "Members only" : analysisComplete ? "Archived" : "Catalogued"}
+                                {battle.membersOnly ? "Members only" : analysisComplete ? "Archived" : battle.statusNote === "Matchup unconfirmed" ? "Unconfirmed" : "Catalogued"}
                               </span>
                             </td>
                           </BattleRow>
