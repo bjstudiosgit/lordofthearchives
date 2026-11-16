@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "next dev",
     "refresh:views": "tsx fetch_views.ts",
-    "prebuild": "npm run refresh:views",
     "build": "next build",
     "start": "node src/scripts/serve-out.mjs",
     "postbuild": "node src/scripts/clean-export.mjs",
