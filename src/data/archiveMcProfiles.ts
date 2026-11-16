@@ -9,6 +9,8 @@ import kotrBattles from "./kotrData.json";
 import { pengameBattles } from "./pengameBattles";
 import { gzoneBattles } from "./gzone";
 import { parseViewCount } from "./viewCounts";
+import archiveVideoViews from "./archiveVideoViews.json";
+import { dontFlopBattles } from "./dontFlop";
 
 const normalize = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, "");
 const aliases: Record<string, string> = {
@@ -33,10 +35,15 @@ export const getArchiveMcName = (name: string) => {
   return alias?.[1] ?? name;
 };
 const canonicalName = getArchiveMcName;
+const archiveMcIds = new Map<string, string>();
 export const getArchiveMcId = (name: string): string => {
+  const cached = archiveMcIds.get(name);
+  if (cached) return cached;
   const key = normalize(canonicalName(name));
-  return mcs.find((mc) => [mc.name, mc.id, mc.slug].some((value) => normalize(value) === key))?.id
+  const id = mcs.find((mc) => [mc.name, mc.id, mc.slug].some((value) => normalize(value) === key))?.id
     ?? canonicalName(name).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  archiveMcIds.set(name, id);
+  return id;
 };
 export const getArchiveMcHref = (name: string) => getMcProfileHref(getArchiveMcId(name));
 
@@ -67,6 +74,15 @@ interface ArchiveBattle {
 }
 
 const catalogueBattles: ArchiveBattle[] = [
+  ...dontFlopBattles.map((battle): ArchiveBattle => ({
+    id: battle.id, names: battle.sides.flat(),
+    sides: battle.sides.map(side => side.map(getArchiveMcId)),
+    event: "Dont Flop", date: battle.date, yearOnly: false,
+    dateLabel: battle.date || "Date not verified",
+    archiveHref: "/dont-flop", battleHref: `/dont-flop/${battle.slug}`,
+    videoUrl: battle.videoUrl, views: battle.views,
+    note: "Result not verified",
+  })),
   ...lordOfTheMicsBattles.map((battle) => {
     const winner = battle.winner && battle.winner !== "unknown" && battle.winner !== "draw"
       ? [battle.mc1, battle.mc2].find((name) => getArchiveMcId(name) === getArchiveMcId(battle.winner!))
@@ -157,6 +173,9 @@ const catalogueBattles: ArchiveBattle[] = [
 ];
 export const archiveMcBattles = catalogueBattles.map((battle) => ({
   ...battle,
+  views: battle.views ?? (battle.videoUrl
+    ? (archiveVideoViews as Record<string, number>)[new URL(battle.videoUrl).searchParams.get("v") ?? ""]
+    : undefined),
   participants: battle.sides
     ? [...new Set(battle.sides.flat())]
     : [...new Set(battle.names.map(getArchiveMcId))],

@@ -171,7 +171,7 @@ export default function GzonePage() {
                             ? "text-emerald-300"
                             : "text-gzone"
                         }`}>
-                          {analysisComplete ? battle.statusNote : "Catalogued"}
+                          {battle.statusNote === "Video in production" ? battle.statusNote : analysisComplete ? battle.statusNote : "Catalogued"}
                         </span>
                       </td>
                     </BattleRow>
@@ -180,6 +180,13 @@ export default function GzonePage() {
                 </tbody>
               </table>
             </div>
+          </div>
+        </section>
+        <section className="mt-12">
+          <h2 className="mb-6 font-display text-3xl uppercase italic">Royal Rumble</h2>
+          <div className="space-y-3">
+            <a href="https://www.youtube.com/watch?v=d5YMlQZdNO4" className="block rounded-xl border border-white/10 p-5 hover:text-gzone">EP1: The Royal Rumble — 4 September 2026</a>
+            <a href="https://www.youtube.com/watch?v=Cjh9PfQYe44" className="block rounded-xl border border-white/10 p-5 hover:text-gzone">EP2: Day of Reckoning</a>
           </div>
         </section>
       </div>

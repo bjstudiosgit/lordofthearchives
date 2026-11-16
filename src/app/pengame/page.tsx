@@ -289,7 +289,7 @@ export default function PengamePage() {
             />
             <div className="min-w-0 flex-1">
               <h1 className="font-display text-4xl uppercase italic leading-none text-white md:text-6xl">
-                PenGame <span className="text-brand">Archives</span>
+                PenGame <span className="text-brand">Rap Battles</span>
               </h1>
               <p className="mt-4 text-sm leading-relaxed text-zinc-300 md:text-lg">
                 PenGame grew out of Margs&apos;s 2017 rap challenge, which invited other MCs to record over his beat before becoming a platform for filmed battles. In a <a href="https://www.lovehackney.uk/people/margs" target="_blank" rel="noopener noreferrer" className="font-semibold text-white underline decoration-white/30 underline-offset-4 transition-colors hover:text-brand hover:decoration-brand">Love Hackney interview</a>, Margs also spoke about spending a short time in prison in 2006 and wanting to create opportunities for young artists, including planned creative workshops inside prisons. This archive begins with PenGame&apos;s 2020 battles and now catalogues {pengameBattles.length} clashes across its early seasons, Academy, Cold War and Premier Division. Browse the battles and judge scorecards below, or visit the <Link href="/league" className="font-semibold text-white underline decoration-white/30 underline-offset-4 transition-colors hover:text-brand hover:decoration-brand">PenGame League Table</Link> for records and standings.
@@ -423,7 +423,7 @@ export default function PengamePage() {
                       return (
                         <React.Fragment key={battle.id}>
                           {battleSection && battleSection !== previousBattleSection && (
-                            <tr className="bg-zinc-900/60">
+                            <tr className="bg-[#bf212f]/25">
                               <th colSpan={5} className="px-4 py-4 md:px-6 text-left text-xs md:text-sm font-semibold text-brand">
                                 {battleSection}
                               </th>

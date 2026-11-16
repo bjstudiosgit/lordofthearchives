@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { dontFlopBattles } from "../data/dontFlop";
+import { allProfileMcs } from "../data/archiveMcProfiles";
 import Image from "next/image";
 import { ArrowUpRight, Trophy, MapPin } from "lucide-react";
 import { pengameBattles } from "../data/pengameBattles";
@@ -36,6 +38,7 @@ interface RoadStop {
 }
 
 const roadStops: RoadStop[] = [
+  { step: "df", year: "2008", era: "Catalogue", name: "Don’t Flop", tagline: "UK rap battles and international matchups", location: "United Kingdom", story: "Explore the Don’t Flop catalogue: individual clashes, team battles and MC histories from the public video archive.", landmarkBattles: "Search the full catalogue by MC or matchup", count: dontFlopBattles.length, href: "/dont-flop", leagueHref: null, status: "Catalogued", memoryMilestones: [] },
   {
     step: "01",
     year: "2004",
@@ -351,7 +354,7 @@ const roadStops: RoadStop[] = [
       },
     ],
   },
-];
+].sort((a, b) => Number(a.year) - Number(b.year));
 
 
 function MilestoneCard({ stop }: { stop: RoadStop }) {
@@ -462,6 +465,7 @@ export default function IntroVideo() {
   const sumViews = (battles: { views?: string | number | null }[]) =>
     battles.reduce((total, battle) => total + parseViewCount(battle.views), 0);
   const leagueViews: Record<string, number | null> = {
+    "Don’t Flop": sumViews(dontFlopBattles),
     PenGame: sumViews(pengameBattles),
     "King of the Ronalds": null,
     "Clash Money": null,
@@ -476,6 +480,7 @@ export default function IntroVideo() {
   };
   const recordedViewTotal = Object.values(leagueViews).reduce<number>((total, views) => total + (views ?? 0), 0);
   const leagueColours: Record<string, string> = {
+    "Don’t Flop": "#ffffff",
     PenGame: "#e63946",
     "King of the Ronalds": "#f59e0b",
     "Clash Money": "#22c55e",
@@ -532,7 +537,7 @@ export default function IntroVideo() {
             </h1>
 
             <p className="mt-8 max-w-2xl lg:max-w-3xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8 lg:text-xl lg:leading-9 font-sans">
-              The definitive vault of UK clash culture. From pirate radio basements and physical bootleg DVDs to judged championship rings, trace two decades of British battle rap across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">540+ MC combat dossiers</Link>, and <Link href="/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">unified league standings</Link> spanning <a href="#hero-archives" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">7 historic archives</a>.
+              The definitive vault of UK clash culture. From pirate radio basements and physical bootleg DVDs to judged championship rings, trace two decades of British battle rap across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">{allProfileMcs.length.toLocaleString("en-GB")} MC combat dossiers</Link>, and <Link href="/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">unified league standings</Link> spanning <a href="#hero-archives" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">8 historic archives</a>.
             </p>
           </div>
         </div>
@@ -545,9 +550,9 @@ export default function IntroVideo() {
       <nav aria-label="Choose a battle league" className="border-b border-brand/20 bg-black py-12 sm:py-16">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-6 flex items-end justify-between gap-4 border-b border-white/15 pb-4">
-            <h2 className="font-display text-2xl uppercase italic text-white sm:text-3xl">7 leagues and counting…</h2>
+            <h2 className="font-display text-2xl uppercase italic text-white sm:text-3xl">8 leagues and counting…</h2>
           </div>
-          <div className="grid grid-cols-2 gap-px border border-white/15 bg-white/15 sm:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-px border border-white/15 bg-black sm:grid-cols-3 lg:grid-cols-4">
             {[...roadStops].sort((a, b) => Number(b.year) - Number(a.year)).map((stop) => (
               <Link
                 key={stop.href}
@@ -563,14 +568,14 @@ export default function IntroVideo() {
                   </span>
                   <ArrowUpRight size={18} className={`transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 ${stop.name === "Gzone" ? "text-gzone" : "text-brand"}`} aria-hidden="true" />
                 </span>
-                {["PenGame", "Gzone", "Lord of the Mics", "Talk Is Cheap", "Prizefighter", "King of the Ronalds", "Clash Money"].includes(stop.name) ? (
+                {["Don’t Flop", "PenGame", "Gzone", "Lord of the Mics", "Talk Is Cheap", "Prizefighter", "King of the Ronalds", "Clash Money"].includes(stop.name) ? (
                   <span className="flex items-center gap-3">
                     <Image
-                      src={stop.name === "PenGame" ? "/assets/leagues/pengame-logo.png" : stop.name === "Gzone" ? "/assets/leagues/gzone-logo.png" : stop.name === "Lord of the Mics" ? "/assets/leagues/lord-of-the-mics-logo.png" : stop.name === "Talk Is Cheap" ? "/assets/leagues/talk-is-cheap-logo.png" : stop.name === "King of the Ronalds" ? "/assets/leagues/king-of-the-ronalds-logo.png" : stop.name === "Clash Money" ? "/assets/leagues/clash-money-logo.png" : "/assets/leagues/prizefighter-logo.png"}
+                      src={stop.name === "Don’t Flop" ? "/assets/leagues/dont-flop-logo.png" : stop.name === "PenGame" ? "/assets/leagues/pengame-logo.png" : stop.name === "Gzone" ? "/assets/leagues/gzone-logo.png" : stop.name === "Lord of the Mics" ? "/assets/leagues/lord-of-the-mics-logo.png" : stop.name === "Talk Is Cheap" ? "/assets/leagues/talk-is-cheap-logo.png" : stop.name === "King of the Ronalds" ? "/assets/leagues/king-of-the-ronalds-logo.png" : stop.name === "Clash Money" ? "/assets/leagues/clash-money-logo.png" : "/assets/leagues/prizefighter-logo.png"}
                       alt={stop.name}
-                      width={["Talk Is Cheap", "Prizefighter"].includes(stop.name) ? 96 : ["Gzone", "Lord of the Mics", "King of the Ronalds", "Clash Money"].includes(stop.name) ? 80 : 64}
+                      width={["Talk Is Cheap", "Prizefighter"].includes(stop.name) || stop.href === "/dont-flop" ? 96 : ["Gzone", "Lord of the Mics", "King of the Ronalds", "Clash Money"].includes(stop.name) ? 80 : 64}
                       height="64"
-                      className={`${["Talk Is Cheap", "Prizefighter"].includes(stop.name) ? "h-14 w-24 object-contain sm:h-16 sm:w-28" : ["Gzone", "Lord of the Mics", "King of the Ronalds", "Clash Money"].includes(stop.name) ? "h-16 w-16 object-contain sm:h-20 sm:w-20" : "h-14 w-14 rounded-sm object-cover sm:h-16 sm:w-16"} shadow-[0_0_20px_rgba(255,215,0,0.14)] transition-transform group-hover:scale-105`}
+                      className={`${["Talk Is Cheap", "Prizefighter"].includes(stop.name) || stop.href === "/dont-flop" ? "h-14 w-24 object-contain sm:h-16 sm:w-28" : ["Gzone", "Lord of the Mics", "King of the Ronalds", "Clash Money"].includes(stop.name) ? "h-16 w-16 object-contain sm:h-20 sm:w-20" : "h-14 w-14 rounded-sm object-cover sm:h-16 sm:w-16"} shadow-[0_0_20px_rgba(255,215,0,0.14)] transition-transform group-hover:scale-105`}
                     />
                     <span className="flex flex-col">
                       <span className="font-display text-2xl font-bold italic leading-none text-white sm:text-3xl">
@@ -631,7 +636,7 @@ export default function IntroVideo() {
           {/* 140 BPM Origin Story Header directly above the Road Map (Spanning Across the Page) */}
           <div className="mb-16 sm:mb-20 lg:mb-28 w-full max-w-5xl lg:max-w-6xl pl-2 sm:pl-4">
             <p className="text-base sm:text-lg leading-relaxed text-zinc-300 font-sans">
-              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <Link href="/lord-of-the-mics" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Lord of the Mics</Link> — sparking two decades of clash culture cataloged here across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <a href="#hero-archives" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">7 historic eras</a>, and <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">540+ artists</Link>.
+              When British street music broke away from UK Garage dancefloors in the early 2000s, MCs locked the tempo to an uncompromising <strong className="text-white font-semibold">140 BPM</strong>. In his Leytonstone basement (E17), Jammer captured that ferocious pirate radio energy on a single camcorder for <Link href="/lord-of-the-mics" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Lord of the Mics</Link> — sparking two decades of clash culture cataloged here across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <a href="#hero-archives" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">8 historic eras</a>, and <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">{allProfileMcs.length.toLocaleString("en-GB")} artists</Link>.
             </p>
           </div>
 
@@ -680,7 +685,7 @@ export default function IntroVideo() {
                   <div
                     key={stop.name}
                     id={`stop-${stop.step}`}
-                    className={`relative py-2 sm:py-0 scroll-mt-36 ${index === 1 ? "lg:-mt-8" : ""}`}
+                    className={`relative py-2 sm:py-0 scroll-mt-36 ${stop.name === "Prizefighter" ? "lg:-mt-48" : ""}`}
                   >
                     {/* TWO-COLUMN ALTERNATING GRID (CARDS ON EACH SIDE OF WAVY ROAD, CLEAN FULL WIDTH ON MOBILE) */}
                     <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-28 xl:gap-36 items-center">

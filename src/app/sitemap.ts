@@ -8,6 +8,8 @@ import { getTalkIsCheapBattleSlug, getTalkIsCheapClashData, talkIsCheapSeries } 
 import { prizefighterBattles } from "../data/prizefighter";
 import { allProfileMcs } from "../data/archiveMcProfiles";
 
+import { dontFlopBattles } from "../data/dontFlop";
+
 const SITE_URL = "https://www.lordofthearchives.co.uk";
 
 export const dynamic = "force-static";
@@ -26,6 +28,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   };
 
   const staticPages: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/dont-flop`, lastModified: new Date("2026-11-16"), changeFrequency: "weekly", priority: 0.9 },
+    ...dontFlopBattles.map(b => ({ url: `${SITE_URL}/dont-flop/${b.slug}`, lastModified: new Date("2026-11-16"), changeFrequency: "monthly" as const, priority: 0.7 })),
     { url: `${SITE_URL}/`, lastModified: new Date("2026-11-02"), changeFrequency: "daily", priority: 1 },
     { url: `${SITE_URL}/pengame`, lastModified: new Date("2026-11-02"), changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/league`, lastModified: new Date("2026-11-02"), changeFrequency: "daily", priority: 0.9 },

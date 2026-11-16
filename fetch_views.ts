@@ -2,6 +2,7 @@ import fs from "fs";
 import { pengameBattles } from "./src/data/pengameBattles";
 import { gzoneBattles } from "./src/data/gzone";
 import { talkIsCheapSeries } from "./src/data/talkIsCheap";
+import { archiveMcBattles } from "./src/data/archiveMcProfiles";
 
 const pengameBattlesPath = "src/data/pengameBattles.ts";
 const gzoneBattlesPath = "src/data/gzone.ts";
@@ -45,12 +46,29 @@ function replaceBattleViews(source: string, battleId: string, views: string): st
 
 function replaceGzoneBattleViews(source: string, episode: string, views: string): string {
   return source.replace(
-    new RegExp(`(makeBattle\\("${escapeRegExp(episode)}",\\s*"[^"]+",\\s*"[^"]+",\\s*)"[^"]+"`),
+    new RegExp(`(makeBattle\\("${escapeRegExp(episode)}",\\s*"[^"]+",\\s*"[^"]+",\\s*)"[^"]*"`),
     `$1"${views}"`,
   );
 }
 
 async function fetchViews() {
+  const archivePath = "src/data/archiveVideoViews.json";
+  const archiveViews: Record<string, number> = JSON.parse(fs.readFileSync(archivePath, "utf8"));
+  const archiveIds = [...new Set(archiveMcBattles.map(b => getVideoId(b.videoUrl)).filter((id): id is string => Boolean(id)))];
+  for (const videoId of archiveIds) {
+    try {
+      const response = await fetch(`https://returnyoutubedislikeapi.com/votes?videoId=${videoId}`, { signal: AbortSignal.timeout(20000) });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const json = await response.json();
+      if (!Number.isFinite(json.viewCount) || json.viewCount < 0) throw new Error("Invalid count");
+      archiveViews[videoId] = json.viewCount;
+      console.log(`Archive ${videoId}: ${json.viewCount} views`);
+    } catch (error) {
+      console.error(`Archive ${videoId}: Error ${error}`);
+      process.exitCode = 1;
+    }
+  }
+  fs.writeFileSync(archivePath, JSON.stringify(archiveViews, null, 2) + "\n");
   const talkIsCheapIndex = process.argv.indexOf("--talk-is-cheap");
   {
     const viewsPath = "src/data/talkIsCheapViews.json";

@@ -20,6 +20,7 @@ export const availableMcImageSlugs = new Set([
   "jm",
   "kandi",
   "kurly",
+  "marcel",
   "marni-grams",
   "marni-gramz",
   "missink",

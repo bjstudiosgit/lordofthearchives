@@ -8,7 +8,8 @@ import { getCreditPersonByName } from "../../../data/credits";
 import { formatBattleDate } from "../../../data/battleDates";
 import { hasOfficialBattleResult } from "../../../data/leagueStandings";
 import { getExpandedBarExplanation } from "../../../data/barExplanations";
-import { allMcs } from "../../../data/mcs";
+import { allProfileMcs as allMcs } from "../../../data/archiveMcProfiles";
+import type { Battle } from "../../../data/battleTypes";
 import { propertyItems } from "../../../data/property";
 import { formatViewCount } from "../../../data/viewCounts";
 import YouTubeFacade from "../../../components/YouTubeFacade";
@@ -17,11 +18,15 @@ import { ArrowLeft, Play, Share2, Trophy, Clock, Scissors } from "lucide-react";
 export default function BattleDetailClient({
   slug,
   videoIdOverride,
+  battleOverride,
+  teamNames,
 }: {
   slug: string;
   videoIdOverride?: string;
+  battleOverride?: Battle;
+  teamNames?: [string, string];
 }) {
-  const battle = [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles].find(b => b.slug === slug);
+  const battle = battleOverride ?? [...pengameBattles, ...gzoneBattles, ...lordOfTheMicsBattles].find(b => b.slug === slug);
 
   if (!battle) {
     return (
@@ -35,8 +40,8 @@ export default function BattleDetailClient({
   const mc2 = allMcs.find(m => m.id === battle.mc2);
   const mc3 = battle.mc3 ? allMcs.find(m => m.id === battle.mc3) : undefined;
   const mc4 = battle.mc4 ? allMcs.find(m => m.id === battle.mc4) : undefined;
-  const team1Name = [mc1?.name ?? battle.mc1, mc3?.name].filter(Boolean).join(" & ");
-  const team2Name = [mc2?.name ?? battle.mc2, mc4?.name].filter(Boolean).join(" & ");
+  const team1Name = teamNames?.[0] ?? [mc1?.name ?? battle.mc1, mc3?.name].filter(Boolean).join(" & ");
+  const team2Name = teamNames?.[1] ?? [mc2?.name ?? battle.mc2, mc4?.name].filter(Boolean).join(" & ");
   const repeatClashLabel = getRepeatClashNumber(battle);
   const team1Won = battle.winner === battle.mc1 && (!battle.mc3 || battle.winner2 === battle.mc3);
   const team2Won = battle.winner === battle.mc2 && (!battle.mc4 || battle.winner2 === battle.mc4);
@@ -47,9 +52,9 @@ export default function BattleDetailClient({
   const themeTextClass = isGzone ? "text-gzone" : "text-brand";
   const themeHoverTextClass = isGzone ? "hover:text-gzone" : "hover:text-brand";
   const isLotm = battle.theme === "lotm";
-  const backHref = isGzone ? "/gzone" : isLotm ? "/lord-of-the-mics" : "/pengame";
-  const backLabel = isGzone ? "Back to Gzone" : isLotm ? "Back to LOTM" : "Back to PenGame";
-  const battleHref = `/battle/${slug}`;
+  const backHref = battle.theme === "dont-flop" ? "/dont-flop" : isGzone ? "/gzone" : isLotm ? "/lord-of-the-mics" : "/pengame";
+  const backLabel = battle.theme === "dont-flop" ? "Back to Don?t Flop" : isGzone ? "Back to Gzone" : isLotm ? "Back to LOTM" : "Back to PenGame";
+  const battleHref = battle.theme === "dont-flop" ? `/dont-flop/${slug}` : `/battle/${slug}`;
   const battlePropertyItems = propertyItems
     .filter((item) => item.battleHref === battleHref)
     .sort((a, b) => b.dateSort.localeCompare(a.dateSort));
@@ -662,7 +667,7 @@ export default function BattleDetailClient({
                 <div className="flex justify-between items-center py-3 border-b border-white/5">
                   <span className="text-zinc-400 text-xs uppercase tracking-widest">League</span>
                   <span className="text-brand font-bold">
-                    {battle.season === 3.5 ? "2023 Christmas Battles" : battle.season === 2023 ? "2023 Tournament" : battle.season === 5 ? "Season 5 (2024 Battles)" : `Season ${battle.season}`}
+                    {battle.theme === "dont-flop" ? "Don?t Flop" : battle.season === 3.5 ? "2023 Christmas Battles" : battle.season === 2023 ? "2023 Tournament" : battle.season === 5 ? "Season 5 (2024 Battles)" : `Season ${battle.season}`}
                   </span>
                 </div>
                 {battle.host && (
@@ -702,6 +707,12 @@ export default function BattleDetailClient({
               </div>
               <button 
                 aria-label="Share this battle"
+                onClick={async () => {
+                  try {
+                    if (navigator.share) await navigator.share({ title: battle.title, url: window.location.href });
+                    else await navigator.clipboard.writeText(window.location.href);
+                  } catch { /* Sharing may be cancelled. */ }
+                }}
                 className="w-full mt-8 flex items-center justify-center gap-2 bg-zinc-800 hover:bg-zinc-700 text-white py-4 rounded-xl transition-colors font-bold uppercase tracking-widest text-xs"
               >
                 <Share2 size={16} /> Share Battle

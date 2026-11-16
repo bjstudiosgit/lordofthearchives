@@ -45,6 +45,7 @@ const footerGroups: Array<{
   {
     title: "Battle archives",
     links: [
+      { href: "/dont-flop", label: "Don’t Flop", icon: Play },
       { href: "/pengame", label: "PenGame archive", icon: Play },
       { href: "/gzone", label: "Gzone archive", icon: Play },
       { href: "/lord-of-the-mics", label: "Lord of the Mics", icon: BookOpen },

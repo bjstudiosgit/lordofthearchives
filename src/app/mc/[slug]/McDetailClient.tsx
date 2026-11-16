@@ -48,15 +48,6 @@ const formatViews = (views: number): string => {
   return String(views);
 };
 
-const getInitials = (name: string) =>
-  name
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0])
-    .join("")
-    .toUpperCase() || "MC";
-
 export default function McDetailClient({ slug }: { slug: string }) {
   const router = useRouter();
 
@@ -271,7 +262,7 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 Recent Form
               </h2>
               <div className="flex flex-wrap gap-2">
-                {battleHistory.filter((battle) => !catalogueById.has(battle.id) || getOutcome(battle) !== "UNREVIEWED").map((battle) => {
+                {battleHistory.map((battle) => {
                   const outcome = getOutcome(battle);
                   const battlePageAvailable = hasBattlePage(battle);
                   const formLabel = outcome === "WIN" ? "W" : outcome === "LOSS" ? "L" : "-";
@@ -372,9 +363,13 @@ export default function McDetailClient({ slug }: { slug: string }) {
                 const battleCard = (
                   <>
                     <div className="flex items-center gap-4 min-w-0">
-                      {/* Opponent Initials Monogram Badge */}
-                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-zinc-950 font-display text-xs italic text-brand">
-                        {getInitials(opponentLabel)}
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-white/10 bg-zinc-950">
+                        <img
+                          src={battle.theme === "Dont Flop" ? "/assets/leagues/dont-flop-logo.png" : `/assets/leagues/${battle.theme.toLowerCase().split(/[^a-z ]/)[0].trim().replace(/\s+/g, "-")}-logo.png`}
+                          alt={`${getEventLabel(battle)} logo`}
+                          className="h-full w-full object-contain"
+                          loading="lazy"
+                        />
                       </div>
                       <div className="min-w-0">
                         <div className="flex items-center gap-2 mb-1">
