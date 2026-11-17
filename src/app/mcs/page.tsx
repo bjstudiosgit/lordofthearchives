@@ -84,10 +84,10 @@ export default function MCIndex() {
         {/* Header */}
         <div className="mb-10">
           <h1 className="text-4xl md:text-6xl font-display italic uppercase leading-tight text-white">
-            Lord of the Archives <span className="text-brand">Artists</span>
+            Battle Rap <span className="text-brand">MCs</span>
           </h1>
           <p className="text-zinc-400 mt-3 max-w-2xl text-sm leading-relaxed font-sans">
-            The definitive UK battle rap roster — cataloging over 540 active and historical MCs across 7 major leagues with verified records, cumulative view metrics, and clash dossiers.
+            Explore {allMcs.length.toLocaleString("en-GB")} MC profiles across eight battle rap leagues, from established names to emerging talent. Browse battle histories, compare recorded wins and losses, and see total video views. Search by name or use the filters below to find your favourites.
           </p>
         </div>
 

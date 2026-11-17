@@ -531,15 +531,14 @@ export default function IntroVideo() {
         {/* Hero Header (Spacious, Left-Aligned, Clear of the Right Emblem) */}
         <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pt-40 pb-44 sm:px-6 sm:pt-48 sm:pb-52 lg:px-8 lg:pt-56 lg:pb-60">
           <div className="max-w-3xl">
-            <h1 id="hero-heading" className="font-display text-[clamp(2.75rem,6vw,5.75rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
+            <h1 id="hero-heading" className="font-display text-[clamp(2.25rem,4.8vw,4.5rem)] italic uppercase leading-[0.92] tracking-tight text-white sm:whitespace-nowrap">
               Lord of the <span className="text-brand">Archives</span>
               <span className="sr-only">: UK Rap Battle Archive &amp; Clash Statistics</span>
             </h1>
 
-            <p className="mt-8 max-w-2xl lg:max-w-3xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8 lg:text-xl lg:leading-9 font-sans">
-              The definitive vault of UK clash culture. From pirate radio basements and physical bootleg DVDs to judged championship rings, trace two decades of British battle rap across <strong className="text-white font-semibold">{archivedBattleCount.toLocaleString("en-GB")} indexed battles</strong>, <Link href="/mcs" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">{allProfileMcs.length.toLocaleString("en-GB")} MC combat dossiers</Link>, and <Link href="/league" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">unified league standings</Link> spanning <a href="#hero-archives" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">8 historic archives</a>.
-            </p>
-          </div>
+            <p className="mt-8 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg sm:leading-8">
+              Explore more than two decades of UK battle rap, from pirate radio and classic DVD clashes to today’s live leagues. Browse <a href="#hero-archives" className="font-semibold text-white underline decoration-brand/60 underline-offset-4 transition-colors hover:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand">{archivedBattleCount.toLocaleString("en-GB")} battles across eight leagues</a>, with <strong className="font-semibold text-white">{formatViewCount(recordedViewTotal)} recorded video views</strong> across the archive. Discover <Link href="/mcs" className="font-semibold text-white underline decoration-brand/60 underline-offset-4 transition-colors hover:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand">{allProfileMcs.length.toLocaleString("en-GB")} MC profiles</Link>, revisit classic matchups and follow each artist’s battle history. Explore the results and <Link href="/league" className="font-semibold text-white underline decoration-brand/60 underline-offset-4 transition-colors hover:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand">league standings</Link>, or trace the scene’s history through the archives below.
+            </p>          </div>
         </div>
 
         {/* Cinematic Vignette */}
@@ -560,7 +559,7 @@ export default function IntroVideo() {
                 className={`group relative flex min-h-36 flex-col justify-between overflow-hidden bg-zinc-950 p-5 transition-colors focus-visible:outline-2 focus-visible:outline-offset-[-2px] sm:min-h-44 sm:p-6 ${stop.name === "Gzone" ? "hover:bg-orange-950/30 focus-visible:outline-gzone" : "hover:bg-yellow-950/20 focus-visible:outline-brand"}`}
                 aria-label={`Explore ${stop.name} archive`}
               >
-                <span aria-hidden="true" className={`absolute inset-y-0 left-0 w-1 ${stop.name === "Gzone" ? "bg-gzone" : "bg-brand"}`} />
+                <span aria-hidden="true" className={`absolute inset-y-0 left-0 w-1 ${stop.name === "PenGame" ? "bg-[#bf212f]" : stop.name === "Gzone" ? "bg-gzone" : "bg-brand"}`} />
                 <span className="flex items-start justify-between gap-2">
                   <span className="flex flex-col gap-1">
                     <span className="font-display text-base uppercase italic text-white">{stop.name}</span>

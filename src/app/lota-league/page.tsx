@@ -6,6 +6,7 @@ import { motion } from "motion/react";
 import { Trophy, Eye } from "lucide-react";
 import { getLotaLeagueStandings } from "../../data/leaderboards";
 import { formatViewCount } from "../../data/viewCounts";
+import { hasAvailableMcImage } from "../../data/mcImageAvailability";
 
 type SortMode = "views" | "points" | "appearances" | "wins" | "losses" | "winRate" | "lossRate";
 
@@ -56,12 +57,12 @@ export default function LotaLeaguePage() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 grid items-center gap-12 lg:grid-cols-2">
           <div>
-            <h1 className="text-4xl font-display italic uppercase leading-tight md:text-6xl">
-              LOTA <br />
+            <h1 className="whitespace-nowrap text-4xl font-display italic uppercase leading-tight md:text-6xl">
+              LOTA 
               <span className="text-brand">League</span>
             </h1>
             <p className="mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-zinc-300 md:mt-6 font-sans">
-              The unified Lord of the Archives (LOTA) League Table is the master performance index for modern UK battle rap. Unifying verified results across <Link href="/pengame" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">PenGame</Link>, <Link href="/gzone" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Gzone</Link>, <Link href="/talk-is-cheap" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Talk Is Cheap</Link>, and <Link href="/prizefighter" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Prizefighter</Link>, the table standardizes combat statistics under an all-league points framework. MCs earn three points for every confirmed victory with a one-point loss penalty to reward clinical records over pure volume. Standings can also be sorted by total YouTube views, win ratio, or individual metrics to provide an authoritative, data-driven ranking of UK battle rap talent.
+              Compare MCs across all eight archives: <Link href="/pengame" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">PenGame</Link>, <Link href="/gzone" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Gzone</Link>, <Link href="/dont-flop" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Don’t Flop</Link>, <Link href="/talk-is-cheap" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Talk Is Cheap</Link>, <Link href="/prizefighter" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Prizefighter</Link>, <Link href="/clash-money" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Clash Money</Link>, <Link href="/kotr" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">King of the Ronalds</Link>, and <Link href="/lord-of-the-mics" className="text-white font-semibold underline decoration-white/30 underline-offset-4 hover:decoration-brand hover:text-brand transition-colors">Lord of the Mics</Link>. The LOTA League brings their recorded battle histories and video views together in one table. Confirmed wins earn three points and losses deduct one; battles without a verified result do not affect points. Sort by points, views, wins, losses, win rate or appearances to explore the standings.
             </p>
           </div>
 
@@ -80,8 +81,10 @@ export default function LotaLeaguePage() {
                 >
                   <Link href={`/mc/${mc.slug}`} className="flex flex-1 items-center gap-4" aria-label={`View ${mc.name}'s profile`}>
                     <div className="relative">
-                      <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-white/10 bg-zinc-800 text-xl font-bold italic text-brand">
-                        {mc.name[0]}
+                      <div className="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-white/10 bg-zinc-800 text-2xl font-bold italic text-brand sm:h-24 sm:w-24">
+                        {hasAvailableMcImage(mc.image) ? (
+                          <img src={mc.image} alt={mc.name} className="h-full w-full object-cover object-top transition-transform duration-300 group-hover:scale-105" />
+                        ) : mc.name[0]}
                       </div>
                       <div
                         className={`absolute -left-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full border text-[10px] font-black ${
